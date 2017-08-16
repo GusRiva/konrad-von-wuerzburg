@@ -21,12 +21,18 @@
                 <xsl:apply-templates select="@*|node()"/>
             </td>
             <td class="folioetc">
-<!--                This first choose is for the cb-->
+<!--                This first when is for the texts with columns, the second for those without-->
                 <xsl:choose>
                     <xsl:when test="preceding::tei:cb">
-                        <xsl:for-each select="key('columnbreak', @n)">
-                            <xsl:value-of select="substring(./@facs, 4)"/>
-                        </xsl:for-each>
+                        <a target="_blank"><xsl:attribute name="href">
+                            <xsl:for-each select="key('columnbreak', @n)">
+                                <xsl:value-of select="./@ed"/>
+                            </xsl:for-each>
+                        </xsl:attribute>
+                            <xsl:for-each select="key('columnbreak', @n)">
+                                <xsl:value-of select="substring(./@facs, 4)"/>
+                            </xsl:for-each>
+                        </a>
                     </xsl:when>
                     <xsl:otherwise>
                         <xsl:for-each select="key('pagebreak', @n)">
