@@ -143,8 +143,8 @@
                 <pb edRef="#A" facs="#A_4v"/>
                 <cb edRef="#A" facs="#A_4v_a"/>
                 <pb edRef="#B" facs="#B_97r"/>
-                <pb edRef="#D" facs="#D_129v"/>
-                <cb edRef="#D" facs="#D_129v_a"/>
+                <pb edRef="#D" facs="#D_129v" ed="https://digital.blb-karlsruhe.de/blbhs/content/pageview/36890"/>
+                <cb edRef="#D" facs="#D_129v_a" ed="https://digital.blb-karlsruhe.de/blbhs/content/pageview/36890"/>
                 <pb edRef="#h" facs="#h_82r"/>
                 <pb edRef="#I" facs="#I_8r"/>
                 <cb edRef="#I" facs="#I_8r_b"/>
@@ -824,7 +824,7 @@
                </l>
                 </lg>
                 <lg org="uniform" sample="complete">
-                    <cb edRef="#D" facs="#D_129v_b"/>
+                    <cb edRef="#D" facs="#D_129v_b" ed="https://digital.blb-karlsruhe.de/blbhs/content/pageview/36890"/>
                     <l xml:id="s_37">
                   <app>
                         <rdg n="37" xml:space="preserve" wit="#A">Wart ir ende leider</rdg>
@@ -1278,24 +1278,11 @@
                         <rdg n="61a" xml:space="preserve" wit="#V" type="missing"/>
                         <rdg n="63a" xml:space="preserve" wit="#w" type="missing"/>
                     </app></l>
-                    <l xml:id="s_61b"><app>
-                        <rdg n="61b" xml:space="preserve" wit="#A" type="missing"/>
-                        <rdg n="63b" xml:space="preserve" wit="#B" type="missing"/>
-                        <rdg n="63" xml:space="preserve" wit="#D">von dem man dieſy hett ze E</rdg>
-                        <rdg n="63b" xml:space="preserve" wit="#h" type="missing"/>
-                        <rdg n="61b" xml:space="preserve" wit="#I" type="missing"/>
-                        <rdg n="33b" xml:space="preserve" wit="#Ko" type="missing"/>
-                        <rdg n="63b" xml:space="preserve" wit="#L" type="missing"/>
-                        <rdg n="61b" xml:space="preserve" wit="#N" type="missing"/>
-                        <rdg n="61b" xml:space="preserve" wit="#P" type="missing"/>
-                        <rdg n="61b" xml:space="preserve" wit="#V" type="missing"/>
-                        <rdg n="63b" xml:space="preserve" wit="#w" type="missing"/>
-                    </app></l>  
                     <l xml:id="s_62">
                   <app>
                         <rdg n="62" xml:space="preserve" wit="#A">Des wart irme herzen dicke we</rdg>
                         <rdg n="64" xml:space="preserve" wit="#B">Das ward jrem hertzen wee</rdg>
-                        <rdg n="64" xml:space="preserve" wit="#D"><hi rend="initial" n="1"/><metamark function="cue_initial" place="inspace">d</metamark>es wart ich hertze dickewe</rdg>
+                        <rdg n="63" xml:space="preserve" wit="#D"><hi rend="initial" n="1"/><metamark function="cue_initial" place="inspace">d</metamark>es wart ich hertze dickewe</rdg>
                         <rdg n="64" xml:space="preserve" wit="#h"><hi rend="decoration color:red">D</hi>es ward irem hertzen wee</rdg>
                         <rdg n="62" xml:space="preserve" wit="#I"><hi rend="decoration color:red">D</hi>es wart jrem <choice><abbr>h<am>rˁ</am>tz<am>n̄</am></abbr><expan>h<ex>er</ex>tz<ex>e</ex>n</expan></choice> we<pc>·</pc></rdg>
                         <rdg n="34" xml:space="preserve" wit="#Ko">Des wart irme herzen dicke we.</rdg>
@@ -1306,6 +1293,19 @@
                         <rdg n="64" xml:space="preserve" wit="#w"><metamark place="margin" rend="pencil">v N N</metamark>Des ward ierem hertzen dick wee</rdg>
                         </app>
                </l>
+                    <l xml:id="s_62b"><app>
+                        <rdg n="62b" xml:space="preserve" wit="#A" type="missing"/>
+                        <rdg n="64b" xml:space="preserve" wit="#B" type="missing"/>
+                        <rdg n="64" xml:space="preserve" wit="#D">von dem man dieſy hett ze E</rdg>
+                        <rdg n="64b" xml:space="preserve" wit="#h" type="missing"/>
+                        <rdg n="62b" xml:space="preserve" wit="#I" type="missing"/>
+                        <rdg n="34b" xml:space="preserve" wit="#Ko" type="missing"/>
+                        <rdg n="64b" xml:space="preserve" wit="#L" type="missing"/>
+                        <rdg n="62b" xml:space="preserve" wit="#N" type="missing"/>
+                        <rdg n="62b" xml:space="preserve" wit="#P" type="missing"/>
+                        <rdg n="62b" xml:space="preserve" wit="#V" type="missing"/>
+                        <rdg n="64b" xml:space="preserve" wit="#w" type="missing"/>
+                    </app></l>  
                 </lg>
                 <lg org="uniform" sample="complete">
                     <pb edRef="#h" facs="#h_83r"/>
@@ -1539,8 +1539,8 @@
                </l>
                 </lg>
                 <lg org="uniform" sample="complete">
-                    <pb edRef="#D" facs="#D_130r"/>
-                    <cb edRef="#D" facs="#D_130r_a"/>
+                    <pb edRef="#D" facs="#D_130r" ed="https://digital.blb-karlsruhe.de/blbhs/content/pageview/36372"/>
+                    <cb edRef="#D" facs="#D_130r_a" ed="https://digital.blb-karlsruhe.de/blbhs/content/pageview/36372"/>
                     <l xml:id="s_77">
                   <app>
                         <rdg n="77" xml:space="preserve" wit="#A">Sines herzen ungemach</rdg>
@@ -2316,7 +2316,7 @@
                         <rdg n="125" xml:space="preserve" wit="#w">Der nach ier ſuͤſſen mÿnne bran</rdg>
                         </app>
                </l>
-                    <cb edRef="#D" facs="#D_130r_b"/>
+                    <cb edRef="#D" facs="#D_130r_b" ed="https://digital.blb-karlsruhe.de/blbhs/content/pageview/36372"/>
                     <l xml:id="s_124">
                   <app>
                         <rdg n="123" xml:space="preserve" wit="#A" type="transposed">Do wart der muot ſieche man</rdg>
@@ -3295,8 +3295,8 @@
                         <rdg n="163" xml:space="preserve" wit="#w">Der guͤtig vnd allmechtig got</rdg>
                         </app>
                </l>
-                    <pb edRef="#D" facs="#D_130v"/>
-                    <cb edRef="#D" facs="#D_130v_a"/>
+                    <pb edRef="#D" facs="#D_130v" ed="https://digital.blb-karlsruhe.de/blbhs/content/pageview/36373"/>
+                    <cb edRef="#D" facs="#D_130v_a" ed="https://digital.blb-karlsruhe.de/blbhs/content/pageview/36373"/>
                     <l xml:id="s_172">
                   <app>
                         <rdg n="172" xml:space="preserve" wit="#A">ſo heſtu ſamit alle friſt</rdg>
@@ -4017,7 +4017,7 @@
                      <note>versos invertidos</note>
                         </app>
                </l>
-                    <cb edRef="#D" facs="#D_130v_b"/>
+                    <cb edRef="#D" facs="#D_130v_b" ed="https://digital.blb-karlsruhe.de/blbhs/content/pageview/36373"/>
                     <l xml:id="s_216">
                   <app>
                         <rdg n="216" xml:space="preserve" wit="#A">Die zwei gelieben beide</rdg>
@@ -4884,8 +4884,8 @@
                </l>
                 </lg>
                 <lg org="uniform" sample="complete">
-                    <pb edRef="#D" facs="#D_131r"/>
-                    <cb edRef="#D" facs="#D_131r_a"/>
+                    <pb edRef="#D" facs="#D_131r" ed="https://digital.blb-karlsruhe.de/blbhs/content/pageview/36374"/>
+                    <cb edRef="#D" facs="#D_131r_a" ed="https://digital.blb-karlsruhe.de/blbhs/content/pageview/36374"/>
                     <cb edRef="#I" facs="#I_9v_b"/>
                     <l xml:id="s_261">
                   <app>
@@ -5618,7 +5618,7 @@
                         <rdg n="281" xml:space="preserve" wit="#w">Dürch das kaiſerliche weÿb</rdg>
                         </app>
                </l>
-                    <cb edRef="#D" facs="#D_131r_b"/>
+                    <cb edRef="#D" facs="#D_131r_b"  ed="https://digital.blb-karlsruhe.de/blbhs/content/pageview/36374"/>
                     <l xml:id="s_298">
                   <app>
                         <rdg n="298" xml:space="preserve" wit="#A">So heis mir ſniden uf den lip</rdg>
@@ -6326,8 +6326,8 @@
                 </lg>
                 <lg org="uniform" sample="complete">
                     <pb edRef="#D" facs="#D_131v"/>
-                    <cb edRef="#D" facs="#D_131v_a"/>
-                    <cb edRef="#P" facs="#P_348r_b"/>
+                    <cb edRef="#D" facs="#D_131v_a"  ed="https://digital.blb-karlsruhe.de/blbhs/content/pageview/36375"/>
+                    <cb edRef="#P" facs="#P_348r_b"  ed="https://digital.blb-karlsruhe.de/blbhs/content/pageview/36375"/>
                     <l xml:id="s_339">
                   <app>
                         <rdg n="341" xml:space="preserve" wit="#A">Und er fu̍llet ime ſine bette</rdg>
@@ -7202,7 +7202,7 @@
                         </app>
                </l>
                 </lg>
-                <cb edRef="#D" facs="#D_131v_b"/>
+                <cb edRef="#D" facs="#D_131v_b"  ed="https://digital.blb-karlsruhe.de/blbhs/content/pageview/36375"/>
                 <pb edRef="#P" facs="#P_348v"/>
                 <cb edRef="#P" facs="#P_348v_a"/>
                 <lg org="uniform" sample="complete">
@@ -8200,8 +8200,8 @@
                </l>
                 </lg>
                 <lg org="uniform" sample="complete">
-                    <pb edRef="#D" facs="#D_132r"/>
-                    <cb edRef="#D" facs="#D_132r_a"/>
+                    <pb edRef="#D" facs="#D_132r"  ed="https://digital.blb-karlsruhe.de/blbhs/content/pageview/36376"/>
+                    <cb edRef="#D" facs="#D_132r_a"  ed="https://digital.blb-karlsruhe.de/blbhs/content/pageview/36376"/>
                     <l xml:id="s_429">
                   <app>
                         <rdg n="431" xml:space="preserve" wit="#A">Wan du ir nu̍t geteilen maht</rdg>
@@ -8867,7 +8867,7 @@
                </l>
                 </lg>
                 <lg org="uniform" sample="complete">
-                    <cb edRef="#D" facs="#D_132r_b"/>
+                    <cb edRef="#D" facs="#D_132r_b"  ed="https://digital.blb-karlsruhe.de/blbhs/content/pageview/36376"/>
                     <pb edRef="#P" facs="#P_349r"/>
                     <cb edRef="#P" facs="#P_349r_a"/>
                     <l xml:id="s_469">
@@ -9534,8 +9534,8 @@
                </l>
                 </lg>
                 <lg org="uniform" sample="complete">
-                    <pb edRef="#D" facs="#D_132v"/>
-                    <cb edRef="#D" facs="#D_132v_a"/>
+                    <pb edRef="#D" facs="#D_132v"  ed="https://digital.blb-karlsruhe.de/blbhs/content/pageview/36377"/>
+                    <cb edRef="#D" facs="#D_132v_a"  ed="https://digital.blb-karlsruhe.de/blbhs/content/pageview/36377"/>
                     <cb edRef="#P" facs="#P_349r_b"/>
                     <l xml:id="s_511">
                   <app>
@@ -10097,7 +10097,7 @@
                             <rdg n="544" xml:space="preserve" wit="#N" type="alternative:2"><hi rend="decoration color:red">D</hi>as es kaine rewet mich</rdg>
                             </app>
                </l>
-                        <cb edRef="#D" facs="#D_132v_b"/>
+                    <cb edRef="#D" facs="#D_132v_b"  ed="https://digital.blb-karlsruhe.de/blbhs/content/pageview/36377"/>
                   <l xml:id="s_560">
                   <app>
                             <rdg n="559" xml:space="preserve" wit="#D" type="alternative:1"><del rend="overstrike"><unclear/></del> Biſſent das ſy nie geſloff</rdg>
