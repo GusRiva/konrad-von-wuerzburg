@@ -1,3 +1,3 @@
 # Konrad von Würzburg Digital
-These are the materials for the digital edition of the short stories in verse by Konrad von Würzburg, the Middle High German author of the late 13th century. They are a product of the PhD dissertation by Gustavo Fernandez Riva at the University of Buenos Aires (2014-2018).
+These are the materials for the digital edition of the short stories in verse by Konrad von Würzburg, the Middle High German author of the second half of the 13th century. They are a product of the PhD dissertation by Gustavo Fernandez Riva at the University of Buenos Aires (2014-2018).
 A working Beta-Version of the edition can be found http://kvwdigital.000webhostapp.com/
