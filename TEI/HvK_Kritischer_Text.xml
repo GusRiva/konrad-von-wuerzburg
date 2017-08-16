@@ -1,0 +1,2480 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+             <title>Heinrich von Kempten - Critical Text</title>
+            <author>Konrad von Würzburg</author>
+             <editor>Gustavo Fernandez Riva</editor>
+            <sponsor>CONICET</sponsor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Edited by Gustavo Fernández Riva as part of the PhD in Medieval Studies at the University of Buenos Aires (Argentina) from 2014 to 2017</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="H"> 
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Heidelberg</settlement>
+                        <repository>Universitätsbibliothek</repository>
+                        <idno>cpg. 395</idno>
+                        <msName>H</msName>
+                     </msIdentifier>
+                  </msDesc> 
+               </witness>
+               <witness xml:id="I"> 
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Innsbruck</settlement>
+                        <repository>Landesmuseum Ferdinandeum</repository>
+                        <idno>cod FB 32001</idno>
+                        <msName>I</msName>
+                     </msIdentifier>
+                  </msDesc> 
+               </witness>
+               <witness xml:id="K"> 
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Cologny-Genf, Biblioteca Bodmeriana, Cod. Bodmer 72</settlement>
+                        <repository>Biblioteca Bodmeriana</repository>
+                        <idno>cod. Bodmer 72</idno>
+                        <msName>K</msName>
+                     </msIdentifier>
+                  </msDesc> 
+               </witness>
+               <witness xml:id="L"> 
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>London</settlement>
+                        <repository>Institute of Germanic Studies</repository>
+                        <idno>ms. Germ. 5</idno>
+                        <msName>L</msName>
+                        <altIdentifier>
+                           <settlement>Bristol</settlement>
+                           <idno>Ms. P. Germ. 1</idno>
+                        </altIdentifier>
+                     </msIdentifier>
+                     <history>
+                        <p>Früher Privatbesitz August Closs; davor Privatbesitz Robert Priebsch</p>
+                     </history>
+                  </msDesc> 
+               </witness>
+               <witness xml:id="P" > 
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Heidelberg</settlement>
+                        <repository> Universitätsbibliothek</repository>
+                        <idno>cpg. 341</idno>
+                        <msName>P</msName>
+                     </msIdentifier>
+                  </msDesc> 
+               </witness>
+               <witness xml:id="V"> 
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Wien</settlement>
+                        <repository>Österreiche Nationalbibliothek</repository>
+                        <idno>cod 2885</idno>
+                        <msName>V</msName>
+                     </msIdentifier>
+                  </msDesc> 
+               </witness>
+               <witness xml:id="W"> 
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Wien</settlement>
+                        <repository>Österreiche Nationalbibliothek</repository>
+                        <idno>cod 10100a</idno>
+                        <msName>W</msName>
+                     </msIdentifier>
+                  </msDesc> 
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+       <encodingDesc>
+           <variantEncoding method="parallel-segmentation" location="internal"/>
+           <ab>Guide manuscript <seg>P</seg></ab>
+       </encodingDesc>
+       
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <head> 
+               Heinrich von Kempten und Kaiser Otto
+                <note type="alternative"><seg type="wit">H</seg><seg type="text">Keiser otto mit dem barte</seg></note>
+                <note type="alternative"><seg type="wit">I V</seg><seg type="text">von chaiser otten</seg></note>
+                <note type="alternative"><seg type="wit">K</seg><seg type="text">Ditz ist von keiser otten ein mer Nu helf uns got von aller swer</seg></note>
+                <note type="alternative"><seg type="wit">W</seg><seg type="text">Die rede haizt Chaiser Oto und hat geticht maister Chunrad von Wirzpur[kh]</seg></note>
+                </head>
+            <l n="1" xml:id="s_1"> 
+               Ein keiser, Otte was genant<pc>,</pc>
+                </l>
+            <l n="2" xml:id="s_2"> 
+                des magen <app><lem>mant kreftic</lem><rdg wit="#I #V">kreft manic</rdg></app> lant 
+                <note type="editorial">
+                    <seg type="comment" xml:lang="es">La lectura de #I, #V 'magenkraft' se encuentra extensamente atestiguada como una forma intensificada de 'kraft' y genera una lectura coherente. Es la variante que retoma Schröder en su edición considerando a los otros manuscritos equivocados. Sin embargo, la variante que aquí selecciono también tiene sentido, puede entenderse como "de sus parientes poseía muchas y poderosas tierras". Esta variante, al indicar los lazos sociales del emperador como fuente de su poder, resuena de una manera diferente a la simple mención de su poder.</seg>
+                </note>
+                </l>
+            <l n="3" xml:id="s_3"> 
+               mit vorchten under tenich wart<pc>.</pc>
+                </l>
+            <l n="4" xml:id="s_4"> 
+               Schone und lanch was im der bart<pc>,</pc>
+                </l>
+            <l n="5" xml:id="s_5"> 
+               wan er <app><lem>in zoch</lem><rdg wit="#I #V">sein pflag</rdg></app> vil zarte<pc>;</pc>
+                </l>
+            <l n="6" xml:id="s_6"> 
+               <app><lem>und</lem><rdg wit="#W"></rdg></app> swaz er bî dem barte
+                </l>
+            <l n="7" xml:id="s_7"> 
+               geswur<pc>,</pc> daz <app><lem>liez</lem><rdg wit="#W">hielt</rdg></app> er allez war<pc>.</pc> 
+                </l>
+            <l n="8" xml:id="s_8"> 
+               Er hete rotelechtez har
+                </l>
+            <l n="9" xml:id="s_9"> 
+               und was mit alle ein ubel man<pc>.</pc>
+                </l>
+            <l n="10" xml:id="s_10"> 
+               Sîn herze in argem <app><lem>mute</lem><rdg wit="#W">zornig</rdg></app> bran
+                </l>
+            <l n="11" xml:id="s_11"> 
+               <app><lem><app><lem>und</lem><rdg wit="#I #V">Daz er</rdg></app> bewert daz</lem><rdg wit="#W">Daz weist er</rdg></app> an manger <app><lem>stat</lem><rdg wit="#V">man</rdg></app><pc>.</pc>
+                </l>
+            <l n="12" xml:id="s_12"> 
+               Swer icht wider in getat<pc>,</pc>
+                </l>
+            <l n="13" xml:id="s_13"> <note resp="editor" type="missing"><seg type="wit">H</seg></note>
+               der must den lîp han verlorn<pc>.</pc>
+                </l>
+             <l n="14" xml:id="s_14"><note resp="editor" type="missing"><seg type="wit">H</seg></note>
+                 <app><lem>Uber swen der eit</lem><rdg wit="W">Zu hant auf seinen tot</rdg></app> gesworn
+                </l>
+             <l n="15" xml:id="s_15"><note resp="editor" type="missing"><seg type="wit">H</seg></note>
+               von des keisers munde wart<pc>,</pc>
+                </l>
+             <l n="16" xml:id="s_16"><note resp="editor" type="missing"><seg type="wit">H</seg></note>
+                 <pc>"</pc>Du garnest ez, sam mir min bart<pc>"</pc><pc>,</pc>
+                </l>
+            <l n="17" xml:id="s_17"> 
+               der must ligen tot zu hant<pc>,</pc>
+                </l>
+            <l n="18" xml:id="s_18"> 
+               wand er do keine milte vant
+                </l>
+            <l n="19" xml:id="s_19"> 
+               an sîner hende danne<pc>.</pc>
+                </l>
+            <l n="20" xml:id="s_20"> 
+               Sust het er mangen manne
+                </l>
+            <l n="21" xml:id="s_21"> 
+               daz leben und den lîp benommen<pc>,</pc>
+                </l>
+            <l n="22" xml:id="s_22"> 
+               der von sînen genaden komen
+                </l>
+            <l n="23" xml:id="s_23"> 
+               was<pc>,</pc> durch hoher schulde werk<pc>.</pc>
+                </l>
+            <l n="24" xml:id="s_24"> 
+               Nu het er da zu <placeName>Babenberch</placeName>
+                </l>
+            <l n="25" xml:id="s_25"> 
+               in der schonen veste wît
+                </l>
+            <l n="26" xml:id="s_26"> 
+               gemachet eine hochgezît<pc>,</pc>
+                </l>
+            <l n="27" xml:id="s_27"> 
+                und was die zu einen Ostern<pc>;</pc>
+                </l>
+            <l n="28" xml:id="s_28"> 
+               des komen ûz klostern
+                </l>
+            <l n="29" xml:id="s_29"> 
+               vil hoher ebt in den hof
+                </l>
+            <l n="30" xml:id="s_30"> 
+               und manic werder bisschof<pc>,</pc>
+                </l>
+             <l n="31" xml:id="s_31"><note resp="editor" type="missing"> <seg type="wit">H</seg></note>
+               der mit eren ilte dar<pc>.</pc>
+                </l>
+             <l n="32" xml:id="s_32"><note resp="editor" type="missing"> <seg type="wit">H</seg></note>
+               Och komen dar, in lîhter schar,
+                </l>
+            <l n="33" xml:id="s_33"> 
+               graven<pc>,</pc> vrien<pc>,</pc> dienstman<pc>,</pc>
+                </l>
+            <l n="34" xml:id="s_34"> 
+               die daz rîche horten an<pc>,</pc>
+                </l>
+            <l n="35" xml:id="s_35"> 
+               und den keiserlichen voget<pc>,</pc>
+                </l>
+            <l n="36" xml:id="s_36"> 
+               die komen alle dar gezoget
+                </l>
+            <l n="37" xml:id="s_37"> 
+               in wunnenclicher <app><lem>presse</lem><rdg wit="#W">processe</rdg></app><pc>.</pc>
+                </l>
+            <l n="38" xml:id="s_38"> 
+               Nu daz gesungen messe
+                </l>
+            <l n="39" xml:id="s_39"> 
+               was an dem osterlichen tage<pc>,</pc>
+                </l>
+            <l n="40" xml:id="s_40"> 
+               da waren sunder leides clage
+                </l>
+            <l n="41" xml:id="s_41"> 
+               alle die tische da bereit<pc>;</pc>
+                </l>
+            <l n="42" xml:id="s_42"> 
+               und het man brot dar ûf geleit
+                </l>
+            <l n="43" xml:id="s_43"> 
+               und manch schoene trincvaz
+                </l>
+            <l n="44" xml:id="s_44"> 
+               dar ûf gesetzet umbe daz<pc>.</pc>
+                </l>
+            <l n="45" xml:id="s_45"> 
+               So der keiser <persName>Otte</persName>
+                </l>
+            <l n="46" xml:id="s_46"> 
+               mit sîner fursten rotte
+                </l>
+            <l n="47" xml:id="s_47"> 
+               von dem mvnster quem<pc>,</pc>
+                </l>
+            <l n="48" xml:id="s_48"> 
+               daz er da wazzer nem<pc>,</pc>
+                </l>
+            <l n="49" xml:id="s_49"> 
+               und er enbizze sa zehant<pc>.</pc>
+                </l>
+            <l n="50" xml:id="s_50"> 
+                <note type="editorial">
+                    <seg type="comment" xml:lang="en">Schröder corrects in his edition to 'hovezuht' following #V and #I. However I keep the reading from #P and the other witnesses (#H, #W). This sentence can be interpreted this way because it puts the story in motion, by placing a fortuitous incident (the presence of the young boy) as a cause of the whole narrative.</seg>
+                    <seg type="comment" xml:lang="de">Schröder korrigiert in seiner Ausgabe zu 'hovezuht' nach #V und #I. Allerdings behalte ich die Variante von #P und andere Zeugnisse (#H, #W). Dieser Satz kann so verstanden werden, da er setzt die Erzählung in Gang , indem ein zufäliges Ereignis - die Anwesenheit des Junges - die Narrative verursacht.</seg>
+                    <seg type="comment" xml:lang="es">Schröder corrige en su edición con 'hovezuht' siguiendo #V y #I. Sin embargo, mantengo la variante de #P y otros testimonios (#H, #W). Esta oración puede ser entendida de esta manera, ya que pone el relato en movimiento, al postular un suceso fortuito (la presencia del joven) como causa de la narrativa.</seg>
+                </note>
+               Nu was durch <app><lem>aventiure</lem><rdg wit="#I #V">hofzuht</rdg></app> gesant
+                </l>
+            <l n="51" xml:id="s_51"> 
+               ein werder juncherre dar<pc>,</pc>
+                </l>
+            <l n="52" xml:id="s_52"> 
+               <app><lem>der edel und der wunne var</lem><rdg wit="#W">Schon und liecht gevar</rdg></app>
+                </l>
+            <l n="53" xml:id="s_53"> 
+               an herze und an lîbe schîn<pc>.</pc>
+                </l>
+            <l n="54" xml:id="s_54"> 
+               Die leute im alle sunder mein
+                </l>
+            <l n="55" xml:id="s_55"> 
+               vil hohen prîs da gaben<pc>.</pc>
+                </l>
+            <l n="56" xml:id="s_56"> 
+               Sîn vater <app><lem wit="#H #I #K #P #V #W">waz</lem><rdg wit="#P"/></app> von Swaben<pc>,</pc>
+                </l>
+            <l n="57" xml:id="s_57"> 
+               herzog vil gewaltick<pc>,</pc>
+                </l>
+            <l n="58" xml:id="s_58"> 
+               des gult manicvaltick
+                </l>
+            <l n="59" xml:id="s_59"> 
+               solt erben dirre alleine<pc>.</pc>
+                </l>
+            <l n="60" xml:id="s_60"> 
+               Der selbe knabe reine
+                </l>
+            <l n="61" xml:id="s_61"> 
+               des tages da zu hove gie
+                </l>
+            <l n="62" xml:id="s_62">
+                <note type="editorial">
+                    <seg type="comment" xml:lang="es">El escritor de P puede haberse equivocado en este verso debido a que adelanta brevemente los sucesos del relato. Confunde unde lie con gevie (gevahen, "tomó"), cuando en este verso todavía no se menciona ese hecho.</seg>
+                    <seg type="comment" xml:lang="en">The writer of #P probably had some idea of the story and wrote 'vischen umbe gevie'. The same writer or someone else later corrected "vischen" to "tischen" but left the rest unchanged.</seg>
+                </note>
+               vor den tischen <app><lem wit="#H #I #K #P #V">unde lie</lem><rdg wit="#P">umbe gevie</rdg></app>
+                </l>
+            <l n="63" xml:id="s_63"> 
+               die schonen blanken hende sîn<pc>.</pc>
+                </l>
+            <l n="64" xml:id="s_64"><note resp="editor" type="addition" n="2"><seg type="wit">I V</seg><seg type="text">Da prach der hochgeporen knab / lutzel und ain wenig ab;</seg><seg type="comment">Zwierzina and von Kraus noted that the action of breaking the bread is narrated afterwards in verse 73, but Schröder asserted this kind of repetition is typical of Konrad. To respect the manuscript I concord with the older editors.</seg></note> 
+               Ein lindes brot nam er dor in
+                </l>
+             <l n="65" xml:id="s_65"/>
+             <l n="66" xml:id="s_66"/>
+            <l n="67" xml:id="s_67"> 
+               und wold ez ezzen sam die kint<pc>,</pc>
+                </l>
+            <l n="68" xml:id="s_68"> 
+               die des siten elleu sint
+            </l> 
+             <l n="69" xml:id="s_69"> <note type="missing"><seg type="wit">H</seg><seg type="comment">It is compensated by an extra verse after v. 70, which makes little sense in the narrative context: "Wanne si der chünig treibt darzü"</seg></note>
+               und in der wille stet dar zu
+                </l>
+            <l n="70" xml:id="s_70">
+               daz si gern enbîzent vru<pc>.</pc>
+                </l>
+             <l n="71" xml:id="s_70a"/>
+            <l n="72" xml:id="s_71"> 
+               Der junge furste wunnensam<pc>,</pc>
+                </l>
+            <l n="73" xml:id="s_72"> 
+               als er daz brot an sich genam
+                </l>
+            <l n="74" xml:id="s_73"> 
+               und ein teil gebrach dar ab<pc>,</pc>
+                </l>
+            <l n="75" xml:id="s_74"> 
+               da gieng alda mit sînem stab
+                </l>
+            <l n="76" xml:id="s_75"> 
+               des keisers truchsez
+                </l>
+            <l n="77" xml:id="s_76"> 
+                und <app><lem>sait</lem><rdg wit="#H #I #V">schichte</rdg></app> daz man ez<pc>,</pc>
+                </l>
+             <l n="78" xml:id="s_77"><note resp="editor" type="missing"> <seg type="wit">W</seg></note> 
+               so man gesungen hete gar<pc>.</pc>
+                </l>
+             <l n="79" xml:id="s_78"> <note resp="editor" type="missing"> <seg type="wit">W</seg></note>
+               Der selbe<pc>,</pc> der wart des gewar<pc>,</pc>
+                </l>
+             <l n="80" xml:id="s_79"> <note resp="editor" type="missing"> <seg type="wit">W</seg></note>
+               daz der juncherre wert
+                </l>
+             <l n="81" xml:id="s_80"> <note resp="editor" type="missing"> <seg type="wit">W</seg></note>
+               des brotes haete do gegert<pc>.</pc>
+                </l>
+             <l n="82" xml:id="s_81"><note type="transposed"><seg type="wit">W</seg></note> 
+               Des wart er zornich sa zehant<pc>.</pc>
+                </l>
+            <l n="83" xml:id="s_82"> 
+                Der site sîn was so gewant<pc>,</pc><note type="transposed"><seg type="wit">W</seg></note>
+                </l>
+            <l n="84" xml:id="s_83"> 
+               daz in muet ein clein <app><lem>dinch</lem><rdg wit="#W">chindt</rdg></app><pc>.</pc> 
+                </l>
+            <l n="85" xml:id="s_84"> 
+               Des lief er an den jungelinch
+                </l>
+            <l n="86" xml:id="s_85"> 
+               mit sînem stabe den er truck<pc>.</pc>
+                </l>
+            <l n="87" xml:id="s_86"> 
+               Da mit er ûf daz houbet sluck
+                </l>
+            <l n="88" xml:id="s_87"> 
+               den juncherren edel und clar<pc>,</pc>
+                </l>
+            <l n="89" xml:id="s_88"> 
+               daz im die scheitel und daz har
+                </l>
+            <l n="90" xml:id="s_89"> 
+               von rotem bluot wurden naz.
+                </l>
+            <l n="91" xml:id="s_90"> 
+               Des viel er nider und saz<pc>,</pc>
+                </l>
+            <l n="92" xml:id="s_91"> 
+               und weinde mangen heizen trahen<pc>,</pc>
+                </l>
+            <l n="93" xml:id="s_92"> 
+               daz in der truchsez slahen
+                </l>
+            <l n="94" xml:id="s_93"> 
+               getorst <pc>.</pc> Daz ersach ein helt<pc>,</pc>
+                </l>
+            <l n="95" xml:id="s_94"> 
+               der was ein Ritter ûzerwelt
+                </l>
+            <l n="96" xml:id="s_95"> 
+               und hiez von Kempten Heinrich<pc>.</pc>
+                </l>
+            <l n="97" xml:id="s_96"> 
+               Sîn edel mut der hete sich
+                </l>
+            <l n="98" xml:id="s_97"> 
+               rîlicher manheit an genomen<pc>,</pc>
+                </l>
+            <l n="99" xml:id="s_98"> 
+               wan er mit dem kinde komen
+                </l>
+            <l n="100" xml:id="s_99"> 
+               was von Swaben<pc>,</pc> als <app><lem>ich</lem><rdg wit="#W">man</rdg></app> <app><lem wit="#I #V #W">ez</lem><rdg wit="#H">is</rdg><rdg wit="#K #P">iz</rdg></app> las<pc>,</pc>
+                </l>
+            <l n="101" xml:id="s_100"> 
+               wan er sîn zuchtmeister was<pc>,</pc>
+                </l>
+            <l n="102" xml:id="s_101"> <note type="editorial"><seg type="comment" xml:lang="en">Schröder follows #V, because "trûtlichen zôch" is not witnesses in Konrads corpus and he consideres applies better for the mother als for the tutor. I do not consider these arguments are strong enough to go against the manuscript.</seg></note>
+               und <app><lem>er</lem><rdg wit="#V #I"/></app> in <app><lem>trutlichen</lem><rdg wit="#V #I">nah gantzer wird</rdg></app> zoch<pc>.</pc>
+                </l>
+            <l n="103" xml:id="s_102"> 
+               Daz man den juncherren hoch
+                </l>
+            <l n="104" xml:id="s_103"> 
+               als <app><lem wit="#V">unerbermichleich</lem><rdg wit="#P">mir bermertlichen</rdg></app> sluc<pc>,</pc>
+                </l>
+            <l n="105" xml:id="s_104"> 
+               daz mut in sere und ubel genuc
+                </l>
+             <l n="108" xml:id="s_105"> <note type="alternative"><seg type="wit">W</seg><seg type="text">Er ſprach wie habt ir ſo getobt</seg><seg type="comment">W reemplaza versos 108-115 por dos nuevos</seg></note>
+               und was im leit und ungemach<pc>.</pc>
+                </l>
+             <l n="109" xml:id="s_106"> <note type="alternative"><seg type="wit">W</seg><seg type="text">daz ir den furſten hochgelobt</seg></note>
+               Zu dem truchsezen sprach
+                </l>
+            <l n="110" xml:id="s_107"> <note type="missing"><seg type="wit">W</seg></note>
+               der unverzagte ritter do
+                </l>
+             <l n="111" xml:id="s_108"> <note type="missing"><seg type="wit">W</seg></note>
+               harte zorniclich also<pc>:</pc>
+                </l>
+             <l n="112" xml:id="s_109"> <note type="missing"><seg type="wit">W</seg></note>
+               <pc>"</pc>Was habt ir gerochen<pc>,</pc>
+                </l>
+             <l n="113" xml:id="s_110"> <note type="missing"><seg type="wit">W</seg></note>
+               daz ir nu habt zerbrochen
+                </l>
+             <l n="114" xml:id="s_111"> <note type="missing"><seg type="wit">W</seg></note>
+               Ewer ritterliche zucht<pc>,</pc>
+                </l>
+             <l n="115" xml:id="s_112"> <note type="missing"><seg type="wit">W</seg></note>
+               daz ir eines edelen fursten frucht
+                </l>
+            <l n="116" xml:id="s_113"> 
+               als ubelich habet geslagen<pc>?</pc><pc>"</pc>
+                </l>
+            <l n="117" xml:id="s_114"> 
+               <pc>"</pc>Ich wil euch namelich sagen<pc>:</pc>
+                </l>
+            <l n="118" xml:id="s_115"> 
+               ir werbent <app><lem>anders dan ir <app><lem wit="#H #I #K #V">sult</lem><rdg wit="#P">schult</rdg></app></lem><rdg wit="#W">ser umb ungedult</rdg></app><pc>,</pc>
+                </l>
+            <l n="119" xml:id="s_116"> 
+               daz ir sunder alle schult
+                </l>
+            <l n="120" xml:id="s_117"> 
+               geslagen habt den herren mîn<pc>.</pc>
+                </l>
+            <l n="121" xml:id="s_118"> 
+               Daz lat euh gar unmer sîn<pc>.</pc><pc>"</pc>
+                </l>
+            <l n="122" xml:id="s_119"> 
+               Sprach der truchsez<pc>:</pc>
+                </l>
+            <l n="123" xml:id="s_120"> 
+               <pc>"</pc>Mir ist daz wol gemez<pc>,</pc>
+                </l>
+            <l n="124" xml:id="s_121"> 
+               <app><lem>daz ich ungefugen schelken were</lem><rdg wit="#W">Daz ich die ôden schelke / umb ir boszheit welke</rdg></app>
+                </l>
+            <l n="125" xml:id="s_121a"/>
+             <l n="126" xml:id="s_122"><note resp="editor" type="addition" n="1"><seg type="wit">W</seg><seg type="text">und sein unzuht alhie wer</seg></note> 
+               und einen ieslichen bere 
+                </l>
+            <l n="127" xml:id="s_122a"/>
+            <l n="128" xml:id="s_123"> 
+               <app><lem wit="#H #V">der</lem><rdg wit="#P">Die </rdg></app> hie zu hove unzuchtick ist<pc>.</pc>
+                </l>
+            <l n="129" xml:id="s_124"> 
+               Lat ewer rede an dirre vrist
+                </l>
+            <l n="130" xml:id="s_125"> 
+               blîben algemeine<pc>.</pc>
+                </l>
+            <l n="131" xml:id="s_126"> 
+               Ich furcht euh als cleine<pc>,</pc>
+                </l>
+            <l n="132" xml:id="s_127"> 
+               als der habich tut daz hun<pc>.</pc>
+                </l>
+            <l n="133" xml:id="s_128"> 
+               Was wolt ir nu dar zu tun<pc>,</pc>
+                </l>
+            <l n="134" xml:id="s_129"> 
+               daz ich den herzogen sluc<pc>?</pc><pc>"</pc>
+                </l>
+             <l n="135" xml:id="s_130"> 
+                 <pc>"</pc>Daz wirt bekant euh schire genuc<pc>.</pc><pc>"</pc>
+                </l>
+            <l n="136" xml:id="s_131"> 
+               Sprach von Kempten Heinrich
+                </l>
+             <l n="137" xml:id="s_132"> <note type="alternative"><seg type="wit">W</seg><seg type="text">Es wird gerochen sicherleich</seg></note>
+               <pc>"</pc>Daz ir <app><lem wit="#I #V">den</lem><rdg wit="#K #H #P"/></app> fursten edellich
+                 <note type="editorial">
+                     <seg xml:lang="es">La falta o presencia del artículo cambia el sentido de la oración de manera importante. Con el artículo, 'fursten edellich" es el objeto directo de 'bluwen', es decir, el joven noble que ha sido golpeado. Sin el artículo debería leerse como una aposición del vocativo 'ir', es decir, refiriéndose al mayordomo. Esta segunda variante, como parlamento de Heinrich von Kempten, es poco probable.</seg>
+                 </note>
+                </l>
+            <l n="138" xml:id="s_133"> 
+               alsust chunnet bluwen<pc>,</pc>
+                </l>
+            <l n="139" xml:id="s_134"> <note type="missing"><seg type="wit">W</seg></note>
+               daz sol euch hie gerewen<pc>,</pc>
+                </l>
+             <l n="140" xml:id="s_135"><note type="transposed"><seg type="wit">W</seg></note> 
+               wan ich vertrag <app><lem>sîn</lem><rdg wit="#H #W">euch</rdg></app> længer niht<pc>.</pc>
+                </l>
+             <l n="141" xml:id="s_136"><note type="transposed"><seg type="wit">W</seg></note>
+               <app><lem wit="rest">Ir</lem><rdg wit="#P">Nu</rdg></app> tugentloser boesewiht<pc>,</pc>
+                 <note type="editorial">La variante de P, 'nu', no es incorrecta, pero la presencia de 'ir', que luego se repite dos veces en el verso de abajo genera una aliteración que los demás testimonios mantienen y que tomamos en la edición.</note>
+                </l>
+            <l n="142" xml:id="s_137"> 
+                <app><lem/><rdg wit="#V">Nu</rdg></app> wie getorst ir<pc>,</pc> <app><lem>daz ir</lem><rdg wit="#V #I"/><rdg wit="#W">ye den tag</rdg></app> geleben<pc>,</pc>
+                </l>
+            <l n="143" xml:id="s_138"> 
+               daz ir dem kind habt gegeben
+                </l>
+            <l n="144" xml:id="s_139"> 
+               als <app><lem wit="rest">ungefüge</lem><rdg wit="#P">ungenus</rdg></app> <app><lem wit="editor">biusche</lem><rdg wit="#P">beusche</rdg><rdg wit="#H">busche</rdg><rdg wit="#V #W">puchse</rdg></app><pc>,</pc>
+                </l>
+            <l n="145" xml:id="s_140"> 
+               daz ewer hant uncheusche
+                </l>
+            <l n="146" xml:id="s_141"> 
+               <app><lem>als</lem><rdg wit="#H">so rehte</rdg><rdg wit="#I #V">so gar</rdg><rdg wit="#W">so dick</rdg></app> unedlich tut<pc>?</pc>
+                </l>
+            <l n="147" xml:id="s_142"> 
+               Des muez begiezen ewer blut
+                </l>
+            <l n="148" xml:id="s_143"> 
+               den sal und disen vlecken<pc>.</pc><pc>"</pc>
+                </l>
+            <l n="149" xml:id="s_144"> 
+               Sust begreif er einen stecken
+                </l>
+            <l n="150" xml:id="s_145"> 
+               <app><lem>als einen grozen</lem><rdg wit="#H">grozer dan</rdg><rdg wit="#V">Vnd ein grozzen</rdg><rdg wit="#W">Hoch grozer denn</rdg></app> reitel<pc>.</pc>
+                </l>
+            <l n="151" xml:id="s_146"> 
+               Er slug in daz die scheitel
+                </l>
+            <l n="152" xml:id="s_147"> 
+               im zerklicte sam ein ei
+                </l>
+            <l n="153" xml:id="s_148"> 
+               und im daz houbet spielt enzwei<pc>,</pc>
+                </l>
+            <l n="154" xml:id="s_149"> 
+               recht als ein havenschirben<pc>,</pc>
+                </l>
+            <l n="155" xml:id="s_150"> 
+               daz er begond zu wirben
+                </l>
+            <l n="156" xml:id="s_151"> 
+               allumb und umb als ein topf<pc>.</pc>
+                </l>
+            <l n="157" xml:id="s_152"> 
+               Daz hirn wart im und der kopf
+                </l>
+            <l n="158" xml:id="s_153"> 
+               erschellet harte <app><lem>dunket mich</lem><rdg wit="#W">so sprech ich</rdg></app><pc>.</pc>
+                </l>
+            <l n="159" xml:id="s_154"> 
+               Des viel er ûf den estrich
+                </l>
+            <l n="160" xml:id="s_155"> 
+               und lack da iemerlich tot<pc>.</pc>
+                </l>
+            <l n="161" xml:id="s_156"> 
+               Der sal wart sînes blutes rot<pc>.</pc>
+                </l>
+            <l n="162" xml:id="s_157"> 
+               Des hub sich ein michel doz
+                </l>
+            <l n="163" xml:id="s_158"> 
+               und ein lutgebrecht groz<pc>.</pc>
+                </l>
+            <l n="164" xml:id="s_159">
+               <app><lem wit="#P rest">Nu was ouch der <app><lem wit="#H #I #V">Keiser</lem><rdg wit="#K">kunic</rdg></app></lem><rdg wit="#W">Der Chaiser was von kirchen komen</rdg></app>komen
+                </l>
+             <l n="165" xml:id="s_160"> <note resp="editor" type="missing"> <seg type="wit">H</seg> </note>
+               und hete wazzer genomen
+                </l>
+            <l n="166" xml:id="s_161"> 
+               und was gesezzen uber tisch<pc>.</pc>
+                </l>
+            <l n="167" xml:id="s_162"> 
+               Daz blut begond er als vrisch
+                </l>
+            <l n="168" xml:id="s_163"> 
+               ûf dem <app><lem>estrich</lem><rdg wit="#W">Ostreich</rdg></app> sehen<pc>.</pc>
+                </l>
+            <l n="169" xml:id="s_164"> 
+               Er sprach <pc>:</pc><pc>"</pc>Was ist alhie geschen<pc>?</pc>
+                </l>
+            <l n="170" xml:id="s_165"> 
+               Wer hat den sal entrînet
+                </l>
+            <l n="171" xml:id="s_166"> 
+                und die getat erscheinet<pc>,</pc>
+                </l>
+            <l n="172" xml:id="s_167"> 
+                daz er blutick worden ist<pc>?</pc><pc>"</pc>
+                </l>
+            <l n="173" xml:id="s_168"> 
+               Alsust begond im an der vrist
+                </l>
+            <l n="174" xml:id="s_169"> 
+               sîn werdes ingesinde sagen<pc>,</pc>
+                </l>
+            <l n="175" xml:id="s_170"> 
+               daz im sîn truchsez erslagen
+                </l>
+            <l n="176" xml:id="s_171"> 
+               waer bi der zît also<pc>.</pc>
+                </l>
+            <l n="177" xml:id="s_172"> 
+               Mit zorne sprach der keiser do
+                </l>
+             <l n="178" xml:id="s_173"> <note resp="editor" type="addition" n="2"><seg type="wit">W</seg><seg type="text">daz west ich gerne sicherleich / da sprach aller menchleich</seg></note>
+               <pc>"</pc>Wer hat an im besweret mich<pc>?</pc><pc>"</pc>
+                </l>
+            <l n="179" xml:id="s_174"> 
+               "Daz tet von Kempten Heinrich
+                </l>
+             <l n="180" xml:id="s_175"> <note resp="editor" type="missing"> <seg type="wit">W</seg></note>
+               riefens alle geliche<pc>.</pc>
+                </l>
+             <l n="181" xml:id="s_176"> <note resp="editor" type="addition" n="1"><seg type="wit">W</seg><seg type="text">Nu wisset sicherleiche</seg></note>
+               <pc>"</pc>Ja<pc>"</pc><pc>,</pc> sprach der keiser riche<pc>,</pc>
+                </l>
+            <l n="182" xml:id="s_177"> 
+                <pc>"</pc>hat <app><lem>im der sînen</lem><rdg wit="#W">er im den</rdg></app> lîp benomen<pc>,</pc>
+                </l>
+            <l n="183" xml:id="s_178"> 
+               so ist er uns zu fru komen<pc>,</pc>
+                </l>
+            <l n="184" xml:id="s_179"> 
+               her von swaben in ditz lant<pc>.</pc>
+                </l>
+            <l n="185" xml:id="s_180"> 
+               Er werd schire nu besant
+                </l>
+            <l n="186" xml:id="s_181"> 
+               fur mîn antlutze her<pc>.</pc>
+                </l>
+            <l n="187" xml:id="s_182"> 
+               Ich wil in vragen war umb er<pc>,</pc>
+                </l>
+            <l n="188" xml:id="s_183"> 
+                mir hab so vast <app><lem/><rdg wit="#V">an im</rdg></app><app><lem wit="#H #I #W #V">geschadet</lem><rdg wit="#P #K">gesat</rdg></app><pc>.</pc><pc>"</pc>
+                </l>
+            <l n="189" xml:id="s_184"> 
+               Sust wart der Ritter <app><lem wit="#P #K #W">gelat</lem><rdg wit="#V #I">geladet</rdg><rdg wit="#H">geslaht</rdg></app>
+                </l>
+            <l n="190" xml:id="s_185"> 
+               fur den keiser vreissam<pc>.</pc>
+                </l>
+            <l n="191" xml:id="s_186"> 
+               Und als er vor <app><lem wit="#P rest">den keiser</lem><rdg wit="#V">sein augen</rdg></app> quam
+                </l>
+            <l n="192" xml:id="s_187"> 
+               und er in <app><lem wit="#V #I">von erst</lem><rdg wit="#P #K">verrest</rdg><rdg wit="#H">verste</rdg><rdg wit="#W">mit augen</rdg></app> ane sach
+                </l>
+            <l n="193" xml:id="s_188"> 
+               mit zorn er wider in do sprach<pc>:</pc>
+                </l>
+            <l n="194" xml:id="s_189"> 
+               <pc>"</pc>Wie habet ir sust getobet<pc>,</pc>
+                </l>
+            <l n="195" xml:id="s_190"> 
+               daz mîn truchsez hochgelobet
+                </l>
+            <l n="196" xml:id="s_191"> 
+               von euch leit ermordet<pc>?</pc>
+                </l>
+            <l n="197" xml:id="s_192"> 
+               Ir habt ûf euh gehordet
+                </l>
+            <l n="198" xml:id="s_193"> 
+               mîn ungenade manicvalt<pc>.</pc>
+                </l>
+            <l n="199" xml:id="s_194"> 
+               Euch sol mîn keiserlich gewalt
+                </l>
+            <l n="200" xml:id="s_195"> 
+               erzeiget werden sere<pc>.</pc>
+                </l>
+            <l n="201" xml:id="s_196"> 
+               Ir habt mînes hoves ere
+                </l>
+            <l n="202" xml:id="s_197"> 
+               und mînen prîs zebrochen<pc>,</pc>
+                </l>
+            <l n="203" xml:id="s_198"> 
+               daz wirt an euch gerochen<pc>.</pc>
+                </l>
+            <l n="204" xml:id="s_199"> 
+               Der hoehe mîn und die geschiht<pc>,</pc>
+                </l>
+            <l n="205" xml:id="s_200"> 
+               daz man den truchsezen <app><lem wit="rest">sicht</lem><rdg wit="#P">niht</rdg></app>
+                </l>
+            <l n="206" xml:id="s_201"> 
+               von euch zu tode erlempten<pc>.</pc>
+                </l>
+            <l n="207" xml:id="s_202"> 
+               <pc>"</pc><app><lem wit="#P #K">Nein</lem><rdg wit="#I #V #W">Genad</rdg><rdg wit="#H">Du</rdg></app><pc>,</pc> herre<pc>"</pc><pc>,</pc> sprach von Kempten
+                </l>
+             <l n="208" xml:id="s_203"><note resp="editor" type="addition" n="2"><seg type="wit">I V</seg><seg type="text">Seit mir nicht so pitter / Noch als unpermiklich</seg></note> 
+               der <app><lem wit="#H #I #V #W">unverzagte</lem><rdg wit="#P #K">verzaget</rdg></app> Heinrich<pc>.</pc>
+                </l>
+             <l n="209" xml:id="s_203a"/>
+             <l n="210" xml:id="s_203b"/>
+            <l n="211" xml:id="s_204"> 
+               <pc>"</pc>Lat hie genade vinden mich
+                </l>
+            <l n="212" xml:id="s_205"> 
+               <app><lem>und ewer stete </lem><rdg wit="#W">Durch got und ewer</rdg></app>hulde<pc>.</pc>
+                </l>
+            <l n="213" xml:id="s_206"> 
+               Geruchet mîn unsschulde
+                </l>
+            <l n="214" xml:id="s_207"> 
+               <app><lem>hie vernemen und mîne <app><lem wit="#K">schult</lem><rdg wit="#P">sult</rdg><rdg wit="#H">scholt</rdg><rdg wit="#W">vnschuld</rdg></app></lem><rdg wit="#I #V">Und mein schuld verneme gar</rdg></app>
+                </l>
+            <l n="215" xml:id="s_208"> <note type="alternative"><seg type="wit">I</seg></note>
+               hab ich <app><lem wit="rest">mit</lem><rdg wit="#P">unt</rdg></app> <app><lem>rechter ungedult</lem><rdg wit="#I">unrecht zwar</rdg></app>
+                </l>
+            <l n="216" xml:id="s_209"> 
+               verdienet ewer vîntschaft<pc>,</pc>
+                </l>
+            <l n="217" xml:id="s_210"> 
+               so lat ewer <app><lem>menlich</lem><rdg wit="#V">magen</rdg></app> kraft
+                </l>
+            <l n="218" xml:id="s_211"> 
+               mich vellen und veigen<pc>.</pc>
+                </l>
+            <l n="219" xml:id="s_212"> 
+               Mag aber ich erzeigen<pc>,</pc>
+                </l>
+            <l n="220" xml:id="s_213"> 
+               daz niht die schulde were mîn<pc>,</pc>
+                </l>
+            <l n="221" xml:id="s_214"> 
+               so geruchet mir genedic sîn<pc>,</pc>
+                </l>
+            <l n="222" xml:id="s_215"> 
+               daz ir mir niht ubels tunt<pc>,</pc>
+                </l>
+            <l n="223" xml:id="s_216"> 
+               durch den got der heut erstunt
+                </l>
+            <l n="224" xml:id="s_217"> 
+               an disem osterlichen tag<pc>.</pc>
+                </l>
+            <l n="225" xml:id="s_218"> 
+               So gunnet mir daz ich beiag
+                </l>
+            <l n="226" xml:id="s_219"> 
+               ewer <app><lem>keiserliche</lem><rdg wit="#W">hochen selden</rdg></app> gunst<pc>,</pc>
+                </l>
+            <l n="227" xml:id="s_220"> 
+               <app><lem wit="#P #V #I #K">sît</lem><rdg wit="#H">Sint</rdg><rdg wit="#W">Wenn</rdg></app> daz ir habet die vernunft<pc>,</pc>
+                </l>
+            <l n="228" xml:id="s_221"> 
+               daz ir von art bescheiden sît<pc>.</pc>
+                </l>
+            <l n="229" xml:id="s_222"> 
+               So <app><lem>eret</lem><rdg wit="#H">erent</rdg></app> dise hochgezît
+                </l>
+            <l n="230" xml:id="s_223"> 
+               an mir vil armen heute<pc>.</pc>
+                </l>
+            <l n="231" xml:id="s_224"> 
+               <app><lem>Lat</lem><rdg wit="#H">Lazent</rdg></app> mich der werden leute
+                </l>
+            <l n="232" xml:id="s_225"> 
+               <app><lem>geniezen</lem><rdg wit="#V">gemezzen</rdg></app> der man schowet hie<pc>.</pc>
+                </l>
+            <l n="233" xml:id="s_226"> 
+               Kein schult wart so michel nie<pc>,</pc>
+                </l>
+            <l n="234" xml:id="s_227"> 
+               da <app><lem>hoere</lem><rdg wit="#H">in hore</rdg><rdg wit="#V #I">gehör</rdg></app> zu genaden teil
+                </l>
+            <l n="235" xml:id="s_228"> 
+               <app><lem>durch daz <app><lem>so lat</lem><rdg wit="#V #I">lazznt</rdg></app> mich</lem><rdg wit="#W">Nu gönnet mir daz ich</rdg></app> daz heil
+                </l>
+            <l n="236" xml:id="s_229"> 
+               hie vinden und erwerben<pc>,</pc>
+                </l>
+            <l n="237" xml:id="s_230"> 
+               daz ich <app><lem>niht sol</lem><rdg wit="#V #I">icht müzz</rdg><rdg wit="#H">iht sulle</rdg></app> ersterben<pc>.</pc>
+                </l>
+            <l n="238" xml:id="s_231"> 
+               Der keiser ubel und rot
+                </l>
+            <l n="239" xml:id="s_232"> 
+               der red im antwort bot
+                </l>
+            <l n="240" xml:id="s_233"> 
+               ûz <app><lem>einem</lem><rdg wit="#W">seinen</rdg></app> grimmen herzen<pc>.</pc>
+                </l>
+            <l n="241" xml:id="s_234"> 
+               Er sprach<pc>:</pc> <pc>"</pc>Des todes smerzen<pc>,</pc>
+                </l>
+            <l n="242" xml:id="s_235"> 
+               den hie mîn truchsez treit<pc>,</pc>
+                </l>
+            <l n="243" xml:id="s_236"> 
+                <app><lem>lid <app><lem wit="#H">ich</lem><rdg wit="#P #K"/></app> mit sulcher</lem><rdg wit="#V">Tut mir dw grozz </rdg></app> arbeit<pc>,</pc>
+                </l>
+            <l n="244" xml:id="s_237"> 
+               daz ich niht mutes han dar zu<pc>,</pc>
+                </l>
+            <l n="245" xml:id="s_238"> 
+               daz ich euh <app><lem>keine</lem><rdg wit="#V #I"/></app> genade tu
+                </l>
+            <l n="246" xml:id="s_239"> 
+               umb ewer groze schulde<pc>.</pc>
+                </l>
+            <l n="247" xml:id="s_240"> 
+               Mîn keiserliche hulde
+                </l>
+            <l n="248" xml:id="s_241"> 
+               muez euh immer sîn verspart<pc>.</pc>
+                </l>
+            <l n="249" xml:id="s_242"> 
+               Ir arnt ez sam mir min bart<pc>,</pc>
+                </l>
+             <l n="250" xml:id="s_243"><note resp="editor" type="missing"> <seg type="wit">W</seg> </note> 
+               daz mîn <app><lem/><rdg wit="#V #I">ist</rdg></app>truchsez tot
+                </l>
+             <l n="251" xml:id="s_244"> <note resp="editor" type="missing"> <seg type="wit">W</seg> </note>
+               <app><lem>leit von euh al sunder not</lem><rdg wit="#V #I">Jr müzzt leiden dw selb not</rdg></app><pc>.</pc>
+                </l>
+            <l n="252" xml:id="s_245"> 
+               Der werde ritter <persName>Heinrich</persName>
+                </l>
+            <l n="253" xml:id="s_246"> 
+               <app><lem wit="#H #V #I">verstunt</lem><rdg wit="#P #K">der stunt</rdg><rdg wit="#W">verstung</rdg></app> bî dem eide sich<pc>,</pc>
+                </l>
+            <l n="254" xml:id="s_247"> 
+               den der <app><lem>keiser ubel</lem><rdg wit="#H #I #V #W">ubel keiser</rdg></app> tet<pc>,</pc>
+                </l>
+            <l n="255" xml:id="s_248"> 
+               daz er benamen an der stet
+                </l>
+            <l n="256" xml:id="s_249"> 
+               <app><lem>daz leben must han</lem><rdg wit="#V #I">Must haben den leib</rdg></app> verlorn<pc>.</pc>
+                </l>
+             <l n="257" xml:id="s_250"><note resp="editor" type="addition" n="1"><seg type="wit">H</seg><seg type="text">Mit ubelichen geberen</seg></note> 
+               Des wart im also rechte zorn<pc>,</pc>
+                </l>
+             <l n="258" xml:id="s_251"> <note resp="editor" type="missing"> <seg type="wit">W</seg> </note>
+               daz er den lîp wolt wern
+                </l>
+             <l n="259" xml:id="s_250a"/>
+             <l n="260" xml:id="s_252"> <note resp="editor" type="missing"> <seg type="wit">H</seg> <seg type="wit">W</seg></note>
+               und daz leben <app><lem>sîn genern</lem><rdg wit="#V">da erneren</rdg></app>
+                </l>
+             <l n="261" xml:id="s_253"> <note resp="editor" type="missing"> <seg type="wit">H</seg> <seg type="wit">W</seg></note>
+               mit <app><lem>vil</lem><rdg wit="#V #I"/></app> williclicher <app><lem/><rdg wit="#V #I">hertzen</rdg></app>ger<pc>,</pc>
+                </l>
+             <l n="262" xml:id="s_254"> <note resp="editor" type="missing"> <seg type="wit">H</seg> <seg type="wit">W</seg> </note>
+               wand er bekannt wol swaz er
+                </l>
+             <l n="263" xml:id="s_255"> <note resp="editor" type="missing"> <seg type="wit">H</seg> <seg type="wit">W</seg> </note>
+               bî dem barte sîn gehiez<pc>,</pc>
+                </l>
+             <l n="264" xml:id="s_256"> <note resp="editor" type="missing"> <seg type="wit">H</seg> <seg type="wit">W</seg> </note>
+               daz er daz allez <app><lem>war</lem><rdg wit="#V #I">stet</rdg></app> liez<pc>.</pc>
+                </l>
+             <l n="265" xml:id="s_257"> <note resp="editor" type="missing"> <seg type="wit">H</seg> </note>
+               Da von sprach er<pc>:</pc> <pc>"</pc>Nu <app><lem>merke</lem><rdg wit="#V">hör</rdg><rdg wit="#W">erchenn</rdg></app> ich wol<pc>,</pc>
+                </l>
+             <l n="266" xml:id="s_258"> <note resp="editor" type="missing"> <seg type="wit">H</seg> </note>
+               daz ich benamen sterben sol<pc>.</pc>
+                </l>
+             <l n="267" xml:id="s_259"><note>Different in Schröder</note> <note resp="editor" type="missing"> <seg type="wit">H</seg> </note>
+               <app><lem>Des han ich reht</lem><rdg wit="#V #I #W #Schr">Nu ist (es) zeit</rdg></app><pc>,</pc> daz ich mich wer
+                </l>
+             <l n="268" xml:id="s_260"> <note resp="editor" type="missing"> <seg type="wit">H</seg> </note>
+               und daz leben <app><lem wit="#V #I">hie</lem><rdg wit="#P #K">im</rdg><rdg wit="#W #Schr">mein</rdg></app> gener<pc>,</pc>
+                </l>
+            <l n="269" xml:id="s_261"> 
+               alle die wile daz <app><lem>ich</lem><rdg wit="#H">er</rdg></app> kan<pc>.</pc>
+                </l>
+            <l n="270" xml:id="s_262"> 
+               Hie mit der ûzerwelter man
+                </l>
+            <l n="271" xml:id="s_263"> 
+               geswinde <app><lem>fur</lem><rdg wit="#H">von</rdg></app> den keiser spranch<pc>.</pc>
+                </l>
+            <l n="272" xml:id="s_264"> 
+               Er begreif in bî dem barte lanch<pc>,</pc>
+                </l>
+            <l n="273" xml:id="s_265"> 
+               erzuckt in uber <app><lem>sînen</lem><rdg wit="#W">den</rdg></app> tisch<pc>.</pc>
+                </l>
+            <l n="274" xml:id="s_266"> 
+               Ez wer vleisch oder visch<pc>,</pc>
+                </l>
+            <l n="275" xml:id="s_267"> 
+               daz man da het fur in bracht<pc>,</pc>
+                </l>
+            <l n="276" xml:id="s_268"> 
+               <app><lem>daz wart gevellet in ein baht<pc>.</pc></lem><rdg wit="#V #I">Daz wart verschüttet ser er faht</rdg></app>
+                </l>
+            <l n="277" xml:id="s_269"> 
+               <app><lem>Als</lem><rdg wit="#V #I">Da</rdg><rdg wit="#W">Vast</rdg></app> er in bî dem barte dans<pc>,</pc>
+                </l>
+            <l n="278" xml:id="s_270"> 
+               daz kinne wart im und der vlans
+                </l>
+            <l n="279" xml:id="s_271"> 
+               vil hares da beraubet<pc>.</pc>
+                </l>
+            <l n="280" xml:id="s_272"> 
+               Sîn keiserlichez haubet
+                </l>
+            <l n="281" xml:id="s_273"> 
+               wart sere entschumpfiert<pc>.</pc>
+                </l>
+            <l n="282" xml:id="s_274"> 
+               Die krone wol geziert<pc>,</pc>
+                </l>
+            <l n="283" xml:id="s_275"> 
+               die dar ûf gesetzet was<pc>,</pc>
+                </l>
+            <l n="284" xml:id="s_276"> 
+               viel nider in daz palas
+                </l>
+             <l n="285" xml:id="s_277"> <note resp="editor" type="missing"> <seg type="wit">H</seg> </note>
+               und alle sîn rîchlich zierheit<pc>.</pc>
+                </l>
+             <l n="286" xml:id="s_278"> <note resp="editor" type="missing"> <seg type="wit">H</seg> </note>
+               Er het in under sich geleit
+                </l>
+             <l n="287" xml:id="s_279"> <note resp="editor" type="missing"> <seg type="wit">H</seg> </note>
+               <app><lem>geswind bî den</lem><rdg wit="#W">Do zu den selben</rdg></app> zîten<pc>.</pc>
+                </l>
+             <l n="288" xml:id="s_280"> <note resp="editor" type="missing"> <seg type="wit">H</seg> </note>
+               Er zuckt von der sîten
+                </l>
+             <l n="289" xml:id="s_281"> <note resp="editor" type="missing"> <seg type="wit">H</seg> </note>
+               ein mezzer <app><lem>wol</lem><rdg wit="#W">scharff</rdg></app> gewetzet<pc>.</pc>
+                </l>
+             <l n="290" xml:id="s_282"> <note resp="editor" type="missing"> <seg type="wit">H</seg> </note>
+               Daz het er im gesetzet
+                </l>
+             <l n="291" xml:id="s_283"> <note resp="editor" type="missing"> <seg type="wit">H</seg> </note>
+               vil schire an sîne kelen hin<pc>.</pc>
+                </l>
+             <l n="292" xml:id="s_284"> <note resp="editor" type="missing"> <seg type="wit">H</seg> </note>
+               Mit der hant begond er in
+                </l>
+             <l n="293" xml:id="s_285"> <note resp="editor" type="missing"> <seg type="wit">H</seg> </note>
+               vast umb den kragen wurgen<pc>.</pc>
+                </l>
+             <l n="294" xml:id="s_286"> <note resp="editor" type="missing"> <seg type="wit">H</seg> </note>
+               Er sprach<pc>:</pc> <pc>"</pc><app><lem>Nu lat mich</lem><rdg wit="#V #I">nu setzt mir</rdg><rdg wit="#W">ir lat mich</rdg></app> burgen
+                </l>
+             <l n="295" xml:id="s_287"> <note resp="editor" type="missing"> <seg type="wit">H</seg> </note>
+               <app><lem>enpfahen unde</lem><rdg wit="#V #I">Vnd gar gute</rdg></app> sicherheit<pc>,</pc>
+                </l>
+             <l n="296" xml:id="s_288"> <note resp="editor" type="missing"> <seg type="wit">H</seg> </note>
+               daz ewer <app><lem>gnade</lem><rdg wit="#V #I #W">hulde</rdg></app> mir bereit
+                </l>
+             <l n="297" xml:id="s_289"> <note resp="editor" type="missing"> <seg type="wit">H</seg> </note>
+               und ewer <app><lem>hulde</lem><rdg wit="#V #I #W">gnade</rdg></app> werde<pc>.</pc>
+                </l>
+             <l n="298" xml:id="s_290"> <note resp="editor" type="missing"> <seg type="wit">H</seg> </note>
+               Ir muzet ûf der erde
+                </l>
+             <l n="299" xml:id="s_291"> <note resp="editor" type="missing"> <seg type="wit">H</seg> </note>
+               daz leben <app><lem>anders</lem><rdg wit="#V #I"/></app> han verlorn<pc>.</pc>
+                </l>
+             <l n="300" xml:id="s_292"> <note resp="editor" type="missing"> <seg type="wit">H</seg> </note>
+               Den eit den ir hat gesworn<pc>,</pc>
+                </l>
+             <l n="301" xml:id="s_293"> <note resp="editor" type="missing"> <seg type="wit">H</seg> </note>
+               den velschet<pc>,</pc> ob ir welt genesen
+                </l>
+             <l n="302" xml:id="s_294"> <note resp="editor" type="missing"> <seg type="wit">H</seg> </note>
+               oder ez muz ewer ende wesen<pc>.</pc><pc>"</pc>
+                </l>
+            <l n="303" xml:id="s_295"> 
+               Sust lag er ûf im <app><lem>an der</lem><rdg wit="#V #I">lang</rdg></app> zît
+                </l>
+             <l n="304" xml:id="s_296"> 
+               und rauft in sere wider strît
+                </l>
+             <l n="305" xml:id="s_297"> <note resp="editor" type="missing"> <seg type="wit">H</seg> </note>
+               mit sînem langen bart<pc>.</pc>
+                </l>
+             <l n="306" xml:id="s_298"> <note resp="editor" type="missing"> <seg type="wit">H</seg> </note>
+               Er wurgt in also hart<pc>,</pc>
+                </l>
+            <l n="307" xml:id="s_299"> 
+               daz er niht mocht sprechen<pc>.</pc>
+                </l>
+            <l n="308" xml:id="s_300"> 
+               Die <app><lem>werden</lem><rdg wit="#W">freyen</rdg></app> und die vrechen
+                </l>
+            <l n="309" xml:id="s_301"> 
+               fursten alle ûfsprungen<pc>;</pc>
+                </l>
+            <l n="310" xml:id="s_302"> 
+               <app><lem>geswinde si dar</lem><rdg wit="#V #I">si lieffen und</rdg></app> drungen
+                </l>
+            <l n="311" xml:id="s_303"> 
+               vil gemeinlichen <app><lem wit="rest"/><rdg wit="#P">drungen</rdg></app> dar<pc>.</pc>
+                </l>
+            <l n="312" xml:id="s_304"> 
+               Da der keiser tot gevar
+                </l>
+            <l n="313" xml:id="s_305"> 
+              lag under dem von Kempten<pc>,</pc>
+                </l>
+            <l n="314" xml:id="s_306"> 
+               <app><lem>an kreften den erlempten</lem><rdg wit="#W">vnd in an chresten lempten</rdg></app><pc>,</pc>
+                </l>
+            <l n="315" xml:id="s_307"> 
+               <app><lem>hetens an</lem><rdg wit="#H">hetten sie in</rdg><rdg wit="#W">Si hetten in zu</rdg></app> den stunden
+                </l>
+            <l n="316" xml:id="s_308"> 
+               vil gern von im enbunden<pc>.</pc>
+                </l>
+            <l n="317" xml:id="s_309"> 
+               Do sprach der ritter <persName>Heinrich</persName><pc>:</pc>
+                </l>
+            <l n="318" xml:id="s_310"> 
+               <pc>"</pc>Ist ieman der nu ruret <app><lem>mich</lem><rdg wit="#V">sich</rdg></app><pc>,</pc> 
+                </l>
+            <l n="319" xml:id="s_311"> 
+               so muz der keiser ligen tot<pc>.</pc>
+                </l>
+            <l n="320" xml:id="s_312"> 
+               Dar noch so bring ich den zu not<pc>,</pc>
+                </l>
+            <l n="321" xml:id="s_313"> 
+               der mich zem ersten <app><lem>ruret</lem><rdg wit="#V #I #W">greiffet</rdg></app> an<pc>.</pc>
+                </l>
+            <l n="322" xml:id="s_314"> 
+               <app><lem>Sît</lem><rdg wit="#H">Sint</rdg><rdg wit="#W">Seind</rdg></app> daz ich niht genesen kan<pc>,</pc>
+                </l>
+            <l n="323" xml:id="s_315"> 
+               <app><lem>so komt der wirt</lem><rdg wit="#V #I">so wirt er</rdg><rdg wit="#W">ich pring den wirt</rdg></app> zu vreisen<pc>,</pc>
+                </l>
+            <l n="324" xml:id="s_316"> 
+               ich stich im ab den <app><lem>weisen</lem><rdg wit="#H">wesen</rdg></app>
+                </l>
+            <l n="325" xml:id="s_317"> 
+               mit disem mezzer vest<pc>.</pc>
+                </l>
+            <l n="326" xml:id="s_318"> 
+               Auch muezen sîn die gest
+                </l>
+            <l n="327" xml:id="s_319"> 
+               engelten die mich <app><lem>wellen</lem><rdg wit="#V #I"/></app> slahen<pc>.</pc>
+                </l>
+            <l n="328" xml:id="s_320"> 
+               Ich guez ir blutez mangen trahen<pc>,</pc>
+                </l>
+            <l n="329" xml:id="s_321"> 
+               e daz ich <app><lem>mug</lem><rdg wit="#V #I">müzz</rdg></app> verderben<pc>.</pc>
+                </l>
+            <l n="330" xml:id="s_322"> 
+               Nu <app><lem wit="#H #V #I">her</lem><rdg wit="#P #K">dar</rdg></app><pc>!</pc> Swer welle sterben<pc>,</pc>
+                </l>
+            <l n="331" xml:id="s_323"> 
+               der <app><lem>chere</lem><rdg wit="#I #V">köm</rdg></app> her und rure mich<pc>.</pc><pc>"</pc>
+                </l>
+            <l n="332" xml:id="s_324"> 
+               Sust tratens alle hinter sich<pc>,</pc>
+                </l>
+            <l n="333" xml:id="s_325"> 
+               als in die ware <app><lem wit="rest">schult</lem><rdg wit="#P">sult</rdg></app> gebot<pc>.</pc>
+                </l>
+            <l n="334" xml:id="s_326"> 
+               Der keiser ouh mit manger not
+                </l>
+            <l n="335" xml:id="s_327"> 
+                <note type="editorial">
+                    <seg type="comment" xml:lang="en">Schröder corrects according to #V: 'wenden' -&gt; 'winken/wenken'. 'Wenden' makes sense in the context, and there is no need to change it.</seg>
+                    <seg type="comment" xml:lang="de">Schröder korrigiert nach #V: 'wenden' -&gt; 'winken/wenken'. 'Wenden' macht in diesem Kontext Sinn, und es gibt keine Notwendigkeit es zu ändern.</seg>
+                    <seg type="comment" xml:lang="es">Schröder corrige según #V: 'wenden' -&gt; 'winken/wenken'. 'Wenden' tiene sentido en este contexto, y no hay necesidad de cambiarlo.</seg>
+                </note>
+                <app><lem>wenden sere</lem><rdg wit="#H">wenken sere</rdg><rdg wit="#V #I">vil ser winken</rdg><rdg wit="#W">in allen wenkchen</rdg></app> da began<pc>,</pc>
+                </l>
+            <l n="336" xml:id="s_328"> 
+               daz si <app><lem>giengen alle</lem><rdg wit="#W">traten</rdg></app> <app><lem>hin</lem><rdg wit="#W">balde</rdg></app> dan<pc>.</pc>
+                </l>
+            <l n="337" xml:id="s_329"> 
+               Daz wart getan und <app><lem>diz</lem><rdg wit="#H">dz</rdg><rdg wit="#V #I">ez</rdg><rdg wit="#W">schir</rdg></app> geschach<pc>.</pc>
+                </l>
+            <l n="338" xml:id="s_330"> 
+                <app><lem>Zu dem keiser <app><lem wit="#V #I">er</lem><rdg wit="#P #K #H"/></app> do</lem><rdg wit="#W">Er aber zu dem Chaiser</rdg></app> sprach<pc>,</pc>
+                </l>
+             <l n="339" xml:id="s_331"> <note resp="editor" type="missing"> <seg type="wit">W</seg> </note>
+               der <app><lem>unverzaget</lem><rdg wit="#V #I">werd ritter</rdg></app> <persName>Heinrich</persName><pc>:</pc>
+                </l>
+             <l n="340" xml:id="s_332"> <note resp="editor" type="missing"> <seg type="wit">W</seg> </note>
+               <pc>"</pc>Lat hie niht <app><lem>lange</lem><rdg wit="#V #I">lenger</rdg></app> ligen mich<pc>,</pc>
+                </l>
+             <l n="341" xml:id="s_333"> <note resp="editor" type="missing"> <seg type="wit">W</seg> </note>
+               ob ir daz leben wellet han<pc>.</pc>
+                </l>
+             <l n="342" xml:id="s_334"> <note resp="editor" type="missing"> <seg type="wit">W</seg> </note>
+               Mir werde sicherheit getan<pc>,</pc>
+                </l>
+             <l n="343" xml:id="s_335"> <note resp="editor" type="missing"> <seg type="wit">W</seg> </note>
+               daz ich genese<pc>;</pc> ich laz euh leben<pc>.</pc>
+                </l>
+             <l n="344" xml:id="s_336"> <note type="addition" n="1"><seg type="wit">W</seg><seg type="text">fur mein leib und fur mein leben</seg></note>
+               Wirt mir <app><lem>gewizheit</lem><rdg wit="#W">sicherheit</rdg></app> niht gegeben
+                </l>
+             <l n="345" xml:id="s_336a"/>
+            <l n="346" xml:id="s_337"> 
+               <app><lem><app><lem wit="#H #V #I">umb</lem><rdg wit="#P">kom</rdg><rdg wit="#K">Küme</rdg></app> den lîp</lem><rdg wit="#W">Sicherleich daz</rdg></app> ist ewer tot<pc>.</pc>
+                </l>
+            <l n="347" xml:id="s_338"> <note type="editorial">Schröder corrects to vinget. It means he did some signal with his finger to promise. #P suggest he sweared over his children.</note>
+                Hie mit ûf sîn <app><lem wit="#H #V #I #W">vinger</lem><rdg wit="#P #K">junger</rdg></app> bot
+                </l>
+            <l n="348" xml:id="s_339"> 
+               der keiser und lobte <app><lem>sa</lem><rdg wit="#W">im do</rdg></app><pc>,</pc>
+                </l>
+            <l n="349" xml:id="s_340"> 
+               bei keiserlichen eren da<pc>,</pc>
+                </l>
+            <l n="350" xml:id="s_341"> 
+               daz er in liez bî der stunt<pc>,</pc>
+                </l>
+            <l n="351" xml:id="s_342"> 
+               <app><lem>von dannen keren</lem><rdg wit="#W">liez reiten</rdg></app> wol gesunt<pc>.</pc>
+                </l>
+            <l n="352" xml:id="s_343"> 
+               Nu die sicherheit ergie<pc>,</pc>
+                </l>
+            <l n="353" xml:id="s_344"> 
+               keiser <persName>Otten</persName> er do lie
+                </l>
+             <l n="354" xml:id="s_345"> <note resp="editor" type="missing"> <seg type="wit">W</seg> </note>
+               geswind von im ûfstan<pc>.</pc>
+                </l>
+             <l n="355" xml:id="s_346"> <note resp="editor" type="missing"> <seg type="wit">W</seg> </note>
+               Er het im schir da verlan
+                </l>
+            <l n="356" xml:id="s_347"> 
+               den bart ûz sinen handen
+                </l>
+            <l n="357" xml:id="s_348"> 
+               und als er ûfgestanden
+                </l>
+            <l n="358" xml:id="s_349"> 
+               was von dem estrich wider<pc>,</pc>
+                </l>
+            <l n="359" xml:id="s_350"> 
+               <app><lem>da gienge er aber sitzen </lem><rdg wit="#H">Du saz er aber drate</rdg></app>nider
+                </l>
+            <l n="360" xml:id="s_351"> 
+               ûf sînen stul von richer art<pc>.</pc>
+                </l>
+            <l n="361" xml:id="s_352"> 
+               Daz har begond er unde den bart
+                </l>
+            <l n="362" xml:id="s_353"> 
+               strîchen und sprach also
+                </l>
+            <l n="363" xml:id="s_354"> 
+               zu dem <app><lem>Ritter</lem><rdg wit="#V #I">von Kempten</rdg></app> aber do<pc>.</pc>
+                </l>
+            <l n="364" xml:id="s_355"> 
+               <pc>"</pc>Ich han euh sicherheit gegeben<pc>,</pc>
+                </l>
+            <l n="365" xml:id="s_356"> 
+               daz ich euch lîp und leben
+                </l>
+            <l n="366" xml:id="s_357"> 
+               unverderbet laze<pc>.</pc>
+                </l>
+            <l n="367" xml:id="s_358"> 
+               Nu strîchet ewer straze
+                </l>
+             <l n="368" xml:id="s_359"><note resp="editor" type="missing"> <seg type="wit">W</seg> </note> 
+               also<pc>,</pc> daz ir mich immer
+                </l>
+             <l n="369" xml:id="s_360"> <note resp="editor" type="missing"> <seg type="wit">W</seg> </note>
+               vermidet <pc>,</pc> und <app><lem>ich</lem><rdg wit="#V #I">auch</rdg></app> nimmer
+                </l>
+             <l n="370" xml:id="s_361"> <note type="addition" n="2"><seg type="wit">W</seg><seg type="text">Und hab das gar wol vernomen / Daz ir zu swere seit bechommen</seg></note>
+               ouch mit ougen angesehe<pc>.</pc>
+                </l>
+            <l n="371" xml:id="s_361a"/>
+            <l n="372" xml:id="s_361b"/>
+            <l n="373" xml:id="s_362"> 
+               Ich bruef daz wol und spehe<pc>,</pc>
+                </l>
+            <l n="374" xml:id="s_363"> 
+               <app><lem>daz ir zu einem ingesinde</lem><rdg wit="#W">Mein gesinde her zu</rdg></app> mir
+                </l>
+            <l n="375" xml:id="s_364"> <note type="editorial">Schröder schreibt Joch</note>
+               zu swere sît<pc>·</pc> <app><lem wit="editor">Joch</lem><rdg wit="#P">idoch</rdg><rdg wit="#I #V">auch</rdg><rdg wit="#H">ja</rdg><rdg wit="#W">darzu</rdg></app> habt ir
+                </l>
+            <l n="376" xml:id="s_365"> 
+               vil harte an mir geunfuget<pc>:</pc>
+                </l>
+            <l n="377" xml:id="s_366"> 
+               swer blicket und luget
+                </l>
+            <l n="378" xml:id="s_367"> 
+               an mînen bart der keuset wol<pc>,</pc>
+                </l>
+            <l n="379" xml:id="s_368"> 
+               daz ich immer gern sol
+                </l>
+             <l n="380" xml:id="s_369"><note resp="editor" type="missing"> <seg type="wit">W</seg> </note> 
+               ewer heimlich enpern<pc>.</pc>
+                </l>
+             <l n="381" xml:id="s_370"> <note resp="editor" type="missing"> <seg type="wit">W</seg> </note>
+               Mir muz ein ander meister schern
+                </l>
+             <l n="382" xml:id="s_371"> <note resp="editor" type="missing"> <seg type="wit">W</seg> </note>
+               denne ir<pc>;</pc> daz wîzzet ane spot<pc>.</pc>
+                </l>
+             <l n="383" xml:id="s_372"> <note resp="editor" type="missing"> <seg type="wit">W</seg> </note>
+               Mîn bart muz immer<pc>,</pc> sammir got<pc>,</pc>
+                </l>
+            <l n="384" xml:id="s_373"> 
+               ewer scharsach mîden<pc>;</pc>
+                </l>
+            <l n="385" xml:id="s_374"> 
+               er kan unsanft snîden
+                </l>
+            <l n="386" xml:id="s_375"> 
+               haut und har den kunegen ab<pc>.</pc>
+                </l>
+            <l n="387" xml:id="s_376"> 
+               Vil wol ich des gefunden hab<pc>,</pc>
+                </l>
+            <l n="388" xml:id="s_377"> 
+               daz ir ein ubel scherer sît<pc>.</pc>
+                </l>
+            <l n="389" xml:id="s_378"> 
+               Ir sult bî dirre tage zît<pc>,</pc>
+                </l>
+            <l n="390" xml:id="s_379"> 
+               uns roumen hof und lant<pc>.</pc><pc>"</pc>
+                </l>
+            <l n="391" xml:id="s_380"> 
+               Sust nam der Ritter alzehant
+                </l>
+            <l n="392" xml:id="s_381"> 
+               zu des keisers mannen
+                </l>
+            <l n="393" xml:id="s_382"> 
+               urloup und <app><lem>fur</lem><rdg wit="#V #I">eilte</rdg><rdg wit="#W">vur</rdg></app> von dannen<pc>.</pc>
+                </l>
+            <l n="394" xml:id="s_383"> 
+               Er kerte gegen <placeName>swaben</placeName> wider
+                </l>
+            <l n="395" xml:id="s_384"> 
+               <app><lem>und lie sich <app><lem>da zu lande</lem><rdg wit="#W">mit haws</rdg></app></lem><rdg wit="#I #V">Do gie er sitzen aber</rdg></app> nider
+                </l>
+            <l n="396" xml:id="s_385"> 
+               ûf ein rîches <app><lem>lehen</lem><rdg wit="#P">leben</rdg></app> gelt
+                </l>
+            <l n="397" xml:id="s_386"> 
+               atker<pc>,</pc> wîsen<pc>,</pc> und velt
+                </l>
+            <l n="398" xml:id="s_387"> 
+               het <persName>der von Kempten</persName> als <app><lem>ich</lem><rdg wit="#W">man es</rdg></app> las<pc>.</pc>
+                </l>
+            <l n="399" xml:id="s_388"> <note type="editorial">Schröder forgets #V</note>
+               Dar auf liez er sich<c>,</c> wan er <app><lem>was</lem><rdg wit="#V">roz</rdg></app>
+                </l>
+            <l n="400" xml:id="s_389"> 
+               ein dienstman der selben stift<pc>.</pc>
+                </l>
+            <l n="401" xml:id="s_390"> 
+               Uns sait von im die ware schrift<pc>,</pc>
+                </l>
+             <l n="402" xml:id="s_391"> <note type="transposed"><seg type="wit">W</seg></note>
+               daz er sich schoene gar betruck<pc>,</pc>
+                </l>
+            <l n="403" xml:id="s_392"> 
+                wan er hete <app><lem>gulte</lem><rdg wit="#V #I">guts</rdg></app> genuck<note type="transposed"><seg type="wit">W</seg></note>
+                </l>
+             <l n="404" xml:id="s_393"> <note type="addition" n="2"><seg type="wit">W</seg><seg type="text">Und fur den pesten ain erchorn / Als und gesaget ist furwar</seg></note>
+               und was <app><lem>an eren offenbar</lem><rdg wit="#W">des leibes wolgeborn</rdg></app><pc>.</pc>
+                </l>
+            <l n="405" xml:id="s_393a"/>
+            <l n="406" xml:id="s_393b"/>
+            <l n="407" xml:id="s_394"> 
+               Dar nach uber <app><lem>zehen</lem><rdg wit="#V #I">zwaink (zwanzig)</rdg></app> iar
+                </l>
+            <l n="408" xml:id="s_395"> 
+               kom ez von geschicht also<pc>,</pc>
+                </l>
+            <l n="409" xml:id="s_396"> 
+               daz der <persName>Keiser Otte</persName> do
+                </l>
+             <l n="410" xml:id="s_397"> <note type="transposed"><seg type="wit">W</seg></note>
+               eines grozen <app><lem>urleuges</lem><rdg wit="#V #I">kriegs</rdg></app> pflack
+                </l>
+            <l n="411" xml:id="s_398"> 
+                und <app><lem>jensît</lem><rdg wit="#I #V #W">enhalben</rdg></app> dem gebirge lack<note type="transposed"><seg type="wit">W</seg></note>
+                </l>
+            <l n="412" xml:id="s_399"> 
+               vor einer stat vil wunneclich<pc>.</pc>
+                </l>
+            <l n="413" xml:id="s_400"> 
+               Er und die sînen heten sich
+                </l>
+            <l n="414" xml:id="s_401"> 
+               dar ûf gevlizzen mange zît<pc>,</pc>
+                </l>
+            <l n="415" xml:id="s_402"> 
+               wî si der veste geben strît
+                </l>
+            <l n="416" xml:id="s_403"> 
+               mit steinen und mit pfîlen<pc>.</pc>
+                </l>
+            <l n="417" xml:id="s_404"> 
+               Doch was er bî den wîlen
+                </l>
+            <l n="418" xml:id="s_405"> 
+               an leuten also nothaft<pc>,</pc>
+                </l>
+            <l n="419" xml:id="s_406"> 
+               daz er nach deutscher ritterschaft
+                </l>
+            <l n="420" xml:id="s_407"> 
+               herûz begonde senden<pc>.</pc>
+                </l>
+            <l n="421" xml:id="s_408"> 
+               Er <app><lem wit="#I #K #P">hiez</lem><rdg wit="#V #H #W">liez</rdg></app> in allen enden
+                </l>
+            <l n="422" xml:id="s_409"> 
+               den <app><lem>leuten</lem><rdg wit="#W">herren</rdg></app> kunden und sagen<pc>,</pc>
+                </l>
+            <l n="423" xml:id="s_410"> 
+               swer icht het bî den tagen
+                </l>
+            <l n="424" xml:id="s_411"> 
+               zu lehen von dem rîch<pc>,</pc>
+                </l>
+            <l n="425" xml:id="s_412"> 
+               daz im der snelliclîch
+                </l>
+             <l n="426" xml:id="s_413"> <note resp="editor" type="missing"> <seg type="wit">W</seg> </note>
+               zu helfe kome bî der stunt<pc>.</pc>
+                </l>
+             <l n="427" xml:id="s_414"> <note resp="editor" type="missing"> <seg type="wit">W</seg> </note>
+               Dabî tet er den <app><lem>fursten</lem><rdg wit="#I #V">herren</rdg></app> chunt<pc>:</pc>
+                </l>
+             <l n="428" xml:id="s_415"> <note resp="editor" type="missing"> <seg type="wit">W</seg> </note>
+               Swer im were diensthaft
+                </l>
+             <l n="429" xml:id="s_416"> <note resp="editor" type="missing"> <seg type="wit">W</seg> </note>
+               und lehen oder manscraft
+                </l>
+             <l n="430" xml:id="s_417"> <note resp="editor" type="missing"> <seg type="wit">W</seg> </note>
+               enpfangen <app><lem wit="#V #I #H">hette</lem><rdg wit="#P #K">heten</rdg></app> von in<pc>,</pc>
+                </l>
+             <l n="431" xml:id="s_418"> <note resp="editor" type="missing"> <seg type="wit">W</seg> </note>
+               daz <app><lem>die zu helfe komen</lem><rdg wit="#V #I">er pald kert</rdg></app> hin
+                </l>
+            <l n="432" xml:id="s_419"> 
+               zu <placeName>pulle</placeName> bî den zîten
+                </l>
+            <l n="433" xml:id="s_420"> 
+               <app><lem>und im da hulfen strîten</lem><rdg wit="#W">da het der chaiser grozzer streit</rdg></app><pc>.</pc>
+                </l>
+            <l n="434" xml:id="s_421"> 
+               <app><lem>Swer</lem><rdg wit="#V #I">Vnd ob er</rdg></app> des niht entet<pc>,</pc>
+                </l>
+            <l n="435" xml:id="s_422"> 
+               daz der sîn lehen het
+                </l>
+            <l n="436" xml:id="s_423"> 
+               verwurket und ez solt lan<pc>.</pc>
+                </l>
+            <l n="437" xml:id="s_424"> 
+               Nu daz die botschaft getan
+                </l>
+            <l n="438" xml:id="s_425"> 
+               wart in elleu deutsche lant<pc>,</pc>
+                </l>
+            <l n="439" xml:id="s_426"> 
+               da wart zu <placeName>Kempten</placeName> gesant
+                </l>
+            <l n="440" xml:id="s_427"> 
+               dem apt auch ein bote sa<pc>,</pc>
+                </l>
+            <l n="441" xml:id="s_428"> 
+               der im die mere seite da<pc>.</pc>
+                </l>
+            <l n="442" xml:id="s_429"> 
+               <app><lem>Als</lem><rdg wit="#I #V">Nu</rdg><rdg wit="#H #W">Do</rdg></app> der furste <app><lem>lobesam</lem><rdg wit="#H #W">wunnesam</rdg></app> 
+                </l>
+            <l n="443" xml:id="s_430"> 
+               des keisers botschaft vernam<pc>,</pc>
+                </l>
+            <l n="444" xml:id="s_431"> 
+               da wart er ûf die vart bereit<pc>.</pc>
+                </l>
+            <l n="445" xml:id="s_432"> 
+               Auch wurden schire<pc>,</pc> so man seit<pc>,</pc>
+                </l>
+            <l n="446" xml:id="s_433"> 
+               ane sîne dienstman besant
+                </l>
+            <l n="447" xml:id="s_434"> 
+               und ûf die reise da gemant
+                </l>
+            <l n="448" xml:id="s_435"> 
+               mit trewen und mit eiden<pc>.</pc>
+                </l>
+            <l n="449" xml:id="s_436"> 
+               Den ritter wol bescheiden
+                </l>
+            <l n="450" xml:id="s_437"> 
+               von Kempten hiez er <app><lem>vor sich</lem><rdg wit="#I #V"/></app> chomen<pc>.</pc>
+                </l>
+            <l n="451" xml:id="s_438"> 
+               Er sprach<pc>:</pc> <pc>"</pc>Ir habt daz wol vernomen<pc>,</pc>
+                </l>
+            <l n="452" xml:id="s_439"> 
+               daz der keiser hat gesant
+                </l>
+            <l n="453" xml:id="s_440"> 
+               nach leuten her in deutsche lant
+                </l>
+            <l n="454" xml:id="s_441"> 
+               und ich der fursten einer bin<pc>,</pc>
+                </l>
+            <l n="455" xml:id="s_442"> 
+               der <app><lem>im</lem><rdg wit="#W"/></app> ze helfe komen bin
+                </l>
+            <l n="456" xml:id="s_443"> 
+               uber daz gebirge sol<pc>.</pc>
+                </l>
+            <l n="457" xml:id="s_444"> 
+               Dar zu bedarf ich ewer wol
+                </l>
+            <l n="458" xml:id="s_445"> 
+               und <app><lem/><rdg wit="#H">ander</rdg></app>mîner dienstleute<pc>,</pc>
+                </l>
+            <l n="459" xml:id="s_446"> 
+               die man ich alle heute
+                </l>
+            <l n="460" xml:id="s_447"> 
+               <app><lem>und euch ze vorderst<pc>,</pc> daz ir vart</lem><rdg wit="#W">Daz si mit mir dahin varn</rdg></app>
+                </l>
+            <l n="461" xml:id="s_448"> 
+               und die reise niht enspart<pc>,</pc>
+                </l>
+            <l n="462" xml:id="s_449"> 
+               die mir und euch geboten ist<pc>.</pc>
+                </l>
+            <l n="463" xml:id="s_450"> 
+               Da von sult ir an dirre vrist
+                </l>
+            <l n="464" xml:id="s_451"> 
+               <app><lem>ûf die vart sîn</lem><rdg wit="#I #V">werden auf dw fart</rdg></app> bereit<pc>.</pc>
+                </l>
+            <l n="465" xml:id="s_452"> 
+                <note type="editorial">
+                    <seg type="comment" xml:lang="es">En #P se produce una confusión con el verso anterior</seg>
+                </note>
+               <pc>"</pc>Ach<pc>,</pc> herre<pc>!</pc> Was habt ir <app><lem wit="#H #I #V #W">geseit</lem><rdg wit="#P #K">bereit</rdg></app><pc>?</pc><pc>"</pc>
+                </l>
+            <l n="466" xml:id="s_453"> 
+               Sprach <persName>von Kempten Heinrich</persName><pc>.</pc>
+                </l>
+            <l n="467" xml:id="s_454"> 
+               <pc>"</pc>Nu wist ir wol daz ich
+                </l>
+            <l n="468" xml:id="s_455"> <note>Schroder getar</note>
+               vur den keiser niht <app><lem>entar</lem><rdg wit="#H #V #I">getar</rdg></app>
+                </l>
+            <l n="469" xml:id="s_456"> <note>Next three verses are complex. Ask Victor</note>
+               <app><lem>und ich sîner hulde</lem><rdg wit="#I #V">Ze hofe kommen und ich</rdg></app> gar
+                </l>
+            <l n="470" xml:id="s_457"> 
+               immer me verwirket han<pc>.</pc>
+                </l>
+            <l n="471" xml:id="s_458"> 
+               Ir sult der reise mich erlan<pc>,</pc>
+                </l>
+            <l n="472" xml:id="s_459"> 
+               immer durch den <app><lem>dienst</lem><rdg wit="#H">willen</rdg></app> mîn<pc>.</pc>
+                </l>
+            <l n="473" xml:id="s_460"> 
+               Der keiser hat die <app><lem>gnade</lem><rdg wit="#I #V #W">huld</rdg><rdg wit="#H">ungenade</rdg></app> sîn
+                </l>
+            <l n="474" xml:id="s_461"> 
+               vil gar von mir <app><lem>geleitet</lem><rdg wit="#V #I">gesetzet</rdg></app>
+                </l>
+            <l n="475" xml:id="s_462"> 
+               und uber mich gespreitet
+                </l>
+            <l n="476" xml:id="s_463"> 
+               sîner ungenade bün'<pc>.</pc>
+                </l>
+            <l n="477" xml:id="s_464"> 
+               Ich han erzogen zwen sün'<pc>;</pc>
+                </l>
+             <l n="479" xml:id="s_465"> <note type="alternative"><seg type="wit">W</seg><seg type="text">Zu ſtreit erzogen wünneſam</seg><seg type="comment">W reemplaza versos 479-480 con uno solo</seg></note>
+               die sende ich<pc>,</pc> herre<pc>,</pc> mit euch dar<pc>,</pc>
+                </l>
+            <l n="480" xml:id="s_466"> <note type="missing"><seg type="wit">W</seg></note>
+               e daz ich alters eine var<pc>.</pc>
+                </l>
+            <l n="481" xml:id="s_467"> 
+               <app><lem>So fuert si</lem><rdg wit="#H">Wande si sint beide</rdg><rdg wit="#W">Secht die nemet</rdg></app> bedesamt<pc>;</pc>
+                </l>
+             <l n="482" xml:id="s_468"> <note resp="editor" type="missing"> <seg type="wit">W</seg> </note>
+               geziret wol ûf strîtes amt
+                </l>
+            <l n="483" xml:id="s_469"> 
+                <note type="editorial">
+                    <seg type="comment" xml:lang="es">El verso parece estar corrompido en toda la transmisión y la gran variación y extrañeza sugiere cierta dificultad en la comprensión original. La lectura de P es compleja y poco común, pero la mantengo. Entiendo el "si fuerent si" como "ellas las llevan", referiéndose el objeto directo a "las armas", que no se nombran explícitamente pero que están implícitas en la afirmación anterior de que viajan vestidos para la guerra. Las versiones de los otros testimonios no agregan información nueva, sino que repiten lo que ya se dijo antes.</seg>
+                </note>
+               <app><lem>sint<pc>,</pc> si fuerent si da</lem><rdg wit="#H">Seht die furet mit uch</rdg><rdg wit="#W">Mit ew zu dem chaiser</rdg></app> hin
+                </l>
+            <l n="484" xml:id="s_470"> 
+               <pc>"</pc>Nein<pc>,</pc><pc>"</pc> Sprach der apt<pc>.</pc> <pc>"</pc>Ich enpin
+                </l>
+            <l n="485" xml:id="s_471"> 
+               des mutes niht<pc>,</pc> daz ich ir ger
+                </l>
+            <l n="486" xml:id="s_472"> 
+               und ewer durch si <app><lem>bede</lem><rdg wit="#V #I"/></app> enper<pc>,</pc>
+                </l>
+            <l n="487" xml:id="s_473"> 
+               wan ir mir nutzer eine sît<pc>,</pc>
+                </l>
+            <l n="488" xml:id="s_474"> 
+               mîn trost und alle mîn <app><lem>ere lît</lem><rdg wit="#V">erleit</rdg></app>
+                </l>
+            <l n="489" xml:id="s_475"> 
+               an euh bei dirre zît<pc>.</pc>
+                </l>
+            <l n="490" xml:id="s_476"> 
+               Ja kunnet ir zu strît
+                </l>
+            <l n="491" xml:id="s_477"> 
+               geraten ûz der maze wol
+                </l>
+            <l n="492" xml:id="s_478"> 
+               und swaz man hoher dinge sol<pc>:</pc>
+                </l>
+            <l n="493" xml:id="s_479"> 
+               zu hove schicken alle weg<pc>.</pc>
+                </l>
+            <l n="494" xml:id="s_480"> 
+               Daz mag verrichten <app><lem wit="#H #I #V #W">ewr phleg</lem><rdg wit="#P #K">alle weg</rdg></app>
+                </l>
+            <l n="495" xml:id="s_481"> 
+               michels baz dan ieman<pc>.</pc>
+                </l>
+            <l n="496" xml:id="s_482"> 
+               So nutz ist mir nieman
+                </l>
+            <l n="497" xml:id="s_483"> 
+               an <app><lem>dirre</lem><rdg wit="#V #I">meiner</rdg><rdg wit="#W">meinen</rdg></app> hinvert als ir<pc>.</pc>
+                </l>
+            <l n="498" xml:id="s_484"> 
+               Da von so <app><lem>bit</lem><rdg wit="#I #V">ger</rdg><rdg wit="#W">mut</rdg></app> ich<pc>,</pc> daz ir mir 
+                </l>
+            <l n="499" xml:id="s_485"> 
+               rat mit wîser lere gebet<pc>.</pc>
+                </l>
+            <l n="500" xml:id="s_486"> 
+               Ist daz ir da wider strebet
+                </l>
+            <l n="501" xml:id="s_487"> 
+               und ir mir dienstes abe <app><lem wit="#H #I #V">gant</lem><rdg wit="#K #P">gat</rdg><rdg wit="#W">gestat</rdg></app><pc>,</pc>
+                </l>
+            <l n="502" xml:id="s_488"> 
+               <app><lem>swaz ir von mir zu lehen habt</lem><rdg wit="#W">Waz ir zu leben von mir gabt</rdg></app><pc>,</pc>
+                </l>
+            <l n="503" xml:id="s_489"> 
+               weizgot<pc>,</pc> daz <app><lem>lîhe</lem><rdg wit="#V #I #W">leich</rdg><rdg wit="#H">lige</rdg></app> ich anderswar<pc>,</pc>
+                </l>
+            <l n="504" xml:id="s_490"> 
+               da manz verdienen wol getar<pc>.</pc><pc>"</pc>
+                </l>
+            <l n="505" xml:id="s_491"> 
+               <pc>"</pc><app><lem>Entrewen</lem><rdg wit="#W">Trewen</rdg></app><pc>"</pc><pc>,</pc> sprach der Ritter do<pc>,</pc>
+                </l>
+            <l n="506" xml:id="s_492"> 
+               <pc>"</pc><app><lem>und ist der <app><lem>rede</lem><rdg wit="#V #I">sache</rdg></app></lem><rdg wit="#W">Sind die mër</rdg></app> denne also<pc>,</pc>
+                </l>
+            <l n="507" xml:id="s_493"> 
+               daz ir mîn lehen <app><lem>lîhet</lem><rdg wit="#H">ligent</rdg></app> hin<pc>,</pc>
+                </l>
+            <l n="508" xml:id="s_494"> 
+               ob ich euch niht gehorsam bin<pc>,</pc>
+                </l>
+            <l n="509" xml:id="s_495"> 
+               ich var ê mit euch wîzze krîst<pc>.</pc>
+                </l>
+            <l n="510" xml:id="s_496"> 
+               Swie mir die <app><lem>reise</lem><rdg wit="#H">rede</rdg></app> an dirre vrist
+                </l>
+            <l n="511" xml:id="s_497"> 
+               zu grozen sorgen sîn gewant<pc>,</pc>
+                </l>
+            <l n="512" xml:id="s_498"> 
+               ê daz ich laz ûz mîner hant
+                </l>
+            <l n="513" xml:id="s_499"> 
+               mîn <app><lem>lehen</lem><rdg wit="#H">lant</rdg></app> und mîn ere<pc>,</pc>
+                </l>
+            <l n="514" xml:id="s_500"> 
+               ê rîte ich unde kere
+                </l>
+            <l n="515" xml:id="s_501"> 
+               mit euch benamen in den tot<pc>.</pc>
+                </l>
+            <l n="516" xml:id="s_502"> 
+               Mîn helfe sol zu rechter not
+                </l>
+            <l n="517" xml:id="s_503"> 
+               euh <app><lem>bereit <app><lem>mit willen</lem><rdg wit="#H">mit truwen</rdg><rdg wit="#V #I">von schulden</rdg></app></lem><rdg wit="#W">ymmer undertenig</rdg></app> sîn<pc>,</pc>
+                </l>
+            <l n="518" xml:id="s_504"> 
+               wan ir sît der herre mîn<pc>,</pc>
+                </l>
+            <l n="519" xml:id="s_505"> 
+               den ich <app><lem>dienstes</lem><rdg wit="#V #I">trewn</rdg></app> muz gewern<pc>.</pc>
+                </l>
+            <l n="520" xml:id="s_506"> 
+               Sît ir sîn niht welt enpern<pc>,</pc>
+                </l>
+            <l n="521" xml:id="s_507"> 
+               so werd erfullet ewer mut<pc>.</pc>
+                </l>
+            <l n="522" xml:id="s_508"> 
+               Swaz mir der keiser ubels tut<pc>,</pc>
+                </l>
+            <l n="523" xml:id="s_509"> 
+               daz wil ich gern dulden
+                </l>
+            <l n="524" xml:id="s_510"> 
+               durch daz ich eu ze hulden
+                </l>
+            <l n="525" xml:id="s_511"> 
+               gedienen mug an dirre vart<pc>.</pc><pc>"</pc>
+                </l>
+            <l n="526" xml:id="s_512"> 
+               Hie mit ûf sîn reise wart
+                </l>
+            <l n="527" xml:id="s_513"> 
+               bereit der ellentrîche man<pc>.</pc>
+                </l>
+            <l n="528" xml:id="s_514"> 
+               Er fur mit sînem herren dan
+                </l>
+            <l n="529" xml:id="s_515"> 
+               uber daz gebirge enweck<pc>.</pc>
+                </l>
+            <l n="530" xml:id="s_516"> 
+               Er was so kuene und ouch so check<pc>,</pc>
+                </l>
+            <l n="531" xml:id="s_517"> 
+               daz er durch <app><lem>vorcht wenich</lem><rdg wit="#H">forte niht in</rdg></app> liez<pc>.</pc>
+                </l>
+            <l n="532" xml:id="s_518"> 
+               Er tet swaz in sîn herre hiez
+                </l>
+            <l n="533" xml:id="s_519"> 
+               und wart im under tenick gar<pc>.</pc>
+                </l>
+            <l n="534" xml:id="s_520"> 
+               Si waren bede schire dar
+                </l>
+            <l n="535" xml:id="s_521"> 
+               vur die selben stat gezoget<pc>,</pc>
+                </l>
+            <l n="536" xml:id="s_522"> 
+               do der <app><lem wit="#V #I  #H #W">romisch</lem><rdg wit="#P">romes</rdg></app> voget
+                </l>
+            <l n="537" xml:id="s_523"> 
+               lack mit sînem her vil stark<pc>.</pc>
+                </l>
+            <l n="538" xml:id="s_524"> 
+               <persName>Heinrich von Kempten</persName> sich <app><lem/><rdg wit="#V #I">allz</rdg></app>bark
+                </l>
+            <l n="539" xml:id="s_525"> 
+               vor des keisers angesicht
+                </l>
+            <l n="540" xml:id="s_526"> 
+               und quam fur <app><lem>in</lem><rdg wit="#H"/></app> zu lichte niht<pc>,</pc>
+                </l>
+             <l n="541" xml:id="s_527"><note type="missing"> <seg type="wit">H</seg></note> 
+                wan er <app><lem wit="#I #V">durch</lem><rdg wit="#P #K">im auch</rdg><rdg wit="#W">noch</rdg></app> den alten haz
+                </l>
+             <l n="542" xml:id="s_528"> <note type="missing"> <seg type="wit">H</seg></note>
+               und <app><lem>durch sîn schuld</lem><rdg wit="#W">die schulde sein</rdg></app> entsaz<pc>.</pc>
+                </l>
+            <l n="543" xml:id="s_529"> 
+               So vloch in der kune man<pc>:</pc>
+                </l>
+            <l n="544" xml:id="s_530"> 
+               ein lutzel von dem her hin dan<pc>,</pc>
+                </l>
+            <l n="545" xml:id="s_531"> 
+               het er die hutten sîn geslagen<pc>.</pc>
+                </l>
+            <l n="546" xml:id="s_532"> 
+               Ein bat was im darîn getragen
+                </l>
+            <l n="547" xml:id="s_533"> 
+               an einem tag<pc>,</pc> als <app><lem>ich</lem><rdg wit="#W">man</rdg></app> ez las<pc>,</pc>
+                </l>
+            <l n="548" xml:id="s_534"> 
+               wan im nach sîner verte was
+                </l>
+            <l n="549" xml:id="s_535"> 
+               gemachz <app><lem>durft<pc>.</pc> Do</lem><rdg wit="#H">not du</rdg><rdg wit="#W">not des</rdg></app> badet er
+                </l>
+            <l n="550" xml:id="s_536"> 
+               in einem zuber<pc>,</pc> der im her
+                </l>
+            <l n="551" xml:id="s_537"> 
+               was von einem dorfe bracht<pc>.</pc>
+                </l>
+            <l n="552" xml:id="s_538"> 
+               Und da der Ritter wol bedaht
+                </l>
+            <l n="553" xml:id="s_539"> 
+               was gesezzen in daz bat<pc>,</pc>
+                </l>
+            <l n="554" xml:id="s_540"> 
+               da sach er kumen ûz der stat
+                </l>
+            <l n="555" xml:id="s_541"> 
+               ein teil der burgere<pc>,</pc>
+                </l>
+            <l n="556" xml:id="s_542"> 
+               <app><lem>und</lem><rdg wit="#H">Gegen in</rdg><rdg wit="#V #I #W">und auch</rdg></app> den keiser <app><lem>mere</lem><rdg wit="#V #I"/></app><pc>,</pc>
+                </l>
+            <l n="557" xml:id="s_543"> 
+               <app><lem>stapfen</lem><rdg wit="#H">begunde stappen</rdg><rdg wit="#V #I">reiten</rdg><rdg wit="#W">Sach er reiten</rdg></app> gegen in dort hin<pc>.</pc>
+                </l>
+            <l n="558" xml:id="s_544"> 
+               Umb die stat <app><lem wit="#H #I #V #W">er</lem><rdg wit="#P"/></app>wolt mit in
+                </l>
+            <l n="559" xml:id="s_545"> 
+               teidingen und kosen<pc>.</pc>
+                </l>
+            <l n="560" xml:id="s_546"> 
+               Da von die trewelosen
+                </l>
+            <l n="561" xml:id="s_547"> 
+               burger heten ûf geleit
+                </l>
+            <l n="562" xml:id="s_548"> 
+               <app><lem>mit parat und mit valscheit</lem><rdg wit="#W">ein parat und ein chündichait</rdg></app><pc>,</pc>
+                </l>
+            <l n="563" xml:id="s_549"> 
+               <app><lem>daz si in zu tode</lem><rdg wit="#W">Daz si in ze tode</rdg></app> sluegen<pc>.</pc>
+                </l>
+            <l n="564" xml:id="s_550"> 
+               Si wolten gerne fuegen<pc>,</pc>
+                </l>
+             <l n="565" xml:id="s_551"><note resp="editor" type="missing"> <seg type="wit">W</seg> </note> 
+               so er mit in sprachen wolt<pc>,</pc>
+                </l>
+             <l n="566" xml:id="s_552"> <note resp="editor" type="missing"> <seg type="wit">W</seg> </note>
+               daz man in <app><lem>slagen</lem><rdg wit="#V #I">dann</rdg></app> scholt
+                </l>
+            <l n="567" xml:id="s_553"> 
+               <app><lem><app><lem>und</lem><rdg wit="#V #I"/></app> ermorden an</lem><rdg wit="#W">vil gar an alles</rdg></app> widersagen<pc>.</pc>
+                </l>
+            <l n="568" xml:id="s_554"> 
+               <app><lem>Nu hete schir sich</lem><rdg wit="#W">Sie hetten haz auf in</rdg></app> getragen
+                </l>
+            <l n="569" xml:id="s_555"> 
+               <app><lem>die zît</lem><rdg wit="#V #I"/><rdg wit="#W">Manig</rdg></app> also des bin ich wer<pc>,</pc>
+                </l>
+            <l n="570" xml:id="s_556"> 
+               daz er gerîten quam dort her
+                </l>
+            <l n="571" xml:id="s_557"> 
+               <app><lem>gewefens îtel</lem><rdg wit="#V #I">Waffens eitel ploz</rdg><rdg wit="#W">Waffen eytel</rdg></app> und bar<pc>.</pc>
+                </l>
+            <l n="572" xml:id="s_558"> 
+               Ein taugenlicheu harm schar
+                </l>
+            <l n="573" xml:id="s_559"> 
+               waz im zu lage da <app><lem>geleit</lem><rdg wit="#V #I">berait</rdg><rdg wit="#W">vorgeleit</rdg></app><pc>.</pc>
+                </l>
+            <l n="574" xml:id="s_560"> 
+               Darîn er ungewarnet reit
+                </l>
+            <l n="575" xml:id="s_561"> 
+               und wart mit vrechen handen<pc>,</pc>
+                </l>
+            <l n="576" xml:id="s_562"> 
+               eins <app><lem>strites</lem><rdg wit="#W">rechtens</rdg></app> da bestanden<pc>,</pc>
+                </l>
+            <l n="577" xml:id="s_563"> 
+               <app><lem>wan die treulose</lem><rdg wit="#W">Von der tugendlosen</rdg></app> diet<pc>,</pc>
+                </l>
+             <l n="578" xml:id="s_564"> <note type="addition" n="2"><seg type="wit">I V W</seg><seg type="text">Die cham auf in gerawschet / Mit plossen swertz pawschet / So wolten im prewn ungemach</seg></note>
+               die taugen sînen schaden riet
+                </l>
+             <l n="579" xml:id="s_565"/>
+             <l n="580" xml:id="s_566"/>
+            <l n="581" xml:id="s_567"> 
+               <app><lem wit="#H #W">und</lem><rdg wit="#P #K"/><rdg wit="#V #I">Sie</rdg></app> wolten <app><lem wit="#H #V #I #W">im</lem><rdg wit="#P #K"/></app> brueven ungemach<pc>.</pc>
+                </l>
+            <l n="582" xml:id="s_568"> 
+               Und da der ritter daz er sach
+                </l>
+            <l n="583" xml:id="s_569"> 
+               von Kempten in dem bade dort<pc>,</pc>
+                </l>
+            <l n="584" xml:id="s_570"> 
+               daz man <app><lem>da mein und</lem><rdg wit="#V #I">den falschen</rdg></app> mort
+                </l>
+            <l n="585" xml:id="s_571"> 
+               alsus begonde brüen
+                </l>
+            <l n="586" xml:id="s_572"> 
+               und <app><lem>daz man an den</lem><rdg wit="#W">in falschen</rdg></app> trewen
+                </l>
+            <l n="587" xml:id="s_573"> 
+               den <persName>keiser Otten</persName> wolt slahen<pc>;</pc>
+                </l>
+            <l n="588" xml:id="s_574"> 
+               da liez er baden und twahen
+                </l>
+            <l n="589" xml:id="s_575"> 
+               vil gar blîben underwegen<pc>.</pc>
+                </l>
+            <l n="590" xml:id="s_576"> 
+               Als ein ûz erwelter degen
+                </l>
+            <l n="591" xml:id="s_577"> 
+               spranch er ûz dem zuber tief
+                </l>
+            <l n="592" xml:id="s_578"> 
+               zu sînem schilte er <app><lem>do</lem><rdg wit="#V #I">bald</rdg></app> lief<pc>.</pc>
+                </l>
+            <l n="593" xml:id="s_579"> 
+               Der hienc an einer wende<pc>,</pc>
+                </l>
+            <l n="594" xml:id="s_580"> 
+               den nam er <app><lem>zu der hende</lem><rdg wit="#V #I">vil behend</rdg></app>
+                </l>
+            <l n="595" xml:id="s_581"> 
+               und <app><lem>ein</lem><rdg wit="#W">sein</rdg></app> swert gar ûz erwelt<pc>.</pc>
+                </l>
+            <l n="596" xml:id="s_582"> 
+               Da mit kom der blozze helt
+                </l>
+            <l n="597" xml:id="s_583"> 
+               geloufen zu dem keiser hin<pc>;</pc>
+                </l>
+             <l n="598" xml:id="s_584"> <note type="addition" n="6"><seg type="wit">I V</seg></note><note n="4"><seg type="wit">W</seg></note>
+               von den <app><lem>burgeren</lem><rdg wit="#W">veinden</rdg></app> lost er in
+                </l>
+            <l n="599" xml:id="s_585"> 
+               und wert sich also nacket<pc>:</pc>
+                </l>
+            <l n="600" xml:id="s_586"> 
+               Zerhawen und zerhacket
+                </l>
+            <l n="601" xml:id="s_587"> 
+               wart <app><lem>von im</lem><rdg wit="#V #I"/></app> <app><lem>der vinde</lem><rdg wit="#W">der lewt</rdg></app> genuc<pc>.</pc>
+                </l>
+            <l n="602" xml:id="s_588"> 
+               Der leute er vil zu tode sluc<pc>,</pc>
+                </l>
+             <l n="603" xml:id="s_589"> <note type="missing"> <seg type="wit">W</seg></note>
+               die den keiser wolten slahen<pc>.</pc>
+                </l>
+             <l n="604" xml:id="s_590"> <note type="missing"> <seg type="wit">W</seg></note>
+               Er goz in blutez mangen trahen
+                </l>
+            <l n="605" xml:id="s_591"> 
+               mit <app><lem>ellenthafter</lem><rdg wit="#W">sinen baiden</rdg></app> hende
+                </l>
+            <l n="606" xml:id="s_592"> 
+               zu bitterlichem ende<pc>.</pc>
+                </l>
+            <l n="607" xml:id="s_593"> 
+               <app><lem>Er der leute gnuc</lem><rdg wit="#H">Fer der lute gnug da treip</rdg><rdg wit="#V #I">Mit slegen er ir gnug</rdg><rdg wit="#W">Mit starckhen slegen er si</rdg></app> treip
+                </l>
+            <l n="608" xml:id="s_594"> 
+               und swaz ir lebendic beleip<pc>;</pc>
+                </l>
+            <l n="609" xml:id="s_595"> 
+               die macht er alle fluchtick<pc>.</pc>
+                </l>
+            <l n="610" xml:id="s_596"> 
+               Und da der Ritter zuchtick
+                </l>
+            <l n="611" xml:id="s_597"> 
+               den keiser het enpunden<pc>,</pc>
+                </l>
+            <l n="612" xml:id="s_598"> 
+               da lief er an den stunden
+                </l>
+            <l n="613" xml:id="s_599"> 
+               <app><lem><app><lem wit="#V #I">nakent</lem><rdg wit="#P #K #H">aber</rdg></app> in daz bat hin</lem><rdg wit="#W">hin zu seinem bad wider</rdg></app> wider<pc>.</pc>
+                </l>
+            <l n="614" xml:id="s_600"> 
+               Dar in saz er <app><lem>drat</lem><rdg wit="#W">durch rue</rdg></app> nider<pc>,</pc>
+                </l>
+            <l n="615" xml:id="s_601"> 
+               <app><lem wit="#V #I">als ob er umb die geschicht</lem><rdg wit="#P #K #H #W"/></app>
+                </l>
+            <l n="616" xml:id="s_602"> 
+                <app><lem wit="#V #I">west in der welte nicht</lem><rdg wit="#P #K #H #W"/></app>
+                </l>
+            <l n="617" xml:id="s_603"> 
+               <app><lem>und</lem><rdg wit="#V #I">Er</rdg></app> badet als er tet da vor<pc>.</pc>
+                </l>
+            <l n="618" xml:id="s_604"> 
+               Der keiser ûf der flucht spor
+                </l>
+            <l n="619" xml:id="s_605"> 
+               rant wider in daz her<pc>.</pc>
+                </l>
+            <l n="620" xml:id="s_606"> 
+               Wer in mit menlicher wer
+                </l>
+            <l n="621" xml:id="s_607"> 
+               het erloset bî der stunt<pc>,</pc>
+                </l>
+            <l n="622" xml:id="s_608"> 
+               daz was im harte klein kunt<pc>,</pc>
+                </l>
+            <l n="623" xml:id="s_609"> 
+               wan er sîn niht erkande<pc>.</pc>
+                </l>
+            <l n="624" xml:id="s_610"> 
+               Under sîn gezelt er rande<pc>,</pc>
+                </l>
+            <l n="625" xml:id="s_611"> 
+               da erbeizzet er balde nider
+                </l>
+            <l n="626" xml:id="s_612"> 
+               und saz ûf sin gestüle wider
+                </l>
+            <l n="627" xml:id="s_613"> 
+               vil zorniclichen bî der zît<pc>.</pc>
+                </l>
+            <l n="628" xml:id="s_614"> 
+               Die fursten komen <app><lem>alle</lem><rdg wit="#W">baider</rdg></app> sît<pc>,</pc>
+                </l>
+            <l n="629" xml:id="s_615"> 
+               <app><lem>vur in gedrungen schire</lem><rdg wit="#W">Die drungen für den Chaiser</rdg></app> dar<pc>.</pc>
+                </l>
+            <l n="630" xml:id="s_616"> 
+               Er sprach<pc>:</pc> <pc>"</pc>Ir herren nemet war<pc>,</pc>
+                </l>
+            <l n="631" xml:id="s_617"> 
+               wie <app><lem>nach</lem><rdg wit="#V #I">nahen</rdg><rdg wit="#W">gar</rdg></app> ich was verraten<pc>,</pc>
+                </l>
+            <l n="632" xml:id="s_618"> 
+               wan das mir helfe taten
+                </l>
+            <l n="633" xml:id="s_619"> 
+               zwu ritterliche hende schîn<pc>;</pc>
+                </l>
+            <l n="634" xml:id="s_620"> 
+               so müst ich gar <app><lem>verlorn</lem><rdg wit="#V">verdorben</rdg><rdg wit="#I">verdenchen</rdg><rdg wit="#W">verderbet</rdg></app> sîn
+                </l>
+            <l n="635" xml:id="s_621"> 
+               und den lip verloren han<pc>.</pc>
+                </l>
+            <l n="636" xml:id="s_622"> 
+               West ir wer mir kunt getan
+                </l>
+            <l n="637" xml:id="s_623"> 
+               het, also baltlichen trost<pc>,</pc>
+                </l>
+            <l n="638" xml:id="s_624"> 
+               daz er mich nacket hat erlost<pc>,</pc>
+                </l>
+            <l n="639" xml:id="s_625"> 
+               ich wolde im lîhen und geben<pc>;</pc>
+                </l>
+            <l n="640" xml:id="s_626"> 
+               den lip han ich und daz leben
+                </l>
+            <l n="641" xml:id="s_627"> 
+               von sîner helf steure<pc>.</pc>
+                </l>
+            <l n="642" xml:id="s_628"> 
+               Nie ritter wart so teure<pc>,</pc>
+                </l>
+            <l n="643" xml:id="s_629"> 
+               noch so vrech an allen spot<pc>.</pc>
+                </l>
+            <l n="644" xml:id="s_630"> 
+               Erkennet in ieman durch got<pc>,</pc>
+                </l>
+            <l n="645" xml:id="s_631"> 
+               der bring in fur mîn ougen her<pc>.</pc>
+                </l>
+            <l n="646" xml:id="s_632"> 
+               Ich bin des <app><lem wit="#V #I #H">offenleichen</lem><rdg wit="#P">osterlichen</rdg><rdg wit="#W">endeleich</rdg></app> wer<pc>,</pc>
+                </l>
+            <l n="647" xml:id="s_633"> 
+               daz er enphehet rîchen solt<pc>.</pc>
+                </l>
+            <l n="648" xml:id="s_634"> 
+               Mîn herze ist im an trewen holt
+                </l>
+            <l n="649" xml:id="s_635"> 
+               und muz im immer gunstick wesen<pc>.</pc>
+                </l>
+            <l n="650" xml:id="s_636"> 
+               Kein ritter <app><lem/><rdg wit="#W">ist </rdg></app>so gar ûzerlesen
+                </l>
+            <l n="651" xml:id="s_637"> 
+               <app><lem>lebet</lem><rdg wit="#W"/></app> weder hie noch anderswa<pc>.</pc><pc>"</pc>
+                </l>
+            <l n="652" xml:id="s_638"> 
+               Nu stunden sumeliche da
+                </l>
+            <l n="653" xml:id="s_639"> 
+               die wol westen under in<pc>,</pc>
+                </l>
+            <l n="654" xml:id="s_640"> 
+               daz Heinrich dem keiser hin
+                </l>
+            <l n="655" xml:id="s_641"> 
+               geholfen het bî der zît<pc>.</pc>
+                </l>
+            <l n="656" xml:id="s_642"> 
+               Die sprachen <app><lem>alle</lem><rdg wit="#W">schir</rdg></app><app><lem/><rdg wit="#H">in</rdg></app> wider strît<pc>:</pc>
+                </l>
+            <l n="657" xml:id="s_643"> 
+                <pc>"</pc>Wir wîzzen <app><lem>herre</lem><rdg wit="#V #I">alle</rdg></app> wol den helt<pc>,</pc>
+                </l>
+            <l n="658" xml:id="s_644"> 
+               der ewer leben ûzerwelt
+                </l>
+            <l n="659" xml:id="s_645"> 
+               von dem tode erloset hat<pc>.</pc>
+                </l>
+            <l n="660" xml:id="s_646"> 
+               Nu vert ez leider unde stat
+                </l>
+            <l n="661" xml:id="s_647"> 
+               umbe in also bî dirre zît<pc>,</pc>
+                </l>
+            <l n="662" xml:id="s_648"> 
+               daz ewer ungenade leit
+                </l>
+            <l n="663" xml:id="s_649"> 
+               zu <app><lem>verre</lem><rdg wit="#V #I #W">vast</rdg></app> ûf sînem rucke<pc>.</pc> 
+                </l>
+            <l n="664" xml:id="s_650"> 
+               Er hat daz ungelucke<pc>,</pc>
+                </l>
+            <l n="665" xml:id="s_651"> 
+               daz er durch sîn <app><lem>schulde</lem><rdg wit="#V #I">unschuld</rdg></app>
+                </l>
+            <l n="666" xml:id="s_652"> 
+               vermidet ewer hulde<pc>.</pc>
+                </l>
+            <l n="667" xml:id="s_653"> 
+               <app><lem><app><lem>Würd</lem><rdg wit="#V ">wird</rdg></app> im die selde nu getan</lem><rdg wit="#H">Wer die rede also getan</rdg></app><pc>,</pc>
+                </l>
+            <l n="668" xml:id="s_654"> 
+               daz er <app><lem>die</lem><rdg wit="#V #I">sei</rdg><rdg wit="#W">ewer hulde</rdg></app> mochte wider han<pc>,</pc>
+                </l>
+            <l n="669" xml:id="s_655"> 
+               wir liezen<pc>,</pc> herre<pc>,</pc> euch <app><lem wit="#V #I #H #W">in</lem><rdg wit="#P">nu</rdg></app> sehen<pc>.</pc><pc>"</pc>
+                </l>
+            <l n="670" xml:id="s_656"> 
+               Der keiser begond iehen<pc>:</pc>
+                </l>
+            <l n="671" xml:id="s_657"> 
+                <pc>"</pc>Het er <app><lem wit="#V #I #W">mir mein vater</lem><rdg wit="#P #K #H">den vater sin</rdg></app> erslagen<pc>,</pc>
+                </l>
+            <l n="672" xml:id="s_658"> 
+               <app><lem wit="#V #I">ich liez in mein gunst beiagen</lem><rdg wit="#P #K #H">er liez in <app><lem>sine</lem><rdg wit="#H">gerne</rdg></app> hvlde tragen</rdg><rdg wit="#W">ich wolt im holdes hertze tragen</rdg></app>
+                </l>
+            <l n="673" xml:id="s_659"> 
+               <app><lem>und tet im <app><lem wit="#V #I">mein</lem><rdg wit="#P #K #H">sin</rdg></app> genade schîn</lem><rdg wit="#W">Und wolt im ymmer günstig sein</rdg></app><pc>.</pc><pc>"</pc>
+                </l>
+            <l n="674" xml:id="s_660"> 
+               <app><lem>Daz nam er ûf die trewe sîn</lem><rdg wit="#V #I #W">Ditz min ich auf dw tw mein</rdg></app>
+                </l>
+            <l n="675" xml:id="s_661"> 
+               unde ûf <app><lem>sîn</lem><rdg wit="#V #I #W">mein</rdg></app> ere keiserlich<pc>.</pc>
+                </l>
+            <l n="676" xml:id="s_662"> 
+               Sust wart <app><lem>der ritter</lem><rdg wit="#W">von chempte</rdg></app> <persName>Heinrich</persName>
+                </l>
+            <l n="677" xml:id="s_663"> 
+               <app><lem>von kempten im</lem><rdg wit="#W">dem Chaiser da</rdg></app> genennet<pc>.</pc>
+                </l>
+            <l n="678" xml:id="s_664"> 
+               <app><lem>Der keiser wît</lem><rdg wit="#W">Er het in schir</rdg></app> erkennet
+                </l>
+            <l n="679" xml:id="s_665"> 
+               <app><lem>sprach wider si</lem><rdg wit="#W">Do sprach der chaiser al</rdg></app> zehant<pc>:</pc>
+                </l>
+            <l n="680" xml:id="s_666"> 
+               <pc>"</pc>Und ist er kumen in ditz lant<pc>,</pc>
+                </l>
+            <l n="681" xml:id="s_667"> 
+               daz weiz ich gerne sunder wan<pc>,</pc>
+                </l>
+            <l n="682" xml:id="s_668"> 
+               wer het auh anders ditz getan<pc>:</pc>
+                </l>
+            <l n="683" xml:id="s_669"> 
+               daz er nacket heute streit
+                </l>
+            <l n="684" xml:id="s_670"> 
+               wan er auch die geturstikeit
+                </l>
+            <l n="685" xml:id="s_671"> 
+               <app><lem>trug</lem><rdg wit="#W">wol</rdg></app> in sinem herzen hoch<pc>,</pc>
+                </l>
+            <l n="686" xml:id="s_672"> 
+               daz er bî <app><lem>dem barte</lem><rdg wit="#W">einen chaiser</rdg></app> zoch
+                </l>
+            <l n="687" xml:id="s_673"> 
+               <app><lem wit="#V #I">ain kaiser uber sein</lem><rdg wit="#P">Minen keiser</rdg><rdg wit="#H">Einen kaiser uber</rdg><rdg wit="#W">mit dem bart uber den</rdg></app> tisch<pc>.</pc>
+                </l>
+            <l n="688" xml:id="s_674"> 
+               Sîn mut ist vrolich und vrisch<pc>,</pc>
+                </l>
+            <l n="689" xml:id="s_675"> 
+               des engilt er nimmer<pc>.</pc>
+                </l>
+            <l n="690" xml:id="s_676"> 
+               Mîn helfe muz in immer
+                </l>
+            <l n="691" xml:id="s_677"> 
+               genediclichen decken<pc>.</pc>
+                </l>
+            <l n="692" xml:id="s_678"> 
+               Doch wil ich in erschrecken
+                </l>
+            <l n="693" xml:id="s_679"> 
+               und ubelîch enphahen<pc>.</pc><pc>"</pc>
+                </l>
+            <l n="694" xml:id="s_680"> 
+               Sust hiez er balde gahen
+                </l>
+            <l n="695" xml:id="s_681"> 
+               und in zu hove bringen<pc>.</pc> 
+                </l>
+            <l n="696" xml:id="s_682"> 
+               Mit zornclîchen dingen
+                </l>
+            <l n="697" xml:id="s_683"> 
+               <app><lem>wart er gefuret hin fur in</lem><rdg wit="#W">Wie schir pracht man in dahin</rdg></app><pc>.</pc>
+                </l>
+            <l n="698" xml:id="s_684"> 
+               <app><lem><app><lem/><rdg wit="#V #I #H">Seht</rdg></app>Da gebart er wider in</lem><rdg wit="#W">do tet der chaiser gegen im</rdg></app>
+                </l>
+            <l n="699" xml:id="s_685"> 
+               als er gehaz im were<pc>.</pc>
+                </l>
+            <l n="700" xml:id="s_686"> 
+               <pc>"</pc>Nu saget<pc>"</pc><pc>,</pc> sprach der mere
+                </l>
+            <l n="701" xml:id="s_687"> 
+                <app><lem/><rdg wit="#V #I #W">der</rdg></app>keiser<pc>,</pc> <pc>"</pc>Wie getorstet ir
+                </l>
+            <l n="702" xml:id="s_688"> 
+               <app><lem>ie</lem><rdg wit="#V #I">immer</rdg></app> gestrîchen her zu mir
+                </l>
+            <l n="703" xml:id="s_689"> 
+               oder <app><lem/><rdg wit="#V">ymmer</rdg></app>vur mîn ougen komen<pc>?</pc>
+                </l>
+            <l n="704" xml:id="s_690"> 
+               <app><lem>Ir habt</lem><rdg wit="#V #I #H #W">Nu habt ir</rdg></app> doch wol vernomen<pc>,</pc>
+                </l>
+            <l n="705" xml:id="s_691"> 
+               war umb ich ewer vînt wart<pc>:</pc>
+                </l>
+            <l n="706" xml:id="s_692"> 
+               ir sît iz doch der mir den bart
+                </l>
+            <l n="707" xml:id="s_693"> 
+               ane scharsach hat <app><lem>geschœn</lem><rdg wit="#V #I #H #W">geschorn</rdg></app>
+                </l>
+            <l n="708" xml:id="s_694"> 
+               und <app><lem>des grimlicher</lem><rdg wit="#V #I">mir ewr</rdg><rdg wit="#H #W">ur grimelicher</rdg></app> zorn
+                </l>
+            <l n="709" xml:id="s_695"> 
+                <app><lem>vil hares in beraubet</lem><rdg wit="#V #I">Mein hawbt gerawfet</rdg></app> hat<pc>,</pc>
+                </l>
+            <l n="710" xml:id="s_696"> 
+               daz er ane locke stat<pc>.</pc>
+                </l>
+            <l n="711" xml:id="s_697"> 
+               Daz hat gefrumet ewer hant<pc>,</pc>
+                </l>
+            <l n="712" xml:id="s_698"> 
+               daz ir getorstet in ditz lant
+                </l>
+            <l n="713" xml:id="s_699"> 
+               chumen dar an wirt wol schîn<pc>,</pc>
+                </l>
+            <l n="714" xml:id="s_700"> 
+               daz ir hochvertick wellet sîn
+                </l>
+            <l n="715" xml:id="s_701"> 
+               und ubermutes wellet pflegen<pc>.</pc><pc>"</pc>
+                </l>
+            <l n="716" xml:id="s_702"> 
+               <pc>"</pc>Gnade<pc>,</pc> herre<pc>,</pc><pc>"</pc> sprach der degen<pc>.</pc>
+                </l>
+            <l n="717" xml:id="s_703"> 
+               <pc>"</pc>Ich <app><lem>kom</lem><rdg wit="#V #I">wart</rdg></app> <app><lem>getwungenlîchen</lem><rdg wit="#W">betrungen leichen</rdg></app> her<pc>,</pc>
+                </l>
+            <l n="718" xml:id="s_704"> 
+               da von so bit ich und ger<pc>,</pc>
+                </l>
+            <l n="719" xml:id="s_705"> 
+               daz ir <app><lem>verkieset</lem><rdg wit="#W">verzeicht</rdg></app> dise tat<pc>.</pc>
+                </l>
+            <l n="720" xml:id="s_706"> 
+               Mîn herre<pc>,</pc> ein furste der hie stat
+                </l>
+            <l n="721" xml:id="s_707"> 
+               bî <app><lem>sîner hulde</lem><rdg wit="#W">dem aide</rdg></app> mir gebot<pc>,</pc>
+                </l>
+            <l n="722" xml:id="s_708"> 
+               daz ich durch keiner slachte not
+                </l>
+            <l n="723" xml:id="s_709">
+               <app><lem>liez ich fure mit im</lem><rdg wit="#W">Liez noch durch chaine swer / ich cham mit im zu lande her</rdg></app><pc>.</pc>
+                </l>
+            <l n="724" xml:id="s_709a"/>
+             <l n="725" xml:id="s_710"> <note resp="editor" type="missing"> <seg type="wit">W</seg> </note>
+               Ich setz daz heute under nim
+                </l>
+             <l n="726" xml:id="s_711"> <note resp="editor" type="missing"> <seg type="wit">W</seg> </note>
+               ûf alle mîne selikeit<pc>,</pc>
+                </l>
+             <l n="727" xml:id="s_712"> <note type="addition" n="3">3  <seg type="wit">W</seg></note>
+               daz ich die vart ungerne reit
+                </l>
+            <l n="728" xml:id="s_712a"/>
+            <l n="729" xml:id="s_712b"/>
+            <l n="730" xml:id="s_712c"/>
+             <l n="731" xml:id="s_713"> <note resp="editor" type="missing"> <seg type="wit">H</seg> <seg type="wit">W</seg> </note>
+               Wan daz ich must sam mir got
+                </l>
+             <l n="732" xml:id="s_714"> <note resp="editor" type="missing"> <seg type="wit">H</seg> <seg type="wit">W</seg> </note>
+               erfullen <app><lem>sîn</lem><rdg wit="#V #I">meins herren</rdg></app> hochgebot<pc>.</pc>
+                </l>
+            <l n="733" xml:id="s_715"> 
+               Wer ich niht ûz mit kumen<pc>,</pc>
+                </l>
+             <l n="734" xml:id="s_716"> <note type="addition" n="2">2  <seg type="wit">W</seg></note>
+               mîn lehen het er mir benumen<pc>.</pc>
+                </l>
+            <l n="735" xml:id="s_716a"/>
+            <l n="736" xml:id="s_716b"/>
+             <l n="737" xml:id="s_717"> <note resp="editor" type="missing"> <seg type="wit">W</seg> </note>
+               <app><lem>Wer ich</lem><rdg wit="#H">Sa zuhant</rdg></app> an <app><lem>den</lem><rdg wit="#V #I">disen</rdg></app> stunden
+                </l>
+             <l n="738" xml:id="s_718"> <note type="addition" n="6"><seg type="wit">H</seg><seg type="text">Ouch wolte ich loesen minen eit / Daz ich mit mime herren reit / Wer mir dar umbe iht ubels tuot / Weiz got der in is niht wol gemuot / Dem zeige ich drumbe ein sulhes ort / Daz er gesprechet niemer wort</seg></note><note resp="editor" type="missing"> <seg type="wit">W</seg> </note>
+               <app><lem>an der vert</lem><rdg wit="#H">Obe ich an der ferte were</rdg></app> erwunden
+                </l>
+            <l n="739" xml:id="s_718a"/>
+            <l n="740" xml:id="s_718b"/>
+            <l n="741" xml:id="s_718c"/>
+            <l n="742" xml:id="s_718d"/>
+            <l n="743" xml:id="s_718e"/>
+            <l n="744" xml:id="s_718f"/>
+            <l n="745" xml:id="s_719"> 
+               Der keiser lachen da began<pc>.</pc>
+                </l>
+            <l n="746" xml:id="s_720"> 
+               Er sprach<pc>:</pc><pc>"</pc><app><lem>Ir</lem><rdg wit="#V #I"/></app> ûzerwelter man<pc>,</pc>
+                </l>
+            <l n="747" xml:id="s_721"> 
+               ir sît unschuldic hore ich wol<pc>.</pc>
+                </l>
+            <l n="748" xml:id="s_722"> 
+               Da von ich gerne lazen sol
+                </l>
+            <l n="749" xml:id="s_723"> 
+               gegen euch den zorn mîn<pc>.</pc>
+                </l>
+            <l n="750" xml:id="s_724"> 
+               <app><lem>Mir und got</lem><rdg wit="#V #I">Got und mir</rdg></app> solt sîn
+                </l>
+            <l n="751" xml:id="s_725"> 
+               wol tusent <app><lem>varbe</lem><rdg wit="#V #I #W">stund</rdg><rdg wit="#H">werbe</rdg></app> willekumen<pc>.</pc>
+                </l>
+            <l n="752" xml:id="s_726"> 
+               Ir habt mit swer vil benumen
+                </l>
+            <l n="753" xml:id="s_727"> 
+               und daz leben <app><lem>mîn</lem><rdg wit="#V #I">hie</rdg></app> genert<pc>.</pc>
+                </l>
+            <l n="754" xml:id="s_728"> 
+               Den lîp must ich han verzert
+                </l>
+            <l n="755" xml:id="s_729"> 
+               <app><lem>wan</lem><rdg wit="#V #I">Were</rdg><rdg wit="#H">Dan</rdg><rdg wit="#W">Sunder</rdg></app> ewer helfe selich man<pc>.</pc><pc>"</pc>
+                </l>
+             <l n="756" xml:id="s_730"> <note type="addition" n="2"><seg type="wit">I V W</seg></note>
+               Sust spranch er ûf und lief in an<pc>,</pc>
+                </l>
+            <l n="757" xml:id="s_730a"/>
+            <l n="758" xml:id="s_730b"/>
+            <l n="759" xml:id="s_731"> 
+               <app><lem>und kust im ougen und liden</lem><rdg wit="#W">Er chust im augen hend und lide</rdg></app>
+                </l>
+            <l n="760" xml:id="s_732"> 
+               <app><lem wit="#H #I #V #W">ein</lem><rdg wit="#P #K">Mînen</rdg></app> suen luter und ein <app><lem>vrid</lem><rdg wit="#W">kind</rdg></app>
+                </l>
+            <l n="761" xml:id="s_733"> 
+               wart gemachet under in<pc>.</pc>
+                </l>
+            <l n="762" xml:id="s_734"> 
+               Ir zwaier vîntschaft was da hin<pc>,</pc>
+                </l>
+            <l n="763" xml:id="s_735"> 
+               <app><lem>wan der keiser hochgeborn</lem><rdg wit="#W">Der chaiser und sein grymer zorn</rdg></app>
+                </l>
+            <l n="764" xml:id="s_736"> 
+               <app><lem>und sîn gremelicher zorn,</lem><rdg wit="#W">was dem ritter hochgeborn</rdg></app>
+                </l>
+            <l n="765" xml:id="s_737"> 
+               <app><lem>was dem ritter niht gevech</lem><rdg wit="#W">Nymer lenger da gevech</rdg></app><pc>.</pc>
+                </l>
+            <l n="766" xml:id="s_738"> 
+               Ein gelt gab er im und lech<pc>,</pc>
+                </l>
+            <l n="767" xml:id="s_739"> 
+               daz iars galt <app><lem><app><lem>zwai</lem><rdg wit="#H">drei</rdg></app> hundert</lem><rdg wit="#W">dreitawsent</rdg></app> mark<pc>.</pc>
+                </l>
+            <l n="768" xml:id="s_740"> 
+               Sîn manheit vrevel und stark
+                </l>
+            <l n="769" xml:id="s_741"> 
+               <app><lem>bracht in</lem><rdg wit="#W">Halff im</rdg></app> in hohen richtum
+                </l>
+            <l n="770" xml:id="s_742"> 
+               und in <app><lem>gantzer wirde</lem><rdg wit="#W">so hocher ere</rdg></app> rum<pc>,</pc>
+                </l>
+            <l n="771" xml:id="s_743"> 
+               daz man sîn noch gedenket wol<pc>,</pc>
+                </l>
+            <l n="772" xml:id="s_744"> 
+               war umb ein <app><lem>itslich</lem><rdg wit="#V #I">edel</rdg><rdg wit="#H">egelich</rdg><rdg wit="#W">yezleicher</rdg></app> ritter sol
+                </l>
+            <l n="773" xml:id="s_745"> 
+               wesen sînes <app><lem>gemutes</lem><rdg wit="#W">leibes</rdg></app> keck
+                </l>
+            <l n="774" xml:id="s_746"> 
+               und werf alle zageheit enweck
+                </l>
+            <l n="775" xml:id="s_747"> 
+               und <app><lem wit="#V #I #H #W">übe</lem><rdg wit="#P #K">neu</rdg></app> sînes lîbes kraft<pc>;</pc>
+                </l>
+            <l n="776" xml:id="s_748"> 
+               <app><lem>wan</lem><rdg wit="#W"/></app> manheit und ritterschaft
+                </l>
+            <l n="777" xml:id="s_749"> 
+               die zwei die <app><lem>prîsent</lem><rdg wit="#V #I #W">tewrent</rdg></app> sere<pc>:</pc>
+                </l>
+            <l n="778" xml:id="s_750"> 
+               si bringent lob und ere
+                </l>
+            <l n="779" xml:id="s_751"> 
+               <app><lem>noch</lem><rdg wit="#V #I"/></app> einem ieslichen man<pc>,</pc>
+                </l>
+            <l n="780" xml:id="s_752"> 
+                der <app><lem>in wol <app><lem>geleben</lem><rdg wit="#H">gehalten</rdg></app></lem><rdg wit="#V #I">Der sich ze rechte uben</rdg><rdg wit="#W">si mit recht uben</rdg></app> kan
+                </l>
+            <l n="781" xml:id="s_753"> 
+               <app><lem>und in beiden mac geleben</lem><rdg wit="#W">Als in baiden wol an zimpt</rdg></app><pc>.</pc>
+                </l>
+            <l n="782" xml:id="s_754"> 
+               <app><lem><app><lem><app><lem>Hie</lem><rdg wit="#H">die</rdg></app> sol ditz mer ein</lem><rdg wit="#V #I">Hie sei dem mer</rdg></app> ende geben</lem><rdg wit="#W">damit ditz puch ein ende nimpt</rdg></app>
+                </l>
+             <l n="783" xml:id="s_755"> <note resp="editor" type="missing"> <seg type="wit">H</seg> </note>
+               und dirre kurtzen rede werk<pc>.</pc>
+                </l>
+             <l n="784" xml:id="s_756"> <note resp="editor" type="missing"> <seg type="wit">H</seg> </note>
+               <app><lem wit="#V #I">daz</lem><rdg wit="#P">Was</rdg><rdg wit="#W">die</rdg></app> ich durch den von Tiersberck
+                </l>
+             <l n="785" xml:id="s_757"> <note type="transposed"><seg type="wit">W</seg></note><note resp="editor" type="missing"> <seg type="wit">H</seg> </note>
+               in rîme <app><lem>han</lem><rdg wit="#W">wol</rdg></app> gerichtet
+                </l>
+             <l n="786" xml:id="s_758"> <note type="transposed"><seg type="wit">W</seg></note><note resp="editor" type="missing"><seg type="wit">H</seg></note>
+               <app><lem>und <app><lem>von latîn</lem><rdg wit="#V #I">in tawtch</rdg></app></lem><rdg wit="#W">zu tewtsch han</rdg></app> getichtet
+                </l>
+             <l n="787" xml:id="s_759"> <note resp="editor" type="missing"> <seg type="wit">H</seg> </note>
+               <app><lem>in deutschen</lem><rdg wit="#V #I #W">von latein</rdg></app> als er mich bat<pc>.</pc>
+                </l>
+             <l n="788" xml:id="s_760"> <note resp="editor" type="missing"><seg type="wit">H</seg></note>
+               zu Strazburk in der <app><lem>guten</lem><rdg wit="#V #I">schön</rdg></app> stat
+                </l>
+             <l n="789" xml:id="s_761"> <note resp="editor" type="missing"> <seg type="wit">H</seg> </note>
+               da <app><lem>ist er</lem><rdg wit="#V #I">er mine</rdg><rdg wit="#W">was er</rdg></app> zu dem tum
+                </l>
+             <l n="790" xml:id="s_762"> <note resp="editor" type="missing"> <seg type="wit">H</seg> </note>
+               <app><lem/><rdg wit="#V #I">Ist</rdg></app>brobst und ein blum
+                </l>
+             <l n="791" xml:id="s_763"> <note resp="editor" type="missing"> <seg type="wit">H</seg> </note>
+               <app><lem>Schinet manger eren</lem><rdg wit="#W">Und aller selden wunne</rdg></app>
+                </l>
+             <l n="792" xml:id="s_764"> <note resp="editor" type="missing"> <seg type="wit">H</seg> </note>
+               Got <app><lem><app><lem>welle</lem><rdg wit="#V #I">muzz</rdg></app> im selde meren</lem><rdg wit="#W">im noch hailes gunne</rdg></app>
+                </l>
+            <l n="793" xml:id="s_765"> 
+               Wan er so vil der tugende hat<note type="alternative"><seg type="wit">H</seg><seg type="text">Sund alle missetat</seg></note>
+                </l>
+            <l n="794" xml:id="s_766"> 
+               von Wirzeburch ich Cuonrat
+                </l>
+            <l n="795" xml:id="s_767"> 
+                <app><lem>muz</lem><rdg wit="#L">Der mus</rdg><rdg wit="#W">der sol</rdg></app> im immer heiles biten<note type="alternative"><seg type="wit">H</seg><seg type="text">Kan da von niht me verjehen</seg></note>
+                </l>
+            <l n="797" xml:id="s_768"> 
+                Er hat der eren strît gestrîten <note type="alternative"><seg type="wit">H</seg><seg type="text">Got laze uns allen wol geschen</seg></note>  
+                </l>
+            <l n="798" xml:id="s_769"> 
+                mit gerne gebender hende<pc>.</pc><note type="alternative"><seg type="wit">H</seg><seg type="text">Amen sprach ent vil hart</seg></note>
+                </l>
+            <l n="799" xml:id="s_770"> 
+                Hie hat <app><lem>ditz mere</lem><rdg wit="#V #I #W">daz buoch</rdg></app> ein ende
+                <note type="alternative"><seg type="wit">H</seg><seg type="text">Hie endet sich der bart</seg></note>
+                <note type="addition" n="3"><seg type="wit">V</seg><seg type="text">Maria sei gelobet schöne / Got geb uns dw himel krone / Amen daz werd war</seg></note>
+                </l>
+            <l n="800" xml:id="s_770a"/>
+            <l n="801" xml:id="s_770b"/>
+            <l n="802" xml:id="s_770c"/>
+            <l n="803" xml:id="s_770d"/>
+            <l n="804" xml:id="s_770e"/>
+            <l n="805" xml:id="s_770f"/>
+            <l n="806" xml:id="s_770g"/>
+            <l n="807" xml:id="s_770h"/>
+            <l n="808" xml:id="s_770i"/>
+         </div>
+      </body>
+   </text>
+</TEI>
