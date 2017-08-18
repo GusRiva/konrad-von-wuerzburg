@@ -4173,8 +4173,18 @@
                         <rdg  n="213" xml:space="preserve" wit="#V"><hi rend="decoration color:red">E</hi>w <choice><abbr>peſchaid<am>n̄</am></abbr><expan>peſchaid<ex>e</ex>n</expan></choice> künne</rdg>
                         <rdg  n="258" xml:space="preserve" wit="#w">Hie beſchaÿden künne</rdg>
                         </app> </l>
-                    <l> <app>
+                    <l xml:id="s_221a"> <app>
+                        <rdg  n="242a" xml:space="preserve" wit="#A" type="missing"/>
+                        <rdg  n="233a" xml:space="preserve" wit="#B" type="missing"/>
+                        <rdg  n="246a" xml:space="preserve" wit="#D" type="missing"/>
+                        <rdg  n="235a" xml:space="preserve" wit="#h" type="missing"/>
+                        <rdg  n="236a" xml:space="preserve" wit="#I" type="missing"/>
+                        <rdg  n="198a" xml:space="preserve" wit="#Ko" type="missing"/>
+                        <rdg  n="236" xml:space="preserve" wit="#L" type="missing"/>
                         <rdg  n="222" xml:space="preserve" wit="#N"><hi rend="decoration color:red">V</hi>nter der <hi rend="decoration color:red">S</hi>unne</rdg>
+                        <rdg  n="234a" xml:space="preserve" wit="#P" type="missing"/>
+                        <rdg  n="234a" xml:space="preserve" wit="#V" type="missing"/>
+                        <rdg xml:space="preserve" wit="#w" type="missing"/>
                         </app> </l>
                     <l xml:id="s_222"> <app>
                         <rdg  n="222" xml:space="preserve" wit="#A">An weltlicher wu̍nne</rdg>
@@ -4281,7 +4291,7 @@
                         </app> </l>
                 </lg>
               <lg>
-                  <l>
+                  <l xml:id="s_228a">
                       <app>
                       <rdg  n="228a" xml:space="preserve" wit="#A" type="missing"/>
                       <rdg  n="219a" xml:space="preserve" wit="#B" type="missing"/>
@@ -4295,7 +4305,7 @@
                       <rdg  n="220a" xml:space="preserve" wit="#V" type="missing"/>
                       <rdg  n="266" xml:space="preserve" wit="#w"> <metamark>¶</metamark>Als bald der frăwen man das erfuͦr</rdg>
                       </app></l>
-                  <l><app>
+                  <l xml:id="s_228b"><app>
                       <rdg  n="228b" xml:space="preserve" wit="#A" type="missing"/>
                       <rdg  n="219b" xml:space="preserve" wit="#B" type="missing"/>
                       <rdg  n="232b" xml:space="preserve" wit="#D" type="missing"/>
@@ -4309,7 +4319,7 @@
                       <rdg  n="267" xml:space="preserve" wit="#w">Vil mengen aÿd er da ſchwuͦr</rdg></app></l>
               </lg>
               <lg>
-                  <l><app>
+                  <l  xml:id="s_228c"><app>
                       <rdg  n="228c" xml:space="preserve" wit="#A" type="missing"/>
                       <rdg  n="219c" xml:space="preserve" wit="#B" type="missing"/>
                       <rdg  n="232c" xml:space="preserve" wit="#D" type="missing"/>
@@ -4321,7 +4331,7 @@
                       <rdg  n="220c" xml:space="preserve" wit="#P" type="missing"/>
                       <rdg  n="220c" xml:space="preserve" wit="#V" type="missing"/>
                       <rdg  n="268" xml:space="preserve" wit="#w">Er nem darfür kain zÿtlich guͦt</rdg></app></l>
-                  <l><app>
+                  <l  xml:id="s_228d"><app>
                       <rdg  n="228d" xml:space="preserve" wit="#A" type="missing"/>
                       <rdg  n="219d" xml:space="preserve" wit="#B" type="missing"/>
                       <rdg  n="232d" xml:space="preserve" wit="#D" type="missing"/>
@@ -4335,7 +4345,7 @@
                       <rdg  n="269" xml:space="preserve" wit="#w">Bedacht das wol in ſeinem muͦt</rdg></app></l>
               </lg>
               <lg>
-                  <l><app>
+                  <l  xml:id="s_228e"><app>
                       <rdg  n="228e" xml:space="preserve" wit="#A" type="missing"/>
                       <rdg  n="219e" xml:space="preserve" wit="#B" type="missing"/>
                       <rdg  n="232e" xml:space="preserve" wit="#D" type="missing"/>
@@ -4347,7 +4357,7 @@
                       <rdg  n="220e" xml:space="preserve" wit="#P" type="missing"/>
                       <rdg  n="220e" xml:space="preserve" wit="#V" type="missing"/>
                       <rdg  n="270" xml:space="preserve" wit="#w">Das der nŏt vnd ŏch der ſorgen</rdg></app></l>
-                  <l><app>
+                  <l  xml:id="s_228f"><app>
                       <rdg  n="228f" xml:space="preserve" wit="#A" type="missing"/>
                       <rdg  n="219f" xml:space="preserve" wit="#B" type="missing"/>
                       <rdg  n="232f" xml:space="preserve" wit="#D" type="missing"/>
@@ -4361,7 +4371,7 @@
                       <rdg  n="271" xml:space="preserve" wit="#w"><choice><abbr>Dari<am>n̄</am></abbr><expan>Dari<ex>e</ex>n</expan></choice> er vff dem mer muͤſt worgen</rdg></app></l>
               </lg>
               <lg>
-                  <l><app>
+                  <l  xml:id="s_228g"><app>
                       <rdg  n="228g" xml:space="preserve" wit="#A" type="missing"/>
                       <rdg  n="219g" xml:space="preserve" wit="#B" type="missing"/>
                       <rdg  n="232g" xml:space="preserve" wit="#D" type="missing"/>
@@ -4373,7 +4383,7 @@
                       <rdg  n="220g" xml:space="preserve" wit="#P" type="missing"/>
                       <rdg  n="220g" xml:space="preserve" wit="#V" type="missing"/>
                       <rdg  n="272" xml:space="preserve" wit="#w">Wer ſo vil vnd mengerlaÿ</rdg></app></l>
-                  <l><app>
+                  <l  xml:id="s_228h"><app>
                       <rdg  n="228h" xml:space="preserve" wit="#A" type="missing"/>
                       <rdg  n="219h" xml:space="preserve" wit="#B" type="missing"/>
                       <rdg  n="232h" xml:space="preserve" wit="#D" type="missing"/>
@@ -4387,7 +4397,7 @@
                       <rdg  n="273" xml:space="preserve" wit="#w">Das er gar wenig an das geſchraÿ</rdg></app></l>
               </lg>
               <lg>
-                  <l><app>
+                  <l  xml:id="s_228i"><app>
                       <rdg  n="228i" xml:space="preserve" wit="#A" type="missing"/>
                       <rdg  n="219i" xml:space="preserve" wit="#B" type="missing"/>
                       <rdg  n="232i" xml:space="preserve" wit="#D" type="missing"/>
@@ -4399,7 +4409,7 @@
                       <rdg  n="220i" xml:space="preserve" wit="#P" type="missing"/>
                       <rdg  n="220i" xml:space="preserve" wit="#V" type="missing"/>
                       <rdg  n="274" xml:space="preserve" wit="#w">Oder an ſein frăwen mer moͤcht gedencken</rdg></app></l>
-                  <l><app>
+                  <l  xml:id="s_228j"><app>
                       <rdg  n="228j" xml:space="preserve" wit="#A" type="missing"/>
                       <rdg  n="219j" xml:space="preserve" wit="#B" type="missing"/>
                       <rdg  n="232j" xml:space="preserve" wit="#D" type="missing"/>
@@ -4413,7 +4423,7 @@
                       <rdg  n="275" xml:space="preserve" wit="#w">Mitler zÿt ſo würd ſich ſencken</rdg></app></l>
               </lg>
               <lg>
-                  <l><app>
+                  <l  xml:id="s_228k"><app>
                       <rdg  n="228k" xml:space="preserve" wit="#A" type="missing"/>
                       <rdg  n="219k" xml:space="preserve" wit="#B" type="missing"/>
                       <rdg  n="232k" xml:space="preserve" wit="#D" type="missing"/>
@@ -4425,7 +4435,7 @@
                       <rdg  n="220k" xml:space="preserve" wit="#P" type="missing"/>
                       <rdg  n="220k" xml:space="preserve" wit="#V" type="missing"/>
                       <rdg  n="276" xml:space="preserve" wit="#w">Jer baÿder <choice> <abbr>mÿ<am>n̄</am> </abbr> <expan>mÿ<ex>nn</ex> </expan> </choice> vß ierem hertzen</rdg></app></l>
-                  <l><app>
+                  <l xml:id="s_228l"><app>
                       <rdg  n="228l" xml:space="preserve" wit="#A" type="missing"/>
                       <rdg  n="219l" xml:space="preserve" wit="#B" type="missing"/>
                       <rdg  n="232l" xml:space="preserve" wit="#D" type="missing"/>
@@ -4439,7 +4449,7 @@
                       <rdg  n="277" xml:space="preserve" wit="#w">Alſo das kains vaſt grŏſſen ſchmertzen</rdg></app></l>
               </lg>
               <lg>
-                  <l><app>
+                  <l xml:id="s_228m"><app>
                       <rdg  n="228m" xml:space="preserve" wit="#A" type="missing"/>
                       <rdg  n="219m" xml:space="preserve" wit="#B" type="missing"/>
                       <rdg  n="232m" xml:space="preserve" wit="#D" type="missing"/>
@@ -4451,7 +4461,7 @@
                       <rdg  n="220m" xml:space="preserve" wit="#P" type="missing"/>
                       <rdg  n="220m" xml:space="preserve" wit="#V" type="missing"/>
                       <rdg  n="278" xml:space="preserve" wit="#w">Hin nach dem anderen würde hon</rdg></app></l>
-                  <l><app>
+                  <l xml:id="s_228n"><app>
                       <rdg  n="228n" xml:space="preserve" wit="#A" type="missing"/>
                       <rdg  n="219n" xml:space="preserve" wit="#B" type="missing"/>
                       <rdg  n="232n" xml:space="preserve" wit="#D" type="missing"/>
@@ -4465,7 +4475,7 @@
                       <rdg  n="279" xml:space="preserve" wit="#w">Darümb wölt er ſein merfart lon</rdg></app></l>
               </lg>
               <lg>
-                  <l><app>
+                  <l xml:id="s_228o"><app>
                       <rdg  n="228o" xml:space="preserve" wit="#A" type="missing"/>
                       <rdg  n="219o" xml:space="preserve" wit="#B" type="missing"/>
                       <rdg  n="232o" xml:space="preserve" wit="#D" type="missing"/>
@@ -4477,7 +4487,7 @@
                       <rdg  n="220o" xml:space="preserve" wit="#P" type="missing"/>
                       <rdg  n="220o" xml:space="preserve" wit="#V" type="missing"/>
                       <rdg  n="280" xml:space="preserve" wit="#w">Vnd mit ruͤben dahaim beleÿben</rdg></app></l>
-                  <l><app>
+                  <l xml:id="s_228p"><app>
                       <rdg  n="228p" xml:space="preserve" wit="#A" type="missing"/>
                       <rdg  n="219p" xml:space="preserve" wit="#B" type="missing"/>
                       <rdg  n="232p" xml:space="preserve" wit="#D" type="missing"/>
@@ -4491,7 +4501,7 @@
                       <rdg  n="281" xml:space="preserve" wit="#w">Mit ſeiner frăwen kürtzwaÿl treÿben</rdg></app></l>
               </lg>
               <lg>
-                  <l><app>
+                  <l xml:id="s_228q"><app>
                       <rdg  n="228q" xml:space="preserve" wit="#A" type="missing"/>
                       <rdg  n="219q" xml:space="preserve" wit="#B" type="missing"/>
                       <rdg  n="232q" xml:space="preserve" wit="#D" type="missing"/>
@@ -4503,7 +4513,7 @@
                       <rdg  n="220q" xml:space="preserve" wit="#P" type="missing"/>
                       <rdg  n="220q" xml:space="preserve" wit="#V" type="missing"/>
                       <rdg  n="282" xml:space="preserve" wit="#w">Die im nün würd beleÿben ſtet</rdg></app></l>
-                  <l><app>
+                  <l xml:id="s_228r"><app>
                       <rdg  n="228r" xml:space="preserve" wit="#A" type="missing"/>
                       <rdg  n="219r" xml:space="preserve" wit="#B" type="missing"/>
                       <rdg  n="232r" xml:space="preserve" wit="#D" type="missing"/>
@@ -4517,7 +4527,7 @@
                       <rdg  n="283" xml:space="preserve" wit="#w">Daran in niemand hinderen thet</rdg></app></l>
               </lg>
               <lg>
-                  <l><app>
+                  <l xml:id="s_228s"><app>
                       <rdg  n="228s" xml:space="preserve" wit="#A" type="missing"/>
                       <rdg  n="219s" xml:space="preserve" wit="#B" type="missing"/>
                       <rdg  n="232s" xml:space="preserve" wit="#D" type="missing"/>
@@ -4529,7 +4539,7 @@
                       <rdg  n="220s" xml:space="preserve" wit="#P" type="missing"/>
                       <rdg  n="220s" xml:space="preserve" wit="#V" type="missing"/>
                       <rdg  n="284" xml:space="preserve" wit="#w">Das laſſend wier nün alſo beleÿben</rdg></app></l>
-                  <l><app>
+                  <l xml:id="s_228t"><app>
                       <rdg  n="228t" xml:space="preserve" wit="#A" type="missing"/>
                       <rdg  n="219t" xml:space="preserve" wit="#B" type="missing"/>
                       <rdg  n="232t" xml:space="preserve" wit="#D" type="missing"/>
@@ -4542,7 +4552,6 @@
                       <rdg  n="220t" xml:space="preserve" wit="#V" type="missing"/>
                       <rdg  n="285" xml:space="preserve" wit="#w">Vnd wollend von dem rÿtter ſchreÿben</rdg></app></l>
               </lg>
-                
                 <lg org="uniform" sample="complete">
                     <l xml:id="s_229"> <app>
                         <rdg  n="229" xml:space="preserve" wit="#A">Mit iamer an daz mer zabant</rdg>
@@ -5785,7 +5794,7 @@
                         <rdg  n="279" xml:space="preserve" wit="#V"><hi rend="decoration color:red">D</hi>az ez deſt <choice><abbr>len<am>g͛</am></abbr><expan>leng<ex>er</ex></expan></choice> friſch peſte</rdg>
                         <rdg  n="352" xml:space="preserve" wit="#w">Dürch das es friſch beleÿb</rdg>
                         </app> </l>
-                    <l>
+                    <l xml:id="s_303a">
                         <app>
                             <rdg  n="150e" xml:space="preserve" wit="#A" type="missing"/>
                             <rdg  n="150e" xml:space="preserve" wit="#B" type="missing"/>
@@ -5813,7 +5822,7 @@
                         <rdg  n="280" xml:space="preserve" wit="#V"><hi rend="decoration color:red">V</hi>ernim waz ich dir ſage me</rdg>
                         <rdg  n="353" xml:space="preserve" wit="#w"><choice><abbr>Ver<am>ī</am>m</abbr><expan>Ver<ex>ni</ex>m</expan></choice> was ich dier ſagen me</rdg>
                         </app> </l>
-                    <l>
+                    <l xml:id="s_304a">
                         <app>
                             <rdg  n="150e" xml:space="preserve" wit="#A" type="missing"/>
                             <rdg  n="150e" xml:space="preserve" wit="#B" type="missing"/>
@@ -6560,10 +6569,30 @@
                         </app> </l>
                 </lg>
                 <lg>
-                    <l> <app>
+                    <l xml:id="s_348a"> <app>
+                        <rdg  n="242a" xml:space="preserve" wit="#A" type="missing"/>
+                        <rdg  n="233a" xml:space="preserve" wit="#B" type="missing"/>
+                        <rdg  n="246a" xml:space="preserve" wit="#D" type="missing"/>
+                        <rdg  n="235a" xml:space="preserve" wit="#h" type="missing"/>
+                        <rdg  n="236a" xml:space="preserve" wit="#I" type="missing"/>
+                        <rdg  n="198a" xml:space="preserve" wit="#Ko" type="missing"/>
+                        <rdg  n="236" xml:space="preserve" wit="#L" type="missing"/>
+                        <rdg  n="243a" xml:space="preserve" wit="#N" type="missing"/>
+                        <rdg  n="234a" xml:space="preserve" wit="#P" type="missing"/>
+                        <rdg  n="234a" xml:space="preserve" wit="#V" type="missing"/>
                         <rdg  n="395" xml:space="preserve" wit="#w">Er <choice><abbr>na<am>m̄</am></abbr><expan>nam<ex>m</ex></expan></choice> das hertze alſo tod</rdg>
                         </app> </l>
-                    <l> <app>
+                    <l xml:id="s_348b"> <app>
+                        <rdg  n="242a" xml:space="preserve" wit="#A" type="missing"/>
+                        <rdg  n="233a" xml:space="preserve" wit="#B" type="missing"/>
+                        <rdg  n="246a" xml:space="preserve" wit="#D" type="missing"/>
+                        <rdg  n="235a" xml:space="preserve" wit="#h" type="missing"/>
+                        <rdg  n="236a" xml:space="preserve" wit="#I" type="missing"/>
+                        <rdg  n="198a" xml:space="preserve" wit="#Ko" type="missing"/>
+                        <rdg  n="236" xml:space="preserve" wit="#L" type="missing"/>
+                        <rdg  n="243a" xml:space="preserve" wit="#N" type="missing"/>
+                        <rdg  n="234a" xml:space="preserve" wit="#P" type="missing"/>
+                        <rdg  n="234a" xml:space="preserve" wit="#V" type="missing"/>
                         <rdg  n="396" xml:space="preserve" wit="#w">Vnd fuͦrt es nach ſeins herren gebot</rdg>
                         </app> </l>
                 </lg>
@@ -9111,8 +9140,18 @@
                         <rdg  n="481" xml:space="preserve" wit="#P">Beide leben vnde lip</rdg>
                         <rdg  n="458d" xml:space="preserve" wit="#V" type="missing"/>
                         </app> </l>
-                    <l> <app>
-                        <rdg  n="515" xml:space="preserve" wit="#D">dez wil ich nü jn liden <choice><abbr>ſtreb<am>n̄</am></abbr><expan>ſtreb<ex>e</ex>n</expan></choice></rdg>
+                    <l xml:id="s_505a"> <app>
+                        <rdg  xml:space="preserve" wit="#A" type="missing"/>
+                        <rdg   xml:space="preserve" wit="#B" type="missing"/>
+                        <rdg   xml:space="preserve" wit="#D">dez wil ich nü jn liden <choice><abbr>ſtreb<am>n̄</am></abbr><expan>ſtreb<ex>e</ex>n</expan></choice></rdg>
+                        <rdg   xml:space="preserve" wit="#h" type="missing"/>
+                        <rdg   xml:space="preserve" wit="#I" type="missing"/>
+                        <rdg   xml:space="preserve" wit="#Ko" type="missing"/>
+                        <rdg   xml:space="preserve" wit="#L" type="missing"/>
+                        <rdg   xml:space="preserve" wit="#N" type="missing"/>
+                        <rdg   xml:space="preserve" wit="#P" type="missing"/>
+                        <rdg   xml:space="preserve" wit="#V" type="missing"/>
+                        <rdg xml:space="preserve" wit="#w" type="missing"/>
                         </app> </l>
                     <l xml:id="s_506"> <app>
                         <rdg  n="508" xml:space="preserve" wit="#A">Ich were ein truweloſes wip</rdg>
@@ -9140,8 +9179,18 @@
                         <rdg  n="483" xml:space="preserve" wit="#P">Ob ich gedechte nicht dar an</rdg>
                         <rdg  n="458f" xml:space="preserve" wit="#V" type="missing"/>
                         </app> </l>
-                    <l> <app>
-                        <rdg  n="518" xml:space="preserve" wit="#D">Sid er hat <choice><abbr>geb<am>n̄</am></abbr><expan>geb<ex>e</ex>n</expan></choice> vmb mich ſin lib</rdg>
+                    <l xml:id="s_507a"> <app>
+                        <rdg  xml:space="preserve" wit="#A" type="missing"/>
+                        <rdg   xml:space="preserve" wit="#B" type="missing"/>
+                        <rdg  xml:space="preserve" wit="#D">Sid er hat <choice><abbr>geb<am>n̄</am></abbr><expan>geb<ex>e</ex>n</expan></choice> vmb mich ſin lib</rdg>
+                        <rdg   xml:space="preserve" wit="#h" type="missing"/>
+                        <rdg   xml:space="preserve" wit="#I" type="missing"/>
+                        <rdg   xml:space="preserve" wit="#Ko" type="missing"/>
+                        <rdg   xml:space="preserve" wit="#L" type="missing"/>
+                        <rdg   xml:space="preserve" wit="#N" type="missing"/>
+                        <rdg   xml:space="preserve" wit="#P" type="missing"/>
+                        <rdg   xml:space="preserve" wit="#V" type="missing"/>
+                        <rdg xml:space="preserve" wit="#w" type="missing"/>
                         </app> </l>
                     <l xml:id="s_508"> <app>
                         <rdg  n="510" xml:space="preserve" wit="#A">Daz der tugenthafte man</rdg>
@@ -9612,7 +9661,7 @@
                         <rdg  n="486" xml:space="preserve" wit="#L"><choice><abbr><am>Ff</am>ur</abbr><expan><ex>F</ex>ur</expan></choice><hi rend="decoration color:red"> </hi>alle wiſze wend<lb/>Amen<witEnd wit="#L"/></rdg>
                         <rdg  n="535" xml:space="preserve" wit="#N" type="alternative:2"><hi rend="decoration color:red">D</hi>ie noch kuͤnerlichen dol</rdg>
                         <rdg  n="520" xml:space="preserve" wit="#P">Got vns zu himel ſende· AMEN<witEnd wit="#P"/></rdg>
-                        <rdg  n="485" xml:space="preserve" wit="#V"><hi rend="decoration color:red">S</hi>o got den ritter ſchend: <hi rend="color:red">amen</hi></rdg>
+                        <rdg  n="485" xml:space="preserve" wit="#V"><hi rend="decoration color:red">S</hi>o got den ritter ſchend: <hi rend="color:red">amen</hi><witEnd wit="#V"></witEnd></rdg>
                         </app> </l>
                 </lg>
                 <lg org="uniform" sample="complete">
