@@ -118,16 +118,18 @@
             <div org="uniform" sample="complete">
                 <pb edRef="#A" facs="#A_4v"/>
                 <cb edRef="#A" facs="#A_4v_a"/>
-                <pb edRef="#B" facs="#B_97r"/>
+                <pb edRef="#B" facs="#B_97r" ed="http://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN662366077&amp;PHYSID=PHYS_0203&amp;DMDID=DMDLOG_0022"/>
                 <pb edRef="#D" facs="#D_129v" ed="https://digital.blb-karlsruhe.de/blbhs/content/pageview/36890"/>
                 <cb edRef="#D" facs="#D_129v_a" ed="https://digital.blb-karlsruhe.de/blbhs/content/pageview/36890"/>
-                <pb edRef="#h" facs="#h_82r"/>
+                <pb edRef="#h" facs="#h_82r" ed="http://mscripthq.nkp.cz/documentrepository/manuscriptorium/L/NMP___X_A_12_________2B4L/N1/X_A_12_________2B4LN10082R.JPG"/>
                 <pb edRef="#I" facs="#I_8r"/>
                 <cb edRef="#I" facs="#I_8r_b"/>
-                <pb edRef="#L" facs="#L_226v"/>
+                <pb edRef="#L" facs="#L_226v" ed="http://digital.bibliothek.uni-halle.de/hd/content/pageview/1694984"/>
                 <pb edRef="#N" facs="#N_147r"/>
-                <pb edRef="#P" facs="#P_346r"/>
-                <cb edRef="#P" facs="#P_346r_a"/>
+                <pb edRef="#P" facs="#P_346r" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg341/0495"/>
+                <cb edRef="#P" facs="#P_346r_a"  ed="http://digi.ub.uni-heidelberg.de/diglit/cpg341/0495"/>
+                <pb edRef="#V" facs="#V_10v" ed="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1503059763882~429"/>
+                <cb edRef="#V" facs="#V_10va"  ed="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1503059763882~429"/>
                 <pb edRef="#w" facs="#w_1r" ed="http://archiv.onb.ac.at:1801/webclient/DeliveryManager?pid=3168584"/>
                 <head> <app>
                     <rdg  n="" xml:space="preserve" wit="#A"><hi rend="color:red">Diſe mére mahte <choice><abbr>Meiſ<am>t͛</am></abbr><expan>Meiſt<ex>er</ex></expan></choice>gotfrit <lb/> von ſtrazburg vn ſeit vo <choice><abbr><am>d͛</am></abbr><expan>d<ex>er</ex></expan></choice> minne</hi></rdg>
@@ -242,7 +244,7 @@
                         <rdg  n="7" xml:space="preserve" wit="#V"><hi rend="decoration color:red">D</hi>az vn̈s <choice><abbr>v<am>ō</am></abbr><expan>vo<ex>n</ex></expan></choice> <choice><abbr>gant<am>z͛</am></abbr><expan>gantz<ex>er</ex></expan></choice> <choice><abbr>tug<am>n̄</am>t</abbr><expan>tug<ex>e</ex>nt</expan></choice> ſait</rdg>
                         <rdg  n="7" xml:space="preserve" wit="#w">Was es von gantzer ſeÿt</rdg>
                         </app> </l>
-                    <cb edRef="#P" facs="#P_346r_b"/>
+                    <cb edRef="#P" facs="#P_346r_b"  ed="http://digi.ub.uni-heidelberg.de/diglit/cpg341/0495"/>
                     <l xml:id="s_8"> <app>
                         <rdg  n="8" xml:space="preserve" wit="#A">Des bringet uns gewisheit</rdg>
                         <rdg  n="8" xml:space="preserve" wit="#B">Das bringett vnns die weyßheÿtt</rdg>
@@ -400,8 +402,8 @@
                         </app> </l>
                 </lg>
                 <lg org="uniform" sample="complete">
-                    <pb edRef="#B" facs="#B_97v"/>
-                    <pb edRef="#L" facs="#L_227r"/>
+                    <pb edRef="#B" facs="#B_97v" ed="http://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN662366077&amp;PHYSID=PHYS_0204&amp;DMDID=DMDLOG_0023"/>
+                    <pb edRef="#L" facs="#L_227r" ed="http://digital.bibliothek.uni-halle.de/hd/content/pageview/1694985"/>
                     <l xml:id="s_17"> <app>
                         <rdg  n="17" xml:space="preserve" wit="#A">Mit minnenclichen ougen</rdg>
                         <rdg  n="19" xml:space="preserve" wit="#B">Mit wȗniglichenn aȗgen</rdg>
@@ -629,7 +631,7 @@
                         </app> </l>
                 </lg>
                 <lg org="uniform" sample="complete">
-                    <pb edRef="#h" facs="#h_82v"/>
+                    <pb edRef="#h" facs="#h_82v"  ed="http://mscripthq.nkp.cz/documentrepository/manuscriptorium/L/NMP___X_A_12_________2B4L/N1/X_A_12_________2B4LN10082V.JPG"/>
                     <l xml:id="s_31"> <app>
                         <rdg  n="31" xml:space="preserve" wit="#A">In einander verweben</rdg>
                         <rdg  n="31" xml:space="preserve" wit="#B">Jnn einander alſo verwebenn</rdg>
@@ -686,7 +688,7 @@
                         <rdg  n="36" xml:space="preserve" wit="#w">Was der fraͦwen arges war</rdg>
                         </app> </l>
                 </lg>
-                <cb edRef="#V" facs="#V_10v_b"/>
+                <cb edRef="#V" facs="#V_10v_b"  ed="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1503059763882~429"/>
                 <lg org="uniform" sample="complete">
                     <l xml:id="s_35"> <app>
                         <rdg  n="35" xml:space="preserve" wit="#A">Daz war ouch dem ritter</rdg>
@@ -815,7 +817,7 @@
                         <rdg  n="41" xml:space="preserve" wit="#V"><hi rend="decoration color:red">J</hi>n <choice><abbr>pad<am>n̄</am></abbr><expan>pad<ex>e</ex>n</expan></choice> wart bechant</rdg>
                         <rdg  n="44a" xml:space="preserve" wit="#w" type="missing"/>
                         </app> </l>
-                    <pb edRef="#L" facs="#L_227v"/>
+                    <pb edRef="#L" facs="#L_227v"  ed="http://digital.bibliothek.uni-halle.de/hd/content/pageview/1694986"/>
                     <l xml:id="s_42b"> <app>
                         <rdg  n="42b" xml:space="preserve" wit="#A" type="missing"/>
                         <rdg  n="44" xml:space="preserve" wit="#B">Als ich die abendȗre fant</rdg>
@@ -831,7 +833,7 @@
                         </app> </l>
                 </lg>
                 <lg org="uniform" sample="complete">
-                    <pb edRef="#B" facs="#B_98r"/>
+                    <pb edRef="#B" facs="#B_98r" ed="http://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN662366077&amp;PHYSID=PHYS_0205&amp;DMDID=DMDLOG_0023"/>
                     <l xml:id="s_43"> <app>
                         <rdg  n="43" xml:space="preserve" wit="#A">Von der ſuezen minne kunt</rdg>
                         <rdg  n="45" xml:space="preserve" wit="#B">Wann die ſtarck liebe</rdg>
@@ -902,8 +904,8 @@
                         <rdg  n="47" xml:space="preserve" wit="#V"><hi rend="decoration color:red">M</hi>it <choice><abbr>minnichleic<am>h͛</am></abbr><expan>minnichleich<ex>er</ex></expan></choice> trawtſchaft</rdg>
                         <rdg  n="49" xml:space="preserve" wit="#w">Mit mÿnnigklicher dienſchaft</rdg>
                         </app> </l>
-                    <pb edRef="#P" facs="#P_346v"/>
-                    <cb edRef="#P" facs="#P_346v_a"/>
+                    <pb edRef="#P" facs="#P_346v"  ed="http://digi.ub.uni-heidelberg.de/diglit/cpg341/0496"/>
+                    <cb edRef="#P" facs="#P_346v_a"  ed="http://digi.ub.uni-heidelberg.de/diglit/cpg341/0496"/>
                     <l xml:id="s_48"> <app>
                         <rdg  n="48" xml:space="preserve" wit="#A">Daz niemer moehte ſuliche kraft</rdg>
                         <rdg  n="50" xml:space="preserve" wit="#B">Das nymer mocht jr lieb krafft</rdg>
@@ -1144,7 +1146,7 @@
                         </app></l>
                 </lg>
                 <lg org="uniform" sample="complete">
-                    <pb edRef="#h" facs="#h_83r"/>
+                    <pb edRef="#h" facs="#h_83r" ed="http://mscripthq.nkp.cz/documentrepository/manuscriptorium/L/NMP___X_A_12_________2B4L/N1/X_A_12_________2B4LN10083R.JPG"/>
                     <l xml:id="s_63"> <app>
                         <rdg  n="63" xml:space="preserve" wit="#A">Wan ir ſchoene was behuot</rdg>
                         <rdg  n="65" xml:space="preserve" wit="#B">Das ſie ſo ſere was behȗtt</rdg>
@@ -1201,10 +1203,10 @@
                         </app> </l>
                 </lg>
                 <lg org="uniform" sample="complete">
-                    <pb edRef="#B" facs="#B_98v"/>
-                    <pb edRef="#L" facs="#L_228r"/>
-                    <pb edRef="#V" facs="#V_11r"/>
-                    <cb edRef="#V" facs="#V_11r_a"/>
+                    <pb edRef="#B" facs="#B_98v"  ed="http://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN662366077&amp;PHYSID=PHYS_0206&amp;DMDID=DMDLOG_0023"/>
+                    <pb edRef="#L" facs="#L_228r"  ed="http://digital.bibliothek.uni-halle.de/hd/content/pageview/1694987"/>
+                    <pb edRef="#V" facs="#V_11r"  ed="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1503059872407~659"/>
+                    <cb edRef="#V" facs="#V_11r_a"  ed="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1503059872407~659"/>
                     <l xml:id="s_67"> <app>
                         <rdg  n="67" xml:space="preserve" wit="#A">Daz noch irre minne lag verſnitten</rdg>
                         <rdg  n="69" xml:space="preserve" wit="#B">Der nach jr libenn lag <choice><abbr>verſchnit<am>t̨</am></abbr><expan>verſchnitt<ex>en</ex></expan></choice></rdg>
@@ -1504,7 +1506,7 @@
                         <rdg  n="87" xml:space="preserve" wit="#V"><hi rend="decoration color:red">P</hi>aide nach anander do</rdg>
                         <rdg  n="89" xml:space="preserve" wit="#w">Nach ain andern baÿde</rdg>
                         </app> </l>
-                    <cb edRef="#P" facs="#P_346v_b"/>
+                    <cb edRef="#P" facs="#P_346v_b"  ed="http://digi.ub.uni-heidelberg.de/diglit/cpg341/0496"/>
                     <l xml:id="s_88"> <app>
                         <rdg  n="88" xml:space="preserve" wit="#A">Dar umbe wart ir vil leide</rdg>
                         <rdg  n="89a" xml:space="preserve" wit="#B" type="missing"/>
@@ -1590,8 +1592,8 @@
                         <rdg  n="91" xml:space="preserve" wit="#V"><hi rend="decoration color:red">A</hi>in dink <choice><abbr>dz</abbr><expan>d<ex>a</ex>z</expan></choice> mih gerewt</rdg>
                         <rdg  n="95" xml:space="preserve" wit="#w">Das es dich hernach gerŭwet</rdg>
                         </app> </l>
-                    <pb edRef="#B" facs="#B_99r"/>
-                    <pb edRef="#L" facs="#L_228v"/>
+                    <pb edRef="#B" facs="#B_99r"  ed="http://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN662366077&amp;PHYSID=PHYS_0207&amp;DMDID=DMDLOG_0023"/>
+                    <pb edRef="#L" facs="#L_228v"  ed="http://digital.bibliothek.uni-halle.de/hd/content/pageview/1694988"/>
                     <l xml:id="s_94"> <app>
                         <rdg  n="94" xml:space="preserve" wit="#A">Wan ſu̍ mit ſchaden bruwet</rdg>
                         <rdg  n="94" xml:space="preserve" wit="#B">Vnnd mir vill ſchannd berȗert</rdg>
@@ -1663,7 +1665,7 @@
                         </app> </l>
                 </lg>
                 <lg org="uniform" sample="complete">
-                    <pb edRef="#h" facs="#h_83v"/>
+                    <pb edRef="#h" facs="#h_83v"  ed="http://mscripthq.nkp.cz/documentrepository/manuscriptorium/L/NMP___X_A_12_________2B4L/N1/X_A_12_________2B4LN10083V.JPG"/>
                     <pb edRef="#I" facs="#I_9r"/>
                     <cb edRef="#I" facs="#I_9r_a"/>
                     <l xml:id="s_99"> <app>
@@ -1679,7 +1681,7 @@
                         <rdg  n="97" xml:space="preserve" wit="#V"><hi rend="decoration color:red">S</hi>o wil ich <choice><abbr>ger<am>n̄</am></abbr><expan>gern<ex>e</ex></expan></choice> <choice><abbr>far<am>n̄</am></abbr><expan>far<ex>e</ex>n</expan></choice></rdg>
                         <rdg  n="101" xml:space="preserve" wit="#w">Will ich zwar mit ier faren</rdg>
                         </app> </l>
-                    <cb edRef="#V" facs="#V_11r_b"/>
+                    <cb edRef="#V" facs="#V_11r_b"  ed="http://archiv.onb.ac.at:1801/webclient/StreamGate?folder_id=200&amp;dvs=1503059872407~659"/>
                     <l xml:id="s_100"> <app>
                         <rdg  n="100" xml:space="preserve" wit="#A">Durch daz ich ku̍nne ſu̍ bewarn</rdg>
                         <rdg  n="100" xml:space="preserve" wit="#B">Dȗrch das ich mich <choice><abbr>bewar<am>n̄</am><expan>bewar<ex>e</ex>n</expan></abbr><expan>bewar<ex>e</ex>n</expan></choice></rdg>
@@ -1929,7 +1931,7 @@
                         </app> </l>
                 </lg>
                 <lg org="uniform" sample="complete">
-                    <pb edRef="#L" facs="#L_229r"/>
+                    <pb edRef="#L" facs="#L_229r"  ed="http://digital.bibliothek.uni-halle.de/hd/content/pageview/1694989"/>
                     <l xml:id="s_117"> <app>
                         <rdg  n="117" xml:space="preserve" wit="#A">Moehten werden under in</rdg>
                         <rdg  n="117" xml:space="preserve" wit="#B">Mocht werden vntter jn</rdg>
@@ -1958,7 +1960,7 @@
                         </app> </l>
                 </lg>
                 <lg org="uniform" sample="complete">
-                    <pb edRef="#B" facs="#B_99v"/>
+                    <pb edRef="#B" facs="#B_99v"  ed="http://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN662366077&amp;PHYSID=PHYS_0208&amp;DMDID=DMDLOG_0023"/>
                     <l xml:id="s_119"> <app>
                         <rdg  n="119" xml:space="preserve" wit="#A">Daz er mit der frowen</rdg>
                         <rdg  n="119" xml:space="preserve" wit="#B">Wie er mit ihr fraw̑enn</rdg>
@@ -2087,8 +2089,8 @@
                         <rdg  n="125" xml:space="preserve" wit="#V"><hi rend="decoration color:red">W</hi>olt <choice><abbr>far<am>n̄</am></abbr><expan>far<ex>e</ex>n</expan></choice> v̈ber mer</rdg>
                         <rdg  n="129" xml:space="preserve" wit="#w">Woͤlt faren v̆ber mer</rdg>
                         </app> </l>
-                    <pb edRef="#P" facs="#P_347r"/>
-                    <cb edRef="#P" facs="#P_347r_a"/>
+                    <pb edRef="#P" facs="#P_347r"  ed="http://digi.ub.uni-heidelberg.de/diglit/cpg341/0497"/>
+                    <cb edRef="#P" facs="#P_347r_a"  ed="http://digi.ub.uni-heidelberg.de/diglit/cpg341/0497"/>
                     <l xml:id="s_128"> <app>
                         <rdg  n="128" xml:space="preserve" wit="#A">In duhte des er ane wer</rdg>
                         <rdg  n="128" xml:space="preserve" wit="#B">Jm daȗcht wie er an wer</rdg>
@@ -2163,7 +2165,7 @@
                         </app> </l>
                 </lg>
                 <lg org="uniform" sample="complete">
-                    <pb edRef="#h" facs="#h_83v"/>
+                    <pb edRef="#h" facs="#h_84r"  ed="http://mscripthq.nkp.cz/documentrepository/manuscriptorium/L/NMP___X_A_12_________2B4L/N1/X_A_12_________2B4LN10084R.JPG"/>
                     <l xml:id="s_133"> <app>
                         <rdg  n="133" xml:space="preserve" wit="#A">Twang ſo vaſte ſinen ſin</rdg>
                         <rdg  n="133" xml:space="preserve" wit="#B">Die zwanng ſo ſere ſeinen leÿb</rdg>
@@ -2292,7 +2294,7 @@
                         <rdg  n="143" xml:space="preserve" wit="#w">Das vil kaÿſerlich weÿb</rdg>
                         </app> </l>
                     <pb edRef="#w" facs="#w_3v" ed="http://archiv.onb.ac.at:1801/webclient/DeliveryManager?pid=3168584"/>
-                    <pb edRef="#L" facs="#L_229v"/>
+                    <pb edRef="#L" facs="#L_229v"  ed="http://digital.bibliothek.uni-halle.de/hd/content/pageview/1694990"/>
                     <l xml:id="s_142"> <app>
                         <rdg  n="142" xml:space="preserve" wit="#A">Frunt ſprach ſu̍ lieber lip</rdg>
                         <rdg  n="142" xml:space="preserve" wit="#B">Sprach friundt lieber dann mein laib</rdg>
@@ -2321,7 +2323,7 @@
                         <rdg  n="141" xml:space="preserve" wit="#V"><hi rend="decoration color:red">M</hi>ein man iſt in den <choice><abbr>will<am>n̄</am></abbr><expan>will<ex>e</ex>n</expan></choice> <choice><abbr>ko<am>m̄</am></abbr><expan>kom<ex>en</ex></expan></choice></rdg>
                         <rdg  n="145" xml:space="preserve" wit="#w">Mein man iſt an den willen <choice><abbr>küm<am>ē</am></abbr><expan>küme<ex>n</ex></expan></choice></rdg>
                         </app> </l>
-                    <pb edRef="#B" facs="#B_100r"/>
+                    <pb edRef="#B" facs="#B_100r" ed="http://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN662366077&amp;PHYSID=PHYS_0209&amp;DMDID=DMDLOG_0023"/>
                     <l xml:id="s_144"> <app>
                         <rdg  n="144" xml:space="preserve" wit="#A">Anſe du ſelber wol haſt benomen</rdg>
                         <rdg  n="144" xml:space="preserve" wit="#B">Als diw̑ ſelbſt haſt vernomen</rdg>
@@ -3292,8 +3294,8 @@
                         </app> </l>
                 </lg>
                 <lg org="uniform" sample="complete">
-                    <pb edRef="#h" facs="#h_84v"/>
-                    <pb edRef="#L" facs="#L_230r"/>
+                    <pb edRef="#h" facs="#h_84v"  ed="http://mscripthq.nkp.cz/documentrepository/manuscriptorium/L/NMP___X_A_12_________2B4L/N1/X_A_12_________2B4LN10084V.JPG"/>
+                    <pb edRef="#L" facs="#L_230r"  ed="http://digital.bibliothek.uni-halle.de/hd/content/pageview/1694991"/>
                     <l xml:id="s_166c"> <app>
                         <rdg  n="166c" xml:space="preserve" wit="#A" type="missing"/>
                         <rdg  n="167" xml:space="preserve" wit="#B">Bleÿbenn aber wir</rdg>
@@ -3350,7 +3352,7 @@
                         </app> </l>
                 </lg>
                 <lg org="uniform" sample="complete">
-                    <pb edRef="#B" facs="#B_100v"/>
+                    <pb edRef="#B" facs="#B_100v"  ed="http://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN662366077&amp;PHYSID=PHYS_0210&amp;DMDID=DMDLOG_0023"/>
                     <l xml:id="s_169"> <app>
                         <rdg  n="169" xml:space="preserve" wit="#A">Daz von uns fliget u̍ber lant</rdg>
                         <rdg  n="171" xml:space="preserve" wit="#B">Das vonn fleȗget jnn dem landt</rdg>
@@ -3438,7 +3440,7 @@
                         </app> </l>
                 </lg>
                 <lg org="uniform" sample="complete">
-                    <cb edRef="#P" facs="#P_347r_b"/>
+                    <cb edRef="#P" facs="#P_347r_b" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg341/0497"/>
                     <l xml:id="s_175"> <app>
                         <rdg  n="175" xml:space="preserve" wit="#A">Das man uf uns zuo mere ſaget</rdg>
                         <rdg  n="177" xml:space="preserve" wit="#B">Das man yz vonn vnns ſacht</rdg>
@@ -3650,7 +3652,7 @@
                         <rdg  n="189" xml:space="preserve" wit="#V"><hi rend="decoration color:red">S</hi>org in meins <choice><abbr>hertz<am>n̄</am></abbr><expan>hertz<ex>e</ex>n</expan></choice> grunt</rdg>
                         <rdg  n="226" xml:space="preserve" wit="#w">Jamer in maÿnes hertzen gründ</rdg>
                         </app> </l>
-                    <pb edRef="#L" facs="#L_230v"/>
+                    <pb edRef="#L" facs="#L_230v"  ed="http://digital.bibliothek.uni-halle.de/hd/content/pageview/1694992"/>
                     <pb edRef="#N" facs="#N_152r"/>
                     <l xml:id="s_190"> <app>
                         <rdg  n="190" xml:space="preserve" wit="#A">Gip mir her an minen munt</rdg>
@@ -3727,7 +3729,7 @@
                         </app> </l>
                 </lg>
                 <lg org="uniform" sample="complete">
-                    <pb edRef="#B" facs="#B_101r"/>
+                    <pb edRef="#B" facs="#B_101r" ed="http://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN662366077&amp;PHYSID=PHYS_0211&amp;DMDID=DMDLOG_0023"/>
                     <pb edRef="#w" facs="#w_5r" ed="http://archiv.onb.ac.at:1801/webclient/DeliveryManager?pid=3168584"/>
                     <l xml:id="s_195"> <app>
                         <rdg  n="195" xml:space="preserve" wit="#A">Mit truebes herzen ſinne</rdg>
@@ -3785,7 +3787,7 @@
                         </app> </l>
                 </lg>
                 <lg org="uniform" sample="complete">
-                    <pb edRef="#h" facs="#h_85r"/>
+                    <pb edRef="#h" facs="#h_85r" ed="http://mscripthq.nkp.cz/documentrepository/manuscriptorium/L/NMP___X_A_12_________2B4L/N1/X_A_12_________2B4LN10085R.JPG"/>
                     <l xml:id="s_199"> <app>
                         <rdg  n="199" xml:space="preserve" wit="#A">Herze muot und ouch den ſin</rdg>
                         <rdg  n="200a" xml:space="preserve" wit="#B" type="missing"/>
@@ -4011,8 +4013,8 @@
                         </app> </l>
                 </lg>
                 <lg org="uniform" sample="complete">
-                    <pb edRef="#P" facs="#P_347v"/>
-                    <cb edRef="#P" facs="#P_347v_a"/>
+                    <pb edRef="#P" facs="#P_347v" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg341/0498"/>
+                    <cb edRef="#P" facs="#P_347v_a"  ed="http://digi.ub.uni-heidelberg.de/diglit/cpg341/0498"/>
                     <l xml:id="s_215"> <app>
                         <rdg  n="215" xml:space="preserve" wit="#A">Von ir herzeleide</rdg>
                         <rdg  n="206c" xml:space="preserve" wit="#B" type="alternative1">Mitt jammer vnnd mit leÿde</rdg>
@@ -4201,7 +4203,7 @@
                         </app> </l>
                 </lg>
                 <lg org="uniform" sample="complete">
-                    <pb edRef="#L" facs="#L_231r"/>
+                    <pb edRef="#L" facs="#L_231r" ed="http://digital.bibliothek.uni-halle.de/hd/content/pageview/1694993"/>
                     <l xml:id="s_223"> <app>
                         <rdg  n="223" xml:space="preserve" wit="#A">Lag ir beider herze tot</rdg>
                         <rdg  n="214" xml:space="preserve" wit="#B">So lag jr beider hertz todt</rdg>
@@ -4275,7 +4277,7 @@
                         <rdg  n="219" xml:space="preserve" wit="#V"><hi rend="decoration color:red">A</hi>ller fraẅs vnder in</rdg>
                         <rdg  n="264" xml:space="preserve" wit="#w">Aller froͤden vnder in</rdg>
                         </app> </l>
-                    <pb edRef="#B" facs="#B_101v"/>
+                    <pb edRef="#B" facs="#B_101v" ed="http://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN662366077&amp;PHYSID=PHYS_0212&amp;DMDID=DMDLOG_0023"/>
                     <l xml:id="s_228"> <app>
                         <rdg  n="228" xml:space="preserve" wit="#A">Der werde ritter kerte hin</rdg>
                         <rdg  n="219" xml:space="preserve" wit="#B">Der werdt Ritter ſchied dahin</rdg>
@@ -4709,7 +4711,7 @@
                         <rdg  n="231" xml:space="preserve" wit="#V"><hi rend="decoration color:red">V</hi>on der <choice><abbr>lieb<am>n̄</am></abbr><expan>lieb<ex>e</ex>n</expan></choice> <choice><abbr>fraw<am>n̄</am></abbr><expan>fraw<ex>e</ex>n</expan></choice> ſein</rdg>
                         <rdg  n="296" xml:space="preserve" wit="#w">Von der lieben frăwen ſein</rdg>
                         </app> </l>
-                    <pb edRef="#h" facs="#h_85v"/>
+                    <pb edRef="#h" facs="#h_85v" ed="http://mscripthq.nkp.cz/documentrepository/manuscriptorium/L/NMP___X_A_12_________2B4L/N1/X_A_12_________2B4LN10085V.JPG"/>
                     <l xml:id="s_240"> <app>
                         <rdg  n="240" xml:space="preserve" wit="#A">Des wart ſin herzeclicher pin</rdg>
                         <rdg  n="231" xml:space="preserve" wit="#B">Nach der ſein hertzliche pein</rdg>
@@ -4851,7 +4853,7 @@
                         <rdg  n="238a" xml:space="preserve" wit="#V" type="missing"/>
                         <rdg  n="306" xml:space="preserve" wit="#w">Nach der edlen mÿnne wardt</rdg>
                         </app> </l>
-                    <pb edRef="#L" facs="#L_231v"/>
+                    <pb edRef="#L" facs="#L_231v" ed="http://digital.bibliothek.uni-halle.de/hd/content/pageview/1694994"/>
                     <l xml:id="s_248"> <app>
                         <rdg  n="248" xml:space="preserve" wit="#A">Der reinen durteltuben art</rdg>
                         <rdg  n="237b" xml:space="preserve" wit="#B" type="missing"/>
@@ -4952,7 +4954,7 @@
                         </app> </l>
                 </lg>
                 <lg org="uniform" sample="complete">
-                    <cb edRef="#P" facs="#P_347v_b"/>
+                    <cb edRef="#P" facs="#P_347v_b" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg341/0498"/>
                     <l xml:id="s_255"> <app>
                         <rdg  n="255" xml:space="preserve" wit="#A">Unde wart ſin leit ſo rehte ſtark</rdg>
                         <rdg  n="237i" xml:space="preserve" wit="#B" type="missing"/>
@@ -5081,7 +5083,7 @@
                         <rdg  n="243" xml:space="preserve" wit="#V"><hi rend="decoration color:red">A</hi>ch geert <del rend="overstrike underdotted">waz</del> ſei <choice><abbr>dz</abbr><expan>d<ex>a</ex>z</expan></choice> rain weib</rdg>
                         <rdg  n="316" xml:space="preserve" wit="#w">Geeret ſej das ſuͤſſe weÿb</rdg>
                         </app> </l>
-                    <pb edRef="#B" facs="#B_102r"/>
+                    <pb edRef="#B" facs="#B_102r" ed="http://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN662366077&amp;PHYSID=PHYS_0213&amp;DMDID=DMDLOG_0023"/>
                     <l xml:id="s_264"> <app>
                         <rdg  n="264" xml:space="preserve" wit="#A">Der lieben und der ſuezen lip</rdg>
                         <rdg  n="243" xml:space="preserve" wit="#B">Der libenn vnnd ſȗſſer leÿb</rdg>
@@ -5454,7 +5456,7 @@
                         <rdg  n="263" xml:space="preserve" wit="#V"><hi rend="decoration color:red">D</hi>az ſeiner <choice><abbr>lieb<am>n̄</am></abbr><expan>lieb<ex>e</ex>n</expan></choice> <choice><abbr>fraw<am>n̄</am></abbr><expan>fraw<ex>e</ex>n</expan></choice> fart</rdg>
                         <rdg  n="333e" xml:space="preserve" wit="#w" type="missing"/>
                         </app> </l>
-                    <pb edRef="#L" facs="#L_232r"/>
+                    <pb edRef="#L" facs="#L_232r" ed="http://digital.bibliothek.uni-halle.de/hd/content/pageview/1694995"/>
                     <l xml:id="s_284f"> <app>
                         <rdg  n="284f" xml:space="preserve" wit="#A" type="missing"/>
                         <rdg  n="263" xml:space="preserve" wit="#B">Erwennt vnnd vermȋtten wardt</rdg>
@@ -5470,7 +5472,7 @@
                         </app> </l>
                 </lg>
                 <lg org="uniform" sample="complete">
-                    <pb edRef="#h" facs="#h_86r"/>
+                    <pb edRef="#h" facs="#h_86r" ed="http://mscripthq.nkp.cz/documentrepository/manuscriptorium/L/NMP___X_A_12_________2B4L/N1/X_A_12_________2B4LN10086R.JPG"/>
                     <l xml:id="s_284g"> <app>
                         <rdg  n="284g" xml:space="preserve" wit="#A" type="missing"/>
                         <rdg  n="264" xml:space="preserve" wit="#B">Vonn Jrres <choice><abbr>her<am>r̄</am>n</abbr><expan>her<ex>re</ex>n</expan></choice> wegen</rdg>
@@ -5526,7 +5528,7 @@
                         <rdg  n="335" xml:space="preserve" wit="#w">Das im zwͦ ſterben geſchach</rdg>
                         </app> </l>
                 </lg>
-                <pb edRef="#B" facs="#B_102v"/>
+                <pb edRef="#B" facs="#B_102v" ed="http://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN662366077&amp;PHYSID=PHYS_0214&amp;DMDID=DMDLOG_0023"/>
                 <lg org="uniform" sample="complete">
                     <l xml:id="s_287"> <app>
                         <rdg  n="287" xml:space="preserve" wit="#A"><hi rend="initial">D</hi>o ſprach er zuo dem knehte ſin</rdg>
@@ -5723,8 +5725,8 @@
                         </app> </l>
                 </lg>
                 <lg org="uniform" sample="complete">
-                    <pb edRef="#P" facs="#P_348r"/>
-                    <cb edRef="#P" facs="#P_348r_a"/>
+                    <pb edRef="#P" facs="#P_348r" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg341/0499"/>
+                    <cb edRef="#P" facs="#P_348r_a" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg341/0499"/>
                     <l xml:id="s_299"> <app>
                         <rdg  n="299" xml:space="preserve" wit="#A">Unde nim her us min herze gar</rdg>
                         <rdg  n="274" xml:space="preserve" wit="#B">Vnnd <mod type="substitution_in_word"><mod type="diplomatic"><subst><del rend="overwritten">m</del><add>N</add></subst>ÿm</mod><mod type="phase" n="1">mÿm</mod><mod type="phase" n="2">Nÿm</mod></mod> daraȗß mein hertz gar</rdg>
@@ -5953,7 +5955,7 @@
                         </app> </l>
                 </lg>
                 <lg org="uniform" sample="complete">
-                    <pb edRef="#L" facs="#L_232v"/>
+                    <pb edRef="#L" facs="#L_232v"  ed="http://digital.bibliothek.uni-halle.de/hd/content/pageview/1694996"/>
                     <l xml:id="s_313"> <app>
                         <rdg  n="313" xml:space="preserve" wit="#A">Su̍ beide minre frowen</rdg>
                         <rdg  n="288" xml:space="preserve" wit="#B">Meiner liebſtenn fraw̑en</rdg>
@@ -6041,7 +6043,7 @@
                         </app> </l>
                 </lg>
                 <lg org="uniform" sample="complete">
-                    <pb edRef="#B" facs="#B_103r"/>
+                    <pb edRef="#B" facs="#B_103r" ed="http://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN662366077&amp;PHYSID=PHYS_0215&amp;DMDID=DMDLOG_0023"/>
                     <l xml:id="s_319"> <app>
                         <rdg  n="319" xml:space="preserve" wit="#A">Unde alſo ganze truwe</rdg>
                         <rdg  n="294" xml:space="preserve" wit="#B">Vnnd ſo ganntze trew̑</rdg>
@@ -6070,7 +6072,7 @@
                         </app> </l>
                 </lg>
                 <lg org="uniform" sample="complete">
-                    <pb edRef="#h" facs="#h_86v"/>
+                    <pb edRef="#h" facs="#h_86v" ed="http://mscripthq.nkp.cz/documentrepository/manuscriptorium/L/NMP___X_A_12_________2B4L/N1/X_A_12_________2B4LN10086V.JPG"/>
                     <l xml:id="s_321"> <app>
                         <rdg  n="321" xml:space="preserve" wit="#A">Leit ſamir an ir herzen</rdg>
                         <rdg  n="296" xml:space="preserve" wit="#B">Stettigs hett zw hertzenn</rdg>
@@ -6358,9 +6360,9 @@
                         </app> </l>
                 </lg>
                 <lg org="uniform" sample="complete">
-                    <pb edRef="#D" facs="#D_131v"/>
+                    <pb edRef="#D" facs="#D_131v" ed="https://digital.blb-karlsruhe.de/blbhs/content/pageview/36375"/>
                     <cb edRef="#D" facs="#D_131v_a" ed="https://digital.blb-karlsruhe.de/blbhs/content/pageview/36375"/>
-                    <cb edRef="#P" facs="#P_348r_b" ed="https://digital.blb-karlsruhe.de/blbhs/content/pageview/36375"/>
+                    <cb edRef="#P" facs="#P_348r_b"  ed="http://digi.ub.uni-heidelberg.de/diglit/cpg341/0499"/>
                     <l xml:id="s_339"> <app>
                         <rdg  n="341" xml:space="preserve" wit="#A">Und er fu̍llet ime ſine bette</rdg>
                         <rdg  n="310a" xml:space="preserve" wit="#B" type="missing"/>
@@ -6461,7 +6463,7 @@
                         <rdg  n="317" xml:space="preserve" wit="#V"><hi rend="decoration color:red">D</hi>o daz geſchach er ſchied <choice><abbr>v<am>ō</am></abbr><expan>vo<ex>n</ex></expan></choice> dan</rdg>
                         <rdg  n="387" xml:space="preserve" wit="#w" xml:id="w_007v_line_2"  type="transposed">Vollbrachtz mit fleÿß vnd kart von dan̄</rdg>
                         </app> </l>
-                    <pb edRef="#L" facs="#L_233r"/>
+                    <pb edRef="#L" facs="#L_233r"  ed="http://digital.bibliothek.uni-halle.de/hd/content/pageview/1694997"/>
                     <l xml:id="s_342"> <app>
                         <rdg  n="344" xml:space="preserve" wit="#A">Alſe ein froiedeloſer man</rdg>
                         <rdg  n="316" xml:space="preserve" wit="#B">Als ein vnfrolich man</rdg>
@@ -6510,7 +6512,7 @@
                 </lg>
                 <pb edRef="#N" facs="#N_156r"/>
                 <lg org="uniform" sample="complete">
-                    <pb edRef="#B" facs="#B_103v"/>
+                    <pb edRef="#B" facs="#B_103v" ed="http://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN662366077&amp;PHYSID=PHYS_0216&amp;DMDID=DMDLOG_0023"/>
                     <l xml:id="s_345"> <app>
                         <rdg  n="347" xml:space="preserve" wit="#A">Zuo der ſelbe veſte</rdg>
                         <rdg  n="318a" xml:space="preserve" wit="#B" type="missing"/>
@@ -6718,7 +6720,7 @@
                         </app> </l>
                 </lg>
                 <lg org="uniform" sample="complete">
-                    <pb edRef="#h" facs="#h_87r"/>
+                    <pb edRef="#h" facs="#h_87r" ed="http://mscripthq.nkp.cz/documentrepository/manuscriptorium/L/NMP___X_A_12_________2B4L/N1/X_A_12_________2B4LN10087R.JPG"/>
                     <l xml:id="s_357"> <app>
                         <rdg  n="359" xml:space="preserve" wit="#A">Uf clegeliches ungemach</rdg>
                         <rdg  n="326" xml:space="preserve" wit="#B">Aȗff teglich vngemach</rdg>
@@ -7102,8 +7104,8 @@
                         <rdg  n="345" xml:space="preserve" wit="#V"><hi rend="decoration color:red">A</hi>ls ain <choice><abbr>tugentleic<am>h͛</am></abbr><expan>tugentleich<ex>er</ex></expan></choice> jungelink</rdg>
                         <rdg  n="422" xml:space="preserve" wit="#w">Vnd der getrüwe jüngling</rdg>
                         </app> </l>
-                    <pb edRef="#L" facs="#L_233v"/>
-                    <pb edRef="#B" facs="#B_104r"/>
+                    <pb edRef="#L" facs="#L_233v"  ed="http://digital.bibliothek.uni-halle.de/hd/content/pageview/1694998"/>
+                    <pb edRef="#B" facs="#B_104r" ed="http://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN662366077&amp;PHYSID=PHYS_0217&amp;DMDID=DMDLOG_0023"/>
                     <l xml:id="s_380"> <app>
                         <rdg  n="382" xml:space="preserve" wit="#A">Herre es iſt einre hande ding</rdg>
                         <rdg  n="343" xml:space="preserve" wit="#B">Her es iſt ein heÿmlich dingk</rdg>
@@ -7151,8 +7153,8 @@
                         </app> </l>
                 </lg>
                 <cb edRef="#D" facs="#D_131v_b" ed="https://digital.blb-karlsruhe.de/blbhs/content/pageview/36375"/>
-                <pb edRef="#P" facs="#P_348v"/>
-                <cb edRef="#P" facs="#P_348v_a"/>
+                <pb edRef="#P" facs="#P_348v" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg341/0500"/>
+                <cb edRef="#P" facs="#P_348v_a" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg341/0500"/>
                 <lg org="uniform" sample="complete">
                     <l xml:id="s_383"> <app>
                         <rdg  n="385" xml:space="preserve" wit="#A">Was dar inne ſi verborgen</rdg>
@@ -7347,7 +7349,7 @@
                         <rdg  n="359" xml:space="preserve" wit="#V"><choice><abbr><hi rend="decoration color:red">V</hi><am>n̄</am></abbr><expan><hi rend="decoration color:red">V</hi>n<ex>d</ex></expan></choice> tet ez auf mit <choice><abbr>ſei<am>n͛</am></abbr><expan>ſein<ex>er</ex></expan></choice> hant</rdg>
                         <rdg  n="438" xml:space="preserve" wit="#w">Er thet es vff mit der hand</rdg>
                         </app> </l>
-                    <pb edRef="#h" facs="#h_87v"/>
+                    <pb edRef="#h" facs="#h_87v" ed="http://mscripthq.nkp.cz/documentrepository/manuscriptorium/L/NMP___X_A_12_________2B4L/N1/X_A_12_________2B4LN10087V.JPG"/>
                     <l xml:id="s_396"> <app>
                         <rdg  n="398" xml:space="preserve" wit="#A">Er ſach das herze unde vant</rdg>
                         <rdg  n="356" xml:space="preserve" wit="#B">Da er das hertz dar jnne fandt</rdg>
@@ -7476,7 +7478,7 @@
                 </lg>
                 <pb edRef="#N" facs="#N_157v"/>
                 <lg>
-                    <pb edRef="#B" facs="#B_104v"/>
+                    <pb edRef="#B" facs="#B_104v" ed="http://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN662366077&amp;PHYSID=PHYS_0218&amp;DMDID=DMDLOG_0023"/>
                     <l xml:id="s_405"> <app>
                         <rdg  n="407" xml:space="preserve" wit="#A">Var dine ſtraze welleſt du</rdg>
                         <rdg  n="364" xml:space="preserve" wit="#B">Nȗn reẏtt von dan wolleſt dw̑</rdg>
@@ -7520,7 +7522,7 @@
                         <rdg  n="447b" xml:space="preserve" wit="#w" type="missing"/>
                         </app> </l>
                 </lg>
-                <pb edRef="#L" facs="#L_234r"/>
+                <pb edRef="#L" facs="#L_234r"  ed="http://digital.bibliothek.uni-halle.de/hd/content/pageview/1694999"/>
                 <note>Variations in these verses</note>
                 <lg>
                     <l xml:id="s_406"> <app>
@@ -7825,7 +7827,7 @@
                         </app> </l>
                 </lg>
                 <lg corresp="s_420a" org="uniform" sample="complete">
-                    <pb edRef="#h" facs="#h_88r"/>
+                    <pb edRef="#h" facs="#h_88r" ed="http://mscripthq.nkp.cz/documentrepository/manuscriptorium/L/NMP___X_A_12_________2B4L/N1/X_A_12_________2B4LN10088R.JPG"/>
                     <l xml:id="s_420a"> <app>
                         <rdg  n="422a" xml:space="preserve" wit="#A" type="missing"/>
                         <rdg  n="387" xml:space="preserve" wit="#B">Do die zeẏtt kommen was</rdg>
@@ -7882,7 +7884,7 @@
                         </app> </l>
                 </lg>
                 <lg org="uniform" sample="complete">
-                    <pb edRef="#B" facs="#B_105r"/>
+                    <pb edRef="#B" facs="#B_105r" ed="http://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN662366077&amp;PHYSID=PHYS_0219&amp;DMDID=DMDLOG_0023"/>
                     <l xml:id="s_420e"> <app>
                         <rdg  n="422e" xml:space="preserve" wit="#A" type="missing"/>
                         <rdg  n="391" xml:space="preserve" wit="#B">Das mann es wieder dann trȗg</rdg>
@@ -7896,7 +7898,7 @@
                         <rdg  n="395" xml:space="preserve" wit="#V"><hi rend="decoration color:red">D</hi>az man es <choice><abbr>wi<am>d͛</am></abbr><expan>wid<ex>er</ex></expan></choice> <choice><abbr>dann<am>ē</am></abbr><expan>danne<ex>n</ex></expan></choice> trug</rdg>
                         <rdg  n="462e" xml:space="preserve" wit="#w" type="missing"/>
                         </app> </l>
-                    <pb edRef="#L" facs="#L_234v"/>
+                    <pb edRef="#L" facs="#L_234v" ed="http://digital.bibliothek.uni-halle.de/hd/content/pageview/1695000"/>
                     <l xml:id="s_420f"> <app>
                         <rdg  n="422f" xml:space="preserve" wit="#A" type="missing"/>
                         <rdg  n="392" xml:space="preserve" wit="#B">Darȗmb ward jm geflȗcht genȗg</rdg>
@@ -7940,7 +7942,7 @@
                         </app> </l>
                 </lg>
                 <lg org="uniform" sample="complete">
-                    <cb edRef="#P" facs="#P_348v_b"/>
+                    <cb edRef="#P" facs="#P_348v_b" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg341/0500"/>
                     <l xml:id="s_423"> <app>
                         <rdg  n="425" xml:space="preserve" wit="#A">Der wurt gienc ouch u̍ber tiſch</rdg>
                         <rdg  n="393" xml:space="preserve" wit="#B">Zw̑ letzt trȗg mann zw̑ tiſch</rdg>
@@ -8448,9 +8450,9 @@
                         <rdg  n="420" xml:space="preserve" wit="#V"><hi rend="decoration color:red">D</hi>ẇ warhait ſunder ſpot</rdg>
                         </app> </l>
                 </lg>
-                <pb edRef="#L" facs="#L_235r"/>
+                <pb edRef="#L" facs="#L_235r" ed="http://digital.bibliothek.uni-halle.de/hd/content/pageview/1695001"/>
                 <lg org="uniform" sample="complete">
-                    <pb edRef="#B" facs="#B_105v"/>
+                    <pb edRef="#B" facs="#B_105v" ed="http://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN662366077&amp;PHYSID=PHYS_0220&amp;DMDID=DMDLOG_0023"/>
                     <l xml:id="s_455"> <app>
                         <rdg  n="457" xml:space="preserve" wit="#A">Muos ſu̍m ir binamen ſin</rdg>
                         <rdg  n="416a" xml:space="preserve" wit="#B" type="missing"/>
@@ -8503,7 +8505,7 @@
                         </app> </l>
                 </lg>
                 <lg org="uniform" sample="complete">
-                    <pb edRef="#h" facs="#h_88v"/>
+                    <pb edRef="#h" facs="#h_88v" ed="http://mscripthq.nkp.cz/documentrepository/manuscriptorium/L/NMP___X_A_12_________2B4L/N1/X_A_12_________2B4LN10088V.JPG"/>
                     <l xml:id="s_459"> <app>
                         <rdg  n="461" xml:space="preserve" wit="#A">Frowe ſprach er aber zuo ir</rdg>
                         <rdg  n="419" xml:space="preserve" wit="#B">Er ſprach fraw̑ glawb mir</rdg>
@@ -8636,8 +8638,8 @@
                 </lg>
                 <lg org="uniform" sample="complete">
                     <cb edRef="#D" facs="#D_132r_b" ed="https://digital.blb-karlsruhe.de/blbhs/content/pageview/36376"/>
-                    <pb edRef="#P" facs="#P_349r"/>
-                    <cb edRef="#P" facs="#P_349r_a"/>
+                    <pb edRef="#P" facs="#P_349r" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg341/0501"/>
+                    <cb edRef="#P" facs="#P_349r_a" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg341/0501"/>
                     <l xml:id="s_469"> <app>
                         <rdg  n="471" xml:space="preserve" wit="#A">Iamers alle ſine tage</rdg>
                         <rdg  n="425" xml:space="preserve" wit="#B">Jammers all ſein tag</rdg>
@@ -8903,9 +8905,9 @@
                         <rdg  n="445" xml:space="preserve" wit="#V"><hi rend="decoration color:red">D</hi>er mir an <choice><abbr>all<am>n̄</am></abbr><expan>all<ex>e</ex>n</expan></choice> vnderlaz</rdg>
                         </app> </l>
                 </lg>
-                <pb edRef="#L" facs="#L_235v"/>
+                <pb edRef="#L" facs="#L_235v" ed="http://digital.bibliothek.uni-halle.de/hd/content/pageview/1695002"/>
                 <lg org="uniform" sample="complete">
-                    <pb edRef="#B" facs="#B_106r"/>
+                    <pb edRef="#B" facs="#B_106r" ed="http://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN662366077&amp;PHYSID=PHYS_0221&amp;DMDID=DMDLOG_0023"/>
                     <l xml:id="s_489"> <app>
                         <rdg  n="491" xml:space="preserve" wit="#A">Von grunde ie holden muot getragen</rdg>
                         <rdg  n="441" xml:space="preserve" wit="#B">Jm ſoldem mȗtt hatt getragenn</rdg>
@@ -9049,7 +9051,7 @@
                         </app> </l>
                 </lg>
                 <lg org="uniform" sample="complete">
-                    <pb edRef="#h" facs="#h_89r"/>
+                    <pb edRef="#h" facs="#h_89r" ed="http://mscripthq.nkp.cz/documentrepository/manuscriptorium/L/NMP___X_A_12_________2B4L/N1/X_A_12_________2B4LN10089R.JPG"/>
                     <l xml:id="s_499"> <app>
                         <rdg  n="501" xml:space="preserve" wit="#A">De keinre ſlahte dinges</rdg>
                         <rdg  n="451" xml:space="preserve" wit="#B">Keynerleẏ dinges</rdg>
@@ -9234,7 +9236,7 @@
                 <lg org="uniform" sample="complete">
                     <pb edRef="#D" facs="#D_132v" ed="https://digital.blb-karlsruhe.de/blbhs/content/pageview/36377"/>
                     <cb edRef="#D" facs="#D_132v_a" ed="https://digital.blb-karlsruhe.de/blbhs/content/pageview/36377"/>
-                    <cb edRef="#P" facs="#P_349r_b"/>
+                    <cb edRef="#P" facs="#P_349r_b" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg341/0501"/>
                     <l xml:id="s_511"> <app>
                         <rdg  n="513" xml:space="preserve" wit="#A">Wart ein tag das leben ſchin</rdg>
                         <rdg  n="455" xml:space="preserve" wit="#B">Ye tag ward das lebenns ſchein</rdg>
@@ -9432,7 +9434,7 @@
                         <rdg  n="501" xml:space="preserve" wit="#P">Mit einem ſwerem lote</rdg>
                         <rdg  n="470" xml:space="preserve" wit="#V"><hi rend="decoration color:red">M</hi>it <choice><abbr>ain<am>ē</am></abbr><expan>aine<ex>m</ex></expan></choice> <choice><abbr>ſwer<am>n̄</am></abbr><expan>ſwer<ex>e</ex>n</expan></choice> gelöt</rdg>
                         </app> </l>
-                    <pb edRef="#L" facs="#L_236r"/>
+                    <pb edRef="#L" facs="#L_236r" ed="http://digital.bibliothek.uni-halle.de/hd/content/pageview/1695003"/>
                     <l xml:id="s_526"> <app>
                         <rdg  n="528" xml:space="preserve" wit="#A">Swas er ir do vor genote</rdg>
                         <rdg  n="466" xml:space="preserve" wit="#B">Das jr vor nit dem todt</rdg>
@@ -9446,7 +9448,7 @@
                         <rdg  n="471" xml:space="preserve" wit="#V"><hi rend="decoration color:red">D</hi>az ſi da vor genöt</rdg>
                         </app> </l>
                 </lg>
-                <pb edRef="#B" facs="#B_106v"/>
+                <pb edRef="#B" facs="#B_106v" ed="http://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN662366077&amp;PHYSID=PHYS_0222&amp;DMDID=DMDLOG_0023"/>
                 <cb edRef="#V" facs="#V_14r_b"/>
                 <lg org="uniform" sample="complete">
                     <l xml:id="s_527"> <app>
@@ -9818,67 +9820,67 @@
                 </lg>
                 <lg org="uniform" sample="complete">
                     <l  xml:id="s_575"> <app>
-                        <rdg  n="586" xml:space="preserve" wit="#D" type="alternative:1"><hi rend="initial" n="1"><metamark function="cue_initial">d</metamark></hi>ie gelait ſo veſt an</rdg>
+                        <rdg  n="586" xml:space="preserve" wit="#D"><hi rend="initial" n="1"><metamark function="cue_initial">d</metamark></hi>ie gelait ſo veſt an</rdg>
                         </app> </l>
                     <l  xml:id="s_576"> <app>
-                        <rdg  n="587" xml:space="preserve" wit="#D" type="alternative:1"><choice><abbr>de<am>n̄</am></abbr><expan>de<ex>e</ex>n</expan></choice> ietzunt tätten frowen <choice><abbr>v<am>n̄</am></abbr><expan>v<ex>nd</ex></expan></choice> man</rdg>
+                        <rdg  n="587" xml:space="preserve" wit="#D" ><choice><abbr>de<am>n̄</am></abbr><expan>de<ex>e</ex>n</expan></choice> ietzunt tätten frowen <choice><abbr>v<am>n̄</am></abbr><expan>v<ex>nd</ex></expan></choice> man</rdg>
                         </app> </l>
                 </lg>
                 <lg org="uniform" sample="complete">
                     <l  xml:id="s_577"> <app>
-                        <rdg  n="588" xml:space="preserve" wit="#D" type="alternative:1">Ez wirt nach jr alſo geſtritten</rdg>
+                        <rdg  n="588" xml:space="preserve" wit="#D" >Ez wirt nach jr alſo geſtritten</rdg>
                         </app> </l>
                     <l  xml:id="s_578"> <app>
-                        <rdg  n="589" xml:space="preserve" wit="#D" type="alternative:1">vnd <choice><abbr>ai<am>nˀ</am></abbr><expan>ain<ex>er</ex></expan></choice> für den <choice><abbr>and<am>nʼ</am></abbr><expan>and<ex>er</ex>n</expan></choice> bitten</rdg>
+                        <rdg  n="589" xml:space="preserve" wit="#D" >vnd <choice><abbr>ai<am>nˀ</am></abbr><expan>ain<ex>er</ex></expan></choice> für den <choice><abbr>and<am>nʼ</am></abbr><expan>and<ex>er</ex>n</expan></choice> bitten</rdg>
                         </app> </l>
                 </lg>
                 <lg org="uniform" sample="complete">
                     <l  xml:id="s_579"> <app>
-                        <rdg  n="590" xml:space="preserve" wit="#D" type="alternative:1">Daz <choice><abbr>m<am>ā</am></abbr><expan>ma<ex>n</ex></expan></choice> ez <choice><abbr>g<am>nˀ</am></abbr><expan>g<ex>er</ex>n</expan></choice> möcht <choice><abbr>ſech<am>n̄</am></abbr><expan>ſech<ex>e</ex>n</expan></choice></rdg>
+                        <rdg  n="590" xml:space="preserve" wit="#D">Daz <choice><abbr>m<am>ā</am></abbr><expan>ma<ex>n</ex></expan></choice> ez <choice><abbr>g<am>nˀ</am></abbr><expan>g<ex>er</ex>n</expan></choice> möcht <choice><abbr>ſech<am>n̄</am></abbr><expan>ſech<ex>e</ex>n</expan></choice></rdg>
                         </app> </l>
                     <l  xml:id="s_580"> <app>
-                        <rdg  n="591" xml:space="preserve" wit="#D" type="alternative:1">Nit <choice><abbr>an<am>dˁ</am>s</abbr><expan>and<ex>er</ex>s</expan></choice> kan ich uch <choice><abbr>v<am>iˀ</am>ech<am>n̄</am></abbr><expan>v<ex>r</ex>iech<ex>e</ex>n</expan></choice></rdg>
+                        <rdg  n="591" xml:space="preserve" wit="#D">Nit <choice><abbr>an<am>dˁ</am>s</abbr><expan>and<ex>er</ex>s</expan></choice> kan ich uch <choice><abbr>v<am>iˀ</am>ech<am>n̄</am></abbr><expan>v<ex>r</ex>iech<ex>e</ex>n</expan></choice></rdg>
                         <note>Check vriechen?</note>
                         </app> </l>
                 </lg>
                 <lg org="uniform" sample="complete">
                     <l  xml:id="s_581"> <app>
-                        <rdg  n="592" xml:space="preserve" wit="#D" type="alternative:1">Von wirtzburg ich Conrat</rdg>
+                        <rdg  n="592" xml:space="preserve" wit="#D" >Von wirtzburg ich Conrat</rdg>
                         </app> </l>
                     <l  xml:id="s_582"> <app>
-                        <rdg  n="593" xml:space="preserve" wit="#D" type="alternative:1">wer als rain ſine hat</rdg>
+                        <rdg  n="593" xml:space="preserve" wit="#D" >wer als rain ſine hat</rdg>
                         </app> </l>
                 </lg>
                 <lg org="uniform" sample="complete">
                     <l  xml:id="s_583"> <app>
-                        <rdg  n="594" xml:space="preserve" wit="#D" type="alternative:1">das er daz beſt <choice><abbr>g<am>nˀ</am></abbr><expan>g<ex>er</ex>n</expan></choice> tüt</rdg>
+                        <rdg  n="594" xml:space="preserve" wit="#D" >das er daz beſt <choice><abbr>g<am>nˀ</am></abbr><expan>g<ex>er</ex>n</expan></choice> tüt</rdg>
                         </app> </l>
                     <l  xml:id="s_584"> <app>
-                        <rdg  n="595" xml:space="preserve" wit="#D" type="alternative:1">der ſol diſi mer jn ſinen müt</rdg>
+                        <rdg  n="595" xml:space="preserve" wit="#D" >der ſol diſi mer jn ſinen müt</rdg>
                         </app> </l>
                 </lg>
                 <lg org="uniform" sample="complete">
                     <l  xml:id="s_585"> <app>
-                        <rdg  n="596" xml:space="preserve" wit="#D" type="alternative:1">dar vmb ſetzen <choice><abbr>g<am>nˀ</am>e</abbr><expan>g<ex>er</ex>ne</expan></choice></rdg>
+                        <rdg  n="596" xml:space="preserve" wit="#D" >dar vmb ſetzen <choice><abbr>g<am>nˀ</am>e</abbr><expan>g<ex>er</ex>ne</expan></choice></rdg>
                         </app> </l>
                     <l  xml:id="s_586"> <app>
-                        <rdg  n="597" xml:space="preserve" wit="#D" type="alternative:1">das er da by gelerne</rdg>
+                        <rdg  n="597" xml:space="preserve" wit="#D" >das er da by gelerne</rdg>
                         </app> </l>
                 </lg>
                 <lg org="uniform" sample="complete">
                     <l  xml:id="s_587"> <app>
-                        <rdg  n="598" xml:space="preserve" wit="#D" type="alternative:1">die mine <choice><abbr>luterlich<am>n̄</am></abbr><expan>luterlich<ex>e</ex>n</expan></choice> tragen</rdg>
+                        <rdg  n="598" xml:space="preserve" wit="#D" >die mine <choice><abbr>luterlich<am>n̄</am></abbr><expan>luterlich<ex>e</ex>n</expan></choice> tragen</rdg>
                         </app> </l>
                     <l  xml:id="s_588"> <app>
-                        <rdg  n="599" xml:space="preserve" wit="#D" type="alternative:1">kain edel <choice><abbr>hrt<am>zʼ</am></abbr><expan>h<ex>e</ex>rtz</expan></choice> ſol <choice><abbr><am>vˀ</am>zagen </abbr><expan>v<ex>er</ex>zagen </expan></choice></rdg>
+                        <rdg  n="599" xml:space="preserve" wit="#D">kain edel <choice><abbr>hrt<am>zʼ</am></abbr><expan>h<ex>e</ex>rtz</expan></choice> ſol <choice><abbr><am>vˀ</am>zagen </abbr><expan>v<ex>er</ex>zagen </expan></choice></rdg>
                         </app> </l>
                 </lg>
                 <lg org="uniform" sample="complete">
                     <l  xml:id="s_588a"> <app>
-                        <rdg  n="600" xml:space="preserve" wit="#D" type="alternative:1">da mit hat diſz red ain end</rdg>
+                        <rdg  n="600" xml:space="preserve" wit="#D" >da mit hat diſz red ain end</rdg>
                         </app> </l>
                     <l  xml:id="s_588b"> <app>
-                        <rdg  n="601" xml:space="preserve" wit="#D" type="alternative:1">das got die falſchen <choice><abbr>hrtz<am>n̄</am></abbr><expan>hrtz<ex>e</ex>n</expan></choice> ſchend</rdg>
+                        <rdg  n="601" xml:space="preserve" wit="#D" >das got die falſchen <choice><abbr>hrtz<am>n̄</am></abbr><expan>hrtz<ex>e</ex>n</expan></choice> ſchend</rdg>
                         </app> </l>
                 </lg>
             </div>
