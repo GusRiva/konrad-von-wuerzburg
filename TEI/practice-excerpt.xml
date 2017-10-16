@@ -1,0 +1,17 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <l xml:id="s_1"> 
+   <app>
+                        <rdg n="1" xml:space="preserve" wit="#A"><hi rend="initial" n="4">I</hi>ch bruefe in mime ſinne</rdg>
+                        <rdg n="1" xml:space="preserve" wit="#B"><hi rend="initial" n="4">J</hi>ch brȗff jnn minns hertzenn ſynn</rdg>
+                        <rdg n="1" xml:space="preserve" wit="#D"><hi rend="initial" n="3"><space><desc>I</desc></space></hi>ch brüff jn minnen ſine</rdg>
+                        <rdg n="1" xml:space="preserve" wit="#h"><hi rend="initial color:red" n="10">I</hi><hi rend="decoration color:red">C</hi>h brüf in meines hertzen ſynn</rdg>
+                        <rdg n="1" xml:space="preserve" wit="#I"><hi rend="initial" n="6">I</hi><hi rend="decoration color:red">C</hi>h preiyſ in meins <choice><abbr>h<am>tʼ</am>zen</abbr><expan>h<ex>er</ex>tzen</expan></choice> ſinne</rdg>
+                        <rdg n="0a" wit="#Ko" type="missing"/>
+                        <rdg n="1" xml:space="preserve" wit="#L"><hi rend="initial color:red" n="8">I</hi><hi rend="decoration color:red">C</hi>h brueff yn meines <choice><abbr>hertz<am>ē</am></abbr><expan>hertze<ex>n</ex></expan></choice> <choice><abbr>ſyn<am>n̄</am></abbr><expan>ſynn<ex>e</ex></expan></choice></rdg>
+                        <rdg n="1" xml:space="preserve" wit="#N"><hi rend="deluxe_initial color:red" n="2">I</hi><hi rend="decoration color:red">C</hi><hi rend="decoration color:red">h</hi> pruͤff in meinen <subst><del rend="overstrike">ſinnen</del><add place="inline">ſÿn</add></subst></rdg>
+                        <rdg n="1" xml:space="preserve" wit="#P"><hi rend="initial color:blue" n="4">I</hi>ch pruͤve in minen ſinnen</rdg>
+                        <rdg n="1" xml:space="preserve" wit="#V"><hi rend="initial color:red" n="6">J</hi><hi rend="decoration color:red">c</hi>h preiſe in meins <choice><abbr><am>h͛</am>ertz<am>n̄</am></abbr><expan>h<ex>er</ex>tz<ex>e</ex>n</expan></choice> ſinne</rdg>
+                        <rdg n="1" xml:space="preserve" wit="#w">Jch brief vnd merck in meÿnem ſÿnne</rdg>
+                        </app> 
+</l></TEI>

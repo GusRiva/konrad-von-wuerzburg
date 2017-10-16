@@ -1,4 +1,4 @@
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+﻿<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader type="text">
         <fileDesc>
@@ -568,7 +568,7 @@
                         <rdg  n="0ad" wit="#Ko" type="missing"/>
                         <rdg n="28b" xml:space="preserve" wit="#L" type="missing"/>
                         <rdg n="28" xml:space="preserve" wit="#N"><hi rend="decoration color:red">S</hi>chol ſein vor aller maine</rdg>
-                        <rdg n="28" xml:space="preserve" wit="#P">ſat ſin vor allem meine</rdg>
+                        <rdg n="28" xml:space="preserve" wit="#P">ſal ſin vor allem meine</rdg>
                         <rdg n="26b" xml:space="preserve" wit="#V" type="missing"/>
                         <rdg n="28" xml:space="preserve" wit="#w">Soll ſein vor aller maÿne</rdg>
                         </app> </l>
@@ -722,7 +722,7 @@
                     <cb edRef="#D" facs="#D_129v_b" ed="https://digital.blb-karlsruhe.de/blbhs/content/pageview/36890"/>
                     <l xml:id="s_37"> <app>
                         <rdg n="37" xml:space="preserve" wit="#A">Wart ir ende leider</rdg>
-                        <rdg n="37" xml:space="preserve" wit="#B">Wartt beÿder lieb beÿder</rdg>
+                        <rdg n="37" xml:space="preserve" wit="#B">Wartt beÿder lieb leÿder</rdg>
                         <rdg n="37" xml:space="preserve" wit="#D">Wart ir ende laider</rdg>
                         <rdg n="37" xml:space="preserve" wit="#h"><hi rend="decoration color:red">W</hi>ard baider lieb laider</rdg>
                         <rdg n="35" xml:space="preserve" wit="#I"><hi rend="decoration color:red">W</hi>art an jn paiden laider</rdg>
@@ -880,7 +880,7 @@
                     <l xml:id="s_46"> <app>
                         <rdg n="46" xml:space="preserve" wit="#A">Und alſo gar durch grundet</rdg>
                         <rdg n="48" xml:space="preserve" wit="#B">Vnnd alſo gar dȗrchgrȗn det</rdg>
-                        <rdg n="46" xml:space="preserve" wit="#D">Vnd ale gar durch grundet</rdg>
+                        <rdg n="46" xml:space="preserve" wit="#D">Vnd als gar durch grundet</rdg>
                         <rdg n="48" xml:space="preserve" wit="#h"><hi rend="decoration color:red">V</hi>nd alſo gar durch gründt</rdg>
                         <rdg n="46" xml:space="preserve" wit="#I"><hi rend="decoration color:red">V</hi>nd alſo gar durch gründet</rdg>
                         <rdg n="18" xml:space="preserve" wit="#Ko">Vnde also gar durchgrundit.</rdg>
@@ -966,7 +966,7 @@
                         </app> </l>
                     <l xml:id="s_52"> <app>
                         <rdg n="52" xml:space="preserve" wit="#A">Nie groezer tru̍we wart getragen</rdg>
-                        <rdg n="54" xml:space="preserve" wit="#B">Groſſer trew̑ ward nie <choice><abbr>getra<am>g̨</am><expan>getra<ex>gen</ex></expan></abbr><expan>getra<ex>g̨</ex></expan></choice></rdg>
+                        <rdg n="54" xml:space="preserve" wit="#B">Groſſer trew̑ ward nie <choice><abbr>getra<am>g̨</am><expan>getra<ex>gen</ex></expan></abbr><expan>getra<ex>gen</ex></expan></choice></rdg>
                         <rdg n="52" xml:space="preserve" wit="#D">Nie gantzer trü wart getragen</rdg>
                         <rdg n="54" xml:space="preserve" wit="#h"><hi rend="decoration color:red">G</hi>röſſer <choice><abbr>tr<am>w̄ˀ</am></abbr><expan>tr<ex>ewer</ex></expan></choice> ward nye getragen</rdg>
                         <rdg n="52" xml:space="preserve" wit="#I"><hi rend="decoration color:red">G</hi>entzer trew wart nie <choice><abbr>getrag<am>n̄</am></abbr><expan>getrag<ex>e</ex>n</expan></choice></rdg>
@@ -1001,11 +1001,11 @@
                         <rdg n="56" xml:space="preserve" wit="#h"><hi rend="decoration color:red">D</hi>ann ſy zway an irem leib</rdg>
                         <rdg n="54" xml:space="preserve" wit="#I"><hi rend="decoration color:red">D</hi>ann sÿ zwaÿ an jrem leib</rdg>
                         <rdg n="26" xml:space="preserve" wit="#Ko">Als in irme liue.</rdg>
-                        <rdg n="56" xml:space="preserve" wit="#L"><hi rend="decoration color:red">D</hi>a ſie zwey an <choice><abbr>ir<am>ē</am></abbr><expan>ire<ex>n</ex></expan></choice> leib</rdg>
+                        <rdg n="56" xml:space="preserve" wit="#L"><hi rend="decoration color:red">D</hi>a ſie zwey an <choice><abbr>ir<am>ē</am></abbr><expan>ire<ex>m</ex></expan></choice> leib</rdg>
                         <rdg n="54" xml:space="preserve" wit="#N"><hi rend="decoration color:red">D</hi>ann von ÿren leiben</rdg>
                         <rdg n="54" xml:space="preserve" wit="#P">Alſ von ir beider libe</rdg>
                         <rdg n="54" xml:space="preserve" wit="#V"><hi rend="decoration color:red">D</hi>ann ſi zway an irem leibe</rdg>
-                        <rdg n="56" xml:space="preserve" wit="#w"><choice><abbr>Da<am>n̄</am></abbr><expan>Da<ex>e</ex>n</expan></choice> och in ir leÿbe</rdg>
+                        <rdg n="56" xml:space="preserve" wit="#w"><choice><abbr>Da<am>n̄</am></abbr><expan>Dan<ex>ne</ex></expan></choice> och in ir leÿbe</rdg>
                         </app> </l>
                 </lg>
                 <lg org="uniform" sample="complete">
@@ -1096,11 +1096,11 @@
                     <l xml:id="s_61"> <app>
                         <rdg n="61" xml:space="preserve" wit="#A">Hette ein werden man zer e</rdg>
                         <rdg n="63" xml:space="preserve" wit="#B">Hett einenn man zw die ehe</rdg>
-                        <rdg n="61" xml:space="preserve" wit="#D" type="variation">Hatte <choice><abbr>ain<am>ē</am></abbr><expan>aine<ex>n</ex></expan></choice> <choice><abbr>werd<am>n̄</am></abbr><expan>werd<ex>e</ex>n</expan></choice> <choice><abbr>m<am>ā</am></abbr><expan>m<ex>an</ex></expan></choice></rdg>
+                        <rdg n="61" xml:space="preserve" wit="#D">Hatte <choice><abbr>ain<am>ē</am></abbr><expan>aine<ex>n</ex></expan></choice> <choice><abbr>werd<am>n̄</am></abbr><expan>werd<ex>e</ex>n</expan></choice> <choice><abbr>m<am>ā</am></abbr><expan>m<ex>an</ex></expan></choice></rdg>
                         <rdg n="63" xml:space="preserve" wit="#h"><hi rend="decoration color:red">H</hi>ett ainen man zu der Ee</rdg>
                         <rdg n="61" xml:space="preserve" wit="#I"><hi rend="decoration color:red">H</hi>et ain werden man zer ee</rdg>
                         <rdg n="33" xml:space="preserve" wit="#Ko">Hatte einen werden man zu der e.</rdg>
-                        <rdg n="63" xml:space="preserve" wit="#L"><hi rend="decoration color:red">H</hi>ett <choice><abbr>ein<am>ē</am></abbr><expan>eine<ex>n</ex></expan></choice> <choice><abbr>ma<am>n̄</am></abbr><expan>ma<ex>e</ex>n</expan></choice> zu der Ee</rdg>
+                        <rdg n="63" xml:space="preserve" wit="#L"><hi rend="decoration color:red">H</hi>ett <choice><abbr>ein<am>ē</am></abbr><expan>eine<ex>n</ex></expan></choice> <choice><abbr>ma<am>n̄</am></abbr><expan>man<ex>n</ex></expan></choice> zu der Ee</rdg>
                         <rdg n="61" xml:space="preserve" wit="#N"><hi rend="decoration color:red">H</hi>et ain werden man zw der ee</rdg>
                         <rdg n="61" xml:space="preserve" wit="#P">Hatte einen man zv rechter e</rdg>
                         <rdg n="61" xml:space="preserve" wit="#V"><hi rend="decoration color:red">H</hi>et ain <choice><abbr>werd<am>n̄</am></abbr><expan>werd<ex>e</ex>n</expan></choice> man zer ee</rdg>
@@ -1126,7 +1126,7 @@
                         <rdg n="64" xml:space="preserve" wit="#h"><hi rend="decoration color:red">D</hi>es ward irem hertzen wee</rdg>
                         <rdg n="62" xml:space="preserve" wit="#I"><hi rend="decoration color:red">D</hi>es wart jrem <choice><abbr>h<am>rˁ</am>tz<am>n̄</am></abbr><expan>h<ex>er</ex>tz<ex>e</ex>n</expan></choice> we<pc>·</pc></rdg>
                         <rdg n="34" xml:space="preserve" wit="#Ko">Des wart irme herzen dicke we.</rdg>
-                        <rdg n="64" xml:space="preserve" wit="#L"><hi rend="decoration color:red">D</hi>es ward <choice><abbr>ir<am>ē</am></abbr><expan>ire<ex>n</ex></expan></choice> hertzen wee</rdg>
+                        <rdg n="64" xml:space="preserve" wit="#L"><hi rend="decoration color:red">D</hi>es ward <choice><abbr>ir<am>ē</am></abbr><expan>ire<ex>m</ex></expan></choice> hertzen wee</rdg>
                         <rdg n="62" xml:space="preserve" wit="#N"><hi rend="decoration color:red">D</hi>es ward ÿrm hertzen dick wee</rdg>
                         <rdg n="62" xml:space="preserve" wit="#P">Des geſchach ir hertzen dicke we</rdg>
                         <rdg n="62" xml:space="preserve" wit="#V"><hi rend="decoration color:red">D</hi>es wart <choice><abbr>ir<am>ē</am></abbr><expan>ire<ex>m</ex></expan></choice> <choice><abbr>hertz<am>n̄</am></abbr><expan>hertz<ex>e</ex>n</expan></choice> we</rdg>
@@ -1194,9 +1194,9 @@
                         <rdg n="68" xml:space="preserve" wit="#B">Seines hertzenn willen</rdg>
                         <rdg n="68" xml:space="preserve" wit="#D">Sines <choice><abbr>hertz<am>n̄</am></abbr><expan>hertz<ex>e</ex>n</expan></choice> willen</rdg>
                         <rdg n="68" xml:space="preserve" wit="#h"><hi rend="decoration color:red">S</hi>eines hertzen willen</rdg>
-                        <rdg n="66" xml:space="preserve" wit="#I"><hi rend="decoration color:red">G</hi>eins <choice><abbr>h<am>rˁ</am>tz<am>n̄</am></abbr><expan>h<ex>er</ex>tz<ex>e</ex>n</expan></choice> willen</rdg>
+                        <rdg n="66" xml:space="preserve" wit="#I"><hi rend="decoration color:red">S</hi>eins <choice><abbr>h<am>rˁ</am>tz<am>n̄</am></abbr><expan>h<ex>er</ex>tz<ex>e</ex>n</expan></choice> willen</rdg>
                         <rdg n="38" xml:space="preserve" wit="#Ko">Sins wnden herzin willen.</rdg>
-                        <rdg n="68" xml:space="preserve" wit="#L"><hi rend="decoration color:red">S</hi>eines hertzen <choice><abbr>wille<am>n̄</am></abbr><expan>wille<ex>e</ex>n</expan></choice></rdg>
+                        <rdg n="68" xml:space="preserve" wit="#L"><hi rend="decoration color:red">S</hi>eines hertzen <choice><abbr>wille<am>n̄</am></abbr><expan>wille<ex>n</ex>n</expan></choice></rdg>
                         <rdg n="66" xml:space="preserve" wit="#N"><hi rend="decoration color:red">S</hi>eins wunden hertzen <choice><abbr>will<am>n̄</am></abbr><expan>will<ex>e</ex>n</expan></choice></rdg>
                         <rdg n="66" xml:space="preserve" wit="#P">Sines wunden herzen willen</rdg>
                         <rdg n="66" xml:space="preserve" wit="#V"><hi rend="decoration color:red">ſ</hi>eins <choice><abbr>hertz<am>n̄</am></abbr><expan>hertz<ex>e</ex>n</expan></choice> <choice><abbr>will<am>n̄</am></abbr><expan>will<ex>e</ex>n</expan></choice></rdg>
@@ -1211,7 +1211,7 @@
                     <l xml:id="s_67"> <app>
                         <rdg n="67" xml:space="preserve" wit="#A">Daz noch irre minne lag verſnitten</rdg>
                         <rdg n="69" xml:space="preserve" wit="#B">Der nach jr libenn lag <choice><abbr>verſchnit<am>t̨</am></abbr><expan>verſchnitt<ex>en</ex></expan></choice></rdg>
-                        <rdg n="69" xml:space="preserve" wit="#D">Dar nach jr minē waz <choice><abbr><am>vˀ</am>ſniten</abbr><expan>v<ex>er</ex>ſniten</expan></choice></rdg>
+                        <rdg n="69" xml:space="preserve" wit="#D">Dar nach jr <choice><abbr>min<am>ē</am></abbr><expan>min<ex>n</ex>e</expan></choice> waz <choice><abbr><am>vˀ</am>ſniten</abbr><expan>v<ex>er</ex>ſniten</expan></choice></rdg>
                         <rdg n="69" xml:space="preserve" wit="#h"><hi rend="decoration color:red">D</hi>er nach ir mynn lag verſchnitten</rdg>
                         <rdg n="67" xml:space="preserve" wit="#I"><hi rend="decoration color:red">D</hi>as nach jr minne wart <choice><abbr><am>vʼ</am>ſnit<am>n̄</am></abbr><expan>v<ex>er</ex>ſnit<ex>e</ex>n</expan></choice></rdg>
                         <rdg n="39" xml:space="preserve" wit="#Ko">Dat na irre minnen lach versneden.</rdg>
@@ -1244,7 +1244,7 @@
                         <rdg n="71" xml:space="preserve" wit="#h"><hi rend="decoration color:red">D</hi>ie ſtreng was vnd vngeleich</rdg>
                         <rdg n="69" xml:space="preserve" wit="#I"><hi rend="decoration color:red">D</hi>ew ſtreng was vnd ängſtleich</rdg>
                         <rdg n="41" xml:space="preserve" wit="#Ko">Die strenge was vnde engestlich.</rdg>
-                        <rdg n="71" xml:space="preserve" wit="#L"><hi rend="decoration color:red">D</hi>ie ſtreng was <choice><abbr>v<am>n̄</am></abbr><expan>v<ex>e</ex>n</expan></choice> vngleich</rdg>
+                        <rdg n="71" xml:space="preserve" wit="#L"><hi rend="decoration color:red">D</hi>ie ſtreng was <choice><abbr>v<am>n̄</am></abbr><expan>vn<ex>d</ex></expan></choice> vngleich</rdg>
                         <rdg n="69" xml:space="preserve" wit="#N"><hi rend="decoration color:red">D</hi>ie ſtreng was vnd engſtlich</rdg>
                         <rdg n="69" xml:space="preserve" wit="#P">Die ſtrenge was im engeſtlich</rdg>
                         <rdg n="69" xml:space="preserve" wit="#V"><hi rend="decoration color:red">D</hi>ew ſtreng waz <choice><abbr>v<am>n̄</am></abbr><expan>vn<ex>d</ex></expan></choice> ängſtleih</rdg>
@@ -1317,7 +1317,7 @@
                         <rdg n="76" xml:space="preserve" wit="#L"><hi rend="decoration color:red">J</hi>r reit zu <add place="above">ir</add> hin dann</rdg>
                         <rdg n="74" xml:space="preserve" wit="#N"><hi rend="decoration color:red">Z</hi>w der ſchoͤnen danne</rdg>
                         <rdg n="74" xml:space="preserve" wit="#P">tzu der ſchonen danne</rdg>
-                        <rdg n="74" xml:space="preserve" wit="#V"><hi rend="decoration color:red">Z</hi>u <choice><abbr><am>d͛</am></abbr><expan>d<ex>er</ex></expan></choice> <choice><abbr>fraw<am>n̄</am></abbr><expan>fraw<ex>e</ex>n</expan></choice> rait er <choice><abbr>v<am>n̄</am></abbr><expan>v<ex>e</ex>n</expan></choice> <choice><abbr>dann<am>ē</am></abbr><expan>danne<ex>n</ex></expan></choice></rdg>
+                        <rdg n="74" xml:space="preserve" wit="#V"><hi rend="decoration color:red">Z</hi>u <choice><abbr><am>d͛</am></abbr><expan>d<ex>er</ex></expan></choice> <choice><abbr>fraw<am>n̄</am></abbr><expan>fraw<ex>e</ex>n</expan></choice> rait er <choice><abbr>v<am>n̄</am></abbr><expan>v<ex>n</ex>d</expan></choice> <choice><abbr>dann<am>ē</am></abbr><expan>danne<ex>n</ex></expan></choice></rdg>
                         <rdg n="76" xml:space="preserve" wit="#w">Zwͦ der ſchoͤnen danne</rdg>
                         </app> </l>
                 </lg>
@@ -1440,7 +1440,7 @@
                     <l xml:id="s_83"> <app>
                         <rdg n="83" xml:space="preserve" wit="#A">An irn geberden wart gewar</rdg>
                         <rdg n="85" xml:space="preserve" wit="#B">Ann jr geberd ward gewar</rdg>
-                        <rdg n="85" xml:space="preserve" wit="#D">An ir begärd wart gewar</rdg>
+                        <rdg n="85" xml:space="preserve" wit="#D">An ir gebärd wart gewar</rdg>
                         <rdg n="85" xml:space="preserve" wit="#h"><hi rend="decoration color:red">A</hi>n ir gepärd ward gewar</rdg>
                         <rdg n="83" xml:space="preserve" wit="#I"><hi rend="decoration color:red">A</hi>n jr gepärd wart gewär</rdg>
                         <rdg n="55" xml:space="preserve" wit="#Ko">An irme geberde wart gewar.</rdg>
@@ -1452,7 +1452,7 @@
                         </app> </l>
                     <l xml:id="s_84"> <app>
                         <rdg n="84" xml:space="preserve" wit="#A">Daz ſu̍ die ſueze minne gar</rdg>
-                        <rdg n="86" xml:space="preserve" wit="#B">Das ſich die lieb vnȗer gar</rdg>
+                        <rdg n="86" xml:space="preserve" wit="#B">Das ſich die lieb vmmer gar</rdg>
                         <note anchored="true"/>
                         <rdg n="86" xml:space="preserve" wit="#D">Das du ſuſſi mine gar</rdg>
                         <rdg n="86" xml:space="preserve" wit="#h"><hi rend="decoration color:red">D</hi>as ſich die lieb <choice><abbr>y<am>m̄</am>er</abbr><expan>ym<ex>m</ex>er</expan></choice> gar</rdg>
@@ -1468,7 +1468,7 @@
                 <lg org="uniform" sample="complete">
                     <l xml:id="s_85"> <app>
                         <rdg n="85" xml:space="preserve" wit="#A">Hette in irn ſtrig geworren</rdg>
-                        <rdg n="87" xml:space="preserve" wit="#B">Hett jnn jr ſtrȋck verwowen</rdg>
+                        <rdg n="87" xml:space="preserve" wit="#B">Hett jnn jr ſtrȋck verworen</rdg>
                         <rdg n="87" xml:space="preserve" wit="#D">Si hat jn jr ſtrick <del rend="overstrike">w</del> <choice><abbr><am>vˁ</am>woren</abbr><expan>v<ex>er</ex>woren</expan></choice></rdg>
                         <rdg n="87" xml:space="preserve" wit="#h"><hi rend="decoration color:red">H</hi>ett in ir ſtrick verworren</rdg>
                         <rdg n="85" xml:space="preserve" wit="#I"><hi rend="decoration color:red">h</hi>et in iren ſtrick <choice><abbr><am>vʼ</am>worren</abbr><expan>v<ex>er</ex>worren</expan></choice></rdg>
@@ -1785,7 +1785,7 @@
                         <rdg n="106" xml:space="preserve" wit="#L"><hi rend="decoration color:red">S</hi>o lieb mit <choice><abbr>gantz<am>eˀ</am></abbr><expan>gantze<ex>r</ex></expan></choice> ſtettigkeit</rdg>
                         <rdg n="106" xml:space="preserve" wit="#N"><hi rend="decoration color:red">O</hi>b es <del rend="overstrike color:red">von</del> mit langer ſtetigkaÿt</rdg>
                         <rdg n="106" xml:space="preserve" wit="#P">Das mit langer ſtetikeit</rdg>
-                        <rdg n="104" xml:space="preserve" wit="#V"><hi rend="decoration color:red">W</hi>eim lieb mit ſtetichait</rdg>
+                        <rdg n="104" xml:space="preserve" wit="#V"><hi rend="decoration color:red">W</hi>enn lieb mit ſtetichait</rdg>
                         <rdg n="108" xml:space="preserve" wit="#w">Der mit langar ſtetickait</rdg>
                         </app> </l>
                 </lg>
@@ -1838,10 +1838,10 @@
                         <rdg n="110" xml:space="preserve" wit="#h"><hi rend="decoration color:red">B</hi>is das ſy vergeſſen hab</rdg>
                         <rdg n="108" xml:space="preserve" wit="#I"><hi rend="decoration color:red">P</hi>iz das ſi <choice><abbr><am>vʼ</am>geſſen</abbr><expan>v<ex>er</ex>geſſen</expan></choice> hab</rdg>
                         <rdg n="77e" xml:space="preserve" wit="#Ko" type="missing"/>
-                        <rdg n="110" xml:space="preserve" wit="#L"><hi rend="decoration color:red">B</hi>is das ſie <choice><abbr><am>vˀ</am>geſſen</abbr><expan>geſſenv<ex>er</ex></expan></choice> hab</rdg>
+                        <rdg n="110" xml:space="preserve" wit="#L"><hi rend="decoration color:red">B</hi>is das ſie <choice><abbr><am>vˀ</am>geſſen</abbr><expan><ex>ver</ex>geſſenv</expan></choice> hab</rdg>
                         <rdg n="110" xml:space="preserve" wit="#N"><hi rend="decoration color:red">B</hi>iſz das ſie gar ver geſſen hab</rdg>
                         <rdg n="110" xml:space="preserve" wit="#P">vntz daz ſi gar vergeſſen habe</rdg>
-                        <rdg n="108" xml:space="preserve" wit="#V"><hi rend="decoration color:red">P</hi>iz daz ſi <choice><abbr>vergezz<m>n̄</m></abbr><expan>vergezz</expan></choice> hab</rdg>
+                        <rdg n="108" xml:space="preserve" wit="#V"><hi rend="decoration color:red">P</hi>iz daz ſi <choice><abbr>vergezz<am>n̄</am></abbr><expan>vergezz<ex>e</ex>n</expan></choice> hab</rdg>
                         <rdg n="112" xml:space="preserve" wit="#w">Bis das ſÿ vergeſſen habe</rdg>
                         </app> </l>
                 </lg>
@@ -1899,7 +1899,7 @@
                         <rdg n="114" xml:space="preserve" wit="#L"><hi rend="decoration color:red">W</hi>ie er denn lieben zwey</rdg>
                         <rdg n="114" xml:space="preserve" wit="#N"><hi rend="decoration color:red">D</hi>as er den lieben zwain</rdg>
                         <rdg n="114" xml:space="preserve" wit="#P">Das er den geliben zwein</rdg>
-                        <rdg n="112" xml:space="preserve" wit="#V"><hi rend="decoration color:red">W</hi>ie er den <choice><abbr>heb<am>n̄</am></abbr><expan>heb<ex>e</ex>n</expan></choice> zwain</rdg>
+                        <rdg n="112" xml:space="preserve" wit="#V"><hi rend="decoration color:red">W</hi>ie er den <choice><abbr>heb<am>n̄</am></abbr><expan>lıeb<ex>e</ex>n</expan></choice> zwain</rdg>
                         <rdg n="116" xml:space="preserve" wit="#w">Das er den geliepten zwaÿn</rdg>
                         </app> </l>
                 </lg>
@@ -2023,7 +2023,7 @@
                     <l xml:id="s_123"> <app>
                         <rdg n="124" xml:space="preserve" wit="#A" type="transposed">Der noch irre werde minnen bran</rdg>
                         <rdg n="123" xml:space="preserve" wit="#B">Der nach jr lieb ſer bran</rdg>
-                        <rdg n="125" xml:space="preserve" wit="#D">das er nach ir <choice><abbr>mi<am>n̄</am>e</abbr><expan>mi<ex>e</ex>ne</expan></choice> bran</rdg>
+                        <rdg n="125" xml:space="preserve" wit="#D">das er nach ir <choice><abbr>mi<am>n̄</am>e</abbr><expan>min<ex>n</ex>e</expan></choice> bran</rdg>
                         <rdg n="123" xml:space="preserve" wit="#h"><hi rend="decoration color:red">D</hi>er nach ir mynn ſer pran</rdg>
                         <rdg n="121" xml:space="preserve" wit="#I"><hi rend="decoration color:red">D</hi>er noch <choice><abbr>ir<am>rˁ</am></abbr><expan>ir<ex>rer</ex></expan></choice> minne pran</rdg>
                         <rdg n="88a" xml:space="preserve" wit="#Ko" type="missing"/>
@@ -2154,7 +2154,7 @@
                     <l xml:id="s_132"> <app>
                         <rdg n="132" xml:space="preserve" wit="#A">Der ſtrengen minnen bu̍rde</rdg>
                         <rdg n="132" xml:space="preserve" wit="#B">Der ſtrengenn liebe bȗrd</rdg>
-                        <rdg n="134" xml:space="preserve" wit="#D">An der <choice><abbr>mi<am>n̄</am>e</abbr><expan>mi<ex>e</ex>ne</expan></choice> burd</rdg>
+                        <rdg n="134" xml:space="preserve" wit="#D">An der <choice><abbr>mi<am>n̄</am>e</abbr><expan>min<ex>n</ex>e</expan></choice> burd</rdg>
                         <rdg n="132" xml:space="preserve" wit="#h"><hi rend="decoration color:red">D</hi>er ſtrengen mynne purd</rdg>
                         <rdg n="130" xml:space="preserve" wit="#I"><hi rend="decoration color:red">D</hi>er ſtrengen minne purde</rdg>
                         <rdg n="97" xml:space="preserve" wit="#Ko">Der starker minnen burde.</rdg>
@@ -2212,7 +2212,7 @@
                     <l xml:id="s_136"> <app>
                         <rdg n="136" xml:space="preserve" wit="#A">Der umbe er doch nut langer ſparn</rdg>
                         <rdg n="136" xml:space="preserve" wit="#B">Er ſprach gott mȗß mirſ bewaren</rdg>
-                        <rdg n="138" xml:space="preserve" wit="#D">dar vmb wolt er mit langer ſparn</rdg>
+                        <rdg n="138" xml:space="preserve" wit="#D">dar vmb wolt er nit langer ſparn</rdg>
                         <rdg n="136" xml:space="preserve" wit="#h"><hi rend="decoration color:red">E</hi>r ſprach got müſz mich bewaren</rdg>
                         <rdg n="134" xml:space="preserve" wit="#I"><hi rend="decoration color:red">E</hi>r <choice><abbr>ſp<am>r̄</am>ch</abbr><expan>ſp<ex>ra</ex>ch</expan></choice> got müzz ſi pewaren</rdg>
                         <note anchored="true"/>
@@ -2326,13 +2326,13 @@
                         </app> </l>
                     <pb edRef="#B" facs="#B_100r" ed="http://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN662366077&amp;PHYSID=PHYS_0209&amp;DMDID=DMDLOG_0023"/>
                     <l xml:id="s_144"> <app>
-                        <rdg n="144" xml:space="preserve" wit="#A">Anſe du ſelber wol haſt benomen</rdg>
+                        <rdg n="144" xml:space="preserve" wit="#A">Alſe du ſelber wol haſt benomen</rdg>
                         <rdg n="144" xml:space="preserve" wit="#B">Als diw̑ ſelbſt haſt vernomen</rdg>
                         <rdg n="146" xml:space="preserve" wit="#D">Als dü ſelber haſt <choice><abbr>genom<am>ē</am></abbr><expan>genome<ex>n</ex></expan></choice></rdg>
                         <rdg n="144" xml:space="preserve" wit="#h"><hi rend="decoration color:red">A</hi>ls du ſelbs haſt vernomen</rdg>
                         <rdg n="142" xml:space="preserve" wit="#I"><hi rend="decoration color:red">A</hi>ls jr wol habt <choice><abbr><am>vʼ</am>nomen</abbr><expan>v<ex>er</ex>nomen</expan></choice></rdg>
                         <rdg n="108" xml:space="preserve" wit="#Ko">Als dut wol selue has vernommin.</rdg>
-                        <rdg n="144" xml:space="preserve" wit="#L"><hi rend="decoration color:red">A</hi>ls du ſelbſt haſt <choice><abbr><am>vˀ</am>enom<am>ē</am></abbr><expan>enomv<ex>er</ex>e<ex>n</ex></expan></choice></rdg>
+                        <rdg n="144" xml:space="preserve" wit="#L"><hi rend="decoration color:red">A</hi>ls du ſelbſt haſt <choice><abbr><am>vˀ</am>enom<am>ē</am></abbr><expan><ex>ver</ex>nomen</expan></choice></rdg>
                         <rdg n="144" xml:space="preserve" wit="#N"><hi rend="decoration color:red">A</hi>ls du wol ſelber haſt ver numen</rdg>
                         <rdg n="144" xml:space="preserve" wit="#P">als dv ſelber haſt vernomen</rdg>
                         <rdg n="142" xml:space="preserve" wit="#V"><hi rend="decoration color:red">A</hi>ls ir wol habt <choice><abbr>verno<am>m̄</am></abbr><expan>vernom<ex>en</ex></expan></choice></rdg>
@@ -3051,7 +3051,7 @@
                         <rdg n="151" xml:space="preserve" wit="#L"><hi rend="decoration color:red">V</hi>ar vor mir vber Ee</rdg>
                         <rdg n="151" xml:space="preserve" wit="#N"><hi rend="decoration color:red">F</hi>ar allterſz allain vͤbers mer ee</rdg>
                         <rdg n="151" xml:space="preserve" wit="#P">Var alters eine hin vber e</rdg>
-                        <rdg n="149" xml:space="preserve" wit="#V"><hi rend="decoration color:red">V</hi>n̄ far du vor uns <choice><abbr>v̈<am>b͛</am></abbr><expan>v̈b<ex>er</ex></expan></choice> <pc>·</pc>ee <pc>·</pc></rdg>
+                        <rdg n="149" xml:space="preserve" wit="#V"><choice><abbr><hi rend="decoration color:red">V</hi>n̄</abbr><expan><hi rend="decoration color:red">V</hi>n<ex>d</ex></expan></choice> far du vor uns <choice><abbr>v̈<am>b͛</am></abbr><expan>v̈b<ex>er</ex></expan></choice> <pc>·</pc>ee <pc>·</pc></rdg>
                         <rdg n="197a" xml:space="preserve" wit="#w" type="missing"/>
                         </app> </l>
                     <l xml:id="s_152"> <app>
@@ -3072,7 +3072,7 @@
                     <l xml:id="s_153"> <app>
                         <rdg n="153" xml:space="preserve" wit="#A">Wanne ſwenne er hat von dir vernommen</rdg>
                         <rdg n="152a" xml:space="preserve" wit="#B" type="missing"/>
-                        <rdg n="155" xml:space="preserve" wit="#D">vnd <choice><abbr>we<am>n̄</am></abbr><expan>we<ex>e</ex>n</expan></choice> er hat von dir <choice><abbr><am>vˁ</am>nom<am>ē</am></abbr><expan>v<ex>er</ex>nome<ex>n</ex></expan></choice></rdg>
+                        <rdg n="155" xml:space="preserve" wit="#D">vnd <choice><abbr>we<am>n̄</am></abbr><expan>we<ex>n</ex>n</expan></choice> er hat von dir <choice><abbr><am>vˁ</am>nom<am>ē</am></abbr><expan>v<ex>er</ex>nome<ex>n</ex></expan></choice></rdg>
                         <rdg n="152a" xml:space="preserve" wit="#h" type="missing"/>
                         <rdg n="150a" xml:space="preserve" wit="#I" type="missing"/>
                         <rdg n="117" xml:space="preserve" wit="#Ko">Want so schire he hat vernomin.</rdg>
@@ -3085,7 +3085,7 @@
                     <l xml:id="s_154"> <app>
                         <rdg n="154" xml:space="preserve" wit="#A">Daz du bist vor u̍ber komen</rdg>
                         <rdg n="152b" xml:space="preserve" wit="#B" type="missing"/>
-                        <rdg n="156" xml:space="preserve" wit="#D">Daz dü biſt var jm uber <choice><abbr>kom<am>ē</am></abbr><expan>kome<ex>n</ex></expan></choice></rdg>
+                        <rdg n="156" xml:space="preserve" wit="#D">Daz dü biſt vor jm uber <choice><abbr>kom<am>ē</am></abbr><expan>kome<ex>n</ex></expan></choice></rdg>
                         <rdg n="152b" xml:space="preserve" wit="#h" type="missing"/>
                         <rdg n="150b" xml:space="preserve" wit="#I" type="missing"/>
                         <rdg n="118" xml:space="preserve" wit="#Ko">Dat du bist uor im ouer komen<pc>.</pc></rdg>
@@ -3120,7 +3120,7 @@
                         <rdg n="154" xml:space="preserve" wit="#L"><hi rend="decoration color:red">V</hi>nnd wŭrt der <choice><abbr>arckw<am>ā</am></abbr><expan>arckwa<ex>n</ex></expan></choice> ermant</rdg>
                         <rdg n="156" xml:space="preserve" wit="#N"><hi rend="decoration color:red">V</hi>nd wirt der arkwan er want</rdg>
                         <rdg n="156" xml:space="preserve" wit="#P">vnd wirt der arkwan er want</rdg>
-                        <rdg n="152" xml:space="preserve" wit="#V"><hi rend="decoration color:red">V</hi>n̄ wirt auch ſein ſin <choice><abbr><am>v͛</am>want</abbr><expan>v<ex>er</ex>want</expan></choice></rdg>
+                        <rdg n="152" xml:space="preserve" wit="#V"><choice><abbr><hi rend="decoration color:red">V</hi>n̄</abbr><expan><hi rend="decoration color:red">V</hi>n<ex>d</ex></expan></choice> wirt auch ſein ſin <choice><abbr><am>v͛</am>want</abbr><expan>v<ex>er</ex>want</expan></choice></rdg>
                         <rdg n="201" xml:space="preserve" wit="#w">Vnd wür ſein arger wen erwant</rdg>
                         </app> </l>
                 </lg>
@@ -3217,7 +3217,7 @@
                         <rdg n="161" xml:space="preserve" wit="#h"><hi rend="decoration color:red">V</hi>on dem lannd <choice><abbr>ny<am>m̄</am>er</abbr><expan>nym<ex>m</ex>er</expan></choice> chomen</rdg>
                         <rdg n="159" xml:space="preserve" wit="#I"><hi rend="decoration color:red">V</hi>on dem land <choice><abbr>n<am>ÿ̄</am>mer</abbr><expan>nÿ<ex>m</ex>mer</expan></choice> chomen</rdg>
                         <rdg n="120g" xml:space="preserve" wit="#Ko" type="missing"/>
-                        <rdg n="161" xml:space="preserve" wit="#L"><hi rend="decoration color:red">V</hi>on dem land <choice><abbr>n<am>ȳ</am>m<am>eˀ</am></abbr><expan>ny<ex>m</ex>me<ex>r</ex></expan></choice> <choice><abbr>k<am>ō</am>m<am>ē</am></abbr><expan>kmo<ex>n</ex>e<ex>n</ex></expan></choice></rdg>
+                        <rdg n="161" xml:space="preserve" wit="#L"><hi rend="decoration color:red">V</hi>on dem land <choice><abbr>n<am>ȳ</am>m<am>eˀ</am></abbr><expan>ny<ex>m</ex>me<ex>r</ex></expan></choice> <choice><abbr>k<am>ō</am>m<am>ē</am></abbr><expan>ko<ex>m</ex>me<ex>n</ex></expan></choice></rdg>
                         <rdg n="163" xml:space="preserve" wit="#N"><hi rend="decoration color:red">W</hi>er ſuͤſt vom land nicht kumen</rdg>
                         <rdg n="156g" xml:space="preserve" wit="#P" type="missing"/>
                         <rdg n="159" xml:space="preserve" wit="#V"><hi rend="decoration color:red">V</hi>on <choice><abbr>d<am>ē</am></abbr><expan>de<ex>m</ex></expan></choice> land <choice><abbr>nym<am>m͛</am></abbr><expan>nymm<ex>er</ex></expan></choice> <choice><abbr>ko<am>m̄</am></abbr><expan>kom<ex>en</ex></expan></choice></rdg>
@@ -3423,7 +3423,7 @@
                         <rdg n="175" xml:space="preserve" wit="#L"><hi rend="decoration color:red">D</hi>einen willen deſter baſz</rdg>
                         <rdg n="173" xml:space="preserve" wit="#N"><hi rend="decoration color:red">D</hi>einen willen deſter pas</rdg>
                         <rdg n="165" xml:space="preserve" wit="#P">Nach dinem willen deſter pas</rdg>
-                        <rdg n="173" xml:space="preserve" wit="#V"><hi rend="decoration color:red">D</hi>emen <choice><abbr>wil<am>l̄</am></abbr><expan>will<ex>en</ex></expan></choice> deſter paz</rdg>
+                        <rdg n="173" xml:space="preserve" wit="#V"><hi rend="decoration color:red">D</hi>eınen <choice><abbr>wil<am>l̄</am></abbr><expan>will<ex>en</ex></expan></choice> deſter paz</rdg>
                         <rdg n="210" xml:space="preserve" wit="#w">Nach deinem willen deſterbas</rdg>
                         </app> </l>
                     <l xml:id="s_174"> <app>
@@ -3595,7 +3595,7 @@
                         <rdg n="185" xml:space="preserve" wit="#N"><hi rend="decoration color:red">S</hi>o dich mein aug nicht ſicht</rdg>
                         <rdg n="177" xml:space="preserve" wit="#P">wen dich min ovge nicht enſicht</rdg>
                         <rdg n="185" xml:space="preserve" wit="#V"><hi rend="decoration color:red">A</hi>ls mich dein aug nicht an ſicht</rdg>
-                        <rdg n="222" xml:space="preserve" wit="#w">Zwar was mier geſchicht</rdg>
+                        <rdg n="223" xml:space="preserve" wit="#w" type="transposed">Wan dich mein ŏg nit anſicht</rdg>
                         </app> </l>
                     <l xml:id="s_186"> <app>
                         <rdg n="186" xml:space="preserve" wit="#A">Wan zwar ſo mir iht geſchiht</rdg>
@@ -3608,7 +3608,7 @@
                         <rdg n="186" xml:space="preserve" wit="#N"><hi rend="decoration color:red">W</hi>ann zwar was auch mir geſchicht</rdg>
                         <rdg n="178" xml:space="preserve" wit="#P">was mir halt da von geſchicht</rdg>
                         <rdg n="186" xml:space="preserve" wit="#V"><hi rend="decoration color:red">G</hi>rozz <choice><abbr>trawr<am>n̄</am></abbr><expan>trawr<ex>e</ex>n</expan></choice> mir dain geſchiht</rdg>
-                        <rdg n="223" xml:space="preserve" wit="#w">Wan dich mein ŏg nit anſicht</rdg>
+                        <rdg n="222" xml:space="preserve" wit="#w" type="transposed">Zwar was mier geſchicht</rdg>
                         </app> </l>
                 </lg>
                 <lg org="uniform" sample="complete">
@@ -3641,7 +3641,7 @@
                 </lg>
                 <lg org="uniform" sample="complete">
                     <l xml:id="s_189"> <app>
-                        <rdg n="189" xml:space="preserve" wit="#A">Iamer in mins henzengrunt</rdg>
+                        <rdg n="189" xml:space="preserve" wit="#A">Iamer in mins herzengrunt</rdg>
                         <rdg n="191" xml:space="preserve" wit="#B">Sorg jnn meines hertzenn grȗnndt</rdg>
                         <rdg n="191" xml:space="preserve" wit="#D">Jamer jn mins <choice><abbr>hr<am>t̄</am>zn</abbr><expan>h<ex>e</ex>rtz<ex>e</ex>n</expan></choice> grunt</rdg>
                         <rdg n="191" xml:space="preserve" wit="#h"><hi rend="decoration color:red">S</hi>orgt in meines hertzen grund</rdg>
@@ -3723,7 +3723,7 @@
                         <rdg n="194" xml:space="preserve" wit="#I"><hi rend="decoration color:red">G</hi>eren fraw <choice><abbr>ſ<am>p̄</am>ch</abbr><expan>ſp<ex>ra</ex>ch</expan></choice> er zẅ jr</rdg>
                         <rdg n="150" xml:space="preserve" wit="#Ko">Gerne vrouwe sprach he zu ir.</rdg>
                         <rdg n="195" xml:space="preserve" wit="#L"><hi rend="decoration color:red">G</hi>ern fraw ſprach er zu ir</rdg>
-                        <rdg n="194" xml:space="preserve" wit="#N"><hi rend="decoration color:red">H</hi>ern fraw ſprach er zu ir</rdg>
+                        <rdg n="194" xml:space="preserve" wit="#N"><hi rend="decoration color:red">G</hi>ern fraw ſprach er zu ir</rdg>
                         <rdg n="186" xml:space="preserve" wit="#P">Gerne ſprach er vroͮwe zv ir</rdg>
                         <rdg n="194" xml:space="preserve" wit="#V"><hi rend="decoration color:red">G</hi>ern fraw ſprach er zu ir</rdg>
                         <rdg n="231" xml:space="preserve" wit="#w">Gern ſprach er frăw zwͦ ier</rdg>
@@ -3748,7 +3748,7 @@
                     <l xml:id="s_196"> <app>
                         <rdg n="196" xml:space="preserve" wit="#A">Swaz ich der an gewinne</rdg>
                         <rdg n="198" xml:space="preserve" wit="#B">Was ich darann gewynne</rdg>
-                        <rdg n="198" xml:space="preserve" wit="#D">Was ich dar an <choice><abbr>gewi<am>n̄</am>e</abbr><expan>gewi<ex>e</ex>ne</expan></choice></rdg>
+                        <rdg n="198" xml:space="preserve" wit="#D">Was ich dar an <choice><abbr>gewi<am>n̄</am>e</abbr><expan>gewin<ex>n</ex>e</expan></choice></rdg>
                         <rdg n="198" xml:space="preserve" wit="#h"><hi rend="decoration color:red">W</hi>as ich daran gewinne</rdg>
                         <rdg n="196" xml:space="preserve" wit="#I"><hi rend="decoration color:red">W</hi>az ich dar an gewinne</rdg>
                         <rdg n="152" xml:space="preserve" wit="#Ko">Swat ich dar ane gewinne.</rdg>
@@ -3788,7 +3788,6 @@
                         </app> </l>
                 </lg>
                 <lg org="uniform" sample="complete">
-                    <pb edRef="#h" facs="#h_85r" ed="http://mscripthq.nkp.cz/documentrepository/manuscriptorium/L/NMP___X_A_12_________2B4L/N1/X_A_12_________2B4LN10085R.JPG"/>
                     <l xml:id="s_199"> <app>
                         <rdg n="199" xml:space="preserve" wit="#A">Herze muot und ouch den ſin</rdg>
                         <rdg n="200a" xml:space="preserve" wit="#B" type="missing"/>
@@ -3805,7 +3804,7 @@
                     <l xml:id="s_200"> <app>
                         <rdg n="200" xml:space="preserve" wit="#A">Daz ich u̍ch von rehte bin</rdg>
                         <rdg n="200b" xml:space="preserve" wit="#B" type="missing"/>
-                        <rdg n="202" xml:space="preserve" wit="#D">dar ich uch von recht bin</rdg>
+                        <rdg n="202" xml:space="preserve" wit="#D">daz ich uch von recht bin</rdg>
                         <rdg n="200b" xml:space="preserve" wit="#h" type="missing"/>
                         <rdg n="198b" xml:space="preserve" wit="#I" type="missing"/>
                         <rdg n="156" xml:space="preserve" wit="#Ko">Dat ich vch uon rechte bin.</rdg>
@@ -3900,6 +3899,7 @@
                         <rdg n="243" xml:space="preserve" wit="#w">Wie ich ŏch bin nach ŭch verqüoln</rdg>
                         </app> </l>
                 </lg>
+                <pb edRef="#h" facs="#h_85r" ed="http://mscripthq.nkp.cz/documentrepository/manuscriptorium/L/NMP___X_A_12_________2B4L/N1/X_A_12_________2B4LN10085R.JPG"/>
                 <lg org="uniform" sample="complete">
                     <l xml:id="s_207"> <app>
                         <rdg n="207" xml:space="preserve" wit="#A">Mit herzen unde mit libe</rdg>
@@ -3946,7 +3946,7 @@
                     <l xml:id="s_210"> <app>
                         <rdg n="210" xml:space="preserve" wit="#A">Men trage tot mich zuo grabe</rdg>
                         <rdg n="204" xml:space="preserve" wit="#B">Mann trag mich totten zẇ grab</rdg>
-                        <rdg n="212" xml:space="preserve" wit="#D">Ich woͤlt <choice><abbr>m<am>ā</am></abbr><expan>ma<ex>n</ex></expan></choice> trüg mich E ze <choice><abbr><am>gᷓ</am>ben</abbr><expan><ex>gᷓ</ex>ben</expan></choice></rdg>
+                        <rdg n="212" xml:space="preserve" wit="#D">Ich woͤlt <choice><abbr>m<am>ā</am></abbr><expan>ma<ex>n</ex></expan></choice> trüg mich E ze <choice><abbr><am>gᷓ</am>ben</abbr><expan><ex>gra</ex>ben</expan></choice></rdg>
                         <rdg n="204" xml:space="preserve" wit="#h"><hi rend="decoration color:red">M</hi>an trag mich totten ze grab</rdg>
                         <rdg n="202" xml:space="preserve" wit="#I"><hi rend="decoration color:red">M</hi>an trag mich totten zẅ dem grab</rdg>
                         <rdg n="166" xml:space="preserve" wit="#Ko">Man in sule dragin mich ze graue.</rdg>
@@ -3991,7 +3991,7 @@
                         <rdg n="206a" xml:space="preserve" wit="#B" type="missing"/>
                         <rdg n="215" xml:space="preserve" wit="#D">hie mit waz die red hin</rdg>
                         <rdg n="206a" xml:space="preserve" wit="#h" type="missing"/>
-                        <rdg n="205" xml:space="preserve" wit="#I"/>
+                        <rdg n="205" xml:space="preserve" wit="#I" type="missing"/>
                         <rdg n="169" xml:space="preserve" wit="#Ko">Hie mede was die rede hin.</rdg>
                         <rdg n="205a" xml:space="preserve" wit="#L" type="missing"/>
                         <rdg n="213" xml:space="preserve" wit="#N"><hi rend="decoration color:red">H</hi>ie mit was die red hin</rdg>
@@ -4004,7 +4004,7 @@
                         <rdg n="206b" xml:space="preserve" wit="#B" type="missing"/>
                         <rdg n="216" xml:space="preserve" wit="#D">die ſy tribent vnder jn</rdg>
                         <rdg n="206b" xml:space="preserve" wit="#h" type="missing"/>
-                        <rdg n="206" xml:space="preserve" wit="#I"/>
+                        <rdg n="206" xml:space="preserve" wit="#I" type="missing"/>
                         <rdg n="170" xml:space="preserve" wit="#Ko">Die si dreuen vnder in.</rdg>
                         <rdg n="205b" xml:space="preserve" wit="#L" type="missing"/>
                         <rdg n="214" xml:space="preserve" wit="#N"><hi rend="decoration color:red">D</hi>ie ſie da getriben vnter jn</rdg>
@@ -4020,15 +4020,14 @@
                         <rdg n="215" xml:space="preserve" wit="#A">Von ir herzeleide</rdg>
                         <rdg n="207" xml:space="preserve" wit="#B" type="alternative1">Mitt jammer vnnd mit leÿde</rdg>
                         <rdg n="217" xml:space="preserve" wit="#D">von jr <choice><abbr>hr<am>t̄</am>zen</abbr><expan>h<ex>e</ex>rtzen</expan></choice> laide</rdg>
-                        <rdg n="207" xml:space="preserve" wit="#h"><hi rend="decoration color:red">M</hi>it iainer vnd mit laide</rdg>
+                        <rdg n="207" xml:space="preserve" wit="#h"><hi rend="decoration color:red">M</hi>it iamer vnd mit laide</rdg>
                         <rdg n="207" xml:space="preserve" wit="#I"><hi rend="decoration color:red">M</hi>it jamer vnd mit laide</rdg>
                         <rdg n="171" xml:space="preserve" wit="#Ko">Von irre zweir lede.</rdg>
                         <rdg n="206" xml:space="preserve" wit="#L"><hi rend="decoration color:red">M</hi>it iamer vnnd mit leyde</rdg>
                         <rdg n="215" xml:space="preserve" wit="#N"><hi rend="decoration color:red">V</hi>on ÿren hertzen laÿde</rdg>
                         <rdg n="207" xml:space="preserve" wit="#P">Von ir <choice><abbr>zw<am>ē</am></abbr><expan>zwe<ex>n</ex></expan></choice> herzenleide</rdg>
                         <rdg n="205" xml:space="preserve" wit="#V"><hi rend="decoration color:red">M</hi>it jamer vnd mit laide</rdg>
-                        <rdg n="252" xml:space="preserve" wit="#w">Von hertzlichem laÿde</rdg>
-                        <note>versos invertidos</note>
+                        <rdg n="253" xml:space="preserve" wit="#w" type="transposed">Von hertzlichem laÿde</rdg>
                         </app> </l>
                     <cb edRef="#D" facs="#D_130v_b" ed="https://digital.blb-karlsruhe.de/blbhs/content/pageview/36373"/>
                     <l xml:id="s_216"> <app>
@@ -4042,8 +4041,7 @@
                         <rdg n="216" xml:space="preserve" wit="#N"><hi rend="decoration color:red">D</hi>ie ſie da zwaÿ lieb paÿde</rdg>
                         <rdg n="208" xml:space="preserve" wit="#P">Die zwei geliben peide</rdg>
                         <rdg n="206" xml:space="preserve" wit="#V"><hi rend="decoration color:red">D</hi>ie zway liebe payde</rdg>
-                        <rdg n="253" xml:space="preserve" wit="#w">Die zwaÿ geliebten baÿde</rdg>
-                        <note>Versos invertidos</note>
+                        <rdg n="252" xml:space="preserve" wit="#w" type="transposed">Die zwaÿ geliebten baÿde</rdg>
                         </app> </l>
                 </lg>
                 <lg org="uniform" sample="complete">
@@ -4151,14 +4149,14 @@
                     <l xml:id="s_220"> <app>
                         <rdg n="220" xml:space="preserve" wit="#A">Dan ich mit dem munde</rdg>
                         <rdg n="213" xml:space="preserve" wit="#B">Mer dann ich mit dem mȗndt</rdg>
-                        <rdg n="224" xml:space="preserve" wit="#D">Ane <choice><abbr>de<am>n̄</am></abbr><expan>de<ex>e</ex>n</expan></choice> mit dem mund</rdg>
+                        <rdg n="224" xml:space="preserve" wit="#D">Ane <choice><abbr>de<am>n̄</am></abbr><expan>den<ex>n</ex></expan></choice> mit dem mund</rdg>
                         <rdg n="213" xml:space="preserve" wit="#h"><hi rend="decoration color:red">M</hi>er dann ich mit dem mund</rdg>
                         <rdg n="214" xml:space="preserve" wit="#I"><hi rend="decoration color:red">M</hi>er dan ich mit dem mund</rdg>
                         <rdg n="176" xml:space="preserve" wit="#Ko">Dan ich mit dem munde.</rdg>
                         <rdg n="213" xml:space="preserve" wit="#L"><hi rend="decoration color:red">M</hi>er dan ich mit dem mŭndt</rdg>
                         <rdg n="220" xml:space="preserve" wit="#N"><hi rend="decoration color:red">D</hi>enn ich mit dem mund</rdg>
                         <rdg n="212" xml:space="preserve" wit="#P">Den ich mit dem mvnde</rdg>
-                        <rdg n="212" xml:space="preserve" wit="#V"><hi rend="decoration color:red">M</hi>er dan ich <choice><abbr>m<hi rend="superscript">t</hi></abbr><expan>m</expan></choice> dem <choice><abbr>m<am>ū</am>d</abbr><expan>mu<ex>n</ex>d</expan></choice></rdg>
+                        <rdg n="212" xml:space="preserve" wit="#V"><hi rend="decoration color:red">M</hi>er dan ich <choice><abbr>m<hi rend="superscript">t</hi></abbr><expan>m<ex>i</ex>t</expan></choice> dem <choice><abbr>m<am>ū</am>d</abbr><expan>mu<ex>n</ex>d</expan></choice></rdg>
                         <rdg n="257" xml:space="preserve" wit="#w"><choice><abbr>Da<am>n̄</am></abbr><expan>Da<ex>nn</ex></expan></choice> ich ŭch mit dem münde</rdg>
                         </app> </l>
                 </lg>
@@ -4371,7 +4369,7 @@
                       <rdg n="229f" xml:space="preserve" wit="#N" type="missing"/>
                       <rdg n="220f" xml:space="preserve" wit="#P" type="missing"/>
                       <rdg n="220f" xml:space="preserve" wit="#V" type="missing"/>
-                      <rdg n="271" xml:space="preserve" wit="#w"><choice><abbr>Dari<am>n̄</am></abbr><expan>Dari<ex>e</ex>n</expan></choice> er vff dem mer muͤſt worgen</rdg></app></l>
+                      <rdg n="271" xml:space="preserve" wit="#w"><choice><abbr>Dari<am>n̄</am></abbr><expan>Dari<ex>n</ex>n</expan></choice> er vff dem mer muͤſt worgen</rdg></app></l>
               </lg>
               <lg>
                   <l xml:id="s_228g"><app>
@@ -4557,7 +4555,7 @@
               </lg>
                 <lg org="uniform" sample="complete">
                     <l xml:id="s_229"> <app>
-                        <rdg n="229" xml:space="preserve" wit="#A">Mit iamer an daz mer zabant</rdg>
+                        <rdg n="229" xml:space="preserve" wit="#A">Mit iamer an daz mer zahant</rdg>
                         <note/>
                         <rdg n="222" xml:space="preserve" wit="#B">Ann das mer zehanndt</rdg>
                         <rdg n="233" xml:space="preserve" wit="#D"><hi rend="initial" n="1"><metamark function="cue_initial">m</metamark></hi>it <choice><abbr>ja<am>mˁ</am></abbr><expan>jam<ex>er</ex></expan></choice> an daz mer zehant</rdg>
@@ -4577,7 +4575,7 @@
                         <rdg n="223" xml:space="preserve" wit="#h"><hi rend="decoration color:red">D</hi>en erſten kiel den er vand</rdg>
                         <rdg n="224" xml:space="preserve" wit="#I"><hi rend="decoration color:red">D</hi>en <choice><abbr>erſt<am>n̄</am></abbr><expan>erſt<ex>e</ex>n</expan></choice> chiel den er vant</rdg>
                         <rdg n="186" xml:space="preserve" wit="#Ko">Den ersten kiel den he da vant.</rdg>
-                        <rdg n="223" xml:space="preserve" wit="#L"><hi rend="decoration color:red">D</hi>en erſten kiel <mod type="substitution_in_word"><mod type="diplomatic">d<subst><del rend="overstrike">a</del><add place="inspace">e</add></subst>n</mod><mod type="phase" n="1">dan</mod><mod type="phase" n="2">den</mod></mod> er fant</rdg>
+                        <rdg n="223" xml:space="preserve" wit="#L"><hi rend="decoration color:red">D</hi>en erſten kiel d<subst><del rend="overstrike">a</del><add place="inspace">e</add></subst>n er fant</rdg>
                         <rdg n="231" xml:space="preserve" wit="#N"><hi rend="decoration color:red">D</hi>en erſten kÿl den er da fant</rdg>
                         <rdg n="222" xml:space="preserve" wit="#P">Den criſten chiel den er vant</rdg>
                         <rdg n="222" xml:space="preserve" wit="#V"><hi rend="decoration color:red">D</hi>en <choice><abbr>erſt<am>n̄</am></abbr><expan>erſt<ex>e</ex>n</expan></choice> kiel den er vant</rdg>
@@ -4628,7 +4626,7 @@
                         </app> </l>
                     <l xml:id="s_234"> <app>
                         <rdg n="234" xml:space="preserve" wit="#A">Ny mere wolde werden</rdg>
-                        <rdg n="227" xml:space="preserve" wit="#B">Nym̄er woltt werdenn</rdg>
+                        <rdg n="227" xml:space="preserve" wit="#B"><choice><abbr>Ny<am>m̄</am>er</abbr><expan>Nym<ex>m</ex>er</expan></choice> woltt werdenn</rdg>
                         <rdg n="238" xml:space="preserve" wit="#D">niemer wolte werden</rdg>
                         <rdg n="227" xml:space="preserve" wit="#h"><choice><abbr>Ny<am>m̄</am>er</abbr><expan>Nym<ex>m</ex>er</expan></choice><hi rend="decoration color:red"> </hi>wölt werden</rdg>
                         <rdg n="228" xml:space="preserve" wit="#I"><hi rend="decoration color:red">N</hi>ÿmmer wolte werden</rdg>
@@ -4658,7 +4656,7 @@
                     <l xml:id="s_236"> <app>
                         <rdg n="236" xml:space="preserve" wit="#A">Got geſcheffes danne alſo</rdg>
                         <rdg n="229" xml:space="preserve" wit="#B">Gott fȗgett jm dann alſe</rdg>
-                        <rdg n="240" xml:space="preserve" wit="#D">Got füg ez <choice><abbr>de<am>n̄</am></abbr><expan>de<ex>e</ex>n</expan></choice> alſo</rdg>
+                        <rdg n="240" xml:space="preserve" wit="#D">Got füg ez <choice><abbr>de<am>n̄</am></abbr><expan>den<ex>n</ex></expan></choice> alſo</rdg>
                         <rdg n="229" xml:space="preserve" wit="#h"><hi rend="decoration color:red">G</hi>ot füget jm dann alſo</rdg>
                         <rdg n="230" xml:space="preserve" wit="#I"><hi rend="decoration color:red">G</hi>ot fügt es denne alſo</rdg>
                         <rdg n="192" xml:space="preserve" wit="#Ko">Got in schuͦfin dan also.</rdg>
@@ -4691,7 +4689,7 @@
                         <rdg n="231" xml:space="preserve" wit="#h"><hi rend="decoration color:red">V</hi>nd ettwas vernëm</rdg>
                         <rdg n="232" xml:space="preserve" wit="#I"><hi rend="decoration color:red">V</hi>nd auch etwaz <choice><abbr><am>vʼ</am>näme</abbr><expan>v<ex>er</ex>näme</expan></choice></rdg>
                         <rdg n="194" xml:space="preserve" wit="#Ko">Vade getzwat verneme.</rdg>
-                        <rdg n="231" xml:space="preserve" wit="#L"><hi rend="decoration color:red">V</hi>nnd etwas <choice><abbr>vern<am>ē</am>m</abbr><expan>vernme<ex>n</ex></expan></choice></rdg>
+                        <rdg n="231" xml:space="preserve" wit="#L"><hi rend="decoration color:red">V</hi>nnd etwas <choice><abbr>vern<am>ē</am>m</abbr><expan>vernem<ex>e</ex></expan></choice></rdg>
                         <rdg n="239" xml:space="preserve" wit="#N"><hi rend="decoration color:red">V</hi>nd etwas ver<hi rend="decoration color:red">N</hi>em</rdg>
                         <rdg n="230" xml:space="preserve" wit="#P">vnd etteſwas verneme</rdg>
                         <rdg n="230" xml:space="preserve" wit="#V"><choice><abbr><hi rend="decoration color:red">V</hi><am>n̄</am></abbr><expan><hi rend="decoration color:red">V</hi>n<ex>d</ex></expan></choice> auch etwaz verneme</rdg>
@@ -4751,7 +4749,7 @@
                         <rdg n="235" xml:space="preserve" wit="#L"><hi rend="decoration color:red">D</hi>er iung keck ritter</rdg>
                         <rdg n="243" xml:space="preserve" wit="#N"><hi rend="decoration color:red">D</hi>er tugenthafte <hi rend="decoration color:red">R</hi>itter</rdg>
                         <rdg n="234" xml:space="preserve" wit="#P">Der tugenthafte ritter</rdg>
-                        <rdg n="234" xml:space="preserve" wit="#V"><hi rend="decoration color:red">D</hi>er <choice><abbr>tug<am>n̄</am>thafte</abbr><expan>tugthafte<ex>e</ex>n</expan></choice> ritter</rdg>
+                        <rdg n="234" xml:space="preserve" wit="#V"><hi rend="decoration color:red">D</hi>er <choice><abbr>tug<am>n̄</am>thafte</abbr><expan>tug<ex>e</ex>nthafte</expan></choice> ritter</rdg>
                         <rdg n="299" xml:space="preserve" wit="#w"><add place="rmargin">Des tügenthaften rÿtter</add></rdg>
                         </app> </l>
                 </lg>
@@ -4763,7 +4761,7 @@
                         <rdg n="235a" xml:space="preserve" wit="#h" type="missing"/>
                         <rdg n="236a" xml:space="preserve" wit="#I" type="missing"/>
                         <rdg n="198a" xml:space="preserve" wit="#Ko" type="missing"/>
-                        <rdg n="236" xml:space="preserve" wit="#L"/>
+                        <rdg n="236" xml:space="preserve" wit="#L" type="missing"/>
                         <rdg n="243a" xml:space="preserve" wit="#N" type="missing"/>
                         <rdg n="234a" xml:space="preserve" wit="#P" type="missing"/>
                         <rdg n="234a" xml:space="preserve" wit="#V" type="missing"/>
@@ -4776,7 +4774,7 @@
                         <rdg n="235b" xml:space="preserve" wit="#h" type="missing"/>
                         <rdg n="236b" xml:space="preserve" wit="#I" type="missing"/>
                         <rdg n="198b" xml:space="preserve" wit="#Ko" type="missing"/>
-                        <rdg n="237" xml:space="preserve" wit="#L"/>
+                        <rdg n="237" xml:space="preserve" wit="#L" type="missing"/>
                         <rdg n="243b" xml:space="preserve" wit="#N" type="missing"/>
                         <rdg n="234b" xml:space="preserve" wit="#P" type="missing"/>
                         <rdg n="234b" xml:space="preserve" wit="#V" type="missing"/>
@@ -4833,7 +4831,7 @@
                         <rdg n="240" xml:space="preserve" wit="#I"><hi rend="decoration color:red">A</hi>lte ſorg was jm new</rdg>
                         <rdg n="202" xml:space="preserve" wit="#Ko">Sin alde sorge nvwe.</rdg>
                         <rdg n="241" xml:space="preserve" wit="#L"><hi rend="decoration color:red">S</hi>ein alte ſorg wart new</rdg>
-                        <rdg n="247" xml:space="preserve" wit="#N"><hi rend="decoration color:red">D</hi>ein alte ſorg new</rdg>
+                        <rdg n="247" xml:space="preserve" wit="#N"><hi rend="decoration color:red">S</hi>ein alte ſorg new</rdg>
                         <rdg n="238" xml:space="preserve" wit="#P">Sin alte ſorge neuwe</rdg>
                         <rdg n="238" xml:space="preserve" wit="#V"><hi rend="decoration color:red">A</hi>lte ſorg waz im new</rdg>
                         <rdg n="305" xml:space="preserve" wit="#w">Das alte ſein ſorg nŭwe</rdg>
@@ -4854,7 +4852,6 @@
                         <rdg n="238a" xml:space="preserve" wit="#V" type="missing"/>
                         <rdg n="306" xml:space="preserve" wit="#w">Nach der edlen mÿnne wardt</rdg>
                         </app> </l>
-                    <pb edRef="#L" facs="#L_231v" ed="http://digital.bibliothek.uni-halle.de/hd/content/pageview/1694994"/>
                     <l xml:id="s_248"> <app>
                         <rdg n="248" xml:space="preserve" wit="#A">Der reinen durteltuben art</rdg>
                         <rdg n="239b" xml:space="preserve" wit="#B" type="missing"/>
@@ -4894,7 +4891,7 @@
                         <rdg n="251" xml:space="preserve" wit="#N"><hi rend="decoration color:red">W</hi>ann̄ er nach dem lieb ſein</rdg>
                         <rdg n="242" xml:space="preserve" wit="#P">Das er nach dem liebe ſin</rdg>
                         <rdg n="238d" xml:space="preserve" wit="#V" type="missing"/>
-                        <rdg n="309" xml:space="preserve" wit="#w">Das erwach der liepſten ſein</rdg>
+                        <rdg n="309" xml:space="preserve" wit="#w">Das er nach der liepſten ſein</rdg>
                         </app> </l>
                 </lg>
                 <lg org="uniform" sample="complete">
@@ -4907,8 +4904,7 @@
                         <rdg n="207" xml:space="preserve" wit="#Ko">Vermeit der gruͦner vrouden zwil.</rdg>
                         <rdg n="241e" xml:space="preserve" wit="#L" type="missing"/>
                         <rdg n="252" xml:space="preserve" wit="#N"><hi rend="decoration color:red">V</hi>er maÿd der grunen <del rend="overtrike color:red">z</del> frewden zweÿ</rdg>
-                        <rdg n="243" xml:space="preserve" wit="#P">ver meit der griͤnen vrevden zwei</rdg>
-                        <note anchored="true">gruͤnen?</note>
+                        <rdg n="243" xml:space="preserve" wit="#P">ver meit der gruͤnen vrevden zwei</rdg>
                         <rdg n="238e" xml:space="preserve" wit="#V" type="missing"/>
                         <rdg n="310" xml:space="preserve" wit="#w">Vermaid der gruͤnen froͤden zwej</rdg>
                         </app> </l>
@@ -5016,7 +5012,7 @@
                         <rdg n="259" xml:space="preserve" wit="#A">Unde minnenclicher ſwere</rdg>
                         <rdg n="240" xml:space="preserve" wit="#B">Jn dauerlicher ſhwer</rdg>
                         <rdg n="261" xml:space="preserve" wit="#D"><choice><abbr>v<am>n̄</am></abbr><expan>v<ex>nd</ex></expan></choice> jnicklicher ſwäre</rdg>
-                        <rdg n="240" xml:space="preserve" wit="#h"><hi rend="decoration color:red">J</hi>n rämerlicher ſwär</rdg>
+                        <rdg n="240" xml:space="preserve" wit="#h"><hi rend="decoration color:red">J</hi>n iämerlicher ſwär</rdg>
                         <rdg n="241" xml:space="preserve" wit="#I"><hi rend="decoration color:red">J</hi>n <choice><abbr>jemerleic<am>hˁ</am></abbr><expan>jemerleich<ex>er</ex></expan></choice> ſwäre</rdg>
                         <rdg n="215" xml:space="preserve" wit="#Ko">Vnde herzenclicher swere.</rdg>
                         <rdg n="242" xml:space="preserve" wit="#L"><hi rend="decoration color:red">J</hi>n iamerlicher ſchwer</rdg>
@@ -5025,6 +5021,7 @@
                         <rdg n="239" xml:space="preserve" wit="#V"><hi rend="decoration color:red">J</hi>n jemerleicher ſwere</rdg>
                         <rdg n="313e" xml:space="preserve" wit="#w" type="missing"/>
                         </app> </l>
+                    <pb edRef="#L" facs="#L_231v" ed="http://digital.bibliothek.uni-halle.de/hd/content/pageview/1694994"/>
                     <l xml:id="s_260"> <app>
                         <rdg n="260" xml:space="preserve" wit="#A">Der ſende martelere</rdg>
                         <rdg n="241" xml:space="preserve" wit="#B">Der ſenend marterer</rdg>
@@ -5053,17 +5050,17 @@
                         <rdg n="244" xml:space="preserve" wit="#L"><hi rend="decoration color:red">R</hi>ufft zu <choice><abbr>manch<am>eˀ</am></abbr><expan>manche<ex>r</ex></expan></choice> stündt</rdg>
                         <rdg n="262" xml:space="preserve" wit="#N"><hi rend="decoration color:red">S</hi>prach zw mancher ſtund</rdg>
                         <rdg n="253" xml:space="preserve" wit="#P">Sprach zv manger ſtunde</rdg>
-                        <rdg n="241" xml:space="preserve" wit="#V"><hi rend="decoration color:red">R</hi>uft  zu maniger ſtung</rdg>
+                        <rdg n="241" xml:space="preserve" wit="#V"><hi rend="decoration color:red">R</hi>uft  zu maniger ſtund</rdg>
                         <rdg n="314" xml:space="preserve" wit="#w">Er ſprach zwͦ menger ſtünde</rdg>
                         </app> </l>
                     <l xml:id="s_262"> <app>
                         <rdg n="262" xml:space="preserve" wit="#A">Mit ſu̍fzenden munde </rdg>
-                        <rdg n="243" xml:space="preserve" wit="#B">Aȗffs eȗffenden mȗndt</rdg>
+                        <rdg n="243" xml:space="preserve" wit="#B">Aȗffs rȗffenden mȗndt</rdg>
                         <rdg n="264" xml:space="preserve" wit="#D">Mit ſenftem munt</rdg>
                         <rdg n="243" xml:space="preserve" wit="#h"><hi rend="decoration color:red">V</hi>ſz ſeuftzendem mund</rdg>
                         <rdg n="244" xml:space="preserve" wit="#I"><hi rend="decoration color:red">A</hi>uſ ſewſzendem mund</rdg>
                         <rdg n="218" xml:space="preserve" wit="#Ko">Mit sichtenclichen munde.</rdg>
-                        <rdg n="245" xml:space="preserve" wit="#L"><hi rend="decoration color:red">A</hi>uſz <mod type="substitution_of_word"><mod type="diplomatic">ſ<subst><del><choice><abbr>euſzl<am>ē</am>dem</abbr><expan>euſzldeme<ex>n</ex></expan></choice></del><add>euͮſſzendem</add></subst></mod></mod> mŭndt</rdg>
+                        <rdg n="245" xml:space="preserve" wit="#L"><hi rend="decoration color:red">A</hi>uſz ſ<subst><del rend="overstrike"><choice><abbr>euſzl<am>ē</am>dem</abbr><expan>euſzle<ex>n</ex>dem</expan></choice></del><add>euͮſſzendem</add></subst> mŭndt</rdg>
                         <rdg n="263" xml:space="preserve" wit="#N"><hi rend="decoration color:red">M</hi>it ſewffzend ſenendem mund</rdg>
                         <rdg n="254" xml:space="preserve" wit="#P">Vz ſvſzendem mvnde</rdg>
                         <rdg n="242" xml:space="preserve" wit="#V"><hi rend="decoration color:red">A</hi>uz <choice><abbr>ſaẅftend<am>ē</am></abbr><expan>ſaẅftende<ex>m</ex></expan></choice> munde</rdg>
@@ -5140,7 +5137,7 @@
                         <rdg n="268" xml:space="preserve" wit="#N"><hi rend="decoration color:red">W</hi>ie kan ÿr ſuͤſſe maÿſterſchaft</rdg>
                         <rdg n="259" xml:space="preserve" wit="#P">wie kan ir ſvͤzze meiſterſchaft</rdg>
                         <rdg n="247" xml:space="preserve" wit="#V"><hi rend="decoration color:red">W</hi>ie kan ſo gar mit maiſterſchaft</rdg>
-                        <rdg n="320" xml:space="preserve" wit="#w">Wie kam ier liebe maiſterſchafft</rdg>
+                        <rdg n="320" xml:space="preserve" wit="#w">Wie kan ier liebe maiſterſchafft</rdg>
                         </app> </l>
                     <l xml:id="s_268"> <app>
                         <rdg n="268" xml:space="preserve" wit="#A">So bitterlicher noete kraft</rdg>
@@ -5210,7 +5207,7 @@
                         <rdg n="273" xml:space="preserve" wit="#N"><hi rend="decoration color:red">S</hi>ol ſie troͤſten nit mein <choice><abbr>leb<am>n̄</am></abbr><expan>leb<ex>e</ex>n</expan></choice></rdg>
                         <rdg n="264" xml:space="preserve" wit="#P">wil ſi mir troſten nicht min leben</rdg>
                         <rdg n="250" xml:space="preserve" wit="#V"><hi rend="decoration color:red">W</hi>il ſi nicht <choice><abbr><am>tͦ</am>ſt<am>n̄</am></abbr><expan>t<ex>ro</ex>ſt<ex>e</ex>n</expan></choice> mir <choice><abbr>dz</abbr><expan>d<ex>a</ex>z</expan></choice> <choice><abbr>leb<am>n̄</am></abbr><expan>leb<ex>e</ex>n</expan></choice></rdg>
-                        <rdg n="325" xml:space="preserve" wit="#w">Will ſÿ mir troͤſten mit mein leben</rdg>
+                        <rdg n="325" xml:space="preserve" wit="#w">Will ſÿ mir troͤſten nit mein leben</rdg>
                         </app> </l>
                 </lg>
                 <lg org="uniform" sample="complete">
@@ -5365,7 +5362,7 @@
                         <rdg n="260" xml:space="preserve" wit="#L"><hi rend="decoration color:red">D</hi>as er an ſeinem <choice><abbr>hertz<am>ē</am></abbr><expan>hertze<ex>n</ex></expan></choice> trug</rdg>
                         <rdg n="283" xml:space="preserve" wit="#N"><hi rend="decoration color:red">D</hi>as ÿnnerhalb ſein hertz trug</rdg>
                         <rdg n="271" xml:space="preserve" wit="#P">Das innerhalp ſin herze truk</rdg>
-                        <rdg n="257" xml:space="preserve" wit="#V"><hi rend="decoration color:red">D</hi>en er an ſeinem <choice><abbr>hertz<m>n̄</m></abbr><expan>hertz</expan></choice> trug</rdg>
+                        <rdg n="257" xml:space="preserve" wit="#V"><hi rend="decoration color:red">D</hi>en er an ſeinem <choice><abbr>hertz<m>n̄</m></abbr><expan>hertz<ex>e</ex>n</expan></choice> trug</rdg>
                         <rdg n="332" xml:space="preserve" wit="#w">Das ÿnnerthalb ſein hertze truͦg</rdg>
                         </app> </l>
                     <l xml:id="s_284"> <app>
@@ -5391,7 +5388,7 @@
                         <rdg n="260" xml:space="preserve" wit="#h"><hi rend="decoration color:red">W</hi>as chomen v̈ber mer</rdg>
                         <rdg n="261" xml:space="preserve" wit="#I"><hi rend="decoration color:red">W</hi>as chumen vber mer</rdg>
                         <rdg n="236a" xml:space="preserve" wit="#Ko" type="missing"/>
-                        <rdg n="262" xml:space="preserve" wit="#L"><hi rend="decoration color:red">W</hi>as <choice><abbr>k<am>ō</am>m<am>ē</am>n</abbr><expan>kmno<ex>n</ex>e<ex>n</ex></expan></choice> vber mer</rdg>
+                        <rdg n="262" xml:space="preserve" wit="#L"><hi rend="decoration color:red">W</hi>as <choice><abbr>k<am>ō</am>m<am>ē</am>n</abbr><expan>ko<ex>m</ex>me<ex>n</ex>n</expan></choice> vber mer</rdg>
                         <rdg n="285" xml:space="preserve" wit="#N"><hi rend="decoration color:red">D</hi>er laÿden mer ſich ver ſach</rdg>
                         <rdg n="272a" xml:space="preserve" wit="#P" type="missing"/>
                         <rdg n="259" xml:space="preserve" wit="#V"><hi rend="decoration color:red">W</hi>az <choice><abbr>chö<am>m̄</am></abbr><expan>chöm<ex>en</ex></expan></choice> v̈ber mer</rdg>
@@ -5423,20 +5420,20 @@
                         <rdg n="262" xml:space="preserve" wit="#h"><hi rend="decoration color:red">G</hi>entzlich von jm chomen</rdg>
                         <rdg n="263" xml:space="preserve" wit="#I"><hi rend="decoration color:red">G</hi>enzleich von bechomen</rdg>
                         <rdg n="236c" xml:space="preserve" wit="#Ko" type="missing"/>
-                        <rdg n="264" xml:space="preserve" wit="#L"><hi rend="decoration color:red">B</hi>enuzlich <choice><abbr>v<am>ō</am></abbr><expan>vo<ex>n</ex></expan></choice> mi <choice><abbr><am>k̄</am>omen</abbr><expan>kom<ex>m</ex>en</expan></choice> <pc>.</pc></rdg>
+                        <rdg n="264" xml:space="preserve" wit="#L"><hi rend="decoration color:red">B</hi>enuzlich <choice><abbr>v<am>ō</am></abbr><expan>vo<ex>n</ex></expan></choice> im <choice><abbr><am>k̄</am>omen</abbr><expan>kom<ex>m</ex>en</expan></choice> <pc>.</pc></rdg>
                         <rdg n="285b" xml:space="preserve" wit="#N" type="missing"/>
                         <rdg n="272c" xml:space="preserve" wit="#P" type="missing"/>
-                        <rdg n="261" xml:space="preserve" wit="#V"><hi rend="decoration color:red">G</hi>entzleich von <choice><abbr>becho<am>m̄</am></abbr><expan>bechomen</expan></choice></rdg>
+                        <rdg n="261" xml:space="preserve" wit="#V"><hi rend="decoration color:red">G</hi>entzleich von <choice><abbr>becho<am>m̄</am></abbr><expan>bechom<ex>m</ex>en</expan></choice></rdg>
                         <rdg n="333c" xml:space="preserve" wit="#w" type="missing"/>
                         </app> </l>
                     <l xml:id="s_284d"> <app>
                         <rdg n="284d" xml:space="preserve" wit="#A" type="missing"/>
-                        <rdg n="263" xml:space="preserve" wit="#B">Er hett gar ſchier vernom̄en</rdg>
+                        <rdg n="263" xml:space="preserve" wit="#B">Er hett gar ſchier <choice><abbr>verno<am>m̄</am>en</abbr><expan>vernom<ex>m</ex>en</expan></choice></rdg>
                         <rdg n="288b" xml:space="preserve" wit="#D" type="missing"/>
                         <rdg n="263" xml:space="preserve" wit="#h"><hi rend="decoration color:red">E</hi>r hett gar ſchier vernomen</rdg>
                         <rdg n="264" xml:space="preserve" wit="#I"><hi rend="decoration color:red">D</hi>ar nach het er vernomen</rdg>
                         <rdg n="236d" xml:space="preserve" wit="#Ko" type="missing"/>
-                        <rdg n="265" xml:space="preserve" wit="#L"><hi rend="decoration color:red">E</hi>r hett gar ſchied <choice><abbr><am>vˀ</am>nom<am>ē</am></abbr><expan>nomv<ex>er</ex>e<ex>n</ex></expan></choice></rdg>
+                        <rdg n="265" xml:space="preserve" wit="#L"><hi rend="decoration color:red">E</hi>r hett gar ſchier <choice><abbr><am>vˀ</am>nom<am>ē</am></abbr><expan>v<ex>er</ex>nome<ex>n</ex></expan></choice></rdg>
                         <rdg n="285c" xml:space="preserve" wit="#N" type="missing"/>
                         <rdg n="272d" xml:space="preserve" wit="#P" type="missing"/>
                         <rdg n="262" xml:space="preserve" wit="#V"><hi rend="decoration color:red">D</hi>arnach het er <choice><abbr>verno<am>m̄</am></abbr><expan>vernom<ex>en</ex></expan></choice></rdg>
@@ -5605,7 +5602,7 @@
                         <rdg n="273" xml:space="preserve" wit="#h"><hi rend="decoration color:red">D</hi>as ich ſterben muͦſz vnd ſol</rdg>
                         <rdg n="274" xml:space="preserve" wit="#I"><hi rend="decoration color:red">D</hi>as ich penamen ſterben ſol</rdg>
                         <rdg n="242" xml:space="preserve" wit="#Ko">Dat ich mit namen steruen sol.</rdg>
-                        <rdg n="275" xml:space="preserve" wit="#L"><hi rend="decoration color:red">D</hi>as ich ſterben mŭſz <choice><abbr>v<am>n̄</am></abbr><expan>v<ex>e</ex>n</expan></choice> ſoll</rdg>
+                        <rdg n="275" xml:space="preserve" wit="#L"><hi rend="decoration color:red">D</hi>as ich ſterben mŭſz <choice><abbr>v<am>n̄</am></abbr><expan>v<ex>n</ex>d</expan></choice> ſoll</rdg>
                         <rdg n="290" xml:space="preserve" wit="#N"><hi rend="decoration color:red">D</hi>as ich peÿ namen ſterben ſol</rdg>
                         <rdg n="278" xml:space="preserve" wit="#P">benamen das ich ſterben ſol</rdg>
                         <rdg n="272" xml:space="preserve" wit="#V"><hi rend="decoration color:red">D</hi>az ich penamen <choice><abbr>ſterb<am>n̄</am></abbr><expan>ſterb<ex>e</ex>n</expan></choice> ſol</rdg>
@@ -5685,7 +5682,7 @@
                     <l xml:id="s_296"> <app>
                         <rdg n="296" xml:space="preserve" wit="#A">Und ich lige erſtorben</rdg>
                         <rdg n="273f" xml:space="preserve" wit="#B" type="missing"/>
-                        <rdg n="302" xml:space="preserve" wit="#D"><choice><abbr>v<am>n̄</am></abbr><expan>v<ex>e</ex>n</expan></choice> lig an fräd <choice><abbr><am>vˁ</am>dorben</abbr><expan>v<ex>er</ex>dorben</expan></choice></rdg>
+                        <rdg n="302" xml:space="preserve" wit="#D"><choice><abbr>v<am>n̄</am></abbr><expan>v<ex>n</ex>d</expan></choice> lig an fräd <choice><abbr><am>vˁ</am>dorben</abbr><expan>v<ex>er</ex>dorben</expan></choice></rdg>
                         <rdg n="273f" xml:space="preserve" wit="#h" type="missing"/>
                         <rdg n="274f" xml:space="preserve" wit="#I" type="missing"/>
                         <rdg n="246b" xml:space="preserve" wit="#Ko" type="missing"/>
@@ -6152,7 +6149,7 @@
                         <rdg n="303" xml:space="preserve" wit="#h"><hi rend="decoration color:red">D</hi>er rain vnd der vil ſüſz got</rdg>
                         <rdg n="304" xml:space="preserve" wit="#I"><hi rend="decoration color:red">D</hi>er rain vnd der ſüzze got</rdg>
                         <rdg n="268" xml:space="preserve" wit="#Ko">De reine vnde die uil suze got.</rdg>
-                        <rdg n="304" xml:space="preserve" wit="#L"><hi rend="decoration color:red">D</hi>er rein <choice><abbr>v<am>n̄</am></abbr><expan>v<ex>e</ex>n</expan></choice> der vill ſueſz gott</rdg>
+                        <rdg n="304" xml:space="preserve" wit="#L"><hi rend="decoration color:red">D</hi>er rein <choice><abbr>v<am>n̄</am></abbr><expan>v<ex>n</ex>d</expan></choice> der vill ſueſz gott</rdg>
                         <rdg n="326" xml:space="preserve" wit="#N"><hi rend="decoration color:red">D</hi>er ſuͤſz vnd der rain got</rdg>
                         <rdg n="314" xml:space="preserve" wit="#P">Der reine vnd der ſvͤzze got</rdg>
                         <rdg n="302" xml:space="preserve" wit="#V"><hi rend="decoration color:red">D</hi>er rain <choice><abbr>v<am>n̄</am></abbr><expan>vn<ex>d</ex></expan></choice> der ſüzze got</rdg>
@@ -6252,7 +6249,7 @@
                         <rdg n="309" xml:space="preserve" wit="#I"><hi rend="initial color:red" n="3">I</hi><hi rend="decoration color:red">N</hi> der clag vnd jn der nöt</rdg>
                         <note anchored="true"/>
                         <rdg n="273" xml:space="preserve" wit="#Ko">Durch die ich hie muz ligen dot.</rdg>
-                        <rdg n="308" xml:space="preserve" wit="#L"><hi rend="decoration color:red">J</hi>n der klag <choice><abbr>v<am>n̄</am></abbr><expan>v<ex>e</ex>n</expan></choice> in der noͤt</rdg>
+                        <rdg n="308" xml:space="preserve" wit="#L"><hi rend="decoration color:red">J</hi>n der klag <choice><abbr>v<am>n̄</am></abbr><expan>v<ex>n</ex>d</expan></choice> in der noͤt</rdg>
                         <rdg n="333" xml:space="preserve" wit="#N"><hi rend="decoration color:red">N</hi>ach der ich muſz ligen tot</rdg>
                         <rdg n="321" xml:space="preserve" wit="#P">Durch die ich hie mvͦz ligen tot</rdg>
                         <rdg n="307" xml:space="preserve" wit="#V"><hi rend="initial color:red" n="2">I</hi><hi rend="decoration color:red">n</hi> der chlag <choice><abbr>v<am>n̄</am></abbr><expan>vn<ex>d</ex></expan></choice> in der not</rdg>

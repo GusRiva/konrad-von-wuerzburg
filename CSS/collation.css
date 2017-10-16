@@ -1,0 +1,16 @@
+*{
+    font-family: junicode;
+    font-size: 18px;
+}
+
+html, body{
+    height: 100%;
+}
+
+div:nth-child(2) {
+    text-align: right;
+}
+
+div:nth-child(3) {
+    text-align: left;
+}

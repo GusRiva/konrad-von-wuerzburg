@@ -1,0 +1,64 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Maeren Digital Edition - Project Info</title>
+        <meta charset="UTF-8"></meta>
+        <link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css"></link><script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script><script src="http://code.jquery.com/jquery-1.8.2.js"></script><script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script><script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.js"></script>
+        <!--Bootstrap-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></link>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+        
+        <!--        My templates-->
+        <link rel="stylesheet" type="text/css" href="CSS/info-pages.css" />
+    </head>
+    <body>
+        <nav class="navbar navbar-fixed-top">
+            <div class="col-md-3"><p class="pull-left navbar-text"><a href="index.html">HOME</a></p></div>
+            <p class="pull-right navbar-text"><a class="language-selector" id="en">English</a>&#160;&#160;&#160;<a class="language-selector" id="es">Español</a>&#160;&#160;&#160;<a class="language-selector" id="de">Deutsch</a></p>
+        </nav>
+        <div class="container-fluid" id="title-cont">
+            <div class="row" id="title"><h1>The Project</h1></div>
+        </div>
+        <div class="container-fluid" id="main">
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-2"  id="text-selector">
+                    <ul>
+                        <li>
+                            <h2>Editions</h2>
+                            <ul>
+                                <li><a href="edition.php?source=dwl"><h3>Der Welt Lohn</h3></a></li>
+                                <li><a href="edition.php?source=hvk"><h3>Heinrich von Kempten</h3></a></li>
+                                <li><a href="edition.php?source=herz"><h3>Herzmaere</h3></a></li>
+                            </ul>
+                        </li>
+                        <li><a href="author-text.html"><h2>The author and the texts</h2></a></li>
+                        <li><a href="project-info.html"><h2>About the project</h2></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-8" id="main-text">
+                    <p>This digital edition of Konrad von Würzburg's short stories is the result of my PhD Dissertation at the University of Buenos Aires. The work began in April 2014, when I was awarded a scholarship by the Argentinian national scientific agency (CONICET) for this pupose. The thesis is supervised by Prof. Dr. Victor Millet (Universidad de Santiago de Compostela) and Prof. Dr. Regula Rohland (Universidad de Buenos Aires).</p>    
+                        <p>The goal of the project is to create a new edition focused on the textual variation rather than on the reconstruction of the original archetype. The digital medium offers the best enviroment to achieve this goal. The source texts for the edition are encoded in XML, according to the TEI guidelines, and can be downloaded for further analyses or to be used in other applications with a scientific purpose.</p>
+                    <p>The edition's interphase was devoleped by myself to have an appropiate way of displaying the texts. The application is programmed to work on most modern browsers. It renders the information of the source XML/TEI files using a series of scripts in  JAVASCRIPT, PHP and XSL. This is still a Beta Version, if you encounter any problems, please report them to me at gustavo.riva[at]filo.uba.ar.</p>
+                    <p>The aim of the edition is to offer a way of approaching the variation within the textual tradition. The synoptic view allows to compare transcriptions, critical text, and critical apparatus. The critical text, closely following one manuscript, clearly displays the editor's intervention and references to the most important variations within the tradition (missing, added or alternative verses).</p> 
+                    <p>As of this date (June 2017) the documents are still being corrected and some materials are still in preparation (most notably, the critical texts of 'Heinrich von Kempten' and 'Herzmaere'). It is planned that by the end of 2017 all materials should be completed. </p>   
+                    <p>I hope this edition can be a valuable resource for students, researchers or curious readers.</p>
+                    <br/>
+                    <p>Gustavo Fernández Riva</p>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </div>
+        <footer>
+            <div class="container-fluid">
+                <div class="col-md-3"><p>Developed thanks to the support of <br/><a href="http://www.conicet.gov.ar/"><img src="http://www.conicet.gov.ar/wp-content/themes/conicet2015Responsive/images/header/logoC.png"></img></a></p></div>
+                <div class="col-md-2"></div>
+                <div class="col-md-2"><p><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/us/88x31.png" /></a><br/>All original materials in this page are licenced under a Creative Commons Attribution-ShareAlike 3.0 License</p></div>
+                <div class="col-md-2"></div>
+                <div class="col-md-3"></div>
+            </div>
+            
+        </footer>
+    </body>
+</html>

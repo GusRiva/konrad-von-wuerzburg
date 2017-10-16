@@ -1,0 +1,111 @@
+/*GLOBAL*/
+*{
+    font-family: Times;
+    font-size: 22px;
+    padding: 0px;
+    margin: 0px;
+}
+
+html{
+    padding: 0px;
+    margin: 0px;
+    background-color: #E0D0C1;
+}
+
+/*NAVBAR*/
+
+.navbar{
+    background-color: black;
+    margin: 0px;
+    padding-right: 25px;
+}
+#languages{
+    color: white;
+}
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/*TITLE*/
+#title-cont{
+    /*background-color: #800000;
+    background: radial-gradient(#4C0000, #660000, #730000, #800000, #8c1919, #993232, #A64C4C);*/
+    background-image: url("../IMAGES/konrad-title-img.png");
+    height: 75vh;
+    margin-top: 20px;
+    margin-bottom: 30px; 
+    border-bottom: solid 5px black;
+}
+#title{
+    margin-top: 40px;
+}
+
+h1{
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    text-shadow: black;
+     text-shadow: 1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000,
+    0px 1px 0 #000,
+    0px -1px 0 #000,
+    -1px 0px 0 #000,
+    1px 0px 0 #000,
+    2px 2px 0 #000,
+    -2px 2px 0 #000,
+    2px -2px 0 #000,
+    -2px -2px 0 #000,
+    0px 2px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 0px 0 #000,
+    1px 2px 0 #000,
+    -1px 2px 0 #000,
+    1px -2px 0 #000,
+    -1px -2px 0 #000,
+    2px 1px 0 #000,
+    -2px 1px 0 #000,
+    2px -1px 0 #000,
+    -2px -1px 0 #000;
+}
+
+/*TEXT SELECTOR*/
+#text-selector{
+    padding: 15px;
+    border-right: solid 2px #800000;
+}
+li > ul > li {
+    margin-left: 20px;
+}
+
+/*TEXT*/
+#main-text{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#main-text > h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+#main-text > p{
+    text-align: justify;
+    text-indent: 25px;
+}
+
+/*FOOTER*/
+footer{
+    background-color: #f2eded;
+    border-top: solid #800000;
+    padding-top: 15px;
+    
+}
+
+footer > div > div > * {
+    font-size: 14px !important;    
+    text-align: center;
+}
+
+

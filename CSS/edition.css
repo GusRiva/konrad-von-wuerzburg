@@ -1,0 +1,331 @@
+@font-face {
+  font-family: 'junicode';
+  src: url('junicode.woff') format('woff'), 
+       url('junicode.ttf')  format('truetype'); 
+}
+
+*{
+    font-family: junicode;
+    font-size: 18px;
+}
+
+html, body{
+    height: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+p{
+    font-size: 18px;
+}
+
+h2{
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+
+thead{
+    height: 60px;
+}
+
+.text-container{
+    width: 100%;
+}
+
+li > form{
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+extensive-edition-toggle, #group-scroll{
+    float: right;
+    margin-right: 5px;
+}
+
+/*Classes*/
+
+.affix {
+      width: 100%;
+  }
+  
+.navbar{
+    margin-bottom: 0px;
+}
+  
+  /*esto es la clase para las cosas que tienen que resaltarse y volver a apagarse*/
+.highlight {
+    background-color: #b5bedb;
+}
+
+.highlight-hover{
+    background-color: #B5D1DB;
+}
+
+.hover{
+    border-color: blue;
+}
+
+.dropdown-menu{
+    z-index: 10;
+}
+
+/*Cells in first row of the text tables*/
+td.line_number{
+    font-size: 14px;
+    display: inline-block;
+}
+
+td.verse{
+}
+/*Cells in third row of the text tables*/
+td.folioetc{
+    font-size: 14px;
+    display: inline-block;
+    padding: 0px;
+}
+
+span{
+    font-size: inherit;
+}
+
+
+#title{
+    background-color: #800000;
+}
+
+
+select.form-control {
+  -moz-appearance: none;
+   -webkit-appearance: none;
+   background-color: #222222;
+    color: white;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.text-selector{
+    width: 75%;
+}
+
+.visualisation-options{
+    width: 20%;
+}
+
+
+/*This should avoid navbar from being transparent*/
+.affix + .container-fluid {
+      padding-top: 70px;
+  }
+  
+/*  Dropdown option for visualising each text*/
+.visual-options{
+    background-color: #202020;
+    border: #800000;
+    margin: 5px;
+    height: 20px;
+}
+/*Dropdow and other stuff in the header*/
+.title-options{
+    background-color: #800000;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: black;
+     text-shadow: 1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000,
+    0px 1px 0 #000,
+    0px -1px 0 #000,
+    -1px 0px 0 #000,
+    1px 0px 0 #000,
+    2px 2px 0 #000,
+    -2px 2px 0 #000,
+    2px -2px 0 #000,
+    -2px -2px 0 #000,
+    0px 2px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 0px 0 #000,
+    1px 2px 0 #000,
+    -1px 2px 0 #000,
+    1px -2px 0 #000,
+    -1px -2px 0 #000,
+    2px 1px 0 #000,
+    -2px 1px 0 #000,
+    2px -1px 0 #000,
+    -2px -1px 0 #000;
+}
+
+
+#text-titles-nav{
+    height: 20px;
+    margin: 0px;
+    padding: 0px;
+    z-index: 5;
+}
+#text-titles-nav[class="initial"]{
+    top: 160px;
+}
+
+
+#languages{
+    font-size:16px;
+}
+#languages>a{
+    color: white;
+}
+
+
+.scrollable{
+    overflow-y: scroll;
+}
+
+/*Para el selector de textos*/
+.form-control-initial{
+    border-top: none;
+    border-right:none;
+    
+}
+
+
+/*Includes font-border effect*/
+h1{
+    color: white;
+    margin: 1px;
+    text-shadow: 1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000,
+    0px 1px 0 #000,
+    0px -1px 0 #000,
+    -1px 0px 0 #000,
+    1px 0px 0 #000,
+    2px 2px 0 #000,
+    -2px 2px 0 #000,
+    2px -2px 0 #000,
+    -2px -2px 0 #000,
+    0px 2px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 0px 0 #000,
+    1px 2px 0 #000,
+    -1px 2px 0 #000,
+    1px -2px 0 #000,
+    -1px -2px 0 #000,
+    2px 1px 0 #000,
+    -2px 1px 0 #000,
+    2px -1px 0 #000,
+    -2px -1px 0 #000;
+}
+
+h1[class='initial']{
+    font-size: 100px;
+    margin: 20px;
+}
+
+td{
+    padding: 5px;
+    height: 45px;
+}
+
+thead tr td{
+    text-align: justify;
+    font-weight: bold;
+}
+
+#row_introduction{
+    padding: 20px 100px 100px 100px;
+    margin: 30px;
+}
+
+/*Classes for rending the edited texts*/
+
+.decoration{
+    text-decoration: line-through;
+}
+
+.inner-span-decoration{
+    color: black;   
+}
+
+.red{
+    color: red;
+}
+
+.blue{
+    color: blue;
+}
+
+.initial{
+    font-size: larger;
+    font-weight: bold;    
+}
+
+.hidden-initial{
+    color: black !important;
+}
+
+.ex{
+    font-style: italic;
+}
+
+
+.del{
+    text-decoration: line-through;
+}
+
+
+.lema-ref{
+    font-weight: bold;
+}
+
+
+.btn-transposed{
+    color: green;
+    border-color: black;
+    border: 5px;
+}
+
+.btn-edit_note{
+     color: gray;
+    border-color: black;
+    border: 5px;
+}
+
+.btn-missing{
+    color: #4682B4;
+    border-color: black;
+    border: 5px;
+}
+
+.btn-extra{
+    color: #800000;
+    border-color: black;
+    border: 5px;
+}
+
+.btn-alternative{
+    font-size: 28px;
+    color: black;
+}
+
+.note-in-app{
+    margin: 5px;
+    text-align: justify;
+}
+
+.edition-text{
+    padding: 0px;
+}
+
+.italic{
+    font-style: italic;
+}

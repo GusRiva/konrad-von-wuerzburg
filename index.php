@@ -1,0 +1,30 @@
+<?php
+
+/*
+ * PHP XSL - Generate the index page
+ */
+ echo "<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+    <head>
+        <title>Konrad von WŸrzburg - Maeren Digital Edition</title>
+        <meta charset="UTF-8"></meta>
+        <link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css"></link><script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script><script src="http://code.jquery.com/jquery-1.8.2.js"></script><script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script><script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.js"></script>
+        <!--Bootstrap-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></link>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+        
+        <!--        My templates-->
+        <link rel="stylesheet" type="text/css" href="CSS/main.css" />
+    </head>
+    
+    <body>
+    <h1>Hallo World</h1>
+    </body>
+ </html>
+    "
+ 
+ 
+ 
+ 
+ ?>
