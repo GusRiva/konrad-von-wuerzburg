@@ -1,4 +1,4 @@
-$(document).ready(function () {
+﻿$(document).ready(function () {
     $('.tooltip').tooltip({
         //allows tooltip
         placement: "bottom",
@@ -316,6 +316,13 @@ $(document).ready(function () {
             //add the new scroll to the variable
             scrollController[index] = scrollFinal;
         });
+    });
+    
+    /*CLICKING ON LINE-NUMBER / APPARATUS CRITICUS NEW WINDOW*/
+    $('.text-container').on('click', 'td.line_number', function(){
+        var clicked_line_num = $(this).children("span.corresp_line").text().substr(1); 
+        console.log(clicked_line_num);
+        window.open('traviz_window.php?line='+clicked_line_num, '',  'height=300,width=1000, scrollbars=yes');
     });
     
     /*    PRESSING UP-DOWN KEY*/

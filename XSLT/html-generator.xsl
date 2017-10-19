@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+﻿<?xml version="1.0" ?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
     <xsl:output method="html" omit-xml-declaration="yes" encoding="UTF-8" indent="yes"/>
     <xsl:variable name="title">
@@ -21,7 +21,24 @@
     
     <xsl:template match="/tei:TEI">
         <html>
-            <head> <title><xsl:value-of select="$title"/></title> <meta charset="UTF-8"/> <link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css"/> <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"/> <script src="https://code.jquery.com/jquery-1.8.2.js"/> <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"/> <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.js"/> <xsl:comment>Bootstrap</xsl:comment> <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/> <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"/> <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"/> <meta name="viewport" content="width=device-width, initial-scale=1"/> <xsl:comment>My templates</xsl:comment> <link rel="stylesheet" type="text/css" href="CSS/dropdown-submenu-fix.css"/> <link rel="stylesheet" type="text/css" href="CSS/edition.css"/> <script src="JS/edition.js" type="text/javascript"/> </head>
+            <head> 
+                <title><xsl:value-of select="$title"/></title> 
+                <meta charset="UTF-8"/> 
+                <link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css"/> 
+                <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"/> 
+                <script src="https://code.jquery.com/jquery-1.8.2.js"/> 
+                <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"/> 
+                <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.js"/> 
+                <xsl:comment>Bootstrap</xsl:comment> 
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/> 
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"/> 
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"/> 
+                <meta name="viewport" content="width=device-width, initial-scale=1"/> 
+                <xsl:comment>My templates</xsl:comment> 
+                <link rel="stylesheet" type="text/css" href="CSS/dropdown-submenu-fix.css"/> 
+                <link rel="stylesheet" type="text/css" href="CSS/edition.css"/> 
+                <script src="JS/edition.js" type="text/javascript"/> 
+            </head>
             <body>
                 <nav class="navbar navbar-inverse navbar-fixed-top" id="title">
                     <div class="container-fluid">
@@ -280,6 +297,7 @@
                         </xsl:for-each>
                     </div>
                 </nav>
+                
                 <!--                Text Columns-->
                 <div class="container-fluid" id="text_container">
                     <div class="row" id="text-row">
