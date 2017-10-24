@@ -184,9 +184,6 @@
                     <div class="container-fluid" id="text-titles-nav-div">
                         <xsl:for-each select="(//node())[12 >= position()]">
                             <div class="col-md-3 text-title">
-                             <!--   <xsl:if test="position() &gt; 4">
-                                    <xsl:attribute name="class">col-md-3 text-title hidden</xsl:attribute>
-                                </xsl:if>-->
                                 <div class="pull-left text-selector">
                                     <select class="form-control pull-left">
                                         <option value="default" hidden="hidden"/>
@@ -301,42 +298,11 @@
                 <!--                Text Columns-->
                 <div class="container-fluid" id="text_container">
                     <div class="row" id="text-row">
-                        <div class="col-md-3 edition-text">
-                            <div class="text-container scrollable"/>
-                        </div>
-                        <div class="col-md-3 edition-text">
-                            <div class="text-container scrollable"/>
-                        </div>
-                        <div class="col-md-3 edition-text">
-                            <div class="text-container scrollable"/>
-                        </div>
-                        <div class="col-md-3 edition-text">
-                            <div class="text-container scrollable"/>
-                        </div>
-                        <div class="col-md-3 edition-text">
-                            <div class="text-container scrollable"/>
-                        </div>
-                        <div class="col-md-3 edition-text">
-                            <div class="text-container scrollable"/>
-                        </div>
-                        <div class="col-md-3 edition-text">
-                            <div class="text-container scrollable"/>
-                        </div>
-                        <div class="col-md-3 edition-text">
-                            <div class="text-container scrollable"/>
-                        </div>
-                        <div class="col-md-3 edition-text">
-                            <div class="text-container scrollable"/>
-                        </div>
-                        <div class="col-md-3 edition-text">
-                            <div class="text-container scrollable"/>
-                        </div>
-                        <div class="col-md-3 edition-text">
-                            <div class="text-container scrollable"/>
-                        </div>
-                        <div class="col-md-3 edition-text">
-                            <div class="text-container scrollable"/>
-                        </div>
+                        <xsl:for-each select="(//node())[12 >= position()]">
+                            <div class="col-md-3 edition-text">
+                                <div class="text-container scrollable"/>
+                            </div>
+                        </xsl:for-each>
                     </div>
                     <div class="row" id="row_introduction">
                         <div lang="en" class="lang">
