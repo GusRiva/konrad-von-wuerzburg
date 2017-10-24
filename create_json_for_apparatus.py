@@ -1,10 +1,11 @@
 from lxml import etree
 import re
 import codecs
+import json
 
 output = {}
 
-source = "/Applications/XAMPP/xamppfiles/htdocs/konrad/TEI/Herz_tokenized-reg2.xml"
+source = "/Applications/XAMPP/xamppfiles/htdocs/konrad/TEI/Herz_tokenized-reg.xml"
 with codecs.open(source, "r", 'utf-8') as f:
     full_tree = etree.parse(f)
 def tei(tag):
@@ -36,7 +37,18 @@ for line in full_tree.iter(tei('l')):
 
 
 output = [output]
-print(output)
+output = str(output)
+file = codecs.open("/Applications/XAMPP/xamppfiles/htdocs/konrad_clone/preproc_json.txt", "w", "utf-8")
+file.write(output)
+file.close()
 
-# test_dict = [{"1" : [{"edition": "Edition1","text":"Diz ist der welt mere"},{"edition":"Edition2","text":"Ditz ist welt maere"}], "age" : "32"}]
-# print(test_dict)
+
+with codecs.open("preproc_json.txt", encoding="utf-8") as file:
+    text = file.read()
+    text = text.replace("'",'"')
+    text = str(text)
+
+with codecs.open("apparatus.json", "w", encoding="utf-8") as new_file:
+    new_file.write("data = '" + text + "'")
+
+
