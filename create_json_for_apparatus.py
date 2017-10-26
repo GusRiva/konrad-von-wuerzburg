@@ -38,7 +38,7 @@ for line in full_tree.iter(tei('l')):
 
 output = [output]
 output = str(output)
-file = codecs.open("/Applications/XAMPP/xamppfiles/htdocs/konrad_clone/preproc_json.txt", "w", "utf-8")
+file = codecs.open("/Applications/XAMPP/xamppfiles/htdocs/konrad/preproc_json.txt", "w", "utf-8")
 file.write(output)
 file.close()
 
@@ -50,5 +50,4 @@ with codecs.open("preproc_json.txt", encoding="utf-8") as file:
 
 with codecs.open("apparatus.json", "w", encoding="utf-8") as new_file:
     new_file.write("data = '" + text + "'")
-
 

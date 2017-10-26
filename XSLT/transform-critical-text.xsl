@@ -1,9 +1,7 @@
-<?xml version="1.0" ?>
+﻿<?xml version="1.0" ?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0">
     
     <xsl:output method="xml" omit-xml-declaration="yes" encoding="UTF-8" indent="yes" />
-    
-    <xsl:param name="leiths"></xsl:param>
     
     <xsl:template match="@*|node()">
         <xsl:copy>
@@ -17,15 +15,8 @@
             <span class="line"><xsl:value-of select="./@n"/></span><span class="edit_line hidden"><xsl:value-of select="substring-after(./@xml:id, '_')"/></span><span class="corresp_line hidden">s<xsl:value-of select="substring-after(./@xml:id, '_')"/></span>
         </td>
         <td class="verse">  
-<!--            if the l is "absent" it means it should be displayed in italic-->
-            <xsl:choose> 
-                <xsl:when test="./@rend='absent'">
-                    <span class="wit-changed"><xsl:apply-templates select="tei:pc | tei:app | tei:rdg | tei:lem | text()"/></span>
-            </xsl:when>
-                <xsl:otherwise> 
-                    <xsl:apply-templates select="tei:pc | tei:app | tei:rdg | tei:lem | text()"/>
-                </xsl:otherwise>
-            </xsl:choose>
+<!--            if the l is "absent" it means it should be displayed in italic--> 
+                    <xsl:apply-templates select="tei:w | tei:space | tei:pc | tei:app | tei:rdg | tei:lem | text()"/>
         </td>
         <td class="folioetc">
             <xsl:apply-templates select="tei:note"></xsl:apply-templates>
@@ -80,6 +71,11 @@
     
     <xsl:template match="tei:head"></xsl:template>
     
+    <xsl:template match="tei:w"><xsl:apply-templates select="tei:reg"/></xsl:template>
+    <xsl:template match="tei:reg"><xsl:apply-templates select="node()"/></xsl:template>
+    
+    <xsl:template match="tei:space"><xsl:value-of select="' '"></xsl:value-of></xsl:template>
+    
     <xsl:template match="tei:pc">
         <span class="punctuation"><xsl:apply-templates select="@*|node()" /></span>
     </xsl:template>
@@ -97,6 +93,8 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
+    
+    
     
     
     

@@ -31,7 +31,7 @@
 		lineBreaks: false,
     font: 'junicode',
 		normalize: true,
-		editDistance: 0.3,
+		editDistance: 0,
 		startAndEnd: false
 	});
 	traviz.align(vers_to_collate);
