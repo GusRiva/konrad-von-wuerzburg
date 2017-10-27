@@ -16,16 +16,7 @@
     var groupScroll = false;
     var scrollController =[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]; // to move all scrolls at the same time, see scroll function
     var automaticScrolling = false; //to change when using the automatic click scrolling, to avoid conflict with user scroll events
-    var counter = 0;
-    /*Variables so that Titl-navbar shrinks */
-    var smallFontTitle = 28; //Font-size when small, in case I would like to change it
-    $("#maereTitle").css("font-size", smallFontTitle);
-    var titleHeightSmall = $('#title').height();
-    $("#maereTitle").css("font-size", 100);
-    var titleHeightBig = $('#title').height();
-    $("#text-titles-nav").css("top", titleHeightBig);
-    /*    END VARIABLES*/
-    
+    /*    END VARIABLES*/    
     
     /*FUNCTIONS*/
     
@@ -45,7 +36,6 @@
             $("optgroup:nth-of-type(1)").attr("label", "Critical Edition");
             $("optgroup:nth-of-type(2)").attr("label", "Transcriptions");
             $("optgroup:nth-of-type(3)").attr("label", "References");
-            $("#options-span").text("OPTIONS");
         }
         if (language == "de") {
             $("option[value ='default']").text("Textauswählen");
@@ -56,7 +46,6 @@
             $("optgroup:nth-of-type(1)").attr("label", "Kritische Edition");
             $("optgroup:nth-of-type(2)").attr("label", "Transkriptionen");
             $("optgroup:nth-of-type(3)").attr("label", "Referenzen");
-            $("#options-span").text("OPTIONEN");
         }
         if (language == "es") {
             $("option[value ='default']").text("Seleccionar Texto");
@@ -67,7 +56,6 @@
             $("optgroup:nth-of-type(1)").attr("label", "Edición Crítica");
             $("optgroup:nth-of-type(2)").attr("label", "Transcripciones");
             $("optgroup:nth-of-type(3)").attr("label", "Referencias");
-           $("#options-span").text("OPCIONES");
         }
     };
     
@@ -96,6 +84,15 @@
         });
     };
     /*   END FUNCTIONS */
+    
+    /*    TITLE SIZES*/
+    var titleFontSize = 28; //Font-size when small, in case I would like to change it
+    $("#maereTitle").css("font-size", titleFontSize);
+    var titleHeight = $('#title').height();
+    $("#text-titles-nav").css("top", titleHeight);
+    var textTitlesNavHeight = $("#text-titles-nav").height();
+    $("body").css("paddingTop", titleHeight + textTitlesNavHeight + 5)
+
     
     /*    disable extensive edition*/
     $("#extensive-edition-toggle").prop('checked', false);
@@ -154,34 +151,6 @@
     
     /*    LOAD TEXTS*/
     $(".form-control").change(function () {
-        //Reduces title if it is the first time a text is loaded
-        counter = counter + 1;
-        if (counter == 1) {
-            $("#maereTitle").animate({
-                fontSize: smallFontTitle
-            },
-            400);
-            $("#text-titles-nav").animate({
-                top: titleHeightSmall
-            },
-            400);
-            setBodyTop(titleHeightSmall);
-            //Set the height
-            var viewportHeight = $(window).height();
-            var textTitlesNavHeight = $("#text-titles-nav").height();
-            var textContainerHeight = viewportHeight - titleHeightSmall - textTitlesNavHeight;
-            $(".text-container").height(textContainerHeight);
-            $("#row_introduction").addClass("hidden");
-            //hide all non used columns
-            cols = $("input[name = number-cols]:checked").attr("value");
-            $("div.edition-text").each(function () {
-                if ($(this).index() + 1 > cols) {
-                    $(this).addClass("hidden")
-                }
-            });
-        }
-        
-        //LOAD
         var columnToChange = ($(this).parents(".text-title")).index();
         // index of the column starting at 0
         var columnObject = $(".text-container").filter(function () {
@@ -320,7 +289,7 @@
     
     /*CLICKING ON LINE-NUMBER / APPARATUS CRITICUS NEW WINDOW*/
     $('.text-container').on('click', 'td.line_number', function(){
-        var clicked_line_num = $(this).children("span.corresp_line").text().substr(1); 
+        var clicked_line_num = $(this).children("span.corresp_line").text().substr(2); 
         console.log(clicked_line_num);
         window.open('traviz_window.php?line='+clicked_line_num, '',  'height=300,width=1000, scrollbars=yes');
     });
@@ -349,14 +318,14 @@
     });
     
     /*    HOVER ON VERSE*/
-    $(".text-container").on("mouseenter", "td.verse", function () {
+    $(".text-container").on("mouseover", "td.verse", function () {
         verseNum = $(this).prev("td.line_number").children("span.corresp_line").text();
         correspVerses = $("tr").filter(function () {
             return $(this).children("td.line_number").children("span.corresp_line").text() == verseNum
         });
         correspVerses.addClass("highlight-hover");
     });
-    $(".text-container").on("mouseout", "td.verse", function () {
+    $(".text-container").on("mouseleave", "td.verse", function () {
         verseNum = $(this).prev("td.line_number").children("span.corresp_line").text();
         correspVerses = $("tr").filter(function () {
             return $(this).children("td.line_number").children("span.corresp_line").text() == verseNum
@@ -396,7 +365,7 @@
     
     /*    LANGUAGE SELECTOR*/
     
-    $("a.language-selector").click(function () {
+    $("span.language-selector").click(function () {
         language = $(this).attr("id");
         languageCheck(language);
         languageSelector(language);
@@ -409,14 +378,17 @@
         var selectedInput = $(this).attr("name").substring(7);
         if (selectedInput == "numerierung"){
              if ($(this).val() == "manuscript") {
-            $("span.line").removeClass("hidden");
+            $("span.ms_line").removeClass("hidden");
+            $("span.edit_line").addClass("hidden");
             $("span.corresp_line").addClass("hidden");
         }
         if ($(this).val() == "edition") {
-            $("span.line").removeClass("hidden");
+            $("span.ms_line").addClass("hidden");
+            $("span.edit_line").removeClass("hidden");
             $("span.corresp_line").addClass("hidden");
         } else if ($(this).val() == "alt_ed") {
-            $("span.line").addClass("hidden");
+            $("span.ms_line").addClass("hidden");
+            $("span.edit_line").addClass("hidden");
             $("span.corresp_line").removeClass("hidden");
         }
         }
@@ -505,28 +477,20 @@
             return $(this).parent().index() == column
         });
         if ($(this).val() == "manuscript") {
-            actual_column.find("span.line").removeClass("hidden");
+            actual_column.find("span.ms_line").removeClass("hidden");
+            actual_column.find("span.edit_line").addClass("hidden");
             actual_column.find("span.corresp_line").addClass("hidden");
         }
         if ($(this).val() == "edition") {
-            actual_column.find("span.line").removeClass("hidden");
+            actual_column.find("span.ms_line").addClass("hidden");
+            actual_column.find("span.edit_line").removeClass("hidden");
             actual_column.find("span.corresp_line").addClass("hidden");
         } else if ($(this).val() == "alt_ed") {
-            actual_column.find("span.line").addClass("hidden");
+            actual_column.find("span.ms_line").addClass("hidden");
+            actual_column.find("span.edit_line").addClass("hidden");
             actual_column.find("span.corresp_line").removeClass("hidden");
         }
     });
     
     
-    
-    /*    Body Padding so that the navbar don't go over the texts */
-    function setBodyTop(titleHeight) {
-        var textTitlesNavHeight = $("#text-titles-nav").height();
-        var bodyPadding = titleHeight + textTitlesNavHeight + 5;
-        $('body').animate({
-            paddingTop: bodyPadding
-        },
-        20);
-    };
-    setBodyTop(titleHeightBig);
 });
