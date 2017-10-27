@@ -37,6 +37,7 @@
                 <xsl:comment>My templates</xsl:comment> 
                 <link rel="stylesheet" type="text/css" href="CSS/dropdown-submenu-fix.css"/> 
                 <link rel="stylesheet" type="text/css" href="CSS/edition.css"/> 
+                <script src="JS/functions.js" type="text/javascript"/> 
                 <script src="JS/edition.js" type="text/javascript"/> 
             </head>
             <body>
@@ -46,7 +47,7 @@
                             <div class="col-md-2">
                                 <div class="dropdown">
                                     <button class="btn btn-primary dropdown-toggle title-options" type="button" data-toggle="dropdown">
-                                        <span id="options-span"></span>
+                                        <span id="options-span" class="glyphicon glyphicon-th-list"></span>
                                     </button>
                                     <ul class="dropdown-menu" role="menu">
                                         <li class="dropdown-submenu">
@@ -155,27 +156,52 @@
                                                 </div>
                                             </form>
                                         </li>
+                                        <li><span lang="en" class="lang hidden">
+                                            <a href="index.html">Home</a>
+                                        </span>
+                                            <span lang="de" class="lang hidden">
+                                                <a href="../index.html">Startseite</a>
+                                            </span>
+                                            <span lang="es" class="lang hidden">
+                                                <a href="index.html">Inicio</a>
+                                            </span></li>
+                                        <li class="dropdown-submenu">
+                                            <a class="test" tabindex="-1">
+                                                <span class="lang" lang="en">Language</span>
+                                                <span class="lang" lang="de">Sprache</span>
+                                                <span class="lang" lang="es">Idioma</span>
+                                            </a>
+                                            <form class="dropdown-menu">
+                                                <div class="radio">
+                                                    <label>
+                                                        <input type="radio" name="language-selector" value="en"/>
+                                                        <span class="language-selector" id="en">English</span>
+                                                    </label>
+                                                </div>
+                                                <div class="radio">
+                                                    <label>
+                                                        <input type="radio" name="language-selector" value="es"/>
+                                                        <span class="language-selector" id="en">Español</span>
+                                                    </label>
+                                                </div>
+                                                <div class="radio">
+                                                    <label>
+                                                        <input type="radio" name="language-selector" value="de"/>
+                                                        <span class="language-selector" id="en">Deutsch</span>
+                                                    </label>
+                                                </div>
+                                            </form>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-md-7">
+                            <div class="col-md-6">
                                 <h1 id="maereTitle">
                                     <xsl:value-of select="$title"/>
                                 </h1>
                             </div>
-                            <div class="col-md-3">
-                                <button type="button" class="btn button-default title-options pull-left">
-                                    <span lang="en" class="lang hidden">
-                                        <a href="index.html">Home</a>
-                                    </span>
-                                    <span lang="de" class="lang hidden">
-                                        <a href="../index.html">Startseite</a>
-                                    </span>
-                                    <span lang="es" class="lang hidden">
-                                        <a href="index.html">Inicio</a>
-                                    </span>
-                                </button>
-                                <p class="pull-right" id="languages"><a class="language-selector" id="en">English</a>&#160;&#160;<a class="language-selector" id="es">Español</a>&#160;&#160;<a class="language-selector" id="de">Deutsch</a></p>
+                            <div class="col-md-4">
+                                
                             </div>
                         </div>
                     </div>

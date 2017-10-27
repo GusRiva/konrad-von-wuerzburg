@@ -1,0 +1,302 @@
+﻿<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+                <fileDesc>
+                        <titleStmt>
+                                <title>Herzmaere - Critical Text</title>
+                                <author>Konrad von Würzburg</author>
+                                <editor>Gustavo Fernández Riva</editor>
+                                <sponsor>CONICET</sponsor>
+                        </titleStmt>
+                        <publicationStmt>
+                                <p>Edited by Gustavo Fernández Riva as part of the PhD in Medieval Studies at the University of Buenos Aires
+                                        (Argentina) from 2014 to 2017</p>
+                        </publicationStmt>
+                        <sourceDesc>
+                                <listWit>
+                                        <witness xml:id="A"> <msDesc>
+                                                <msIdentifier>
+                                                        <settlement>Strassburg</settlement>
+                                                        <repository>Stadtbibliothek</repository>
+                                                        <idno>Cod. A 94</idno>
+                                                        <msName>A</msName>
+                                                </msIdentifier>
+                                                </msDesc> </witness>
+                                        <witness xml:id="B"> <msDesc>
+                                                <msIdentifier>
+                                                        <settlement>Berlin</settlement>
+                                                        <repository>Staatsbibliothek</repository>
+                                                        <idno>mgf 488</idno>
+                                                        <msName>B</msName>
+                                                </msIdentifier>
+                                                </msDesc> </witness>
+                                        <witness xml:id="D"> <msDesc>
+                                                <msIdentifier>
+                                                        <settlement>Karlsruhe</settlement>
+                                                        <repository>Landesbibliothek</repository>
+                                                        <idno>Cod Donauschingen 104</idno>
+                                                        <msName>D</msName>
+                                                </msIdentifier>
+                                                </msDesc> </witness>
+                                        <witness xml:id="h"> <msDesc>
+                                                <msIdentifier>
+                                                        <settlement>Prague</settlement>
+                                                        <repository>Nationalmuseum</repository>
+                                                        <idno>Cod. X A 12</idno>
+                                                        <msName>h</msName>
+                                                </msIdentifier>
+                                                </msDesc> </witness>
+                                        <witness xml:id="I"> <msDesc>
+                                                <msIdentifier>
+                                                        <settlement>Innsbruck</settlement>
+                                                        <repository>Landesmuseum Ferdinandeum</repository>
+                                                        <idno>Cod FB 32001</idno>
+                                                        <msName>I</msName>
+                                                </msIdentifier>
+                                                </msDesc> </witness>
+                                        <witness xml:id="Ko"> <msDesc>
+                                                <msIdentifier>
+                                                        <settlement>Schloss Schönstein (bei Wissen/Sieg)</settlement>
+                                                        <repository>Fürstl. Hatzfeld-Wildenburgsches Archiv</repository>
+                                                        <idno>Nr. 7693.8866</idno>
+                                                        <msName>Ko</msName>
+                                                </msIdentifier>
+                                                </msDesc> </witness>
+                                        <witness xml:id="L"> <msDesc>
+                                                <msIdentifier>
+                                                        <settlement>Leipzig</settlement>
+                                                        <repository>Universitätsbibliothek</repository>
+                                                        <idno>Ms Apel 8</idno>
+                                                        <msName>L</msName>
+                                                </msIdentifier>
+                                                </msDesc> </witness>
+                                        <witness xml:id="N"> <msDesc>
+                                                <msIdentifier>
+                                                        <settlement>München</settlement>
+                                                        <repository>Staatsbibliothek</repository>
+                                                        <idno>cgm 714</idno>
+                                                        <msName>N</msName>
+                                                </msIdentifier>
+                                                </msDesc> </witness>
+                                        <witness xml:id="n"> <msDesc>
+                                                <msIdentifier>
+                                                        <settlement>Nürnberg</settlement>
+                                                        <repository>Germanisches Nationalmuseum</repository>
+                                                        <idno>Hs. 42575</idno>
+                                                        <msName>n</msName>
+                                                </msIdentifier>
+                                                </msDesc> </witness>
+                                        <witness xml:id="P"> <msDesc>
+                                                <msIdentifier>
+                                                        <settlement>Heidelberg</settlement>
+                                                        <repository> Universitätsbibliothek</repository>
+                                                        <idno>Cod. Palatino germanico 341</idno>
+                                                        <msName>P</msName>
+                                                </msIdentifier>
+                                                </msDesc> </witness>
+                                        <witness xml:id="V"> <msDesc>
+                                                <msIdentifier>
+                                                        <settlement>Wien</settlement>
+                                                        <repository>Österreiche Nationalbibliothek</repository>
+                                                        <idno>Cod 2885</idno>
+                                                        <msName>V</msName>
+                                                </msIdentifier>
+                                                </msDesc> </witness>
+                                        <witness xml:id="w"> <msDesc>
+                                                <msIdentifier>
+                                                        <settlement>Wien</settlement>
+                                                        <repository>Österreiche Nationalbibliothek</repository>
+                                                        <idno>Cod. Serva nova 2593</idno>
+                                                        <msName>w</msName>
+                                                </msIdentifier>
+                                                </msDesc> </witness>
+                                </listWit>
+                        </sourceDesc>
+                </fileDesc>
+        </teiHeader>
+        <text>
+          <body>
+                  <div>
+                    <head> <w>Herzmaere</w> </head>
+                    <l xml:space="preserve" xml:id="s_1">
+                      <w><orig>Ich</orig><reg>Ich</reg></w><space n="1"/>
+                      <w><orig>preiſe</orig><reg>prîse</reg></w><space n="1"/>
+                      <w><orig>in</orig><reg>in</reg></w><space n="1"/>
+                      <w><orig>meins</orig><reg>mînes</reg></w><space n="1"/>
+                      <w><orig><choice>
+                      <abbr><am>h͛</am>ertz<am>n̄</am></abbr>
+                      <expan>h<ex>er</ex>tz<ex>e</ex>n</expan>
+                    </choice></orig><reg>herzen</reg></w><space n="1"/>
+                      <w><orig>ſinne</orig><reg>sin</reg></w><pc>,</pc></l>
+                    <l xml:space="preserve" xml:id="s_2">
+                      <w><orig>daz</orig><reg>daz</reg></w><space n="1"/>
+                      <w><orig><choice>
+                      <abbr>lawterleich<am>n̄</am></abbr>
+                      <expan>lawterlich<ex>e</ex>n</expan>
+                </choice></orig><reg>lûterliche</reg></w><space n="1"/>
+                      <w><orig>minne</orig><reg>minne</reg></w><space n="1"/></l>
+                    <l xml:space="preserve" xml:id="s_3">
+                      <w><orig><hi>i</hi>n</orig><reg>in</reg></w><space n="1"/>
+                      <w><orig>der</orig><reg>der</reg></w><space n="1"/>
+                      <w><orig>werld</orig><reg>werlt</reg></w><space n="1"/>
+                      <w><orig>ist</orig><reg>ist</reg></w><space n="1"/>
+                      <w><orig>wilde</orig><reg>wilde</reg></w><pc>.</pc></l>
+                    <l xml:space="preserve" xml:id="s_4">
+                      <w><orig><hi>H</hi>ie an</orig><reg>Hieran</reg></w><space n="1"/>
+                      <w><orig>so</orig><reg>so</reg></w><space n="1"/>
+                      <w><orig><choice>
+                      <abbr>manig<am>ē</am></abbr>
+                      <expan>manige<ex>m</ex></expan>
+                    </choice></orig><reg>manigem</reg></w><space n="1"/>
+                      <w><orig>pilde</orig><reg>bilde</reg></w><pc>,</pc></l>
+                    <l xml:space="preserve" xml:id="s_5"><w><orig><hi>r</hi>itter</orig><reg>ritter</reg></w><space n="1"/>
+                <w><orig>vnde</orig><reg>und</reg></w><space n="1"/>
+                <w><orig><choice>
+                      <abbr>fraw<am>n̄</am></abbr>
+                      <expan>fraw<ex>e</ex>n</expan>
+                </choice></orig><reg>vrouwen</reg></w><pc>,</pc></l>
+                    <l xml:space="preserve" xml:id="s_6"><w><orig>Pei</orig><reg>bî</reg></w><space n="1"/>
+                <w><orig>diſem</orig><reg>disem</reg></w><space n="1"/>
+                <w><orig>mere</orig><reg>maere</reg></w><space n="1"/>
+                <w><orig><choice>
+                      <abbr>ſchaw<am>n̄</am></abbr>
+                      <expan>ſchaw<ex>e</ex>n</expan>
+                </choice></orig><reg>schouwen</reg></w><space n="1"/></l>
+                    <l xml:space="preserve" xml:id="s_7"><w><orig>daz</orig><reg>daz</reg></w><space n="1"/>
+                <w><orig>uns</orig><reg>uns</reg></w><space n="1"/>
+                <w><orig><choice>
+                      <abbr>v<am>ō</am></abbr>
+                      <expan>vo<ex>n</ex></expan>
+                    </choice></orig><reg>von</reg></w><space n="1"/>
+                <w><orig><choice>
+                      <abbr>gant<am>z͛</am></abbr>
+                      <expan>gantz<ex>er</ex></expan>
+                    </choice></orig><reg>ganzer</reg></w><space n="1"/>
+                <w><orig><choice>
+                      <abbr>tug<am>n̄</am>t</abbr>
+                      <expan>tug<ex>e</ex>nt</expan>
+                    </choice></orig><reg>tugent</reg></w><space n="1"/>
+                <w><orig>sait</orig><reg>sait</reg></w><pc>.</pc></l>
+                    <l xml:space="preserve" xml:id="s_8"><w><orig><hi>D</hi>es</orig><reg>Des</reg></w><space n="1"/>
+                <w><orig><choice>
+                      <abbr><am>pͥ</am>nget</abbr>
+                      <expan>p<ex>ri</ex>nget</expan>
+                    </choice></orig><reg>bringet</reg></w><space n="1"/>
+                <w><orig>uns</orig><reg>uns</reg></w><space n="1"/>
+                <w><orig>di</orig><reg>die</reg></w><space n="1"/>
+                <w><orig>weiſhait</orig><reg>wîsheit</reg></w><space n="1"/></l>
+                    <l xml:space="preserve" xml:id="s_9"><w><orig><hi>v</hi>on</orig><reg>von</reg></w><space n="1"/>
+                <w><orig>Strazpurg</orig><reg>Strasburg</reg></w><space n="1"/>
+                <w><orig><choice>
+                      <abbr>mais<am>tˁ</am></abbr>
+                      <expan>maist<ex>er</ex></expan>
+                    </choice></orig><reg>meister</reg></w><space n="1"/>
+                <w><orig>götfrit</orig><reg>Gottfried</reg></w><pc>:</pc></l>
+                    <l xml:space="preserve" xml:id="s_9a"></l>
+                    <l xml:space="preserve" xml:id="s_9b"></l>
+                    <l xml:space="preserve" xml:id="s_10"><w><orig><hi>W</hi>er</orig><reg>wer</reg></w><space n="1"/>
+                <w><orig>in</orig><reg>in</reg></w><space n="1"/>
+                <w><orig>gewert</orig><reg>gewaert</reg></w><space n="1"/>
+                <w><orig>in</orig><reg>in</reg></w><space n="1"/>
+                <w><orig><choice>
+                      <abbr>mein<am>ē</am></abbr>
+                      <expan>meine<ex>n</ex></expan>
+                    </choice></orig><reg>mînen</reg></w><space n="1"/>
+                <w><orig>trit</orig><reg>trit</reg></w><space n="1"/></l>
+                    <l xml:space="preserve" xml:id="s_11"><w><orig><choice>
+                      <abbr><hi rend="decoration color:red">U</hi><am>n̄</am></abbr>
+                      <expan><hi rend="decoration color:red">u</hi>n<ex>d</ex></expan>
+                    </choice></orig><reg>und</reg></w><space n="1"/>
+                <w><orig>weiſleich</orig><reg>weislich</reg></w><space n="1"/>
+                <w><orig>wil</orig><reg>wil</reg></w><space n="1"/>
+                <w><orig><choice>
+                      <abbr>ſetz<am>n̄</am></abbr>
+                      <expan>ſetz<ex>e</ex>n</expan>
+                    </choice></orig><reg>setzen</reg></w><space n="1"/>
+                <w><orig>ſein</orig><reg>sîn</reg></w><space n="1"/>
+                <w><orig>fuz</orig><reg>vuoz</reg></w><space n="1"/></l>
+                    <l xml:space="preserve" xml:id="s_12"><w><orig><choice>
+                      <abbr>Wizz<am>n̄</am>t</abbr>
+                      <expan>Wizzt<ex>e</ex>n</expan>
+              </choice></orig><reg>wissent</reg></w><space n="1"/>
+                <w><orig>daz</orig><reg>daz</reg></w><space n="1"/>
+                <w><orig>er</orig><reg>er</reg></w><space n="1"/>
+                <w><orig><choice>
+                      <abbr>hör<am>n̄</am></abbr>
+                      <expan>hör<ex>e</ex>n</expan>
+                    </choice></orig><reg>hoeren</reg></w><space n="1"/>
+                <w><orig>muz</orig><reg>muoz</reg></w><space n="1"/></l>
+                    <l xml:space="preserve" xml:id="s_13"><w><orig><choice>
+                      <abbr>sag<am>n̄</am></abbr>
+                      <expan>sag<ex>e</ex>n</expan>
+                    </choice></orig><reg>sagen</reg></w><space n="1"/>
+                <w><orig>vnd</orig><reg>und</reg></w><space n="1"/>
+                <w><orig><choice>
+                      <abbr>ſing<am>n̄</am></abbr>
+                      <expan>ſing<ex>e</ex>n</expan>
+                    </choice></orig><reg>singen</reg></w><space n="1"/></l>
+                    <l xml:space="preserve" xml:id="s_14"><w><orig><choice>
+                      <abbr>V<am>ō</am></abbr>
+                      <expan>Vo<ex>n</ex></expan>
+                    </choice></orig><reg>von</reg></w><space n="1"/>
+                <w><orig><choice>
+                      <abbr>minnichleich<am>n̄</am></abbr>
+                      <expan>minnichleich<ex>e</ex>n</expan>
+                    </choice></orig><reg>minneclichen</reg></w><space n="1"/>
+                <w><orig><choice>
+                      <abbr>ding<am>n̄</am></abbr>
+                      <expan>ding<ex>e</ex>n</expan>
+                    </choice></orig><reg>dingen</reg></w><pc>.</pc></l>
+                    <l xml:space="preserve" xml:id="s_15"><w><orig><hi>W</hi>em</orig><reg>wem</reg></w><space n="1"/>
+                <w><orig>dw</orig><reg>diu</reg></w><space n="1"/>
+                <w><orig>ſeld</orig><reg>saelde</reg></w><space n="1"/>
+                <w><orig>möcht</orig><reg>möhte</reg></w><space n="1"/>
+                <w><orig><choice>
+                      <abbr>geſcheh<am>n̄</am></abbr>
+                      <expan>geſcheh<ex>e</ex>n</expan>
+                    </choice></orig><reg>geschehen</reg></w><space n="1"/></l>
+                    <l xml:space="preserve" xml:id="s_16"><rdg xmlns="http://www.tei-c.org/ns/1.0" n="16" xml:space="preserve" wit="#V"><w><orig><hi>D</hi>az</orig><reg>daz</reg></w><space n="1"/>
+                <w><orig>ez</orig><reg>ez</reg></w><space n="1"/>
+                <w><orig>ſich</orig><reg>sich</reg></w><space n="1"/>
+                <w><orig>möht</orig><reg>möhte</reg></w><space n="1"/>
+                <w><orig><choice>
+                      <abbr>vn<am>dˁ</am></abbr>
+                  <expan>vnd<ex>er</ex></expan> <choice>
+                    <abbr>ſeh<am>n̄</am></abbr>
+                    <expan>ſeh<ex>e</ex>n</expan>
+                  </choice>
+                    </choice></orig><reg>undersehen</reg></w><space n="1"/></rdg></l>
+                    <l xml:space="preserve" xml:id="s_17"><rdg xmlns="http://www.tei-c.org/ns/1.0" n="17" xml:space="preserve" wit="#V"><w><orig><hi>M</hi>it</orig><reg>mit</reg></w><space n="1"/>
+                <w><orig><choice>
+                      <abbr>minikleich<am>n̄</am></abbr>
+                      <expan>minikleich<ex>e</ex>n</expan>
+                    </choice></orig><reg>minneclichen</reg></w><space n="1"/>
+                <w><orig><choice>
+                      <abbr>aug<am>n̄</am></abbr>
+                      <expan>aug<ex>e</ex>n</expan>
+                    </choice></orig><reg>ougen</reg></w><space n="1"/></rdg></l>
+                    <l xml:space="preserve" xml:id="s_18"><rdg xmlns="http://www.tei-c.org/ns/1.0" n="18" xml:space="preserve" wit="#V"><w><orig><hi>D</hi>w</orig><reg>diu</reg></w><space n="1"/>
+                <w><orig>red</orig><reg>rede</reg></w><space n="1"/>
+                <w><orig>iſt</orig><reg>ist</reg></w><space n="1"/>
+                <w><orig>ane</orig><reg>âne</reg></w><space n="1"/>
+                <w><orig><choice>
+                      <abbr>lawg<am>n̄</am></abbr>
+                      <expan>lawg<ex>e</ex>n</expan>
+                    </choice></orig><reg>lougen</reg></w><space n="1"/></rdg></l>
+                    <l xml:space="preserve" xml:id="s_19"><rdg xmlns="http://www.tei-c.org/ns/1.0" n="19" xml:space="preserve" wit="#V"><w><orig><hi>D</hi>er</orig><reg>der</reg></w><space n="1"/>
+                <w><orig>minnet</orig><reg>minnet</reg></w><space n="1"/>
+                <w><orig>etwaz</orig><reg>etwaz</reg></w><space n="1"/>
+                <w><orig><choice>
+                      <abbr>deſ<am>t͛</am></abbr>
+                      <expan>deſt<ex>er</ex></expan>
+                    </choice></orig><reg>deste</reg></w><space n="1"/>
+                <w><orig>paz</orig><reg>baz</reg></w><space n="1"/></rdg></l>
+                    <l xml:space="preserve" xml:id="s_20"><rdg xmlns="http://www.tei-c.org/ns/1.0" n="20" xml:space="preserve" wit="#V"><w><orig><hi>S</hi>wer</orig><reg>swer</reg></w><space n="1"/>
+                <w><orig>von</orig><reg>von</reg></w><space n="1"/>
+                <w><orig>minne</orig><reg>minne</reg></w><space n="1"/>
+                <w><orig>etwaz</orig><reg>etwaz</reg></w><space n="1"/></rdg></l>
+                  </div>
+                </body>
+        </text>
+</TEI>

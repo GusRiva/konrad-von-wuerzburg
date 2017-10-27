@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 /*
  * PHP XSL - How to transform XML to HTML using PHP
@@ -17,7 +17,7 @@ $leithsDict = array(
 $leiths = $leithsDict[$text];
 
 //$kind decides which XML file to load
-if  ($manuscript == '#krit' or $manuscript == '#app' or $manuscript == '#wit'){
+if  ($manuscript == '#krit' or $manuscript == '#wit'){
     $kind = 'Kritischer_Text';
     }
     else{
@@ -33,7 +33,11 @@ if ($kind == "Synoptische_Transkription"){
     $xsl = new DOMDocument;
     $xsl->load('../XSLT/isolate_witness.xsl');
     $xsl1 = new DOMDocument;
-    $xsl1->load('../XSLT/transform_isolated_witness.xsl');
+    $xsl1->load('../XSLT/order_witness.xsl');
+    $xsl2 = new DOMDocument;
+    $xsl2->load('../XSLT/strip-space.xsl');
+    $xsl3 = new DOMDocument;
+    $xsl3->load('../XSLT/transform_isolated_witness.xsl');
 
     // Configure the transformer
     $proc = new XSLTProcessor;
@@ -45,8 +49,17 @@ if ($kind == "Synoptische_Transkription"){
 
     $proc1 = new XSLTProcessor;
     $proc1->importStyleSheet($xsl1);
+    $ordered = $proc1->transformToDoc($isolated);
 
-    echo $proc1->transformToXML($isolated);    
+    $proc2 = new XSLTProcessor;
+    $proc2->importStyleSheet($xsl2);
+
+    $isolated_striped = $proc2->transformToDoc($ordered);
+
+    $proc3 = new XSLTProcessor;
+    $proc3->importStyleSheet($xsl3);
+
+    echo $proc3->transformToXML($isolated_striped);    
 }
 elseif ($manuscript == '#krit'){
     $xsl = new DOMDocument;
@@ -56,14 +69,7 @@ elseif ($manuscript == '#krit'){
     $proc->setParameter('','leiths',$leiths); //this is the Leithandschrift
     echo $proc->transformToXML($xml); 
 }
-elseif($manuscript == '#app'){
-    $xsl = new DOMDocument;
-    $xsl->load('../XSLT/create-apparatus.xsl');
-    $proc = new XSLTProcessor;
-    $proc->registerPHPFunctions();
-    $proc->importStyleSheet($xsl);
-    echo $proc->transformToXML($xml); 
-}
+
 elseif($manuscript == '#wit'){
     $xsl = new DOMDocument;
     $xsl->load('../XSLT/list_wit.xsl');

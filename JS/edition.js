@@ -88,6 +88,9 @@
     $("#text-titles-nav").css("top", titleHeight);
     var textTitlesNavHeight = $("#text-titles-nav").height();
     $("body").css("paddingTop", titleHeight + textTitlesNavHeight + 5)
+    var viewportHeight = $(window).height();
+    var textContainerHeight = viewportHeight - titleHeight - textTitlesNavHeight;
+    $(".text-container").height(textContainerHeight);
 
     
     /*    disable extensive edition*/
@@ -147,14 +150,9 @@
     
     /*    LOAD TEXTS*/
     $(".form-control").change(function () {
-/*    needed for proper scrolling*/
         counter = counter + 1;
         if (counter == 1) {
-        var viewportHeight = $(window).height();
-        var textTitlesNavHeight = $("#text-titles-nav").height();
-        var textContainerHeight = viewportHeight - titleHeight - textTitlesNavHeight;
-        $(".text-container").height(textContainerHeight);
-        $("#row_introduction").addClass("hidden");
+            $("#row_introduction").addClass("hidden");
         };
         
         var columnToChange = ($(this).parents(".text-title")).index();
@@ -295,8 +293,7 @@
     
     /*CLICKING ON LINE-NUMBER / APPARATUS CRITICUS NEW WINDOW*/
     $('.text-container').on('click', 'td.line_number', function(){
-        var clicked_line_num = $(this).children("span.corresp_line").text().substr(2); 
-        console.log(clicked_line_num);
+        var clicked_line_num = $(this).children("span.edit_line").text(); 
         window.open('traviz_window.php?line='+clicked_line_num, '',  'height=300,width=1000, scrollbars=yes');
     });
     
@@ -362,12 +359,6 @@
             scrollController[index] = newScroll;
         };
     })
-    
-    
-    /*    Collation opens when clicking on verse number*/
-    $('#vers-collation-tool').click(function () {
-        window.open("vers-collation.html");
-    });
     
     /*    LANGUAGE SELECTOR*/
     

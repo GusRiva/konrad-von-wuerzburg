@@ -1,7 +1,7 @@
-<?xml version="1.0" ?>
+﻿<?xml version="1.0" ?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0">
     
-    <xsl:output method="xml" omit-xml-declaration="yes" encoding="UTF-8" indent="yes" />
+    <xsl:output method="xml" omit-xml-declaration="yes" encoding="UTF-8" indent="no" />
 
     <xsl:template match="@*|node()">
         <xsl:copy >
@@ -15,10 +15,10 @@
     
     <xsl:template name="table-row">
             <td class="line_number">
-                <span class="line"><xsl:value-of select="./@n"/></span><span class="edit_line hidden"><xsl:value-of select="substring(ancestor::tei:l[1]/@xml:id,3)"/></span><span class="corresp_line hidden">s<xsl:value-of select="substring(ancestor::tei:l[1]/@xml:id,3)"/></span>
+                <span class="ms_line"><xsl:value-of select="./@n"/></span><span class="edit_line hidden"><xsl:value-of select="substring(ancestor::tei:l[1]/@xml:id,3)"/></span><span class="corresp_line hidden"><xsl:value-of select="ancestor::tei:l[1]/@corresp"/></span>
             </td>
             <td class="verse">    
-                <xsl:apply-templates select="@*|node()"/>
+                <xsl:apply-templates select="node()"/>
             </td>
             <td class="folioetc">
 <!--                This first when is for the texts with columns, the second for those without-->
@@ -77,6 +77,8 @@
     
     <xsl:template match="@xml:id"><xsl:attribute name="id"><xsl:value-of select="."/></xsl:attribute></xsl:template>
     
+    <xsl:template match="tei:w"><span class="tei_w"><xsl:apply-templates select="tei:orig"/></span></xsl:template>
+    <xsl:template match="tei:space">&#xA0;</xsl:template>
 
     <xsl:template match="tei:head"></xsl:template>
     
@@ -98,7 +100,7 @@
     </xsl:template>
     
     
-    <xsl:template match="tei:choice"><span class="choice"><xsl:attribute name="xml:space">preserve</xsl:attribute><xsl:apply-templates select="@*|node()"/></span></xsl:template>
+    <xsl:template match="tei:choice"><span class="choice"><xsl:apply-templates select="@*|node()"/></span></xsl:template>
     <xsl:template match="tei:abbr"><span class="abbr"><xsl:apply-templates select="@*|node()" /></span></xsl:template>
     <xsl:template match="tei:expan"><span class="expansion hidden"><xsl:apply-templates select="@*|node()" /></span></xsl:template> 
     <xsl:template match="tei:am"><span class="am"><xsl:apply-templates select="@*|node()"/></span></xsl:template>
@@ -144,10 +146,6 @@
     
     <xsl:template match="tei:metamark[@function='cue_initial']">
         <span class="cue_initial paleog">[<xsl:value-of select="."/>]</span>
-    </xsl:template>
-    
-    <xsl:template match="tei:space">
-        <span class="empty"><xsl:attribute name="title"><xsl:value-of select="./desc"></xsl:value-of></xsl:attribute>[   ]</span>
     </xsl:template>
     
 <!--    Borra las etiquetas-->
