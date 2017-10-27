@@ -1,9 +1,4 @@
 ﻿$(document).ready(function () {
-    $('.tooltip').tooltip({
-        //allows tooltip
-        placement: "bottom",
-        trigger: "hover"
-    });
     
     $('.form-control').prop('selectedIndex', 0);
     //Resets the text selectors to None
@@ -16,6 +11,7 @@
     var groupScroll = false;
     var scrollController =[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]; // to move all scrolls at the same time, see scroll function
     var automaticScrolling = false; //to change when using the automatic click scrolling, to avoid conflict with user scroll events
+    var counter = 0;
     /*    END VARIABLES*/    
     
     /*FUNCTIONS*/
@@ -151,6 +147,16 @@
     
     /*    LOAD TEXTS*/
     $(".form-control").change(function () {
+/*    needed for proper scrolling*/
+        counter = counter + 1;
+        if (counter == 1) {
+        var viewportHeight = $(window).height();
+        var textTitlesNavHeight = $("#text-titles-nav").height();
+        var textContainerHeight = viewportHeight - titleHeight - textTitlesNavHeight;
+        $(".text-container").height(textContainerHeight);
+        $("#row_introduction").addClass("hidden");
+        };
+        
         var columnToChange = ($(this).parents(".text-title")).index();
         // index of the column starting at 0
         var columnObject = $(".text-container").filter(function () {
