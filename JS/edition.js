@@ -12,7 +12,7 @@
     var scrollController =[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]; // to move all scrolls at the same time, see scroll function
     var automaticScrolling = false; //to change when using the automatic click scrolling, to avoid conflict with user scroll events
     var counter = 0;
-    /*    END VARIABLES*/    
+    /*    END VARIABLES*/
     
     /*FUNCTIONS*/
     
@@ -25,7 +25,7 @@
     function languageSelector(language) {
         if (language == "en") {
             $("option[value ='default']").text("Select text");
-            $("option[value*='_krit']").text("Critical Text ("+guide_ms+")");
+            $("option[value*='_krit']").text("Critical Text (" + guide_ms + ")");
             $("option[value*='_app']").text("Critical Apparatus");
             $("option[value='ref_ref']").text("Symbols");
             $("option[value*='wit']").text("List of Witnesses");
@@ -35,7 +35,7 @@
         }
         if (language == "de") {
             $("option[value ='default']").text("Textauswählen");
-            $("option[value*='_krit']").text("Kritischer Text ("+guide_ms+")");
+            $("option[value*='_krit']").text("Kritischer Text (" + guide_ms + ")");
             $("option[value*='_app']").text("Kritischer Apparat");
             $("option[value='ref_ref']").text("Symbole");
             $("option[value*='wit']").text("Zeugnisliste");
@@ -45,7 +45,7 @@
         }
         if (language == "es") {
             $("option[value ='default']").text("Seleccionar Texto");
-            $("option[value*='_krit']").text("Texto crítico ("+guide_ms+")");
+            $("option[value*='_krit']").text("Texto crítico (" + guide_ms + ")");
             $("option[value*='_app']").text("Aparato crítico");
             $("option[value='ref_ref']").text("Símbolos");
             $("option[value*='wit']").text("Lista de testimonios");
@@ -91,13 +91,14 @@
     var viewportHeight = $(window).height();
     var textContainerHeight = viewportHeight - titleHeight - textTitlesNavHeight;
     $(".text-container").height(textContainerHeight);
-
+    
     
     /*    disable extensive edition*/
     $("#extensive-edition-toggle").prop('checked', false);
     
-    /* set number of columns   */
+    /* set number of columns for selectors and text, and then hide text ones so that the instructions are visible */
     columns(columnsNum);
+    $(".edition-text").addClass("hidden");
     
     /*    Form Control - Text Selector appearence*/
     $(".form-control").addClass("form-control-initial");
@@ -153,8 +154,8 @@
         counter = counter + 1;
         if (counter == 1) {
             $("#row_introduction").addClass("hidden");
+            columns(columnsNum);
         };
-        
         var columnToChange = ($(this).parents(".text-title")).index();
         // index of the column starting at 0
         var columnObject = $(".text-container").filter(function () {
@@ -162,36 +163,9 @@
             return $(this).parents(".edition-text").index() == columnToChange;
         });
         columnObject.empty();
-        //if this is the references, then just load it
-        if ($(this).val() == 'ref_ref') {
-            columnObject.load("references.html", function(){
-                //choose correct language to display
-                $(this).children("div").children("div").each(function(){
-                    if ($(this).attr("lang") != language){
-                        $(this).addClass("hidden");
-                    };
-                });
-            });
-            return
-        };
-        //if it is not references, call the php
-        var optionValue = $(this).val().split('_');
-        // Takes the attribute "value" of the selected option and turns it into an array. The first elemente is the text's code, then the testimony
-        var maere = optionValue[0]; // characters code for text
-        var manuscriptToShow = '#' + optionValue[1]; // character code for manuscript
         
-        //Ajax request
-        var request = $.ajax({
-            url: 'JS/loadtext.php',
-            type: 'get',
-            data: {
-                'manuscript': manuscriptToShow, 'text': maere
-            }
-        });
-        
-        request.always(function (data) {
-            columnObject.append(data);
-        });
+        textToLoad = $(this).val();
+        columnObject.load('HTML_TEXTS/'+textToLoad+'_orig.html');
         
         /*        To highlight the corresponding verses and move the scroll*/
         if ($("tr.highlight").length) {
@@ -246,18 +220,20 @@
                     };
                 };
             },
-            50);
+            1000);
         };
         /*           Language check             */
         if (manuscriptToShow == '#wit') {
-            setTimeout(function(){
-            columnObject.find("span.lang").each(function () {
-                if ($(this).attr("lang") != language) {
-                    $(this).addClass("hidden");
-                } else {
-                    $(this).removeClass("hidden");
-                }    
-            })} , 400);
+            setTimeout(function () {
+                columnObject.find("span.lang").each(function () {
+                    if ($(this).attr("lang") != language) {
+                        $(this).addClass("hidden");
+                    } else {
+                        $(this).removeClass("hidden");
+                    }
+                })
+            },
+            400);
         };
         (this).blur();
     });
@@ -292,9 +268,9 @@
     });
     
     /*CLICKING ON LINE-NUMBER / APPARATUS CRITICUS NEW WINDOW*/
-    $('.text-container').on('click', 'td.line_number', function(){
-        var clicked_line_num = $(this).children("span.edit_line").text(); 
-        window.open('traviz_window.php?line='+clicked_line_num, '',  'height=300,width=1000, scrollbars=yes');
+    $('.text-container').on('click', 'td.line_number', function () {
+        var clicked_line_num = $(this).children("span.edit_line").text();
+        window.open('traviz_window.php?line=' + clicked_line_num, '', 'height=300,width=1000, scrollbars=yes');
     });
     
     /*    PRESSING UP-DOWN KEY*/
@@ -316,7 +292,7 @@
                 break
             };
         }
-        e.preventDefault();
+        /*e.preventDefault();*/
         automaticScrolling = false; //to avoid conflict with SCROLLING function
     });
     
@@ -373,30 +349,29 @@
     /*    Global Options Change and trigger all witnesses to change*/
     $("input[name^=global]").change(function () {
         var selectedInput = $(this).attr("name").substring(7);
-        if (selectedInput == "numerierung"){
-             if ($(this).val() == "manuscript") {
-            $("span.ms_line").removeClass("hidden");
-            $("span.edit_line").addClass("hidden");
-            $("span.corresp_line").addClass("hidden");
-        }
-        if ($(this).val() == "edition") {
-            $("span.ms_line").addClass("hidden");
-            $("span.edit_line").removeClass("hidden");
-            $("span.corresp_line").addClass("hidden");
-        } else if ($(this).val() == "alt_ed") {
-            $("span.ms_line").addClass("hidden");
-            $("span.edit_line").addClass("hidden");
-            $("span.corresp_line").removeClass("hidden");
-        }
-        }
-        else{
-           if ($(this).is(":checked")) {
-            $("input[name=" + selectedInput + "]").prop("checked", false);
-            $("input[name=" + selectedInput + "]").trigger("click");
+        if (selectedInput == "numerierung") {
+            if ($(this).val() == "manuscript") {
+                $("span.ms_line").removeClass("hidden");
+                $("span.edit_line").addClass("hidden");
+                $("span.corresp_line").addClass("hidden");
+            }
+            if ($(this).val() == "edition") {
+                $("span.ms_line").addClass("hidden");
+                $("span.edit_line").removeClass("hidden");
+                $("span.corresp_line").addClass("hidden");
+            } else if ($(this).val() == "alt_ed") {
+                $("span.ms_line").addClass("hidden");
+                $("span.edit_line").addClass("hidden");
+                $("span.corresp_line").removeClass("hidden");
+            }
         } else {
-            $("input[name=" + selectedInput + "]").prop("checked", true);
-            $("input[name=" + selectedInput + "]").trigger("click");
-        }; 
+            if ($(this).is(":checked")) {
+                $("input[name=" + selectedInput + "]").prop("checked", false);
+                $("input[name=" + selectedInput + "]").trigger("click");
+            } else {
+                $("input[name=" + selectedInput + "]").prop("checked", true);
+                $("input[name=" + selectedInput + "]").trigger("click");
+            };
         };
     });
     
@@ -488,6 +463,4 @@
             actual_column.find("span.corresp_line").removeClass("hidden");
         }
     });
-    
-    
 });
