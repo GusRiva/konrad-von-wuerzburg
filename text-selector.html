@@ -1,0 +1,116 @@
+<div class="col-md-4 text-title">
+    <div class="pull-left text-selector">
+        <select class="form-control pull-left">
+            <option value="default" hidden="hidden"/>
+            <optgroup>
+                <option>
+                    <xsl:attribute name="value">_krit</xsl:attribute>
+                    <xsl:attribute name="label"></xsl:attribute>
+                </option>
+                <option>
+                    <xsl:attribute name="value">_app</xsl:attribute>
+                </option>
+            </optgroup>
+            <optgroup>
+                <?php
+                foreach($xml -> xpath("/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listWit/tei:witness") as $element) {
+                    $element -> registerXPathNamespace("tei", "http://www.tei-c.org/ns/1.0");
+                    $witness_sigil = $element->xpath("./@xml:id");
+                    $settlement = $element->xpath("./tei:msDesc/tei:msIdentifier/tei:settlement");
+                    $value = $textKey;
+                    $value.= '_';
+                    $value.= $witness_sigil[0];
+                    echo "<option value='$value'>$witness_sigil[0] - $settlement[0]</option>";}
+                ?>
+            </optgroup>
+            <optgroup>
+                <option value="ref_ref"></option>
+                <option>
+                </option>
+            </optgroup>
+        </select>
+    </div>
+    <div class="dropdown pull-right visualisation-options">
+        <button class="btn btn-primary dropdown-toggle visual-options" type="button" data-toggle="dropdown">
+            <span class="glyphicon glyphicon-eye-open"/>
+        </button>
+        <ul class="dropdown-menu" role="menu">
+            <li class="dropdown-submenu" type="visualization">
+                <a class="test" tabindex="-1">
+                    <span class="lang" lang="en">Visualization</span>
+                    <span class="lang" lang="de">Visualisierung</span>
+                    <span class="lang" lang="es">Visualización</span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <form>
+                            <input type="checkbox" name="punktion" checked="checked"/>
+                            <span class="lang" lang="en">Punctuation</span>
+                            <span class="lang" lang="de">Punktion</span>
+                            <span class="lang" lang="es">Puntuación</span>
+                        </form>
+                    </li>
+                    <li>
+                        <form>
+                            <input type="checkbox" name="abbreviaturen"/>
+                            <span class="lang" lang="en">Resolve Abbreviations</span>
+                            <span class="lang" lang="de">Abbreviaturen auflösen</span>
+                            <span class="lang" lang="es">Resolver abreviaturas</span>
+                        </form>
+                    </li>
+                    <li>
+                        <form>
+                            <input type="checkbox" name="korrekturen" checked="checked"/>
+                            <span data-toggle="tooltip">
+                                <span lang="en" class="lang">Paleographic view</span>
+                                <span lang="de" class="lang">Paleographische Ansicht</span>
+                                <span lang="es" class="lang">Vista paleográfica</span>
+                            </span>
+                        </form>
+                    </li>
+                    <li>
+                        <form>
+                            <input type="checkbox" name="notes" checked="checked"/>
+                            <span class="lang" lang="en">Right Margin References</span>
+                            <span class="lang" lang="de">Referenzen am Rand</span>
+                            <span class="lang" lang="es">Referencias en el margen</span>
+                        </form>
+                    </li>
+                </ul>
+            </li>
+            <li class="dropdown-submenu">
+                <a class="test" tabindex="-1">
+                    <span class="lang" lang="en">Numbering</span>
+                    <span class="lang" lang="de">Numerierung</span>
+                    <span class="lang" lang="es">Numeración</span>
+                </a>
+                <form class="dropdown-menu">
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="numerierung" value="manuscript"/>
+                            <span class="lang" lang="en">Manuscript</span>
+                            <span class="lang" lang="de">Handschrift</span>
+                            <span class="lang" lang="es">Manuscrito</span>
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="numerierung" value="edition"/>
+                            <span class="lang" lang="en">Edition</span>
+                            <span class="lang" lang="de">Edition</span>
+                            <span class="lang" lang="es">Edición</span>
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="numerierung" value="alt_ed"/>
+                            <span class="lang" lang="en">Edition Schröder</span>
+                            <span class="lang" lang="de">Edition Schröder</span>
+                            <span class="lang" lang="es">Edición Schröder</span>
+                        </label>
+                    </div>
+                </form>
+            </li>
+        </ul>
+    </div>
+</div>
