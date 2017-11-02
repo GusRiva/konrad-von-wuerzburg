@@ -16,7 +16,7 @@
     
     /*FUNCTIONS*/
     
-    //This function shows only the spans with the appropiate language. Example: class = "lang en"
+    //This function shows only the spans with the appropiate language. Example: class = "lang" lang="en"
     function languageCheck(language) {
         $(".lang").addClass("hidden");
         $("[lang='" + language + "']").removeClass("hidden");
@@ -25,7 +25,10 @@
     function languageSelector(language) {
         if (language == "en") {
             $("option[value ='default']").text("Select text");
-            $("option[value*='_krit']").text("Critical Text (" + guide_ms + ")");
+            $("option[value*='_ct_']").each(function(){
+                guide_ms = $(this).text().split("-").pop();
+                $(this).text("Critical Text - " + guide_ms);
+            });
             $("option[value*='_app']").text("Critical Apparatus");
             $("option[value='ref_ref']").text("Symbols");
             $("option[value*='wit']").text("List of Witnesses");
@@ -35,7 +38,10 @@
         }
         if (language == "de") {
             $("option[value ='default']").text("Textauswählen");
-            $("option[value*='_krit']").text("Kritischer Text (" + guide_ms + ")");
+            $("option[value*='_ct_']").each(function(){
+                guide_ms = $(this).text().split("-").pop();
+                $(this).text("Kritischer Text - " + guide_ms);
+            });
             $("option[value*='_app']").text("Kritischer Apparat");
             $("option[value='ref_ref']").text("Symbole");
             $("option[value*='wit']").text("Zeugnisliste");
@@ -45,7 +51,10 @@
         }
         if (language == "es") {
             $("option[value ='default']").text("Seleccionar Texto");
-            $("option[value*='_krit']").text("Texto crítico (" + guide_ms + ")");
+            $("option[value*='_ct_']").each(function(){
+                guide_ms = $(this).text().split("-").pop();
+                $(this).text("Texto Crítico - " + guide_ms);
+            });
             $("option[value*='_app']").text("Aparato crítico");
             $("option[value='ref_ref']").text("Símbolos");
             $("option[value*='wit']").text("Lista de testimonios");
@@ -175,11 +184,12 @@
             var verse = $("tr.highlight").first();
             var verseNum = verse.children("td.line_number").children("span.corresp_line").text();
             var verseNumDigit = verseNum.substring(1);
+            console.log(verseNumDigit);
             //The verse has an "s", it needs to be removed to be able to function as digit latter.
             var scrollToPrev = setInterval(function () {
                 //Function to highlight, scroll and render text according to options
                 counterStop = counterStop + 1;
-                if (counterStop > 30) {
+                if (counterStop > 35) {
                     //stops function if it takes too long
                     clearInterval(scrollToPrev);
                 };
@@ -220,7 +230,7 @@
                     };
                 };
             },
-            1000);
+            100);
         };
         /*           Language check             */
         if (manuscriptToShow == '#wit') {
@@ -336,14 +346,6 @@
         };
     })
     
-    /*    LANGUAGE SELECTOR*/
-    
-    $("span.language-selector").click(function () {
-        language = $(this).attr("id");
-        languageCheck(language);
-        languageSelector(language);
-    });
-    
     /*    OPTIONS*/
     
     /*    Global Options Change and trigger all witnesses to change*/
@@ -373,6 +375,14 @@
                 $("input[name=" + selectedInput + "]").trigger("click");
             };
         };
+    });
+    
+        /*    OPTION LANGUAGE*/
+    
+    $("input[name=language-selector]").click(function(){
+        language = $(this).attr("value");
+        languageCheck(language);
+        languageSelector(language);
     });
     
     /*    Option: Punctuation*/
