@@ -5,7 +5,7 @@
     
     <xsl:template match="@*|node()">
         <xsl:copy>
-            <xsl:apply-templates select="@n | @xml:id | @n | @edRef | @wit |node()" />
+            <xsl:apply-templates select="@n | @xml:id | @n | @edRef | @wit | @corresp | @rend | @type | @cause |node()" />
         </xsl:copy>
     </xsl:template>
     

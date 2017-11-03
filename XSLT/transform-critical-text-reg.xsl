@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" ?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0">
     
-    <xsl:output method="xml" omit-xml-declaration="yes" encoding="UTF-8" indent="yes" />
+    <xsl:output method="xml" omit-xml-declaration="yes" encoding="UTF-8" indent="no" />
     
     <xsl:template match="@*|node()">
         <xsl:copy>
@@ -12,7 +12,7 @@
     
     <xsl:template name="table-row">
         <td class="line_number">
-            <span class="line"><xsl:value-of select="./@n"/></span><span class="edit_line hidden"><xsl:value-of select="substring-after(./@xml:id, '_')"/></span><span class="corresp_line hidden">s<xsl:value-of select="substring-after(./@xml:id, '_')"/></span>
+            <span class="ms_line"><xsl:value-of select="./@n"/></span><span class="edit_line hidden"><xsl:value-of select="substring-after(./@xml:id, '_')"/></span><span class="corresp_line hidden">s<xsl:value-of select="substring-after(./@corresp, '_')"/></span>
         </td>
         <td class="verse">   
             <xsl:apply-templates select="tei:w | tei:space | tei:pc | tei:app | tei:rdg | tei:lem | text()"/>
@@ -44,33 +44,32 @@
     <xsl:template match="tei:note">
         <xsl:choose>
             <xsl:when test="./@type='editorial'">
-                <span class="glyphicon glyphicon-asterisk btn-edit_note"><xsl:attribute name="title"><xsl:value-of select="./descendant::*/text()"/></xsl:attribute></span>Note
+                <span class="glyphicon glyphicon-asterisk btn-edit_note"/>
             </xsl:when>
             <xsl:when test="./@type='missing'">
-                <span class="glyphicon glyphicon-remove btn-missing"><xsl:attribute name="title"><xsl:value-of select="./descendant::*/text()"/></xsl:attribute></span><xsl:value-of select="./tei:seg[@type='wit']"/>   
+                <span class="glyphicon glyphicon-remove btn-missing"/><xsl:value-of select="./tei:seg[@type='wit']"/>   
             </xsl:when>
             <xsl:when test="./@type='addition'">
-                <span class="glyphicon glyphicon-plus btn-extra"><xsl:attribute name="title"><xsl:value-of select="./descendant::*/text()"/></xsl:attribute></span>&#160;<xsl:value-of select="./@n"/>&#160;<xsl:value-of select="./tei:seg[@type='wit']"/>
+                <span class="glyphicon glyphicon-plus btn-extra"/>&#160;<xsl:value-of select="./@n"/>&#160;<xsl:value-of select="./tei:seg[@type='wit']"/>
             </xsl:when>
             <xsl:when test="./@type='transposed'">
-                <span class="glyphicon glyphicon-refresh btn-transposed"><xsl:attribute name="title"><xsl:value-of select="./descendant::*/text()"/></xsl:attribute></span><xsl:value-of select="."/>
+                <span class="glyphicon glyphicon-refresh btn-transposed"></span><xsl:value-of select="."/>
             </xsl:when>
             <xsl:when test="./@type='alternative'">
                 <xsl:if test="not(preceding-sibling::tei:note[@type='alternative'])"> 
-<!--                    if is neccessary to avoid the same symbol many times-->
+                    <!--                    if is neccessary to avoid the same symbol many times-->
                     <span class="btn-alternative"><xsl:attribute name="title"><xsl:value-of select="./seg"/></xsl:attribute>≠</span>&#160;<xsl:value-of select="./tei:seg[@type='wit']"/><xsl:for-each select="./following-sibling::tei:note/tei:seg[@type='wit']">&#160;<xsl:value-of select="."/></xsl:for-each>
                 </xsl:if> 
             </xsl:when>
             <xsl:when test="./@type='ending'"><span class="glyphicon glyphicon-stop btn-stop"/> <xsl:value-of select="."/></xsl:when>
         </xsl:choose>
-    </xsl:template>    
-    
+    </xsl:template>
     <!--<xsl:template match="@xml:id"><xsl:attribute name="id"><xsl:value-of select="."/></xsl:attribute></xsl:template>-->
     
     <xsl:template match="tei:head"></xsl:template>
     
     <xsl:template match="tei:w"><xsl:apply-templates select="tei:reg"/></xsl:template>
-    <xsl:template match="tei:reg"><xsl:value-of select="."/>&#160;</xsl:template>
+    <xsl:template match="tei:reg">&#160;<xsl:value-of select="."/></xsl:template>
     
     <!--<xsl:template match="tei:space"><xsl:value-of select="' '"/></xsl:template>-->
     

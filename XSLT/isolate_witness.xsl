@@ -3,7 +3,7 @@
     
     <xsl:output method="xml" omit-xml-declaration="yes" encoding="UTF-8" indent="no" />
     
-    <xsl:param name="manuscript">#D</xsl:param>
+    <xsl:param name="manuscript">#P</xsl:param>
     
     <xsl:template match="@*|node()">
         <xsl:copy>

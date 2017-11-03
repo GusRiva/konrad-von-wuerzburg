@@ -15,7 +15,7 @@
     
     <xsl:template name="table-row">
             <td class="line_number">
-                <span class="ms_line"><xsl:value-of select="./@n"/></span><span class="edit_line hidden"><xsl:value-of select="substring(ancestor::tei:l[1]/@xml:id,3)"/></span><span class="corresp_line hidden"><xsl:value-of select="ancestor::tei:l[1]/@corresp"/></span>
+                <span class="ms_line"><xsl:value-of select="./@n"/></span><span class="edit_line hidden"><xsl:value-of select="substring(ancestor::tei:l[1]/@xml:id,3)"/></span><span class="corresp_line hidden">s<xsl:value-of select="substring-after(ancestor::tei:l[1]/@corresp, '_')"/></span>
             </td>
             <td class="verse">    
                 <xsl:apply-templates select="node()"/>
