@@ -15,7 +15,6 @@
     <!-- My templates -->
     <link rel="stylesheet" type="text/css" href="CSS/dropdown-submenu-fix.css"/> 
     <link rel="stylesheet" type="text/css" href="CSS/edition.css"/> 
-    <script src="JS/functions.js" type="text/javascript"></script> 
     <script src="JS/edition.js" type="text/javascript"></script>
 	</head>
 	<body>
