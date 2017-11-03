@@ -2,7 +2,8 @@
 <html>
   <head>
     <title>Apparatus criticus</title>
-    <script type="text/javascript" src="apparatus.json"></script>
+    <script type="text/javascript" src="apparatus_reg.json"></script>
+    <script type="text/javascript" src="apparatus_orig.json"></script>
     <!-- jquery -->
     <link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css"/> 
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script> 
@@ -22,7 +23,9 @@
   	?>
     <div>
       <?php 
-      echo "Verso: <span id='line_number'>$line_number</span> / <button id='prev_verse'>Anterior</button> <button id='next_verse'  onclick='next'>Siguiente</button><br/>Testimonios que carecen de este verso:<span id='missing-verses'></div></p>";
+      echo "Verso: <span id='line_number'>$line_number</span> / <button id='prev_verse'>Anterior</button> <button id='next_verse'>Siguiente</button>
+      <form><input name='regularizate' type='radio' value='reg' checked='checked'>Regularizado</input><input name='regularizate' type='radio' value='orig'>Sin regularizar</input><form>
+      <br/>Testimonios que carecen de este verso:<span id='missing-verses'></div></p>";
       ?>
     </div>
     <div id="containerDiv"></div>
@@ -31,12 +34,13 @@
     <script type="text/javascript">
     var line_number = "<?php echo $line_number ?>";
 		// parses the json file (it was uploaded in the <head>)
-		var mydata = JSON.parse(data);
-    mydata = mydata[0]; //Now it is a list with a dictionary for each line. The key is the line number
+		var mydata_reg = JSON.parse(data_reg);
+    var mydata_orig = JSON.parse(data_orig);
+    mydata = mydata_reg[0]; //Now it is a list with a dictionary for each line. The key is the line number
     var vers_to_collate = mydata[line_number];
+    regular = true;
 
     
-
 // TRAVIZ
   function doTraviz(div,line){
     var traviz = new TRAViz(div,{
@@ -60,23 +64,41 @@
 
   };
 
+// Activate on open
   doTraviz("containerDiv", vers_to_collate);
 
+// activate on click
   document.getElementById("prev_verse").onclick = function() {
-    line_number = line_number - 1;
+    line_number = Number(line_number) - 1;
     document.getElementById("line_number").textContent = line_number;
-    vers_to_collate = mydata[line_number];
+    if (regular == true){
+      vers_to_collate = mydata_reg[0][line_number];
+    }else{
+      vers_to_collate = mydata_orig[0][line_number];
+    }
     doTraviz("containerDiv", vers_to_collate);
   };
 
   document.getElementById("next_verse").onclick = function() {
-    line_number = line_number + 1;
+    line_number = Number(line_number) + 1;
     document.getElementById("line_number").textContent = line_number;
     vers_to_collate = mydata[line_number];
     doTraviz("containerDiv", vers_to_collate);
   };
 
-  
+  // Regularize / Paleographic
+  $('input[name=regularizate]').change(function(){
+    value = $(this).attr('value');
+    if (value == 'reg'){
+      regular = true;
+      vers_to_collate = mydata_reg[0][line_number];    
+    }
+    else {
+      regular = false;
+     vers_to_collate = mydata_orig[0][line_number];     
+    }
+    doTraviz("containerDiv", vers_to_collate);
+  });
 
     </script>
   </body>
