@@ -3,13 +3,14 @@
         <select class="form-control pull-left">
             <option value="default" hidden="hidden"/>
             <optgroup>
-                <option>
-                    <xsl:attribute name="value">_krit</xsl:attribute>
-                    <xsl:attribute name="label"></xsl:attribute>
-                </option>
-                <option>
-                    <xsl:attribute name="value">_app</xsl:attribute>
-                </option>
+                <?php
+                foreach($textDict[$textKey]['crit_text'] as $elem){
+                    $value = $textKey;
+                    $value .= '_ct_';
+                    $value .= $elem;
+                    echo "<option value=$value> - $elem</option>";
+                }
+                ?>
             </optgroup>
             <optgroup>
                 <?php
@@ -24,7 +25,7 @@
                 ?>
             </optgroup>
             <optgroup>
-                <option value="ref_ref"></option>
+                <option value="references"></option>
                 <option>
                 </option>
             </optgroup>
