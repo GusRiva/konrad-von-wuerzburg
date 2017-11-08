@@ -233,7 +233,7 @@
             100);
         };
         /*           Language check             */
-        if (manuscriptToShow == '#wit') {
+      /*  if (manuscriptToShow == '#wit') {
             setTimeout(function () {
                 columnObject.find("span.lang").each(function () {
                     if ($(this).attr("lang") != language) {
@@ -244,7 +244,7 @@
                 })
             },
             400);
-        };
+        };*/
         (this).blur();
     });
     
