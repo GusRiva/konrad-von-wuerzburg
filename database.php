@@ -2,16 +2,17 @@
 
 $textDict = array('herz' => array(
 							'title' => 'Herzmaere',
-							'file' => 'TEI/Herz_Synoptische_Transkription.xml'),
-							'crit_text' => ['P(A)','V']);
+							'file' => 'TEI/Herz_Synoptische_Transkription.xml',
+							'crit_text' => ['P(A)','V']),
+				'dwl'=> array(
+							'title'=>'Der Welt Lohn',
+							'file'=>'TEI/DWL_Synoptische_Transkription.xml',
+							'crit_text'=> ['M']),
+				'hvk'=> array(
+							'title'=>'Heinrich von Kempten',
+							'file'=>'TEI/HvK_Synoptische_Transkription.xml',
+							'crit_text'=>['P']));
 
-// $textDict = array(
-// 	'dwl' => 'TEI/DWL_Synoptische_Transkription.xml',
-// 	'hvk' => 'TEI/HvK_Synoptische_Transkription.xml',
-// 	'herz' => 'TEI/Herz_Synoptische_Transkription.xml'
-// 	);
 return $textDict;
-
-
 
 ?>
