@@ -38,7 +38,7 @@ def dig_orig(elem):
         if elem.tail:
             text = text + elem.tail
         return text
-    elif elem.tag == tei('abbr') or elem.tag == tei('am') or elem.tag == tei('del') :
+    elif elem.tag == tei('abbr') or elem.tag == tei('am') or elem.tag == tei('del') or elem.tag == tei('sic'):
         return ''  
     elif elem.tag == tei('corr'):
         if elem.text:
@@ -89,6 +89,7 @@ for line in full_tree.iter(tei('l')):
 
 output = [output]
 file = codecs.open("/Applications/XAMPP/xamppfiles/htdocs/konrad/preproc_json.txt", "w", "utf-8")
+output = str(output)
 file.write(output)
 file.close()
 
@@ -98,7 +99,7 @@ with codecs.open("preproc_json.txt", encoding="utf-8") as file:
     text = text.replace("'",'"')
     text = str(text)
 
-with codecs.open("apparatus_reg.json", "w", encoding="utf-8") as new_file:
+with codecs.open("apparatus_reg.js", "w", encoding="utf-8") as new_file:
     new_file.write("data_reg = '" + text + "'")
 
 #ORIGINAL
@@ -117,7 +118,6 @@ for line in full_tree.iter(tei('l')):
 
 output = [output]
 output = str(output)
-print(output[97110:97130])
 file = codecs.open("/Applications/XAMPP/xamppfiles/htdocs/konrad/preproc_json.txt", "w", "utf-8")
 file.write(output)
 file.close()
@@ -128,6 +128,6 @@ with codecs.open("preproc_json.txt", encoding="utf-8") as file:
     text = text.replace("'",'"')
     text = str(text)
 
-with codecs.open("apparatus_orig.json", "w", encoding="utf-8") as new_file:
+with codecs.open("apparatus_orig.js", "w", encoding="utf-8") as new_file:
     new_file.write("data_orig = '" + text + "'")
 

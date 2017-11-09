@@ -6,7 +6,47 @@
                     <span id="options-span" class="glyphicon glyphicon-th-list"></span>
                 </button>
                 <ul class="dropdown-menu" role="menu">
-                    <li class="dropdown-submenu">
+                    <li class="menu_item" style="padding-left: 20px; padding-bottom:7px">
+                        <span lang="en" class="lang hidden">
+                            <a href="index.html">Home</a>
+                        </span>
+                        <span lang="de" class="lang hidden">
+                            <a href="../index.html">Startseite</a>
+                        </span>
+                        <span lang="es" class="lang hidden">
+                            <a href="index.html">Inicio</a>
+                        </span></li>
+
+
+                    <li class="dropdown-submenu menu_item" style="padding-bottom: 7px">
+                        <a class="test" tabindex="-1">
+                            <span class="lang" lang="en">Language</span>
+                            <span class="lang" lang="de">Sprache</span>
+                            <span class="lang" lang="es">Idioma</span>
+                        </a>
+                        <form class="dropdown-menu">
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="language-selector" value="en" checked="checked"/>
+                                    <span class="language-selector" id="en">English</span>
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="language-selector" value="es"/>
+                                    <span class="language-selector" id="en">Español</span>
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="language-selector" value="de"/>
+                                    <span class="language-selector" id="en">Deutsch</span>
+                                </label>
+                            </div>
+                        </form>
+                    </li>
+
+                    <li class="dropdown-submenu menu_item">
                         <a tabindex="-1">
                             <span lang="en" class="lang hidden">Number of columns</span>
                             <span lang="de" class="lang hidden">Spaltenzahl</span>
@@ -30,13 +70,13 @@
                             </div>
                         </form>
                     </li>
-                    <li>
+                    <li class="menu_item">
                         <form><span lang="en" class="lang hidden">Show empty verses</span><span lang="de" class="lang hidden">Leere Verse zeigen</span><span class="lang hidden" lang="es">Mostrar versos vacíos</span>&#160;&#160;<input type="checkbox" id="extensive-edition-toggle"/></form>
                     </li>
-                    <li>
+                    <li class="menu_item">
                         <form><span lang="en" class="lang hidden">Group scrolling</span><span class="lang hidden" lang="de">Gruppen Scrollen</span><span class="lang hidden" lang="es">Desplazamiento conjunto</span>&#160;&#160;<input type="checkbox" id="group-scroll"/></form>
                     </li>
-                    <li class="dropdown-submenu">
+                    <li class="dropdown-submenu menu_item">
                         <a class="test" tabindex="-1">
                             <span class="lang" lang="en">Visualization </span>
                             <span class="lang" lang="de">Visualisierung</span>
@@ -79,7 +119,7 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="dropdown-submenu">
+                    <li class="dropdown-submenu menu_item">
                         <a class="test" tabindex="-1">
                             <span class="lang" lang="en">Numbering</span>
                             <span class="lang" lang="de">Numerierung</span>
@@ -112,42 +152,7 @@
                             </div>
                         </form>
                     </li>
-                    <li><span lang="en" class="lang hidden">
-                        <a href="index.html">Home</a>
-                    </span>
-                        <span lang="de" class="lang hidden">
-                            <a href="../index.html">Startseite</a>
-                        </span>
-                        <span lang="es" class="lang hidden">
-                            <a href="index.html">Inicio</a>
-                        </span></li>
-                    <li class="dropdown-submenu">
-                        <a class="test" tabindex="-1">
-                            <span class="lang" lang="en">Language</span>
-                            <span class="lang" lang="de">Sprache</span>
-                            <span class="lang" lang="es">Idioma</span>
-                        </a>
-                        <form class="dropdown-menu">
-                            <div class="radio">
-                                <label>
-                                    <input type="radio" name="language-selector" value="en"/>
-                                    <span class="language-selector" id="en">English</span>
-                                </label>
-                            </div>
-                            <div class="radio">
-                                <label>
-                                    <input type="radio" name="language-selector" value="es"/>
-                                    <span class="language-selector" id="en">Español</span>
-                                </label>
-                            </div>
-                            <div class="radio">
-                                <label>
-                                    <input type="radio" name="language-selector" value="de"/>
-                                    <span class="language-selector" id="en">Deutsch</span>
-                                </label>
-                            </div>
-                        </form>
-                    </li>
+                    
                 </ul>
             </div>
         </div>

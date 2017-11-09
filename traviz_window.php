@@ -2,8 +2,8 @@
 <html>
   <head>
     <title>Apparatus criticus</title>
-    <script type="text/javascript" src="apparatus_reg.json"></script>
-    <script type="text/javascript" src="apparatus_orig.json"></script>
+    <script type="text/javascript" src="apparatus_reg.js"></script>
+    <script type="text/javascript" src="apparatus_orig.js"></script>
     <!-- jquery -->
     <link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css"/> 
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script> 

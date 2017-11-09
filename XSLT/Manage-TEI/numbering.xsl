@@ -13,10 +13,9 @@
     
     
     <xsl:template match="tei:l">
-            <l><xsl:attribute name="xml:id">
-                v_<xsl:number count="tei:l" level="any"/>
+            <l><xsl:attribute name="n"><xsl:number count="tei:l[node()]" level="any"/>
             </xsl:attribute>
-            <xsl:apply-templates select="@*| node()" /></l>
+            <xsl:apply-templates select="@xml:id | @corresp | @type | @rend | node()" /></l>
             
     </xsl:template>
     
