@@ -1,4 +1,4 @@
-@font-face {
+﻿@font-face {
   font-family: 'junicode';
   src: url('junicode.woff') format('woff'), 
        url('junicode.ttf')  format('truetype'); 
@@ -192,9 +192,7 @@ select.form-control {
 .form-control-initial{
     border-top: none;
     border-right:none;
-    
 }
-
 
 /*Includes font-border effect*/
 h1{
@@ -273,20 +271,21 @@ thead tr td{
     color: black !important;
 }
 
+.italic{
+     font-style: italic;
+}
+
 .ex{
     font-style: italic;
 }
-
 
 .del{
     text-decoration: line-through;
 }
 
-
 .lema-ref{
     font-weight: bold;
 }
-
 
 .btn-transposed{
     color: green;
@@ -326,6 +325,7 @@ thead tr td{
     padding: 0px;
 }
 
-.italic{
-    font-style: italic;
+.menu_item{
+    padding-bottom: 20px;
 }
+
