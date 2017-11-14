@@ -12,6 +12,20 @@
     var scrollController =[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]; // to move all scrolls at the same time, see scroll function
     var automaticScrolling = false; //to change when using the automatic click scrolling, to avoid conflict with user scroll events
     var counter = 0;
+    
+    var columns_master = [{'text':'herz', 'normal': false, 'abbr': false},
+    {'text':'herz', 'normal': false, 'abbr': false},
+    {'text':'herz', 'normal': false, 'abbr': false},
+    {'text':'herz', 'normal': false, 'abbr': false},
+    {'text':'herz', 'normal': false, 'abbr': false},
+    {'text':'herz', 'normal': false, 'abbr': false},
+    {'text':'herz', 'normal': false, 'abbr': false},
+    {'text':'herz', 'normal': false, 'abbr': false},
+    {'text':'herz', 'normal': false, 'abbr': false},
+    {'text':'herz', 'normal': false, 'abbr': false},
+    {'text':'herz', 'normal': false, 'abbr': false},
+    {'text':'herz', 'normal': false, 'abbr': false} ];
+                                            
     /*    END VARIABLES*/
     
     /*FUNCTIONS*/
@@ -87,6 +101,16 @@
                 $(this).addClass("hidden");
             }
         });
+    };
+    
+/*    Hide/show paleographic*/
+    function paleog_on(){
+        $(".tei_sic").removeClass("hidden");
+        $(".tei_corr").addClass("hidden");
+    };
+    function paleog_off(){
+        $(".tei_sic").addClass("hidden");
+        $(".tei_corr").removeClass("hidden");
     };
     /*   END FUNCTIONS */
     
@@ -168,13 +192,19 @@
         var columnToChange = ($(this).parents(".text-title")).index();
         // index of the column starting at 0
         var columnObject = $(".text-container").filter(function () {
-            // the actual JQuery object for the column to change
+        // the actual JQuery object for the column to change
             return $(this).parents(".edition-text").index() == columnToChange;
         });
         columnObject.empty();
         
         textToLoad = $(this).val();
-        columnObject.load('HTML_TEXTS/'+textToLoad+'_orig.html');
+        columns_master[columnToChange]['text'] = textToLoad;
+        if (columns_master[columnToChange]['normal'] == false){
+            columnObject.load('HTML_TEXTS/'+textToLoad+'_orig.html');    
+        }else{
+            columnObject.load('HTML_TEXTS/'+textToLoad+'_reg.html');
+        };
+        
         
         /*        To highlight the corresponding verses and move the scroll*/
         if ($("tr.highlight").length) {
@@ -184,7 +214,6 @@
             var verse = $("tr.highlight").first();
             var verseNum = verse.children("td.line_number").children("span.corresp_line").text();
             var verseNumDigit = verseNum.substring(1);
-            console.log(verseNumDigit);
             //The verse has an "s", it needs to be removed to be able to function as digit latter.
             var scrollToPrev = setInterval(function () {
                 //Function to highlight, scroll and render text according to options
@@ -206,18 +235,7 @@
                         if (extensiveEdition === true) {
                             $(".toHide").removeClass("hidden")
                         };
-                        // Render the text according to the selected options (visualization and numbering)
-                        $(".text-title").filter(function () {
-                            return $(this).index() == columnToChange;
-                        }).children(".visualisation-options").find("li[type='visualization']").find("input").each(function () {
-                            var inputName = $(this).attr("name");
-                            if ($(this).is(":checked")) {
-                                $(this).prop("checked", false);
-                            } else {
-                                $(this).prop("checked", true);
-                            };
-                            $(this).trigger("click");
-                        });
+                      
                         /*      Scrolling                  */
                         correspRow.addClass("highlight");
                         var offsetFinal = verse.offset().top;
@@ -232,19 +250,7 @@
             },
             100);
         };
-        /*           Language check             */
-      /*  if (manuscriptToShow == '#wit') {
-            setTimeout(function () {
-                columnObject.find("span.lang").each(function () {
-                    if ($(this).attr("lang") != language) {
-                        $(this).addClass("hidden");
-                    } else {
-                        $(this).removeClass("hidden");
-                    }
-                })
-            },
-            400);
-        };*/
+        
         (this).blur();
     });
     
@@ -428,6 +434,8 @@
             actual_column.find("span.cue_initial").removeClass("hidden");
             actual_column.find("span.hidden-initial").addClass("initial").removeClass("hidden-initial");
             actual_column.find("span.inner-span-decoration").parent("span").addClass("decoration");
+            actual_column.find("span.tei_sic").removeClass("hidden");
+            actual_column.find("span.tei_corr").addClass("hidden");
         } else {
             actual_column.find("span.del").addClass("hidden");
             actual_column.find("span.pal").addClass("hidden");
@@ -435,7 +443,29 @@
             actual_column.find("span.cue_initial").addClass("hidden");
             actual_column.find("span.initial").removeClass("initial").addClass("hidden-initial");
             actual_column.find("span.decoration").removeClass("decoration");
+            actual_column.find("span.tei_sic").addClass("hidden");
+            actual_column.find("span.tei_corr").removeClass("hidden");
         };
+    });
+    
+    /*    Option: Normalised Text*/
+    $("input[name=normalizierung]").change(function () {
+        var columnIndex = ($(this).parents(".text-title")).index(); //index of the column starting at 0
+        
+        var columnObject = $(".text-container").filter(function () {
+        // the actual JQuery object for the column to change
+            return $(this).parents(".edition-text").index() == columnIndex;
+        });
+        columnObject.empty();
+        
+        if ($(this).is(":checked")) {
+            columnObject.load('HTML_TEXTS/'+columns_master[columnIndex]['text']+'_reg.html');
+            columns_master[columnIndex]['normal'] = true;
+        } else {
+            columnObject.load('HTML_TEXTS/'+columns_master[columnIndex]['text']+'_orig.html');
+            columns_master[columnIndex]['normal'] = false;
+        };
+        
     });
     
     /*    Option: Right Margin References*/
