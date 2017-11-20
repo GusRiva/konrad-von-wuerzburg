@@ -44,8 +44,8 @@
                 $(this).text("Critical Text - " + guide_ms);
             });
             $("option[value*='_app']").text("Critical Apparatus");
-            $("option[value='ref_ref']").text("Symbols");
-            $("option[value*='wit']").text("List of Witnesses");
+            $("option[value='references.html']").text("Symbols");
+            $("option[value='wit_list']").text("List of Witnesses");
             $("optgroup:nth-of-type(1)").attr("label", "Critical Edition");
             $("optgroup:nth-of-type(2)").attr("label", "Transcriptions");
             $("optgroup:nth-of-type(3)").attr("label", "References");
@@ -57,8 +57,8 @@
                 $(this).text("Kritischer Text - " + guide_ms);
             });
             $("option[value*='_app']").text("Kritischer Apparat");
-            $("option[value='ref_ref']").text("Symbole");
-            $("option[value*='wit']").text("Zeugnisliste");
+            $("option[value='references.html']").text("Symbole");
+            $("option[value='wit_list']").text("Zeugnisliste");
             $("optgroup:nth-of-type(1)").attr("label", "Kritische Edition");
             $("optgroup:nth-of-type(2)").attr("label", "Transkriptionen");
             $("optgroup:nth-of-type(3)").attr("label", "Referenzen");
@@ -70,8 +70,8 @@
                 $(this).text("Texto Crítico - " + guide_ms);
             });
             $("option[value*='_app']").text("Aparato crítico");
-            $("option[value='ref_ref']").text("Símbolos");
-            $("option[value*='wit']").text("Lista de testimonios");
+            $("option[value='references.html']").text("Símbolos");
+            $("option[value='wit_list']").text("Lista de testimonios");
             $("optgroup:nth-of-type(1)").attr("label", "Edición Crítica");
             $("optgroup:nth-of-type(2)").attr("label", "Transcripciones");
             $("optgroup:nth-of-type(3)").attr("label", "Referencias");
@@ -189,6 +189,7 @@
             $("#row_introduction").addClass("hidden");
             columns(columnsNum);
         };
+        
         var columnToChange = ($(this).parents(".text-title")).index();
         // index of the column starting at 0
         var columnObject = $(".text-container").filter(function () {
@@ -198,13 +199,20 @@
         columnObject.empty();
         
         textToLoad = $(this).val();
+/*        save in the columns_master array the information of the new text*/
         columns_master[columnToChange]['text'] = textToLoad;
-        if (columns_master[columnToChange]['normal'] == false){
+        if (textToLoad == "references.html"){
+            columnObject.load('HTML_TEXTS/references.html', function(){languageCheck(language)});
+        }
+        else if(textToLoad == "wit_list"){
+            
+        }
+        else{
+            if (columns_master[columnToChange]['normal'] == false){
             columnObject.load('HTML_TEXTS/'+textToLoad+'_orig.html');    
         }else{
             columnObject.load('HTML_TEXTS/'+textToLoad+'_reg.html');
         };
-        
         
         /*        To highlight the corresponding verses and move the scroll*/
         if ($("tr.highlight").length) {
@@ -250,6 +258,9 @@
             },
             100);
         };
+        };
+        
+        
         
         (this).blur();
     });
@@ -286,7 +297,7 @@
     /*CLICKING ON LINE-NUMBER / APPARATUS CRITICUS NEW WINDOW*/
     $('.text-container').on('click', 'td.line_number', function () {
         var clicked_line_num = $(this).children("span.edit_line").text();
-        window.open('traviz_window.php?line=' + clicked_line_num, '', 'height=300,width=1000, scrollbars=yes');
+        window.open('traviz_window.php?line=' + clicked_line_num, '', 'height=400,width=1200, scrollbars=yes');
     });
     
     /*    PRESSING UP-DOWN KEY*/
@@ -387,6 +398,7 @@
     
     $("input[name=language-selector]").click(function(){
         language = $(this).attr("value");
+        console.log(language);
         languageCheck(language);
         languageSelector(language);
     });
