@@ -3,7 +3,10 @@
     $('.form-control').prop('selectedIndex', 0);
     //Resets the text selectors to None
     
+    
+    
     /*    VARIABLES*/
+    var font_size = 18;
     var language = "en";
     var columnsNum = 3; //change number of columns
     var guide_ms = $("option[value*='krit']").first().attr("label");
@@ -115,8 +118,8 @@
     /*   END FUNCTIONS */
     
     /*    TITLE SIZES*/
-    var titleFontSize = 28; //Font-size when small, in case I would like to change it
-    $("#maereTitle").css("font-size", titleFontSize);
+    /*var titleFontSize = 10; //Font-size when small, in case I would like to change it
+    $("#maereTitle").css("font-size", titleFontSize);*/
     var titleHeight = $('#title').height();
     $("#text-titles-nav").css("top", titleHeight);
     var textTitlesNavHeight = $("#text-titles-nav").height();
@@ -183,7 +186,7 @@
     
     
     /*    LOAD TEXTS*/
-    $(".form-control").change(function () {
+    $(".form-control-text").change(function () {
         counter = counter + 1;
         if (counter == 1) {
             $("#row_introduction").addClass("hidden");
@@ -202,17 +205,19 @@
 /*        save in the columns_master array the information of the new text*/
         columns_master[columnToChange]['text'] = textToLoad;
         if (textToLoad == "references.html"){
-            columnObject.load('HTML_TEXTS/references.html', function(){languageCheck(language)});
+            columnObject.load('HTML_TEXTS/references.html', function(){languageCheck(language); $(".text-container").css("font-size", font_size+"px");});
         }
         else if(textToLoad == "wit_list"){
-            
+            columnObject.load('HTML_TEXTS/list_wit_'+maere+'.html', function(){languageCheck(language); $(".text-container").css("font-size", font_size+"px");});
         }
+        
         else{
             if (columns_master[columnToChange]['normal'] == false){
-            columnObject.load('HTML_TEXTS/'+textToLoad+'_orig.html');    
+            columnObject.load('HTML_TEXTS/'+textToLoad+'_orig.html', function(){$(".text-container").find("td").css("font-size", font_size+"px");});    
         }else{
-            columnObject.load('HTML_TEXTS/'+textToLoad+'_reg.html');
+            columnObject.load('HTML_TEXTS/'+textToLoad+'_reg.html', function(){$(".text-container").find("td").css("font-size", font_size+"px");});
         };
+
         
         /*        To highlight the corresponding verses and move the scroll*/
         if ($("tr.highlight").length) {
@@ -515,4 +520,12 @@
             actual_column.find("span.corresp_line").removeClass("hidden");
         }
     });
+
+    /*    Option: Font-size*/
+    $("select[id=font_control]").change(function () {
+        font_size = $(this).val();
+        $(".text-container").find("td").css("font-size", font_size+"px");
+        $(".text-container").css("font-size", font_size+"px");
+    });
+
 });
