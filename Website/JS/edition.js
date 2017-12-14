@@ -4,7 +4,6 @@
     //Resets the text selectors to None
     
     
-    
     /*    VARIABLES*/
     var font_size = 18;
     var language = "en";
@@ -16,18 +15,20 @@
     var automaticScrolling = false; //to change when using the automatic click scrolling, to avoid conflict with user scroll events
     var counter = 0;
     
-    var columns_master = [{'text':'herz', 'normal': false, 'abbr': false},
-    {'text':'herz', 'normal': false, 'abbr': false},
-    {'text':'herz', 'normal': false, 'abbr': false},
-    {'text':'herz', 'normal': false, 'abbr': false},
-    {'text':'herz', 'normal': false, 'abbr': false},
-    {'text':'herz', 'normal': false, 'abbr': false},
-    {'text':'herz', 'normal': false, 'abbr': false},
-    {'text':'herz', 'normal': false, 'abbr': false},
-    {'text':'herz', 'normal': false, 'abbr': false},
-    {'text':'herz', 'normal': false, 'abbr': false},
-    {'text':'herz', 'normal': false, 'abbr': false},
-    {'text':'herz', 'normal': false, 'abbr': false} ];
+    // The variable maere was created in a script in the header of edition.php
+
+    var columns_master = [{'normal': false, 'abbr': false},
+    {'normal': false, 'abbr': false},
+    {'normal': false, 'abbr': false},
+    {'normal': false, 'abbr': false},
+    {'normal': false, 'abbr': false},
+    {'normal': false, 'abbr': false},
+    {'normal': false, 'abbr': false},
+    {'normal': false, 'abbr': false},
+    {'normal': false, 'abbr': false},
+    {'normal': false, 'abbr': false},
+    {'normal': false, 'abbr': false},
+    {'normal': false, 'abbr': false} ];
                                             
     /*    END VARIABLES*/
     
@@ -302,7 +303,7 @@
     /*CLICKING ON LINE-NUMBER / APPARATUS CRITICUS NEW WINDOW*/
     $('.text-container').on('click', 'td.line_number', function () {
         var clicked_line_num = $(this).children("span.edit_line").text();
-        window.open('traviz_window.php?line=' + clicked_line_num, '', 'height=400,width=1200, scrollbars=yes');
+        window.open('traviz_window.php?maere=' + maere +'&line=' + clicked_line_num, '', 'height=400,width=1200, scrollbars=yes');
     });
     
     /*    PRESSING UP-DOWN KEY*/
@@ -430,11 +431,11 @@
             return $(this).parent().index() == column
         });
         if ($(this).is(":checked")) {
-            actual_column.find("span.expansion").removeClass("hidden");
-            actual_column.find("span.abbr").addClass("hidden");
+            actual_column.find("span.tei_expan").removeClass("hidden");
+            actual_column.find("span.tei_abbr").addClass("hidden");
         } else {
-            actual_column.find("span.expansion").addClass("hidden");
-            actual_column.find("span.abbr").removeClass("hidden");
+            actual_column.find("span.tei_expan").addClass("hidden");
+            actual_column.find("span.tei_abbr").removeClass("hidden");
         }
     });
     
@@ -445,23 +446,21 @@
             return $(this).parent().index() == column
         });
         if ($(this).is(":checked")) {
-            actual_column.find("span.del").removeClass("hidden");
-            actual_column.find("span.pal").removeClass("hidden");
-            actual_column.find("span.bracket").removeClass("hidden");
+            actual_column.find("span.tei_add").removeClass("hidden");
+            actual_column.find("span.tei_del").removeClass("hidden");
             actual_column.find("span.cue_initial").removeClass("hidden");
-            actual_column.find("span.hidden-initial").addClass("initial").removeClass("hidden-initial");
             actual_column.find("span.inner-span-decoration").parent("span").addClass("decoration");
             actual_column.find("span.tei_sic").removeClass("hidden");
             actual_column.find("span.tei_corr").addClass("hidden");
+            actual_column.find("span.tei_unclear").removeClass("hidden");
         } else {
-            actual_column.find("span.del").addClass("hidden");
-            actual_column.find("span.pal").addClass("hidden");
-            actual_column.find("span.bracket").addClass("hidden");
+            actual_column.find("span.tei_add").addClass("hidden");
+            actual_column.find("span.tei_del").addClass("hidden");
             actual_column.find("span.cue_initial").addClass("hidden");
-            actual_column.find("span.initial").removeClass("initial").addClass("hidden-initial");
             actual_column.find("span.decoration").removeClass("decoration");
             actual_column.find("span.tei_sic").addClass("hidden");
             actual_column.find("span.tei_corr").removeClass("hidden");
+            actual_column.find("span.tei_unclear").addClass("hidden");
         };
     });
     

@@ -84,7 +84,7 @@ td.verse{
 }
 /*Cells in third row of the text tables*/
 td.folioetc{
-    font-size: 14px;
+    font-size: 10px;
     display: inline-block;
     padding: 0px;
 }
@@ -275,11 +275,11 @@ thead tr td{
      font-style: italic;
 }
 
-.ex{
+/*.tei_ex{
     font-style: italic;
-}
+}*/
 
-.del{
+.tei_del{
     text-decoration: line-through;
 }
 

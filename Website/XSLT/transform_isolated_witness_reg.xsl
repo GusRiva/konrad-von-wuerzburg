@@ -77,7 +77,7 @@
     
     <xsl:template match="@xml:id"><xsl:attribute name="id"><xsl:value-of select="."/></xsl:attribute></xsl:template>
     
-    <xsl:template match="tei:w"><span class="tei_w"><xsl:apply-templates select="tei:orig"/></span></xsl:template>
+    <xsl:template match="tei:w"><span class="tei_w"><xsl:apply-templates select="tei:reg"/></span></xsl:template>
     <xsl:template match="tei:space">&#xA0;</xsl:template>
 
     <xsl:template match="tei:head"></xsl:template>
@@ -100,50 +100,52 @@
     </xsl:template>
     
     
-    <xsl:template match="tei:choice"><span class="tei_choice"><xsl:apply-templates select="@*|node()"/></span></xsl:template>
-    <xsl:template match="tei:abbr"><span class="tei_abbr"><xsl:apply-templates select="@*|node()" /></span></xsl:template>
-    <xsl:template match="tei:expan"><span class="tei_expan hidden"><xsl:apply-templates select="@*|node()" /></span></xsl:template> 
-    <xsl:template match="tei:am"><span class="tei_am"><xsl:apply-templates select="@*|node()"/></span></xsl:template>
-    <xsl:template match="tei:ex"><span class="tei_ex"><xsl:apply-templates select="@*|node()"/></span></xsl:template>
+    <xsl:template match="tei:choice"><span class="choice"><xsl:apply-templates select="@*|node()"/></span></xsl:template>
+    <xsl:template match="tei:abbr"><span class="abbr"><xsl:apply-templates select="@*|node()" /></span></xsl:template>
+    <xsl:template match="tei:expan"><span class="expansion hidden"><xsl:apply-templates select="@*|node()" /></span></xsl:template> 
+    <xsl:template match="tei:am"><span class="am"><xsl:apply-templates select="@*|node()"/></span></xsl:template>
+    <xsl:template match="tei:ex"><span class="ex"><xsl:apply-templates select="@*|node()"/></span></xsl:template>
     
-    <xsl:template match="tei:lb"><br/></xsl:template>
+    <xsl:template match="tei:lb">
+        <br><xsl:apply-templates  select="@*|node()"/></br>
+    </xsl:template>
     
     <xsl:template match="tei:subst"><xsl:apply-templates select="@*|node()"/></xsl:template>
     
-    <xsl:template match="tei:add">
-        <span class="tei_add">[</span><xsl:apply-templates select="node()"/><span class="tei_add">]</span>
-    </xsl:template>
-    
-    <xsl:template match="tei:corr">
-        <span class="tei_corr"><xsl:apply-templates select="@*|node()"/></span>
-    </xsl:template>
-    
     <xsl:template match="tei:del">
-        <span><xsl:attribute name="class">tei_del <xsl:value-of select="./@rend"></xsl:value-of></xsl:attribute><xsl:attribute name="title">deleted</xsl:attribute><xsl:apply-templates  select="node()"/></span>
+        <span><xsl:attribute name="class">del <xsl:value-of select="./@rend"></xsl:value-of></xsl:attribute><xsl:attribute name="title">deleted</xsl:attribute><xsl:apply-templates  select="node()"/></span>
     </xsl:template>
     
-    <xsl:template match="tei:metamark[@function='cue_initial']">
-        <span class="cue_initial">[</span><xsl:value-of select="."/><span class="cue_initial">]</span>
+    <xsl:template match="tei:add">
+         <span><xsl:attribute name="title">add <xsl:value-of select="./@place"/></xsl:attribute><span class="bracket">[</span><xsl:apply-templates select="node()"/><span class="bracket">]</span></span>
     </xsl:template>
     
-    <xsl:template match="tei:note[@place = 'margin']">
-        <span class="marginalia" title="marginalia">[<xsl:apply-templates select="node()"/>]</span>
-    </xsl:template>
-    
-    <xsl:template match="tei:pc">
-        <span class="tei_pc"><xsl:apply-templates select="@*|node()" /></span>
+    <xsl:template match="tei:unclear">
+        <span><xsl:attribute name="title">unclear</xsl:attribute><span class="bracket">[</span><xsl:apply-templates select="node()"/><span class="bracket">]</span></span>        
     </xsl:template>
     
     <xsl:template match="tei:sic">
         <span class="tei_sic"><xsl:apply-templates select="@*|node()"/></span>
     </xsl:template>
     
-    <xsl:template match="tei:supplied">
-        <span class="tei_supplied">(<xsl:apply-templates select="@*|node()" />)</span>
+    <xsl:template match="tei:corr">
+        <span class="tei_corr"><xsl:apply-templates select="@*|node()"/></span>
     </xsl:template>
     
-    <xsl:template match="tei:unclear">
-        <span class="tei_unclear">/*</span><xsl:apply-templates select="node()"/><span class="tei_unclear">*\</span>        
+    <xsl:template match="tei:pc">
+        <span class="punctuation"><xsl:apply-templates select="@*|node()" /></span>
+    </xsl:template>
+    
+    <xsl:template match="tei:supplied">
+        <span class="expan oculto"><xsl:apply-templates select="@*|node()" /></span>
+    </xsl:template>
+    
+    <xsl:template match="tei:note[@place = 'margin']">
+        <span class="marginalia" title="marginalia">[<xsl:apply-templates select="node()"/>]</span>
+    </xsl:template>
+    
+    <xsl:template match="tei:metamark[@function='cue_initial']">
+        <span class="cue_initial paleog">[<xsl:value-of select="."/>]</span>
     </xsl:template>
     
 <!--    Borra las etiquetas-->

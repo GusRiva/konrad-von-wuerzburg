@@ -79,9 +79,12 @@
     
     <xsl:template match="tei:app"><xsl:apply-templates select="@*|node()"/></xsl:template>
     <xsl:template match="tei:rdg"></xsl:template>
-    <xsl:template match="tei:lem">
+ <!--   <xsl:template match="tei:lem">
         <span class="tei:lem"><xsl:apply-templates select="@*|node()"/></span>
-    </xsl:template>
+    </xsl:template>-->
+    
+    <xsl:template match="tei:lem[not(parent::tei:app[@type='variation'])]"><span class="tei:lem italic"><xsl:variable name="variant"><xsl:for-each select="following-sibling::tei:rdg/tei:w"><xsl:value-of select="./tei:reg"/>&#160;</xsl:for-each></xsl:variable><xsl:attribute name="title"><xsl:value-of select="$variant"/></xsl:attribute><xsl:apply-templates select="@*|node()"/></span></xsl:template>
+    <xsl:template match="tei:lem[parent::tei:app[@type='variation']]"><span class="tei:lem"><xsl:variable name="variant"><xsl:for-each select="following-sibling::tei:rdg/tei:w"><xsl:value-of select="./tei:reg"/>&#160;</xsl:for-each></xsl:variable><xsl:attribute name="title"><xsl:value-of select="$variant"/></xsl:attribute><xsl:apply-templates select="@*|node()"/></span></xsl:template>
     
     <!--    Borra las etiquetas-->
     <xsl:template match="tei:TEI">
