@@ -13,6 +13,9 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
     <meta name="viewport" content="width=device-width, initial-scale=1"/> 
     <!-- My templates -->
+    <script type="text/javascript">
+		var maere=<?php echo json_encode($_GET["source"]); ?>;
+	</script>
     <link rel="stylesheet" type="text/css" href="CSS/dropdown-submenu-fix.css"/> 
     <link rel="stylesheet" type="text/css" href="CSS/edition.css"/> 
     <script src="JS/edition.js" type="text/javascript"></script>
@@ -27,7 +30,6 @@
 	// Load the XML source
 	$xml=simplexml_load_file($file_name) or die("Error: Cannot create object");
 	$xml -> registerXPathNamespace("tei", "http://www.tei-c.org/ns/1.0");
-	// $title = $xml -> xpath("/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title/tei:title[@type='text-title']");
 	$title = $textDict[$textKey]['title'];
 
 	?>

@@ -3,9 +3,17 @@ import re
 import codecs
 import json
 
+maere = 'herz' # possibilities: herz, dwl, hvk
+
+if maere == 'herz':
+    source = "/Applications/XAMPP/xamppfiles/htdocs/konrad/TEI/Herz_Synoptische_Transkription.xml"
+elif maere == 'dwl':
+    source = "/Applications/XAMPP/xamppfiles/htdocs/konrad/TEI/DWL_Synoptische_Transkription.xml"
+elif maere == 'hvk':
+    source = "/Applications/XAMPP/xamppfiles/htdocs/konrad/TEI/HvK_Synoptische_Transkription.xml"
+
 output = {}
 
-source = "/Applications/XAMPP/xamppfiles/htdocs/konrad/TEI/Herz_Synoptische_Transkription.xml"
 with codecs.open(source, "r", 'utf-8') as f:
     full_tree = etree.parse(f)
 def tei(tag):
@@ -99,8 +107,10 @@ with codecs.open("preproc_json.txt", encoding="utf-8") as file:
     text = text.replace("'",'"')
     text = str(text)
 
-with codecs.open("apparatus_reg.js", "w", encoding="utf-8") as new_file:
+output_file = maere + "_apparatus_reg.js"
+with codecs.open( output_file, "w", encoding="utf-8") as new_file:
     new_file.write("data_reg = '" + text + "'")
+
 
 #ORIGINAL
 output={}
@@ -128,6 +138,7 @@ with codecs.open("preproc_json.txt", encoding="utf-8") as file:
     text = text.replace("'",'"')
     text = str(text)
 
-with codecs.open("apparatus_orig.js", "w", encoding="utf-8") as new_file:
+output_file = maere + "_apparatus_orig.js"
+with codecs.open( output_file, "w", encoding="utf-8") as new_file:
     new_file.write("data_orig = '" + text + "'")
 

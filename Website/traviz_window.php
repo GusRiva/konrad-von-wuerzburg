@@ -2,8 +2,13 @@
 <html>
   <head>
     <title>Apparatus criticus</title>
-    <script type="text/javascript" src="apparatus_reg.js"></script>
-    <script type="text/javascript" src="apparatus_orig.js"></script>
+    <?php
+    $source_file_reg = $_GET['maere'].'_apparatus_reg.js';
+    $source_file_orig = $_GET['maere'].'_apparatus_orig.js';
+    echo "<script type='text/javascript' src='$source_file_reg'></script>
+          <script type='text/javascript' src='$source_file_orig'></script>"
+    ?>
+    
     <!-- jquery -->
     <link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css"/> 
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script> 
@@ -16,7 +21,6 @@
   </head>  
   <body>
   	<!-- The php gets the line number from the click event in parent window js.
-		Then it gets the relevant information from the TEI files and sends it to JS
   	 -->
   	<?php 
   		$line_number = $_GET['line']; 
