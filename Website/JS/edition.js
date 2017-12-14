@@ -15,20 +15,11 @@
     var automaticScrolling = false; //to change when using the automatic click scrolling, to avoid conflict with user scroll events
     var counter = 0;
     
-    // The variable maere was created in a script in the header of edition.php
-
-    var columns_master = [{'normal': false, 'abbr': false},
-    {'normal': false, 'abbr': false},
-    {'normal': false, 'abbr': false},
-    {'normal': false, 'abbr': false},
-    {'normal': false, 'abbr': false},
-    {'normal': false, 'abbr': false},
-    {'normal': false, 'abbr': false},
-    {'normal': false, 'abbr': false},
-    {'normal': false, 'abbr': false},
-    {'normal': false, 'abbr': false},
-    {'normal': false, 'abbr': false},
-    {'normal': false, 'abbr': false} ];
+    // this variable keeps track of the visualization options for each column from 0 to 11
+    var columns_master = []
+    for (i=0; i < 12; i++){
+        columns_master.push({'paleog': true,'normal': false, 'expan': false});
+    };
                                             
     /*    END VARIABLES*/
     
@@ -107,14 +98,33 @@
         });
     };
     
-/*    Hide/show paleographic*/
-    function paleog_on(){
-        $(".tei_sic").removeClass("hidden");
-        $(".tei_corr").addClass("hidden");
+    // Hide/show paleographic
+    function paleog_on(actual_column){
+        actual_column.find("span.tei_add").removeClass("hidden");
+        actual_column.find("span.tei_del").removeClass("hidden");
+        actual_column.find("span.cue_initial").removeClass("hidden");
+        actual_column.find("span.inner-span-decoration").parent("span").addClass("decoration");
+        actual_column.find("span.tei_sic").removeClass("hidden");
+        actual_column.find("span.tei_corr").addClass("hidden");
+        actual_column.find("span.tei_unclear").removeClass("hidden");
     };
-    function paleog_off(){
-        $(".tei_sic").addClass("hidden");
-        $(".tei_corr").removeClass("hidden");
+    function paleog_off(actual_column){
+        actual_column.find("span.tei_add").addClass("hidden");
+        actual_column.find("span.tei_del").addClass("hidden");
+        actual_column.find("span.cue_initial").addClass("hidden");
+        actual_column.find("span.decoration").removeClass("decoration");
+        actual_column.find("span.tei_sic").addClass("hidden");
+        actual_column.find("span.tei_corr").removeClass("hidden");
+        actual_column.find("span.tei_unclear").addClass("hidden");
+    };
+    // Hide/show abbreviations
+    function expan_on(actual_column){
+        actual_column.find("span.tei_expan").removeClass("hidden");
+        actual_column.find("span.tei_abbr").addClass("hidden");
+    };
+    function expan_off(actual_column){
+        actual_column.find("span.tei_expan").addClass("hidden");
+        actual_column.find("span.tei_abbr").removeClass("hidden");
     };
     /*   END FUNCTIONS */
     
@@ -264,8 +274,22 @@
             },
             100);
         };
+
+        // Visualize correctly according to selection
+        var visualize = setTimeout(function(){
+            if (columns_master[columnToChange]['paleog'] == true){
+                paleog_on(columnObject);
+            }else{
+                paleog_off(columnObject);
+            };
+            if (columns_master[columnToChange]['expan'] == true){
+                expan_on(columnObject);
+            }else{
+                expan_off(columnObject);
+            };
+        },500);
+
         };
-        
         
         
         (this).blur();
@@ -431,36 +455,26 @@
             return $(this).parent().index() == column
         });
         if ($(this).is(":checked")) {
-            actual_column.find("span.tei_expan").removeClass("hidden");
-            actual_column.find("span.tei_abbr").addClass("hidden");
+            columns_master[column]['expan'] = true;
+            expan_on(actual_column);
         } else {
-            actual_column.find("span.tei_expan").addClass("hidden");
-            actual_column.find("span.tei_abbr").removeClass("hidden");
+            columns_master[column]['expan'] = false;
+            expan_off(actual_column);
         }
     });
     
     /*    Option: Paleographic view*/
     $("input[name=korrekturen]").change(function () {
-        var column = ($(this).parents(".text-title")).index();
+        var column = ($(this).parents(".text-title")).index(); 
         var actual_column = $(".text-container").filter(function () {
             return $(this).parent().index() == column
         });
         if ($(this).is(":checked")) {
-            actual_column.find("span.tei_add").removeClass("hidden");
-            actual_column.find("span.tei_del").removeClass("hidden");
-            actual_column.find("span.cue_initial").removeClass("hidden");
-            actual_column.find("span.inner-span-decoration").parent("span").addClass("decoration");
-            actual_column.find("span.tei_sic").removeClass("hidden");
-            actual_column.find("span.tei_corr").addClass("hidden");
-            actual_column.find("span.tei_unclear").removeClass("hidden");
+            columns_master[column]['paleog'] = true;
+            paleog_on(actual_column);
         } else {
-            actual_column.find("span.tei_add").addClass("hidden");
-            actual_column.find("span.tei_del").addClass("hidden");
-            actual_column.find("span.cue_initial").addClass("hidden");
-            actual_column.find("span.decoration").removeClass("decoration");
-            actual_column.find("span.tei_sic").addClass("hidden");
-            actual_column.find("span.tei_corr").removeClass("hidden");
-            actual_column.find("span.tei_unclear").addClass("hidden");
+            columns_master[column]['paleog'] = false;
+            paleog_off(actual_column);
         };
     });
     
