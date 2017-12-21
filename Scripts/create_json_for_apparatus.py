@@ -3,14 +3,16 @@ import re
 import codecs
 import json
 
-maere = 'herz' # possibilities: herz, dwl, hvk
+maere = 'dwl' # possibilities: herz, dwl, hvk
+
+path = '/Applications/XAMPP/xamppfiles/htdocs/konrad/'
 
 if maere == 'herz':
-    source = "/Applications/XAMPP/xamppfiles/htdocs/konrad/TEI/Herz_Synoptische_Transkription.xml"
+    source = path + "TEI/Herz_Synoptische_Transkription.xml"
 elif maere == 'dwl':
-    source = "/Applications/XAMPP/xamppfiles/htdocs/konrad/TEI/DWL_Synoptische_Transkription.xml"
+    source = path + "TEI/DWL_Synoptische_Transkription.xml"
 elif maere == 'hvk':
-    source = "/Applications/XAMPP/xamppfiles/htdocs/konrad/TEI/HvK_Synoptische_Transkription.xml"
+    source = path + "TEI/HvK_Synoptische_Transkription.xml"
 
 output = {}
 
@@ -96,19 +98,20 @@ for line in full_tree.iter(tei('l')):
             count = count + 1
 
 output = [output]
-file = codecs.open("/Applications/XAMPP/xamppfiles/htdocs/konrad/preproc_json.txt", "w", "utf-8")
 output = str(output)
+print(output[126550:126599])
+file = codecs.open(path + "preproc_json.txt", "w", "utf-8")
 file.write(output)
 file.close()
 
 
-with codecs.open("preproc_json.txt", encoding="utf-8") as file:
+with codecs.open(path + "preproc_json.txt", encoding="utf-8") as file:
     text = file.read()
     text = text.replace("'",'"')
     text = str(text)
 
 output_file = maere + "_apparatus_reg.js"
-with codecs.open( output_file, "w", encoding="utf-8") as new_file:
+with codecs.open( path + output_file, "w", encoding="utf-8") as new_file:
     new_file.write("data_reg = '" + text + "'")
 
 
@@ -128,17 +131,17 @@ for line in full_tree.iter(tei('l')):
 
 output = [output]
 output = str(output)
-file = codecs.open("/Applications/XAMPP/xamppfiles/htdocs/konrad/preproc_json.txt", "w", "utf-8")
+file = codecs.open(path + "preproc_json.txt", "w", "utf-8")
 file.write(output)
 file.close()
 
 
-with codecs.open("preproc_json.txt", encoding="utf-8") as file:
+with codecs.open(path + "preproc_json.txt", encoding="utf-8") as file:
     text = file.read()
     text = text.replace("'",'"')
     text = str(text)
 
 output_file = maere + "_apparatus_orig.js"
-with codecs.open( output_file, "w", encoding="utf-8") as new_file:
+with codecs.open( path + output_file, "w", encoding="utf-8") as new_file:
     new_file.write("data_orig = '" + text + "'")
 
