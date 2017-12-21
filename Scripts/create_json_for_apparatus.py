@@ -99,7 +99,6 @@ for line in full_tree.iter(tei('l')):
 
 output = [output]
 output = str(output)
-print(output[126550:126599])
 file = codecs.open(path + "preproc_json.txt", "w", "utf-8")
 file.write(output)
 file.close()
