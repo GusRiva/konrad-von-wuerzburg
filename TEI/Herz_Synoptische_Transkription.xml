@@ -1,5 +1,5 @@
-﻿<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+﻿<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -29423,9 +29423,10 @@
                 <w><orig>zwei</orig><reg>zwei</reg></w><c type="space"/>
                 <w><orig>ſinre</orig><reg>sîner</reg></w><c type="space"/>
                 <w><orig>not</orig><reg>not</reg></w></rdg>
-              <rdg n="362" xml:space="preserve" wit="#B"><w><orig>Vnd</orig><reg>und</reg></w><c type="space"/>
+              <rdg n="362" xml:space="preserve" wit="#B">
+                <w><orig>Vnd</orig><reg>und</reg></w><c type="space"/>
                 <w><orig>das</orig><reg>daz</reg></w><c type="space"/>
-                <w><orig>ſolchs</orig><reg>solches</reg></w><space></space>
+                <w><orig>ſolchs</orig><reg>solches</reg></w><c type="space"></c>
                 <w><orig>ſein</orig><reg>sîn</reg></w><c type="space"/>
                 <w><orig>nott</orig><reg>not</reg></w></rdg>
               <rdg n="405" xml:space="preserve" wit="#D"><w><orig>vnd</orig><reg>und</reg></w><c type="space"/>
@@ -32315,7 +32316,7 @@
                 <w><orig>werden</orig><reg>werden</reg></w><c type="space"/>
                 <w><orig>munt</orig><reg>munt</reg></w></rdg>
               <rdg n="406a" xml:space="preserve" wit="#B" type="missing"/>
-              <rdg n="442" xml:space="preserve" wit="#D"><w><orig><hi rend="cue_initial"><unclear>F</unclear></hi>unt</orig><reg>?unt</reg></w><c type="space"/>
+              <rdg n="442" xml:space="preserve" wit="#D"><w><orig><metamark function="cue_initial">F</metamark>unt</orig><reg>vunt</reg></w><c type="space"/>
                 <w><orig>ſy</orig><reg>sie</reg></w><c type="space"/>
                 <w><orig>ſo</orig><reg>sô</reg></w><c type="space"/>
                 <w><orig>ſüſz</orig><reg>süeze</reg></w><c type="space"/>
