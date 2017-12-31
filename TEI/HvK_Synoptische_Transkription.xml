@@ -124,21 +124,14 @@
                       <persName>chaiser otten</persName></hi></orig><reg>Von
                       chaiser otten</reg></w></rdg>
             <rdg xml:space="preserve" xml:id="K_242r_a._line_1" n="" wit="#K"><w><orig><hi rend="color:red">Ditz iſt von
-                      <persName>keiſer otten</persName> ein m<rhyme n="1">er</rhyme>
-                    <lb/>Nv helf vns got von aller ſwer</hi></orig><reg>Ditz iſt von
-                      keiſer otten ein mer
-                    Nv helf vns got von aller ſwer</reg></w></rdg>
-            <rdg xml:space="preserve" xml:id="P_241r_a._line_1" n="" wit="#P"><w><orig><hi rend="color:red">Ditz buchel
+                      <persName>keiſer otten</persName> ein mer
+                    <lb type="verse"/>Nv helf vns got von aller ſwer</hi></orig></w></rdg>
+            <rdg xml:space="preserve" xml:id="P_241r_a._line_1" n="" wit="#P"><hi rend="color:red">Ditz buchel
                     iſt keyſer otte <choice>
                       <abbr>gen<am>ā</am>t</abbr>
                       <expan>gena<ex>n</ex>t</expan>
                     </choice>
-                    <lb type="in_verse"/>Got der helf vnſ in ſin lant</hi></orig><reg>Ditz buchel
-                    iſt keyſer otte 
-                      genāt
-                      genant
-                    
-                    Got der helf vnſ in ſin lant</reg></w></rdg>
+                    <lb type="verse"/>Got der helf vnſ in ſin lant</hi></rdg>
             <rdg xml:space="preserve" xml:id="V_205v_a._line_1" n="" wit="#V"><w><orig><hi rend="color:red">Von
                       <persName>kaiser Otten</persName></hi></orig><reg>Von
                       kaiser Otten</reg></w></rdg>
@@ -149,11 +142,11 @@
               <w><orig>Oto</orig><reg>Oto</reg></w><c type="space"/>
               <w><orig>vnd</orig><reg>und</reg></w><c type="space"/>
               <w><orig>hat</orig><reg>hat</reg></w><c type="space"/>
-              <w><orig><lb/>geticht</orig><reg>geticht</reg></w><c type="space"/>
+              <w><orig><lb type="prose"/>geticht</orig><reg>geticht</reg></w><c type="space"/>
               <w><orig>maiſter</orig><reg>maiſter</reg></w><c type="space"/>
               <w><orig>Chunrad</orig><reg>Chunrad</reg></w><c type="space"/>
               <w><orig>von</orig><reg>von</reg></w><c type="space"/>
-              <w><orig>Wirz<lb type="in_verse"/>pur<unclear>kh</unclear><pc>.</pc></orig><reg>Wirzpurkh.</reg></w></rdg>
+              <w><orig>Wirz<lb type="prose"/>pur<unclear>kh</unclear><pc>.</pc></orig><reg>Wirzpurkh.</reg></w></rdg>
           </app>
         </head>
         <cb edRef="#P" facs="#P_241r_b"/>
@@ -5675,9 +5668,9 @@
                 <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
                 <w><orig>vertrag</orig><reg>vertrag</reg></w><c type="space"/>
                 <w><orig>ſin</orig><reg>sîn</reg></w><c type="space"/>
-                <w><orig>længer</orig><reg>længer</reg></w><c type="space"/>
+                <w><orig>laenger</orig><reg>laenger</reg></w><c type="space"/>
                 <w><orig>n<rhyme n="1">iht</rhyme></orig><reg>niht</reg></w></rdg>
-              <note>'e' beim 'æ' ist kleiner</note>
+              <note>'e' beim 'ae' ist kleiner</note>
               <rdg xml:space="preserve" type="transposed" xml:id="V_207r_a.v_135_line_11" n="135" wit="#V"><w><orig><hi rend="decoration color:red">W</hi>an</orig><reg>Wan</reg></w><c type="space"/>
                 <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
                 <w><orig><choice>

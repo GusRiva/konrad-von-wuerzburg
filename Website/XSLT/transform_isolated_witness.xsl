@@ -126,6 +126,10 @@
         <span class="cue_initial">[</span><xsl:value-of select="."/><span class="cue_initial">]</span>
     </xsl:template>
     
+    <xsl:template match="tei:metamark[not(@function='cue_initial')]">
+        <span class="tei_metamark"></span>
+    </xsl:template>
+    
     <xsl:template match="tei:note[@place = 'margin']">
         <span class="marginalia" title="marginalia">[<xsl:apply-templates select="node()"/>]</span>
     </xsl:template>
