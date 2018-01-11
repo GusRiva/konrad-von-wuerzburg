@@ -72,7 +72,7 @@
     <xsl:template match="tei:w"><xsl:apply-templates select="tei:orig"/></xsl:template>
     <xsl:template match="tei:orig"><xsl:value-of select="."/></xsl:template>
     
-    <xsl:template match="tei:space">&#160;</xsl:template>
+    <xsl:template match="tei:c[@type='space']">&#160;</xsl:template>
     
     <xsl:template match="tei:pc">
         <span class="tei:pc"><xsl:apply-templates select="@*|node()" /></span>

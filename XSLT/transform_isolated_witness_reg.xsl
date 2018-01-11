@@ -77,8 +77,7 @@
     
     <xsl:template match="@xml:id"><xsl:attribute name="id"><xsl:value-of select="."/></xsl:attribute></xsl:template>
     
-    <xsl:template match="tei:w"><span class="tei_w"><xsl:apply-templates select="tei:reg"/></span></xsl:template>
-    <xsl:template match="tei:space">&#xA0;</xsl:template>
+    <xsl:template match="tei:w">&#xA0;<span class="tei_w"><xsl:apply-templates select="tei:reg"/></span></xsl:template>
 
     <xsl:template match="tei:head"></xsl:template>
     

@@ -2,7 +2,7 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0">
     
     <xsl:output method="xml" omit-xml-declaration="yes" encoding="UTF-8" indent="no" />
-
+    
     <xsl:template match="@*|node()">
         <xsl:copy >
             <xsl:apply-templates select="@*|node()" />
@@ -14,49 +14,49 @@
     
     
     <xsl:template name="table-row">
-            <td class="line_number">
-                <span class="ms_line"><xsl:value-of select="./@n"/></span><span class="edit_line hidden"><xsl:value-of select="substring(ancestor::tei:l[1]/@xml:id,3)"/></span><span class="corresp_line hidden">s<xsl:value-of select="substring-after(ancestor::tei:l[1]/@corresp, '_')"/></span>
-            </td>
-            <td class="verse">    
-                <xsl:apply-templates select="node()"/>
-            </td>
-            <td class="folioetc">
-<!--                This first when is for the texts with columns, the second for those without-->
-                <xsl:choose>
-                    <xsl:when test="preceding::tei:cb">
-                        <a target="_blank">
-                            <xsl:attribute name="href">
+        <td class="line_number">
+            <span class="ms_line"><xsl:value-of select="./@n"/></span><span class="edit_line hidden"><xsl:value-of select="substring(ancestor::tei:l[1]/@xml:id,3)"/></span><span class="corresp_line hidden">s<xsl:value-of select="substring-after(ancestor::tei:l[1]/@corresp, '_')"/></span>
+        </td>
+        <td class="verse">    
+            <xsl:apply-templates select="node()"/>
+        </td>
+        <td class="folioetc">
+            <!--                This first when is for the texts with columns, the second for those without-->
+            <xsl:choose>
+                <xsl:when test="preceding::tei:cb">
+                    <a target="_blank">
+                        <xsl:attribute name="href">
                             <xsl:for-each select="key('columnbreak', @n)">
                                 <xsl:value-of select="./@ed"/>
                             </xsl:for-each>
                         </xsl:attribute>
-                            <xsl:for-each select="key('columnbreak', @n)">
-                                <xsl:value-of select="substring(./@facs, 4)"/>
+                        <xsl:for-each select="key('columnbreak', @n)">
+                            <xsl:value-of select="substring(./@facs, 4)"/>
+                        </xsl:for-each>
+                    </a>
+                </xsl:when>
+                <xsl:otherwise>
+                    <a target="_blank">
+                        <xsl:attribute name="href">
+                            <xsl:for-each select="key('pagebreak', @n)">
+                                <xsl:value-of select="./@ed"/>
                             </xsl:for-each>
-                        </a>
-                    </xsl:when>
-                    <xsl:otherwise>
-                        <a target="_blank">
-                            <xsl:attribute name="href">
-                                <xsl:for-each select="key('pagebreak', @n)">
-                                    <xsl:value-of select="./@ed"/>
-                                </xsl:for-each>
-                            </xsl:attribute>
+                        </xsl:attribute>
                         <xsl:for-each select="key('pagebreak', @n)">
                             <xsl:value-of select="substring(./@facs, 4)"/>
                         </xsl:for-each>
-                        </a>
-                    </xsl:otherwise>
-                </xsl:choose>
-<!--                This inserts other options in the third column-->
-                <xsl:choose>
-                    <xsl:when test="./@type='transposed'">
-                        <span class="glyphicon glyphicon-arrow-left btn-transposed" title="Verse transposed in at least one witness. View apparatus for more details"></span>
-                    </xsl:when>
-                </xsl:choose>
-            </td>
+                    </a>
+                </xsl:otherwise>
+            </xsl:choose>
+            <!--                This inserts other options in the third column-->
+            <xsl:choose>
+                <xsl:when test="./@type='transposed'">
+                    <span class="glyphicon glyphicon-arrow-left btn-transposed" title="Verse transposed in at least one witness. View apparatus for more details"></span>
+                </xsl:when>
+            </xsl:choose>
+        </td>
     </xsl:template>
-
+    
     <xsl:template match="tei:div">
         <table class="text">
             <xsl:for-each select="tei:head/tei:app/tei:rdg">
@@ -78,8 +78,8 @@
     <xsl:template match="@xml:id"><xsl:attribute name="id"><xsl:value-of select="."/></xsl:attribute></xsl:template>
     
     <xsl:template match="tei:w"><span class="tei_w"><xsl:apply-templates select="tei:orig"/></span></xsl:template>
-    <xsl:template match="tei:space">&#xA0;</xsl:template>
-
+    <xsl:template match="tei:c[@type='space']">&#xA0;</xsl:template>
+    
     <xsl:template match="tei:head"></xsl:template>
     
     <xsl:template match="tei:hi[contains(@rend,'decoration')]">
@@ -110,8 +110,12 @@
     
     <xsl:template match="tei:subst"><xsl:apply-templates select="@*|node()"/></xsl:template>
     
-    <xsl:template match="tei:add">
+    <xsl:template match="tei:add[not(@place='inline')]">
         <span class="tei_add">[</span><xsl:apply-templates select="node()"/><span class="tei_add">]</span>
+    </xsl:template>
+    
+    <xsl:template match="tei:add[@place='inline']">
+        <span class="tei_add_inline"><xsl:apply-templates select="node()"/></span>
     </xsl:template>
     
     <xsl:template match="tei:corr">
@@ -127,7 +131,7 @@
     </xsl:template>
     
     <xsl:template match="tei:metamark[not(@function='cue_initial')]">
-        <span class="tei_metamark"></span>
+        <span class="tei_metamark"><xsl:apply-templates select="@* | node()"/></span><span class="tei_metamark_space">&#xA0;</span>
     </xsl:template>
     
     <xsl:template match="tei:note[@place = 'margin']">
@@ -150,7 +154,7 @@
         <span class="tei_unclear">/*</span><xsl:apply-templates select="node()"/><span class="tei_unclear">*\</span>        
     </xsl:template>
     
-<!--    Borra las etiquetas-->
+    <!--    Borra las etiquetas-->
     <xsl:template match="tei:TEI">
         <xsl:apply-templates select="@*|node()"/>
     </xsl:template>
@@ -165,5 +169,5 @@
     
     <xsl:template match="tei:teiHeader"></xsl:template>
     
- 
+    
 </xsl:stylesheet>
