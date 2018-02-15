@@ -31,20 +31,34 @@ def get_words_reg(elem):
 
 def get_words_orig(elem):
     text = ""
-    for orig in elem.iter():
-        if orig.tag == tei('orig'):
-            if orig.text:
-                text = text + orig.text
-            for child in orig:
-                text = text + dig_orig(child)
-        elif orig.tag == tei('c'):
+    for levelOneEl in elem.findall("./"):
+        if levelOneEl.tag == tei('w'):
+            for orig in levelOneEl:
+                if orig.tag == tei('orig'):
+                    if orig.text:
+                        text = text + orig.text
+                    for child in orig:
+                        text = text + dig_orig(child)
+        elif levelOneEl.tag == tei('c'):
             text = text + ' '
+        elif levelOneEl.tag == tei('add') or levelOneEl.tag == tei('hi') or levelOneEl.tag == tei('choice') or levelOneEl.tag == tei('subst'):
+            text = text + dig_orig(levelOneEl)
     text = re.sub('\n','',text)
     return text
 
 def dig_orig(elem):
     text = ''
-    if elem.tag == tei('choice') or elem.tag == tei('subst'):
+    if elem.tag == tei('w'):
+        for child in elem:
+            text = text + dig_orig(child)
+        return text
+    elif elem.tag == tei('orig'):
+        if elem.text:
+            text = text + elem.text
+        for child in elem:
+            text = text + dig_orig(child)
+        return text
+    elif elem.tag == tei('choice') or elem.tag == tei('subst'):
         for child in elem:
             if child.tag == tei('expan') or child.tag == tei('add'):
                 text = text + dig_orig(child)
@@ -52,7 +66,8 @@ def dig_orig(elem):
     elif elem.tag == tei('expan') or elem.tag == tei('add'):
         if elem.text:
             text = text + elem.text
-            for child in elem:
+        for child in elem:
+            if child.tag == tei('w'):
                 text = text + dig_orig(child)
         return text
     elif elem.tag == tei('ex'):
@@ -61,7 +76,7 @@ def dig_orig(elem):
         if elem.tail:
             text = text + elem.tail
         return text
-    elif elem.tag == tei('abbr') or elem.tag == tei('am') or elem.tag == tei('del') or elem.tag == tei('sic'):
+    elif elem.tag == tei('abbr') or elem.tag == tei('am') or elem.tag == tei('del') or elem.tag == tei('sic') or elem.tag == tei('reg'):
         return ''  
     elif elem.tag == tei('corr'):
         if elem.text:
