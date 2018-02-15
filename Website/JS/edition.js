@@ -18,7 +18,7 @@
     // this variable keeps track of the visualization options for each column from 0 to 11
     var columns_master = []
     for (i=0; i < 12; i++){
-        columns_master.push({'paleog': true,'normal': false, 'expan': false});
+        columns_master.push({'punct':true,'expan': false, 'del': true, 'add': true, 'hi': true,'normal': false});
     };
                                             
     /*    END VARIABLES*/
@@ -98,24 +98,41 @@
         });
     };
     
-    // Hide/show paleographic
-    function paleog_on(actual_column){
+    function add_on (actual_column){
         actual_column.find("span.tei_add").removeClass("hidden");
-        actual_column.find("span.tei_del").removeClass("hidden");
-        actual_column.find("span.cue_initial").removeClass("hidden");
-        actual_column.find("span.inner-span-decoration").parent("span").addClass("decoration");
+    };
+    function add_off (actual_column){
+        actual_column.find("span.tei_add").addClass("hidden");
+    };
+    function corr_on (actual_column){
+        actual_column.find("span.tei_sic").addClass("hidden");
+        actual_column.find("span.tei_corr").removeClass("hidden");
+    };
+    function corr_off (actual_column){
         actual_column.find("span.tei_sic").removeClass("hidden");
         actual_column.find("span.tei_corr").addClass("hidden");
+    };
+    function del_on(actual_column){
+        actual_column.find("span.tei_del").removeClass("hidden");
+        actual_column.find("span.inner-span-decoration").parent("span").addClass("decoration");
+        actual_column.find("span.tei_sic").removeClass("hidden");
+        actual_column.find("span.tei_metamark_space").addClass("hidden"); //When the metamark hides, a space gets placed there
         actual_column.find("span.tei_unclear").removeClass("hidden");
     };
-    function paleog_off(actual_column){
-        actual_column.find("span.tei_add").addClass("hidden");
+    function del_off(actual_column){
         actual_column.find("span.tei_del").addClass("hidden");
         actual_column.find("span.cue_initial").addClass("hidden");
         actual_column.find("span.decoration").removeClass("decoration");
-        actual_column.find("span.tei_sic").addClass("hidden");
-        actual_column.find("span.tei_corr").removeClass("hidden");
+        actual_column.find("span.tei_metamark").removeClass("hidden");
         actual_column.find("span.tei_unclear").addClass("hidden");
+    };
+    function hi_on(actual_column){
+        actual_column.find("span.tei_hi").removeClass("hidden");
+        actual_column.find("span.tei_metamark").removeClass("hidden");
+    };
+    function hi_off(actual_column){
+        actual_column.find("span.tei_hi").addClass("hidden");
+        actual_column.find("span.tei_metamark").addClass("hidden");
     };
     // Hide/show abbreviations
     function expan_on(actual_column){
@@ -449,67 +466,99 @@
     
     /*    Option: Abreviations*/
     /*   Single witness         */
-    $("input[name=abbreviaturen]").click(function () {
+    // $("input[name=abbr]").click(function () {
+    //     var column = ($(this).parents(".text-title")).index();
+    //     var actual_column = $(".text-container").filter(function () {
+    //         return $(this).parent().index() == column
+    //     });
+    //     if ($(this).is(":checked")) {
+    //         columns_master[column]['expan'] = true;
+    //         expan_on(actual_column);
+    //     } else {
+    //         columns_master[column]['expan'] = false;
+    //         expan_off(actual_column);
+    //     }
+    // });
+
+    function visual_on(column, input_name){
+        actual_column.find("span.tei_add").removeClass("hidden");
+    };
+
+    $("input").click(function(){
+        var input_name = $(this).attr("name");
         var column = ($(this).parents(".text-title")).index();
         var actual_column = $(".text-container").filter(function () {
-            return $(this).parent().index() == column
-        });
+             return $(this).parent().index() == column
+         });
         if ($(this).is(":checked")) {
-            columns_master[column]['expan'] = true;
-            expan_on(actual_column);
+            columns_master[column][input_name] = true;
+            visual_on(actual_column, input_name);
         } else {
-            columns_master[column]['expan'] = false;
-            expan_off(actual_column);
+            columns_master[column][input_name] = false;
+            visual_off(actual_column, input_name);
         }
     });
     
-    /*    Option: Paleographic view*/
-    $("input[name=korrekturen]").change(function () {
-        var column = ($(this).parents(".text-title")).index(); 
-        var actual_column = $(".text-container").filter(function () {
-            return $(this).parent().index() == column
-        });
-        if ($(this).is(":checked")) {
-            columns_master[column]['paleog'] = true;
-            paleog_on(actual_column);
-        } else {
-            columns_master[column]['paleog'] = false;
-            paleog_off(actual_column);
-        };
-    });
+    // $("input[name=corr]").change(function () {
+    //     var column = ($(this).parents(".text-title")).index(); 
+    //     var actual_column = $(".text-container").filter(function () {
+    //         return $(this).parent().index() == column
+    //     });
+    //     if ($(this).is(":checked")) {
+    //         columns_master[column]['corr'] = true;
+    //         paleog_on(actual_column);
+    //     } else {
+    //         columns_master[column]['corr'] = false;
+    //         paleog_off(actual_column);
+    //     };
+    // });
     
-    /*    Option: Normalised Text*/
-    $("input[name=normalizierung]").change(function () {
-        var columnIndex = ($(this).parents(".text-title")).index(); //index of the column starting at 0
-        
-        var columnObject = $(".text-container").filter(function () {
-        // the actual JQuery object for the column to change
-            return $(this).parents(".edition-text").index() == columnIndex;
-        });
-        columnObject.empty();
-        
-        if ($(this).is(":checked")) {
-            columnObject.load('HTML_TEXTS/'+columns_master[columnIndex]['text']+'_reg.html');
-            columns_master[columnIndex]['normal'] = true;
-        } else {
-            columnObject.load('HTML_TEXTS/'+columns_master[columnIndex]['text']+'_orig.html');
-            columns_master[columnIndex]['normal'] = false;
-        };
-        
-    });
+    // $("input[name=del]").change(function () {
+    //     var column = ($(this).parents(".text-title")).index(); 
+    //     var actual_column = $(".text-container").filter(function () {
+    //         return $(this).parent().index() == column
+    //     });
+    //     if ($(this).is(":checked")) {
+    //         columns_master[column]['del'] = true;
+    //         del_on(actual_column);
+    //     } else {
+    //         columns_master[column]['del'] = false;
+    //         del_off(actual_column);
+    //     };
+    // });
     
-    /*    Option: Right Margin References*/
-    $("input[name=notes]").change(function () {
-        var column = ($(this).parents(".text-title")).index();
-        var actual_column = $(".text-container").filter(function () {
-            return $(this).parent().index() == column
-        });
-        if ($(this).is(":checked")) {
-            actual_column.find("td.folioetc").removeClass("hidden");
-        } else {
-            actual_column.find("td.folioetc").addClass("hidden");
-        };
-    });
+    // /*    Option: Normalised Text*/
+    // $("input[name=normalizierung]").change(function () {
+    //     var columnIndex = ($(this).parents(".text-title")).index(); //index of the column starting at 0
+        
+    //     var columnObject = $(".text-container").filter(function () {
+    //     // the actual JQuery object for the column to change
+    //         return $(this).parents(".edition-text").index() == columnIndex;
+    //     });
+    //     columnObject.empty();
+        
+    //     if ($(this).is(":checked")) {
+    //         columnObject.load('HTML_TEXTS/'+columns_master[columnIndex]['text']+'_reg.html');
+    //         columns_master[columnIndex]['normal'] = true;
+    //     } else {
+    //         columnObject.load('HTML_TEXTS/'+columns_master[columnIndex]['text']+'_orig.html');
+    //         columns_master[columnIndex]['normal'] = false;
+    //     };
+        
+    // });
+    
+    // /*    Option: Right Margin References*/
+    // $("input[name=notes]").change(function () {
+    //     var column = ($(this).parents(".text-title")).index();
+    //     var actual_column = $(".text-container").filter(function () {
+    //         return $(this).parent().index() == column
+    //     });
+    //     if ($(this).is(":checked")) {
+    //         actual_column.find("td.folioetc").removeClass("hidden");
+    //     } else {
+    //         actual_column.find("td.folioetc").addClass("hidden");
+    //     };
+    // });
     
     
     /*    Option: Numbering (Manuscript or Edition)*/
