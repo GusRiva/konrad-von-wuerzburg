@@ -29,6 +29,19 @@ def get_words_reg(elem):
     			text = text + word.text + " "
     return text
 
+def get_words_orig(elem):
+    text = ""
+    for orig in elem.iter():
+        if orig.tag == tei('orig'):
+            if orig.text:
+                text = text + orig.text
+            for child in orig:
+                text = text + dig_orig(child)
+        elif orig.tag == tei('c'):
+            text = text + ' '
+    text = re.sub('\n','',text)
+    return text
+
 def dig_orig(elem):
     text = ''
     if elem.tag == tei('choice') or elem.tag == tei('subst'):
@@ -70,19 +83,6 @@ def dig_orig(elem):
         return text
     else:
         return text
-
-def get_words_orig(elem):
-    text = ""
-    for orig in elem.iter():
-        if orig.tag == tei('orig'):
-            if orig.text:
-                text = text + orig.text
-            for child in orig:
-                text = text + dig_orig(child)
-        elif orig.tag == tei('space'):
-            text = text + ' '
-    text = re.sub('\n','',text)
-    return text
 
 #REGULARIZED
 for line in full_tree.iter(tei('l')):
