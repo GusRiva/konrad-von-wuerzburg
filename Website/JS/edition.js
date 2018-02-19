@@ -1,12 +1,11 @@
 ﻿$(document).ready(function () {
-    
+
     $('.form-control').prop('selectedIndex', 0);
     //Resets the text selectors to None
     
     
     /*    VARIABLES*/
     var font_size = 18;
-    var language = "en";
     var columnsNum = 3; //change number of columns
     var guide_ms = $("option[value*='krit']").first().attr("label");
     var extensiveEdition = false;
@@ -18,7 +17,7 @@
     // this variable keeps track of the visualization options for each column from 0 to 11
     var columns_master = []
     for (i=0; i < 12; i++){
-        columns_master.push({'punct':true,'expan': false, 'del': true, 'add': true, 'hi': true,'normal': false});
+        columns_master.push({'pc':true,'expan': false, 'del': true, 'add': true, 'hi': true,'normal': false});
     };
                                             
     /*    END VARIABLES*/
@@ -97,52 +96,17 @@
             }
         });
     };
+
+    // For the visualization
+    function visual_on(column, input_name){
+        element = "span.tei_" + input_name;
+        column.find(element).removeClass("hidden");
+    };
+    function visual_off(column, input_name){
+        element = "span.tei_" + input_name;
+        column.find(element).addClass("hidden");
+    };
     
-    function add_on (actual_column){
-        actual_column.find("span.tei_add").removeClass("hidden");
-    };
-    function add_off (actual_column){
-        actual_column.find("span.tei_add").addClass("hidden");
-    };
-    function corr_on (actual_column){
-        actual_column.find("span.tei_sic").addClass("hidden");
-        actual_column.find("span.tei_corr").removeClass("hidden");
-    };
-    function corr_off (actual_column){
-        actual_column.find("span.tei_sic").removeClass("hidden");
-        actual_column.find("span.tei_corr").addClass("hidden");
-    };
-    function del_on(actual_column){
-        actual_column.find("span.tei_del").removeClass("hidden");
-        actual_column.find("span.inner-span-decoration").parent("span").addClass("decoration");
-        actual_column.find("span.tei_sic").removeClass("hidden");
-        actual_column.find("span.tei_metamark_space").addClass("hidden"); //When the metamark hides, a space gets placed there
-        actual_column.find("span.tei_unclear").removeClass("hidden");
-    };
-    function del_off(actual_column){
-        actual_column.find("span.tei_del").addClass("hidden");
-        actual_column.find("span.cue_initial").addClass("hidden");
-        actual_column.find("span.decoration").removeClass("decoration");
-        actual_column.find("span.tei_metamark").removeClass("hidden");
-        actual_column.find("span.tei_unclear").addClass("hidden");
-    };
-    function hi_on(actual_column){
-        actual_column.find("span.tei_hi").removeClass("hidden");
-        actual_column.find("span.tei_metamark").removeClass("hidden");
-    };
-    function hi_off(actual_column){
-        actual_column.find("span.tei_hi").addClass("hidden");
-        actual_column.find("span.tei_metamark").addClass("hidden");
-    };
-    // Hide/show abbreviations
-    function expan_on(actual_column){
-        actual_column.find("span.tei_expan").removeClass("hidden");
-        actual_column.find("span.tei_abbr").addClass("hidden");
-    };
-    function expan_off(actual_column){
-        actual_column.find("span.tei_expan").addClass("hidden");
-        actual_column.find("span.tei_abbr").removeClass("hidden");
-    };
     /*   END FUNCTIONS */
     
     /*    TITLE SIZES*/
@@ -292,22 +256,27 @@
             100);
         };
 
+
+
+
+
         // Visualize correctly according to selection
         var visualize = setTimeout(function(){
-            if (columns_master[columnToChange]['paleog'] == true){
-                paleog_on(columnObject);
-            }else{
-                paleog_off(columnObject);
-            };
-            if (columns_master[columnToChange]['expan'] == true){
-                expan_on(columnObject);
-            }else{
-                expan_off(columnObject);
+            for (var key in columns_master[columnToChange]){
+                if (columns_master[columnToChange][key] == true){
+                    visual_on(columnObject,key);
+                } 
+                else {
+                    visual_off(columnObject,key)
+                }
             };
         },500);
 
         };
         
+
+
+
         
         (this).blur();
     });
@@ -449,40 +418,6 @@
         languageCheck(language);
         languageSelector(language);
     });
-    
-    /*    Option: Punctuation*/
-    $("input[name=punktion]").click(function () {
-        var column = ($(this).parents(".text-title")).index();
-        if ($(this).is(":checked")) {
-            $(".text-container").filter(function () {
-                return $(this).parent().index() == column
-            }).find("span.punctuation").removeClass("hidden");
-        } else {
-            $(".text-container").filter(function () {
-                return $(this).parent().index() == column
-            }).find("span.punctuation").addClass("hidden");
-        }
-    });
-    
-    /*    Option: Abreviations*/
-    /*   Single witness         */
-    // $("input[name=abbr]").click(function () {
-    //     var column = ($(this).parents(".text-title")).index();
-    //     var actual_column = $(".text-container").filter(function () {
-    //         return $(this).parent().index() == column
-    //     });
-    //     if ($(this).is(":checked")) {
-    //         columns_master[column]['expan'] = true;
-    //         expan_on(actual_column);
-    //     } else {
-    //         columns_master[column]['expan'] = false;
-    //         expan_off(actual_column);
-    //     }
-    // });
-
-    function visual_on(column, input_name){
-        actual_column.find("span.tei_add").removeClass("hidden");
-    };
 
     $("input").click(function(){
         var input_name = $(this).attr("name");
@@ -493,43 +428,27 @@
         if ($(this).is(":checked")) {
             columns_master[column][input_name] = true;
             visual_on(actual_column, input_name);
+
+            if (input_name == "expan"){
+                columns_master[column]["abbr"] = false;
+                visual_off(actual_column, "abbr");
+            }
         } else {
             columns_master[column][input_name] = false;
             visual_off(actual_column, input_name);
+            if (input_name == "expan"){
+                columns_master[column]["abbr"] = true;
+                visual_on(actual_column, "abbr");
+            }
         }
     });
     
-    // $("input[name=corr]").change(function () {
-    //     var column = ($(this).parents(".text-title")).index(); 
-    //     var actual_column = $(".text-container").filter(function () {
-    //         return $(this).parent().index() == column
-    //     });
-    //     if ($(this).is(":checked")) {
-    //         columns_master[column]['corr'] = true;
-    //         paleog_on(actual_column);
-    //     } else {
-    //         columns_master[column]['corr'] = false;
-    //         paleog_off(actual_column);
-    //     };
-    // });
     
-    // $("input[name=del]").change(function () {
-    //     var column = ($(this).parents(".text-title")).index(); 
-    //     var actual_column = $(".text-container").filter(function () {
-    //         return $(this).parent().index() == column
-    //     });
-    //     if ($(this).is(":checked")) {
-    //         columns_master[column]['del'] = true;
-    //         del_on(actual_column);
-    //     } else {
-    //         columns_master[column]['del'] = false;
-    //         del_off(actual_column);
-    //     };
-    // });
     
-    // /*    Option: Normalised Text*/
-    // $("input[name=normalizierung]").change(function () {
-    //     var columnIndex = ($(this).parents(".text-title")).index(); //index of the column starting at 0
+    /*    Option: Normalised Text*/
+    $("input[name=normalizierung]").change(function () {
+        var columnIndex = ($(this).parents(".text-title")).index(); //index of the column starting at 0
+
         
     //     var columnObject = $(".text-container").filter(function () {
     //     // the actual JQuery object for the column to change
@@ -545,7 +464,8 @@
     //         columns_master[columnIndex]['normal'] = false;
     //     };
         
-    // });
+
+    });
     
     // /*    Option: Right Margin References*/
     // $("input[name=notes]").change(function () {

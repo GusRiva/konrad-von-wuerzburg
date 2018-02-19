@@ -15,6 +15,7 @@
     <!-- My templates -->
     <script type="text/javascript">
 		var maere=<?php echo json_encode($_GET["source"]); ?>;
+		var language=<?php echo json_encode($_GET["lang"]); ?>;
 	</script>
     <link rel="stylesheet" type="text/css" href="CSS/dropdown-submenu-fix.css"/> 
     <link rel="stylesheet" type="text/css" href="CSS/edition.css"/> 
@@ -26,14 +27,11 @@
 	$textDict = include 'database.php';
 	$textKey = $_GET["source"]; 
 	$file_name = $textDict[$textKey]['file'];
-
 	// Load the XML source
 	$xml=simplexml_load_file($file_name) or die("Error: Cannot create object");
 	$xml -> registerXPathNamespace("tei", "http://www.tei-c.org/ns/1.0");
 	$title = $textDict[$textKey]['title'];
-
 	?>
-
 	    <nav class="navbar navbar-inverse navbar-fixed-top" id="title">
 	        <?php
 	        include("title-navbar.html")
