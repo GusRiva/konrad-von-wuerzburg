@@ -5,11 +5,11 @@
     
     
     /*    VARIABLES*/
-    var font_size = 18;
+    var font_size = 20;
     var columnsNum = 3; //change number of columns
     var guide_ms = $("option[value*='krit']").first().attr("label");
     var extensiveEdition = false;
-    var groupScroll = false;
+    var groupScroll = true;
     var scrollController =[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]; // to move all scrolls at the same time, see scroll function
     var automaticScrolling = false; //to change when using the automatic click scrolling, to avoid conflict with user scroll events
     var counter = 0;
@@ -96,7 +96,6 @@
             }
         });
     };
-
     // For the visualization
     function visual_on(column, input_name){
         element = "span.tei_" + input_name;
@@ -110,8 +109,6 @@
     /*   END FUNCTIONS */
     
     /*    TITLE SIZES*/
-    /*var titleFontSize = 10; //Font-size when small, in case I would like to change it
-    $("#maereTitle").css("font-size", titleFontSize);*/
     var titleHeight = $('#title').height();
     $("#text-titles-nav").css("top", titleHeight);
     var textTitlesNavHeight = $("#text-titles-nav").height();
@@ -209,6 +206,8 @@
         }else{
             columnObject.load('HTML_TEXTS/'+textToLoad+'_reg.html', function(){$(".text-container").find("td").css("font-size", font_size+"px");});
         };
+
+        
 
         
         /*        To highlight the corresponding verses and move the scroll*/
@@ -414,10 +413,11 @@
     
     $("input[name=language-selector]").click(function(){
         language = $(this).attr("value");
-        console.log(language);
         languageCheck(language);
         languageSelector(language);
     });
+   
+   // OTHER OPTIONS
 
     $("input").click(function(){
         var input_name = $(this).attr("name");
@@ -428,18 +428,23 @@
         if ($(this).is(":checked")) {
             columns_master[column][input_name] = true;
             visual_on(actual_column, input_name);
-
             if (input_name == "expan"){
                 columns_master[column]["abbr"] = false;
-                visual_off(actual_column, "abbr");
-            }
+                visual_off(actual_column, "abbr")
+            }else if (input_name == "hi"){
+                actual_column.find("span.inner-span-decoration").parent("span").addClass("tei_hi_decoration");
+                actual_column.find("span.ph_red").addClass("red");
+            };
         } else {
             columns_master[column][input_name] = false;
             visual_off(actual_column, input_name);
             if (input_name == "expan"){
                 columns_master[column]["abbr"] = true;
                 visual_on(actual_column, "abbr");
-            }
+            }else if (input_name == "hi"){
+                actual_column.find("span.tei_hi_decoration").removeClass("tei_hi_decoration");
+                actual_column.find("span.red").removeClass("red").addClass("ph_red");
+            };
         }
     });
     
@@ -448,23 +453,21 @@
     /*    Option: Normalised Text*/
     $("input[name=normalizierung]").change(function () {
         var columnIndex = ($(this).parents(".text-title")).index(); //index of the column starting at 0
-
         
-    //     var columnObject = $(".text-container").filter(function () {
-    //     // the actual JQuery object for the column to change
-    //         return $(this).parents(".edition-text").index() == columnIndex;
-    //     });
-    //     columnObject.empty();
+        var columnObject = $(".text-container").filter(function () {
+        // the actual JQuery object for the column to change
+            return $(this).parents(".edition-text").index() == columnIndex;
+        });
+        columnObject.empty();
         
-    //     if ($(this).is(":checked")) {
-    //         columnObject.load('HTML_TEXTS/'+columns_master[columnIndex]['text']+'_reg.html');
-    //         columns_master[columnIndex]['normal'] = true;
-    //     } else {
-    //         columnObject.load('HTML_TEXTS/'+columns_master[columnIndex]['text']+'_orig.html');
-    //         columns_master[columnIndex]['normal'] = false;
-    //     };
+        if ($(this).is(":checked")) {
+            columnObject.load('HTML_TEXTS/'+columns_master[columnIndex]['text']+'_reg.html', function(){$(".text-container").find("td").css("font-size", font_size+"px");});
+            columns_master[columnIndex]['normal'] = true;
+        } else {
+            columnObject.load('HTML_TEXTS/'+columns_master[columnIndex]['text']+'_orig.html', function(){$(".text-container").find("td").css("font-size", font_size+"px");});
+            columns_master[columnIndex]['normal'] = false;
+        };
         
-
     });
     
     // /*    Option: Right Margin References*/
@@ -506,6 +509,7 @@
     /*    Option: Font-size*/
     $("select[id=font_control]").change(function () {
         font_size = $(this).val();
+        console.log(font_size);
         $(".text-container").find("td").css("font-size", font_size+"px");
         $(".text-container").css("font-size", font_size+"px");
     });
