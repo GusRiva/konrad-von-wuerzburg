@@ -2,6 +2,7 @@
     <div class="pull-left text-selector">
         <select class="form-control form-control-text pull-left">
             <option value="default" hidden="hidden"/>
+            <!-- Texto crítico -->
             <optgroup>
                 <?php
                 foreach($textDict[$textKey]['crit_text'] as $elem){
@@ -12,6 +13,7 @@
                 }
                 ?>
             </optgroup>
+            <!-- Testimonios -->
             <optgroup>
                 <?php
                 foreach($xml -> xpath("/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listWit/tei:witness") as $element) {
@@ -44,7 +46,7 @@
                 <ul class="dropdown-menu">
                     <li>
                         <form>
-                            <input type="checkbox" name="punktion" checked="checked"/>
+                            <input type="checkbox" name="pc" checked="checked"/>
                             <span class="lang" lang="en">Punctuation</span>
                             <span class="lang" lang="de">Punktion</span>
                             <span class="lang" lang="es">Puntuación</span>
@@ -52,7 +54,7 @@
                     </li>
                     <li>
                         <form>
-                            <input type="checkbox" name="abbreviaturen"/>
+                            <input type="checkbox" name="expan"/>
                             <span class="lang" lang="en">Resolve Abbreviations</span>
                             <span class="lang" lang="de">Abbreviaturen auflösen</span>
                             <span class="lang" lang="es">Resolver abreviaturas</span>
@@ -60,12 +62,38 @@
                     </li>
                     <li>
                         <form>
-                            <input type="checkbox" name="korrekturen" checked="checked"/>
-                            <span data-toggle="tooltip">
-                                <span lang="en" class="lang">Paleographic view</span>
-                                <span lang="de" class="lang">Paleographische Ansicht</span>
-                                <span lang="es" class="lang">Vista paleográfica</span>
-                            </span>
+                            <input type="checkbox" name="del" checked="checked">
+                            <span class="lang" lang="en">Show scribe's deletions</span>
+                            <span class="lang" lang="de">Schreibers Löschungen zeigen</span>
+                            <span class="lang" lang="es">Mostrar supresiones del copista</span>
+                            </input>
+                        </form>
+                    </li>
+                    <li>
+                        <form>
+                            <input type="checkbox" name="add" checked="checked">
+                            <span class="lang" lang="en">Signal scribe's corrections</span>
+                            <span class="lang" lang="de">Schreibers Korrekturen kennzeichnen</span>
+                            <span class="lang" lang="es">Marcar correcciones del copista</span>
+                            </input>
+                        </form>
+                    </li>
+                    <li>
+                        <form>
+                            <input type="checkbox" name="corr" checked="checked">
+                            <span class="lang" lang="en">Show editor's corrections</span>
+                            <span class="lang" lang="de">Editorische Eingriffe zeigen</span>
+                            <span class="lang" lang="es">Mostrar correcciones editoriales</span>
+                            </input>
+                        </form>
+                    </li>
+                    <li>
+                        <form>
+                            <input type="checkbox" name="hi" checked="checked">
+                            <span class="lang" lang="en">Show decorations and colors</span>
+                            <span class="lang" lang="de">Verzierungen und Farben zeigen</span>
+                            <span class="lang" lang="es">Mostrar decoraciones y colores</span>
+                            </input>
                         </form>
                     </li>
                     <li>
