@@ -15,7 +15,7 @@
             <span class="ms_line"><xsl:value-of select="./@n"/></span><span class="edit_line hidden"><xsl:value-of select="substring-after(./@xml:id, '_')"/></span><span class="corresp_line hidden">s<xsl:value-of select="substring-after(./@corresp, '_')"/></span>
         </td>
         <td class="verse">   
-            <xsl:apply-templates select="tei:w | tei:space | tei:pc | tei:app | tei:rdg | tei:lem | text()"/>
+            <xsl:apply-templates select="tei:w | tei:space | tei:pc | tei:app | tei:c | tei:rdg | tei:lem | text()"/>
         </td>
         <td class="folioetc">
             <xsl:apply-templates select="tei:note"></xsl:apply-templates>
