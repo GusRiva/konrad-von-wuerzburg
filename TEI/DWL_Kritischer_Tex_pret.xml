@@ -1,0 +1,1476 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="file-title">Synoptic edition of <title type="text-title">Der Welt Lohn</title> by Konrad von Würzburg</title>
+            <title type="title-abbreviation">DWL</title>
+            <author xml:id="GR" ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernandez Riva</author>
+            <sponsor>CONICET</sponsor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Created by Gustavo Fernández Riva as part of the PhD in Medieval Studies at the University of Buenos Aires (Argentina) from 2014 to 2018. It is published under the Creative Commons 4.0 Attribution Licence (CC BY 4.0).</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Berlin</settlement>
+                        <repository> Staatsbibliothek Preussischer Kulturbesitz</repository>
+                        <idno>Mgf 737 </idno>
+                        <msName>B</msName>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+               <witness xml:id="C">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Karlsruhe</settlement>
+                        <repository> Landesbibliothek</repository>
+                        <idno>K 408</idno>
+                        <msName>C</msName>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+               <witness xml:id="D">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Karlsruhe</settlement>
+                        <repository> Landesbibliothek</repository>
+                        <idno>Donauschingen 104</idno>
+                        <msName>D</msName>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+               <witness xml:id="G">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Gotha</settlement>
+                        <repository> Forschungsbibliothek</repository>
+                        <idno>Cod. Chart A 216</idno>
+                        <msName>G</msName>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+               <witness xml:id="K">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Cologny-Genf</settlement>
+                        <repository> Biblioteca Bodmeriana</repository>
+                        <idno>Cod. Bodmer 72</idno>
+                        <msName>K</msName>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+               <witness xml:id="M">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Munich</settlement>
+                        <repository>Staatsbibliothek</repository>
+                        <idno>Cgm 16</idno>
+                        <msName>M</msName>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+               <witness xml:id="P">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Heidelberg</settlement>
+                        <repository> Universitätsbibliothek</repository>
+                        <idno>cod. Pal. Germ. 341</idno>
+                        <msName>P</msName>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+               <witness xml:id="S">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Nürnberg</settlement>
+                        <repository> Germanisches Nationalmuseum</repository>
+                        <idno>Hs. 42531</idno>
+                        <msName>S</msName>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+               <witness xml:id="W">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Wien</settlement>
+                        <repository>Österreiche Nationalbibliothek</repository>
+                        <idno>cod. 2677</idno>
+                        <msName>W</msName>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>Guide manuscript: <ref target="#M">M</ref>
+         </creation>
+      </profileDesc>
+      <encodingDesc><variantEncoding method="parallel-segmentation" location="internal"/><p>Verses from different testimonies using a variation of parellel-segmentation in which each verse is rendered as a synoptic number of variants using a rdg-element for each one.</p></encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>            <head>                     <w><orig>Der</orig><reg>der</reg></w><c type="space"/>
+                     <w><orig>                              werlde
+                           </orig><reg>werlt</reg></w><lb type="prose"/>
+                     <w><orig>lon</orig><reg>lôn</reg></w>            </head>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="1" xml:id="v_1" corresp="s_1">                     <w><orig>JR</orig><reg>ir</reg></w><c type="space"/>
+                        <w><orig>werlte</orig><reg>werlt</reg></w><c type="space"/>
+                        <w><orig>minnære</orig><reg>minnaere</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="2" xml:id="v_2" corresp="s_2">                     <w><orig>                                 vernemet
+                              </orig><reg>vernemet</reg></w><c type="space"/>
+                        <w><orig>diſiv</orig><reg>dise</reg></w><c type="space"/>
+                        <w><orig>mære</orig><reg>maere</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="3" xml:id="v_3" corresp="s_3">                     <w><orig>wie</orig><reg>wie</reg></w><c type="space"/>
+                        <w><orig>ainem</orig><reg>einem</reg></w><c type="space"/>
+                        <w><orig>ritter</orig><reg>ritter</reg></w><c type="space"/>
+                        <w><orig>gelanc</orig><reg>gelanc</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="4" xml:id="v_4" corresp="s_4">                     <w><orig>                                 der
+                              </orig><reg>der</reg></w><c type="space"/>
+                        <w><orig>nah</orig><reg>nach</reg></w><c type="space"/>
+                        <w><orig>der</orig><reg>der</reg></w><c type="space"/>
+                        <w><orig>                                 werlde
+                              </orig><reg>werlt</reg></w><c type="space"/>
+                        <w><orig>lone</orig><reg>lôn</reg></w><c type="space"/>
+                        <w><orig>ranc</orig><reg>ranc</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="5" xml:id="v_5" corresp="s_5">                     <w><orig>Baidiv</orig><reg>beide</reg></w><c type="space"/>
+                        <w><orig>ſpat</orig><reg>spât</reg></w><c type="space"/>
+                        <w><orig>                                 vnd
+                              </orig><reg>und</reg></w><c type="space"/>
+                        <w><orig>vrvͦ</orig><reg>vruo</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="6" xml:id="v_6" corresp="s_6">                     <w><orig>er</orig><reg>er</reg></w><c type="space"/>
+                        <w><orig>daht</orig><reg>dahte</reg></w><c type="space"/>
+                        <w><orig>in</orig><reg>in</reg></w><c type="space"/>
+                        <w><orig>manige</orig><reg>manige</reg></w><c type="space"/>
+                        <w><orig>weis</orig><reg>wîz</reg></w><c type="space"/>
+                        <w><orig>darzvͦ</orig><reg>darzuo</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="7" xml:id="v_7" corresp="s_7">                     <w><orig>wa mit</orig><reg>womit</reg></w><c type="space"/>
+                        <w><orig>er</orig><reg>er</reg></w><c type="space"/>
+                        <w><orig>                                 daz
+                              </orig><reg>daz</reg></w><c type="space"/>
+                        <w><orig>begienge</orig><reg>begienge</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="8" xml:id="v_8" corresp="s_8">                     <w><orig>                                 daz
+                              </orig><reg>daz</reg></w><c type="space"/>
+                        <w><orig>er</orig><reg>er</reg></w><c type="space"/>
+                        <w><orig>den</orig><reg>den</reg></w><c type="space"/>
+                        <w><orig>lon</orig><reg>lôn</reg></w><c type="space"/>
+                        <w><orig>enphienge</orig><reg>entvienge</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="9" xml:id="v_9" corresp="s_9">                     <w><orig>Werltlicher</orig><reg>werltlicher</reg></w><c type="space"/>
+                        <w><orig>eren</orig><reg>eren</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="10" xml:id="v_10" corresp="s_10">                        <w><orig>er</orig><reg>er</reg></w><c type="space"/>
+                        <w><orig>chvnde</orig><reg>konte</reg></w><c type="space"/>
+                        <w><orig>wol</orig><reg>wol</reg></w><c type="space"/>
+                        <w><orig>gemeren</orig><reg>gemêren</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="11" xml:id="v_11" corresp="s_11">                     <w><orig>Sein</orig><reg>sîn</reg></w><c type="space"/>
+                        <w><orig>lop</orig><reg>lop</reg></w><c type="space"/>
+                        <w><orig>an</orig><reg>an</reg></w><c type="space"/>
+                        <w><orig>allen</orig><reg>allen</reg></w><c type="space"/>
+                        <w><orig>orten</orig><reg>orten</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="12" xml:id="v_12" corresp="s_12">                     <w><orig>mit</orig><reg>mit</reg></w><c type="space"/>
+                        <w><orig>wercken</orig><reg>werken</reg></w><c type="space"/>
+                        <w><orig>                                 vnd
+                              </orig><reg>und</reg></w><c type="space"/>
+                        <w><orig>mit</orig><reg>mit</reg></w><c type="space"/>
+                        <w><orig>worten</orig><reg>worten</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="13" xml:id="v_13" corresp="s_13">                     <w><orig>Sein</orig><reg>sîn</reg></w><c type="space"/>
+                        <w><orig>leb</orig><reg>leb</reg></w><c type="space"/>
+                        <w><orig>was</orig><reg>waz</reg></w><c type="space"/>
+                        <w><orig>ſo</orig><reg>sô</reg></w><c type="space"/>
+                        <w><orig>volbraht</orig><reg>volbraht</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="14" xml:id="v_14" corresp="s_14">                        <w><orig>                                 daz
+                              </orig><reg>daz</reg></w><c type="space"/>
+                        <w><orig>ſein</orig><reg>sîn</reg></w><c type="space"/>
+                        <w><orig>ze</orig><reg>zuo</reg></w>
+                        <w><orig>m</orig><reg>dem</reg></w><c type="space"/>
+                        <w><orig>beſten</orig><reg>besten</reg></w><c type="space"/>
+                        <w><orig>wart</orig><reg>wart</reg></w><c type="space"/>
+                        <w><orig>gedaht</orig><reg>gedaht</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="15" xml:id="v_15" corresp="s_15">                     <w><orig>Jn</orig><reg>in</reg></w><c type="space"/>
+                        <w><orig>allen</orig><reg>allen</reg></w><c type="space"/>
+                        <w><orig>tivſchen</orig><reg>diutschen</reg></w><c type="space"/>
+                        <w><orig>landen</orig><reg>landen</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="16" xml:id="v_16" corresp="s_16">                     <w><orig>er</orig><reg>er</reg></w><c type="space"/>
+                        <w><orig>het</orig><reg>hette</reg></w><c type="space"/>
+                        <w><orig>ſich</orig><reg>sich</reg></w><c type="space"/>
+                        <w><orig>vor</orig><reg>vor</reg></w><c type="space"/>
+                        <w><orig>ſchanden</orig><reg>schanden</reg></w><pc>.</pc>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="17" xml:id="v_17" corresp="s_17">                     <w><orig>Alliv</orig><reg>alle</reg></w><c type="space"/>
+                        <w><orig>ſeiniv</orig><reg>sîne</reg></w><c type="space"/>
+                        <w><orig>iar</orig><reg>jâr</reg></w><c type="space"/>
+                        <w><orig>behvͦt</orig><reg>behuot</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="18" xml:id="v_18" corresp="s_18">                        <w><orig>er</orig><reg>er</reg></w><c type="space"/>
+                        <w><orig>was</orig><reg>waz</reg></w><c type="space"/>
+                        <w><orig>hv́bſch</orig><reg>hövesch</reg></w><c type="space"/>
+                        <w><orig>                                 vnd
+                              </orig><reg>und</reg></w><c type="space"/>
+                        <del rend="overstrike underlined"><w><orig>gvͦt</orig><reg>guot</reg></w></del><add place="inline"><w><orig>frvͦt</orig><reg>vruot</reg></w></add>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="19" xml:id="v_19" corresp="s_19">                     <w><orig>Schon</orig><reg>schoen</reg></w><c type="space"/>
+                        <w><orig>                                 vnd
+                              </orig><reg>und</reg></w><c type="space"/>
+                        <w><orig>aller</orig><reg>aller</reg></w><c type="space"/>
+                        <w><orig>tvgenden</orig><reg>tugenden</reg></w><c type="space"/>
+                        <w><orig>vol</orig><reg>vol</reg></w><pc>.</pc>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="20" xml:id="v_20" corresp="s_20">                        <w><orig>ſwa mit</orig><reg>swamit</reg></w><c type="space"/>
+                        <w><orig>ain</orig><reg>ein</reg></w><c type="space"/>
+                        <w><orig>man</orig><reg>man</reg></w><c type="space"/>
+                        <w><orig>ze</orig><reg>zuo</reg></w>
+                        <add resp="scribe" place="above"><w><orig>r</orig><reg>der</reg></w></add><c type="space"/>
+                        <w><orig>                                 werlte
+                              </orig><reg>werlt</reg></w><c type="space"/>
+                        <w><orig>ſol</orig><reg>sol</reg></w><pc>.</pc>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="21" xml:id="v_21" corresp="s_21">                     <w><orig>Beiagen</orig><reg>bejagen</reg></w><c type="space"/>
+                        <w><orig>hoher</orig><reg>hôher</reg></w><c type="space"/>
+                        <w><orig>wirde</orig><reg>wirde</reg></w><c type="space"/>
+                        <w><orig>preis</orig><reg>prîs</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="22" xml:id="v_22" corresp="s_22">                     <w><orig>                                 daz
+                              </orig><reg>daz</reg></w><c type="space"/>
+                        <w><orig>chvnde</orig><reg>kunde</reg></w><c type="space"/>
+                        <w><orig>wol</orig><reg>wol</reg></w><c type="space"/>
+                        <w><orig>der</orig><reg>der</reg></w><c type="space"/>
+                        <w><orig>                                 herre
+                              </orig><reg>herre</reg></w><c type="space"/>
+                        <w><orig>weis</orig><reg>wîz</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="23" xml:id="v_23" corresp="s_23">                     <w><orig>Bedencken</orig><reg>bedenken</reg></w><c type="space"/>
+                        <w><orig>                                 vnd
+                              </orig><reg>und</reg></w><c type="space"/>
+                        <w><orig>betrahten</orig><reg>betrahten</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="24" xml:id="v_24" corresp="s_24">                     <w><orig>man</orig><reg>man</reg></w><c type="space"/>
+                        <w><orig>ſach</orig><reg>sach</reg></w><c type="space"/>
+                        <w><orig>den</orig><reg>den</reg></w><c type="space"/>
+                        <w><orig>vil</orig><reg>vil</reg></w><c type="space"/>
+                        <w><orig>geslahten</orig><reg>geslahten</reg></w><pc>.</pc>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="25" xml:id="v_25" corresp="s_25">                     <w><orig>Auz erweltiv</orig><reg>ûzerwelte</reg></w><c type="space"/>
+                        <w><orig>chlaider</orig><reg>kleider</reg></w><c type="space"/>
+                        <w><orig>tragn</orig><reg>tragen</reg></w><pc>.</pc>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="26" xml:id="v_26" corresp="s_26">                     <w><orig>pirſen</orig><reg>birsen</reg></w><c type="space"/>
+                        <w><orig>baiſen</orig><reg>beizen</reg></w><c type="space"/>
+                        <w><orig>                                 vnd
+                              </orig><reg>und</reg></w><c type="space"/>
+                        <w><orig>iagen</orig><reg>jagen</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="27" xml:id="v_27" corresp="s_27">                     <w><orig>Chvnd</orig><reg>kunde</reg></w><c type="space"/>
+                        <w><orig>er</orig><reg>er</reg></w><c type="space"/>
+                        <w><orig>                                 vnd
+                              </orig><reg>und</reg></w><c type="space"/>
+                        <w><orig>traip</orig><reg>trîbt</reg></w><c type="space"/>
+                        <w><orig>ſein</orig><reg>sîn</reg></w><c type="space"/>
+                        <w><orig>vil</orig><reg>vil</reg></w><pc>.</pc>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="28" xml:id="v_28" corresp="s_28">                     <w><orig>ſchahzabel</orig><reg>schâchzabel</reg></w><c type="space"/>
+                        <w><orig>                                 vnd
+                              </orig><reg>und</reg></w><c type="space"/>
+                        <w><orig>ſaiten</orig><reg>sîten</reg></w><c type="space"/>
+                        <w><orig>ſpil</orig><reg>spil</reg></w><pc>.</pc>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="29" xml:id="v_29" corresp="s_29">                     <w><orig>                                 Daz
+                              </orig><reg>daz</reg></w><c type="space"/>
+                        <w><orig>                                 waz
+                              </orig><reg>waz</reg></w><c type="space"/>
+                        <w><orig>ſein</orig><reg>sîn</reg></w><c type="space"/>
+                        <w><orig>chvrtzeweile</orig><reg>kurzwîle</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="30" xml:id="v_30" corresp="s_30">                     <w><orig>wær</orig><reg>waere</reg></w><c type="space"/>
+                        <w><orig>vber</orig><reg>über</reg></w><c type="space"/>
+                        <w><orig>hvndert</orig><reg>hundert</reg></w><c type="space"/>
+                        <w><orig>meile</orig><reg>mîle</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="31" xml:id="v_31" corresp="s_31">                        <w><orig>Gezaigt</orig><reg>gezeiget</reg></w><c type="space"/>
+                        <w><orig>im</orig><reg>im</reg></w><c type="space"/>
+                        <w><orig>ain</orig><reg>ein</reg></w><c type="space"/>
+                        <w><orig>ritterſchaft</orig><reg>ritterschaft</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="32" xml:id="v_32" corresp="s_32">                     <w><orig>dar</orig><reg>dar</reg></w><c type="space"/>
+                        <w><orig>wær</orig><reg>waere</reg></w><c type="space"/>
+                        <w><orig>der</orig><reg>der</reg></w><c type="space"/>
+                        <w><orig>                                 herre
+                              </orig><reg>herre</reg></w><c type="space"/>
+                        <w><orig>tvgenthaft</orig><reg>tugenthaft</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="33" xml:id="v_33" corresp="s_33">                     <w><orig>Mit</orig><reg>mit</reg></w><c type="space"/>
+                        <w><orig>gten</orig><reg>guoten</reg></w><c type="space"/>
+                        <w><orig>willen</orig><reg>willen</reg></w><c type="space"/>
+                        <w><orig>hin</orig><reg>hin</reg></w><c type="space"/>
+                        <w><orig>geritten</orig><reg>geritten</reg></w><pc>.</pc>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="34" xml:id="v_34" corresp="s_34">                     <w><orig>                                 vnd
+                              </orig><reg>und</reg></w><c type="space"/>
+                        <w><orig>het</orig><reg>hette</reg></w><c type="space"/>
+                        <w><orig>gerne</orig><reg>gerne</reg></w><c type="space"/>
+                        <w><orig>da</orig><reg>da</reg></w><c type="space"/>
+                        <w><orig>geſtritten</orig><reg>gestritten</reg></w><pc>.</pc>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="35" xml:id="v_35" corresp="s_35">                     <w><orig>Nah</orig><reg>nach</reg></w><c type="space"/>
+                        <w><orig>lobe</orig><reg>lop</reg></w><c type="space"/>
+                        <w><orig>auf</orig><reg>ûf</reg></w><c type="space"/>
+                        <w><orig>hoher</orig><reg>hôher</reg></w><c type="space"/>
+                        <w><orig>minne</orig><reg>minne</reg></w><c type="space"/>
+                        <w><orig>ſolt</orig><reg>solt</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="36" xml:id="v_36" corresp="s_36">                     <w><orig>er</orig><reg>er</reg></w><c type="space"/>
+                        <w><orig>was</orig><reg>waz</reg></w><c type="space"/>
+                        <w><orig>den</orig><reg>den</reg></w><c type="space"/>
+                        <w><orig>vrawen</orig><reg>vrouwen</reg></w><c type="space"/>
+                        <w><orig>alſo</orig><reg>alsô</reg></w><c type="space"/>
+                        <w><orig>holt</orig><reg>holt</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="37" xml:id="v_37" corresp="s_37">                     <w><orig>Die</orig><reg>die</reg></w><c type="space"/>
+                        <w><orig>wol</orig><reg>wol</reg></w><c type="space"/>
+                        <w><orig>beſchaiden</orig><reg>bescheiden</reg></w><c type="space"/>
+                        <w><orig>waren</orig><reg>waren</reg></w><pc>.</pc>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="38" xml:id="v_38" corresp="s_38">                     <w><orig>                                 daz
+                              </orig><reg>daz</reg></w><c type="space"/>
+                        <w><orig>er</orig><reg>er</reg></w><c type="space"/>
+                        <w><orig>in</orig><reg>in</reg></w><c type="space"/>
+                        <w><orig>ſeinen</orig><reg>sînen</reg></w><c type="space"/>
+                        <w><orig>iaren</orig><reg>jâren</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="39" xml:id="v_39" corresp="s_39">                     <w><orig>Mit</orig><reg>mit</reg></w><c type="space"/>
+                        <w><orig>langer</orig><reg>langer</reg></w><c type="space"/>
+                        <w><orig>wernder</orig><reg>wernder</reg></w><c type="space"/>
+                        <w><orig>ſtæte</orig><reg>staete</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="40" xml:id="v_40" corresp="s_40">                     <w><orig>in</orig><reg>in</reg></w><c type="space"/>
+                        <w><orig>ſo</orig><reg>sô</reg></w><c type="space"/>
+                        <w><orig>gedienet</orig><reg>gedienet</reg></w><c type="space"/>
+                        <w><orig>hete</orig><reg>haette</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="41" xml:id="v_41" corresp="s_41">                     <w><orig>                                 Daz
+                              </orig><reg>daz</reg></w><c type="space"/>
+                        <w><orig>alliv</orig><reg>alle</reg></w><c type="space"/>
+                        <w><orig>ſældenhaften</orig><reg>saeldenhaften</reg></w><c type="space"/>
+                        <w><orig>weip</orig><reg>wîp</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="42" xml:id="v_42" corresp="s_42">                     <w><orig>ſeinen</orig><reg>sînen</reg></w><c type="space"/>
+                        <w><orig>wunnechlichen</orig><reg>wunneclîchen</reg></w><c type="space"/>
+                        <w><orig>leip</orig><reg>lîp</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="43" xml:id="v_43" corresp="s_43">                     <w><orig>Lobten</orig><reg>lobten</reg></w><c type="space"/>
+                        <w><orig>                                 vnd
+                              </orig><reg>und</reg></w><c type="space"/>
+                        <w><orig>preiſten</orig><reg>prîsten</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="44" xml:id="v_44" corresp="s_44">                     <w><orig>als</orig><reg>als</reg></w><c type="space"/>
+                        <w><orig>vns</orig><reg>uns</reg></w><c type="space"/>
+                        <w><orig>div</orig><reg>diu</reg></w><c type="space"/>
+                        <w><orig>bch</orig><reg>buoch</reg></w><c type="space"/>
+                        <w><orig>beweiſten</orig><reg>bewîsten</reg></w><pc>.</pc>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="45" xml:id="v_45" corresp="s_45">                     <w><orig>                                 Vnd
+                              </orig><reg>und</reg></w><c type="space"/>
+                        <w><orig>ich</orig><reg>ich</reg></w>
+                        <w><orig>z</orig><reg>ez</reg></w><c type="space"/>
+                        <w><orig>von</orig><reg>von</reg></w><c type="space"/>
+                        <w><orig>im</orig><reg>im</reg></w><c type="space"/>
+                        <w><orig>geſchriben</orig><reg>geschriben</reg></w><c type="space"/>
+                        <w><orig>vant</orig><reg>vant</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="46" xml:id="v_46" corresp="s_46">                     <w><orig>ſo</orig><reg>sô</reg></w><c type="space"/>
+                        <w><orig>was</orig><reg>waz</reg></w><c type="space"/>
+                        <w><orig>der</orig><reg>der</reg></w><c type="space"/>
+                        <w><orig>                                 herre
+                              </orig><reg>herre</reg></w><c type="space"/>
+                        <w><orig>genant</orig><reg>genant</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="47" xml:id="v_47" corresp="s_47">                     <w><orig>Her</orig><reg>her</reg></w><c type="space"/>
+                        <w><orig>wirin</orig><reg>Wirin</reg></w><c type="space"/>
+                        <w><orig>da</orig><reg>da</reg></w><c type="space"/>
+                        <w><orig>von</orig><reg>von</reg></w><c type="space"/>
+                        <w><orig>Gravenberc</orig><reg>Gravenberc</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="48" xml:id="v_48" corresp="s_48">                     <w><orig>er</orig><reg>er</reg></w><c type="space"/>
+                        <w><orig>hete</orig><reg>hette</reg></w><c type="space"/>
+                        <w><orig>werltichiv</orig><reg>werltliche</reg></w><c type="space"/>
+                        <w><orig>werc</orig><reg>werc</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="49" xml:id="v_49" corresp="s_49">                     <w><orig>Geworht</orig><reg>geworht</reg></w><c type="space"/>
+                        <w><orig>alliv</orig><reg>alle</reg></w><c type="space"/>
+                        <w><orig>ſeiniv</orig><reg>sîne</reg></w><c type="space"/>
+                        <w><orig>iar</orig><reg>jâr</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="50" xml:id="v_50" corresp="s_50">                     <w><orig>ſein</orig><reg>sîn</reg></w><c type="space"/>
+                        <w><orig>                                 hertze
+                              </orig><reg>herze</reg></w><c type="space"/>
+                        <w><orig>ſtille</orig><reg>stille</reg></w><c type="space"/>
+                        <w><orig>                                 vnd
+                              </orig><reg>und</reg></w><c type="space"/>
+                        <w><orig>offenbar</orig><reg>offenbâr</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="51" xml:id="v_51" corresp="s_51">                     <w><orig>Nach</orig><reg>nach</reg></w><c type="space"/>
+                        <w><orig>der</orig><reg>der</reg></w><c type="space"/>
+                        <w><orig>minne</orig><reg>minne</reg></w><c type="space"/>
+                        <w><orig>tobte</orig><reg>tobete</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="52" xml:id="v_52" corresp="s_52">                     <w><orig>ſus</orig><reg>sust</reg></w><c type="space"/>
+                        <w><orig>ſaz</orig><reg>saz</reg></w><c type="space"/>
+                        <w><orig>der</orig><reg>der</reg></w><c type="space"/>
+                        <w><orig>gelobte</orig><reg>gelobet</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="53" xml:id="v_53" corresp="s_53">                     <w><orig>Jn</orig><reg>in</reg></w><c type="space"/>
+                        <w><orig>ainer</orig><reg>einer</reg></w><c type="space"/>
+                        <w><orig>chemnaten</orig><reg>kemenâten</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="54" xml:id="v_54" corresp="s_54">                     <w><orig>mit</orig><reg>mit</reg></w><c type="space"/>
+                        <w><orig>vreuden</orig><reg>vröuden</reg></w><c type="space"/>
+                        <w><orig>wol</orig><reg>wol</reg></w><c type="space"/>
+                        <w><orig>beraten.</orig><reg>beraten</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="55" xml:id="v_55" corresp="s_55">                     <w><orig>                                 Vnd
+                              </orig><reg>und</reg></w><c type="space"/>
+                        <w><orig>het</orig><reg>hette</reg></w><c type="space"/>
+                        <w><orig>ain</orig><reg>ein</reg></w><c type="space"/>
+                        <w><orig>bvͦch</orig><reg>buoch</reg></w><c type="space"/>
+                        <w><orig>in</orig><reg>in</reg></w><c type="space"/>
+                        <w><orig>ſeiner</orig><reg>sîner</reg></w><c type="space"/>
+                        <w><orig>hant</orig><reg>hant</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="56" xml:id="v_56" corresp="s_56">                     <w><orig>daran</orig><reg>daran</reg></w><c type="space"/>
+                        <w><orig>er</orig><reg>er</reg></w><c type="space"/>
+                        <w><orig>Aventi<add place="above">v</add>re</orig><reg>aventiure</reg></w><c type="space"/>
+                        <w><orig>vant</orig><reg>vant</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="57" xml:id="v_57" corresp="s_57">                     <w><orig>Von</orig><reg>von</reg></w><c type="space"/>
+                        <w><orig>                                 der
+                              </orig><reg>der</reg></w><c type="space"/>
+                        <w><orig>minne</orig><reg>minne</reg></w><c type="space"/>
+                        <w><orig>geſchriben</orig><reg>geschriben</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="58" xml:id="v_58" corresp="s_58">                     <w><orig>dar</orig><reg>dar</reg></w><c type="space"/>
+                        <w><orig>ob</orig><reg>ob</reg></w><c type="space"/>
+                        <w><orig>het</orig><reg>hette</reg></w><c type="space"/>
+                        <w><orig>er</orig><reg>er</reg></w><c type="space"/>
+                        <w><orig>do</orig><reg>dô</reg></w><c type="space"/>
+                        <w><orig>                                 vertriben
+                              </orig><reg>vertriben</reg></w>
+                        <pc>.</pc>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="59" xml:id="v_59" corresp="s_59">                        <w><orig>Den</orig><reg>den</reg></w><c type="space"/>
+                        <w><orig>tac</orig><reg>tac</reg></w><c type="space"/>
+                        <w><orig>vntz</orig><reg>untz</reg></w><c type="space"/>
+                        <w><orig>auf</orig><reg>ûf</reg></w><c type="space"/>
+                        <w><orig>die</orig><reg>die</reg></w><c type="space"/>
+                        <w><orig>veſperzeit</orig><reg>vesperzît</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="60" xml:id="v_60" corresp="s_60">                     <w><orig>ſein</orig><reg>sîn</reg></w><c type="space"/>
+                        <w><orig>vreude</orig><reg>vröude</reg></w><c type="space"/>
+                        <w><orig>was</orig><reg>waz</reg></w><c type="space"/>
+                        <w><orig>vil</orig><reg>vil</reg></w><c type="space"/>
+                        <w><orig>harte</orig><reg>hart</reg></w><c type="space"/>
+                        <w><orig>weit</orig><reg>wît</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="61" xml:id="v_61" corresp="s_61">                     <w><orig>Von</orig><reg>von</reg></w><c type="space"/>
+                        <w><orig>ſvzzer</orig><reg>süezer</reg></w><c type="space"/>
+                        <w><orig>rede</orig><reg>rede</reg></w><c type="space"/>
+                        <w><orig>die</orig><reg>die</reg></w><c type="space"/>
+                        <w><orig>er</orig><reg>er</reg></w><c type="space"/>
+                        <w><orig>da</orig><reg>da</reg></w><c type="space"/>
+                        <w><orig>las</orig><reg>laz</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="62" xml:id="v_62" corresp="s_62">                     <w><orig>do</orig><reg>dô</reg></w><c type="space"/>
+                        <w><orig>er</orig><reg>er</reg></w><c type="space"/>
+                        <w><orig>alſus</orig><reg>alsus</reg></w><c type="space"/>
+                        <w><orig>geſezzen</orig><reg>gesezen</reg></w><c type="space"/>
+                        <w><orig>was</orig><reg>waz</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="63" xml:id="v_63" corresp="s_63">                     <w><orig>Do</orig><reg>dô</reg></w><c type="space"/>
+                        <w><orig>cham</orig><reg>kam</reg></w><c type="space"/>
+                        <w><orig>                                 gegangen
+                              </orig><reg>gegangen</reg></w><c type="space"/>
+                        <w><orig>dort</orig><reg>dort</reg></w><c type="space"/>
+                        <w><orig>                                 her
+                              </orig><reg>her</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="64" xml:id="v_64" corresp="s_64">                     <w><orig>Ein</orig><reg>ein</reg></w><c type="space"/>
+                        <w><orig>weip</orig><reg>wîp</reg></w><c type="space"/>
+                        <w><orig>nah</orig><reg>nach</reg></w><c type="space"/>
+                        <w><orig>ſeinſ</orig><reg>sînes</reg></w><c type="space"/>
+                        <w><orig>                                 hertzen
+                              </orig><reg>herzen</reg></w><c type="space"/>
+                        <w><orig>                                 ger
+                              </orig><reg>ger</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="65" xml:id="v_65" corresp="s_65">                     <w><orig>Ze</orig><reg>zuo</reg></w><c type="space"/>
+                        <w><orig>wunſche</orig><reg>wunsch</reg></w><c type="space"/>
+                        <w><orig>wol</orig><reg>wol</reg></w><c type="space"/>
+                        <w><orig>gebrvefet</orig><reg>geprüevet</reg></w><c type="space"/>
+                        <w><orig>dar</orig><reg>dar</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="66" xml:id="v_66" corresp="s_66">                     <w><orig>                                 vnd
+                              </orig><reg>und</reg></w><c type="space"/>
+                        <w><orig>alſo</orig><reg>alsô</reg></w><c type="space"/>
+                        <w><orig>minnechlich</orig><reg>minneclich</reg></w><c type="space"/>
+                        <w><orig>gevar</orig><reg>gevar</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="67" xml:id="v_67" corresp="s_67">                     <w><orig>                                 Daz
+                              </orig><reg>daz</reg></w><c type="space"/>
+                        <w><orig>man</orig><reg>man</reg></w><c type="space"/>
+                        <w><orig>nie</orig><reg>nie</reg></w><c type="space"/>
+                        <w><orig>ſchoner</orig><reg>schoener</reg></w><c type="space"/>
+                        <w><orig>weip</orig><reg>wîp</reg></w><c type="space"/>
+                        <w><orig>geſach</orig><reg>gesach</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="68" xml:id="v_68" corresp="s_68"><!--                     villicklichen or willicklichen-->                     <w><orig>ir</orig><reg>ir</reg></w><c type="space"/>
+                        <w><orig>ſchone</orig><reg>schoene</reg></w><c type="space"/>
+                        <w><orig>vollechlichen</orig><reg>volleclichen</reg></w><c type="space"/>
+                        <w><orig>brach</orig><reg>brach</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="69" xml:id="v_69" corresp="s_69">                     <w><orig>Fvͦr</orig><reg>vür</reg></w><c type="space"/>
+                        <w><orig>alle</orig><reg>alle</reg></w><c type="space"/>
+                        <w><orig>vrowen</orig><reg>vrouwen</reg></w><c type="space"/>
+                        <w><orig>die</orig><reg>die</reg></w><c type="space"/>
+                        <w><orig>nv</orig><reg>nun</reg></w><c type="space"/>
+                        <w><orig>ſint</orig><reg>sint</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="70" xml:id="v_70" corresp="s_70">                     <w><orig>ain</orig><reg>ein</reg></w><c type="space"/>
+                        <w><orig>ſo</orig><reg>sô</reg></w><c type="space"/>
+                        <del rend="erased"><gap reason="erased" extent="2" unit="character"/></del>
+                        <w><orig>reht</orig><reg>reht</reg></w><c type="space"/>
+                        <w><orig>                                 minnechlichz
+                        </orig><reg>minneclichez</reg></w><c type="space"/>
+                        <w><orig>chint</orig><reg>kint</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="71" xml:id="v_71" corresp="s_71">                     <w><orig>Von</orig><reg>von</reg></w><c type="space"/>
+                        <w><orig>weibes</orig><reg>wîbes</reg></w><c type="space"/>
+                        <w><orig>brvſten</orig><reg>brusten</reg></w><c type="space"/>
+                        <w><orig>nie</orig><reg>nie</reg></w><c type="space"/>
+                        <w><orig>geſlauf</orig><reg>geslouf</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="72" xml:id="v_72" corresp="s_72">                     <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
+                        <w><orig>ſpriche</orig><reg>spreche</reg></w><c type="space"/>
+                        <w><orig>                                 daz
+                              </orig><reg>daz</reg></w><c type="space"/>
+                        <w><orig>auf</orig><reg>ûf</reg></w><c type="space"/>
+                        <w><orig>meinen</orig><reg>mînen</reg></w><c type="space"/>
+                        <w><orig>tavf</orig><reg>touf</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="72" xml:id="v_73" corresp="s_72a">               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="72" xml:id="v_74" corresp="s_72b">               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="73" xml:id="v_75" corresp="s_73">                     <w><orig>                                 Daz
+                              </orig><reg>daz</reg></w><c type="space"/>
+                        <w><orig>ſi</orig><reg>sie</reg></w><c type="space"/>
+                        <w><orig>noch</orig><reg>noch</reg></w><c type="space"/>
+                        <w><orig>verrer</orig><reg>verrer</reg></w><c type="space"/>
+                        <w><orig>                                 ſchoner
+                              </orig><reg>schoener</reg></w><c type="space"/>
+                        <w><orig>was</orig><reg>waz</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="74" xml:id="v_76" corresp="s_74">                     <w><orig>danne</orig><reg>danne</reg></w><c type="space"/>
+                        <w><orig>Venus</orig><reg>Venus</reg></w><c type="space"/>
+                        <w><orig>                                 oder
+                              </orig><reg>oder</reg></w><c type="space"/>
+                        <w><orig>vrav</orig><reg>vrouwe</reg></w><c type="space"/>
+                        <w><orig>pallas</orig><reg>Palas</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="75" xml:id="v_77" corresp="s_75">                     <w><orig>                                 Vnd
+                              </orig><reg>und</reg></w><c type="space"/>
+                        <w><orig>alle</orig><reg>alle</reg></w><c type="space"/>
+                        <w><orig>die</orig><reg>die</reg></w><c type="space"/>
+                        <w><orig>gottinne</orig><reg>gotinne</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="76" xml:id="v_78" corresp="s_76">                     <w><orig>die</orig><reg>die</reg></w><c type="space"/>
+                        <w><orig>weilen</orig><reg>willen</reg></w><c type="space"/>
+                        <w><orig>                                 phlagen
+                              </orig><reg>phlagen</reg></w><c type="space"/>
+                        <w><orig>                                 der
+                              </orig><reg>der</reg></w><c type="space"/>
+                        <w><orig>minne</orig><reg>minne</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="77" xml:id="v_79" corresp="s_77">                     <w><orig>Jr</orig><reg>ir</reg></w><c type="space"/>
+                        <w><orig>antlvtz</orig><reg>antlütze</reg></w><c type="space"/>
+                        <w><orig>                                 vnd
+                              </orig><reg>und</reg></w><c type="space"/>
+                        <w><orig>ir</orig><reg>ir</reg></w><c type="space"/>
+                        <w><orig>varwe</orig><reg>varwe</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="78" xml:id="v_80" corresp="s_78">                     <w><orig>div</orig><reg>diu</reg></w><c type="space"/>
+                        <w><orig>waren</orig><reg>waren</reg></w><c type="space"/>
+                        <w><orig>baidiv</orig><reg>beide</reg></w><c type="space"/>
+                        <w><orig>garbe</orig><reg>garwe</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="79" xml:id="v_81" corresp="s_79">                     <w><orig>Erlivchtet</orig><reg>erliuhtet</reg></w><c type="space"/>
+                        <w><orig>als</orig><reg>als</reg></w><c type="space"/>
+                        <w><orig>ain</orig><reg>ein</reg></w><c type="space"/>
+                        <w><orig>ſpiegellein</orig><reg>spiegelîn</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="80" xml:id="v_82" corresp="s_80">                        <w><orig>ir</orig><reg>ir</reg></w><c type="space"/>
+                        <w><orig>ſchone</orig><reg>schoene</reg></w><c type="space"/>
+                        <w><orig>gap</orig><reg>gap</reg></w><c type="space"/>
+                        <w><orig>ſo</orig><reg>sô</reg></w><c type="space"/>
+                        <w><orig>liehten</orig><reg>liechten</reg></w><c type="space"/>
+                        <w><orig>ſchein</orig><reg>schîn</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="81" xml:id="v_83" corresp="s_81">                     <w><orig>                                 Vnd
+                              </orig><reg>und</reg></w><c type="space"/>
+                        <w><orig>alſo</orig><reg>alsô</reg></w><c type="space"/>
+                        <w><orig>wunnechlichen</orig><reg>wunneclichen</reg></w><c type="space"/>
+                        <w><orig>glaſt</orig><reg>glast</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="82" xml:id="v_84" corresp="s_82">                     <w><orig>                                 daz
+                              </orig><reg>daz</reg></w><c type="space"/>
+                        <w><orig>der</orig><reg>der</reg></w><c type="space"/>
+                        <w><orig>ſelbe</orig><reg>selbe</reg></w><c type="space"/>
+                        <w><orig>palaſt</orig><reg>palast</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="83" xml:id="v_85" corresp="s_83">                     <w><orig>Von</orig><reg>von</reg></w><c type="space"/>
+                        <w><orig>ir</orig><reg>ir</reg></w><c type="space"/>
+                        <w><orig>leibe</orig><reg>lîp</reg></w><c type="space"/>
+                        <w><orig>erlivhtet</orig><reg>erliuhtet</reg></w><c type="space"/>
+                        <w><orig>wart</orig><reg>wart</reg></w><pc>.</pc>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="84" xml:id="v_86" corresp="s_84">                     <w><orig>der</orig><reg>der</reg></w><c type="space"/>
+                        <w><orig>wunſch</orig><reg>wunsch</reg></w><c type="space"/>
+                        <w><orig>hete</orig><reg>haette</reg></w><c type="space"/>
+                        <w><orig>niht</orig><reg>niht</reg></w><c type="space"/>
+                        <w><orig>geſpart</orig><reg>gespart</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="85" xml:id="v_87" corresp="s_85">                     <w><orig>An</orig><reg>an</reg></w><c type="space"/>
+                        <w><orig>ir</orig><reg>ir</reg></w><c type="space"/>
+                        <w><orig>die</orig><reg>die</reg></w><c type="space"/>
+                        <w><orig>ſeinen</orig><reg>sînen</reg></w><c type="space"/>
+                        <w><orig>groſten</orig><reg>grôzten</reg></w><c type="space"/>
+                        <w><orig>chraft</orig><reg>kraft</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="86" xml:id="v_88" corresp="s_86">                     <w><orig>er</orig><reg>er</reg></w><c type="space"/>
+                        <w><orig>hete</orig><reg>hette</reg></w><c type="space"/>
+                        <w><orig>ſeine</orig><reg>sîne</reg></w><c type="space"/>
+                        <w><orig>maiſterſchaft</orig><reg>meisterschaft</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="87" xml:id="v_89" corresp="s_87">                     <w><orig>Mit</orig><reg>mit</reg></w><c type="space"/>
+                        <w><orig>gantzem</orig><reg>ganzem</reg></w><c type="space"/>
+                        <w><orig>vleiz</orig><reg>vlîz</reg></w><c type="space"/>
+                        <w><orig>an</orig><reg>an</reg></w><c type="space"/>
+                        <w><orig>ſei</orig><reg>sie</reg></w><c type="space"/>
+                        <w><orig>gelait</orig><reg>geleit</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="88" xml:id="v_90" corresp="s_88">                     <w><orig>ſwz</orig><reg>swaz</reg></w><c type="space"/>
+                        <w><orig>man</orig><reg>man</reg></w><c type="space"/>
+                        <w><orig>von</orig><reg>von</reg></w><c type="space"/>
+                        <w><orig>                                 ſchonen
+                              </orig><reg>schoenen</reg></w><c type="space"/>
+                        <w><orig>                                 weiben
+                              </orig><reg>wîben</reg></w><c type="space"/>
+                        <w><orig>ſait</orig><reg>sît</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="89" xml:id="v_91" corresp="s_89">                     <w><orig>                                 Der
+                              </orig><reg>der</reg></w><c type="space"/>
+                        <w><orig>vber gvlde</orig><reg>übergulde</reg></w><c type="space"/>
+                        <w><orig>was</orig><reg>waz</reg></w><c type="space"/>
+                        <w><orig>ir</orig><reg>ir</reg></w><c type="space"/>
+                        <w><orig>leip</orig><reg>lîp</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="90" xml:id="v_92" corresp="s_90">                     <w><orig>ez</orig><reg>ez</reg></w><c type="space"/>
+                        <w><orig>wart</orig><reg>wart</reg></w><c type="space"/>
+                        <w><orig>nie</orig><reg>nie</reg></w><c type="space"/>
+                        <w><orig>                                 minnechlicher
+                              </orig><reg>minneclicher</reg></w><c type="space"/>
+                        <w><orig>weip</orig><reg>wîp</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="91" xml:id="v_93" corresp="s_91">                        <w><orig>Geſehen</orig><reg>gesehen</reg></w><c type="space"/>
+                        <w><orig>auf</orig><reg>ûf</reg></w><c type="space"/>
+                        <w><orig>der</orig><reg>der</reg></w><c type="space"/>
+                        <w><orig>erde</orig><reg>erde</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="92" xml:id="v_94" corresp="s_92">                     <w><orig>auh</orig><reg>ouch</reg></w><c type="space"/>
+                        <w><orig>was</orig><reg>waz</reg></w><c type="space"/>
+                        <w><orig>nah</orig><reg>nah</reg></w><c type="space"/>
+                        <w><orig>vollem</orig><reg>vollem</reg></w><c type="space"/>
+                        <w><orig>                                 werde
+                              </orig><reg>werde</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="93" xml:id="v_95" corresp="s_93">                     <w><orig>Jr</orig><reg>ir</reg></w><c type="space"/>
+                        <w><orig>leip</orig><reg>lîp</reg></w><c type="space"/>
+                        <w><orig>gechlaidet</orig><reg>gekleidet</reg></w><c type="space"/>
+                        <w><orig>ſchone</orig><reg>schoene</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="94" xml:id="v_96" corresp="s_94">                     <w><orig>div</orig><reg>diu</reg></w><c type="space"/>
+                        <w><orig>chlaider</orig><reg>kleider</reg></w><c type="space"/>
+                        <w><orig>                                 vnd
+                              </orig><reg>und</reg></w><c type="space"/>
+                        <w><orig>div</orig><reg>diu</reg></w><c type="space"/>
+                        <w><orig>chrone</orig><reg>krône</reg></w><!--                     Check-->               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="95" xml:id="v_97" corresp="s_95">                     <w><orig>Die</orig><reg>die</reg></w><c type="space"/>
+                        <w><orig>div</orig><reg>diu</reg></w><c type="space"/>
+                        <w><orig>ſchoniv</orig><reg>schoene</reg></w><c type="space"/>
+                        <w><orig>vrowe</orig><reg>vrouwe</reg></w><c type="space"/>
+                        <w><orig>chlvͦc</orig><reg>kluoc</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="96" xml:id="v_98" corresp="s_96">                     <w><orig>auf</orig><reg>ûf</reg></w><c type="space"/>
+                        <w><orig>vnde</orig><reg>und</reg></w><c type="space"/>
+                        <w><orig>an</orig><reg>an</reg></w><c type="space"/>
+                        <w><orig>ir</orig><reg>ir</reg></w><c type="space"/>
+                        <w><orig>leibe</orig><reg>lîp</reg></w><c type="space"/>
+                        <w><orig>trvͦc</orig><reg>truoc</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="97" xml:id="v_99" corresp="s_97">                     <w><orig>Die</orig><reg>die</reg></w><c type="space"/>
+                        <w><orig>waren</orig><reg>waren</reg></w><c type="space"/>
+                        <w><orig>alſo</orig><reg>alsô</reg></w><c type="space"/>
+                        <w><orig>reiche</orig><reg>rîche</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="98" xml:id="v_100" corresp="s_98">                        <w><orig>                                 daz
+                              </orig><reg>daz</reg></w><c type="space"/>
+                        <w><orig>ſi</orig><reg>sie</reg></w><c type="space"/>
+                        <w><orig>ha<add place="above">l</add>t</orig><reg>halt</reg></w><c type="space"/>
+                        <w><orig>ſicherleiche</orig><reg>sicherlîche</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="99" xml:id="v_101" corresp="s_99">                     <w><orig>Nieman</orig><reg>nieman</reg></w><c type="space"/>
+                        <w><orig>vergelten</orig><reg>vergelten</reg></w><c type="space"/>
+                        <w><orig>chvnde</orig><reg>künde</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="100" xml:id="v_102" corresp="s_100">                        <w><orig>ob</orig><reg>ob</reg></w><c type="space"/>
+                        <w><orig>man</orig><reg>man</reg></w><c type="space"/>
+                        <w><orig>ſi</orig><reg>sie</reg></w><c type="space"/>
+                        <w><orig>vaile</orig><reg>veile</reg></w><c type="space"/>
+                        <w><orig>fvnde</orig><reg>vünde</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="101" xml:id="v_103" corresp="s_101">                     <w><orig>Von</orig><reg>von</reg></w><c type="space"/>
+                        <w><orig>Gravenberc</orig><reg>Gravenberc</reg></w><c type="space"/>
+                        <w><orig>her</orig><reg>herr</reg></w><c type="space"/>
+                        <w><orig>wirn</orig><reg>Wirn</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="102" xml:id="v_104" corresp="s_102">                     <w><orig>erſchrac</orig><reg>erschrac</reg></w><c type="space"/>
+                        <w><orig>von</orig><reg>von</reg></w><c type="space"/>
+                        <w><orig>ir</orig><reg>ir</reg></w><c type="space"/>
+                        <w><orig>wol</orig><reg>wol</reg></w><c type="space"/>
+                        <w><orig>zwirn</orig><reg>zwirnt</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="103" xml:id="v_105" corresp="s_103">                     <w><orig>Do</orig><reg>dô</reg></w><c type="space"/>
+                        <w><orig>ſi</orig><reg>sie</reg></w><c type="space"/>
+                        <w><orig>cham</orig><reg>kam</reg></w><c type="space"/>
+                        <w><orig>geslichen</orig><reg>geslîchen</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="104" xml:id="v_106" corresp="s_104">                     <w><orig>ſein</orig><reg>sîn</reg></w><c type="space"/>
+                        <w><orig>varwe</orig><reg>varwe</reg></w><c type="space"/>
+                        <w><orig>wart</orig><reg>wart</reg></w><c type="space"/>
+                        <w><orig>erblichen</orig><reg>erblîchen</reg></w>
+                        <pc>.</pc>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="105" xml:id="v_107" corresp="s_105">                     <w><orig>Vil</orig><reg>vil</reg></w><c type="space"/>
+                        <w><orig>harte</orig><reg>harte</reg></w><c type="space"/>
+                        <w><orig>von</orig><reg>von</reg></w><c type="space"/>
+                        <w><orig>ir</orig><reg>ir</reg></w><c type="space"/>
+                        <w><orig>chvnfte</orig><reg>künfte</reg></w><c type="space"/>
+                        <w><orig>da</orig><reg>da</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="106" xml:id="v_108" corresp="s_106">                     <w><orig>in</orig><reg>in</reg></w><c type="space"/>
+                        <w><orig>nam</orig><reg>nam</reg></w><c type="space"/>
+                        <w><orig>des</orig><reg>des</reg></w><c type="space"/>
+                        <w><orig>groz</orig><reg>grôz</reg></w><c type="space"/>
+                        <w><orig>                                 wunder
+                              </orig><reg>wunder</reg></w><c type="space"/>
+                        <w><orig>ſa</orig><reg>sa</reg></w><pc>.</pc>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="107" xml:id="v_109" corresp="s_107">                     <w><orig>Waz</orig><reg>waz</reg></w><c type="space"/>
+                        <w><orig>vrawen</orig><reg>vrouwen</reg></w><c type="space"/>
+                        <w><orig>alſo</orig><reg>alsô</reg></w><c type="space"/>
+                        <w><orig>chæme</orig><reg>kaeme</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="108" xml:id="v_110" corresp="s_108">                     <w><orig>auf</orig><reg>ûf</reg></w><c type="space"/>
+                        <w><orig>ſpranc</orig><reg>spranc</reg></w><c type="space"/>
+                        <w><orig>                                 der
+                              </orig><reg>der</reg></w><c type="space"/>
+                        <w><orig>vil</orig><reg>vil</reg></w><c type="space"/>
+                        <w><orig>genæme</orig><reg>genaeme</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="109" xml:id="v_111" corresp="s_109">                     <w><orig>Erſchrocken</orig><reg>erschrocken</reg></w><c type="space"/>
+                        <w><orig>                                 vnd
+                              </orig><reg>und</reg></w><c type="space"/>
+                        <w><orig>miſſevar</orig><reg>missevar</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="110" xml:id="v_112" corresp="s_110">                     <w><orig>                                 vnd
+                              </orig><reg>und</reg></w><c type="space"/>
+                        <w><orig>enphie</orig><reg>enphinc</reg></w><c type="space"/>
+                        <w><orig>die</orig><reg>die</reg></w><c type="space"/>
+                        <w><orig>                                 minneclichen
+                              </orig><reg>minnechlichen</reg></w><c type="space"/>
+                        <w><orig>gar</orig><reg>gar</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="111" xml:id="v_113" corresp="s_111">                     <w><orig>Vil</orig><reg>vil</reg></w><c type="space"/>
+                        <w><orig>ſchon</orig><reg>schoen</reg></w><c type="space"/>
+                        <pc>·</pc><c type="space"/>
+                        <w><orig>als</orig><reg>als</reg></w><c type="space"/>
+                        <w><orig>er</orig><reg>er</reg></w><c type="space"/>
+                        <w><orig>wol</orig><reg>wol</reg></w><c type="space"/>
+                        <w><orig>chvnde</orig><reg>kunde</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="112" xml:id="v_114" corresp="s_112">                     <w><orig>er</orig><reg>er</reg></w><c type="space"/>
+                        <w><orig>ſprach</orig><reg>sprach</reg></w><c type="space"/>
+                        <w><orig>auz</orig><reg>ûz</reg></w><c type="space"/>
+                        <w><orig>ſvzem</orig><reg>süezem</reg></w><c type="space"/>
+                        <w><orig>mvnde</orig><reg>munde</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="113" xml:id="v_115" corresp="s_113">                     <w><orig>Seit</orig><reg>sît</reg></w><c type="space"/>
+                        <w><orig>vrawe</orig><reg>vrouwe</reg></w><c type="space"/>
+                        <w><orig>got</orig><reg>got</reg></w><c type="space"/>
+                        <w><orig>willechomen</orig><reg>willekomen</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="114" xml:id="v_116" corresp="s_114">                        <w><orig>ſwaz</orig><reg>swaz</reg></w><c type="space"/>
+                        <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
+                        <w><orig>von</orig><reg>von</reg></w><c type="space"/>
+                        <w><orig>vrawen</orig><reg>vrouwen</reg></w><c type="space"/>
+                        <w><orig>han</orig><reg>hân</reg></w><c type="space"/>
+                        <w><orig>                                 vernomen
+                              </orig><reg>vernomen</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="115" xml:id="v_117" corresp="s_115">                     <w><orig>Der</orig><reg>der</reg></w><c type="space"/>
+                        <w><orig>ſeit</orig><reg>sît</reg></w><c type="space"/>
+                        <w><orig>ir</orig><reg>ir</reg></w><c type="space"/>
+                        <w><orig>vber gvlde</orig><reg>übergülte</reg></w><c type="space"/>
+                        <w><orig>gar</orig><reg>gar</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="116" xml:id="v_118" corresp="s_116">                     <w><orig>hie mit</orig><reg>hiemit</reg></w><c type="space"/>
+                        <w><orig>ſprach</orig><reg>sprach</reg></w><c type="space"/>
+                        <w><orig>div</orig><reg>diu</reg></w><c type="space"/>
+                        <w><orig>ſchoniv</orig><reg>schoene</reg></w><c type="space"/>
+                        <w><orig>gar</orig><reg>gar</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="117" xml:id="v_119" corresp="s_117">                     <w><orig>Vil</orig><reg>vil</reg></w><c type="space"/>
+                        <w><orig>lieber</orig><reg>lieber</reg></w><c type="space"/>
+                        <w><orig>frivnt</orig><reg>vriunt</reg></w><c type="space"/>
+                        <w><orig>got</orig><reg>got</reg></w><c type="space"/>
+                        <w><orig>lone</orig><reg>lône</reg></w><c type="space"/>
+                        <w><orig>dir</orig><reg>dir</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="118" xml:id="v_120" corresp="s_118">                     <w><orig>erſchricke</orig><reg>erschrecke</reg></w><c type="space"/>
+                        <w><orig>ſo</orig><reg>sô</reg></w><c type="space"/>
+                        <w><orig>ſere</orig><reg>sere</reg></w><c type="space"/>
+                        <w><orig>niht</orig><reg>niht</reg></w><c type="space"/>
+                        <w><orig>                                 von
+                              </orig><reg>von</reg></w><c type="space"/>
+                        <w><orig>mir</orig><reg>mir</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="118" xml:id="v_121" corresp="s_119">               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="118" xml:id="v_122" corresp="s_120">               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="118" xml:id="v_123" corresp="s_121">               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="118" xml:id="v_124" corresp="s_122">               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="119" xml:id="v_125" corresp="s_123">                     <w><orig>Nu</orig><reg>nun</reg></w><c type="space"/>
+                        <w><orig>bin</orig><reg>bin</reg></w><c type="space"/>
+                        <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
+                        <w><orig>doch</orig><reg>doch</reg></w><c type="space"/>
+                        <w><orig>                                 daz
+                              </orig><reg>daz</reg></w><c type="space"/>
+                        <w><orig>ſelbe</orig><reg>selbe</reg></w><c type="space"/>
+                        <w><orig>weip</orig><reg>wîp</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="120" xml:id="v_126" corresp="s_124">                     <w><orig>durch</orig><reg>durch</reg></w><c type="space"/>
+                        <w><orig>die</orig><reg>die</reg></w><c type="space"/>
+                        <w><orig>dv</orig><reg>du</reg></w><c type="space"/>
+                        <w><orig>ſel</orig><reg>sele</reg></w><c type="space"/>
+                        <w><orig>                                 vnd
+                              </orig><reg>unde</reg></w><c type="space"/>
+                        <w><orig>leip</orig><reg>lîp</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="121" xml:id="v_127" corresp="s_125">                     <w><orig>Vil</orig><reg>vil</reg></w><c type="space"/>
+                        <w><orig>dicke</orig><reg>dicke</reg></w><c type="space"/>
+                        <w><orig>haſt</orig><reg>hast</reg></w><c type="space"/>
+                        <w><orig>gewaget</orig><reg>gewaget</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="122" xml:id="v_128" corresp="s_126">                     <w><orig>dein</orig><reg>dîn</reg></w><c type="space"/>
+                        <w><orig>                                 hertze
+                              </orig><reg>herze</reg></w><c type="space"/>
+                        <w><orig>niht</orig><reg>niht</reg></w><c type="space"/>
+                        <w><orig>betragt</orig><reg>betraget</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="123" xml:id="v_129" corresp="s_127">                     <w><orig>Ez</orig><reg>ez</reg></w><c type="space"/>
+                        <w><orig>trag</orig><reg>tragt</reg></w><c type="space"/>
+                        <w><orig>durch</orig><reg>durch</reg></w><c type="space"/>
+                        <w><orig>mich</orig><reg>mich</reg></w><c type="space"/>
+                        <w><orig>hohen</orig><reg>hôhen</reg></w><c type="space"/>
+                        <w><orig>mvͦt</orig><reg>muot</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="124" xml:id="v_130" corresp="s_128">                     <w><orig>dv</orig><reg>du</reg></w><c type="space"/>
+                        <w><orig>biſt</orig><reg>bist</reg></w><c type="space"/>
+                        <w><orig>hivbſch</orig><reg>hübsch</reg></w><c type="space"/>
+                        <w><orig>                                 vnd
+                              </orig><reg>und</reg></w><c type="space"/>
+                        <w><orig>frvͦt</orig><reg>vruot</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="125" xml:id="v_131" corresp="s_129">                        <w><orig>Gewesn</orig><reg>gewesen</reg></w><c type="space"/>
+                        <w><orig>alliv</orig><reg>alle</reg></w><c type="space"/>
+                        <w><orig>deiniv</orig><reg>dîne</reg></w><c type="space"/>
+                        <w><orig>iar</orig><reg>jâr</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="126" xml:id="v_132" corresp="s_130">                     <w><orig>dein</orig><reg>dîn</reg></w><c type="space"/>
+                        <w><orig>werder</orig><reg>werder</reg></w><c type="space"/>
+                        <w><orig>leip</orig><reg>lîp</reg></w><c type="space"/>
+                        <w><orig>ſvͦz</orig><reg>süeze</reg></w><c type="space"/>
+                        <w><orig>                                 vnd
+                              </orig><reg>und</reg></w><c type="space"/>
+                        <w><orig>chlar</orig><reg>klar</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="127" xml:id="v_133" corresp="s_131">                     <w><orig>Hat</orig><reg>hat</reg></w><c type="space"/>
+                        <w><orig>nah</orig><reg>nach</reg></w><c type="space"/>
+                        <w><orig>mir</orig><reg>mir</reg></w><c type="space"/>
+                        <w><orig>gervngen</orig><reg>gerungen</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="128" xml:id="v_134" corresp="s_132">                     <w><orig>geſprochen</orig><reg>gesprochen</reg></w><c type="space"/>
+                        <w><orig>                                 vnd
+                              </orig><reg>und</reg></w><c type="space"/>
+                        <w><orig>gesvngen</orig><reg>gesungen</reg></w><pc>.</pc>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="129" xml:id="v_135" corresp="s_133">                     <w><orig>Von</orig><reg>von</reg></w><c type="space"/>
+                        <w><orig>mir</orig><reg>mir</reg></w><c type="space"/>
+                        <w><orig>ſwaz</orig><reg>swaz</reg></w><c type="space"/>
+                        <w><orig>er</orig><reg>er</reg></w><c type="space"/>
+                        <w><orig>gvͦtes</orig><reg>guotes</reg></w><c type="space"/>
+                        <w><orig>chan</orig><reg>kan</reg></w><pc>.</pc>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="130" xml:id="v_136" corresp="s_134">                     <w><orig>dv</orig><reg>du</reg></w><c type="space"/>
+                        <w><orig>wart</orig><reg>wart</reg></w><c type="space"/>
+                        <w><orig>ot</orig><reg>ot</reg></w><c type="space"/>
+                        <w><orig>ie</orig><reg>ie</reg></w><c type="space"/>
+                        <w><orig>mein</orig><reg>mîn</reg></w><c type="space"/>
+                        <w><orig>dienſtman</orig><reg>dienestman</reg></w><pc>.</pc>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="131" xml:id="v_137" corresp="s_135">                     <w><orig>Den</orig><reg>den</reg></w><c type="space"/>
+                        <w><orig>abent</orig><reg>abent</reg></w><c type="space"/>
+                        <w><orig>                                 vnd
+                              </orig><reg>und</reg></w><c type="space"/>
+                        <w><orig>den</orig><reg>den</reg></w><c type="space"/>
+                        <w><orig>morgen</orig><reg>morgen</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="132" xml:id="v_138" corresp="s_136">                     <w><orig>du</orig><reg>du</reg></w><c type="space"/>
+                        <w><orig>chundeſt</orig><reg>kundest</reg></w><c type="space"/>
+                        <w><orig>wol</orig><reg>wol</reg></w><c type="space"/>
+                        <w><orig>beſorgen</orig><reg>besorgen</reg></w><pc>.</pc>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="133" xml:id="v_139" corresp="s_137">                     <w><orig>Hohez</orig><reg>hôhes</reg></w><c type="space"/>
+                        <w><orig>lop</orig><reg>lop</reg></w><c type="space"/>
+                        <w><orig>                                 vnd
+                              </orig><reg>und</reg></w><c type="space"/>
+                        <w><orig>werden</orig><reg>werden</reg></w><c type="space"/>
+                        <w><orig>preis</orig><reg>prîs</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="134" xml:id="v_140" corresp="s_138">                     <w><orig>dv</orig><reg>du</reg></w><c type="space"/>
+                        <w><orig>blveſt</orig><reg>blüejest</reg></w><c type="space"/>
+                        <w><orig>als</orig><reg>als</reg></w><c type="space"/>
+                        <w><orig>ain</orig><reg>ein</reg></w><c type="space"/>
+                        <w><orig>maien reis</orig><reg>meienrîs</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="135" xml:id="v_141" corresp="s_139">                     <w><orig>Jn</orig><reg>in</reg></w><c type="space"/>
+                        <w><orig>manicvalter</orig><reg>manecvalter</reg></w><c type="space"/>
+                        <w><orig>tvgent</orig><reg>tugent</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="136" xml:id="v_142" corresp="s_140">                     <w><orig>dv</orig><reg>du</reg></w><c type="space"/>
+                        <w><orig>haſt</orig><reg>hast</reg></w><c type="space"/>
+                        <w><orig>von</orig><reg>von</reg></w><c type="space"/>
+                        <w><orig>chindes</orig><reg>kindes</reg></w><c type="space"/>
+                        <w><orig>iugent</orig><reg>jugent</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="137" xml:id="v_143" corresp="s_141">                        <w><orig>Getragen</orig><reg>getragen</reg></w><c type="space"/>
+                        <w><orig>ie</orig><reg>ie</reg></w><c type="space"/>
+                        <w><orig>der</orig><reg>der</reg></w><c type="space"/>
+                        <w><orig>eren</orig><reg>eren</reg></w><c type="space"/>
+                        <w><orig>chrantz</orig><reg>kranz</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="138" xml:id="v_144" corresp="s_142">                     <w><orig>dein</orig><reg>dîn</reg></w><c type="space"/>
+                        <w><orig>ſin</orig><reg>sîn</reg></w><c type="space"/>
+                        <w><orig>iſt</orig><reg>ist</reg></w><c type="space"/>
+                        <w><orig>lavter</orig><reg>lûter</reg></w><c type="space"/>
+                        <w><orig>                                 vnd
+                              </orig><reg>und</reg></w><c type="space"/>
+                        <w><orig>gantz</orig><reg>ganz</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="139" xml:id="v_145" corresp="s_143">                     <w><orig>An</orig><reg>an</reg></w><c type="space"/>
+                        <w><orig>truven</orig><reg>triuwen</reg></w><c type="space"/>
+                        <w><orig>ie</orig><reg>ie</reg></w><c type="space"/>
+                        <w><orig>gen</orig><reg>gegen</reg></w><c type="space"/>
+                        <w><orig>mir</orig><reg>mir</reg></w><c type="space"/>
+                        <w><orig>geweſen</orig><reg>gewesen</reg></w><pc>.</pc>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="140" xml:id="v_146" corresp="s_144">                     <w><orig>vil</orig><reg>vil</reg></w><c type="space"/>
+                        <w><orig>werder</orig><reg>werder</reg></w><c type="space"/>
+                        <w><orig>ritter</orig><reg>ritter</reg></w><c type="space"/>
+                        <w><orig>auz erleſen</orig><reg>ûzerlesen</reg></w><pc>.</pc>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="141" xml:id="v_147" corresp="s_145">                        <w><orig>Darvmbe</orig><reg>darumbe</reg></w><c type="space"/>
+                        <w><orig>bin</orig><reg>bin</reg></w><c type="space"/>
+                        <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
+                        <w><orig>chomen</orig><reg>komen</reg></w><c type="space"/>
+                        <w><orig>her</orig><reg>her</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="142" xml:id="v_148" corresp="s_146">                        <w><orig>                                 daz
+                              </orig><reg>daz</reg></w><c type="space"/>
+                        <w><orig>dv</orig><reg>du</reg></w><c type="space"/>
+                        <w><orig>nah</orig><reg>nach</reg></w><c type="space"/>
+                        <w><orig>deines</orig><reg>dînes</reg></w><c type="space"/>
+                        <w><orig>                                 hertzen
+                              </orig><reg>herzen</reg></w><c type="space"/>
+                        <w><orig>ger</orig><reg>ger</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="143" xml:id="v_149" corresp="s_147">                     <w><orig>Meinen</orig><reg>mînen</reg></w><c type="space"/>
+                        <w><orig>leip</orig><reg>lîp</reg></w><c type="space"/>
+                        <w><orig>von</orig><reg>von</reg></w><c type="space"/>
+                        <w><orig>hoher</orig><reg>hôher</reg></w><c type="space"/>
+                        <w><orig>chv́r</orig><reg>kür</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="144" xml:id="v_150" corresp="s_148">                     <w><orig>beſchaweſt</orig><reg>beschouwest</reg></w><c type="space"/>
+                        <w><orig>wider</orig><reg>wider</reg></w><c type="space"/>
+                        <w><orig>                                 vnde
+                              </orig><reg>unde</reg></w><c type="space"/>
+                        <w><orig>fv́r</orig><reg>vür</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="145" xml:id="v_151" corresp="s_149">                        <w><orig>Wie</orig><reg>wie</reg></w><c type="space"/>
+                        <w><orig>ſchoͤn</orig><reg>schoen</reg></w><c type="space"/>
+                        <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
+                        <w><orig>ſei</orig><reg>sei</reg></w><c type="space"/>
+                        <w><orig>wie</orig><reg>wie</reg></w><c type="space"/>
+                        <w><orig>volchomen</orig><reg>volchomen</reg></w><pc>.</pc>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="146" xml:id="v_152" corresp="s_150">                     <w><orig>den</orig><reg>den</reg></w><c type="space"/>
+                        <w><orig>reichen</orig><reg>rîchen</reg></w><c type="space"/>
+                        <w><orig>lon</orig><reg>lôn</reg></w><c type="space"/>
+                        <w><orig>den</orig><reg>den</reg></w><c type="space"/>
+                        <w><orig>                                 grozen
+                              </orig><reg>grozen</reg></w><c type="space"/>
+                        <w><orig>                                 fromen
+                              </orig><reg>vromen</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="147" xml:id="v_153" corresp="s_151">                        <w><orig>Den</orig><reg>den</reg></w><c type="space"/>
+                        <w><orig>du</orig><reg>du</reg></w><c type="space"/>
+                        <w><orig>von</orig><reg>von</reg></w><c type="space"/>
+                        <w><orig>mir</orig><reg>mir</reg></w><c type="space"/>
+                        <w><orig>enphahen</orig><reg>enphâhen</reg></w><c type="space"/>
+                        <w><orig>maht</orig><reg>maht</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="148" xml:id="v_154" corresp="s_152">                     <w><orig>vmb</orig><reg>umbe</reg></w><c type="space"/>
+                        <w><orig>deinen</orig><reg>dînen</reg></w><c type="space"/>
+                        <w><orig>dienſt</orig><reg>dienst</reg></w><c type="space"/>
+                        <w><orig>wol</orig><reg>wol</reg></w><c type="space"/>
+                        <w><orig>geſlaht</orig><reg>geslaht</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="149" xml:id="v_155" corresp="s_153">                     <w><orig>Den</orig><reg>den</reg></w><c type="space"/>
+                        <w><orig>ſolt</orig><reg>solt</reg></w><c type="space"/>
+                        <w><orig>du</orig><reg>du</reg></w><c type="space"/>
+                        <w><orig>ſchawen</orig><reg>schouwen</reg></w><c type="space"/>
+                        <w><orig>                                 vnd
+                              </orig><reg>unde</reg></w><c type="space"/>
+                        <w><orig>ſpehn</orig><reg>spaehen</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="150" xml:id="v_156" corresp="s_154">                     <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
+                        <w><orig>wil</orig><reg>wil</reg></w><c type="space"/>
+                        <w><orig>dich</orig><reg>dich</reg></w><c type="space"/>
+                        <w><orig>gern</orig><reg>gern</reg></w><c type="space"/>
+                        <w><orig>lazen</orig><reg>lâzen</reg></w><c type="space"/>
+                        <w><orig>ſehn</orig><reg>sehen</reg></w><pc>.</pc>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="151" xml:id="v_157" corresp="s_155">                        <w><orig>Waz</orig><reg>waz</reg></w><c type="space"/>
+                        <w><orig>lones</orig><reg>lônes</reg></w><c type="space"/>
+                        <w><orig>dir</orig><reg>dir</reg></w><c type="space"/>
+                        <w><orig>geziehen</orig><reg>geziehen</reg></w><c type="space"/>
+                        <w><orig>ſol</orig><reg>sol</reg></w><pc>.</pc>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="152" xml:id="v_158" corresp="s_156">                     <w><orig>dv</orig><reg>du</reg></w><c type="space"/>
+                        <w><orig>haſt</orig><reg>hast</reg></w><c type="space"/>
+                        <w><orig>gedienet</orig><reg>gedienet</reg></w><c type="space"/>
+                        <w><orig>mir</orig><reg>mir</reg></w><c type="space"/>
+                        <w><orig>ſo</orig><reg>sô</reg></w><c type="space"/>
+                        <w><orig>wol</orig><reg>wol</reg></w><pc>.</pc>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="152" xml:id="v_159" corresp="s_156a">               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="152" xml:id="v_160" corresp="s_156b">               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="153" xml:id="v_161" corresp="s_157">                        <w><orig>Den</orig><reg>den</reg></w>
+                        <sic>
+                        <metamark function="correction">"</metamark>
+                        <w><orig>
+                                       herren
+                                    </orig><reg>herren</reg></w>
+                           <metamark function="correction">"</metamark>
+                                    <w><orig>edeln</orig><reg>edeln</reg></w><c type="space"/></sic>
+                           <corr resp="scribe"><w><orig>edeln</orig><reg>edeln</reg></w><c type="space"/>
+                              <w><orig>
+                                 herren
+                              </orig><reg>herren</reg></w><c type="space"/>
+                           </corr>
+                        <w><orig>tvgentreich</orig><reg>tugentrîch</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="154" xml:id="v_162" corresp="s_158">                     <w><orig>dauhte</orig><reg>dûhte</reg></w><c type="space"/>
+                        <w><orig>harte</orig><reg>harte</reg></w><c type="space"/>
+                        <w><orig>                                 wunderleich
+                              </orig><reg>wunderlich</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="155" xml:id="v_163" corresp="s_159">                        <w><orig>Diſer</orig><reg>diser</reg></w><c type="space"/>
+                        <w><orig>vrawen</orig><reg>vrouwen</reg></w><c type="space"/>
+                        <w><orig>taidinc</orig><reg>teidinc</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="156" xml:id="v_164" corresp="s_160">                        <w><orig>wan</orig><reg>wann</reg></w><c type="space"/>
+                        <w><orig>ſei</orig><reg>sie</reg></w><c type="space"/>
+                        <w><orig>der</orig><reg>der</reg></w><c type="space"/>
+                        <w><orig>ſelbe</orig><reg>selbe</reg></w><c type="space"/>
+                        <w><orig>ivngelinc</orig><reg>jungelinc</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="157" xml:id="v_165" corresp="s_161">                        <w><orig>Mit</orig><reg>mit</reg></w><c type="space"/>
+                        <w><orig>ſeinen</orig><reg>sînen</reg></w><c type="space"/>
+                        <w><orig>augen</orig><reg>ougen</reg></w><c type="space"/>
+                        <w><orig>nie</orig><reg>nie</reg></w><c type="space"/>
+                        <w><orig>geſach</orig><reg>gesach</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="158" xml:id="v_166" corresp="s_162">                     <w><orig>                                 vnd
+                              </orig><reg>und</reg></w><c type="space"/>
+                        <w><orig>doch</orig><reg>doch</reg></w><c type="space"/>
+                        <w><orig>div</orig><reg>diu</reg></w><c type="space"/>
+                        <w><orig>ſelbiv</orig><reg>selbe</reg></w><c type="space"/>
+                        <w><orig>vrowe</orig><reg>vrouwe</reg></w><c type="space"/>
+                        <w><orig>ſprach</orig><reg>sprach</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="159" xml:id="v_167" corresp="s_163">                        <w><orig>Er</orig><reg>er</reg></w><c type="space"/>
+                        <w><orig>wær</orig><reg>waere</reg></w><c type="space"/>
+                        <w><orig>ir</orig><reg>ir</reg></w><c type="space"/>
+                        <w><orig>dienſtman</orig><reg>dienstman</reg></w><c type="space"/>
+                        <w><orig>geſein</orig><reg>gesîn</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="160" xml:id="v_168" corresp="s_164">                     <w><orig>er</orig><reg>er</reg></w><c type="space"/>
+                        <w><orig>ſprach</orig><reg>sprach</reg></w><c type="space"/>
+                        <w><orig>genade</orig><reg>genade</reg></w><c type="space"/>
+                        <w><orig>vrowe</orig><reg>vrouwe</reg></w><c type="space"/>
+                        <w><orig>mein</orig><reg>mîn</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="161" xml:id="v_169" corresp="s_165">                     <w><orig>Han</orig><reg>hân</reg></w><c type="space"/>
+                        <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
+                        <w><orig>iv</orig><reg>iu</reg></w><c type="space"/>
+                        <w><orig>gedienet</orig><reg>gedienet</reg></w><c type="space"/>
+                        <w><orig>iht</orig><reg>iht</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="162" xml:id="v_170" corresp="s_166">                     <w><orig>entruven</orig><reg>entriuwen</reg></w><c type="space"/>
+                        <w><orig>des</orig><reg>dez</reg></w><c type="space"/>
+                        <w><orig>enwaiz</orig><reg>enweiz</reg></w><c type="space"/>
+                        <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
+                        <w><orig>niht</orig><reg>niht</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="163" xml:id="v_171" corresp="s_167">                        <w><orig>Mich</orig><reg>mich</reg></w><c type="space"/>
+                        <w><orig>dvncket</orig><reg>dunket</reg></w><c type="space"/>
+                        <w><orig>ane</orig><reg>ane</reg></w><c type="space"/>
+                        <w><orig>laugen</orig><reg>lougen</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="164" xml:id="v_172" corresp="s_168">                        <w><orig>                                 daz
+                              </orig><reg>daz</reg></w><c type="space"/>
+                        <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
+                        <w><orig>mit</orig><reg>mit</reg></w><c type="space"/>
+                        <w><orig>meinen</orig><reg>mînen</reg></w><c type="space"/>
+                        <w><orig>augen</orig><reg>ougen</reg></w><pc>.</pc>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="165" xml:id="v_173" corresp="s_169">                        <w><orig>Ivh</orig><reg>iuch</reg></w><c type="space"/>
+                        <w><orig>vil</orig><reg>vil</reg></w><c type="space"/>
+                        <w><orig>ſelten</orig><reg>selten</reg></w><c type="space"/>
+                        <w><orig>han</orig><reg>hân</reg></w><c type="space"/>
+                        <w><orig>geſehn</orig><reg>gesehen</reg></w><pc>.</pc>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="166" xml:id="v_174" corresp="s_170">                     <w><orig>ſeit</orig><reg>sît</reg></w><c type="space"/>
+                        <w><orig>                                 daz
+                              </orig><reg>daz</reg></w><c type="space"/>
+                        <w><orig>ir</orig><reg>ir</reg></w><c type="space"/>
+                        <w><orig>gervchet</orig><reg>geruochet</reg></w><c type="space"/>
+                        <w><orig>iehn</orig><reg>jehen</reg></w><pc>.</pc>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="167" xml:id="v_175" corresp="s_171">                        <w><orig>Mein</orig><reg>mîn</reg></w><c type="space"/>
+                        <w><orig>ze</orig><reg>zuo</reg></w><c type="space"/>
+                        <w><orig>chnehte</orig><reg>kneht</reg></w><c type="space"/>
+                        <w><orig>ſelic</orig><reg>selic</reg></w><c type="space"/>
+                        <w><orig>weip</orig><reg>wîp</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="168" xml:id="v_176" corresp="s_172">                     <w><orig>des</orig><reg>dez</reg></w><c type="space"/>
+                        <w><orig>ſol</orig><reg>sol</reg></w><c type="space"/>
+                        <w><orig>mein</orig><reg>mîn</reg></w><c type="space"/>
+                        <w><orig>                                 hertze
+                              </orig><reg>herze</reg></w><c type="space"/>
+                        <w><orig>                                 vnd
+                              </orig><reg>und</reg></w><c type="space"/>
+                        <w><orig>mein</orig><reg>mîn</reg></w><c type="space"/>
+                        <w><orig>leip</orig><reg>lîp</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="169" xml:id="v_177" corresp="s_173">                     <w><orig>Jvch</orig><reg>iuch</reg></w><c type="space"/>
+                        <w><orig>ze</orig><reg>zuo</reg></w><c type="space"/>
+                        <w><orig>dienſte</orig><reg>dienste</reg></w><c type="space"/>
+                        <w><orig>ſein</orig><reg>sîn</reg></w><c type="space"/>
+                        <w><orig>berait</orig><reg>bereit</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="170" xml:id="v_178" corresp="s_174">                     <w><orig>mit</orig><reg>mit</reg></w><c type="space"/>
+                        <w><orig>willechlicher</orig><reg>willeclicher</reg></w><c type="space"/>
+                        <w><orig>arbait</orig><reg>arbeit</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="171" xml:id="v_179" corresp="s_175">                     <w><orig>Vntz</orig><reg>untz</reg></w><c type="space"/>
+                        <w><orig>auf</orig><reg>ûf</reg></w><c type="space"/>
+                        <w><orig>meines</orig><reg>mînes</reg></w><c type="space"/>
+                        <w><orig>todes</orig><reg>todes</reg></w><c type="space"/>
+                        <w><orig>zil</orig><reg>zil</reg></w><pc>.</pc>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="172" xml:id="v_180" corresp="s_176">                     <w><orig>ir</orig><reg>ir</reg></w><c type="space"/>
+                        <w><orig>habt</orig><reg>habt</reg></w><c type="space"/>
+                        <w><orig>ſo</orig><reg>sô</reg></w><c type="space"/>
+                        <w><orig>hoher</orig><reg>hôher</reg></w><c type="space"/>
+                        <w><orig>ſelden</orig><reg>saelden</reg></w><c type="space"/>
+                        <w><orig>vil</orig><reg>vil</reg></w>
+                        <pc>.</pc>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="173" xml:id="v_181" corresp="s_177">                        <w><orig>                           Vnd</orig><reg>und</reg></w><c type="space"/>
+                        <w><orig>als</orig><reg>als</reg></w><c type="space"/>
+                        <w><orig>manicvalte</orig><reg>manecvalte</reg></w><c type="space"/>
+                        <w><orig>tvgent</orig><reg>tugent</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="174" xml:id="v_182" corresp="s_178">                        <w><orig>                                 daz
+                              </orig><reg>daz</reg></w><c type="space"/>
+                        <w><orig>                                 úver
+                              </orig><reg>iuwer</reg></w><c type="space"/>
+                        <w><orig>vreude</orig><reg>vröude</reg></w><c type="space"/>
+                        <w><orig>blvendiv</orig><reg>blüende</reg></w><c type="space"/>
+                        <w><orig>ivgent</orig><reg>jugent</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="175" xml:id="v_183" corresp="s_179">                     <w><orig>Mir</orig><reg>mir</reg></w><c type="space"/>
+                        <w><orig>vil</orig><reg>vil</reg></w><c type="space"/>
+                        <w><orig>wol</orig><reg>wol</reg></w><c type="space"/>
+                        <w><orig>gelonen</orig><reg>gelônen</reg></w><c type="space"/>
+                        <w><orig>mac</orig><reg>mac</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="176" xml:id="v_184" corresp="s_180">                     <w><orig>ia</orig><reg>ja</reg></w><c type="space"/>
+                        <w><orig>wol</orig><reg>wol</reg></w><c type="space"/>
+                        <w><orig>mich</orig><reg>mich</reg></w><c type="space"/>
+                        <pc>·</pc><c type="space"/>
+                        <w><orig>                                 daz
+                              </orig><reg>daz</reg></w><c type="space"/>
+                        <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
+                        <w><orig>diſen</orig><reg>disen</reg></w><c type="space"/>
+                        <w><orig>tac</orig><reg>tac</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="177" xml:id="v_185" corresp="s_181">                     <w><orig>Gelebt</orig><reg>gelebet</reg></w><c type="space"/>
+                        <w><orig>han</orig><reg>hân</reg></w><c type="space"/>
+                        <w><orig>des</orig><reg>des</reg></w><c type="space"/>
+                        <w><orig>vreu</orig><reg>vreue</reg></w><c type="space"/>
+                        <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
+                        <w><orig>mich</orig><reg>mich</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="178" xml:id="v_186" corresp="s_182">                     <w><orig>ſeit</orig><reg>sît</reg></w><c type="space"/>
+                        <w><orig>                                 daz
+                              </orig><reg>daz</reg></w><c type="space"/>
+                        <w><orig>ir</orig><reg>ir</reg></w><c type="space"/>
+                        <w><orig>vrowe</orig><reg>vrouwe</reg></w><c type="space"/>
+                        <w><orig>minnechlich</orig><reg>minneclich</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="179" xml:id="v_187" corresp="s_183">                     <w><orig>meinen</orig><reg>mînen</reg></w><c type="space"/>
+                        <w><orig>dienſt</orig><reg>dienst</reg></w><c type="space"/>
+                        <w><orig>enphahen</orig><reg>enphâhen</reg></w><c type="space"/>
+                        <w><orig>welt</orig><reg>werlt</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="180" xml:id="v_188" corresp="s_184">                     <w><orig>vrowe</orig><reg>vrouwe</reg></w><c type="space"/>
+                        <w><orig>an</orig><reg>an</reg></w><c type="space"/>
+                        <w><orig>tvgenden</orig><reg>tugenden</reg></w><c type="space"/>
+                        <w><orig>auz gezelt</orig><reg>ûzgezelt</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="181" xml:id="v_189" corresp="s_185">                     <w><orig>Gervͦchet</orig><reg>gerouchet</reg></w><c type="space"/>
+                        <w><orig>chvnden</orig><reg>kunden</reg></w><c type="space"/>
+                        <w><orig>mir</orig><reg>mir</reg></w><c type="space"/>
+                        <w><orig>ain</orig><reg>ein</reg></w><c type="space"/>
+                        <w><orig>tail</orig><reg>teil</reg></w><pc>.</pc>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="182" xml:id="v_190" corresp="s_186">                     <w><orig>durch</orig><reg>durch</reg></w><c type="space"/>
+                        <w><orig>                                 daz
+                              </orig><reg>daz</reg></w><c type="space"/>
+                        <w><orig>wunne                           bernde
+                        </orig><reg>wunnenbernde</reg></w><c type="space"/>
+                        <w><orig>hail</orig><reg>heil</reg></w><pc>.</pc>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="183" xml:id="v_191" corresp="s_187">                        <w><orig>daz</orig><reg>daz</reg></w><c type="space"/>
+                        <w><orig>an</orig><reg>an</reg></w><c type="space"/>
+                        <w><orig>iv</orig><reg>iuch</reg></w><c type="space"/>
+                        <w><orig>ſchoniv</orig><reg>schoene</reg></w><c type="space"/>
+                        <w><orig>vrawe</orig><reg>vrouwe</reg></w><c type="space"/>
+                        <w><orig>leit</orig><reg>lît</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="184" xml:id="v_192" corresp="s_188">                     <w><orig>von</orig><reg>von</reg></w><c type="space"/>
+                        <w><orig>wannen</orig><reg>wannen</reg></w><c type="space"/>
+                        <w><orig>ir</orig><reg>ir</reg></w><c type="space"/>
+                        <w><orig>gehaizen</orig><reg>geheizen</reg></w><c type="space"/>
+                        <w><orig>ſeit</orig><reg>sît</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="185" xml:id="v_193" corresp="s_189">                     <w><orig>                        Oder
+                              </orig><reg>oder</reg></w><c type="space"/>
+                        <w><orig>von</orig><reg>von</reg></w><c type="space"/>
+                        <w><orig>wanne</orig><reg>wannen</reg></w><c type="space"/>
+                        <w><orig>ir</orig><reg>ir</reg></w><c type="space"/>
+                        <w><orig>ſeit</orig><reg>sît</reg></w><c type="space"/>
+                        <w><orig>genant</orig><reg>genant</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="186" xml:id="v_194" corresp="s_190">                     <w><orig>úver</orig><reg>iuwer</reg></w><c type="space"/>
+                        <w><orig>name</orig><reg>name</reg></w><c type="space"/>
+                        <w><orig>                                 vnd
+                              </orig><reg>und</reg></w><c type="space"/>
+                        <w><orig>uver</orig><reg>iuwer</reg></w><c type="space"/>
+                        <w><orig>lant</orig><reg>lant</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="187" xml:id="v_195" corresp="s_191">                        <w><orig>                           Daz</orig><reg>daz</reg></w><c type="space"/>
+                        <w><orig>werde</orig><reg>werde</reg></w><c type="space"/>
+                        <w><orig>mir</orig><reg>mir</reg></w><c type="space"/>
+                        <w><orig>hie</orig><reg>hier</reg></w><c type="space"/>
+                        <w><orig>chvnt</orig><reg>kunt</reg></w><c type="space"/>
+                        <w><orig>getan</orig><reg>getan</reg></w>
+                        <pc>.</pc>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="188" xml:id="v_196" corresp="s_192">                     <w><orig>durch</orig><reg>durch</reg></w><c type="space"/>
+                        <pc>·</pc><c type="space"/>
+                        <w><orig>                                 daz
+                              </orig><reg>daz</reg></w><c type="space"/>
+                        <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
+                        <w><orig>wizze</orig><reg>wizze</reg></w><c type="space"/>
+                        <w><orig>ſunder</orig><reg>sunder</reg></w><c type="space"/>
+                        <w><orig>wan</orig><reg>wân</reg></w>
+                        <pc>.</pc>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="189" xml:id="v_197" corresp="s_193">                     <w><orig>Ob</orig><reg>ob</reg></w><c type="space"/>
+                        <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
+                        <w><orig>in</orig><reg>in</reg></w><c type="space"/>
+                        <w><orig>allen</orig><reg>allen</reg></w><c type="space"/>
+                        <w><orig>meinen</orig><reg>mînen</reg></w><c type="space"/>
+                        <w><orig>tagen</orig><reg>tagen</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="190" xml:id="v_198" corresp="s_194">                     <w><orig>ie</orig><reg>ie</reg></w><c type="space"/>
+                        <w><orig>von</orig><reg>von</reg></w><c type="space"/>
+                        <w><orig>iv</orig><reg>iuch</reg></w><c type="space"/>
+                        <w><orig>gehorte</orig><reg>gehôrte</reg></w><c type="space"/>
+                        <w><orig>ſagen</orig><reg>sagen</reg></w>
+                        <pc>.</pc>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="191" xml:id="v_199" corresp="s_195">                     <w><orig>Des</orig><reg>des</reg></w><c type="space"/>
+                        <w><orig>antvrt</orig><reg>antworte</reg></w><c type="space"/>
+                        <w><orig>im</orig><reg>im</reg></w><c type="space"/>
+                        <w><orig>div</orig><reg>diu</reg></w><c type="space"/>
+                        <w><orig>ſchoniv</orig><reg>schone</reg></w><c type="space"/>
+                        <w><orig>do</orig><reg>dô</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="192" xml:id="v_200" corresp="s_196">                     <w><orig>ſi</orig><reg>sie</reg></w><c type="space"/>
+                        <w><orig>ſprach</orig><reg>sprach</reg></w><c type="space"/>
+                        <w><orig>gezogenlich</orig><reg>gezogenlich</reg></w><c type="space"/>
+                        <w><orig>alſo</orig><reg>alsô</reg></w>
+                        <pc>.</pc>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="193" xml:id="v_201" corresp="s_197">                     <w><orig>Vil</orig><reg>vil</reg></w><c type="space"/>
+                        <w><orig>lieber</orig><reg>lieber</reg></w><c type="space"/>
+                        <w><orig>frivnt</orig><reg>vriunt</reg></w><c type="space"/>
+                        <w><orig>                                 daz
+                              </orig><reg>daz</reg></w><c type="space"/>
+                        <w><orig>ſol</orig><reg>sol</reg></w><c type="space"/>
+                        <w><orig>geſchehn</orig><reg>geschehen</reg></w>
+                        <pc>.</pc>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="194" xml:id="v_202" corresp="s_198"><!--                     verrüefen?-->                     <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
+                        <w><orig>wil</orig><reg>wil</reg></w><c type="space"/>
+                        <w><orig>dir</orig><reg>dir</reg></w><c type="space"/>
+                        <w><orig>gern</orig><reg>gern</reg></w><c type="space"/>
+                        <w><orig>alhie</orig><reg>alhier</reg></w><c type="space"/>
+                        <w><orig>                                 veriehn
+                              </orig><reg>verjehen</reg></w>
+                        <pc>.</pc>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="195" xml:id="v_203" corresp="s_199">                     <w><orig>Meins</orig><reg>mînes</reg></w><c type="space"/>
+                        <w><orig>hochgelopten</orig><reg>hôchgelopten</reg></w><c type="space"/>
+                        <w><orig>namen</orig><reg>namen</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="196" xml:id="v_204" corresp="s_200">                     <w><orig>dv</orig><reg>du</reg></w><c type="space"/>
+                        <w><orig>endarft</orig><reg>endarft</reg></w><c type="space"/>
+                        <w><orig>dich</orig><reg>dich</reg></w><c type="space"/>
+                        <w><orig>                                 nimmer
+                              </orig><reg>nimmer</reg></w><c type="space"/>
+                        <w><orig>des</orig><reg>dez</reg></w><c type="space"/>
+                        <w><orig>                                 geſchamen
+                              </orig><reg>geschamen</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="197" xml:id="v_205" corresp="s_201">                     <w><orig>Ob</orig><reg>ob</reg></w><c type="space"/>
+                        <w><orig>du</orig><reg>du</reg></w><c type="space"/>
+                        <w><orig>mir</orig><reg>mir</reg></w><c type="space"/>
+                        <w><orig>                                 vndertænic
+                              </orig><reg>undertaenic</reg></w><c type="space"/>
+                        <w><orig>biſt</orig><reg>bist</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="198" xml:id="v_206" corresp="s_202">                     <w><orig>mir</orig><reg>mir</reg></w><c type="space"/>
+                        <w><orig>dienet</orig><reg>dienet</reg></w><c type="space"/>
+                        <w><orig>ſwaz</orig><reg>swaz</reg></w><c type="space"/>
+                        <w><orig>auf</orig><reg>ûf</reg></w><c type="space"/>
+                        <w><orig>erde</orig><reg>erde</reg></w><c type="space"/>
+                        <w><orig>iſt</orig><reg>ist</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="199" xml:id="v_207" corresp="s_203">                     <w><orig>Hordes</orig><reg>hordes</reg></w><c type="space"/>
+                        <w><orig>                                 vnd
+                              </orig><reg>und</reg></w><c type="space"/>
+                        <w><orig>gvͦetes</orig><reg>guotes</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="200" xml:id="v_208" corresp="s_204">                     <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
+                        <w><orig>bin</orig><reg>bin</reg></w><c type="space"/>
+                        <w><orig>ſo</orig><reg>sô</reg></w><c type="space"/>
+                        <w><orig>hohes</orig><reg>hôhes</reg></w><c type="space"/>
+                        <w><orig>mvͦetes</orig><reg>muotes</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="201" xml:id="v_209" corresp="s_205">                        <w><orig>Daz</orig><reg>daz</reg></w><c type="space"/>
+                        <w><orig>chaiſer</orig><reg>keiser</reg></w><c type="space"/>
+                        <w><orig>                                 vnd
+                              </orig><reg>und</reg></w><c type="space"/>
+                        <w><orig>chvniges</orig><reg>küniges</reg></w><c type="space"/>
+                        <w><orig>chint</orig><reg>kint</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="202" xml:id="v_210" corresp="s_206">                     <w><orig>alle</orig><reg>alle</reg></w><c type="space"/>
+                        <w><orig>                                 vnder
+                              </orig><reg>under</reg></w><c type="space"/>
+                        <w><orig>                                 meiner
+                              </orig><reg>mîner</reg></w><c type="space"/>
+                        <w><orig>chrone</orig><reg>krone</reg></w><c type="space"/>
+                        <w><orig>ſint</orig><reg>sint</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="203" xml:id="v_211" corresp="s_207">                     <w><orig>Graven</orig><reg>graven</reg></w><c type="space"/>
+                        <w><orig>vreien</orig><reg>vrîen</reg></w><c type="space"/>
+                        <w><orig>                                 vnd
+                              </orig><reg>und</reg></w><c type="space"/>
+                        <w><orig>hertzogen</orig><reg>herzogen</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="204" xml:id="v_212" corresp="s_208">                     <w><orig>die</orig><reg>die</reg></w><c type="space"/>
+                        <w><orig>habent</orig><reg>habent</reg></w><c type="space"/>
+                        <w><orig>mir</orig><reg>mir</reg></w><c type="space"/>
+                        <w><orig>ir</orig><reg>ir</reg></w><c type="space"/>
+                        <w><orig>knie</orig><reg>knie</reg></w><c type="space"/>
+                        <w><orig>                                 gebogen
+                              </orig><reg>gebogen</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="205" xml:id="v_213" corresp="s_209">                     <w><orig>                                 Vnd
+                              </orig><reg>und</reg></w><c type="space"/>
+                        <w><orig>laiſtent</orig><reg>leistent</reg></w><c type="space"/>
+                        <w><orig>alle</orig><reg>alle</reg></w><c type="space"/>
+                        <w><orig>mein</orig><reg>mîn</reg></w><c type="space"/>
+                        <w><orig>gebot</orig><reg>gebot</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="206" xml:id="v_214" corresp="s_210">                     <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
+                        <w><orig>enfvrchte</orig><reg>envürhte</reg></w><c type="space"/>
+                        <w><orig>nieman</orig><reg>nieman</reg></w><c type="space"/>
+                        <w><orig>wan</orig><reg>wan</reg></w><c type="space"/>
+                        <w><orig>got</orig><reg>got</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="207" xml:id="v_215" corresp="s_211">                     <w><orig>Der</orig><reg>der</reg></w><c type="space"/>
+                        <w><orig>iſt</orig><reg>ist</reg></w><c type="space"/>
+                        <w><orig>gewaltic</orig><reg>gewaltic</reg></w><c type="space"/>
+                        <w><orig>vber</orig><reg>über</reg></w><c type="space"/>
+                        <w><orig>mich</orig><reg>mich</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="208" xml:id="v_216" corresp="s_212">                     <w><orig>div</orig><reg>diu</reg></w><c type="space"/>
+                        <w><orig>werlt</orig><reg>werlt</reg></w><c type="space"/>
+                        <w><orig>bin</orig><reg>bin</reg></w><c type="space"/>
+                        <w><orig>gehaizen</orig><reg>geheizen</reg></w><c type="space"/>
+                        <w><orig>ich</orig><reg>ich</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="209" xml:id="v_217" corresp="s_213">                     <w><orig>Der</orig><reg>der</reg></w><c type="space"/>
+                        <w><orig>du</orig><reg>du</reg></w><c type="space"/>
+                        <w><orig>nv</orig><reg>nun</reg></w><c type="space"/>
+                        <w><orig>lange</orig><reg>lange</reg></w><c type="space"/>
+                        <w><orig>haſt</orig><reg>hast</reg></w><c type="space"/>
+                        <w><orig>gegert</orig><reg>gegert</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="210" xml:id="v_218" corresp="s_214">                     <w><orig>lones</orig><reg>lônes</reg></w><c type="space"/>
+                        <w><orig>ſolt</orig><reg>solt</reg></w><c type="space"/>
+                        <w><orig>du</orig><reg>du</reg></w><c type="space"/>
+                        <w><orig>ſein</orig><reg>sîn</reg></w><c type="space"/>
+                        <w><orig>gewert</orig><reg>gewert</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="211" xml:id="v_219" corresp="s_215">                     <w><orig>An</orig><reg>an</reg></w><c type="space"/>
+                        <w><orig>mir</orig><reg>mir</reg></w><c type="space"/>
+                        <w><orig>als</orig><reg>als</reg></w><c type="space"/>
+                        <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
+                        <w><orig>dir</orig><reg>dir</reg></w><c type="space"/>
+                        <w><orig>zaige</orig><reg>zeige</reg></w><c type="space"/>
+                        <w><orig>nv</orig><reg>nun</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="212" xml:id="v_220" corresp="s_216">                     <w><orig>nv</orig><reg>nun</reg></w><c type="space"/>
+                        <w><orig>chvmt</orig><reg>kumt</reg></w><c type="space"/>
+                        <w><orig>ez</orig><reg>ez</reg></w><c type="space"/>
+                        <w><orig>dir</orig><reg>dir</reg></w><c type="space"/>
+                        <w><orig>nv</orig><reg>nun</reg></w><c type="space"/>
+                        <w><orig>ſchowe</orig><reg>schouwe</reg></w><c type="space"/>
+                        <w><orig>du</orig><reg>du</reg></w>
+                        <pc>.</pc>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="213" xml:id="v_221" corresp="s_217">                     <w><orig>Sus</orig><reg>sust</reg></w><c type="space"/>
+                        <w><orig>chert</orig><reg>kert</reg></w><c type="space"/>
+                        <w><orig>ſi</orig><reg>sie</reg></w><c type="space"/>
+                        <w><orig>im</orig><reg>im</reg></w><c type="space"/>
+                        <w><orig>den</orig><reg>den</reg></w><c type="space"/>
+                        <w><orig>ruggen</orig><reg>rucken</reg></w><c type="space"/>
+                        <w><orig>dar</orig><reg>dar</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="214" xml:id="v_222" corresp="s_218">                     <w><orig>der</orig><reg>der</reg></w><c type="space"/>
+                        <w><orig>was</orig><reg>waz</reg></w><c type="space"/>
+                        <w><orig>in</orig><reg>in</reg></w><c type="space"/>
+                        <w><orig>allen</orig><reg>allen</reg></w><c type="space"/>
+                        <w><orig>enden</orig><reg>enden</reg></w><c type="space"/>
+                        <w><orig>gar</orig><reg>gar</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="215" xml:id="v_223" corresp="s_219">                        <w><orig>Beſtecket</orig><reg>bestecket</reg></w><c type="space"/>
+                        <w><orig>                                 vnd
+                              </orig><reg>und</reg></w><c type="space"/>
+                        <w><orig>behangen</orig><reg>behangen</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="216" xml:id="v_224" corresp="s_220">                     <w><orig>mit</orig><reg>mit</reg></w><c type="space"/>
+                        <w><orig>vngefvegen</orig><reg>ungevüegen</reg></w><c type="space"/>
+                        <w><orig>ſlangen</orig><reg>slangen</reg></w>
+                        <pc>.</pc>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="217" xml:id="v_225" corresp="s_221">                     <w><orig>Krotten</orig><reg>krotten</reg></w><c type="space"/>
+                        <w><orig>vnde</orig><reg>unde</reg></w><c type="space"/>
+                        <w><orig>natern</orig><reg>natern</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="218" xml:id="v_226" corresp="s_222">                     <w><orig>ir</orig><reg>ir</reg></w><c type="space"/>
+                        <w><orig>leip</orig><reg>lîp</reg></w><c type="space"/>
+                        <w><orig>was</orig><reg>waz</reg></w><c type="space"/>
+                        <w><orig>voller</orig><reg>voller</reg></w><c type="space"/>
+                        <w><orig>blatern</orig><reg>blattern</reg></w>
+                        <pc>.</pc>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="219" xml:id="v_227" corresp="s_223">                     <w><orig>                                 Vnd
+                              </orig><reg>und</reg></w><c type="space"/>
+                        <w><orig>vngefveger</orig><reg>ungevüeger</reg></w><c type="space"/>
+                        <w><orig>aizen</orig><reg>eizen</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="220" xml:id="v_228" corresp="s_224">                     <w><orig>vliegen</orig><reg>vliegen</reg></w><c type="space"/>
+                        <w><orig>                                 vnd
+                              </orig><reg>und</reg></w><c type="space"/>
+                        <w><orig>amaizen</orig><reg>âmeizen</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="221" xml:id="v_229" corresp="s_225">                     <w><orig>Ain</orig><reg>ein</reg></w><c type="space"/>
+                        <w><orig>wunder</orig><reg>wunder</reg></w><c type="space"/>
+                        <w><orig>drinne</orig><reg>darin</reg></w><c type="space"/>
+                        <w><orig>ſazen</orig><reg>sâzen</reg></w><pc>.</pc>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="222" xml:id="v_230" corresp="s_226">                     <w><orig>ir</orig><reg>ir</reg></w><c type="space"/>
+                        <w><orig>vlaiſch</orig><reg>vleisch</reg></w><c type="space"/>
+                        <w><orig>die</orig><reg>die</reg></w><c type="space"/>
+                        <w><orig>maden</orig><reg>maden</reg></w><c type="space"/>
+                        <w><orig>azen</orig><reg>âzen</reg></w>
+                        <pc>.</pc>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="223" xml:id="v_231" corresp="s_227">                     <w><orig>Vntz</orig><reg>untz</reg></w><c type="space"/>
+                        <w><orig>auf</orig><reg>ûf</reg></w><c type="space"/>
+                        <w><orig>                                 daz
+                              </orig><reg>daz</reg></w><c type="space"/>
+                        <w><orig>gebaine</orig><reg>gebeine</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="224" xml:id="v_232" corresp="s_228">                     <w><orig>ſi</orig><reg>sie</reg></w><c type="space"/>
+                        <w><orig>was</orig><reg>waz</reg></w><c type="space"/>
+                        <w><orig>ſo</orig><reg>sô</reg></w><c type="space"/>
+                        <w><orig>gar</orig><reg>gar</reg></w><c type="space"/>
+                        <w><orig>vnraine</orig><reg>unreine</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="225" xml:id="v_233" corresp="s_229">                        <w><orig>Daz</orig><reg>daz</reg></w><c type="space"/>
+                        <w><orig>von</orig><reg>von</reg></w><c type="space"/>
+                        <w><orig>ir</orig><reg>ir</reg></w><c type="space"/>
+                        <w><orig>bloden</orig><reg>bloeden</reg></w><c type="space"/>
+                        <w><orig>leibe</orig><reg>lîp</reg></w><c type="space"/>
+                        <w><orig>wac</orig><reg>waz</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="226" xml:id="v_234" corresp="s_230">                        <w><orig>ain</orig><reg>ein</reg></w><c type="space"/>
+                        <w><orig>ſo</orig><reg>sô</reg></w><c type="space"/>
+                        <w><orig>ængeſtlicher</orig><reg>engestlicher</reg></w><c type="space"/>
+                        <w><orig>ſmac</orig><reg>smac</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="227" xml:id="v_235" corresp="s_231">                        <w><orig>Den</orig><reg>den</reg></w><c type="space"/>
+                        <w><orig>nieman</orig><reg>nieman</reg></w><c type="space"/>
+                        <w><orig>chvnde</orig><reg>kunde</reg></w><c type="space"/>
+                        <w><orig>erleiden</orig><reg>erlîden</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="228" xml:id="v_236" corresp="s_232">                     <w><orig>ir</orig><reg>ir</reg></w><c type="space"/>
+                        <w><orig>reichez</orig><reg>rîchez</reg></w><c type="space"/>
+                        <w><orig>chlait</orig><reg>kleit</reg></w><c type="space"/>
+                        <w><orig>von</orig><reg>von</reg></w><c type="space"/>
+                        <w><orig>ſeiden</orig><reg>sîden</reg></w>
+                        <pc>.</pc>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="228" xml:id="v_237" corresp="s_233">               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="228" xml:id="v_238" corresp="s_234">               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="228" xml:id="v_239" corresp="s_235">               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="228" xml:id="v_240" corresp="s_236">               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="229" xml:id="v_241" corresp="s_237">                     <w><orig>Was</orig><reg>waz</reg></w><c type="space"/>
+                        <w><orig>vil</orig><reg>vil</reg></w><c type="space"/>
+                        <w><orig>iæmerlich</orig><reg>jâmerlich</reg></w><c type="space"/>
+                        <w><orig>gevar</orig><reg>gevar</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="230" xml:id="v_242" corresp="s_238">                     <w><orig>blaich</orig><reg>bleich</reg></w><c type="space"/>
+                        <w><orig>als</orig><reg>als</reg></w><c type="space"/>
+                        <w><orig>ain</orig><reg>ein</reg></w><c type="space"/>
+                        <w><orig>aſche</orig><reg>asche</reg></w><c type="space"/>
+                        <w><orig>gar</orig><reg>gar</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="230" xml:id="v_243" corresp="s_238a">               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="230" xml:id="v_244" corresp="s_238b">               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="231" xml:id="v_245" corresp="s_239">                     <w><orig>Hie</orig><reg>hie</reg></w><c type="space"/>
+                        <w><orig>mit</orig><reg>mit</reg></w><c type="space"/>
+                        <w><orig>ſchiet</orig><reg>schiet</reg></w><c type="space"/>
+                        <w><orig>ſi</orig><reg>sie</reg></w><c type="space"/>
+                        <w><orig>dannen</orig><reg>dannen</reg></w>
+                        <pc>.</pc>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="232" xml:id="v_246" corresp="s_240">                        <w><orig>
+                           Daz</orig><reg>daz</reg></w><c type="space"/>
+                        <w><orig>ſi</orig><reg>sie</reg></w><c type="space"/>
+                        <w><orig>vor</orig><reg>vor</reg></w><c type="space"/>
+                        <w><orig>mir</orig><reg>mir</reg></w><c type="space"/>
+                        <w><orig>verbannen</orig><reg>verbannen</reg></w>
+                        <pc>.</pc>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="233" xml:id="v_247" corresp="s_241">                     <w><orig>                                 Vnd
+                              </orig><reg>und</reg></w><c type="space"/>
+                        <w><orig>al</orig><reg>all</reg></w><c type="space"/>
+                        <w><orig>der</orig><reg>der</reg></w><c type="space"/>
+                        <w><orig>chriſtenhait</orig><reg>kristenheit</reg></w><c type="space"/>
+                        <w><orig>ſei</orig><reg>sei</reg></w>
+                        <pc>.</pc>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="234" xml:id="v_248" corresp="s_242">                     <w><orig>                                 der
+                              </orig><reg>der</reg></w><c type="space"/>
+                        <w><orig>ritter</orig><reg>ritter</reg></w><c type="space"/>
+                        <w><orig>edel</orig><reg>edel</reg></w><c type="space"/>
+                        <w><orig>                                 vnd
+                              </orig><reg>und</reg></w><c type="space"/>
+                        <w><orig>vrei</orig><reg>vrî</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="235" xml:id="v_249" corresp="s_243">                     <w><orig>Do</orig><reg>dô</reg></w><c type="space"/>
+                        <w><orig>der</orig><reg>der</reg></w><c type="space"/>
+                        <w><orig>ditz</orig><reg>dise</reg></w><c type="space"/>
+                        <w><orig>                                 wunder
+                              </orig><reg>wunder</reg></w><c type="space"/>
+                        <w><orig>ane ſach</orig><reg>ansach</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="236" xml:id="v_250" corresp="s_244">                     <w><orig>zehant</orig><reg>zehant</reg></w><c type="space"/>
+                        <w><orig>ſein</orig><reg>sîn</reg></w><c type="space"/>
+                        <w><orig>                                 hertze
+                              </orig><reg>herze</reg></w><c type="space"/>
+                        <w><orig>im</orig><reg>im</reg></w><c type="space"/>
+                        <w><orig>des</orig><reg>des</reg></w><c type="space"/>
+                        <w><orig>                                 veriach
+                              </orig><reg>verjach</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="237" xml:id="v_251" corresp="s_245">                     <w><orig>Er</orig><reg>er</reg></w><c type="space"/>
+                        <w><orig>wære</orig><reg>waere</reg></w><c type="space"/>
+                        <w><orig>gar</orig><reg>gar</reg></w><c type="space"/>
+                        <w><orig>                                 verwazen
+                        </orig><reg>verwâzen</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="238" xml:id="v_252" corresp="s_246">                     <w><orig>ſwer</orig><reg>swer</reg></w><c type="space"/>
+                        <w><orig>ſich</orig><reg>sich</reg></w><c type="space"/>
+                        <w><orig>wolte</orig><reg>wolte</reg></w><c type="space"/>
+                        <w><orig>lazen</orig><reg>lâzen</reg></w>
+                        <pc>.</pc>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="239" xml:id="v_253" corresp="s_247">                     <w><orig>An</orig><reg>an</reg></w><c type="space"/>
+                        <w><orig>ir</orig><reg>ir</reg></w><c type="space"/>
+                        <w><orig>dienſte</orig><reg>dienste</reg></w><c type="space"/>
+                        <w><orig>vinden</orig><reg>vinden</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="240" xml:id="v_254" corresp="s_248">                     <w><orig>von</orig><reg>von</reg></w><c type="space"/>
+                        <w><orig>weiben</orig><reg>wîben</reg></w><c type="space"/>
+                        <w><orig>                                 vnd
+                              </orig><reg>und</reg></w><c type="space"/>
+                        <w><orig>von</orig><reg>von</reg></w><c type="space"/>
+                        <w><orig>chinden</orig><reg>kinden</reg></w>
+                        <pc>.</pc>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="241" xml:id="v_255" corresp="s_249">                     <w><orig>Schiet</orig><reg>schiet</reg></w><c type="space"/>
+                        <w><orig>er</orig><reg>er</reg></w><c type="space"/>
+                        <w><orig>ſich</orig><reg>sich</reg></w><c type="space"/>
+                        <w><orig>al da</orig><reg>alda</reg></w><c type="space"/>
+                        <w><orig>zehant</orig><reg>zehant</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="242" xml:id="v_256" corresp="s_250">                     <w><orig>er</orig><reg>er</reg></w><c type="space"/>
+                        <w><orig>nam</orig><reg>nam</reg></w><c type="space"/>
+                        <w><orig>                                 daz
+                              </orig><reg>daz</reg></w><c type="space"/>
+                        <w><orig>chrivtz</orig><reg>kriuz</reg></w><c type="space"/>
+                        <w><orig>an</orig><reg>an</reg></w><c type="space"/>
+                        <w><orig>ſein</orig><reg>sîn</reg></w><c type="space"/>
+                        <w><orig>gewant</orig><reg>gewant</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="243" xml:id="v_257" corresp="s_251">                     <w><orig>                                 Vnd
+                              </orig><reg>und</reg></w><c type="space"/>
+                        <w><orig>hvͦp</orig><reg>hüb</reg></w><c type="space"/>
+                        <w><orig>ſich</orig><reg>sich</reg></w><c type="space"/>
+                        <w><orig>vber</orig><reg>über</reg></w><c type="space"/>
+                        <w><orig>                                 daz
+                              </orig><reg>daz</reg></w><c type="space"/>
+                        <w><orig>wilde</orig><reg>wilde</reg></w><c type="space"/>
+                        <w><orig>mer</orig><reg>mer</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="244" xml:id="v_258" corresp="s_252">                     <w><orig>                                 vnd
+                              </orig><reg>und</reg></w><c type="space"/>
+                        <w><orig>half</orig><reg>half</reg></w><c type="space"/>
+                        <w><orig>dem</orig><reg>dem</reg></w><c type="space"/>
+                        <w><orig>edeln</orig><reg>edelen</reg></w><c type="space"/>
+                        <w><orig>gots</orig><reg>gotez</reg></w><c type="space"/>
+                        <w><orig>her</orig><reg>her</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="245" xml:id="v_259" corresp="s_253">                        <w><orig>Streiten</orig><reg>strîten</reg></w><c type="space"/>
+                        <w><orig>an</orig><reg>an</reg></w><c type="space"/>
+                        <w><orig>die</orig><reg>die</reg></w><c type="space"/>
+                        <w><orig>haidenſchaft</orig><reg>heidenschaft</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="246" xml:id="v_260" corresp="s_254">                     <w><orig>da</orig><reg>da</reg></w><c type="space"/>
+                        <w><orig>wart</orig><reg>wart</reg></w><c type="space"/>
+                        <w><orig>                                 der
+                              </orig><reg>der</reg></w><c type="space"/>
+                        <w><orig>ritter</orig><reg>ritter</reg></w><c type="space"/>
+                        <w><orig>tvgenthaft</orig><reg>tugenthaft</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="247" xml:id="v_261" corresp="s_255">                     <w><orig>An</orig><reg>an</reg></w><c type="space"/>
+                        <w><orig>ſtæter</orig><reg>staeter</reg></w><c type="space"/>
+                        <w><orig>bvͦze</orig><reg>buoze</reg></w><c type="space"/>
+                        <w><orig>fvnden</orig><reg>vunden</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="248" xml:id="v_262" corresp="s_256">                     <w><orig>er</orig><reg>er</reg></w><c type="space"/>
+                        <w><orig>ſchvf</orig><reg>schuof</reg></w><c type="space"/>
+                        <w><orig>                                 daz
+                              </orig><reg>daz</reg></w><c type="space"/>
+                        <w><orig>ze</orig><reg>zuo</reg></w><c type="space"/>
+                        <w><orig>allen</orig><reg>allen</reg></w><c type="space"/>
+                        <w><orig>ſtvnden</orig><reg>stunden</reg></w>
+                        <pc>.</pc>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="249" xml:id="v_263" corresp="s_257">                     <w><orig>Do</orig><reg>dô</reg></w><c type="space"/>
+                        <w><orig>im</orig><reg>im</reg></w><c type="space"/>
+                        <w><orig>                                 der
+                              </orig><reg>der</reg></w><c type="space"/>
+                        <w><orig>leip</orig><reg>lîp</reg></w><c type="space"/>
+                        <w><orig>erſtorben</orig><reg>erstorben</reg></w><c type="space"/>
+                        <w><orig>was</orig><reg>waz</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="250" xml:id="v_264" corresp="s_258">                     <w><orig>                                 daz
+                              </orig><reg>daz</reg></w><c type="space"/>
+                        <w><orig>im</orig><reg>im</reg></w><c type="space"/>
+                        <w><orig>div</orig><reg>diu</reg></w><c type="space"/>
+                        <w><orig>ſel</orig><reg>sele</reg></w><c type="space"/>
+                        <w><orig>dort</orig><reg>dort</reg></w><c type="space"/>
+                        <w><orig>genas</orig><reg>genaz</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="251" xml:id="v_265" corresp="s_259">                     <w><orig>Nv</orig><reg>nun</reg></w><c type="space"/>
+                        <w><orig>mercket</orig><reg>mercket</reg></w><c type="space"/>
+                        <w><orig>alle</orig><reg>alle</reg></w><c type="space"/>
+                        <w><orig>die</orig><reg>die</reg></w><c type="space"/>
+                        <w><orig>nv</orig><reg>nun</reg></w><c type="space"/>
+                        <w><orig>ſint</orig><reg>sint</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="252" xml:id="v_266" corresp="s_260">                     <w><orig>diſer</orig><reg>diser</reg></w><c type="space"/>
+                        <w><orig>wilden</orig><reg>wilden</reg></w><c type="space"/>
+                        <w><orig>                                 werlte
+                              </orig><reg>werlt</reg></w><c type="space"/>
+                        <w><orig>chint</orig><reg>kint</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="253" xml:id="v_267" corresp="s_261">                     <w><orig>Ditz</orig><reg>dise</reg></w><c type="space"/>
+                        <w><orig>endehafte</orig><reg>endehafte</reg></w><c type="space"/>
+                        <w><orig>mære</orig><reg>maere</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="254" xml:id="v_268" corresp="s_262">                     <w><orig>                                 daz
+                              </orig><reg>daz</reg></w><c type="space"/>
+                        <w><orig>iſt</orig><reg>ist</reg></w><c type="space"/>
+                        <w><orig>alſo</orig><reg>alsô</reg></w><c type="space"/>
+                        <w><orig>gewære</orig><reg>gewaere</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="255" xml:id="v_269" corresp="s_263">                     <w><orig>                                 Daz
+                              </orig><reg>daz</reg></w><c type="space"/>
+                        <w><orig>man</orig><reg>man</reg></w><c type="space"/>
+                        <w><orig>ez</orig><reg>ez</reg></w><c type="space"/>
+                        <w><orig>gern</orig><reg>gern</reg></w><c type="space"/>
+                        <w><orig>horen</orig><reg>hoeren</reg></w><c type="space"/>
+                        <w><orig>ſol</orig><reg>sol</reg></w>
+                        <pc>.</pc>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="256" xml:id="v_270" corresp="s_264">                     <w><orig>                                 der
+                              </orig><reg>der</reg></w><c type="space"/>
+                        <w><orig>werlte</orig><reg>werlt</reg></w><c type="space"/>
+                        <w><orig>lon</orig><reg>lôn</reg></w><c type="space"/>
+                        <w><orig>iſt</orig><reg>ist</reg></w><c type="space"/>
+                        <w><orig>iamers</orig><reg>jamers</reg></w><c type="space"/>
+                        <w><orig>vol</orig><reg>vol</reg></w><pc>.</pc>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="257" xml:id="v_271" corresp="s_265">                        <w><orig>Daz</orig><reg>dc</reg></w><c type="space"/>
+                        <w><orig>mvͦgt</orig><reg>muoget</reg></w><c type="space"/>
+                        <w><orig>ir</orig><reg>ir</reg></w><c type="space"/>
+                        <w><orig>alle</orig><reg>alle</reg></w><c type="space"/>
+                        <w><orig>han</orig><reg>hân</reg></w><c type="space"/>
+                        <w><orig>                                 vernomen
+                              </orig><reg>vernomen</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="258" xml:id="v_272" corresp="s_266">                     <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
+                        <w><orig>bin</orig><reg>bin</reg></w><c type="space"/>
+                        <w><orig>ſein</orig><reg>sîn</reg></w><c type="space"/>
+                        <w><orig>an</orig><reg>an</reg></w><c type="space"/>
+                        <w><orig>ain</orig><reg>ein</reg></w><c type="space"/>
+                        <w><orig>ende</orig><reg>ende</reg></w><c type="space"/>
+                        <w><orig>                                 chomen
+                              </orig><reg>komen</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="259" xml:id="v_273" corresp="s_267">                     <w><orig>Swer</orig><reg>swer</reg></w><c type="space"/>
+                        <w><orig>an</orig><reg>an</reg></w><c type="space"/>
+                        <w><orig>ir</orig><reg>ir</reg></w><c type="space"/>
+                        <w><orig>dienſte</orig><reg>dienst</reg></w><c type="space"/>
+                        <w><orig>fvnden</orig><reg>vunden</reg></w><c type="space"/>
+                        <w><orig>wirt</orig><reg>wirt</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="260" xml:id="v_274" corresp="s_268">                     <w><orig>                                 daz
+                              </orig><reg>daz</reg></w><c type="space"/>
+                        <w><orig>in</orig><reg>in</reg></w><c type="space"/>
+                        <w><orig>div</orig><reg>diu</reg></w><c type="space"/>
+                        <w><orig>vrevde</orig><reg>vröude</reg></w><c type="space"/>
+                        <w><orig>gar</orig><reg>gar</reg></w><c type="space"/>
+                        <w><orig>                                 verbirt
+                              </orig><reg>verbirt</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="261" xml:id="v_275" corresp="s_269">                     <w><orig>Die</orig><reg>die</reg></w><c type="space"/>
+                        <w><orig>got</orig><reg>got</reg></w><c type="space"/>
+                        <w><orig>mit</orig><reg>mit</reg></w><c type="space"/>
+                        <w><orig>gantzer</orig><reg>ganzer</reg></w><c type="space"/>
+                        <w><orig>ſtætichait</orig><reg>staetekeit</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="262" xml:id="v_276" corresp="s_270">                     <w><orig>den</orig><reg>den</reg></w><c type="space"/>
+                        <w><orig>auz erwelten</orig><reg>ûzerwelten</reg></w><c type="space"/>
+                        <w><orig>hat</orig><reg>hat</reg></w><c type="space"/>
+                        <w><orig>berait</orig><reg>bereit</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="263" xml:id="v_277" corresp="s_271">                     <w><orig>Von</orig><reg>von</reg></w><c type="space"/>
+                        <w><orig>wirtzpurch</orig><reg>Würtzburg</reg></w><c type="space"/>
+                        <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
+                        <w><orig>Chvnrat</orig><reg>Konrad</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="264" xml:id="v_278" corresp="s_272">                     <w><orig>gip</orig><reg>gip</reg></w><c type="space"/>
+                        <w><orig>iv</orig><reg>iuch</reg></w><c type="space"/>
+                        <w><orig>allen</orig><reg>allen</reg></w><c type="space"/>
+                        <w><orig>diſen</orig><reg>disen</reg></w><c type="space"/>
+                        <w><orig>rat</orig><reg>rat</reg></w>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="265" xml:id="v_279" corresp="s_273">                     <w><orig>                                 Daz
+                              </orig><reg>daz</reg></w><c type="space"/>
+                        <w><orig>ir</orig><reg>ir</reg></w><c type="space"/>
+                        <w><orig>die</orig><reg>diu</reg></w><c type="space"/>
+                        <w><orig>werlt</orig><reg>werlt</reg></w><c type="space"/>
+                        <w><orig>lazet</orig><reg>lazet</reg></w><c type="space"/>
+                        <w><orig>varn</orig><reg>varn</reg></w>               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="266" xml:id="v_280" corresp="s_274">                     <w><orig>wellet</orig><reg>wellet</reg></w><c type="space"/>
+                        <w><orig>ir</orig><reg>ir</reg></w><c type="space"/>
+                        <w><orig>die</orig><reg>diu</reg></w><c type="space"/>
+                        <w><orig>ſel</orig><reg>sele</reg></w><c type="space"/>
+                        <w><orig>bewarn</orig><reg>bewarn</reg></w>
+                        <pc>.</pc>               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="266" xml:id="v_281" corresp="s_274a">               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="266" xml:id="v_282" corresp="s_274b">               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="266" xml:id="v_283" corresp="s_274c">               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="266" xml:id="v_284" corresp="s_274d">               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="266" xml:id="v_285" corresp="s_274e">               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="266" xml:id="v_286" corresp="s_274f">               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="266" xml:id="v_287" corresp="s_274g">               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="266" xml:id="v_288" corresp="s_274h">               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="266" xml:id="v_289" corresp="s_274i">               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="266" xml:id="v_290" corresp="s_274j">               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="266" xml:id="v_291" corresp="s_274k">               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="266" xml:id="v_292" corresp="s_274l">               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="266" xml:id="v_293" corresp="s_274m">               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="266" xml:id="v_294" corresp="s_274n">               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="266" xml:id="v_295" corresp="s_274o">               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="266" xml:id="v_296" corresp="s_274p">               </l>               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="266" xml:id="v_297" corresp="s_274q">               </l>
+               <l xmlns:tei="http://www.tei-c.org/ns/1.0" n="266" xml:id="v_298" corresp="s_274r">               </l>         </div>
+      </body>
+   </text>
+</TEI>

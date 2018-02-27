@@ -119,828 +119,830 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <creation>Guide manuscript: <ref target="#M">M</ref>
-         </creation>
+         <creation>Guide manuscript: <ref target="#M">M</ref></creation>
       </profileDesc>
+      <encodingDesc>
+         <variantEncoding method="parallel-segmentation" location="internal"/>
+      </encodingDesc>
    </teiHeader>
    <text>
       <body>
          <div>
             <head>
-               <w><orig>Der</orig><reg>der</reg></w><space/>
+               <w><orig>Der</orig><reg>der</reg></w><c type="space"/>
                <w><orig>werlde</orig><reg>werlt</reg></w>
                <w><orig>lon</orig><reg>lôn</reg></w>
             </head>
             <l n="1" xml:id="v_1" corresp="s_1">
-               <w><orig>Ir</orig><reg>Ir</reg></w><space/>
-               <w><orig>werlte</orig><reg>werlt</reg></w><space/>
+               <w><orig>Ir</orig><reg>Ir</reg></w><c type="space"/>
+               <w><orig>werlte</orig><reg>werlt</reg></w><c type="space"/>
                <w><orig>minnaere</orig><reg>minnaere</reg></w>
             </l>
             <l n="2" xml:id="v_2" corresp="s_2">
-               <w><orig>vernemet</orig><reg>vernemet</reg></w><space/>
-               <w><orig>disiu</orig><reg>dise</reg></w><space/>
+               <w><orig>vernemet</orig><reg>vernemet</reg></w><c type="space"/>
+               <w><orig>disiu</orig><reg>dise</reg></w><c type="space"/>
                <w><orig>maere</orig><reg>maere</reg></w><pc>,</pc>
             </l>
             <l n="3" xml:id="v_3" corresp="s_3">
-               <w><orig>wie</orig><reg>wie</reg></w><space/>
-               <w><orig>ainem</orig><reg>einem</reg></w><space/>
-               <w><orig>ritter</orig><reg>ritter</reg></w><space/>
+               <w><orig>wie</orig><reg>wie</reg></w><c type="space"/>
+               <w><orig>ainem</orig><reg>einem</reg></w><c type="space"/>
+               <w><orig>ritter</orig><reg>ritter</reg></w><c type="space"/>
                <w><orig>gelanc</orig><reg>gelanc</reg></w><pc>,</pc>
             </l>
             <l n="4" xml:id="v_4" corresp="s_4">
-               <w><orig>der</orig><reg>der</reg></w><space/>
-               <w><orig>nah</orig><reg>nach</reg></w><space/>
-               <w><orig>der</orig><reg>der</reg></w><space/>
-               <w><orig>werlde</orig><reg>werlt</reg></w><space/>
-               <w><orig>lone</orig><reg>lôn</reg></w><space/>
-               <w><orig>ranc</orig><reg>ranc</reg></w><space/>
+               <w><orig>der</orig><reg>der</reg></w><c type="space"/>
+               <w><orig>nah</orig><reg>nach</reg></w><c type="space"/>
+               <w><orig>der</orig><reg>der</reg></w><c type="space"/>
+               <w><orig>werlde</orig><reg>werlt</reg></w><c type="space"/>
+               <w><orig>lone</orig><reg>lôn</reg></w><c type="space"/>
+               <w><orig>ranc</orig><reg>ranc</reg></w><c type="space"/>
             </l>
             <l n="5" xml:id="v_5" corresp="s_5">
-               <w><orig>baidiu</orig><reg>beide</reg></w><space/>
-               <w><orig>spat</orig><reg>spât</reg></w><space/>
-               <w><orig>und</orig><reg>und</reg></w><space/>
+               <w><orig>baidiu</orig><reg>beide</reg></w><c type="space"/>
+               <w><orig>spat</orig><reg>spât</reg></w><c type="space"/>
+               <w><orig>und</orig><reg>und</reg></w><c type="space"/>
                <w><orig>vruo</orig><reg>vruo</reg></w><pc>.</pc>
             </l>
             <l n="6" xml:id="v_6" corresp="s_6">
-               <w><orig>Er</orig><reg>Er</reg></w><space/>
-               <w><orig>daht</orig><reg>dahte</reg></w><space/>
-               <w><orig>in</orig><reg>in</reg></w><space/>
-               <w><orig>manige</orig><reg>manige</reg></w><space/>
-               <w><orig>weis</orig><reg>wîz</reg></w><space/>
+               <w><orig>Er</orig><reg>Er</reg></w><c type="space"/>
+               <w><orig>daht</orig><reg>dahte</reg></w><c type="space"/>
+               <w><orig>in</orig><reg>in</reg></w><c type="space"/>
+               <w><orig>manige</orig><reg>manige</reg></w><c type="space"/>
+               <w><orig>weis</orig><reg>wîz</reg></w><c type="space"/>
                <w><orig>darzuo</orig><reg>darzuo</reg></w><pc>,</pc>
             </l>
             <l n="7" xml:id="v_7" corresp="s_7">
-               <w><orig>wamit</orig><reg>womit</reg></w><space/>
-               <w><orig>er</orig><reg>er</reg></w><space/>
-               <w><orig>das</orig><reg>daz</reg></w><space/>
+               <w><orig>wamit</orig><reg>womit</reg></w><c type="space"/>
+               <w><orig>er</orig><reg>er</reg></w><c type="space"/>
+               <w><orig>das</orig><reg>daz</reg></w><c type="space"/>
                <w><orig>begienge</orig><reg>begienge</reg></w><pc>,</pc>
             </l>
             <l n="8" xml:id="v_8" corresp="s_8">
-               <w><orig>das</orig><reg>daz</reg></w><space/>
-               <w><orig>er</orig><reg>er</reg></w><space/>
-               <w><orig>den</orig><reg>den</reg></w><space/>
-               <w><orig>lon</orig><reg>lôn</reg></w><space/>
+               <w><orig>das</orig><reg>daz</reg></w><c type="space"/>
+               <w><orig>er</orig><reg>er</reg></w><c type="space"/>
+               <w><orig>den</orig><reg>den</reg></w><c type="space"/>
+               <w><orig>lon</orig><reg>lôn</reg></w><c type="space"/>
                <w><orig>enphienge</orig><reg>entvienge</reg></w>
             </l>
             <l n="9" xml:id="v_9" corresp="s_9">
-               <w><orig>werltlicher</orig><reg>werltlicher</reg></w><space/>
+               <w><orig>werltlicher</orig><reg>werltlicher</reg></w><c type="space"/>
                <w><orig>eren</orig><reg>eren</reg></w><pc>.</pc>
             </l>
             <l n="10" xml:id="v_10" corresp="s_10">
-               <w><orig>Er</orig><reg>Er</reg></w><space/>
-               <w><orig>chunde</orig><reg>konte</reg></w><space/>
-               <w><orig>wol</orig><reg>wol</reg></w><space/>
+               <w><orig>Er</orig><reg>Er</reg></w><c type="space"/>
+               <w><orig>chunde</orig><reg>konte</reg></w><c type="space"/>
+               <w><orig>wol</orig><reg>wol</reg></w><c type="space"/>
                <w><orig>gemeren</orig><reg>gemêren</reg></w>
             </l>
             <l n="11" xml:id="v_11" corresp="s_11">
-               <w><orig>sein</orig><reg>sîn</reg></w><space/>
-               <w><orig>lop</orig><reg>lop</reg></w><space/>
-               <w><orig>an</orig><reg>an</reg></w><space/>
-               <w><orig>allen</orig><reg>allen</reg></w><space/>
+               <w><orig>sein</orig><reg>sîn</reg></w><c type="space"/>
+               <w><orig>lop</orig><reg>lop</reg></w><c type="space"/>
+               <w><orig>an</orig><reg>an</reg></w><c type="space"/>
+               <w><orig>allen</orig><reg>allen</reg></w><c type="space"/>
                <w><orig>orten</orig><reg>orten</reg></w>
             </l>
             <l n="12" xml:id="v_12" corresp="s_12">
-               <w><orig>mit</orig><reg>mit</reg></w><space/>
-               <w><orig>wercken</orig><reg>werken</reg></w><space/>
-               <w><orig>und</orig><reg>und</reg></w><space/>
-               <w><orig>mit</orig><reg>mit</reg></w><space/>
+               <w><orig>mit</orig><reg>mit</reg></w><c type="space"/>
+               <w><orig>wercken</orig><reg>werken</reg></w><c type="space"/>
+               <w><orig>und</orig><reg>und</reg></w><c type="space"/>
+               <w><orig>mit</orig><reg>mit</reg></w><c type="space"/>
                <w><orig>worten</orig><reg>worten</reg></w><pc>.</pc>
             </l>
             <l n="13" xml:id="v_13" corresp="s_13">
-               <w><orig>Sein</orig><reg>Sîn</reg></w><space/>
-               <w><orig>leben</orig><reg>leben</reg></w><space/>
-               <w><orig>was</orig><reg>waz</reg></w><space/>
-               <w><orig>so</orig><reg>sô</reg></w><space/>
+               <w><orig>Sein</orig><reg>Sîn</reg></w><c type="space"/>
+               <w><orig>leben</orig><reg>leben</reg></w><c type="space"/>
+               <w><orig>was</orig><reg>waz</reg></w><c type="space"/>
+               <w><orig>so</orig><reg>sô</reg></w><c type="space"/>
                <w><orig>volbraht</orig><reg>volbraht</reg></w><pc>,</pc>
             </l>
             <l n="14" xml:id="v_14" corresp="s_14">
-               <w><orig>das</orig><reg>daz</reg></w><space/>
-               <w><orig>sein</orig><reg>sîn</reg></w><space/>
+               <w><orig>das</orig><reg>daz</reg></w><c type="space"/>
+               <w><orig>sein</orig><reg>sîn</reg></w><c type="space"/>
                <w><orig>ze</orig><reg>zuo</reg></w>
-               <w><orig>m</orig><reg>dem</reg></w><space/>
-               <w><orig>besten</orig><reg>besten</reg></w><space/>
-               <w><orig>wart</orig><reg>wart</reg></w><space/>
+               <w><orig>m</orig><reg>dem</reg></w><c type="space"/>
+               <w><orig>besten</orig><reg>besten</reg></w><c type="space"/>
+               <w><orig>wart</orig><reg>wart</reg></w><c type="space"/>
                <w><orig>gedaht</orig><reg>gedaht</reg></w>
             </l>
             <l n="15" xml:id="v_15" corresp="s_15">
-               <w><orig>in</orig><reg>in</reg></w><space/>
-               <w><orig>allen</orig><reg>allen</reg></w><space/>
-               <w><orig>tiuschen</orig><reg>diutschen</reg></w><space/>
+               <w><orig>in</orig><reg>in</reg></w><c type="space"/>
+               <w><orig>allen</orig><reg>allen</reg></w><c type="space"/>
+               <w><orig>tiuschen</orig><reg>diutschen</reg></w><c type="space"/>
                <w><orig>landen</orig><reg>landen</reg></w><pc>.</pc>
             </l>
             <l n="16" xml:id="v_16" corresp="s_16">
-               <w><orig>er</orig><reg>er</reg></w><space/>
-               <w><orig>het</orig><reg>hette</reg></w><space/>
-               <w><orig>sich</orig><reg>sich</reg></w><space/>
-               <w><orig>vor</orig><reg>vor</reg></w><space/>
-               <w><orig>schanden</orig><reg>schanden</reg></w><space/>
+               <w><orig>er</orig><reg>er</reg></w><c type="space"/>
+               <w><orig>het</orig><reg>hette</reg></w><c type="space"/>
+               <w><orig>sich</orig><reg>sich</reg></w><c type="space"/>
+               <w><orig>vor</orig><reg>vor</reg></w><c type="space"/>
+               <w><orig>schanden</orig><reg>schanden</reg></w><c type="space"/>
             </l>
             <l n="17" xml:id="v_17" corresp="s_17">
-               <w><orig>alliu</orig><reg>alle</reg></w><space/>
-               <w><orig>seiniu</orig><reg>sîne</reg></w><space/>
-               <w><orig>jar</orig><reg>jâr</reg></w><space/>
+               <w><orig>alliu</orig><reg>alle</reg></w><c type="space"/>
+               <w><orig>seiniu</orig><reg>sîne</reg></w><c type="space"/>
+               <w><orig>jar</orig><reg>jâr</reg></w><c type="space"/>
                <w><orig>behuot</orig><reg>behuot</reg></w><pc>.</pc>
             </l>
             <l n="18" xml:id="v_18" corresp="s_18">
-               <w><orig>er</orig><reg>er</reg></w><space/>
-               <w><orig>was</orig><reg>waz</reg></w><space/>
-               <w><orig>hubsch</orig><reg>hövesch</reg></w><space/>
-               <w><orig>und</orig><reg>und</reg></w><space/>
+               <w><orig>er</orig><reg>er</reg></w><c type="space"/>
+               <w><orig>was</orig><reg>waz</reg></w><c type="space"/>
+               <w><orig>hubsch</orig><reg>hövesch</reg></w><c type="space"/>
+               <w><orig>und</orig><reg>und</reg></w><c type="space"/>
                <w><orig>fruot</orig><reg>vruot</reg></w><pc>,</pc>
             </l>
             <l n="19" xml:id="v_19" corresp="s_19">
-               <w><orig>schon</orig><reg>schoen</reg></w><space/>
-               <w><orig>und</orig><reg>und</reg></w><space/>
-               <w><orig>aller</orig><reg>aller</reg></w><space/>
-               <w><orig>tugenden</orig><reg>tugenden</reg></w><space/>
+               <w><orig>schon</orig><reg>schoen</reg></w><c type="space"/>
+               <w><orig>und</orig><reg>und</reg></w><c type="space"/>
+               <w><orig>aller</orig><reg>aller</reg></w><c type="space"/>
+               <w><orig>tugenden</orig><reg>tugenden</reg></w><c type="space"/>
                <w><orig>vol</orig><reg>vol</reg></w><pc>.</pc>
             </l>
             <l n="20" xml:id="v_20" corresp="s_20">
-               <w><orig>swamit</orig><reg>swamit</reg></w><space/>
-               <w><orig>ain</orig><reg>ein</reg></w><space/>
-               <w><orig>man</orig><reg>man</reg></w><space/>
+               <w><orig>swamit</orig><reg>swamit</reg></w><c type="space"/>
+               <w><orig>ain</orig><reg>ein</reg></w><c type="space"/>
+               <w><orig>man</orig><reg>man</reg></w><c type="space"/>
                <w><orig>ze</orig><reg>zuo</reg></w>
-               <w><orig>der</orig><reg>der</reg></w><space/>
-               <w><orig>werlte</orig><reg>werlt</reg></w><space/>
+               <w><orig>der</orig><reg>der</reg></w><c type="space"/>
+               <w><orig>werlte</orig><reg>werlt</reg></w><c type="space"/>
                <w><orig>sol</orig><reg>sol</reg></w>
             </l>
             <l n="21" xml:id="v_21" corresp="s_21">
-               <w><orig>beiagen</orig><reg>bejagen</reg></w><space/>
-               <w><orig>hoher</orig><reg>hôher</reg></w><space/>
-               <w><orig>wirde</orig><reg>wirde</reg></w><space/>
+               <w><orig>beiagen</orig><reg>bejagen</reg></w><c type="space"/>
+               <w><orig>hoher</orig><reg>hôher</reg></w><c type="space"/>
+               <w><orig>wirde</orig><reg>wirde</reg></w><c type="space"/>
                <w><orig>preis</orig><reg>prîs</reg></w>
             </l>
             <l n="22" xml:id="v_22" corresp="s_22">
-               <w><orig>das</orig><reg>daz</reg></w><space/>
-               <w><orig>chunde</orig><reg>konnte</reg></w><space/>
-               <w><orig>wol</orig><reg>wol</reg></w><space/>
-               <w><orig>der</orig><reg>der</reg></w><space/>
-               <w><orig>herre</orig><reg>herre</reg></w><space/>
+               <w><orig>das</orig><reg>daz</reg></w><c type="space"/>
+               <w><orig>chunde</orig><reg>konnte</reg></w><c type="space"/>
+               <w><orig>wol</orig><reg>wol</reg></w><c type="space"/>
+               <w><orig>der</orig><reg>der</reg></w><c type="space"/>
+               <w><orig>herre</orig><reg>herre</reg></w><c type="space"/>
                <w><orig>weis</orig><reg>wîz</reg></w>
             </l>
             <l n="23" xml:id="v_23" corresp="s_23">
-               <w><orig>bedencken</orig><reg>bedenken</reg></w><space/>
-               <w><orig>und</orig><reg>und</reg></w><space/>
+               <w><orig>bedencken</orig><reg>bedenken</reg></w><c type="space"/>
+               <w><orig>und</orig><reg>und</reg></w><c type="space"/>
                <w><orig>betrahten</orig><reg>betrahten</reg></w><pc>.</pc>
             </l>
             <l n="24" xml:id="v_24" corresp="s_24">
-               <w><orig>man</orig><reg>man</reg></w><space/>
-               <w><orig>sach</orig><reg>sach</reg></w><space/>
-               <w><orig>den</orig><reg>den</reg></w><space/>
-               <w><orig>vil</orig><reg>vil</reg></w><space/>
+               <w><orig>man</orig><reg>man</reg></w><c type="space"/>
+               <w><orig>sach</orig><reg>sach</reg></w><c type="space"/>
+               <w><orig>den</orig><reg>den</reg></w><c type="space"/>
+               <w><orig>vil</orig><reg>vil</reg></w><c type="space"/>
                <w><orig>geslahten</orig><reg>geslahten</reg></w>
             </l>
             <l n="25" xml:id="v_25" corresp="s_25">
-               <w><orig>auzerweltiu</orig><reg>ûzerwelte</reg></w><space/>
-               <w><orig>chlaider</orig><reg>kleider</reg></w><space/>
+               <w><orig>auzerweltiu</orig><reg>ûzerwelte</reg></w><c type="space"/>
+               <w><orig>chlaider</orig><reg>kleider</reg></w><c type="space"/>
                <w><orig>tragn</orig><reg>tragen</reg></w><pc>;</pc>
             </l>
             <l n="26" xml:id="v_26" corresp="s_26">
-               <w><orig>pirsen</orig><reg>birsen</reg></w><pc>,</pc><space/>
-               <w><orig>baisen</orig><reg>beizen</reg></w><space/>
-               <w><orig>und</orig><reg>und</reg></w><space/>
+               <w><orig>pirsen</orig><reg>birsen</reg></w><pc>,</pc><c type="space"/>
+               <w><orig>baisen</orig><reg>beizen</reg></w><c type="space"/>
+               <w><orig>und</orig><reg>und</reg></w><c type="space"/>
                <w><orig>iagen</orig><reg>jagen</reg></w>
             </l>
             <l n="27" xml:id="v_27" corresp="s_27">
-               <w><orig>chvund</orig><reg>kunde</reg></w><space/>
-               <w><orig>er</orig><reg>er</reg></w><space/>
-               <w><orig>und</orig><reg>und</reg></w><space/>
-               <w><orig>traip</orig><reg>trîbt</reg></w><space/>
-               <w><orig>sein</orig><reg>sîn</reg></w><space/>
+               <w><orig>chvund</orig><reg>kunde</reg></w><c type="space"/>
+               <w><orig>er</orig><reg>er</reg></w><c type="space"/>
+               <w><orig>und</orig><reg>und</reg></w><c type="space"/>
+               <w><orig>traip</orig><reg>trîbt</reg></w><c type="space"/>
+               <w><orig>sein</orig><reg>sîn</reg></w><c type="space"/>
                <w><orig>vil</orig><reg>vil</reg></w><pc>.</pc>
             </l>
             <l n="28" xml:id="v_28" corresp="s_28">
-               <w><orig>schahzabel</orig><reg>schahzabel</reg></w><space/>
-               <w><orig>und</orig><reg>und</reg></w><space/>
-               <w><orig>saiten</orig><reg>sîten</reg></w><space/>
+               <w><orig>schahzabel</orig><reg>schahzabel</reg></w><c type="space"/>
+               <w><orig>und</orig><reg>und</reg></w><c type="space"/>
+               <w><orig>saiten</orig><reg>sîten</reg></w><c type="space"/>
                <w><orig>spil</orig><reg>spil</reg></w><pc>,</pc>
             </l>
             <l n="29" xml:id="v_29" corresp="s_29">
-               <w><orig>das</orig><reg>daz</reg></w><space/>
-               <w><orig>was</orig><reg>waz</reg></w><space/>
-               <w><orig>sein</orig><reg>sîn</reg></w><space/>
+               <w><orig>das</orig><reg>daz</reg></w><c type="space"/>
+               <w><orig>was</orig><reg>waz</reg></w><c type="space"/>
+               <w><orig>sein</orig><reg>sîn</reg></w><c type="space"/>
                <w><orig>churtzeweile</orig><reg>kurzewîle</reg></w>
             </l>
             <l n="30" xml:id="v_30" corresp="s_30">
                <app>
                   <lem wit="#C #G #K #P #W"><w><orig>wer</orig><reg>wer</reg></w></lem>
                   <rdg wit="#M #B #D"><w><orig>waer</orig><reg>waer</reg></w></rdg>
-               </app><space/>
-               <w><orig>uber</orig><reg>über</reg></w><space/>
-               <w><orig>hundert</orig><reg>hundert</reg></w><space/>
+               </app><c type="space"/>
+               <w><orig>uber</orig><reg>über</reg></w><c type="space"/>
+               <w><orig>hundert</orig><reg>hundert</reg></w><c type="space"/>
                <w><orig>meile</orig><reg>mîle</reg></w>
             </l>
             <l n="31" xml:id="v_31" corresp="s_31">
-               <w><orig>gezaigt</orig><reg>gezeiget</reg></w><space/>
-               <w><orig>im</orig><reg>im</reg></w><space/>
-               <w><orig>ain</orig><reg>ein</reg></w><space/>
+               <w><orig>gezaigt</orig><reg>gezeiget</reg></w><c type="space"/>
+               <w><orig>im</orig><reg>im</reg></w><c type="space"/>
+               <w><orig>ain</orig><reg>ein</reg></w><c type="space"/>
                <w><orig>ritterschaft</orig><reg>ritterschaft</reg></w>
             </l>
             <l n="32" xml:id="v_32" corresp="s_32">
-               <w><orig>dar</orig><reg>dar</reg></w><space/>
-               <w><orig>wær</orig><reg>waere</reg></w><space/>
-               <w><orig>der</orig><reg>der</reg></w><space/>
-               <w><orig>herre</orig><reg>herre</reg></w><space/>
+               <w><orig>dar</orig><reg>dar</reg></w><c type="space"/>
+               <w><orig>wær</orig><reg>waere</reg></w><c type="space"/>
+               <w><orig>der</orig><reg>der</reg></w><c type="space"/>
+               <w><orig>herre</orig><reg>herre</reg></w><c type="space"/>
                <w><orig>tugenthaft</orig><reg>tugenthaft</reg></w>
             </l>
             <l n="33" xml:id="v_33" corresp="s_33">
-               <w><orig>mit</orig><reg>mit</reg></w><space/>
-               <w><orig>guoten</orig><reg>guoten</reg></w><space/>
-               <w><orig>willen</orig><reg>willen</reg></w><space/>
-               <w><orig>hin</orig><reg>hin</reg></w><space/>
+               <w><orig>mit</orig><reg>mit</reg></w><c type="space"/>
+               <w><orig>guoten</orig><reg>guoten</reg></w><c type="space"/>
+               <w><orig>willen</orig><reg>willen</reg></w><c type="space"/>
+               <w><orig>hin</orig><reg>hin</reg></w><c type="space"/>
                <w><orig>geritten</orig><reg>geritten</reg></w>
             </l>
             <l n="34" xml:id="v_34" corresp="s_34">
-               <w><orig>und</orig><reg>und</reg></w><space/>
-               <w><orig>het</orig><reg>hette</reg></w><space/>
-               <w><orig>gerne</orig><reg>gerne</reg></w><space/>
-               <w><orig>da</orig><reg>da</reg></w><space/>
+               <w><orig>und</orig><reg>und</reg></w><c type="space"/>
+               <w><orig>het</orig><reg>hette</reg></w><c type="space"/>
+               <w><orig>gerne</orig><reg>gerne</reg></w><c type="space"/>
+               <w><orig>da</orig><reg>da</reg></w><c type="space"/>
                <w><orig>gestritten</orig><reg>gestritten</reg></w><pc>.</pc>
             </l>
             <l n="35" xml:id="v_35" corresp="s_35">
-               <w><orig>nah</orig><reg>nach</reg></w><space/>
-               <w><orig>lobe</orig><reg>lop</reg></w><space/>
-               <w><orig>auf</orig><reg>ûf</reg></w><space/>
-               <w><orig>hoher</orig><reg>hôher</reg></w><space/>
-               <w><orig>minne</orig><reg>minne</reg></w><space/>
+               <w><orig>nah</orig><reg>nach</reg></w><c type="space"/>
+               <w><orig>lobe</orig><reg>lop</reg></w><c type="space"/>
+               <w><orig>auf</orig><reg>ûf</reg></w><c type="space"/>
+               <w><orig>hoher</orig><reg>hôher</reg></w><c type="space"/>
+               <w><orig>minne</orig><reg>minne</reg></w><c type="space"/>
                <w><orig>solt</orig><reg>solt</reg></w><pc>.</pc>
             </l>
             <l n="36" xml:id="v_36" corresp="s_36">
-               <w><orig>er</orig><reg>er</reg></w><space/>
-               <w><orig>was</orig><reg>waz</reg></w><space/>
-               <w><orig>den</orig><reg>den</reg></w><space/>
-               <w><orig>vrawen</orig><reg>vrouwen</reg></w><space/>
-               <w><orig>also</orig><reg>alsô</reg></w><space/>
+               <w><orig>er</orig><reg>er</reg></w><c type="space"/>
+               <w><orig>was</orig><reg>waz</reg></w><c type="space"/>
+               <w><orig>den</orig><reg>den</reg></w><c type="space"/>
+               <w><orig>vrawen</orig><reg>vrouwen</reg></w><c type="space"/>
+               <w><orig>also</orig><reg>alsô</reg></w><c type="space"/>
                <w><orig>holt</orig><reg>holt</reg></w><pc>,</pc>
             </l>
             <l n="37" xml:id="v_37" corresp="s_37">
-               <w><orig>die</orig><reg>die</reg></w><space/>
-               <w><orig>wol</orig><reg>wol</reg></w><space/>
-               <w><orig>beschaiden</orig><reg>bescheiden</reg></w><space/>
+               <w><orig>die</orig><reg>die</reg></w><c type="space"/>
+               <w><orig>wol</orig><reg>wol</reg></w><c type="space"/>
+               <w><orig>beschaiden</orig><reg>bescheiden</reg></w><c type="space"/>
                <w><orig>waren</orig><reg>waren</reg></w><pc>.</pc>
             </l>
             <l n="38" xml:id="v_38" corresp="s_38">
-               <w><orig>das</orig><reg>daz</reg></w><space/>
-               <w><orig>er</orig><reg>er</reg></w><space/>
-               <w><orig>in</orig><reg>in</reg></w><space/>
-               <w><orig>seinen</orig><reg>sînen</reg></w><space/>
+               <w><orig>das</orig><reg>daz</reg></w><c type="space"/>
+               <w><orig>er</orig><reg>er</reg></w><c type="space"/>
+               <w><orig>in</orig><reg>in</reg></w><c type="space"/>
+               <w><orig>seinen</orig><reg>sînen</reg></w><c type="space"/>
                <w><orig>jaren</orig><reg>jâren</reg></w>
             </l>
             <l n="39" xml:id="v_39" corresp="s_39">
-               <w><orig>mit</orig><reg>mit</reg></w><space/>
-               <w><orig>langer</orig><reg>langer</reg></w><space/>
-               <w><orig>wernder</orig><reg>wernder</reg></w><space/>
+               <w><orig>mit</orig><reg>mit</reg></w><c type="space"/>
+               <w><orig>langer</orig><reg>langer</reg></w><c type="space"/>
+               <w><orig>wernder</orig><reg>wernder</reg></w><c type="space"/>
                <w><orig>staete</orig><reg>staete</reg></w>
             </l>
             <l n="40" xml:id="v_40" corresp="s_40">
-               <w><orig>in</orig><reg>in</reg></w><space/>
-               <w><orig>so</orig><reg>sô</reg></w><space/>
-               <w><orig>gedienet</orig><reg>gedienet</reg></w><space/>
+               <w><orig>in</orig><reg>in</reg></w><c type="space"/>
+               <w><orig>so</orig><reg>sô</reg></w><c type="space"/>
+               <w><orig>gedienet</orig><reg>gedienet</reg></w><c type="space"/>
                <w><orig>hete</orig><reg>haette</reg></w><pc>,</pc>
             </l>
             <l n="41" xml:id="v_41" corresp="s_41">
-               <w><orig>das</orig><reg>daz</reg></w><space/>
-               <w><orig>alliu</orig><reg>alle</reg></w><space/>
-               <w><orig>saeldenhaften</orig><reg>saeldenhaften</reg></w><space/>
+               <w><orig>das</orig><reg>daz</reg></w><c type="space"/>
+               <w><orig>alliu</orig><reg>alle</reg></w><c type="space"/>
+               <w><orig>saeldenhaften</orig><reg>saeldenhaften</reg></w><c type="space"/>
                <w><orig>weip</orig><reg>wîp</reg></w>
             </l>
             <l n="42" xml:id="v_42" corresp="s_42">
-               <w><orig>seinen</orig><reg>sînen</reg></w><space/>
-               <w><orig>wunnechlichen</orig><reg>wunneclîchen</reg></w><space/>
+               <w><orig>seinen</orig><reg>sînen</reg></w><c type="space"/>
+               <w><orig>wunnechlichen</orig><reg>wunneclîchen</reg></w><c type="space"/>
                <w><orig>leip</orig><reg>lîp</reg></w>
             </l>
             <l n="43" xml:id="v_43" corresp="s_43">
-               <w><orig>Lobten</orig><reg>lobten</reg></w><space/>
-               <w><orig>und</orig><reg>und</reg></w><space/>
+               <w><orig>Lobten</orig><reg>lobten</reg></w><c type="space"/>
+               <w><orig>und</orig><reg>und</reg></w><c type="space"/>
                <w><orig>preisten</orig><reg>prîsten</reg></w>
             </l>
             <l n="44" xml:id="v_44" corresp="s_44">
-               <w><orig>als</orig><reg>als</reg></w><space/>
-               <w><orig>uns</orig><reg>uns</reg></w><space/>
-               <w><orig>diu</orig><reg>diu</reg></w><space/>
-               <w><orig>buoch</orig><reg>buoch</reg></w><space/>
-               <w><orig>beweisten</orig><reg>bewîsten</reg></w><space/>
+               <w><orig>als</orig><reg>als</reg></w><c type="space"/>
+               <w><orig>uns</orig><reg>uns</reg></w><c type="space"/>
+               <w><orig>diu</orig><reg>diu</reg></w><c type="space"/>
+               <w><orig>buoch</orig><reg>buoch</reg></w><c type="space"/>
+               <w><orig>beweisten</orig><reg>bewîsten</reg></w><c type="space"/>
                <pc>.</pc>
             </l>
             <l n="45" xml:id="v_45" corresp="s_45">
-               <w><orig>und</orig><reg>und</reg></w><space/>
+               <w><orig>und</orig><reg>und</reg></w><c type="space"/>
                <w><orig>ich</orig><reg>ich</reg></w>
                <app>
                   <lem wit="#B #C #D #G #K #P #S #W"/>
-                  <rdg wit="#M"><w><orig>'z</orig><reg>ez</reg></w><space/></rdg>
+                  <rdg wit="#M"><w><orig>'z</orig><reg>ez</reg></w><c type="space"/></rdg>
                </app>
-               <w><orig>von</orig><reg>von</reg></w><space/>
-               <w><orig>im</orig><reg>im</reg></w><space/>
-               <w><orig>geschriben</orig><reg>geschriben</reg></w><space/>
+               <w><orig>von</orig><reg>von</reg></w><c type="space"/>
+               <w><orig>im</orig><reg>im</reg></w><c type="space"/>
+               <w><orig>geschriben</orig><reg>geschriben</reg></w><c type="space"/>
                <w><orig>vant</orig><reg>vant</reg></w>
             </l>
             <l n="46" xml:id="v_46" corresp="s_46">
-               <w><orig>so</orig><reg>sô</reg></w><space/>
-               <w><orig>was</orig><reg>waz</reg></w><space/>
-               <w><orig>der</orig><reg>der</reg></w><space/>
-               <w><orig>herre</orig><reg>herre</reg></w><space/>
+               <w><orig>so</orig><reg>sô</reg></w><c type="space"/>
+               <w><orig>was</orig><reg>waz</reg></w><c type="space"/>
+               <w><orig>der</orig><reg>der</reg></w><c type="space"/>
+               <w><orig>herre</orig><reg>herre</reg></w><c type="space"/>
                <w><orig>genant</orig><reg>genant</reg></w>
             </l>
             <l n="47" xml:id="v_47" corresp="s_47">
-               <w><orig>her</orig><reg>her</reg></w><space/>
-               <w><orig>Wirin</orig><reg>Wirin</reg></w><space/>
-               <w><orig>da</orig><reg>da</reg></w><space/>
-               <w><orig>von</orig><reg>von</reg></w><space/>
+               <w><orig>her</orig><reg>her</reg></w><c type="space"/>
+               <w><orig>Wirin</orig><reg>Wirin</reg></w><c type="space"/>
+               <w><orig>da</orig><reg>da</reg></w><c type="space"/>
+               <w><orig>von</orig><reg>von</reg></w><c type="space"/>
                <w><orig>Gravenberc</orig><reg>Gravenberc</reg></w><pc>.</pc>
             </l>
             <l n="48" xml:id="v_48" corresp="s_48">
-               <w><orig>er</orig><reg>er</reg></w><space/>
-               <w><orig>hete</orig><reg>hette</reg></w><space/>
-               <w><orig>werltichiu</orig><reg>werltliche</reg></w><space/>
+               <w><orig>er</orig><reg>er</reg></w><c type="space"/>
+               <w><orig>hete</orig><reg>hette</reg></w><c type="space"/>
+               <w><orig>werltichiu</orig><reg>werltliche</reg></w><c type="space"/>
                <w><orig>werc</orig><reg>werc</reg></w>
             </l>
             <l n="49" xml:id="v_49" corresp="s_49">
-               <w><orig>geworht</orig><reg>geworht</reg></w><space/>
-               <w><orig>alliu</orig><reg>alle</reg></w><space/>
-               <w><orig>seiniu</orig><reg>sîne</reg></w><space/>
+               <w><orig>geworht</orig><reg>geworht</reg></w><c type="space"/>
+               <w><orig>alliu</orig><reg>alle</reg></w><c type="space"/>
+               <w><orig>seiniu</orig><reg>sîne</reg></w><c type="space"/>
                <w><orig>iar</orig><reg>jâr</reg></w><pc>.</pc>
             </l>
             <l n="50" xml:id="v_50" corresp="s_50">
-               <w><orig>sein</orig><reg>sîn</reg></w><space/>
-               <w><orig>herze</orig><reg>herze</reg></w><space/>
-               <w><orig>stille</orig><reg>stille</reg></w><space/>
-               <w><orig>und</orig><reg>und</reg></w><space/>
+               <w><orig>sein</orig><reg>sîn</reg></w><c type="space"/>
+               <w><orig>herze</orig><reg>herze</reg></w><c type="space"/>
+               <w><orig>stille</orig><reg>stille</reg></w><c type="space"/>
+               <w><orig>und</orig><reg>und</reg></w><c type="space"/>
                <w><orig>offenbar</orig><reg>offenbâr</reg></w>
             </l>
             <l n="51" xml:id="v_51" corresp="s_51">
-               <w><orig>nach</orig><reg>nach</reg></w><space/>
-               <w><orig>der</orig><reg>der</reg></w><space/>
-               <w><orig>minne</orig><reg>minne</reg></w><space/>
+               <w><orig>nach</orig><reg>nach</reg></w><c type="space"/>
+               <w><orig>der</orig><reg>der</reg></w><c type="space"/>
+               <w><orig>minne</orig><reg>minne</reg></w><c type="space"/>
                <w><orig>tobte</orig><reg>tobete</reg></w>
             </l>
             <l n="52" xml:id="v_52" corresp="s_52">
-               <w><orig>sus</orig><reg>sust</reg></w><space/>
-               <w><orig>saz</orig><reg>saz</reg></w><space/>
-               <w><orig>der</orig><reg>der</reg></w><space/>
+               <w><orig>sus</orig><reg>sust</reg></w><c type="space"/>
+               <w><orig>saz</orig><reg>saz</reg></w><c type="space"/>
+               <w><orig>der</orig><reg>der</reg></w><c type="space"/>
                <w><orig>gelobte</orig><reg>gelobet</reg></w>
             </l>
             <l n="53" xml:id="v_53" corresp="s_53">
-               <w><orig>in</orig><reg>in</reg></w><space/>
-               <w><orig>ainer</orig><reg>einer</reg></w><space/>
+               <w><orig>in</orig><reg>in</reg></w><c type="space"/>
+               <w><orig>ainer</orig><reg>einer</reg></w><c type="space"/>
                <w><orig>chemnaten</orig><reg>kemenâten</reg></w>
             </l>
             <l n="54" xml:id="v_54" corresp="s_54">
-               <w><orig>mit</orig><reg>mit</reg></w><space/>
-               <w><orig>vreuden</orig><reg>vröuden</reg></w><space/>
-               <w><orig>wol</orig><reg>wol</reg></w><space/>
+               <w><orig>mit</orig><reg>mit</reg></w><c type="space"/>
+               <w><orig>vreuden</orig><reg>vröuden</reg></w><c type="space"/>
+               <w><orig>wol</orig><reg>wol</reg></w><c type="space"/>
                <w><orig>beraten</orig><reg>beraten</reg></w>
             </l>
             <l n="55" xml:id="v_55" corresp="s_55">
-               <w><orig>und</orig><reg>und</reg></w><space/>
-               <w><orig>het</orig><reg>hette</reg></w><space/>
-               <w><orig>ain</orig><reg>ein</reg></w><space/>
-               <w><orig>buoch</orig><reg>buoch</reg></w><space/>
-               <w><orig>in</orig><reg>in</reg></w><space/>
-               <w><orig>seiner</orig><reg>sîner</reg></w><space/>
+               <w><orig>und</orig><reg>und</reg></w><c type="space"/>
+               <w><orig>het</orig><reg>hette</reg></w><c type="space"/>
+               <w><orig>ain</orig><reg>ein</reg></w><c type="space"/>
+               <w><orig>buoch</orig><reg>buoch</reg></w><c type="space"/>
+               <w><orig>in</orig><reg>in</reg></w><c type="space"/>
+               <w><orig>seiner</orig><reg>sîner</reg></w><c type="space"/>
                <w><orig>hant</orig><reg>hant</reg></w><pc>;</pc>
             </l>
             <l n="56" xml:id="v_56" corresp="s_56">
-               <w><orig>daran</orig><reg>daran</reg></w><space/>
-               <w><orig>er</orig><reg>er</reg></w><space/>
-               <w><orig>aventiure</orig><reg>aventiure</reg></w><space/>
+               <w><orig>daran</orig><reg>daran</reg></w><c type="space"/>
+               <w><orig>er</orig><reg>er</reg></w><c type="space"/>
+               <w><orig>aventiure</orig><reg>aventiure</reg></w><c type="space"/>
                <w><orig>vant</orig><reg>vant</reg></w>
             </l>
             <l n="57" xml:id="v_57" corresp="s_57">
-               <w><orig>von</orig><reg>von</reg></w><space/>
-               <w><orig>der</orig><reg>der</reg></w><space/>
-               <w><orig>minne</orig><reg>minne</reg></w><space/>
+               <w><orig>von</orig><reg>von</reg></w><c type="space"/>
+               <w><orig>der</orig><reg>der</reg></w><c type="space"/>
+               <w><orig>minne</orig><reg>minne</reg></w><c type="space"/>
                <w><orig>geschriben</orig><reg>geschriben</reg></w><pc>.</pc>
             </l>
             <l n="58" xml:id="v_58" corresp="s_58">
-               <w><orig>dar</orig><reg>dar</reg></w><space/>
-               <w><orig>ob</orig><reg>ob</reg></w><space/>
-               <w><orig>het</orig><reg>hette</reg></w><space/>
-               <w><orig>er</orig><reg>er</reg></w><space/>
-               <w><orig>do</orig><reg>dô</reg></w><space/>
+               <w><orig>dar</orig><reg>dar</reg></w><c type="space"/>
+               <w><orig>ob</orig><reg>ob</reg></w><c type="space"/>
+               <w><orig>het</orig><reg>hette</reg></w><c type="space"/>
+               <w><orig>er</orig><reg>er</reg></w><c type="space"/>
+               <w><orig>do</orig><reg>dô</reg></w><c type="space"/>
                <w><orig>vertriben</orig><reg>vertriben</reg></w>
             </l>
             <l n="59" xml:id="v_59" corresp="s_59">
-               <w><orig>den</orig><reg>den</reg></w><space/>
-               <w><orig>tac</orig><reg>tac</reg></w><space/>
-               <w><orig>untz</orig><reg>untz</reg></w><space/>
-               <w><orig>auf</orig><reg>ûf</reg></w><space/>
-               <w><orig>die</orig><reg>die</reg></w><space/>
+               <w><orig>den</orig><reg>den</reg></w><c type="space"/>
+               <w><orig>tac</orig><reg>tac</reg></w><c type="space"/>
+               <w><orig>untz</orig><reg>untz</reg></w><c type="space"/>
+               <w><orig>auf</orig><reg>ûf</reg></w><c type="space"/>
+               <w><orig>die</orig><reg>die</reg></w><c type="space"/>
                <w><orig>vesperzeit</orig><reg>vesperzît</reg></w><pc>.</pc>
             </l>
             <l n="60" xml:id="v_60" corresp="s_60">
-               <w><orig>sein</orig><reg>sîn</reg></w><space/>
-               <w><orig>vreude</orig><reg>vröude</reg></w><space/>
-               <w><orig>was</orig><reg>waz</reg></w><space/>
-               <w><orig>vil</orig><reg>vil</reg></w><space/>
-               <w><orig>harte</orig><reg>hart</reg></w><space/>
+               <w><orig>sein</orig><reg>sîn</reg></w><c type="space"/>
+               <w><orig>vreude</orig><reg>vröude</reg></w><c type="space"/>
+               <w><orig>was</orig><reg>waz</reg></w><c type="space"/>
+               <w><orig>vil</orig><reg>vil</reg></w><c type="space"/>
+               <w><orig>harte</orig><reg>hart</reg></w><c type="space"/>
                <w><orig>weit</orig><reg>wît</reg></w>
             </l>
             <l n="61" xml:id="v_61" corresp="s_61">
-               <w><orig>von</orig><reg>von</reg></w><space/>
-               <w><orig>suzzer</orig><reg>süezer</reg></w><space/>
-               <w><orig>rede</orig><reg>rede</reg></w><space/>
-               <w><orig>die</orig><reg>die</reg></w><space/>
-               <w><orig>er</orig><reg>er</reg></w><space/>
-               <w><orig>da</orig><reg>da</reg></w><space/>
+               <w><orig>von</orig><reg>von</reg></w><c type="space"/>
+               <w><orig>suzzer</orig><reg>süezer</reg></w><c type="space"/>
+               <w><orig>rede</orig><reg>rede</reg></w><c type="space"/>
+               <w><orig>die</orig><reg>die</reg></w><c type="space"/>
+               <w><orig>er</orig><reg>er</reg></w><c type="space"/>
+               <w><orig>da</orig><reg>da</reg></w><c type="space"/>
                <w><orig>las</orig><reg>laz</reg></w><pc>.</pc>
             </l>
             <l n="62" xml:id="v_62" corresp="s_62">
-               <w><orig>do</orig><reg>do</reg></w><space/>
-               <w><orig>er</orig><reg>er</reg></w><space/>
-               <w><orig>alsus</orig><reg>alsus</reg></w><space/>
-               <w><orig>gesezzen</orig><reg>gesezen</reg></w><space/>
+               <w><orig>do</orig><reg>do</reg></w><c type="space"/>
+               <w><orig>er</orig><reg>er</reg></w><c type="space"/>
+               <w><orig>alsus</orig><reg>alsus</reg></w><c type="space"/>
+               <w><orig>gesezzen</orig><reg>gesezen</reg></w><c type="space"/>
                <w><orig>was</orig><reg>waz</reg></w><pc>,</pc>
             </l>
             <l n="63" xml:id="v_63" corresp="s_63">
-               <w><orig>do</orig><reg>dô</reg></w><space/>
-               <w><orig>cham</orig><reg>kam</reg></w><space/>
-               <w><orig>gegangen</orig><reg>gegangen</reg></w><space/>
-               <w><orig>dort</orig><reg>dort</reg></w><space/>
+               <w><orig>do</orig><reg>dô</reg></w><c type="space"/>
+               <w><orig>cham</orig><reg>kam</reg></w><c type="space"/>
+               <w><orig>gegangen</orig><reg>gegangen</reg></w><c type="space"/>
+               <w><orig>dort</orig><reg>dort</reg></w><c type="space"/>
                <w><orig>her</orig><reg>her</reg></w>
             </l>
             <l n="64" xml:id="v_64" corresp="s_64">
-               <w><orig>ein</orig><reg>ein</reg></w><space/>
-               <w><orig>weip</orig><reg>wîp</reg></w><space/>
-               <w><orig>nah</orig><reg>nach</reg></w><space/>
-               <w><orig>seins</orig><reg>sînes</reg></w><space/>
-               <w><orig>hertzen</orig><reg>herzen</reg></w><space/>
+               <w><orig>ein</orig><reg>ein</reg></w><c type="space"/>
+               <w><orig>weip</orig><reg>wîp</reg></w><c type="space"/>
+               <w><orig>nah</orig><reg>nach</reg></w><c type="space"/>
+               <w><orig>seins</orig><reg>sînes</reg></w><c type="space"/>
+               <w><orig>hertzen</orig><reg>herzen</reg></w><c type="space"/>
                <w><orig>ger</orig><reg>ger</reg></w><pc>,</pc>
             </l>
             <l n="65" xml:id="v_65" corresp="s_65">
-               <w><orig>ze</orig><reg>zuo</reg></w><space/>
-               <w><orig>wunsche</orig><reg>wunsch</reg></w><space/>
-               <w><orig>wol</orig><reg>wol</reg></w><space/>
-               <w><orig>gebruefet</orig><reg>geprüevet</reg></w><space/>
+               <w><orig>ze</orig><reg>zuo</reg></w><c type="space"/>
+               <w><orig>wunsche</orig><reg>wunsch</reg></w><c type="space"/>
+               <w><orig>wol</orig><reg>wol</reg></w><c type="space"/>
+               <w><orig>gebruefet</orig><reg>geprüevet</reg></w><c type="space"/>
                <w><orig>dar</orig><reg>dar</reg></w>
             </l>
             <l n="66" xml:id="v_66" corresp="s_66">
-               <w><orig>und</orig><reg>und</reg></w><space/>
-               <w><orig>also</orig><reg>alsô</reg></w><space/>
-               <w><orig>minnechlich</orig><reg>minneclich</reg></w><space/>
+               <w><orig>und</orig><reg>und</reg></w><c type="space"/>
+               <w><orig>also</orig><reg>alsô</reg></w><c type="space"/>
+               <w><orig>minnechlich</orig><reg>minneclich</reg></w><c type="space"/>
                <w><orig>gevar</orig><reg>gevar</reg></w><pc>,</pc>
             </l>
             <l n="67" xml:id="v_67" corresp="s_67">
-               <w><orig>das</orig><reg>daz</reg></w><space/>
-               <w><orig>man</orig><reg>man</reg></w><space/>
-               <w><orig>nie</orig><reg>nie</reg></w><space/>
-               <w><orig>schoner</orig><reg>schoener</reg></w><space/>
-               <w><orig>weip</orig><reg>wîp</reg></w><space/>
+               <w><orig>das</orig><reg>daz</reg></w><c type="space"/>
+               <w><orig>man</orig><reg>man</reg></w><c type="space"/>
+               <w><orig>nie</orig><reg>nie</reg></w><c type="space"/>
+               <w><orig>schoner</orig><reg>schoener</reg></w><c type="space"/>
+               <w><orig>weip</orig><reg>wîp</reg></w><c type="space"/>
                <w><orig>gesach</orig><reg>gesach</reg></w><pc>.</pc>
             </l>
             <l n="68" xml:id="v_68" corresp="s_68">
-               <w><orig>ir</orig><reg>ir</reg></w><space/>
-               <w><orig>schone</orig><reg>schoene</reg></w><space/>
-               <w><orig>vollechlichen</orig><reg>volleclichen</reg></w><space/>
+               <w><orig>ir</orig><reg>ir</reg></w><c type="space"/>
+               <w><orig>schone</orig><reg>schoene</reg></w><c type="space"/>
+               <w><orig>vollechlichen</orig><reg>volleclichen</reg></w><c type="space"/>
                <w><orig>brach</orig><reg>brach</reg></w>
             </l>
             <l n="69" xml:id="v_69" corresp="s_69">
-               <w><orig>fuor</orig><reg>vür</reg></w><space/>
-               <w><orig>alle</orig><reg>alle</reg></w><space/>
-               <w><orig>vrowen</orig><reg>vrouwen</reg></w><space/>
-               <w><orig>die</orig><reg>die</reg></w><space/>
-               <w><orig>nu</orig><reg>nun</reg></w><space/>
+               <w><orig>fuor</orig><reg>vür</reg></w><c type="space"/>
+               <w><orig>alle</orig><reg>alle</reg></w><c type="space"/>
+               <w><orig>vrowen</orig><reg>vrouwen</reg></w><c type="space"/>
+               <w><orig>die</orig><reg>die</reg></w><c type="space"/>
+               <w><orig>nu</orig><reg>nun</reg></w><c type="space"/>
                <w><orig>sint</orig><reg>sint</reg></w>
             </l>
             <l n="70" xml:id="v_70" corresp="s_70">
-               <w><orig>ain</orig><reg>ein</reg></w><space/>
-               <w><orig>so</orig><reg>sô</reg></w><space/>
-               <w><orig>reht</orig><reg>recht</reg></w><space/>
-               <w><orig>minnechlichz</orig><reg>minneclichez</reg></w><space/>
+               <w><orig>ain</orig><reg>ein</reg></w><c type="space"/>
+               <w><orig>so</orig><reg>sô</reg></w><c type="space"/>
+               <w><orig>reht</orig><reg>recht</reg></w><c type="space"/>
+               <w><orig>minnechlichz</orig><reg>minneclichez</reg></w><c type="space"/>
                <w><orig>chint</orig><reg>kint</reg></w>
             </l>
             <l n="71" xml:id="v_71" corresp="s_71">
-               <w><orig>von</orig><reg>von</reg></w><space/>
-               <w><orig>weibes</orig><reg>wîbes</reg></w><space/>
-               <w><orig>brusten</orig><reg>brusten</reg></w><space/>
-               <w><orig>nie</orig><reg>nie</reg></w><space/>
+               <w><orig>von</orig><reg>von</reg></w><c type="space"/>
+               <w><orig>weibes</orig><reg>wîbes</reg></w><c type="space"/>
+               <w><orig>brusten</orig><reg>brusten</reg></w><c type="space"/>
+               <w><orig>nie</orig><reg>nie</reg></w><c type="space"/>
                <w><orig>geslauf</orig><reg>geslouf</reg></w><pc>.</pc>
             </l>
             <l n="72" xml:id="v_72" corresp="s_72">
-               <w><orig>ich</orig><reg>ich</reg></w><space/>
-               <w><orig>spriche</orig><reg>spreche</reg></w><space/>
-               <w><orig>das</orig><reg>daz</reg></w><space/>
-               <w><orig>auf</orig><reg>ûf</reg></w><space/>
-               <w><orig>meinen</orig><reg>mînen</reg></w><space/>
+               <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
+               <w><orig>spriche</orig><reg>spreche</reg></w><c type="space"/>
+               <w><orig>das</orig><reg>daz</reg></w><c type="space"/>
+               <w><orig>auf</orig><reg>ûf</reg></w><c type="space"/>
+               <w><orig>meinen</orig><reg>mînen</reg></w><c type="space"/>
                <w><orig>tauf</orig><reg>touf</reg></w><pc>,</pc>
             </l>
             <l n="72" xml:id="v_73" corresp="s_72a"/>
             <l n="72" xml:id="v_74" corresp="s_72b"/>
             <l n="73" xml:id="v_75" corresp="s_73">
-               <w><orig>das</orig><reg>daz</reg></w><space/>
-               <w><orig>si</orig><reg>sie</reg></w><space/>
-               <w><orig>noch</orig><reg>noch</reg></w><space/>
-               <w><orig>verrer</orig><reg>verrer</reg></w><space/>
-               <w><orig>schoner</orig><reg>schoener</reg></w><space/>
+               <w><orig>das</orig><reg>daz</reg></w><c type="space"/>
+               <w><orig>si</orig><reg>sie</reg></w><c type="space"/>
+               <w><orig>noch</orig><reg>noch</reg></w><c type="space"/>
+               <w><orig>verrer</orig><reg>verrer</reg></w><c type="space"/>
+               <w><orig>schoner</orig><reg>schoener</reg></w><c type="space"/>
                <w><orig>was</orig><reg>waz</reg></w>
             </l>
             <l n="74" xml:id="v_76" corresp="s_74">
-               <w><orig>danne</orig><reg>danne</reg></w><space/>
-               <w><orig>Venus</orig><reg>Venus</reg></w><space/>
-               <w><orig>oder</orig><reg>oder</reg></w><space/>
-               <w><orig>vrav</orig><reg>vrouwe</reg></w><space/>
+               <w><orig>danne</orig><reg>danne</reg></w><c type="space"/>
+               <w><orig>Venus</orig><reg>Venus</reg></w><c type="space"/>
+               <w><orig>oder</orig><reg>oder</reg></w><c type="space"/>
+               <w><orig>vrav</orig><reg>vrouwe</reg></w><c type="space"/>
                <w><orig>Pallas</orig><reg>Palas</reg></w>
             </l>
             <l n="75" xml:id="v_77" corresp="s_75">
-               <w><orig>und</orig><reg>und</reg></w><space/>
-               <w><orig>alle</orig><reg>alle</reg></w><space/>
-               <w><orig>die</orig><reg>die</reg></w><space/>
+               <w><orig>und</orig><reg>und</reg></w><c type="space"/>
+               <w><orig>alle</orig><reg>alle</reg></w><c type="space"/>
+               <w><orig>die</orig><reg>die</reg></w><c type="space"/>
                <w><orig>gottinne</orig><reg>gotinne</reg></w><pc>,</pc>
             </l>
             <l n="76" xml:id="v_78" corresp="s_76">
-               <w><orig>die</orig><reg>die</reg></w><space/>
-               <w><orig>weilen</orig><reg>willen</reg></w><space/>
-               <w><orig>phlagen</orig><reg>phlagen</reg></w><space/>
-               <w><orig>der</orig><reg>der</reg></w><space/>
+               <w><orig>die</orig><reg>die</reg></w><c type="space"/>
+               <w><orig>weilen</orig><reg>willen</reg></w><c type="space"/>
+               <w><orig>phlagen</orig><reg>phlagen</reg></w><c type="space"/>
+               <w><orig>der</orig><reg>der</reg></w><c type="space"/>
                <w><orig>minne</orig><reg>minne</reg></w><pc>.</pc>
             </l>
             <l n="77" xml:id="v_79" corresp="s_77">
-               <w><orig>ir</orig><reg>ir</reg></w><space/>
-               <w><orig>antliutz</orig><reg>antlütze</reg></w><space/>
-               <w><orig>und</orig><reg>und</reg></w><space/>
-               <w><orig>ir</orig><reg>ir</reg></w><space/>
+               <w><orig>ir</orig><reg>ir</reg></w><c type="space"/>
+               <w><orig>antliutz</orig><reg>antlütze</reg></w><c type="space"/>
+               <w><orig>und</orig><reg>und</reg></w><c type="space"/>
+               <w><orig>ir</orig><reg>ir</reg></w><c type="space"/>
                <w><orig>varwe</orig><reg>varwe</reg></w>
             </l>
             <l n="78" xml:id="v_80" corresp="s_78">
-               <w><orig>diu</orig><reg>diu</reg></w><space/>
-               <w><orig>waren</orig><reg>waren</reg></w><space/>
-               <w><orig>baidiu</orig><reg>beide</reg></w><space/>
+               <w><orig>diu</orig><reg>diu</reg></w><c type="space"/>
+               <w><orig>waren</orig><reg>waren</reg></w><c type="space"/>
+               <w><orig>baidiu</orig><reg>beide</reg></w><c type="space"/>
                <w><orig>garbe</orig><reg>garwe</reg></w><pc>.</pc>
             </l>
             <l n="79" xml:id="v_81" corresp="s_79">
-               <w><orig>erliuchtet</orig><reg>erliuhtet</reg></w><space/>
-               <w><orig>als</orig><reg>als</reg></w><space/>
-               <w><orig>ain</orig><reg>ein</reg></w><space/>
+               <w><orig>erliuchtet</orig><reg>erliuhtet</reg></w><c type="space"/>
+               <w><orig>als</orig><reg>als</reg></w><c type="space"/>
+               <w><orig>ain</orig><reg>ein</reg></w><c type="space"/>
                <w><orig>spiegellein</orig><reg>spiegelîn</reg></w><pc>,</pc>
             </l>
             <l n="80" xml:id="v_82" corresp="s_80">
-               <w><orig>ir</orig><reg>ir</reg></w><space/>
-               <w><orig>schone</orig><reg>schoene</reg></w><space/>
-               <w><orig>gap</orig><reg>gap</reg></w><space/>
-               <w><orig>so</orig><reg>sô</reg></w><space/>
-               <w><orig>liehten</orig><reg>liechten</reg></w><space/>
+               <w><orig>ir</orig><reg>ir</reg></w><c type="space"/>
+               <w><orig>schone</orig><reg>schoene</reg></w><c type="space"/>
+               <w><orig>gap</orig><reg>gap</reg></w><c type="space"/>
+               <w><orig>so</orig><reg>sô</reg></w><c type="space"/>
+               <w><orig>liehten</orig><reg>liechten</reg></w><c type="space"/>
                <w><orig>schein</orig><reg>schîn</reg></w>
             </l>
             <l n="81" xml:id="v_83" corresp="s_81">
-               <w><orig>und</orig><reg>und</reg></w><space/>
-               <w><orig>also</orig><reg>alsô</reg></w><space/>
-               <w><orig>wunnechlichen</orig><reg>wunneclichen</reg></w><space/>
+               <w><orig>und</orig><reg>und</reg></w><c type="space"/>
+               <w><orig>also</orig><reg>alsô</reg></w><c type="space"/>
+               <w><orig>wunnechlichen</orig><reg>wunneclichen</reg></w><c type="space"/>
                <w><orig>glast</orig><reg>glast</reg></w><pc>,</pc>
             </l>
             <l n="82" xml:id="v_84" corresp="s_82">
-               <w><orig>das</orig><reg>daz</reg></w><space/>
-               <w><orig>der</orig><reg>der</reg></w><space/>
-               <w><orig>selbe</orig><reg>selbe</reg></w><space/>
+               <w><orig>das</orig><reg>daz</reg></w><c type="space"/>
+               <w><orig>der</orig><reg>der</reg></w><c type="space"/>
+               <w><orig>selbe</orig><reg>selbe</reg></w><c type="space"/>
                <w><orig>palast</orig><reg>palast</reg></w>
             </l>
             <l n="83" xml:id="v_85" corresp="s_83">
-               <w><orig>von</orig><reg>von</reg></w><space/>
-               <w><orig>ir</orig><reg>ir</reg></w><space/>
-               <w><orig>leibe</orig><reg>lîp</reg></w><space/>
-               <w><orig>erliuhtet</orig><reg>erliuhtet</reg></w><space/>
+               <w><orig>von</orig><reg>von</reg></w><c type="space"/>
+               <w><orig>ir</orig><reg>ir</reg></w><c type="space"/>
+               <w><orig>leibe</orig><reg>lîp</reg></w><c type="space"/>
+               <w><orig>erliuhtet</orig><reg>erliuhtet</reg></w><c type="space"/>
                <w><orig>wart</orig><reg>wart</reg></w><pc>.</pc>
             </l>
             <l n="84" xml:id="v_86" corresp="s_84">
-               <w><orig>der</orig><reg>der</reg></w><space/>
-               <w><orig>wunsch</orig><reg>wunsch</reg></w><space/>
-               <w><orig>hete</orig><reg>haette</reg></w><space/>
-               <w><orig>niht</orig><reg>niht</reg></w><space/>
+               <w><orig>der</orig><reg>der</reg></w><c type="space"/>
+               <w><orig>wunsch</orig><reg>wunsch</reg></w><c type="space"/>
+               <w><orig>hete</orig><reg>haette</reg></w><c type="space"/>
+               <w><orig>niht</orig><reg>niht</reg></w><c type="space"/>
                <w><orig>gespart</orig><reg>gespart</reg></w><pc>,</pc>
             </l>
             <l n="85" xml:id="v_87" corresp="s_85">
-               <w><orig>an</orig><reg>an</reg></w><space/>
-               <w><orig>ir</orig><reg>ir</reg></w><space/>
-               <w><orig>die</orig><reg>die</reg></w><space/>
-               <w><orig>seinen</orig><reg>sînen</reg></w><space/>
-               <w><orig>grosten</orig><reg>grôzten</reg></w><space/>
+               <w><orig>an</orig><reg>an</reg></w><c type="space"/>
+               <w><orig>ir</orig><reg>ir</reg></w><c type="space"/>
+               <w><orig>die</orig><reg>die</reg></w><c type="space"/>
+               <w><orig>seinen</orig><reg>sînen</reg></w><c type="space"/>
+               <w><orig>grosten</orig><reg>grôzten</reg></w><c type="space"/>
                <w><orig>chraft</orig><reg>kraft</reg></w>
             </l>
             <l n="86" xml:id="v_88" corresp="s_86">
-               <w><orig>er</orig><reg>er</reg></w><space/>
-               <w><orig>hete</orig><reg>hette</reg></w><space/>
-               <w><orig>seine</orig><reg>sîne</reg></w><space/>
+               <w><orig>er</orig><reg>er</reg></w><c type="space"/>
+               <w><orig>hete</orig><reg>hette</reg></w><c type="space"/>
+               <w><orig>seine</orig><reg>sîne</reg></w><c type="space"/>
                <w><orig>maisterschaft</orig><reg>meisterschaft</reg></w>
             </l>
             <l n="87" xml:id="v_89" corresp="s_87">
-               <w><orig>mit</orig><reg>mit</reg></w><space/>
-               <w><orig>gantzem</orig><reg>ganzem</reg></w><space/>
-               <w><orig>vleiz</orig><reg>vlîz</reg></w><space/>
-               <w><orig>an</orig><reg>an</reg></w><space/>
-               <w><orig>sei</orig><reg>sie</reg></w><space/>
+               <w><orig>mit</orig><reg>mit</reg></w><c type="space"/>
+               <w><orig>gantzem</orig><reg>ganzem</reg></w><c type="space"/>
+               <w><orig>vleiz</orig><reg>vlîz</reg></w><c type="space"/>
+               <w><orig>an</orig><reg>an</reg></w><c type="space"/>
+               <w><orig>sei</orig><reg>sie</reg></w><c type="space"/>
                <w><orig>gelait</orig><reg>geleit</reg></w><pc>.</pc>
             </l>
             <l n="88" xml:id="v_90" corresp="s_88">
-               <w><orig>swaz</orig><reg>swaz</reg></w><space/>
-               <w><orig>man</orig><reg>man</reg></w><space/>
-               <w><orig>von</orig><reg>von</reg></w><space/>
-               <w><orig>schonen</orig><reg>schoenen</reg></w><space/>
-               <w><orig>weiben</orig><reg>wîben</reg></w><space/>
+               <w><orig>swaz</orig><reg>swaz</reg></w><c type="space"/>
+               <w><orig>man</orig><reg>man</reg></w><c type="space"/>
+               <w><orig>von</orig><reg>von</reg></w><c type="space"/>
+               <w><orig>schonen</orig><reg>schoenen</reg></w><c type="space"/>
+               <w><orig>weiben</orig><reg>wîben</reg></w><c type="space"/>
                <w><orig>sait</orig><reg>seit</reg></w><pc>,</pc>
             </l>
             <l n="89" xml:id="v_91" corresp="s_89">
-               <w><orig>der</orig><reg>der</reg></w><space/>
-               <w><orig>ubergulde</orig><reg>übergulde</reg></w><space/>
-               <w><orig>was</orig><reg>waz</reg></w><space/>
-               <w><orig>ir</orig><reg>ir</reg></w><space/>
+               <w><orig>der</orig><reg>der</reg></w><c type="space"/>
+               <w><orig>ubergulde</orig><reg>übergulde</reg></w><c type="space"/>
+               <w><orig>was</orig><reg>waz</reg></w><c type="space"/>
+               <w><orig>ir</orig><reg>ir</reg></w><c type="space"/>
                <w><orig>leip</orig><reg>lîp</reg></w><pc>.</pc>
             </l>
             <l n="90" xml:id="v_92" corresp="s_90">
-               <w><orig>ez</orig><reg>ez</reg></w><space/>
-               <w><orig>wart</orig><reg>wart</reg></w><space/>
-               <w><orig>nie</orig><reg>nie</reg></w><space/>
-               <w><orig>minnechlicher</orig><reg>minneclicher</reg></w><space/>
+               <w><orig>ez</orig><reg>ez</reg></w><c type="space"/>
+               <w><orig>wart</orig><reg>wart</reg></w><c type="space"/>
+               <w><orig>nie</orig><reg>nie</reg></w><c type="space"/>
+               <w><orig>minnechlicher</orig><reg>minneclicher</reg></w><c type="space"/>
                <w><orig>weip</orig><reg>wîp</reg></w>
             </l>
             <l n="91" xml:id="v_93" corresp="s_91">
-               <w><orig>gesehen</orig><reg>gesehen</reg></w><space/>
-               <w><orig>auf</orig><reg>ûf</reg></w><space/>
-               <w><orig>der</orig><reg>der</reg></w><space/>
+               <w><orig>gesehen</orig><reg>gesehen</reg></w><c type="space"/>
+               <w><orig>auf</orig><reg>ûf</reg></w><c type="space"/>
+               <w><orig>der</orig><reg>der</reg></w><c type="space"/>
                <w><orig>erde</orig><reg>erde</reg></w><pc>.</pc>
             </l>
             <l n="92" xml:id="v_94" corresp="s_92">
-               <w><orig>auh</orig><reg>ouch</reg></w><space/>
-               <w><orig>was</orig><reg>waz</reg></w><space/>
-               <w><orig>nah</orig><reg>nah</reg></w><space/>
-               <w><orig>vollem</orig><reg>vollem</reg></w><space/>
+               <w><orig>auh</orig><reg>ouch</reg></w><c type="space"/>
+               <w><orig>was</orig><reg>waz</reg></w><c type="space"/>
+               <w><orig>nah</orig><reg>nah</reg></w><c type="space"/>
+               <w><orig>vollem</orig><reg>vollem</reg></w><c type="space"/>
                <w><orig>werde</orig><reg>werde</reg></w>
             </l>
             <l n="93" xml:id="v_95" corresp="s_93">
-               <w><orig>ir</orig><reg>ir</reg></w><space/>
-               <w><orig>leip</orig><reg>lîp</reg></w><space/>
-               <w><orig>gechlaidet</orig><reg>gekleidet</reg></w><space/>
+               <w><orig>ir</orig><reg>ir</reg></w><c type="space"/>
+               <w><orig>leip</orig><reg>lîp</reg></w><c type="space"/>
+               <w><orig>gechlaidet</orig><reg>gekleidet</reg></w><c type="space"/>
                <w><orig>schone</orig><reg>schoene</reg></w><pc>.</pc>
             </l>
             <l n="94" xml:id="v_96" corresp="s_94">
-               <w><orig>diu</orig><reg>diu</reg></w><space/>
-               <w><orig>chlaider</orig><reg>kleider</reg></w><space/>
-               <w><orig>und</orig><reg>und</reg></w><space/>
-               <w><orig>diu</orig><reg>diu</reg></w><space/>
+               <w><orig>diu</orig><reg>diu</reg></w><c type="space"/>
+               <w><orig>chlaider</orig><reg>kleider</reg></w><c type="space"/>
+               <w><orig>und</orig><reg>und</reg></w><c type="space"/>
+               <w><orig>diu</orig><reg>diu</reg></w><c type="space"/>
                <w><orig>chrone</orig><reg>krône</reg></w><pc>,</pc>
             </l>
             <l n="95" xml:id="v_97" corresp="s_95">
-               <w><orig>die</orig><reg>die</reg></w><space/>
-               <w><orig>diu</orig><reg>diu</reg></w><space/>
-               <w><orig>schoniu</orig><reg>schoene</reg></w><space/>
-               <w><orig>vrowe</orig><reg>vrouwe</reg></w><space/>
+               <w><orig>die</orig><reg>die</reg></w><c type="space"/>
+               <w><orig>diu</orig><reg>diu</reg></w><c type="space"/>
+               <w><orig>schoniu</orig><reg>schoene</reg></w><c type="space"/>
+               <w><orig>vrowe</orig><reg>vrouwe</reg></w><c type="space"/>
                <w><orig>chluoc</orig><reg>kluoc</reg></w><pc>,</pc>
             </l>
             <l n="96" xml:id="v_98" corresp="s_96">
-               <w><orig>auf</orig><reg>ûf</reg></w><space/>
-               <w><orig>unde</orig><reg>und</reg></w><space/>
-               <w><orig>an</orig><reg>an</reg></w><space/>
-               <w><orig>ir</orig><reg>ir</reg></w><space/>
-               <w><orig>leibe</orig><reg>lîp</reg></w><space/>
+               <w><orig>auf</orig><reg>ûf</reg></w><c type="space"/>
+               <w><orig>unde</orig><reg>und</reg></w><c type="space"/>
+               <w><orig>an</orig><reg>an</reg></w><c type="space"/>
+               <w><orig>ir</orig><reg>ir</reg></w><c type="space"/>
+               <w><orig>leibe</orig><reg>lîp</reg></w><c type="space"/>
                <w><orig>truoc</orig><reg>truoc</reg></w><pc>,</pc>
             </l>
             <l n="97" xml:id="v_99" corresp="s_97">
-               <w><orig>die</orig><reg>die</reg></w><space/>
-               <w><orig>waren</orig><reg>waren</reg></w><space/>
-               <w><orig>also</orig><reg>alsô</reg></w><space/>
+               <w><orig>die</orig><reg>die</reg></w><c type="space"/>
+               <w><orig>waren</orig><reg>waren</reg></w><c type="space"/>
+               <w><orig>also</orig><reg>alsô</reg></w><c type="space"/>
                <w><orig>reiche</orig><reg>rîche</reg></w>
             </l>
             <l n="98" xml:id="v_100" corresp="s_98">
-               <w><orig>das</orig><reg>daz</reg></w><space/>
-               <w><orig>si</orig><reg>sie</reg></w><space/>
-               <w><orig>halt</orig><reg>halt</reg></w><space/>
+               <w><orig>das</orig><reg>daz</reg></w><c type="space"/>
+               <w><orig>si</orig><reg>sie</reg></w><c type="space"/>
+               <w><orig>halt</orig><reg>halt</reg></w><c type="space"/>
                <w><orig>sicherleiche</orig><reg>sicherlîche</reg></w>
             </l>
             <l n="99" xml:id="v_101" corresp="s_99">
-               <w><orig>nieman</orig><reg>nieman</reg></w><space/>
-               <w><orig>vergelten</orig><reg>vergelten</reg></w><space/>
+               <w><orig>nieman</orig><reg>nieman</reg></w><c type="space"/>
+               <w><orig>vergelten</orig><reg>vergelten</reg></w><c type="space"/>
                <w><orig>chunde</orig><reg>künde</reg></w><pc>,</pc>
             </l>
             <l n="100" xml:id="v_102" corresp="s_100">
-               <w><orig>ob</orig><reg>ob</reg></w><space/>
-               <w><orig>man</orig><reg>man</reg></w><space/>
-               <w><orig>si</orig><reg>sie</reg></w><space/>
-               <w><orig>vaile</orig><reg>veile</reg></w><space/>
+               <w><orig>ob</orig><reg>ob</reg></w><c type="space"/>
+               <w><orig>man</orig><reg>man</reg></w><c type="space"/>
+               <w><orig>si</orig><reg>sie</reg></w><c type="space"/>
+               <w><orig>vaile</orig><reg>veile</reg></w><c type="space"/>
                <w><orig>funde</orig><reg>vünde</reg></w><pc>.</pc>
             </l>
             <l n="101" xml:id="v_103" corresp="s_101">
-               <w><orig>Von</orig><reg>Von</reg></w><space/>
-               <w><orig>Gravenberc</orig><reg>Gravenberc</reg></w><space/>
-               <w><orig>her</orig><reg>herr</reg></w><space/>
+               <w><orig>Von</orig><reg>Von</reg></w><c type="space"/>
+               <w><orig>Gravenberc</orig><reg>Gravenberc</reg></w><c type="space"/>
+               <w><orig>her</orig><reg>herr</reg></w><c type="space"/>
                <app>
                   <lem wit="#D #K #P #S"><w><orig>Wirnt</orig><reg>Wirnt</reg></w></lem>
                   <rdg wit="#M"><w><orig>Wirn</orig><reg>Wirn</reg></w></rdg>
                </app>
             </l>
             <l n="102" xml:id="v_104" corresp="s_102">
-               <w><orig>erschrac</orig><reg>erschrac</reg></w><space/>
-               <w><orig>von</orig><reg>von</reg></w><space/>
-               <w><orig>ir</orig><reg>ir</reg></w><space/>
-               <w><orig>wol</orig><reg>wol</reg></w><space/>
+               <w><orig>erschrac</orig><reg>erschrac</reg></w><c type="space"/>
+               <w><orig>von</orig><reg>von</reg></w><c type="space"/>
+               <w><orig>ir</orig><reg>ir</reg></w><c type="space"/>
+               <w><orig>wol</orig><reg>wol</reg></w><c type="space"/>
                <w><orig>zwirn</orig><reg>zwirnt</reg></w><pc>.</pc>
             </l>
             <l n="103" xml:id="v_105" corresp="s_103">
-               <w><orig>do</orig><reg>dô</reg></w><space/>
-               <w><orig>si</orig><reg>sie</reg></w><space/>
-               <w><orig>cham</orig><reg>kam</reg></w><space/>
+               <w><orig>do</orig><reg>dô</reg></w><c type="space"/>
+               <w><orig>si</orig><reg>sie</reg></w><c type="space"/>
+               <w><orig>cham</orig><reg>kam</reg></w><c type="space"/>
                <w><orig>geslichen</orig><reg>geslîchen</reg></w><pc>,</pc>
             </l>
             <l n="104" xml:id="v_106" corresp="s_104">
-               <w><orig>sein</orig><reg>sîn</reg></w><space/>
-               <w><orig>varwe</orig><reg>varwe</reg></w><space/>
-               <w><orig>wart</orig><reg>wart</reg></w><space/>
+               <w><orig>sein</orig><reg>sîn</reg></w><c type="space"/>
+               <w><orig>varwe</orig><reg>varwe</reg></w><c type="space"/>
+               <w><orig>wart</orig><reg>wart</reg></w><c type="space"/>
                <w><orig>erblichen</orig><reg>erblîchen</reg></w>
             </l>
             <l n="105" xml:id="v_107" corresp="s_105">
-               <w><orig>vil</orig><reg>vil</reg></w><space/>
-               <w><orig>harte</orig><reg>harte</reg></w><space/>
-               <w><orig>von</orig><reg>von</reg></w><space/>
-               <w><orig>ir</orig><reg>ir</reg></w><space/>
-               <w><orig>chunfte</orig><reg>künfte</reg></w><space/>
+               <w><orig>vil</orig><reg>vil</reg></w><c type="space"/>
+               <w><orig>harte</orig><reg>harte</reg></w><c type="space"/>
+               <w><orig>von</orig><reg>von</reg></w><c type="space"/>
+               <w><orig>ir</orig><reg>ir</reg></w><c type="space"/>
+               <w><orig>chunfte</orig><reg>künfte</reg></w><c type="space"/>
                <w><orig>da</orig><reg>da</reg></w><pc>.</pc>
             </l>
             <l n="106" xml:id="v_108" corresp="s_106">
-               <w><orig>in</orig><reg>in</reg></w><space/>
-               <w><orig>nam</orig><reg>nam</reg></w><space/>
-               <w><orig>des</orig><reg>des</reg></w><space/>
-               <w><orig>groz</orig><reg>grôz</reg></w><space/>
-               <w><orig>wunder</orig><reg>wunder</reg></w><space/>
+               <w><orig>in</orig><reg>in</reg></w><c type="space"/>
+               <w><orig>nam</orig><reg>nam</reg></w><c type="space"/>
+               <w><orig>des</orig><reg>des</reg></w><c type="space"/>
+               <w><orig>groz</orig><reg>grôz</reg></w><c type="space"/>
+               <w><orig>wunder</orig><reg>wunder</reg></w><c type="space"/>
                <w><orig>sa</orig><reg>sa</reg></w>
             </l>
             <l n="107" xml:id="v_109" corresp="s_107">
-               <w><orig>Waz</orig><reg>waz</reg></w><space/>
-               <w><orig>vrawen</orig><reg>vrouwen</reg></w><space/>
-               <w><orig>also</orig><reg>alsô</reg></w><space/>
+               <w><orig>Waz</orig><reg>waz</reg></w><c type="space"/>
+               <w><orig>vrawen</orig><reg>vrouwen</reg></w><c type="space"/>
+               <w><orig>also</orig><reg>alsô</reg></w><c type="space"/>
                <w><orig>chæme</orig><reg>kaeme</reg></w><pc>.</pc>
             </l>
             <l n="108" xml:id="v_110" corresp="s_108">
-               <w><orig>auf</orig><reg>ûf</reg></w><space/>
-               <w><orig>spranc</orig><reg>spranc</reg></w><space/>
-               <w><orig>der</orig><reg>der</reg></w><space/>
-               <w><orig>vil</orig><reg>vil</reg></w><space/>
+               <w><orig>auf</orig><reg>ûf</reg></w><c type="space"/>
+               <w><orig>spranc</orig><reg>spranc</reg></w><c type="space"/>
+               <w><orig>der</orig><reg>der</reg></w><c type="space"/>
+               <w><orig>vil</orig><reg>vil</reg></w><c type="space"/>
                <w><orig>genæme</orig><reg>genaeme</reg></w>
             </l>
             <l n="109" xml:id="v_111" corresp="s_109">
-               <w><orig>erschrocken</orig><reg>erschrocken</reg></w><space/>
-               <w><orig>und</orig><reg>und</reg></w><space/>
+               <w><orig>erschrocken</orig><reg>erschrocken</reg></w><c type="space"/>
+               <w><orig>und</orig><reg>und</reg></w><c type="space"/>
                <w><orig>missevar</orig><reg>missevar</reg></w>
             </l>
             <l n="110" xml:id="v_112" corresp="s_110">
-               <w><orig>und</orig><reg>und</reg></w><space/>
-               <w><orig>enphie</orig><reg>enphinc</reg></w><space/>
-               <w><orig>die</orig><reg>die</reg></w><space/>
-               <w><orig>minneclichen</orig><reg>minnechlichen</reg></w><space/>
+               <w><orig>und</orig><reg>und</reg></w><c type="space"/>
+               <w><orig>enphie</orig><reg>enphinc</reg></w><c type="space"/>
+               <w><orig>die</orig><reg>die</reg></w><c type="space"/>
+               <w><orig>minneclichen</orig><reg>minnechlichen</reg></w><c type="space"/>
                <w><orig>gar</orig><reg>gar</reg></w>
             </l>
             <l n="111" xml:id="v_113" corresp="s_111">
-               <w><orig>vil</orig><reg>vil</reg></w><space/>
-               <w><orig>schon</orig><reg>schoen</reg></w><space/>
-               <w><orig>als</orig><reg>als</reg></w><space/>
-               <w><orig>er</orig><reg>er</reg></w><space/>
-               <w><orig>wol</orig><reg>wol</reg></w><space/>
+               <w><orig>vil</orig><reg>vil</reg></w><c type="space"/>
+               <w><orig>schon</orig><reg>schoen</reg></w><c type="space"/>
+               <w><orig>als</orig><reg>als</reg></w><c type="space"/>
+               <w><orig>er</orig><reg>er</reg></w><c type="space"/>
+               <w><orig>wol</orig><reg>wol</reg></w><c type="space"/>
                <w><orig>chunde</orig><reg>kunde</reg></w><pc>.</pc>
             </l>
             <l n="112" xml:id="v_114" corresp="s_112">
-               <w><orig>er</orig><reg>er</reg></w><space/>
-               <w><orig>sprach</orig><reg>sprach</reg></w><space/>
-               <w><orig>auz</orig><reg>ûz</reg></w><space/>
-               <w><orig>svzem</orig><reg>süezem</reg></w><space/>
+               <w><orig>er</orig><reg>er</reg></w><c type="space"/>
+               <w><orig>sprach</orig><reg>sprach</reg></w><c type="space"/>
+               <w><orig>auz</orig><reg>ûz</reg></w><c type="space"/>
+               <w><orig>svzem</orig><reg>süezem</reg></w><c type="space"/>
                <w><orig>munde</orig><reg>munde</reg></w><pc>:</pc>
             </l>
             <l n="113" xml:id="v_115" corresp="s_113">
-               <pc>“</pc><w><orig>seit</orig><reg>sît</reg></w><pc>,</pc><space/>
-               <w><orig>vrawe</orig><reg>vrouwe</reg></w><pc>,</pc><space/>
-               <w><orig>got</orig><reg>got</reg></w><space/>
+               <pc>“</pc><w><orig>seit</orig><reg>sît</reg></w><pc>,</pc><c type="space"/>
+               <w><orig>vrawe</orig><reg>vrouwe</reg></w><pc>,</pc><c type="space"/>
+               <w><orig>got</orig><reg>got</reg></w><c type="space"/>
                <w><orig>willechomen</orig><reg>willekomen</reg></w><pc>.</pc>
             </l>
             <l n="114" xml:id="v_116" corresp="s_114">
-               <w><orig>swaz</orig><reg>swaz</reg></w><space/>
-               <w><orig>ich</orig><reg>ich</reg></w><space/>
-               <w><orig>von</orig><reg>von</reg></w><space/>
-               <w><orig>vrawen</orig><reg>vrouwen</reg></w><space/>
-               <w><orig>han</orig><reg>hân</reg></w><space/>
-               <w><orig>vernomen</orig><reg>vernomen</reg></w><pc>,</pc><space/>
+               <w><orig>swaz</orig><reg>swaz</reg></w><c type="space"/>
+               <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
+               <w><orig>von</orig><reg>von</reg></w><c type="space"/>
+               <w><orig>vrawen</orig><reg>vrouwen</reg></w><c type="space"/>
+               <w><orig>han</orig><reg>hân</reg></w><c type="space"/>
+               <w><orig>vernomen</orig><reg>vernomen</reg></w><pc>,</pc><c type="space"/>
             </l>
             <l n="115" xml:id="v_117" corresp="s_115">
-               <w><orig>der</orig><reg>der</reg></w><space/>
-               <w><orig>seit</orig><reg>sît</reg></w><space/>
-               <w><orig>ir</orig><reg>ir</reg></w><space/>
-               <w><orig>ubergulde</orig><reg>übergülte</reg></w><space/>
+               <w><orig>der</orig><reg>der</reg></w><c type="space"/>
+               <w><orig>seit</orig><reg>sît</reg></w><c type="space"/>
+               <w><orig>ir</orig><reg>ir</reg></w><c type="space"/>
+               <w><orig>ubergulde</orig><reg>übergülte</reg></w><c type="space"/>
                <w><orig>gar</orig><reg>gar</reg></w><pc>.</pc><pc>”</pc>
             </l>
             <l n="116" xml:id="v_118" corresp="s_116">
-               <w><orig>hie mit</orig><reg>hiemit</reg></w><space/>
-               <w><orig>sprach</orig><reg>sprach</reg></w><space/>
-               <w><orig>diu</orig><reg>diu</reg></w><space/>
-               <w><orig>schoniu</orig><reg>schoene</reg></w><space/>
+               <w><orig>hie mit</orig><reg>hiemit</reg></w><c type="space"/>
+               <w><orig>sprach</orig><reg>sprach</reg></w><c type="space"/>
+               <w><orig>diu</orig><reg>diu</reg></w><c type="space"/>
+               <w><orig>schoniu</orig><reg>schoene</reg></w><c type="space"/>
                <w><orig>gar</orig><reg>gar</reg></w><pc>:</pc>
             </l>
             <l n="117" xml:id="v_119" corresp="s_117">
-               <pc>“</pc><w><orig>vil</orig><reg>vil</reg></w><space/>
-               <w><orig>lieber</orig><reg>lieber</reg></w><space/>
-               <w><orig>friunt</orig><reg>vriunt</reg></w><pc>,</pc><space/>
-               <w><orig>got</orig><reg>got</reg></w><space/>
-               <w><orig>lone</orig><reg>lône</reg></w><space/>
+               <pc>“</pc><w><orig>vil</orig><reg>vil</reg></w><c type="space"/>
+               <w><orig>lieber</orig><reg>lieber</reg></w><c type="space"/>
+               <w><orig>friunt</orig><reg>vriunt</reg></w><pc>,</pc><c type="space"/>
+               <w><orig>got</orig><reg>got</reg></w><c type="space"/>
+               <w><orig>lone</orig><reg>lône</reg></w><c type="space"/>
                <w><orig>dir</orig><reg>dir</reg></w><pc>,</pc>
             </l>
             <l n="118" xml:id="v_120" corresp="s_118">
-               <w><orig>erschricke</orig><reg>erschrecke</reg></w><space/>
-               <w><orig>so</orig><reg>sô</reg></w><space/>
-               <w><orig>sere</orig><reg>sere</reg></w><space/>
-               <w><orig>niht</orig><reg>niht</reg></w><space/>
-               <w><orig>von</orig><reg>von</reg></w><space/>
+               <w><orig>erschricke</orig><reg>erschrecke</reg></w><c type="space"/>
+               <w><orig>so</orig><reg>sô</reg></w><c type="space"/>
+               <w><orig>sere</orig><reg>sere</reg></w><c type="space"/>
+               <w><orig>niht</orig><reg>niht</reg></w><c type="space"/>
+               <w><orig>von</orig><reg>von</reg></w><c type="space"/>
                <w><orig>mir</orig><reg>mir</reg></w><pc>.</pc>
             </l>
             <l n="118" xml:id="v_121" corresp="s_119"/>
@@ -948,249 +950,249 @@
             <l n="118" xml:id="v_123" corresp="s_121"/>
             <l n="118" xml:id="v_124" corresp="s_122"/>
             <l n="119" xml:id="v_125" corresp="s_123">
-               <w><orig>nu</orig><reg>nun</reg></w><space/>
-               <w><orig>bin</orig><reg>bin</reg></w><space/>
-               <w><orig>ich</orig><reg>ich</reg></w><space/>
-               <w><orig>doch</orig><reg>doch</reg></w><space/>
-               <w><orig>das</orig><reg>daz</reg></w><space/>
-               <w><orig>selbe</orig><reg>selbe</reg></w><space/>
+               <w><orig>nu</orig><reg>nun</reg></w><c type="space"/>
+               <w><orig>bin</orig><reg>bin</reg></w><c type="space"/>
+               <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
+               <w><orig>doch</orig><reg>doch</reg></w><c type="space"/>
+               <w><orig>das</orig><reg>daz</reg></w><c type="space"/>
+               <w><orig>selbe</orig><reg>selbe</reg></w><c type="space"/>
                <w><orig>weip</orig><reg>wîp</reg></w><pc>,</pc>
             </l>
             <l n="120" xml:id="v_126" corresp="s_124">
-               <w><orig>durch</orig><reg>durch</reg></w><space/>
-               <w><orig>die</orig><reg>die</reg></w><space/>
-               <w><orig>du</orig><reg>du</reg></w><space/>
-               <w><orig>sel</orig><reg>sele</reg></w><space/>
-               <w><orig>und</orig><reg>unde</reg></w><space/>
+               <w><orig>durch</orig><reg>durch</reg></w><c type="space"/>
+               <w><orig>die</orig><reg>die</reg></w><c type="space"/>
+               <w><orig>du</orig><reg>du</reg></w><c type="space"/>
+               <w><orig>sel</orig><reg>sele</reg></w><c type="space"/>
+               <w><orig>und</orig><reg>unde</reg></w><c type="space"/>
                <w><orig>leip</orig><reg>lîp</reg></w>
             </l>
             <l n="121" xml:id="v_127" corresp="s_125">
-               <w><orig>vil</orig><reg>vil</reg></w><space/>
-               <w><orig>dicke</orig><reg>dicke</reg></w><space/>
-               <w><orig>hast</orig><reg>hast</reg></w><space/>
+               <w><orig>vil</orig><reg>vil</reg></w><c type="space"/>
+               <w><orig>dicke</orig><reg>dicke</reg></w><c type="space"/>
+               <w><orig>hast</orig><reg>hast</reg></w><c type="space"/>
                <w><orig>gewaget</orig><reg>gewaget</reg></w><pc>.</pc>
             </l>
             <l n="122" xml:id="v_128" corresp="s_126">
-               <w><orig>dein</orig><reg>dîn</reg></w><space/>
-               <w><orig>hertze</orig><reg>herze</reg></w><space/>
-               <w><orig>niht</orig><reg>niht</reg></w><space/>
+               <w><orig>dein</orig><reg>dîn</reg></w><c type="space"/>
+               <w><orig>hertze</orig><reg>herze</reg></w><c type="space"/>
+               <w><orig>niht</orig><reg>niht</reg></w><c type="space"/>
                <w><orig>betragt</orig><reg>betraget</reg><pc>,</pc></w>
             </l>
             <l n="123" xml:id="v_129" corresp="s_127">
-               <w><orig>ez</orig><reg>ez</reg></w><space/>
-               <w><orig>trag</orig><reg>tragt</reg></w><space/>
-               <w><orig>durch</orig><reg>durch</reg></w><space/>
-               <w><orig>mich</orig><reg>mich</reg></w><space/>
-               <w><orig>hohen</orig><reg>hôhen</reg></w><space/>
+               <w><orig>ez</orig><reg>ez</reg></w><c type="space"/>
+               <w><orig>trag</orig><reg>tragt</reg></w><c type="space"/>
+               <w><orig>durch</orig><reg>durch</reg></w><c type="space"/>
+               <w><orig>mich</orig><reg>mich</reg></w><c type="space"/>
+               <w><orig>hohen</orig><reg>hôhen</reg></w><c type="space"/>
                <w><orig>muot</orig><reg>muot</reg></w>
             </l>
             <l n="124" xml:id="v_130" corresp="s_128">
-               <w><orig>du</orig><reg>du</reg></w><space/>
-               <w><orig>bist</orig><reg>bist</reg></w><space/>
-               <w><orig>hiubsch</orig><reg>hübsch</reg></w><space/>
-               <w><orig>und</orig><reg>und</reg></w><space/>
+               <w><orig>du</orig><reg>du</reg></w><c type="space"/>
+               <w><orig>bist</orig><reg>bist</reg></w><c type="space"/>
+               <w><orig>hiubsch</orig><reg>hübsch</reg></w><c type="space"/>
+               <w><orig>und</orig><reg>und</reg></w><c type="space"/>
                <w><orig>fruot</orig><reg>vruot</reg></w>
             </l>
             <l n="125" xml:id="v_131" corresp="s_129">
-               <w><orig>gewesen</orig><reg>gewesen</reg></w><space/>
-               <w><orig>alliu</orig><reg>alle</reg></w><space/>
-               <w><orig>deiniu</orig><reg>dîne</reg></w><space/>
+               <w><orig>gewesen</orig><reg>gewesen</reg></w><c type="space"/>
+               <w><orig>alliu</orig><reg>alle</reg></w><c type="space"/>
+               <w><orig>deiniu</orig><reg>dîne</reg></w><c type="space"/>
                <w><orig>jar</orig><reg>jâr</reg></w><pc>.</pc>
             </l>
             <l n="126" xml:id="v_132" corresp="s_130">
-               <w><orig>dein</orig><reg>dîn</reg></w><space/>
-               <w><orig>werder</orig><reg>werder</reg></w><space/>
-               <w><orig>leip</orig><reg>lîp</reg></w><space/>
-               <w><orig>suoz</orig><reg>süeze</reg></w><space/>
-               <w><orig>und</orig><reg>und</reg></w><space/>
+               <w><orig>dein</orig><reg>dîn</reg></w><c type="space"/>
+               <w><orig>werder</orig><reg>werder</reg></w><c type="space"/>
+               <w><orig>leip</orig><reg>lîp</reg></w><c type="space"/>
+               <w><orig>suoz</orig><reg>süeze</reg></w><c type="space"/>
+               <w><orig>und</orig><reg>und</reg></w><c type="space"/>
                <w><orig>chlar</orig><reg>klar</reg></w>
             </l>
             <l n="127" xml:id="v_133" corresp="s_131">
-               <w><orig>hat</orig><reg>hat</reg></w><space/>
-               <w><orig>nah</orig><reg>nach</reg></w><space/>
-               <w><orig>mir</orig><reg>mir</reg></w><space/>
+               <w><orig>hat</orig><reg>hat</reg></w><c type="space"/>
+               <w><orig>nah</orig><reg>nach</reg></w><c type="space"/>
+               <w><orig>mir</orig><reg>mir</reg></w><c type="space"/>
                <w><orig>gerungen</orig><reg>gerungen</reg></w><pc/>
             </l>
             <l n="128" xml:id="v_134" corresp="s_132">
-               <w><orig>gesprochen</orig><reg>gesprochen</reg></w><space/>
-               <w><orig>und</orig><reg>und</reg></w><space/>
+               <w><orig>gesprochen</orig><reg>gesprochen</reg></w><c type="space"/>
+               <w><orig>und</orig><reg>und</reg></w><c type="space"/>
                <w><orig>gesungen</orig><reg>gesungen</reg></w><pc>.</pc>
             </l>
             <l n="129" xml:id="v_135" corresp="s_133">
-               <w><orig>von</orig><reg>von</reg></w><space/>
-               <w><orig>mir</orig><reg>mir</reg></w><space/>
-               <w><orig>swaz</orig><reg>swaz</reg></w><space/>
-               <w><orig>er</orig><reg>er</reg></w><space/>
-               <w><orig>guotes</orig><reg>guotes</reg></w><space/>
+               <w><orig>von</orig><reg>von</reg></w><c type="space"/>
+               <w><orig>mir</orig><reg>mir</reg></w><c type="space"/>
+               <w><orig>swaz</orig><reg>swaz</reg></w><c type="space"/>
+               <w><orig>er</orig><reg>er</reg></w><c type="space"/>
+               <w><orig>guotes</orig><reg>guotes</reg></w><c type="space"/>
                <w><orig>chan</orig><reg>kan</reg></w><pc>.</pc>
             </l>
             <l n="130" xml:id="v_136" corresp="s_134">
-               <w><orig>dv</orig><reg>du</reg></w><space/>
-               <w><orig>wart</orig><reg>wart</reg></w><space/>
+               <w><orig>dv</orig><reg>du</reg></w><c type="space"/>
+               <w><orig>wart</orig><reg>wart</reg></w><c type="space"/>
                <app>
                   <lem/>
-                  <rdg wit="#M"><w><orig>ot</orig><reg>ot</reg></w><space/></rdg>
+                  <rdg wit="#M"><w><orig>ot</orig><reg>ot</reg></w><c type="space"/></rdg>
                </app>
-               <w><orig>ie</orig><reg>ie</reg></w><space/>
-               <w><orig>mein</orig><reg>mîn</reg></w><space/>
+               <w><orig>ie</orig><reg>ie</reg></w><c type="space"/>
+               <w><orig>mein</orig><reg>mîn</reg></w><c type="space"/>
                <w><orig>dienstman</orig><reg>dienestman</reg></w><pc>,</pc>
             </l>
             <l n="131" xml:id="v_137" corresp="s_135">
-               <w><orig>den</orig><reg>den</reg></w><space/>
-               <w><orig>abent</orig><reg>abent</reg></w><space/>
-               <w><orig>und</orig><reg>und</reg></w><space/>
-               <w><orig>den</orig><reg>den</reg></w><space/>
+               <w><orig>den</orig><reg>den</reg></w><c type="space"/>
+               <w><orig>abent</orig><reg>abent</reg></w><c type="space"/>
+               <w><orig>und</orig><reg>und</reg></w><c type="space"/>
+               <w><orig>den</orig><reg>den</reg></w><c type="space"/>
                <w><orig>morgen</orig><reg>morgen</reg></w><pc>;</pc>
             </l>
             <l n="132" xml:id="v_138" corresp="s_136">
-               <w><orig>du</orig><reg>du</reg></w><space/>
-               <w><orig>chundest</orig><reg>kundest</reg></w><space/>
-               <w><orig>wol</orig><reg>wol</reg></w><space/>
-               <w><orig>besorgen</orig><reg>besorgen</reg></w><space/>
+               <w><orig>du</orig><reg>du</reg></w><c type="space"/>
+               <w><orig>chundest</orig><reg>kundest</reg></w><c type="space"/>
+               <w><orig>wol</orig><reg>wol</reg></w><c type="space"/>
+               <w><orig>besorgen</orig><reg>besorgen</reg></w><c type="space"/>
             </l>
             <l n="133" xml:id="v_139" corresp="s_137">
-               <w><orig>hohez</orig><reg>hôhes</reg></w><space/>
-               <w><orig>lop</orig><reg>lop</reg></w><space/>
-               <w><orig>und</orig><reg>und</reg></w><space/>
-               <w><orig>werden</orig><reg>werden</reg></w><space/>
+               <w><orig>hohez</orig><reg>hôhes</reg></w><c type="space"/>
+               <w><orig>lop</orig><reg>lop</reg></w><c type="space"/>
+               <w><orig>und</orig><reg>und</reg></w><c type="space"/>
+               <w><orig>werden</orig><reg>werden</reg></w><c type="space"/>
                <w><orig>preis</orig><reg>prîs</reg></w><pc>;</pc>
             </l>
             <l n="134" xml:id="v_140" corresp="s_138">
-               <w><orig>du</orig><reg>du</reg></w><space/>
-               <w><orig>bluest</orig><reg>blüejest</reg></w><space/>
-               <w><orig>als</orig><reg>als</reg></w><space/>
-               <w><orig>ain</orig><reg>ein</reg></w><space/>
+               <w><orig>du</orig><reg>du</reg></w><c type="space"/>
+               <w><orig>bluest</orig><reg>blüejest</reg></w><c type="space"/>
+               <w><orig>als</orig><reg>als</reg></w><c type="space"/>
+               <w><orig>ain</orig><reg>ein</reg></w><c type="space"/>
                <w><orig>maienreis</orig><reg>meienrîs</reg></w>
             </l>
             <l n="135" xml:id="v_141" corresp="s_139">
-               <w><orig>in</orig><reg>in</reg></w><space/>
-               <w><orig>manicvalter</orig><reg>manecvalter</reg></w><space/>
+               <w><orig>in</orig><reg>in</reg></w><c type="space"/>
+               <w><orig>manicvalter</orig><reg>manecvalter</reg></w><c type="space"/>
                <w><orig>tugent</orig><reg>tugent</reg></w><pc>;</pc>
             </l>
             <l n="136" xml:id="v_142" corresp="s_140">
-               <w><orig>du</orig><reg>du</reg></w><space/>
-               <w><orig>hast</orig><reg>hast</reg></w><space/>
-               <w><orig>von</orig><reg>von</reg></w><space/>
-               <w><orig>chindes</orig><reg>kindes</reg></w><space/>
+               <w><orig>du</orig><reg>du</reg></w><c type="space"/>
+               <w><orig>hast</orig><reg>hast</reg></w><c type="space"/>
+               <w><orig>von</orig><reg>von</reg></w><c type="space"/>
+               <w><orig>chindes</orig><reg>kindes</reg></w><c type="space"/>
                <w><orig>jugent</orig><reg>jugent</reg></w>
             </l>
             <l n="137" xml:id="v_143" corresp="s_141">
-               <w><orig>getragen</orig><reg>getragen</reg></w><space/>
-               <w><orig>ie</orig><reg>ie</reg></w><space/>
-               <w><orig>der</orig><reg>der</reg></w><space/>
-               <w><orig>eren</orig><reg>eren</reg></w><space/>
+               <w><orig>getragen</orig><reg>getragen</reg></w><c type="space"/>
+               <w><orig>ie</orig><reg>ie</reg></w><c type="space"/>
+               <w><orig>der</orig><reg>der</reg></w><c type="space"/>
+               <w><orig>eren</orig><reg>eren</reg></w><c type="space"/>
                <w><orig>chrantz</orig><reg>kranz</reg></w><pc>;</pc>
             </l>
             <l n="138" xml:id="v_144" corresp="s_142">
-               <w><orig>dein</orig><reg>dîn</reg></w><space/>
-               <w><orig>sin</orig><reg>sîn</reg></w><space/>
-               <w><orig>ist</orig><reg>ist</reg></w><space/>
-               <w><orig>lauter</orig><reg>lûter</reg></w><space/>
-               <w><orig>und</orig><reg>und</reg></w><space/>
+               <w><orig>dein</orig><reg>dîn</reg></w><c type="space"/>
+               <w><orig>sin</orig><reg>sîn</reg></w><c type="space"/>
+               <w><orig>ist</orig><reg>ist</reg></w><c type="space"/>
+               <w><orig>lauter</orig><reg>lûter</reg></w><c type="space"/>
+               <w><orig>und</orig><reg>und</reg></w><c type="space"/>
                <w><orig>gantz</orig><reg>ganz</reg></w>
             </l>
             <l n="139" xml:id="v_145" corresp="s_143">
-               <w><orig>an</orig><reg>an</reg></w><space/>
-               <w><orig>truven</orig><reg>triuwen</reg></w><space/>
-               <w><orig>ie</orig><reg>ie</reg></w><space/>
-               <w><orig>gen</orig><reg>gegen</reg></w><space/>
-               <w><orig>mir</orig><reg>mir</reg></w><space/>
+               <w><orig>an</orig><reg>an</reg></w><c type="space"/>
+               <w><orig>truven</orig><reg>triuwen</reg></w><c type="space"/>
+               <w><orig>ie</orig><reg>ie</reg></w><c type="space"/>
+               <w><orig>gen</orig><reg>gegen</reg></w><c type="space"/>
+               <w><orig>mir</orig><reg>mir</reg></w><c type="space"/>
                <w><orig>gewesen</orig><reg>gewesen</reg></w><pc>,</pc>
             </l>
             <l n="140" xml:id="v_146" corresp="s_144">
-               <w><orig>vil</orig><reg>vil</reg></w><space/>
-               <w><orig>werder</orig><reg>werder</reg></w><space/>
-               <w><orig>ritter</orig><reg>ritter</reg></w><space/>
+               <w><orig>vil</orig><reg>vil</reg></w><c type="space"/>
+               <w><orig>werder</orig><reg>werder</reg></w><c type="space"/>
+               <w><orig>ritter</orig><reg>ritter</reg></w><c type="space"/>
                <w><orig>auzerlesen</orig><reg>ûzerlesen</reg></w><pc>.</pc>
             </l>
             <l n="141" xml:id="v_147" corresp="s_145">
-               <w><orig>darumbe</orig><reg>darumbe</reg></w><space/>
-               <w><orig>bin</orig><reg>bin</reg></w><space/>
-               <w><orig>ich</orig><reg>ich</reg></w><space/>
-               <w><orig>chomen</orig><reg>komen</reg></w><space/>
+               <w><orig>darumbe</orig><reg>darumbe</reg></w><c type="space"/>
+               <w><orig>bin</orig><reg>bin</reg></w><c type="space"/>
+               <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
+               <w><orig>chomen</orig><reg>komen</reg></w><c type="space"/>
                <w><orig>her</orig><reg>her</reg></w><pc>,</pc>
             </l>
             <l n="142" xml:id="v_148" corresp="s_146">
-               <w><orig>daz</orig><reg>daz</reg></w><space/>
-               <w><orig>du</orig><reg>du</reg></w><space/>
-               <w><orig>nah</orig><reg>nach</reg></w><space/>
-               <w><orig>deines</orig><reg>dînes</reg></w><space/>
-               <w><orig>hertzen</orig><reg>herzen</reg></w><space/>
+               <w><orig>daz</orig><reg>daz</reg></w><c type="space"/>
+               <w><orig>du</orig><reg>du</reg></w><c type="space"/>
+               <w><orig>nah</orig><reg>nach</reg></w><c type="space"/>
+               <w><orig>deines</orig><reg>dînes</reg></w><c type="space"/>
+               <w><orig>hertzen</orig><reg>herzen</reg></w><c type="space"/>
                <w><orig>ger</orig><reg>ger</reg></w>
             </l>
             <l n="143" xml:id="v_149" corresp="s_147">
-               <w><orig>meinen</orig><reg>mînen</reg></w><space/>
-               <w><orig>leip</orig><reg>lîp</reg></w><space/>
-               <w><orig>von</orig><reg>von</reg></w><space/>
-               <w><orig>hoher</orig><reg>hôher</reg></w><space/>
+               <w><orig>meinen</orig><reg>mînen</reg></w><c type="space"/>
+               <w><orig>leip</orig><reg>lîp</reg></w><c type="space"/>
+               <w><orig>von</orig><reg>von</reg></w><c type="space"/>
+               <w><orig>hoher</orig><reg>hôher</reg></w><c type="space"/>
                <w><orig>chur</orig><reg>kür</reg></w>
             </l>
             <l n="144" xml:id="v_150" corresp="s_148">
-               <w><orig>beschawest</orig><reg>beschouwest</reg></w><space/>
-               <w><orig>wider</orig><reg>wider</reg></w><space/>
-               <w><orig>unde</orig><reg>unde</reg></w><space/>
+               <w><orig>beschawest</orig><reg>beschouwest</reg></w><c type="space"/>
+               <w><orig>wider</orig><reg>wider</reg></w><c type="space"/>
+               <w><orig>unde</orig><reg>unde</reg></w><c type="space"/>
                <w><orig>fur</orig><reg>vür</reg></w><pc>,</pc>
             </l>
             <l n="145" xml:id="v_151" corresp="s_149">
-               <w><orig>wie</orig><reg>wie</reg></w><space/>
-               <w><orig>schoen</orig><reg>schoen</reg></w><space/>
-               <w><orig>ich</orig><reg>ich</reg></w><space/>
-               <w><orig>sei</orig><reg>sei</reg></w><pc>,</pc><space/>
-               <w><orig>wie</orig><reg>wie</reg></w><space/>
+               <w><orig>wie</orig><reg>wie</reg></w><c type="space"/>
+               <w><orig>schoen</orig><reg>schoen</reg></w><c type="space"/>
+               <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
+               <w><orig>sei</orig><reg>sei</reg></w><pc>,</pc><c type="space"/>
+               <w><orig>wie</orig><reg>wie</reg></w><c type="space"/>
                <w><orig>volchomen</orig><reg>volkomen</reg></w><pc>.</pc>
             </l>
             <l n="146" xml:id="v_152" corresp="s_150">
-               <w><orig>den</orig><reg>den</reg></w><space/>
-               <w><orig>reichen</orig><reg>rîchen</reg></w><space/>
-               <w><orig>lon</orig><reg>lôn</reg></w><pc>,</pc><space/>
-               <w><orig>den</orig><reg>den</reg></w><space/>
-               <w><orig>grozen</orig><reg>grozen</reg></w><space/>
+               <w><orig>den</orig><reg>den</reg></w><c type="space"/>
+               <w><orig>reichen</orig><reg>rîchen</reg></w><c type="space"/>
+               <w><orig>lon</orig><reg>lôn</reg></w><pc>,</pc><c type="space"/>
+               <w><orig>den</orig><reg>den</reg></w><c type="space"/>
+               <w><orig>grozen</orig><reg>grozen</reg></w><c type="space"/>
                <w><orig>fromen</orig><reg>vromen</reg></w><pc>,</pc>
             </l>
             <l n="147" xml:id="v_153" corresp="s_151">
-               <w><orig>den</orig><reg>den</reg></w><space/>
-               <w><orig>du</orig><reg>du</reg></w><space/>
-               <w><orig>von</orig><reg>von</reg></w><space/>
-               <w><orig>mir</orig><reg>mir</reg></w><space/>
-               <w><orig>enphahen</orig><reg>enphâhen</reg></w><space/>
+               <w><orig>den</orig><reg>den</reg></w><c type="space"/>
+               <w><orig>du</orig><reg>du</reg></w><c type="space"/>
+               <w><orig>von</orig><reg>von</reg></w><c type="space"/>
+               <w><orig>mir</orig><reg>mir</reg></w><c type="space"/>
+               <w><orig>enphahen</orig><reg>enphâhen</reg></w><c type="space"/>
                <w><orig>maht</orig><reg>maht</reg></w>
             </l>
             <l n="148" xml:id="v_154" corresp="s_152">
-               <w><orig>umb</orig><reg>umbe</reg></w><space/>
-               <w><orig>deinen</orig><reg>dînen</reg></w><space/>
-               <w><orig>dienst</orig><reg>dienst</reg></w><space/>
-               <w><orig>wol</orig><reg>wol</reg></w><space/>
+               <w><orig>umb</orig><reg>umbe</reg></w><c type="space"/>
+               <w><orig>deinen</orig><reg>dînen</reg></w><c type="space"/>
+               <w><orig>dienst</orig><reg>dienst</reg></w><c type="space"/>
+               <w><orig>wol</orig><reg>wol</reg></w><c type="space"/>
                <w><orig>geslaht</orig><reg>geslaht</reg></w><pc>,</pc>
             </l>
             <l n="149" xml:id="v_155" corresp="s_153">
-               <w><orig>den</orig><reg>den</reg></w><space/>
-               <w><orig>solt</orig><reg>solt</reg></w><space/>
-               <w><orig>du</orig><reg>du</reg></w><space/>
-               <w><orig>schawen</orig><reg>schouwen</reg></w><space/>
-               <w><orig>und</orig><reg>unde</reg></w><space/>
+               <w><orig>den</orig><reg>den</reg></w><c type="space"/>
+               <w><orig>solt</orig><reg>solt</reg></w><c type="space"/>
+               <w><orig>du</orig><reg>du</reg></w><c type="space"/>
+               <w><orig>schawen</orig><reg>schouwen</reg></w><c type="space"/>
+               <w><orig>und</orig><reg>unde</reg></w><c type="space"/>
                <w><orig>spehn</orig><reg>spaehen</reg></w><pc>.</pc>
             </l>
             <l n="150" xml:id="v_156" corresp="s_154">
-               <w><orig>ich</orig><reg>ich</reg></w><space/>
-               <w><orig>wil</orig><reg>wil</reg></w><space/>
-               <w><orig>dich</orig><reg>dich</reg></w><space/>
-               <w><orig>gern</orig><reg>gern</reg></w><space/>
-               <w><orig>lazen</orig><reg>lâzen</reg></w><space/>
+               <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
+               <w><orig>wil</orig><reg>wil</reg></w><c type="space"/>
+               <w><orig>dich</orig><reg>dich</reg></w><c type="space"/>
+               <w><orig>gern</orig><reg>gern</reg></w><c type="space"/>
+               <w><orig>lazen</orig><reg>lâzen</reg></w><c type="space"/>
                <w><orig>sehn</orig><reg>sehen</reg></w><pc>,</pc>
             </l>
             <l n="151" xml:id="v_157" corresp="s_155">
-               <w><orig>waz</orig><reg>waz</reg></w><space/>
-               <w><orig>lones</orig><reg>lônes</reg></w><space/>
-               <w><orig>dir</orig><reg>dir</reg></w><space/>
-               <w><orig>geziehen</orig><reg>geziehen</reg></w><space/>
+               <w><orig>waz</orig><reg>waz</reg></w><c type="space"/>
+               <w><orig>lones</orig><reg>lônes</reg></w><c type="space"/>
+               <w><orig>dir</orig><reg>dir</reg></w><c type="space"/>
+               <w><orig>geziehen</orig><reg>geziehen</reg></w><c type="space"/>
                <w><orig>sol</orig><reg>sol</reg></w><pc>,</pc>
             </l>
             <l n="152" xml:id="v_158" corresp="s_156">
-               <w><orig>du</orig><reg>du</reg></w><space/>
-               <w><orig>hast</orig><reg>hast</reg></w><space/>
-               <w><orig>gedienet</orig><reg>gedienet</reg></w><space/>
-               <w><orig>mir</orig><reg>mir</reg></w><space/>
-               <w><orig>so</orig><reg>sô</reg></w><space/>
+               <w><orig>du</orig><reg>du</reg></w><c type="space"/>
+               <w><orig>hast</orig><reg>hast</reg></w><c type="space"/>
+               <w><orig>gedienet</orig><reg>gedienet</reg></w><c type="space"/>
+               <w><orig>mir</orig><reg>mir</reg></w><c type="space"/>
+               <w><orig>so</orig><reg>sô</reg></w><c type="space"/>
                <w><orig>wol</orig><reg>wol</reg></w><pc>.</pc>
                <note type="addition" n="2"><seg type="wit">D</seg></note>
             </l>
@@ -1198,530 +1200,530 @@
             <l n="152" xml:id="v_160" corresp="s_156b"/>
             <l n="153" xml:id="v_161" corresp="s_157">
                <w><orig>den</orig><reg>den</reg></w>
-               <w><orig>edeln</orig><reg>edeln</reg></w><space/>
-               <w><orig>herren</orig><reg>herren</reg></w><space/>
+               <w><orig>edeln</orig><reg>edeln</reg></w><c type="space"/>
+               <w><orig>herren</orig><reg>herren</reg></w><c type="space"/>
                <w><orig>tugentreich</orig><reg>tugentrîch</reg></w>
             </l>
             <l n="154" xml:id="v_162" corresp="s_158">
-               <w><orig>dauhte</orig><reg>dûhte</reg></w><space/>
-               <w><orig>harte</orig><reg>harte</reg></w><space/>
+               <w><orig>dauhte</orig><reg>dûhte</reg></w><c type="space"/>
+               <w><orig>harte</orig><reg>harte</reg></w><c type="space"/>
                <w><orig>wunderleich</orig><reg>wunderlich</reg></w>
             </l>
             <l n="155" xml:id="v_163" corresp="s_159">
-               <w><orig>diser</orig><reg>diser</reg></w><space/>
-               <w><orig>vrawen</orig><reg>vrouwen</reg></w><space/>
+               <w><orig>diser</orig><reg>diser</reg></w><c type="space"/>
+               <w><orig>vrawen</orig><reg>vrouwen</reg></w><c type="space"/>
                <w><orig>taidinc</orig><reg>teidinc</reg></w><pc>;</pc>
             </l>
             <l n="156" xml:id="v_164" corresp="s_160">
-               <w><orig>wan</orig><reg>wann</reg></w><space/>
-               <w><orig>sei</orig><reg>sie</reg></w><space/>
-               <w><orig>der</orig><reg>der</reg></w><space/>
-               <w><orig>selbe</orig><reg>selbe</reg></w><space/>
+               <w><orig>wan</orig><reg>wann</reg></w><c type="space"/>
+               <w><orig>sei</orig><reg>sie</reg></w><c type="space"/>
+               <w><orig>der</orig><reg>der</reg></w><c type="space"/>
+               <w><orig>selbe</orig><reg>selbe</reg></w><c type="space"/>
                <w><orig>jungelinc</orig><reg>jungelinc</reg></w>
             </l>
             <l n="157" xml:id="v_165" corresp="s_161">
-               <w><orig>mit</orig><reg>mit</reg></w><space/>
-               <w><orig>seinen</orig><reg>sînen</reg></w><space/>
-               <w><orig>augen</orig><reg>ougen</reg></w><space/>
-               <w><orig>nie</orig><reg>nie</reg></w><space/>
+               <w><orig>mit</orig><reg>mit</reg></w><c type="space"/>
+               <w><orig>seinen</orig><reg>sînen</reg></w><c type="space"/>
+               <w><orig>augen</orig><reg>ougen</reg></w><c type="space"/>
+               <w><orig>nie</orig><reg>nie</reg></w><c type="space"/>
                <w><orig>gesach</orig><reg>gesach</reg></w>
             </l>
             <l n="158" xml:id="v_166" corresp="s_162">
-               <w><orig>und</orig><reg>und</reg></w><space/>
-               <w><orig>doch</orig><reg>doch</reg></w><space/>
-               <w><orig>diu</orig><reg>diu</reg></w><space/>
-               <w><orig>selbiu</orig><reg>selbe</reg></w><space/>
-               <w><orig>vrowe</orig><reg>vrouwe</reg></w><space/>
+               <w><orig>und</orig><reg>und</reg></w><c type="space"/>
+               <w><orig>doch</orig><reg>doch</reg></w><c type="space"/>
+               <w><orig>diu</orig><reg>diu</reg></w><c type="space"/>
+               <w><orig>selbiu</orig><reg>selbe</reg></w><c type="space"/>
+               <w><orig>vrowe</orig><reg>vrouwe</reg></w><c type="space"/>
                <w><orig>sprach</orig><reg>sprach</reg></w><pc>,</pc>
             </l>
             <l n="159" xml:id="v_167" corresp="s_163">
-               <w><orig>er</orig><reg>er</reg></w><space/>
-               <w><orig>wær</orig><reg>waere</reg></w><space/>
-               <w><orig>ir</orig><reg>ir</reg></w><space/>
-               <w><orig>dienstman</orig><reg>dienstman</reg></w><space/>
+               <w><orig>er</orig><reg>er</reg></w><c type="space"/>
+               <w><orig>wær</orig><reg>waere</reg></w><c type="space"/>
+               <w><orig>ir</orig><reg>ir</reg></w><c type="space"/>
+               <w><orig>dienstman</orig><reg>dienstman</reg></w><c type="space"/>
                <w><orig>gesein</orig><reg>gesîn</reg></w><pc>.</pc>
             </l>
             <l n="160" xml:id="v_168" corresp="s_164">
-               <w><orig>er</orig><reg>er</reg></w><space/>
-               <w><orig>sprach</orig><reg>sprach</reg></w><pc>,</pc><space/>
-               <pc>“</pc><w><orig>genade</orig><reg>genade</reg></w><pc>,</pc><space/>
-               <w><orig>vrowe</orig><reg>vrouwe</reg></w><space/>
+               <w><orig>er</orig><reg>er</reg></w><c type="space"/>
+               <w><orig>sprach</orig><reg>sprach</reg></w><pc>,</pc><c type="space"/>
+               <pc>“</pc><w><orig>genade</orig><reg>genade</reg></w><pc>,</pc><c type="space"/>
+               <w><orig>vrowe</orig><reg>vrouwe</reg></w><c type="space"/>
                <w><orig>mein</orig><reg>mîn</reg></w><pc>,</pc>
             </l>
             <l n="161" xml:id="v_169" corresp="s_165">
-               <w><orig>han</orig><reg>hân</reg></w><space/>
-               <w><orig>ich</orig><reg>ich</reg></w><space/>
-               <w><orig>iu</orig><reg>iu</reg></w><space/>
-               <w><orig>gedienet</orig><reg>gedienet</reg></w><space/>
+               <w><orig>han</orig><reg>hân</reg></w><c type="space"/>
+               <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
+               <w><orig>iu</orig><reg>iu</reg></w><c type="space"/>
+               <w><orig>gedienet</orig><reg>gedienet</reg></w><c type="space"/>
                <w><orig>iht</orig><reg>iht</reg></w><pc>,</pc>
             </l>
             <l n="162" xml:id="v_170" corresp="s_166">
-               <w><orig>entruven</orig><reg>entriuwen</reg></w><space/>
-               <w><orig>des</orig><reg>dez</reg></w><space/>
-               <w><orig>enwaiz</orig><reg>enweiz</reg></w><space/>
-               <w><orig>ich</orig><reg>ich</reg></w><space/>
+               <w><orig>entruven</orig><reg>entriuwen</reg></w><c type="space"/>
+               <w><orig>des</orig><reg>dez</reg></w><c type="space"/>
+               <w><orig>enwaiz</orig><reg>enweiz</reg></w><c type="space"/>
+               <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
                <w><orig>niht</orig><reg>niht</reg></w><pc>.</pc>
             </l>
             <l n="163" xml:id="v_171" corresp="s_167">
-               <w><orig>mich</orig><reg>mich</reg></w><space/>
-               <w><orig>duncket</orig><reg>dunket</reg></w><space/>
-               <w><orig>ane</orig><reg>ane</reg></w><space/>
+               <w><orig>mich</orig><reg>mich</reg></w><c type="space"/>
+               <w><orig>duncket</orig><reg>dunket</reg></w><c type="space"/>
+               <w><orig>ane</orig><reg>ane</reg></w><c type="space"/>
                <w><orig>laugen</orig><reg>lougen</reg></w><pc>,</pc>
             </l>
             <l n="164" xml:id="v_172" corresp="s_168">
-               <w><orig>daz</orig><reg>daz</reg></w><space/>
-               <w><orig>ich</orig><reg>ich</reg></w><space/>
-               <w><orig>mit</orig><reg>mit</reg></w><space/>
-               <w><orig>meinen</orig><reg>mînen</reg></w><space/>
+               <w><orig>daz</orig><reg>daz</reg></w><c type="space"/>
+               <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
+               <w><orig>mit</orig><reg>mit</reg></w><c type="space"/>
+               <w><orig>meinen</orig><reg>mînen</reg></w><c type="space"/>
                <w><orig>augen</orig><reg>ougen</reg></w>
             </l>
             <l n="165" xml:id="v_173" corresp="s_169">
-               <w><orig>iuh</orig><reg>iuch</reg></w><space/>
-               <w><orig>vil</orig><reg>vil</reg></w><space/>
-               <w><orig>selten</orig><reg>selten</reg></w><space/>
-               <w><orig>han</orig><reg>hân</reg></w><space/>
+               <w><orig>iuh</orig><reg>iuch</reg></w><c type="space"/>
+               <w><orig>vil</orig><reg>vil</reg></w><c type="space"/>
+               <w><orig>selten</orig><reg>selten</reg></w><c type="space"/>
+               <w><orig>han</orig><reg>hân</reg></w><c type="space"/>
                <w><orig>gesehn</orig><reg>gesehen</reg></w><pc>.</pc>
             </l>
             <l n="166" xml:id="v_174" corresp="s_170">
-               <w><orig>seit</orig><reg>sît</reg></w><space/>
-               <w><orig>daz</orig><reg>daz</reg></w><space/>
-               <w><orig>ir</orig><reg>ir</reg></w><space/>
-               <w><orig>geruchet</orig><reg>geruochet</reg></w><space/>
+               <w><orig>seit</orig><reg>sît</reg></w><c type="space"/>
+               <w><orig>daz</orig><reg>daz</reg></w><c type="space"/>
+               <w><orig>ir</orig><reg>ir</reg></w><c type="space"/>
+               <w><orig>geruchet</orig><reg>geruochet</reg></w><c type="space"/>
                <w><orig>iehn</orig><reg>jehen</reg></w><pc>,</pc>
             </l>
             <l n="167" xml:id="v_175" corresp="s_171">
-               <w><orig>mein</orig><reg>mîn</reg></w><space/>
-               <w><orig>ze</orig><reg>zuo</reg></w><space/>
-               <w><orig>chnehte</orig><reg>kneht</reg></w><pc>,</pc><space/>
-               <w><orig>selic</orig><reg>selic</reg></w><space/>
+               <w><orig>mein</orig><reg>mîn</reg></w><c type="space"/>
+               <w><orig>ze</orig><reg>zuo</reg></w><c type="space"/>
+               <w><orig>chnehte</orig><reg>kneht</reg></w><pc>,</pc><c type="space"/>
+               <w><orig>selic</orig><reg>selic</reg></w><c type="space"/>
                <w><orig>weip</orig><reg>wîp</reg></w><pc>,</pc>
             </l>
             <l n="168" xml:id="v_176" corresp="s_172">
-               <w><orig>des</orig><reg>dez</reg></w><space/>
-               <w><orig>sol</orig><reg>sol</reg></w><space/>
-               <w><orig>mein</orig><reg>mîn</reg></w><space/>
-               <w><orig>hertze</orig><reg>herze</reg></w><space/>
-               <w><orig>und</orig><reg>und</reg></w><space/>
-               <w><orig>mein</orig><reg>mîn</reg></w><space/>
+               <w><orig>des</orig><reg>dez</reg></w><c type="space"/>
+               <w><orig>sol</orig><reg>sol</reg></w><c type="space"/>
+               <w><orig>mein</orig><reg>mîn</reg></w><c type="space"/>
+               <w><orig>hertze</orig><reg>herze</reg></w><c type="space"/>
+               <w><orig>und</orig><reg>und</reg></w><c type="space"/>
+               <w><orig>mein</orig><reg>mîn</reg></w><c type="space"/>
                <w><orig>leip</orig><reg>lîp</reg></w>
             </l>
             <l n="169" xml:id="v_177" corresp="s_173">
-               <w><orig>ivch</orig><reg>iuch</reg></w><space/>
-               <w><orig>ze</orig><reg>zuo</reg></w><space/>
-               <w><orig>dienste</orig><reg>dienste</reg></w><space/>
-               <w><orig>sein</orig><reg>sîn</reg></w><space/>
+               <w><orig>ivch</orig><reg>iuch</reg></w><c type="space"/>
+               <w><orig>ze</orig><reg>zuo</reg></w><c type="space"/>
+               <w><orig>dienste</orig><reg>dienste</reg></w><c type="space"/>
+               <w><orig>sein</orig><reg>sîn</reg></w><c type="space"/>
                <w><orig>berait</orig><reg>bereit</reg></w>
             </l>
             <l n="170" xml:id="v_178" corresp="s_174">
-               <w><orig>mit</orig><reg>mit</reg></w><space/>
-               <w><orig>willechlicher</orig><reg>willeclicher</reg></w><space/>
+               <w><orig>mit</orig><reg>mit</reg></w><c type="space"/>
+               <w><orig>willechlicher</orig><reg>willeclicher</reg></w><c type="space"/>
                <w><orig>arbait</orig><reg>arbeit</reg></w>
             </l>
             <l n="171" xml:id="v_179" corresp="s_175">
-               <w><orig>untz</orig><reg>untz</reg></w><space/>
-               <w><orig>auf</orig><reg>ûf</reg></w><space/>
-               <w><orig>meines</orig><reg>mînes</reg></w><space/>
-               <w><orig>todes</orig><reg>todes</reg></w><space/>
+               <w><orig>untz</orig><reg>untz</reg></w><c type="space"/>
+               <w><orig>auf</orig><reg>ûf</reg></w><c type="space"/>
+               <w><orig>meines</orig><reg>mînes</reg></w><c type="space"/>
+               <w><orig>todes</orig><reg>todes</reg></w><c type="space"/>
                <w><orig>zil</orig><reg>zil</reg></w><pc>.</pc>
             </l>
             <l n="172" xml:id="v_180" corresp="s_176">
-               <w><orig>ir</orig><reg>ir</reg></w><space/>
-               <w><orig>habt</orig><reg>habt</reg></w><space/>
-               <w><orig>so</orig><reg>sô</reg></w><space/>
-               <w><orig>hoher</orig><reg>hôher</reg></w><space/>
-               <w><orig>selden</orig><reg>saelden</reg></w><space/>
+               <w><orig>ir</orig><reg>ir</reg></w><c type="space"/>
+               <w><orig>habt</orig><reg>habt</reg></w><c type="space"/>
+               <w><orig>so</orig><reg>sô</reg></w><c type="space"/>
+               <w><orig>hoher</orig><reg>hôher</reg></w><c type="space"/>
+               <w><orig>selden</orig><reg>saelden</reg></w><c type="space"/>
                <w><orig>vil</orig><reg>vil</reg></w>
             </l>
             <l n="173" xml:id="v_181" corresp="s_177">
-               <w><orig>und</orig><reg>und</reg></w><space/>
-               <w><orig>als</orig><reg>als</reg></w><space/>
-               <w><orig>manicvalte</orig><reg>manecvalte</reg></w><space/>
+               <w><orig>und</orig><reg>und</reg></w><c type="space"/>
+               <w><orig>als</orig><reg>als</reg></w><c type="space"/>
+               <w><orig>manicvalte</orig><reg>manecvalte</reg></w><c type="space"/>
                <w><orig>tugent</orig><reg>tugent</reg></w><pc>,</pc>
             </l>
             <l n="174" xml:id="v_182" corresp="s_178">
-               <w><orig>daz</orig><reg>daz</reg></w><space/>
-               <w><orig>iuver</orig><reg>iuwer</reg></w><space/>
-               <w><orig>vreude</orig><reg>vröude</reg></w><space/>
-               <w><orig>bluendiu</orig><reg>blüende</reg></w><space/>
+               <w><orig>daz</orig><reg>daz</reg></w><c type="space"/>
+               <w><orig>iuver</orig><reg>iuwer</reg></w><c type="space"/>
+               <w><orig>vreude</orig><reg>vröude</reg></w><c type="space"/>
+               <w><orig>bluendiu</orig><reg>blüende</reg></w><c type="space"/>
                <w><orig>jugent</orig><reg>jugent</reg></w>
             </l>
             <l n="175" xml:id="v_183" corresp="s_179">
-               <w><orig>mir</orig><reg>mir</reg></w><space/>
-               <w><orig>vil</orig><reg>vil</reg></w><space/>
-               <w><orig>wol</orig><reg>wol</reg></w><space/>
-               <w><orig>gelonen</orig><reg>gelônen</reg></w><space/>
+               <w><orig>mir</orig><reg>mir</reg></w><c type="space"/>
+               <w><orig>vil</orig><reg>vil</reg></w><c type="space"/>
+               <w><orig>wol</orig><reg>wol</reg></w><c type="space"/>
+               <w><orig>gelonen</orig><reg>gelônen</reg></w><c type="space"/>
                <w><orig>mac</orig><reg>mac</reg></w><pc>.</pc>
             </l>
             <l n="176" xml:id="v_184" corresp="s_180">
-               <w><orig>ja</orig><reg>ja</reg></w><pc>,</pc><space/>
-               <w><orig>wol</orig><reg>wol</reg></w><space/>
-               <w><orig>mich</orig><reg>mich</reg></w><pc>,</pc><space/>
-               <w><orig>daz</orig><reg>daz</reg></w><space/>
-               <w><orig>ich</orig><reg>ich</reg></w><space/>
-               <w><orig>disen</orig><reg>disen</reg></w><space/>
+               <w><orig>ja</orig><reg>ja</reg></w><pc>,</pc><c type="space"/>
+               <w><orig>wol</orig><reg>wol</reg></w><c type="space"/>
+               <w><orig>mich</orig><reg>mich</reg></w><pc>,</pc><c type="space"/>
+               <w><orig>daz</orig><reg>daz</reg></w><c type="space"/>
+               <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
+               <w><orig>disen</orig><reg>disen</reg></w><c type="space"/>
                <w><orig>tac</orig><reg>tac</reg></w>
             </l>
             <l n="177" xml:id="v_185" corresp="s_181">
-               <w><orig>gelebt</orig><reg>gelebet</reg></w><space/>
-               <w><orig>han</orig><reg>hân</reg></w><pc>:</pc><space/>
-               <w><orig>des</orig><reg>des</reg></w><space/>
-               <w><orig>vreu</orig><reg>vreue</reg></w><space/>
-               <w><orig>ich</orig><reg>ich</reg></w><space/>
+               <w><orig>gelebt</orig><reg>gelebet</reg></w><c type="space"/>
+               <w><orig>han</orig><reg>hân</reg></w><pc>:</pc><c type="space"/>
+               <w><orig>des</orig><reg>des</reg></w><c type="space"/>
+               <w><orig>vreu</orig><reg>vreue</reg></w><c type="space"/>
+               <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
                <w><orig>mich</orig><reg>mich</reg></w><pc>.</pc>
             </l>
             <l n="178" xml:id="v_186" corresp="s_182">
-               <w><orig>seit</orig><reg>sît</reg></w><space/>
-               <w><orig>daz</orig><reg>daz</reg></w><space/>
-               <w><orig>ir</orig><reg>ir</reg></w><pc>,</pc><space/>
-               <w><orig>vrowe</orig><reg>vrouwe</reg></w><space/>
+               <w><orig>seit</orig><reg>sît</reg></w><c type="space"/>
+               <w><orig>daz</orig><reg>daz</reg></w><c type="space"/>
+               <w><orig>ir</orig><reg>ir</reg></w><pc>,</pc><c type="space"/>
+               <w><orig>vrowe</orig><reg>vrouwe</reg></w><c type="space"/>
                <w><orig>minnechlich</orig><reg>minneclich</reg></w><pc>,</pc>
             </l>
             <l n="179" xml:id="v_187" corresp="s_183">
-               <w><orig>meinen</orig><reg>mînen</reg></w><space/>
-               <w><orig>dienst</orig><reg>dienst</reg></w><space/>
-               <w><orig>enphahen</orig><reg>enphâhen</reg></w><space/>
+               <w><orig>meinen</orig><reg>mînen</reg></w><c type="space"/>
+               <w><orig>dienst</orig><reg>dienst</reg></w><c type="space"/>
+               <w><orig>enphahen</orig><reg>enphâhen</reg></w><c type="space"/>
                <w><orig>welt</orig><reg>werlt</reg></w><pc>,</pc>
             </l>
             <l n="180" xml:id="v_188" corresp="s_184">
-               <w><orig>vrowe</orig><reg>vrouwe</reg></w><space/>
-               <w><orig>an</orig><reg>an</reg></w><space/>
-               <w><orig>tvgenden</orig><reg>tugenden</reg></w><space/>
+               <w><orig>vrowe</orig><reg>vrouwe</reg></w><c type="space"/>
+               <w><orig>an</orig><reg>an</reg></w><c type="space"/>
+               <w><orig>tvgenden</orig><reg>tugenden</reg></w><c type="space"/>
                <w><orig>auzgezelt</orig><reg>ûzgezelt</reg></w><pc>,</pc>
             </l>
             <l n="181" xml:id="v_189" corresp="s_185">
-               <w><orig>geruochet</orig><reg>gerouchet</reg></w><space/>
-               <w><orig>chunden</orig><reg>kunden</reg></w><space/>
-               <w><orig>mir</orig><reg>mir</reg></w><space/>
-               <w><orig>ain</orig><reg>ein</reg></w><space/>
+               <w><orig>geruochet</orig><reg>gerouchet</reg></w><c type="space"/>
+               <w><orig>chunden</orig><reg>kunden</reg></w><c type="space"/>
+               <w><orig>mir</orig><reg>mir</reg></w><c type="space"/>
+               <w><orig>ain</orig><reg>ein</reg></w><c type="space"/>
                <w><orig>tail</orig><reg>teil</reg></w>
             </l>
             <l n="182" xml:id="v_190" corresp="s_186">
-               <w><orig>durch</orig><reg>durch</reg></w><space/>
-               <w><orig>daz</orig><reg>daz</reg></w><space/>
-               <w><orig>wunne bernde</orig><reg>wunnenbernde</reg></w><space/>
+               <w><orig>durch</orig><reg>durch</reg></w><c type="space"/>
+               <w><orig>daz</orig><reg>daz</reg></w><c type="space"/>
+               <w><orig>wunne bernde</orig><reg>wunnenbernde</reg></w><c type="space"/>
                <w><orig>hail</orig><reg>heil</reg></w><pc>,</pc>
             </l>
             <l n="183" xml:id="v_191" corresp="s_187">
-               <w><orig>daz</orig><reg>daz</reg></w><space/>
-               <w><orig>an</orig><reg>an</reg></w><space/>
-               <w><orig>iv</orig><reg>iuch</reg></w><space/>
-               <w><orig>schoniv</orig><reg>schoene</reg></w><space/>
-               <w><orig>vrawe</orig><reg>vrouwe</reg></w><space/>
+               <w><orig>daz</orig><reg>daz</reg></w><c type="space"/>
+               <w><orig>an</orig><reg>an</reg></w><c type="space"/>
+               <w><orig>iv</orig><reg>iuch</reg></w><c type="space"/>
+               <w><orig>schoniv</orig><reg>schoene</reg></w><c type="space"/>
+               <w><orig>vrawe</orig><reg>vrouwe</reg></w><c type="space"/>
                <w><orig>leit</orig><reg>lît</reg></w><pc>:</pc>
             </l>
             <l n="184" xml:id="v_192" corresp="s_188">
-               <w><orig>von</orig><reg>von</reg></w><space/>
-               <w><orig>wannen</orig><reg>wannen</reg></w><space/>
-               <w><orig>ir</orig><reg>ir</reg></w><space/>
-               <w><orig>gehaizen</orig><reg>geheizen</reg></w><space/>
+               <w><orig>von</orig><reg>von</reg></w><c type="space"/>
+               <w><orig>wannen</orig><reg>wannen</reg></w><c type="space"/>
+               <w><orig>ir</orig><reg>ir</reg></w><c type="space"/>
+               <w><orig>gehaizen</orig><reg>geheizen</reg></w><c type="space"/>
                <w><orig>seit</orig><reg>sît</reg></w>
             </l>
             <l n="185" xml:id="v_193" corresp="s_189">
-               <w><orig>oder</orig><reg>oder</reg></w><space/>
-               <w><orig>von</orig><reg>von</reg></w><space/>
-               <w><orig>wanne</orig><reg>wannen</reg></w><space/>
-               <w><orig>ir</orig><reg>ir</reg></w><space/>
-               <w><orig>seit</orig><reg>sît</reg></w><space/>
+               <w><orig>oder</orig><reg>oder</reg></w><c type="space"/>
+               <w><orig>von</orig><reg>von</reg></w><c type="space"/>
+               <w><orig>wanne</orig><reg>wannen</reg></w><c type="space"/>
+               <w><orig>ir</orig><reg>ir</reg></w><c type="space"/>
+               <w><orig>seit</orig><reg>sît</reg></w><c type="space"/>
                <w><orig>genant</orig><reg>genant</reg></w><pc>;</pc>
             </l>
             <l n="186" xml:id="v_194" corresp="s_190">
-               <w><orig>iuver</orig><reg>iuwer</reg></w><space/>
-               <w><orig>name</orig><reg>name</reg></w><space/>
-               <w><orig>und</orig><reg>und</reg></w><space/>
-               <w><orig>iuver</orig><reg>iuwer</reg></w><space/>
+               <w><orig>iuver</orig><reg>iuwer</reg></w><c type="space"/>
+               <w><orig>name</orig><reg>name</reg></w><c type="space"/>
+               <w><orig>und</orig><reg>und</reg></w><c type="space"/>
+               <w><orig>iuver</orig><reg>iuwer</reg></w><c type="space"/>
                <w><orig>lant</orig><reg>lant</reg></w><pc>,</pc>
             </l>
             <l n="187" xml:id="v_195" corresp="s_191">
-               <w><orig>daz</orig><reg>daz</reg></w><space/>
-               <w><orig>werde</orig><reg>werde</reg></w><space/>
-               <w><orig>mir</orig><reg>mir</reg></w><space/>
-               <w><orig>hie</orig><reg>hier</reg></w><space/>
-               <w><orig>chvnt</orig><reg>kunt</reg></w><space/>
+               <w><orig>daz</orig><reg>daz</reg></w><c type="space"/>
+               <w><orig>werde</orig><reg>werde</reg></w><c type="space"/>
+               <w><orig>mir</orig><reg>mir</reg></w><c type="space"/>
+               <w><orig>hie</orig><reg>hier</reg></w><c type="space"/>
+               <w><orig>chvnt</orig><reg>kunt</reg></w><c type="space"/>
                <w><orig>getan</orig><reg>getan</reg></w><pc>,</pc>
             </l>
             <l n="188" xml:id="v_196" corresp="s_192">
-               <w><orig>durch</orig><reg>durch</reg></w><space/>
-               <w><orig>daz</orig><reg>daz</reg></w><space/>
-               <w><orig>ich</orig><reg>ich</reg></w><space/>
-               <w><orig>wizze</orig><reg>wizze</reg></w><space/>
-               <w><orig>sunder</orig><reg>sunder</reg></w><space/>
+               <w><orig>durch</orig><reg>durch</reg></w><c type="space"/>
+               <w><orig>daz</orig><reg>daz</reg></w><c type="space"/>
+               <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
+               <w><orig>wizze</orig><reg>wizze</reg></w><c type="space"/>
+               <w><orig>sunder</orig><reg>sunder</reg></w><c type="space"/>
                <w><orig>wan</orig><reg>wân</reg></w><pc>,</pc>
             </l>
             <l n="189" xml:id="v_197" corresp="s_193">
-               <w><orig>Ob</orig><reg>ob</reg></w><space/>
-               <w><orig>ich</orig><reg>ich</reg></w><space/>
-               <w><orig>in</orig><reg>in</reg></w><space/>
-               <w><orig>allen</orig><reg>allen</reg></w><space/>
-               <w><orig>meinen</orig><reg>mînen</reg></w><space/>
+               <w><orig>Ob</orig><reg>ob</reg></w><c type="space"/>
+               <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
+               <w><orig>in</orig><reg>in</reg></w><c type="space"/>
+               <w><orig>allen</orig><reg>allen</reg></w><c type="space"/>
+               <w><orig>meinen</orig><reg>mînen</reg></w><c type="space"/>
                <w><orig>tagen</orig><reg>tagen</reg></w><pc>,</pc>
             </l>
             <l n="190" xml:id="v_198" corresp="s_194">
-               <w><orig>ie</orig><reg>ie</reg></w><space/>
-               <w><orig>von</orig><reg>von</reg></w><space/>
-               <w><orig>iv</orig><reg>iuch</reg></w><space/>
-               <w><orig>gehorte</orig><reg>gehôrte</reg></w><space/>
+               <w><orig>ie</orig><reg>ie</reg></w><c type="space"/>
+               <w><orig>von</orig><reg>von</reg></w><c type="space"/>
+               <w><orig>iv</orig><reg>iuch</reg></w><c type="space"/>
+               <w><orig>gehorte</orig><reg>gehôrte</reg></w><c type="space"/>
                <w><orig>sagen</orig><reg>sagen</reg></w><pc>.</pc><pc>”</pc>
             </l>
             <l n="191" xml:id="v_199" corresp="s_195">
-               <w><orig>des</orig><reg>des</reg></w><space/>
-               <w><orig>antwurt</orig><reg>antworte</reg></w><space/>
-               <w><orig>im</orig><reg>im</reg></w><space/>
-               <w><orig>diu</orig><reg>diu</reg></w><space/>
-               <w><orig>schoniu</orig><reg>schone</reg></w><space/>
+               <w><orig>des</orig><reg>des</reg></w><c type="space"/>
+               <w><orig>antwurt</orig><reg>antworte</reg></w><c type="space"/>
+               <w><orig>im</orig><reg>im</reg></w><c type="space"/>
+               <w><orig>diu</orig><reg>diu</reg></w><c type="space"/>
+               <w><orig>schoniu</orig><reg>schone</reg></w><c type="space"/>
                <w><orig>do</orig><reg>dô</reg></w><pc>,</pc>
             </l>
             <l n="192" xml:id="v_200" corresp="s_196">
-               <w><orig>si</orig><reg>sie</reg></w><space/>
-               <w><orig>sprach</orig><reg>sprach</reg></w><space/>
-               <w><orig>gezogenlich</orig><reg>gezogenlich</reg></w><space/>
+               <w><orig>si</orig><reg>sie</reg></w><c type="space"/>
+               <w><orig>sprach</orig><reg>sprach</reg></w><c type="space"/>
+               <w><orig>gezogenlich</orig><reg>gezogenlich</reg></w><c type="space"/>
                <w><orig>also</orig><reg>alsô</reg></w><pc>:</pc>
             </l>
             <l n="193" xml:id="v_201" corresp="s_197">
-               “<w><orig>vil</orig><reg>vil</reg></w><space/>
-               <w><orig>lieber</orig><reg>lieber</reg></w><space/>
-               <w><orig>frivnt</orig><reg>vriunt</reg></w><pc>,</pc><space/>
-               <w><orig>daz</orig><reg>daz</reg></w><space/>
-               <w><orig>sol</orig><reg>sol</reg></w><space/>
+               “<w><orig>vil</orig><reg>vil</reg></w><c type="space"/>
+               <w><orig>lieber</orig><reg>lieber</reg></w><c type="space"/>
+               <w><orig>frivnt</orig><reg>vriunt</reg></w><pc>,</pc><c type="space"/>
+               <w><orig>daz</orig><reg>daz</reg></w><c type="space"/>
+               <w><orig>sol</orig><reg>sol</reg></w><c type="space"/>
                <w><orig>geschehn</orig><reg>geschehen</reg></w><pc>.</pc>
             </l>
             <l n="194" xml:id="v_202" corresp="s_198">
-               <w><orig>ich</orig><reg>ich</reg></w><space/>
-               <w><orig>wil</orig><reg>wil</reg></w><space/>
-               <w><orig>dir</orig><reg>dir</reg></w><space/>
-               <w><orig>gern</orig><reg>gern</reg></w><space/>
-               <w><orig>alhie</orig><reg>alhier</reg></w><space/>
+               <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
+               <w><orig>wil</orig><reg>wil</reg></w><c type="space"/>
+               <w><orig>dir</orig><reg>dir</reg></w><c type="space"/>
+               <w><orig>gern</orig><reg>gern</reg></w><c type="space"/>
+               <w><orig>alhie</orig><reg>alhier</reg></w><c type="space"/>
                <w><orig>veriehn</orig><reg>verjehen</reg></w>
             </l>
             <l n="195" xml:id="v_203" corresp="s_199">
-               <w><orig>meins</orig><reg>mînes</reg></w><space/>
-               <w><orig>hochgelopten</orig><reg>hôchgelopten</reg></w><space/>
+               <w><orig>meins</orig><reg>mînes</reg></w><c type="space"/>
+               <w><orig>hochgelopten</orig><reg>hôchgelopten</reg></w><c type="space"/>
                <w><orig>namen</orig><reg>namen</reg></w><pc>.</pc>
             </l>
             <l n="196" xml:id="v_204" corresp="s_200">
-               <w><orig>dv</orig><reg>du</reg></w><space/>
-               <w><orig>endarft</orig><reg>endarft</reg></w><space/>
-               <w><orig>dich</orig><reg>dich</reg></w><space/>
-               <w><orig>nimmer</orig><reg>nimmer</reg></w><space/>
-               <w><orig>des</orig><reg>dez</reg></w><space/>
+               <w><orig>dv</orig><reg>du</reg></w><c type="space"/>
+               <w><orig>endarft</orig><reg>endarft</reg></w><c type="space"/>
+               <w><orig>dich</orig><reg>dich</reg></w><c type="space"/>
+               <w><orig>nimmer</orig><reg>nimmer</reg></w><c type="space"/>
+               <w><orig>des</orig><reg>dez</reg></w><c type="space"/>
                <w><orig>geschamen</orig><reg>geschamen</reg></w><pc>,</pc>
             </l>
             <l n="197" xml:id="v_205" corresp="s_201">
-               <w><orig>ob</orig><reg>ob</reg></w><space/>
-               <w><orig>du</orig><reg>du</reg></w><space/>
-               <w><orig>mir</orig><reg>mir</reg></w><space/>
-               <w><orig>undertænic</orig><reg>undertaenic</reg></w><space/>
+               <w><orig>ob</orig><reg>ob</reg></w><c type="space"/>
+               <w><orig>du</orig><reg>du</reg></w><c type="space"/>
+               <w><orig>mir</orig><reg>mir</reg></w><c type="space"/>
+               <w><orig>undertænic</orig><reg>undertaenic</reg></w><c type="space"/>
                <w><orig>bist</orig><reg>bist</reg></w><pc>.</pc>
             </l>
             <l n="198" xml:id="v_206" corresp="s_202">
-               <w><orig>mir</orig><reg>mir</reg></w><space/>
-               <w><orig>dienet</orig><reg>dienet</reg></w><space/>
-               <w><orig>swaz</orig><reg>swaz</reg></w><space/>
-               <w><orig>auf</orig><reg>ûf</reg></w><space/>
-               <w><orig>erde</orig><reg>erde</reg></w><space/>
+               <w><orig>mir</orig><reg>mir</reg></w><c type="space"/>
+               <w><orig>dienet</orig><reg>dienet</reg></w><c type="space"/>
+               <w><orig>swaz</orig><reg>swaz</reg></w><c type="space"/>
+               <w><orig>auf</orig><reg>ûf</reg></w><c type="space"/>
+               <w><orig>erde</orig><reg>erde</reg></w><c type="space"/>
                <w><orig>ist</orig><reg>ist</reg></w>
             </l>
             <l n="199" xml:id="v_207" corresp="s_203">
-               <w><orig>hordes</orig><reg>hordes</reg></w><space/>
-               <w><orig>und</orig><reg>und</reg></w><space/>
+               <w><orig>hordes</orig><reg>hordes</reg></w><c type="space"/>
+               <w><orig>und</orig><reg>und</reg></w><c type="space"/>
                <w><orig>guoetes</orig><reg>guotes</reg></w><pc>.</pc>
             </l>
             <l n="200" xml:id="v_208" corresp="s_204">
-               <w><orig>ich</orig><reg>ich</reg></w><space/>
-               <w><orig>bin</orig><reg>bin</reg></w><space/>
-               <w><orig>so</orig><reg>sô</reg></w><space/>
-               <w><orig>hohes</orig><reg>hôhes</reg></w><space/>
+               <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
+               <w><orig>bin</orig><reg>bin</reg></w><c type="space"/>
+               <w><orig>so</orig><reg>sô</reg></w><c type="space"/>
+               <w><orig>hohes</orig><reg>hôhes</reg></w><c type="space"/>
                <w><orig>muoetes</orig><reg>muotes</reg></w><pc>,</pc>
             </l>
             <l n="201" xml:id="v_209" corresp="s_205">
-               <w><orig>daz</orig><reg>daz</reg></w><space/>
-               <w><orig>chaiser</orig><reg>keiser</reg></w><space/>
-               <w><orig>und</orig><reg>und</reg></w><space/>
-               <w><orig>chuniges</orig><reg>küniges</reg></w><space/>
+               <w><orig>daz</orig><reg>daz</reg></w><c type="space"/>
+               <w><orig>chaiser</orig><reg>keiser</reg></w><c type="space"/>
+               <w><orig>und</orig><reg>und</reg></w><c type="space"/>
+               <w><orig>chuniges</orig><reg>küniges</reg></w><c type="space"/>
                <w><orig>chint</orig><reg>kint</reg></w><pc>,</pc>
             </l>
             <l n="202" xml:id="v_210" corresp="s_206">
-               <w><orig>alle</orig><reg>alle</reg></w><space/>
-               <w><orig>under</orig><reg>under</reg></w><space/>
-               <w><orig>meiner</orig><reg>mîner</reg></w><space/>
-               <w><orig>chrone</orig><reg>krone</reg></w><space/>
+               <w><orig>alle</orig><reg>alle</reg></w><c type="space"/>
+               <w><orig>under</orig><reg>under</reg></w><c type="space"/>
+               <w><orig>meiner</orig><reg>mîner</reg></w><c type="space"/>
+               <w><orig>chrone</orig><reg>krone</reg></w><c type="space"/>
                <w><orig>sint</orig><reg>sint</reg></w><pc>;</pc>
             </l>
             <l n="203" xml:id="v_211" corresp="s_207">
-               <w><orig>graven</orig><reg>graven</reg></w><space/>
-               <w><orig>vreien</orig><reg>vrîen</reg></w><space/>
-               <w><orig>und</orig><reg>und</reg></w><space/>
+               <w><orig>graven</orig><reg>graven</reg></w><c type="space"/>
+               <w><orig>vreien</orig><reg>vrîen</reg></w><c type="space"/>
+               <w><orig>und</orig><reg>und</reg></w><c type="space"/>
                <w><orig>hertzogen</orig><reg>herzogen</reg></w><pc>,</pc>
             </l>
             <l n="204" xml:id="v_212" corresp="s_208">
-               <w><orig>die</orig><reg>die</reg></w><space/>
-               <w><orig>habent</orig><reg>habent</reg></w><space/>
-               <w><orig>mir</orig><reg>mir</reg></w><space/>
-               <w><orig>ir</orig><reg>ir</reg></w><space/>
-               <w><orig>knie</orig><reg>knie</reg></w><space/>
-               <w><orig>gebogen</orig><reg>gebogen</reg></w><space/>
+               <w><orig>die</orig><reg>die</reg></w><c type="space"/>
+               <w><orig>habent</orig><reg>habent</reg></w><c type="space"/>
+               <w><orig>mir</orig><reg>mir</reg></w><c type="space"/>
+               <w><orig>ir</orig><reg>ir</reg></w><c type="space"/>
+               <w><orig>knie</orig><reg>knie</reg></w><c type="space"/>
+               <w><orig>gebogen</orig><reg>gebogen</reg></w><c type="space"/>
             </l>
             <l n="205" xml:id="v_213" corresp="s_209">
-               <w><orig>und</orig><reg>und</reg></w><space/>
-               <w><orig>laistent</orig><reg>leistent</reg></w><space/>
-               <w><orig>alle</orig><reg>alle</reg></w><space/>
-               <w><orig>mein</orig><reg>mîn</reg></w><space/>
+               <w><orig>und</orig><reg>und</reg></w><c type="space"/>
+               <w><orig>laistent</orig><reg>leistent</reg></w><c type="space"/>
+               <w><orig>alle</orig><reg>alle</reg></w><c type="space"/>
+               <w><orig>mein</orig><reg>mîn</reg></w><c type="space"/>
                <w><orig>gebot</orig><reg>gebot</reg></w><pc>.</pc>
             </l>
             <l n="206" xml:id="v_214" corresp="s_210">
-               <w><orig>ich</orig><reg>ich</reg></w><space/>
-               <app><lem wit="#C #D #K #P #S #W"><w><orig>furchte</orig><reg>vürhte</reg></w></lem><rdg wit="#G #M"><w><orig>enfurchte</orig><reg>envürhte</reg></w></rdg></app><space/>
-               <w><orig>nieman</orig><reg>nieman</reg></w><space/>
-               <w><orig>wan</orig><reg>wan</reg></w><space/>
+               <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
+               <app><lem wit="#C #D #K #P #S #W"><w><orig>furchte</orig><reg>vürhte</reg></w></lem><rdg wit="#G #M"><w><orig>enfurchte</orig><reg>envürhte</reg></w></rdg></app><c type="space"/>
+               <w><orig>nieman</orig><reg>nieman</reg></w><c type="space"/>
+               <w><orig>wan</orig><reg>wan</reg></w><c type="space"/>
                <w><orig>got</orig><reg>got</reg></w><pc>;</pc>
             </l>
             <l n="207" xml:id="v_215" corresp="s_211">
-               <w><orig>der</orig><reg>der</reg></w><space/>
-               <w><orig>ist</orig><reg>ist</reg></w><space/>
-               <w><orig>gewaltic</orig><reg>gewaltic</reg></w><space/>
-               <w><orig>uber</orig><reg>über</reg></w><space/>
+               <w><orig>der</orig><reg>der</reg></w><c type="space"/>
+               <w><orig>ist</orig><reg>ist</reg></w><c type="space"/>
+               <w><orig>gewaltic</orig><reg>gewaltic</reg></w><c type="space"/>
+               <w><orig>uber</orig><reg>über</reg></w><c type="space"/>
                <w><orig>mich</orig><reg>mich</reg></w><pc>.</pc>
             </l>
             <l n="208" xml:id="v_216" corresp="s_212">
-               <w><orig>diu</orig><reg>diu</reg></w><space/>
-               <w><orig>werlt</orig><reg>werlt</reg></w><space/>
-               <w><orig>bin</orig><reg>bin</reg></w><space/>
-               <w><orig>gehaizen</orig><reg>geheizen</reg></w><space/>
+               <w><orig>diu</orig><reg>diu</reg></w><c type="space"/>
+               <w><orig>werlt</orig><reg>werlt</reg></w><c type="space"/>
+               <w><orig>bin</orig><reg>bin</reg></w><c type="space"/>
+               <w><orig>gehaizen</orig><reg>geheizen</reg></w><c type="space"/>
                <w><orig>ich</orig><reg>ich</reg></w><pc>,</pc>
             </l>
             <l n="209" xml:id="v_217" corresp="s_213">
-               <w><orig>der</orig><reg>der</reg></w><space/>
-               <w><orig>du</orig><reg>du</reg></w><space/>
-               <w><orig>nu</orig><reg>nun</reg></w><space/>
-               <w><orig>lange</orig><reg>lange</reg></w><space/>
-               <w><orig>hast</orig><reg>hast</reg></w><space/>
+               <w><orig>der</orig><reg>der</reg></w><c type="space"/>
+               <w><orig>du</orig><reg>du</reg></w><c type="space"/>
+               <w><orig>nu</orig><reg>nun</reg></w><c type="space"/>
+               <w><orig>lange</orig><reg>lange</reg></w><c type="space"/>
+               <w><orig>hast</orig><reg>hast</reg></w><c type="space"/>
                <w><orig>gegert</orig><reg>gegert</reg></w><pc>.</pc>
             </l>
             <l n="210" xml:id="v_218" corresp="s_214">
-               <w><orig>lones</orig><reg>lônes</reg></w><space/>
-               <w><orig>solt</orig><reg>solt</reg></w><space/>
-               <w><orig>du</orig><reg>du</reg></w><space/>
-               <w><orig>sein</orig><reg>sîn</reg></w><space/>
+               <w><orig>lones</orig><reg>lônes</reg></w><c type="space"/>
+               <w><orig>solt</orig><reg>solt</reg></w><c type="space"/>
+               <w><orig>du</orig><reg>du</reg></w><c type="space"/>
+               <w><orig>sein</orig><reg>sîn</reg></w><c type="space"/>
                <w><orig>gewert</orig><reg>gewert</reg></w>
             </l>
             <l n="211" xml:id="v_219" corresp="s_215">
-               <w><orig>an</orig><reg>an</reg></w><space/>
-               <w><orig>mir</orig><reg>mir</reg></w><pc>,</pc><space/>
-               <w><orig>als</orig><reg>als</reg></w><space/>
-               <w><orig>ich</orig><reg>ich</reg></w><space/>
-               <w><orig>dir</orig><reg>dir</reg></w><space/>
-               <w><orig>zaige</orig><reg>zeige</reg></w><space/>
+               <w><orig>an</orig><reg>an</reg></w><c type="space"/>
+               <w><orig>mir</orig><reg>mir</reg></w><pc>,</pc><c type="space"/>
+               <w><orig>als</orig><reg>als</reg></w><c type="space"/>
+               <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
+               <w><orig>dir</orig><reg>dir</reg></w><c type="space"/>
+               <w><orig>zaige</orig><reg>zeige</reg></w><c type="space"/>
                <w><orig>nu</orig><reg>nun</reg></w><pc>;</pc>
             </l>
             <l n="212" xml:id="v_220" corresp="s_216">
-              <app><lem wit="#G #K #P #W"></lem><rdg wit="#B #M"> <w><orig>nu</orig><reg>nun</reg></w></rdg></app><space/>
-               <w><orig>chvmt</orig><reg>kumt</reg></w><space/>
-               <w><orig>ez</orig><reg>ez</reg></w><space/>
-               <w><orig>dir</orig><reg>dir</reg></w><pc>,</pc><space/>
-               <w><orig>nv</orig><reg>nun</reg></w><space/>
-               <w><orig>schowe</orig><reg>schouwe</reg></w><space/>
+              <app><lem wit="#G #K #P #W"></lem><rdg wit="#B #M"> <w><orig>nu</orig><reg>nun</reg></w></rdg></app><c type="space"/>
+               <w><orig>chvmt</orig><reg>kumt</reg></w><c type="space"/>
+               <w><orig>ez</orig><reg>ez</reg></w><c type="space"/>
+               <w><orig>dir</orig><reg>dir</reg></w><pc>,</pc><c type="space"/>
+               <w><orig>nv</orig><reg>nun</reg></w><c type="space"/>
+               <w><orig>schowe</orig><reg>schouwe</reg></w><c type="space"/>
                <w><orig>du</orig><reg>du</reg></w><pc>.</pc>
                <note type="editor"><seg type="lang" xml:lang="es">El nu en comienzo de oración en M probablemente sea una confusión por el de más adelante en la oración y el del final de la oración anterior.</seg></note>
             </l>
             <l n="213" xml:id="v_221" corresp="s_217">
-               <w><orig>sus</orig><reg>sust</reg></w><space/>
-               <w><orig>chert</orig><reg>kert</reg></w><space/>
-               <w><orig>si</orig><reg>sie</reg></w><space/>
-               <w><orig>im</orig><reg>im</reg></w><space/>
-               <w><orig>den</orig><reg>den</reg></w><space/>
-               <w><orig>ruggen</orig><reg>rucken</reg></w><space/>
+               <w><orig>sus</orig><reg>sust</reg></w><c type="space"/>
+               <w><orig>chert</orig><reg>kert</reg></w><c type="space"/>
+               <w><orig>si</orig><reg>sie</reg></w><c type="space"/>
+               <w><orig>im</orig><reg>im</reg></w><c type="space"/>
+               <w><orig>den</orig><reg>den</reg></w><c type="space"/>
+               <w><orig>ruggen</orig><reg>rucken</reg></w><c type="space"/>
                <w><orig>dar</orig><reg>dar</reg></w><pc>;</pc>
             </l>
             <l n="214" xml:id="v_222" corresp="s_218">
-               <w><orig>der</orig><reg>der</reg></w><space/>
-               <w><orig>was</orig><reg>waz</reg></w><space/>
-               <w><orig>in</orig><reg>in</reg></w><space/>
-               <w><orig>allen</orig><reg>allen</reg></w><space/>
-               <w><orig>enden</orig><reg>enden</reg></w><space/>
+               <w><orig>der</orig><reg>der</reg></w><c type="space"/>
+               <w><orig>was</orig><reg>waz</reg></w><c type="space"/>
+               <w><orig>in</orig><reg>in</reg></w><c type="space"/>
+               <w><orig>allen</orig><reg>allen</reg></w><c type="space"/>
+               <w><orig>enden</orig><reg>enden</reg></w><c type="space"/>
                <w><orig>gar</orig><reg>gar</reg></w>
             </l>
             <l n="215" xml:id="v_223" corresp="s_219">
-               <w><orig>bestecket</orig><reg>bestecket</reg></w><space/>
-               <w><orig>und</orig><reg>und</reg></w><space/>
+               <w><orig>bestecket</orig><reg>bestecket</reg></w><c type="space"/>
+               <w><orig>und</orig><reg>und</reg></w><c type="space"/>
                <w><orig>behangen</orig><reg>behangen</reg></w>
             </l>
             <l n="216" xml:id="v_224" corresp="s_220">
-               <w><orig>mit</orig><reg>mit</reg></w><space/>
-               <w><orig>ungefuegen</orig><reg>ungevüegen</reg></w><space/>
+               <w><orig>mit</orig><reg>mit</reg></w><c type="space"/>
+               <w><orig>ungefuegen</orig><reg>ungevüegen</reg></w><c type="space"/>
                <w><orig>slangen</orig><reg>slangen</reg></w><pc>,</pc>
             </l>
             <l n="217" xml:id="v_225" corresp="s_221">
-               <w><orig>Krotten</orig><reg>krotten</reg></w><space/>
-               <w><orig>unde</orig><reg>unde</reg></w><space/>
+               <w><orig>Krotten</orig><reg>krotten</reg></w><c type="space"/>
+               <w><orig>unde</orig><reg>unde</reg></w><c type="space"/>
                <w><orig>natern</orig><reg>natern</reg></w><pc>.</pc>
             </l>
             <l n="218" xml:id="v_226" corresp="s_222">
-               <w><orig>ir</orig><reg>ir</reg></w><space/>
-               <w><orig>leip</orig><reg>lîp</reg></w><space/>
-               <w><orig>was</orig><reg>waz</reg></w><space/>
-               <w><orig>voller</orig><reg>voller</reg></w><space/>
+               <w><orig>ir</orig><reg>ir</reg></w><c type="space"/>
+               <w><orig>leip</orig><reg>lîp</reg></w><c type="space"/>
+               <w><orig>was</orig><reg>waz</reg></w><c type="space"/>
+               <w><orig>voller</orig><reg>voller</reg></w><c type="space"/>
                <w><orig>blatern</orig><reg>blattern</reg></w>
             </l>
             <l n="219" xml:id="v_227" corresp="s_223">
-               <w><orig>und</orig><reg>und</reg></w><space/>
-               <w><orig>ungefueger</orig><reg>ungevüeger</reg></w><space/>
+               <w><orig>und</orig><reg>und</reg></w><c type="space"/>
+               <w><orig>ungefueger</orig><reg>ungevüeger</reg></w><c type="space"/>
                <w><orig>aizen</orig><reg>eizen</reg></w><pc>;</pc>
             </l>
             <l n="220" xml:id="v_228" corresp="s_224">
-               <w><orig>vliegen</orig><reg>vliegen</reg></w><space/>
-               <w><orig>und</orig><reg>und</reg></w><space/>
+               <w><orig>vliegen</orig><reg>vliegen</reg></w><c type="space"/>
+               <w><orig>und</orig><reg>und</reg></w><c type="space"/>
                <w><orig>amaizen</orig><reg>âmeizen</reg></w>
             </l>
             <l n="221" xml:id="v_229" corresp="s_225">
-               <w><orig>ain</orig><reg>ein</reg></w><space/>
-               <w><orig>wunder</orig><reg>wunder</reg></w><space/>
-               <w><orig>drinne</orig><reg>darin</reg></w><space/>
+               <w><orig>ain</orig><reg>ein</reg></w><c type="space"/>
+               <w><orig>wunder</orig><reg>wunder</reg></w><c type="space"/>
+               <w><orig>drinne</orig><reg>darin</reg></w><c type="space"/>
                <w><orig>sazen</orig><reg>sâzen</reg></w><pc>.</pc>
             </l>
             <l n="222" xml:id="v_230" corresp="s_226">
-               <w><orig>ir</orig><reg>ir</reg></w><space/>
-               <w><orig>vlaisch</orig><reg>vleisch</reg></w><space/>
-               <w><orig>die</orig><reg>die</reg></w><space/>
-               <w><orig>maden</orig><reg>maden</reg></w><space/>
+               <w><orig>ir</orig><reg>ir</reg></w><c type="space"/>
+               <w><orig>vlaisch</orig><reg>vleisch</reg></w><c type="space"/>
+               <w><orig>die</orig><reg>die</reg></w><c type="space"/>
+               <w><orig>maden</orig><reg>maden</reg></w><c type="space"/>
                <w><orig>azen</orig><reg>âzen</reg></w>
             </l>
             <l n="223" xml:id="v_231" corresp="s_227">
-               <w><orig>untz</orig><reg>untz</reg></w><space/>
-               <w><orig>auf</orig><reg>ûf</reg></w><space/>
-               <w><orig>daz</orig><reg>daz</reg></w><space/>
+               <w><orig>untz</orig><reg>untz</reg></w><c type="space"/>
+               <w><orig>auf</orig><reg>ûf</reg></w><c type="space"/>
+               <w><orig>daz</orig><reg>daz</reg></w><c type="space"/>
                <w><orig>gebaine</orig><reg>gebeine</reg></w><pc>.</pc>
             </l>
             <l n="224" xml:id="v_232" corresp="s_228">
-               <w><orig>si</orig><reg>sie</reg></w><space/>
-               <w><orig>was</orig><reg>waz</reg></w><space/>
-               <w><orig>so</orig><reg>sô</reg></w><space/>
-               <w><orig>gar</orig><reg>gar</reg></w><space/>
+               <w><orig>si</orig><reg>sie</reg></w><c type="space"/>
+               <w><orig>was</orig><reg>waz</reg></w><c type="space"/>
+               <w><orig>so</orig><reg>sô</reg></w><c type="space"/>
+               <w><orig>gar</orig><reg>gar</reg></w><c type="space"/>
                <w><orig>unraine</orig><reg>unreine</reg></w><pc>,</pc>
             </l>
             <l n="225" xml:id="v_233" corresp="s_229">
-               <w><orig>daz</orig><reg>daz</reg></w><space/>
-               <w><orig>von</orig><reg>von</reg></w><space/>
-               <w><orig>ir</orig><reg>ir</reg></w><space/>
-               <w><orig>bloden</orig><reg>bloeden</reg></w><space/>
-               <w><orig>leibe</orig><reg>lîp</reg></w><space/>
+               <w><orig>daz</orig><reg>daz</reg></w><c type="space"/>
+               <w><orig>von</orig><reg>von</reg></w><c type="space"/>
+               <w><orig>ir</orig><reg>ir</reg></w><c type="space"/>
+               <w><orig>bloden</orig><reg>bloeden</reg></w><c type="space"/>
+               <w><orig>leibe</orig><reg>lîp</reg></w><c type="space"/>
                <w><orig>waz</orig><reg>waz</reg></w>
             </l>
             <l n="226" xml:id="v_234" corresp="s_230">
-               <w><orig>ain</orig><reg>ein</reg></w><space/>
-               <w><orig>so</orig><reg>sô</reg></w><space/>
-               <w><orig>aengestlicher</orig><reg>engestlicher</reg></w><space/>
+               <w><orig>ain</orig><reg>ein</reg></w><c type="space"/>
+               <w><orig>so</orig><reg>sô</reg></w><c type="space"/>
+               <w><orig>aengestlicher</orig><reg>engestlicher</reg></w><c type="space"/>
                <w><orig>smac</orig><reg>smac</reg></w><pc>,</pc>
             </l>
             <l n="227" xml:id="v_235" corresp="s_231">
-               <w><orig>den</orig><reg>den</reg></w><space/>
-               <w><orig>nieman</orig><reg>nieman</reg></w><space/>
-               <w><orig>chunde</orig><reg>kunde</reg></w><space/>
+               <w><orig>den</orig><reg>den</reg></w><c type="space"/>
+               <w><orig>nieman</orig><reg>nieman</reg></w><c type="space"/>
+               <w><orig>chunde</orig><reg>kunde</reg></w><c type="space"/>
                <w><orig>erleiden</orig><reg>erlîden</reg></w><pc>.</pc>
             </l>
             <l n="228" xml:id="v_236" corresp="s_232">
-               <w><orig>ir</orig><reg>ir</reg></w><space/>
-               <w><orig>reichez</orig><reg>rîchez</reg></w><space/>
-               <w><orig>chlait</orig><reg>kleit</reg></w><space/>
-               <w><orig>von</orig><reg>von</reg></w><space/>
+               <w><orig>ir</orig><reg>ir</reg></w><c type="space"/>
+               <w><orig>reichez</orig><reg>rîchez</reg></w><c type="space"/>
+               <w><orig>chlait</orig><reg>kleit</reg></w><c type="space"/>
+               <w><orig>von</orig><reg>von</reg></w><c type="space"/>
                <w><orig>seiden</orig><reg>sîden</reg></w>
                <note type="addition" n="5">C,D,G,K,P,W</note>
             </l>
@@ -1730,277 +1732,277 @@
             <l n="228" xml:id="v_239" corresp="s_235"/>
             <l n="228" xml:id="v_240" corresp="s_236"/>
             <l n="229" xml:id="v_241" corresp="s_237">
-               <w><orig>was</orig><reg>waz</reg></w><space/>
-               <w><orig>vil</orig><reg>vil</reg></w><space/>
-               <w><orig>jaemerlich</orig><reg>jâmerlich</reg></w><space/>
+               <w><orig>was</orig><reg>waz</reg></w><c type="space"/>
+               <w><orig>vil</orig><reg>vil</reg></w><c type="space"/>
+               <w><orig>jaemerlich</orig><reg>jâmerlich</reg></w><c type="space"/>
                <w><orig>gevar</orig><reg>gevar</reg></w><pc>,</pc>
             </l>
             <l n="230" xml:id="v_242" corresp="s_238">
-               <w><orig>blaich</orig><reg>bleich</reg></w><space/>
-               <w><orig>als</orig><reg>als</reg></w><space/>
-               <w><orig>ain</orig><reg>ein</reg></w><space/>
-               <w><orig>asche</orig><reg>asche</reg></w><space/>
+               <w><orig>blaich</orig><reg>bleich</reg></w><c type="space"/>
+               <w><orig>als</orig><reg>als</reg></w><c type="space"/>
+               <w><orig>ain</orig><reg>ein</reg></w><c type="space"/>
+               <w><orig>asche</orig><reg>asche</reg></w><c type="space"/>
                <w><orig>gar</orig><reg>gar</reg></w><pc>.</pc>
             </l>
             <l n="230" xml:id="v_243" corresp="s_238a"/>
             <l n="230" xml:id="v_244" corresp="s_238b"/>
             <l n="231" xml:id="v_245" corresp="s_239">
-               <w><orig>hie</orig><reg>hie</reg></w><space/>
-               <w><orig>mit</orig><reg>mit</reg></w><space/>
-               <w><orig>schiet</orig><reg>schiet</reg></w><space/>
-               <w><orig>si</orig><reg>sie</reg></w><space/>
+               <w><orig>hie</orig><reg>hie</reg></w><c type="space"/>
+               <w><orig>mit</orig><reg>mit</reg></w><c type="space"/>
+               <w><orig>schiet</orig><reg>schiet</reg></w><c type="space"/>
+               <w><orig>si</orig><reg>sie</reg></w><c type="space"/>
                <w><orig>dannen</orig><reg>dannen</reg></w><pc>,</pc>
             </l>
             <l n="232" xml:id="v_246" corresp="s_240">
-               <w><orig>daz</orig><reg>daz</reg></w><space/>
-               <w><orig>si</orig><reg>sie</reg></w><space/>
-               <w><orig>vor</orig><reg>vor</reg></w><space/>
-               <w><orig>mir</orig><reg>mir</reg></w><space/>
+               <w><orig>daz</orig><reg>daz</reg></w><c type="space"/>
+               <w><orig>si</orig><reg>sie</reg></w><c type="space"/>
+               <w><orig>vor</orig><reg>vor</reg></w><c type="space"/>
+               <w><orig>mir</orig><reg>mir</reg></w><c type="space"/>
                <w><orig>verbannen</orig><reg>verbannen</reg></w>
             </l>
             <l n="233" xml:id="v_247" corresp="s_241">
-               <w><orig>und</orig><reg>und</reg></w><space/>
-               <w><orig>al</orig><reg>all</reg></w><space/>
-               <w><orig>der</orig><reg>der</reg></w><space/>
-               <w><orig>christenhait</orig><reg>kristenheit</reg></w><space/>
+               <w><orig>und</orig><reg>und</reg></w><c type="space"/>
+               <w><orig>al</orig><reg>all</reg></w><c type="space"/>
+               <w><orig>der</orig><reg>der</reg></w><c type="space"/>
+               <w><orig>christenhait</orig><reg>kristenheit</reg></w><c type="space"/>
                <w><orig>sei</orig><reg>sei</reg></w><pc>.</pc>
             </l>
             <l n="234" xml:id="v_248" corresp="s_242">
-               <w><orig>der</orig><reg>der</reg></w><space/>
-               <w><orig>ritter</orig><reg>ritter</reg></w><space/>
-               <w><orig>edel</orig><reg>edel</reg></w><space/>
-               <w><orig>vnd</orig><reg>und</reg></w><space/>
+               <w><orig>der</orig><reg>der</reg></w><c type="space"/>
+               <w><orig>ritter</orig><reg>ritter</reg></w><c type="space"/>
+               <w><orig>edel</orig><reg>edel</reg></w><c type="space"/>
+               <w><orig>vnd</orig><reg>und</reg></w><c type="space"/>
                <w><orig>vrei</orig><reg>vrî</reg></w><pc>,</pc>
             </l>
             <l n="235" xml:id="v_249" corresp="s_243">
-               <w><orig>do</orig><reg>dô</reg></w><space/>
-               <w><orig>der</orig><reg>der</reg></w><space/>
-               <w><orig>ditz</orig><reg>dise</reg></w><space/>
-               <w><orig>wunder</orig><reg>wunder</reg></w><space/>
+               <w><orig>do</orig><reg>dô</reg></w><c type="space"/>
+               <w><orig>der</orig><reg>der</reg></w><c type="space"/>
+               <w><orig>ditz</orig><reg>dise</reg></w><c type="space"/>
+               <w><orig>wunder</orig><reg>wunder</reg></w><c type="space"/>
                <w><orig>anesach</orig><reg>ansach</reg></w><pc>,</pc>
             </l>
             <l n="236" xml:id="v_250" corresp="s_244">
-               <w><orig>zehant</orig><reg>zehant</reg></w><space/>
-               <w><orig>sein</orig><reg>sîn</reg></w><space/>
-               <w><orig>hertze</orig><reg>herze</reg></w><space/>
-               <w><orig>im</orig><reg>im</reg></w><space/>
-               <w><orig>des</orig><reg>des</reg></w><space/>
+               <w><orig>zehant</orig><reg>zehant</reg></w><c type="space"/>
+               <w><orig>sein</orig><reg>sîn</reg></w><c type="space"/>
+               <w><orig>hertze</orig><reg>herze</reg></w><c type="space"/>
+               <w><orig>im</orig><reg>im</reg></w><c type="space"/>
+               <w><orig>des</orig><reg>des</reg></w><c type="space"/>
                <w><orig>verjach</orig><reg>verjach</reg></w><pc>,</pc>
             </l>
             <l n="237" xml:id="v_251" corresp="s_245">
-               <w><orig>er</orig><reg>er</reg></w><space/>
-               <w><orig>wære</orig><reg>waere</reg></w><space/>
-               <w><orig>gar</orig><reg>gar</reg></w><space/>
+               <w><orig>er</orig><reg>er</reg></w><c type="space"/>
+               <w><orig>wære</orig><reg>waere</reg></w><c type="space"/>
+               <w><orig>gar</orig><reg>gar</reg></w><c type="space"/>
                <w><orig>verwazen</orig><reg>verwâzen</reg></w>
             </l>
             <l n="238" xml:id="v_252" corresp="s_246">
-               <w><orig>swer</orig><reg>swer</reg></w><space/>
-               <w><orig>sich</orig><reg>sich</reg></w><space/>
-               <w><orig>wolte</orig><reg>wolte</reg></w><space/>
+               <w><orig>swer</orig><reg>swer</reg></w><c type="space"/>
+               <w><orig>sich</orig><reg>sich</reg></w><c type="space"/>
+               <w><orig>wolte</orig><reg>wolte</reg></w><c type="space"/>
                <w><orig>lazen</orig><reg>lâzen</reg></w>
             </l>
             <l n="239" xml:id="v_253" corresp="s_247">
-               <w><orig>an</orig><reg>an</reg></w><space/>
-               <w><orig>ir</orig><reg>ir</reg></w><space/>
-               <w><orig>dienste</orig><reg>dienste</reg></w><space/>
+               <w><orig>an</orig><reg>an</reg></w><c type="space"/>
+               <w><orig>ir</orig><reg>ir</reg></w><c type="space"/>
+               <w><orig>dienste</orig><reg>dienste</reg></w><c type="space"/>
                <w><orig>vinden</orig><reg>vinden</reg></w><pc>.</pc>
             </l>
             <l n="240" xml:id="v_254" corresp="s_248">
-               <w><orig>von</orig><reg>von</reg></w><space/>
-               <w><orig>weiben</orig><reg>wîben</reg></w><space/>
-               <w><orig>und</orig><reg>und</reg></w><space/>
-               <w><orig>von</orig><reg>von</reg></w><space/>
+               <w><orig>von</orig><reg>von</reg></w><c type="space"/>
+               <w><orig>weiben</orig><reg>wîben</reg></w><c type="space"/>
+               <w><orig>und</orig><reg>und</reg></w><c type="space"/>
+               <w><orig>von</orig><reg>von</reg></w><c type="space"/>
                <w><orig>chinden</orig><reg>kinden</reg></w>
             </l>
             <l n="241" xml:id="v_255" corresp="s_249">
-               <w><orig>schiet</orig><reg>schiet</reg></w><space/>
-               <w><orig>er</orig><reg>er</reg></w><space/>
-               <w><orig>sich</orig><reg>sich</reg></w><space/>
-               <w><orig>alda</orig><reg>alda</reg></w><space/>
+               <w><orig>schiet</orig><reg>schiet</reg></w><c type="space"/>
+               <w><orig>er</orig><reg>er</reg></w><c type="space"/>
+               <w><orig>sich</orig><reg>sich</reg></w><c type="space"/>
+               <w><orig>alda</orig><reg>alda</reg></w><c type="space"/>
                <w><orig>zehant</orig><reg>zehant</reg></w><pc>.</pc>
             </l>
             <l n="242" xml:id="v_256" corresp="s_250">
-               <w><orig>er</orig><reg>er</reg></w><space/>
-               <w><orig>nam</orig><reg>nam</reg></w><space/>
-               <w><orig>daz</orig><reg>daz</reg></w><space/>
-               <w><orig>chriutz</orig><reg>kriuz</reg></w><space/>
-               <w><orig>an</orig><reg>an</reg></w><space/>
-               <w><orig>sein</orig><reg>sîn</reg></w><space/>
+               <w><orig>er</orig><reg>er</reg></w><c type="space"/>
+               <w><orig>nam</orig><reg>nam</reg></w><c type="space"/>
+               <w><orig>daz</orig><reg>daz</reg></w><c type="space"/>
+               <w><orig>chriutz</orig><reg>kriuz</reg></w><c type="space"/>
+               <w><orig>an</orig><reg>an</reg></w><c type="space"/>
+               <w><orig>sein</orig><reg>sîn</reg></w><c type="space"/>
                <w><orig>gewant</orig><reg>gewant</reg></w>
             </l>
             <l n="243" xml:id="v_257" corresp="s_251">
-               <w><orig>und</orig><reg>und</reg></w><space/>
-               <w><orig>huop</orig><reg>hüb</reg></w><space/>
-               <w><orig>sich</orig><reg>sich</reg></w><space/>
-               <w><orig>uber</orig><reg>über</reg></w><space/>
-               <w><orig>daz</orig><reg>daz</reg></w><space/>
-               <w><orig>wilde</orig><reg>wilde</reg></w><space/>
+               <w><orig>und</orig><reg>und</reg></w><c type="space"/>
+               <w><orig>huop</orig><reg>hüb</reg></w><c type="space"/>
+               <w><orig>sich</orig><reg>sich</reg></w><c type="space"/>
+               <w><orig>uber</orig><reg>über</reg></w><c type="space"/>
+               <w><orig>daz</orig><reg>daz</reg></w><c type="space"/>
+               <w><orig>wilde</orig><reg>wilde</reg></w><c type="space"/>
                <w><orig>mer</orig><reg>mer</reg></w>
             </l>
             <l n="244" xml:id="v_258" corresp="s_252">
-               <w><orig>und</orig><reg>und</reg></w><space/>
-               <w><orig>half</orig><reg>half</reg></w><space/>
-               <w><orig>dem</orig><reg>dem</reg></w><space/>
-               <w><orig>edeln</orig><reg>edelen</reg></w><space/>
-               <w><orig>gots</orig><reg>gotez</reg></w><space/>
+               <w><orig>und</orig><reg>und</reg></w><c type="space"/>
+               <w><orig>half</orig><reg>half</reg></w><c type="space"/>
+               <w><orig>dem</orig><reg>dem</reg></w><c type="space"/>
+               <w><orig>edeln</orig><reg>edelen</reg></w><c type="space"/>
+               <w><orig>gots</orig><reg>gotez</reg></w><c type="space"/>
                <w><orig>her</orig><reg>her</reg></w>
             </l>
             <l n="245" xml:id="v_259" corresp="s_253">
-               <w><orig>streiten</orig><reg>strîten</reg></w><space/>
-               <w><orig>an</orig><reg>an</reg></w><space/>
-               <w><orig>die</orig><reg>die</reg></w><space/>
+               <w><orig>streiten</orig><reg>strîten</reg></w><c type="space"/>
+               <w><orig>an</orig><reg>an</reg></w><c type="space"/>
+               <w><orig>die</orig><reg>die</reg></w><c type="space"/>
                <w><orig>haidenschaft</orig><reg>heidenschaft</reg></w><pc>.</pc>
             </l>
             <l n="246" xml:id="v_260" corresp="s_254">
-               <w><orig>da</orig><reg>da</reg></w><space/>
-               <w><orig>wart</orig><reg>wart</reg></w><space/>
-               <w><orig>der</orig><reg>der</reg></w><space/>
-               <w><orig>ritter</orig><reg>ritter</reg></w><space/>
+               <w><orig>da</orig><reg>da</reg></w><c type="space"/>
+               <w><orig>wart</orig><reg>wart</reg></w><c type="space"/>
+               <w><orig>der</orig><reg>der</reg></w><c type="space"/>
+               <w><orig>ritter</orig><reg>ritter</reg></w><c type="space"/>
                <w><orig>tugenthaft</orig><reg>tugenthaft</reg></w>
             </l>
             <l n="247" xml:id="v_261" corresp="s_255">
-               <w><orig>an</orig><reg>an</reg></w><space/>
-               <w><orig>staeter</orig><reg>staeter</reg></w><space/>
-               <w><orig>buoze</orig><reg>buoze</reg></w><space/>
+               <w><orig>an</orig><reg>an</reg></w><c type="space"/>
+               <w><orig>staeter</orig><reg>staeter</reg></w><c type="space"/>
+               <w><orig>buoze</orig><reg>buoze</reg></w><c type="space"/>
                <w><orig>funden</orig><reg>vunden</reg></w><pc>.</pc>
             </l>
             <l n="248" xml:id="v_262" corresp="s_256">
-               <w><orig>er</orig><reg>er</reg></w><space/>
-               <w><orig>schuf</orig><reg>schuof</reg></w><space/>
-               <w><orig>daz</orig><reg>daz</reg></w><space/>
-               <w><orig>ze</orig><reg>zuo</reg></w><space/>
-               <w><orig>allen</orig><reg>allen</reg></w><space/>
+               <w><orig>er</orig><reg>er</reg></w><c type="space"/>
+               <w><orig>schuf</orig><reg>schuof</reg></w><c type="space"/>
+               <w><orig>daz</orig><reg>daz</reg></w><c type="space"/>
+               <w><orig>ze</orig><reg>zuo</reg></w><c type="space"/>
+               <w><orig>allen</orig><reg>allen</reg></w><c type="space"/>
                <w><orig>stunden</orig><reg>stunden</reg></w><pc>,</pc>
             </l>
             <l n="249" xml:id="v_263" corresp="s_257">
-               <w><orig>do</orig><reg>dô</reg></w><space/>
-               <w><orig>im</orig><reg>im</reg></w><space/>
-               <w><orig>der</orig><reg>der</reg></w><space/>
-               <w><orig>leip</orig><reg>lîp</reg></w><space/>
-               <w><orig>erstorben</orig><reg>erstorben</reg></w><space/>
+               <w><orig>do</orig><reg>dô</reg></w><c type="space"/>
+               <w><orig>im</orig><reg>im</reg></w><c type="space"/>
+               <w><orig>der</orig><reg>der</reg></w><c type="space"/>
+               <w><orig>leip</orig><reg>lîp</reg></w><c type="space"/>
+               <w><orig>erstorben</orig><reg>erstorben</reg></w><c type="space"/>
                <w><orig>was</orig><reg>waz</reg></w><pc>,</pc>
             </l>
             <l n="250" xml:id="v_264" corresp="s_258">
-               <w><orig>daz</orig><reg>daz</reg></w><space/>
-               <w><orig>im</orig><reg>im</reg></w><space/>
-               <w><orig>div</orig><reg>diu</reg></w><space/>
-               <w><orig>sel</orig><reg>sele</reg></w><space/>
-               <w><orig>dort</orig><reg>dort</reg></w><space/>
+               <w><orig>daz</orig><reg>daz</reg></w><c type="space"/>
+               <w><orig>im</orig><reg>im</reg></w><c type="space"/>
+               <w><orig>div</orig><reg>diu</reg></w><c type="space"/>
+               <w><orig>sel</orig><reg>sele</reg></w><c type="space"/>
+               <w><orig>dort</orig><reg>dort</reg></w><c type="space"/>
                <w><orig>genas</orig><reg>genaz</reg></w><pc>.</pc>
             </l>
             <l n="251" xml:id="v_265" corresp="s_259">
-               <w><orig>nu</orig><reg>nun</reg></w><space/>
-               <w><orig>mercket</orig><reg>mercket</reg></w><space/>
-               <w><orig>alle</orig><reg>alle</reg></w><space/>
-               <w><orig>die</orig><reg>die</reg></w><space/>
-               <w><orig>nu</orig><reg>nun</reg></w><space/>
+               <w><orig>nu</orig><reg>nun</reg></w><c type="space"/>
+               <w><orig>mercket</orig><reg>mercket</reg></w><c type="space"/>
+               <w><orig>alle</orig><reg>alle</reg></w><c type="space"/>
+               <w><orig>die</orig><reg>die</reg></w><c type="space"/>
+               <w><orig>nu</orig><reg>nun</reg></w><c type="space"/>
                <w><orig>sint</orig><reg>sint</reg></w>
             </l>
             <l n="252" xml:id="v_266" corresp="s_260">
-               <w><orig>diser</orig><reg>diser</reg></w><space/>
-               <w><orig>wilden</orig><reg>wilden</reg></w><space/>
-               <w><orig>werlte</orig><reg>werlt</reg></w><space/>
+               <w><orig>diser</orig><reg>diser</reg></w><c type="space"/>
+               <w><orig>wilden</orig><reg>wilden</reg></w><c type="space"/>
+               <w><orig>werlte</orig><reg>werlt</reg></w><c type="space"/>
                <w><orig>chint</orig><reg>kint</reg></w><pc>.</pc>
             </l>
             <l n="253" xml:id="v_267" corresp="s_261">
-               <w><orig>ditz</orig><reg>dise</reg></w><space/>
-               <w><orig>endehafte</orig><reg>endehafte</reg></w><space/>
+               <w><orig>ditz</orig><reg>dise</reg></w><c type="space"/>
+               <w><orig>endehafte</orig><reg>endehafte</reg></w><c type="space"/>
                <w><orig>mære</orig><reg>maere</reg></w><pc>,</pc>
             </l>
             <l n="254" xml:id="v_268" corresp="s_262">
-               <w><orig>daz</orig><reg>daz</reg></w><space/>
-               <w><orig>ist</orig><reg>ist</reg></w><space/>
-               <w><orig>also</orig><reg>alsô</reg></w><space/>
+               <w><orig>daz</orig><reg>daz</reg></w><c type="space"/>
+               <w><orig>ist</orig><reg>ist</reg></w><c type="space"/>
+               <w><orig>also</orig><reg>alsô</reg></w><c type="space"/>
                <w><orig>gewære</orig><reg>gewaere</reg></w><pc>,</pc>
             </l>
             <l n="255" xml:id="v_269" corresp="s_263">
-               <w><orig>daz</orig><reg>daz</reg></w><space/>
-               <w><orig>man</orig><reg>man</reg></w><space/>
-               <w><orig>ez</orig><reg>ez</reg></w><space/>
-               <w><orig>gern</orig><reg>gern</reg></w><space/>
-               <w><orig>horen</orig><reg>hoeren</reg></w><space/>
+               <w><orig>daz</orig><reg>daz</reg></w><c type="space"/>
+               <w><orig>man</orig><reg>man</reg></w><c type="space"/>
+               <w><orig>ez</orig><reg>ez</reg></w><c type="space"/>
+               <w><orig>gern</orig><reg>gern</reg></w><c type="space"/>
+               <w><orig>horen</orig><reg>hoeren</reg></w><c type="space"/>
                <w><orig>sol</orig><reg>sol</reg></w><pc>.</pc>
             </l>
             <l n="256" xml:id="v_270" corresp="s_264">
-               <w><orig>der</orig><reg>der</reg></w><space/>
-               <w><orig>werlte</orig><reg>werlt</reg></w><space/>
-               <w><orig>lon</orig><reg>lôn</reg></w><space/>
-               <w><orig>ist</orig><reg>ist</reg></w><space/>
-               <w><orig>jamers</orig><reg>jamers</reg></w><space/>
-               <w><orig>vol</orig><reg>vol</reg></w><space/><pc>;</pc>
+               <w><orig>der</orig><reg>der</reg></w><c type="space"/>
+               <w><orig>werlte</orig><reg>werlt</reg></w><c type="space"/>
+               <w><orig>lon</orig><reg>lôn</reg></w><c type="space"/>
+               <w><orig>ist</orig><reg>ist</reg></w><c type="space"/>
+               <w><orig>jamers</orig><reg>jamers</reg></w><c type="space"/>
+               <w><orig>vol</orig><reg>vol</reg></w><c type="space"/><pc>;</pc>
             </l>
             <l n="257" xml:id="v_271" corresp="s_265">
-               <w><orig>daz</orig><reg>dc</reg></w><space/>
-               <w><orig>muogt</orig><reg>muoget</reg></w><space/>
-               <w><orig>ir</orig><reg>ir</reg></w><space/>
-               <w><orig>alle</orig><reg>alle</reg></w><space/>
-               <w><orig>han</orig><reg>hân</reg></w><space/>
+               <w><orig>daz</orig><reg>dc</reg></w><c type="space"/>
+               <w><orig>muogt</orig><reg>muoget</reg></w><c type="space"/>
+               <w><orig>ir</orig><reg>ir</reg></w><c type="space"/>
+               <w><orig>alle</orig><reg>alle</reg></w><c type="space"/>
+               <w><orig>han</orig><reg>hân</reg></w><c type="space"/>
                <w><orig>vernomen</orig><reg>vernomen</reg></w><pc>.</pc>
             </l>
             <l n="258" xml:id="v_272" corresp="s_266">
-               <w><orig>ich</orig><reg>ich</reg></w><space/>
-               <w><orig>bin</orig><reg>bin</reg></w><space/>
-               <w><orig>sein</orig><reg>sîn</reg></w><space/>
-               <w><orig>an</orig><reg>an</reg></w><space/>
-               <w><orig>ain</orig><reg>ein</reg></w><space/>
-               <w><orig>ende</orig><reg>ende</reg></w><space/>
-               <w><orig>chomen</orig><reg>komen</reg></w><space/><pc>.</pc>
+               <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
+               <w><orig>bin</orig><reg>bin</reg></w><c type="space"/>
+               <w><orig>sein</orig><reg>sîn</reg></w><c type="space"/>
+               <w><orig>an</orig><reg>an</reg></w><c type="space"/>
+               <w><orig>ain</orig><reg>ein</reg></w><c type="space"/>
+               <w><orig>ende</orig><reg>ende</reg></w><c type="space"/>
+               <w><orig>chomen</orig><reg>komen</reg></w><c type="space"/><pc>.</pc>
             </l>
             <l n="259" xml:id="v_273" corresp="s_267">
-               <w><orig>swer</orig><reg>swer</reg></w><space/>
-               <w><orig>an</orig><reg>an</reg></w><space/>
-               <w><orig>ir</orig><reg>ir</reg></w><space/>
-               <w><orig>dienste</orig><reg>dienst</reg></w><space/>
-               <w><orig>funden</orig><reg>vunden</reg></w><space/>
+               <w><orig>swer</orig><reg>swer</reg></w><c type="space"/>
+               <w><orig>an</orig><reg>an</reg></w><c type="space"/>
+               <w><orig>ir</orig><reg>ir</reg></w><c type="space"/>
+               <w><orig>dienste</orig><reg>dienst</reg></w><c type="space"/>
+               <w><orig>funden</orig><reg>vunden</reg></w><c type="space"/>
                <w><orig>wirt</orig><reg>wirt</reg></w><pc>,</pc>
             </l>
             <l n="260" xml:id="v_274" corresp="s_268">
-               <w><orig>daz</orig><reg>daz</reg></w><space/>
-               <w><orig>in</orig><reg>in</reg></w><space/>
-               <w><orig>diu</orig><reg>diu</reg></w><space/>
-               <w><orig>vreude</orig><reg>vröude</reg></w><space/>
-               <w><orig>gar</orig><reg>gar</reg></w><space/>
+               <w><orig>daz</orig><reg>daz</reg></w><c type="space"/>
+               <w><orig>in</orig><reg>in</reg></w><c type="space"/>
+               <w><orig>diu</orig><reg>diu</reg></w><c type="space"/>
+               <w><orig>vreude</orig><reg>vröude</reg></w><c type="space"/>
+               <w><orig>gar</orig><reg>gar</reg></w><c type="space"/>
                <w><orig>verbirt</orig><reg>verbirt</reg></w><pc>,</pc>
             </l>
             <l n="261" xml:id="v_275" corresp="s_269">
-               <w><orig>die</orig><reg>die</reg></w><space/>
-               <w><orig>got</orig><reg>got</reg></w><space/>
-               <w><orig>mit</orig><reg>mit</reg></w><space/>
-               <w><orig>gantzer</orig><reg>ganzer</reg></w><space/>
+               <w><orig>die</orig><reg>die</reg></w><c type="space"/>
+               <w><orig>got</orig><reg>got</reg></w><c type="space"/>
+               <w><orig>mit</orig><reg>mit</reg></w><c type="space"/>
+               <w><orig>gantzer</orig><reg>ganzer</reg></w><c type="space"/>
                <w><orig>staetichait</orig><reg>staetekeit</reg></w>
             </l>
             <l n="262" xml:id="v_276" corresp="s_270">
-               <w><orig>den</orig><reg>den</reg></w><space/>
-               <w><orig>auzerwelten</orig><reg>ûzerwelten</reg></w><space/>
-               <w><orig>hat</orig><reg>hat</reg></w><space/>
+               <w><orig>den</orig><reg>den</reg></w><c type="space"/>
+               <w><orig>auzerwelten</orig><reg>ûzerwelten</reg></w><c type="space"/>
+               <w><orig>hat</orig><reg>hat</reg></w><c type="space"/>
                <w><orig>berait</orig><reg>bereit</reg></w><pc>.</pc>
             </l>
             <l n="263" xml:id="v_277" corresp="s_271">
-               <w><orig>von</orig><reg>von</reg></w><space/>
-               <w><orig>Wirtzpurch</orig><reg>Würtzburg</reg></w><space/>
-               <w><orig>ich</orig><reg>ich</reg></w><space/>
+               <w><orig>von</orig><reg>von</reg></w><c type="space"/>
+               <w><orig>Wirtzpurch</orig><reg>Würtzburg</reg></w><c type="space"/>
+               <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
                <w><orig>Chunrat</orig><reg>Konrad</reg></w>
             </l>
             <l n="264" xml:id="v_278" corresp="s_272">
-               <w><orig>gip</orig><reg>gip</reg></w><space/>
-               <w><orig>iu</orig><reg>iuch</reg></w><space/>
-               <w><orig>allen</orig><reg>allen</reg></w><space/>
-               <w><orig>disen</orig><reg>disen</reg></w><space/>
+               <w><orig>gip</orig><reg>gip</reg></w><c type="space"/>
+               <w><orig>iu</orig><reg>iuch</reg></w><c type="space"/>
+               <w><orig>allen</orig><reg>allen</reg></w><c type="space"/>
+               <w><orig>disen</orig><reg>disen</reg></w><c type="space"/>
                <w><orig>rat</orig><reg>rat</reg></w><pc>:</pc>
             </l>
             <l n="265" xml:id="v_279" corresp="s_273">
-               <w><orig>daz</orig><reg>daz</reg></w><space/>
-               <w><orig>ir</orig><reg>ir</reg></w><space/>
-               <w><orig>die</orig><reg>diu</reg></w><space/>
-               <w><orig>werlt</orig><reg>werlt</reg></w><space/>
-               <w><orig>lazet</orig><reg>lazet</reg></w><space/>
+               <w><orig>daz</orig><reg>daz</reg></w><c type="space"/>
+               <w><orig>ir</orig><reg>ir</reg></w><c type="space"/>
+               <w><orig>die</orig><reg>diu</reg></w><c type="space"/>
+               <w><orig>werlt</orig><reg>werlt</reg></w><c type="space"/>
+               <w><orig>lazet</orig><reg>lazet</reg></w><c type="space"/>
                <w><orig>varn</orig><reg>varn</reg></w><pc>,</pc>
             </l>
             <l n="266" xml:id="v_280" corresp="s_274">
-               <w><orig>wellet</orig><reg>wellet</reg></w><space/>
-               <w><orig>ir</orig><reg>ir</reg></w><space/>
-               <w><orig>die</orig><reg>diu</reg></w><space/>
-               <w><orig>sel</orig><reg>sele</reg></w><space/>
+               <w><orig>wellet</orig><reg>wellet</reg></w><c type="space"/>
+               <w><orig>ir</orig><reg>ir</reg></w><c type="space"/>
+               <w><orig>die</orig><reg>diu</reg></w><c type="space"/>
+               <w><orig>sel</orig><reg>sele</reg></w><c type="space"/>
                <w><orig>bewarn</orig><reg>bewarn</reg></w>
                <pc>.</pc>
             </l>
