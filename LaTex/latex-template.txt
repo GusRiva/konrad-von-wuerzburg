@@ -1,0 +1,101 @@
+\documentclass[12pt]{article}
+\usepackage{polyglossia,fontspec,xunicode}
+\usepackage[a4paper, portrait, top=2cm, bottom=3.5cm, left=2cm, right=2cm,]{geometry}
+\usepackage{libertine}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\setlength{\headheight}{1.7cm}
+\fancyhead[L]{\small{\textit{Der Welt Lohn - Texto Crítico y traducción}}}
+\fancyhead[R]{\thepage}
+\setlength{\columnsep}{3cm}
+\setlength{\columnseprule}{0.4pt}
+\setmainlanguage{german}
+\usepackage[series={A,B},noend,noeledsec,noledgroup]{reledmac}
+\sethangingsymbol{[\,}
+\sidenotemargin{outer}
+\renewcommand{\ledrsnotefontsetup}{\small\it}% right
+\rightnoteupfalse
+\ledlsnotesep=1cm
+\usepackage[]{reledpar}
+\sethangingsymbol{[\,}
+%\renewcommand{\ledrsnotefontsetup}{\small\it}% right
+\rightnoteupfalse
+\ledlsnotesep=1cm
+\Xarrangement{paragraph}
+\Xwidth{\columnwidth}
+\Xnumberonlyfirstinline
+
+\setlength{\stanzaindentbase}{5pt}
+\setRlineflag{}
+
+% Set stanza indentation
+\setcounter{stanzaindentsrepetition}{2}
+\setstanzaindents{0,0,1}
+
+\begin{document}
+\setcounter{page}{217}
+
+\begin{pairs}
+\begin{Leftside}
+\beginnumbering
+\pstart
+{\Large\textbf{Der Welt Lohn}}\\
+\pend
+\endnumbering
+\end{Leftside}
+\begin{Rightside}
+\beginnumbering
+\pstart
+{\Large\textbf{El galardón del mundo}}\\
+\pend
+\endnumbering
+\end{Rightside}
+\end{pairs}
+\Columns
+
+
+\AtBeginPairs{\sloppy}
+\begin{pairs}
+\begin{Leftside}
+\beginnumbering
+\begin{astanza}
+
+\end{astanza}
+\endnumbering
+\end{Leftside}
+\begin{Rightside}
+\beginnumbering
+\begin{astanza}
+Acá iría la traducción &
+x &
+x &
+x &
+x &
+x &
+x &
+x &
+x &
+x &
+x &
+x &
+x &
+x &
+x &
+x &
+x &
+x &
+x &
+x &
+x &
+x &
+x &
+x &
+etc.
+\&
+\end{astanza}
+\endnumbering
+\end{Rightside}
+\end{pairs}
+\Columns
+\end{document}
