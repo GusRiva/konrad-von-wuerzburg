@@ -541,9 +541,9 @@
                     <w><orig>den</orig><reg>den</reg></w><c type="space"/>
                     <w><orig>tischen</orig><reg>tischen</reg></w><c type="space"/>
                     <app>
-                        <lem wit="#H #I #V"><w><orig>unde</orig><reg>unde</reg></w><c type="space"/><w>lie</w></lem>
-                        <rdg wit="#P #K"><w><orig>vmbe</orig><reg>umbe</reg></w><c type="space"/>
-                    <w><orig>gevie</orig><reg>gevie</reg></w></rdg></app>
+                        <lem wit="#H #I #V"><w><orig>unde</orig><reg>unde</reg></w><c type="space"/></lem>
+                        <rdg wit="#P #K"><w><orig>vmbe</orig><reg>umbe</reg></w></rdg></app><c type="space"/>
+                    <w><orig>gevie</orig><reg>gevie</reg></w>   
                 </l>
                 <l  n="63" xml:id="v_63" corresp="s_63">
                     <w><orig>die</orig><reg>die</reg></w><c type="space"/>
@@ -783,7 +783,7 @@
                     <w><orig>heinrich</orig><reg>Heinrich</reg></w><pc>.</pc>
                 </l>
                 <l  n="94" xml:id="v_97" corresp="s_96">
-                    <w><orig>Sin</orig><reg>sîn</reg></w><c type="space"/>
+                    <w><orig>sin</orig><reg>sîn</reg></w><c type="space"/>
                     <w><orig>edel</orig><reg>edel</reg></w><c type="space"/>
                     <w><orig>mvt</orig><reg>muot</reg></w><c type="space"/>
                     <w><orig>der</orig><reg>der</reg></w><c type="space"/>
@@ -791,9 +791,9 @@
                     <w><orig>sich</orig><reg>sich</reg></w>
                 </l>
                 <l  n="95" xml:id="v_98" corresp="s_97">
-                    <w><orig>Rilicher</orig><reg>rîlicher</reg></w><c type="space"/>
+                    <w><orig>rilicher</orig><reg>rîlicher</reg></w><c type="space"/>
                     <w><orig>manheit</orig><reg>manheit</reg></w><c type="space"/>
-                    <w><orig>an genvmen </orig><reg>angenomen</reg></w><pc>,</pc>
+                    <w><orig>an genvmen</orig><reg>angenomen</reg></w><pc>,</pc>
                 </l>
                 <l  n="96" xml:id="v_99" corresp="s_98">
                     <w><orig>wan</orig><reg>wan</reg></w><c type="space"/>
@@ -835,7 +835,8 @@
                 </l>
                 <l  n="101" xml:id="v_104" corresp="s_103">
                     <w><orig>als</orig><reg>als</reg></w><c type="space"/>
-                    <app><lem wit="#H #I #V #w"><w><orig>unerbermeclich</orig><reg>unerbermeclîch</reg></w></lem>
+                    <app><lem wit="#H #w"><w><orig>unerbermeclichen</orig><reg>unerbermeclîchen</reg></w></lem>
+                        <rdg wit="#I #V"><w><orig>unerbermeclich</orig><reg>unerbermeclîch</reg></w></rdg>
                         <rdg wit="#K #P"><w><orig>mir</orig><reg>mir</reg></w><c type="space"/>
                     <w><orig>bermertlichen</orig><reg>bermeclîchen</reg></w></rdg></app><c type="space"/>
                     <w><orig>slvc</orig><reg>sluoc</reg></w><pc>,</pc>
@@ -962,12 +963,12 @@
                     <w><orig>schelken</orig><reg>schelken</reg></w><c type="space"/>
                     <w><orig>were</orig><reg>were</reg></w>
                 </l>
-                <l  n="119a" xml:id="v_123" corresp="s_121a"> </l>
+                <l  n="119a" xml:id="v_123" corresp="s_121a"/>
                 <l  n="120" xml:id="v_124" corresp="s_122">
                     <w><orig>vnd</orig><reg>und</reg></w><c type="space"/>
                     <w><orig>einen</orig><reg>einen</reg></w><c type="space"/>
                     <w><orig>ieslichen</orig><reg>ieslichen</reg></w><c type="space"/>
-                    <w><orig>bere</orig><reg>baere</reg></w><pc>,</pc>
+                    <w lemma="bern" lemmaRef="http://www.woerterbuchnetz.de/Lexer?bookref=1,195,48"><orig>bere</orig><reg>bere</reg></w><pc>,</pc>
                 </l>
                 <l  n="120a" xml:id="v_125" corresp="s_122a"> </l>
                 <l  n="121" xml:id="v_126" corresp="s_123">
@@ -1069,8 +1070,10 @@
                 </l>
                 <l  n="134" xml:id="v_140" corresp="s_137">
                     <w><orig>wie</orig><reg>wie</reg></w><c type="space"/>
-                    <app><lem><w><orig>getorstet</orig><reg>getorstet</reg></w></lem><rdg wit="#P"><w><orig>getorst</orig><reg>getorst</reg></w><c type="space"/><w><orig>ir</orig><reg>ir</reg></w><w><orig>daz</orig><reg>daz</reg></w><c type="space"/></rdg></app><c type="space"/>
+                    <w><orig>getorstet</orig><reg>getorstet</reg></w><c type="space"/>
                     <w><orig>ir</orig><reg>ir</reg></w><c type="space"/>
+                    <w><orig>daz</orig><reg>daz</reg></w><c type="space"/>
+                    <w><orig>ie</orig><reg>ie</reg></w><c type="space"/>
                     <w><orig>geleben</orig><reg>geleben</reg></w><pc>,</pc>
                 </l>
                 <l  n="135" xml:id="v_141" corresp="s_138">
@@ -1159,8 +1162,9 @@
                     <w><orig>daz</orig><reg>daz</reg></w><c type="space"/>
                     <w><orig>er</orig><reg>er</reg></w><c type="space"/>
                     <w><orig>begond</orig><reg>begond</reg></w><c type="space"/>
-                    <w><orig>zv</orig><reg>zuo</reg></w><c type="space"/>
-                    <w><orig>wirben</orig><reg>wirben</reg></w>
+                    <app><lem wit="#H #I #V"><w><orig>zwirben</orig><reg>zwirben</reg></w></lem>
+                        <rdg wit="#P #K"><w><orig>zv</orig><reg>zuo</reg></w><w><orig>wirben</orig><reg>wirben</reg></w></rdg>
+                    <rdg wit="#w"><w><orig>zirben</orig><reg>zirben</reg></w></rdg></app>
                 </l>
                 <l  n="148" xml:id="v_154" corresp="s_151">
                     <w><orig>all</orig><reg>al</reg></w>
@@ -1169,7 +1173,7 @@
                     <w><orig>vmb</orig><reg>umb</reg></w><c type="space"/>
                     <w><orig>als</orig><reg>als</reg></w><c type="space"/>
                     <w><orig>ein</orig><reg>ein</reg></w><c type="space"/>
-                    <w><orig>topf</orig><reg>topf</reg></w><pc>.</pc>
+                    <w lemmaRef="http://www.woerterbuchnetz.de/Lexer?bookref=2,1462,45" lemma="topf"><orig>topf</orig><reg>topf</reg></w><pc>.</pc>
                 </l>
                 <l  n="149" xml:id="v_155" corresp="s_152">
                     <w><orig>daz</orig><reg>daz</reg></w><c type="space"/>
@@ -1541,7 +1545,7 @@
                 </l>
                 <l  n="200" xml:id="v_209" corresp="s_203">
                     <w><orig>der</orig><reg>der</reg></w><c type="space"/>
-                    <w><orig>verzaget</orig><reg>verzaget</reg></w><c type="space"/>
+                    <app><lem wit="#H #I #V #w"><w><orig>unverzaget</orig><reg>unverzaget</reg></w></lem><rdg wit="#P #K"><w><orig>verzaget</orig><reg>verzaget</reg></w></rdg></app><c type="space"/>
                     <w><orig>Heinrich</orig><reg>Heinrich</reg></w><pc>.</pc>
                 </l>
                 <l  n="200a" xml:id="v_210" corresp="s_203a"/>
@@ -2711,7 +2715,7 @@
                     <w><orig>zv</orig><reg>zuo</reg></w><c type="space"/>
                     <w><orig>swere</orig><reg>swere</reg></w><c type="space"/>
                     <w><orig>sit</orig><reg>sît</reg></w><pc>.</pc><c type="space"/>
-                    <w><orig>idoch</orig><reg>iedoch</reg></w><c type="space"/>
+                    <app><lem wit="#I #V"><w><orig>ouch</orig><reg>ouch</reg></w></lem><rdg wit="#P #K"><w><orig>idoch</orig><reg>iedoch</reg></w></rdg><rdg wit="#H"><w><orig>ja</orig></w></rdg></app><c type="space"/>
                     <w><orig>habt</orig><reg>habt</reg></w><c type="space"/>
                     <w><orig>ir</orig><reg>ir</reg></w>
                 </l>
@@ -2990,9 +2994,7 @@
                     <w><orig>zit</orig><reg>zît</reg></w><pc>,</pc>
                 </l>
                 <l  n="399" xml:id="v_416" corresp="s_402">
-                    <app>
-                        <lem wit="#H #I #V  #w"><w><reg>daz</reg></w></lem>
-                        <rdg wit="#K #P"><w><orig>wi</orig><reg>wie</reg></w></rdg></app><c type="space"/>
+                    <w><orig>wi</orig><reg>wie</reg></w><c type="space"/>
                     <w><orig>si</orig><reg>sie</reg></w><c type="space"/>
                     <w><orig>der</orig><reg>der</reg></w><c type="space"/>
                     <w><orig>veste</orig><reg>veste</reg></w><c type="space"/>
@@ -3476,16 +3478,11 @@
                     <w><orig>amt</orig><reg>amt</reg></w><pc>,</pc>
                 </l>
                 <l  n="466" xml:id="v_483" corresp="s_469">
-                    <app><lem><w><orig>Seht</orig><reg>seht</reg></w><pc>,</pc><c type="space"/>
-                        <w><orig>die</orig><reg>die</reg></w><c type="space"/>
-                        <w><orig>furet</orig><reg>vüret</reg></w><c type="space"/>
-                        <w><orig>mit</orig><reg>mit</reg></w><c type="space"/>
-                        <w><orig>uch</orig><reg>iuch</reg></w></lem>
-                        <rdg wit="#K #P"><w><orig>Sint</orig><reg>sint</reg></w><c type="space"/>
+                    <w><orig>Sint</orig><reg>sint</reg></w><c type="space"/>
                     <w><orig>si</orig><reg>sie</reg></w><c type="space"/>
                     <w><orig>fvͤrent</orig><reg>vürent</reg></w><c type="space"/>
                     <w><orig>si</orig><reg>sie</reg></w><c type="space"/>
-                    <w><orig>da</orig><reg>da</reg></w></rdg></app><c type="space"/>
+                    <w><orig>da</orig><reg>da</reg></w><c type="space"/>
                     <w><orig>hin</orig><reg>hin</reg></w><pc>.</pc>
                 </l>
                 <l  n="467" xml:id="v_484" corresp="s_470">
@@ -4153,7 +4150,7 @@
                     <w><orig>her</orig><reg>her</reg></w><pc>,</pc>
                 </l>
                 <l  n="554" xml:id="v_571" corresp="s_557">
-                    <w><orig>gewefens</orig><reg>gewesens</reg></w><c type="space"/>
+                    <w><orig>gewefens</orig><reg>gewefens</reg></w><c type="space"/>
                     <w><orig>itel</orig><reg>îtel</reg></w><c type="space"/>
                     <w><orig>vnd</orig><reg>und</reg></w><c type="space"/>
                     <w><orig>bar</orig><reg>bar</reg></w><pc>.</pc>
@@ -4574,18 +4571,18 @@
                 <l  n="611" xml:id="v_638" corresp="s_618">
                     <w><orig>wan</orig><reg>wan</reg></w><c type="space"/>
                     <w><orig>das</orig><reg>daz</reg></w><c type="space"/>
-                    <w><orig>mîr</orig><reg>mîr</reg></w><c type="space"/>
+                    <w><orig>mir</orig><reg>mîr</reg></w><c type="space"/>
                     <w><orig>helfe</orig><reg>helfe</reg></w><c type="space"/>
                     <w><orig>taten</orig><reg>tâten</reg></w>
                 </l>
                 <l  n="612" xml:id="v_639" corresp="s_619">
                     <w><orig>zwu</orig><reg>zuo</reg></w><c type="space"/>
-                    <w><orig>Ritterliche</orig><reg>ritterliche</reg></w><c type="space"/>
+                    <w><orig>ritterliche</orig><reg>ritterliche</reg></w><c type="space"/>
                     <w><orig>hende</orig><reg>hende</reg></w><c type="space"/>
                     <w><orig>schin</orig><reg>schîn</reg></w><pc>,</pc>
                 </l>
                 <l  n="613" xml:id="v_640" corresp="s_620">
-                    <w><orig>So</orig><reg>sô</reg></w><c type="space"/>
+                    <w><orig>so</orig><reg>sô</reg></w><c type="space"/>
                     <w><orig>mvͤst</orig><reg>müest</reg></w><c type="space"/>
                     <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
                     <w><orig>gar</orig><reg>gar</reg></w><c type="space"/>
@@ -4692,7 +4689,7 @@
                 </l>
                 <l  n="627" xml:id="v_654" corresp="s_634">
                     <w><orig>min</orig><reg>mîn</reg></w><c type="space"/>
-                    <w><orig> herze </orig><reg>herze</reg></w><c type="space"/>
+                    <w><orig>herze</orig><reg>herze</reg></w><c type="space"/>
                     <w><orig>ist</orig><reg>ist</reg></w><c type="space"/>
                     <w><orig>im</orig><reg>im</reg></w><c type="space"/>
                     <w><orig>an</orig><reg>an</reg></w><c type="space"/>
@@ -4756,7 +4753,7 @@
                     <w><orig>strit</orig><reg>strît</reg></w><pc>:</pc>
                 </l>
                 <l  n="636" xml:id="v_663" corresp="s_643">
-                    <w><orig>wir</orig><reg>wir</reg></w><c type="space"/>
+                    <pc>“</pc><w><orig>wir</orig><reg>wir</reg></w><c type="space"/>
                     <w><orig>wizzen</orig><reg>wizzen</reg></w><pc>,</pc><c type="space"/>
                     <w><orig>herre</orig><reg>herre</reg></w><pc>,</pc><c type="space"/>
                     <w><orig>wol</orig><reg>wol</reg></w><c type="space"/>
@@ -4846,7 +4843,7 @@
                     <w><orig>evch</orig><reg>iuch</reg></w><c type="space"/>
                     <app><lem wit="#H #I #V #w"><w><orig>in</orig><reg>in</reg></w></lem>
                         <rdg wit="#K #P"><w><orig>nv</orig><reg>nu</reg></w><c type="space"/></rdg></app>
-                    <w><orig>sehen</orig><reg>sehen</reg></w><pc>.</pc>
+                    <w><orig>sehen</orig><reg>sehen</reg></w><pc>.</pc><pc>”</pc>
                 </l>
                 <l  n="649" xml:id="v_676" corresp="s_656">
                     <w><orig>der</orig><reg>der</reg></w><c type="space"/>
@@ -4956,7 +4953,7 @@
                     <w><orig>er</orig><reg>er</reg></w><c type="space"/>
                     <w><orig>avch</orig><reg>ouch</reg></w><c type="space"/>
                     <w><orig>die</orig><reg>die</reg></w><c type="space"/>
-                    <w><orig>getvrstikeit</orig><reg>getürsteheit</reg></w>
+                    <w><orig>getvrstikeit</orig><reg>getürstikeit</reg></w>
                 </l>
                 <l  n="664" xml:id="v_691" corresp="s_671">
                     <w><orig>trvg</orig><reg>truoc</reg></w><c type="space"/>
@@ -4974,11 +4971,13 @@
                     <w><orig>zoch</orig><reg>zôch</reg></w>
                 </l>
                 <l  n="666" xml:id="v_693" corresp="s_673">
-                    <app><lem wit="#I #V"><w><orig>ein</orig><reg>ein</reg></w></lem>
+                    <app>
+                        <lem wit="#I #V"><w><orig>ein</orig><reg>ein</reg></w></lem>
                         <rdg wit="#K #P"><w><orig>minen</orig><reg>mînen</reg></w></rdg></app><c type="space"/>
                     <w><orig>keiser</orig><reg>keiser</reg></w><c type="space"/>
-                    <app><lem wit="#H #I #V #w"><w><orig>über</orig><reg>über</reg></w><c type="space"/>
-                    <w><orig>seinen</orig><reg>sînen</reg></w></lem>
+                    <app>
+                        <lem wit="#H #I #V #w"><w><orig>über</orig><reg>über</reg></w><c type="space"/>
+                            <w><orig>seinen</orig><reg>sînen</reg></w></lem>
                         <rdg wit="#K #P"></rdg></app>
                     <w><orig>tisch</orig><reg>tisch</reg></w><pc>.</pc>
                 </l>
@@ -5360,7 +5359,11 @@
                 <l  n="718" xml:id="v_757" corresp="s_725">
                     <w><orig>wol</orig><reg>wol</reg></w><c type="space"/>
                     <w><orig>tvsent</orig><reg>tûsent</reg></w><c type="space"/>
-                    <app><lem wit="#P #K"><w><orig>varbe</orig><reg>varbe</reg></w></lem><rdg wit="#H">warbe</rdg><rdg wit="#I #V #w"><w><reg>stunde</reg></w></rdg></app><c type="space"/>
+                    <app>
+                        <lem><w><orig>vache</orig><reg>vache</reg></w></lem>
+                        <rdg wit="#P #K"><w><orig>varbe</orig><reg>varbe</reg></w></rdg>
+                        <rdg wit="#H">warbe</rdg>
+                        <rdg wit="#I #V #w"><w><reg>stunde</reg></w></rdg></app><c type="space"/>
                     <w><orig> willekvmen </orig><reg>willekomen</reg></w><pc>.</pc>
                 </l>
                 <l  n="719" xml:id="v_758" corresp="s_726">
@@ -5414,10 +5417,12 @@
                     <app><lem wit="#H #I #K #V #w"><w><reg>lide</reg></w></lem><rdg wit="#P"><w><orig>liden</orig><reg>liden</reg></w></rdg></app><pc>.</pc>
                 </l>
                 <l  n="725" xml:id="v_766" corresp="s_732">
-                    <app><lem wit="#H #I #V #w"><w><reg>ein</reg></w></lem><rdg wit="#K #P"><w><orig>minen</orig><reg>mînen</reg></w></rdg></app><c type="space"/>
+                    <app>
+                        <lem wit="#H #I #V #w"><w><reg>ein</reg></w></lem>
+                        <rdg wit="#K #P"><w><orig>minen</orig><reg>mînen</reg></w></rdg></app><c type="space"/>
                     <w><orig>sven</orig><reg>süene</reg></w><c type="space"/>
                     <w><orig>lvter</orig><reg>lûter</reg></w><c type="space"/>
-                    <w><orig> vnd </orig><reg>und</reg></w><c type="space"/>
+                    <w><orig>vnd</orig><reg>und</reg></w><c type="space"/>
                     <w><orig>ein</orig><reg>ein</reg></w><c type="space"/>
                     <w><orig>vrid</orig><reg>vrid</reg></w>
                 </l>

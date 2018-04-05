@@ -1,0 +1,944 @@
+﻿<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="file-title">Translation of<title type="text-title">Heinrich von
+                        Kempten</title>by Konrad von Würzburg</title>
+                <title type="title-abbreviation">HvK</title>
+                <author xml:id="GR" ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernandez
+                    Riva</author>
+                <sponsor>CONICET</sponsor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Created by Gustavo Fernández Riva as part of the PhD in Medieval Studies at the
+                    University of Buenos Aires (Argentina) from 2014 to 2018. It is published under
+                    the Creative Commons 4.0 Attribution Licence (CC BY 4.0).</p>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="H">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Heidelberg</settlement>
+                                <repository>Universitätsbibliothek</repository>
+                                <idno>Cpg. 395</idno>
+                                <msName>H</msName>
+                            </msIdentifier>
+                        </msDesc>
+                    </witness>
+                    <witness xml:id="I">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Innsbruck</settlement>
+                                <repository>Landesmuseum Ferdinandeum</repository>
+                                <idno>Cod FB 32001</idno>
+                                <msName>I</msName>
+                            </msIdentifier>
+                        </msDesc>
+                    </witness>
+                    <witness xml:id="K">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Cologny-Genf</settlement>
+                                <repository>Biblioteca Bodmeriana</repository>
+                                <idno>Cod. Bodmer 72</idno>
+                                <msName>K</msName>
+                            </msIdentifier>
+                        </msDesc>
+                    </witness>
+                    <witness xml:id="L">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>London</settlement>
+                                <repository>Institute of Germanic Studies</repository>
+                                <idno>Ms Germ. 5</idno>
+                                <msName>L</msName>
+                                <altIdentifier>
+                                    <settlement>Bristol</settlement>
+                                    <idno>Ms. P. Germ. 1</idno>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <history>
+                                <p>Früher Privatbesitz August Closs; davor Privatbesitz Robert
+                                    Priebsch</p>
+                            </history>
+                        </msDesc>
+                    </witness>
+                    <witness xml:id="P">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Heidelberg</settlement>
+                                <repository>Universitätsbibliothek</repository>
+                                <idno>Cod. Palatino germanico 341</idno>
+                                <msName>P</msName>
+                            </msIdentifier>
+                        </msDesc>
+                    </witness>
+                    <witness xml:id="V">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Wien</settlement>
+                                <repository>Österreiche Nationalbibliothek</repository>
+                                <idno>Cod 2885</idno>
+                                <msName>V</msName>
+                            </msIdentifier>
+                        </msDesc>
+                    </witness>
+                    <witness xml:id="W">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Wien</settlement>
+                                <repository>Österreiche Nationalbibliothek</repository>
+                                <idno>Cod 10100a</idno>
+                                <msName>W</msName>
+                            </msIdentifier>
+                        </msDesc>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <variantEncoding method="parallel-segmentation" location="internal"/>
+            <p>Only changes to the guide manuscript (P) are signaled.</p>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <head>Heinrich von Kempten | Keiser Otto</head>
+                <l  n="1" xml:id="v_1" corresp="s_1">Un emperador llamado Otto,</l>
+                <l  n="2" xml:id="v_2" corresp="s_2">quien de sus parientes muchas y poderosas tierras</l>
+                <l  n="3" xml:id="v_3" corresp="s_3">tenía como súbditas,</l>
+                <l  n="4" xml:id="v_4" corresp="s_4">poseía una barba bella y larga,</l>
+                <l  n="5" xml:id="v_5" corresp="s_5">pues la cuidaba con delicadeza</l>
+                <l  n="6" xml:id="v_6" corresp="s_6">y lo que fuera que por la barba</l>
+                <l  n="7" xml:id="v_7" corresp="s_7">juraba, lo cumplía.</l>
+                <l  n="8" xml:id="v_8" corresp="s_8">Tenía cabello rojo</l>
+                <l  n="9" xml:id="v_9" corresp="s_9">y era en todo un hombre malvado.</l>
+                <l  n="10" xml:id="v_10" corresp="s_10">Su corazón ardía con ira</l>
+                <l  n="11" xml:id="v_11" corresp="s_11">y lo probaba en varias ocasiones.</l>
+                <l  n="12" xml:id="v_12" corresp="s_12">Quien cometiera una ofensa contra él</l>
+                <l  n="13" xml:id="v_13" corresp="s_13">debía pronto perder la vida.</l>
+                <l  n="14" xml:id="v_14" corresp="s_14">Sobre quien jurara</l>
+                <l  n="15" xml:id="v_15" corresp="s_15">la boca del emperador:</l>
+                <l  n="16" xml:id="v_16" corresp="s_16">"por mi barba lo pagarás",</l>
+                <l  n="17" xml:id="v_17" corresp="s_17">esa persona moriría al instante,</l>
+                <l  n="18" xml:id="v_18" corresp="s_18">pues él no había la piedad</l>
+                <l  n="19" xml:id="v_19" corresp="s_19">en sus manos.</l>
+                <l  n="20" xml:id="v_20" corresp="s_20">Así a muchos hombres</l>
+                <l  n="21" xml:id="v_21" corresp="s_21">les tomó la vida y el cuerpo,</l>
+                <l  n="22" xml:id="v_22" corresp="s_22">quienes habían perdido su favor</l>
+                <l  n="23" xml:id="v_23" corresp="s_23">por culpa de algún error.</l>
+                <l  n="24" xml:id="v_24" corresp="s_24">En una ocasión, en Babenberg,</l>
+                <l  n="25" xml:id="v_25" corresp="s_25">la hermosa fortaleza,</l>
+                <l  n="26" xml:id="v_26" corresp="s_26">organizó una fiesta</l>
+                <l  n="27" xml:id="v_27" corresp="s_27">para Pascua.</l>
+                <l  n="28" xml:id="v_28" corresp="s_28">Vinieron de sus monasterios</l>
+                <l  n="29" xml:id="v_29" corresp="s_29">importantes abades hasta la corte</l>
+                <l  n="30" xml:id="v_30" corresp="s_30">y muchos respetables obispos</l>
+                <l  n="31" xml:id="v_31" corresp="s_31">que allí fueron con honor.</l>
+                <l  n="32" xml:id="v_32" corresp="s_32">También vinieron con comitivas</l>
+                <l  n="33" xml:id="v_33" corresp="s_33">condes, barones, vasallos</l>
+                <l  n="34" xml:id="v_34" corresp="s_34">del reino</l>
+                <l  n="35" xml:id="v_35" corresp="s_35">y los nobles del imperio</l>
+                <l  n="36" xml:id="v_36" corresp="s_36">que todos allí se acercaron</l>
+                <l  n="37" xml:id="v_37" corresp="s_37">en gran cantidad.</l>
+                <l  n="38" xml:id="v_38" corresp="s_38">Una vez que se hubo cantado la misa</l>
+                <l  n="39" xml:id="v_39" corresp="s_39">en el día de Pascua</l>
+                <l  n="40" xml:id="v_40" corresp="s_40">se prepararon sin una queja</l>
+                <l  n="41" xml:id="v_41" corresp="s_41">todas las mesas</l>
+                <l  n="42" xml:id="v_42" corresp="s_42">y se trajo pan</l>
+                <l  n="43" xml:id="v_43" corresp="s_43">y muchas bellas copas</l>
+                <l  n="44" xml:id="v_44" corresp="s_44">se pusieron allí</l>
+                <l  n="45" xml:id="v_45" corresp="s_45">para que cuando el emperados Otto</l>
+                <l  n="46" xml:id="v_46" corresp="s_46">con su comitiva de nobles</l>
+                <l  n="47" xml:id="v_47" corresp="s_47">volviera de la iglesia</l>
+                <l  n="48" xml:id="v_48" corresp="s_48">pudiera beber agua</l>
+                <l  n="49" xml:id="v_49" corresp="s_49">y comer pronto.</l>
+                <l  n="50" xml:id="v_50" corresp="s_50">De casualidad había sido enviado allí</l>
+                <l  n="51" xml:id="v_51" corresp="s_51">un respetable joven</l>
+                <l  n="52" xml:id="v_52" corresp="s_52">noble y de buen aspecto</l>
+                <l  n="53" xml:id="v_53" corresp="s_53">bello en su corazón y en su cuerpo.</l>
+                <l  n="54" xml:id="v_54" corresp="s_54">Toda la gente sin malicia</l>
+                <l  n="55" xml:id="v_55" corresp="s_55">le otorgaban grandes elogios.</l>
+                <l  n="56" xml:id="v_56" corresp="s_56">Su padre era de Suabia</l>
+                <l  n="57" xml:id="v_57" corresp="s_57">y un conde poderoso,</l>
+                <l  n="58" xml:id="v_58" corresp="s_58">con muchas rentas.</l>
+                <l  n="59" xml:id="v_59" corresp="s_59">Esta herencia sería toda</l>
+                <l  n="60" xml:id="v_60" corresp="s_60">de este buen muchacho.</l>
+                <l  n="61" xml:id="v_61" corresp="s_61">Aquel día fue a la corte</l>
+                <l  n="62" xml:id="v_62" corresp="s_62">frente a la mesas y tomó</l>
+                <l  n="63" xml:id="v_63" corresp="s_63">con sus preciosas manos</l>
+                <l  n="64" xml:id="v_64" corresp="s_64">y tomó un tierno pan</l>
+                <l  n="64a" xml:id="v_65" corresp="s_65"/>
+                <l  n="64b" xml:id="v_66" corresp="s_66"/>
+                <l  n="65" xml:id="v_67" corresp="s_67">y quiso comerlo, como hacen los niños</l>
+                <l  n="66" xml:id="v_68" corresp="s_68">que no conocen las costumbres</l>
+                <l  n="67" xml:id="v_69" corresp="s_69">y siempre tienen ganas</l>
+                <l  n="68" xml:id="v_70" corresp="s_70">de comer antes de tiempo.</l>
+                <l  n="68a" xml:id="v_71" corresp="s_70a"/>
+                <l  n="69" xml:id="v_72" corresp="s_71">Mientras el joven duque bello,</l>
+                <l  n="70" xml:id="v_73" corresp="s_72">tomaba para sí el pan</l>
+                <l  n="71" xml:id="v_74" corresp="s_73">y cortaba un pedazo,</l>
+                <l  n="72" xml:id="v_75" corresp="s_74">llegó con su bastón</l>
+                <l  n="73" xml:id="v_76" corresp="s_75">el senescal del emperador</l>
+                <l  n="74" xml:id="v_77" corresp="s_76">para ver que se comiera</l>
+                <l  n="75" xml:id="v_78" corresp="s_77">solo luego de haber cantado.</l>
+                <l  n="76" xml:id="v_79" corresp="s_78">Éste se dio cuenta</l>
+                <l  n="77" xml:id="v_80" corresp="s_79">de que el valioso joven</l>
+                <l  n="78" xml:id="v_81" corresp="s_80">había tomado el pan</l>
+                <l  n="79" xml:id="v_82" corresp="s_81">y se enojó al instante.</l>
+                <l  n="80" xml:id="v_83" corresp="s_82">Su carácter era tal</l>
+                <l  n="81" xml:id="v_84" corresp="s_83">que lo molestaban nimiedades</l>
+                <l  n="82" xml:id="v_85" corresp="s_84">y por eso se acercó al joven</l>
+                <l  n="83" xml:id="v_86" corresp="s_85">y con el bastón que llevaba</l>
+                <l  n="84" xml:id="v_87" corresp="s_86">lo golpeó en la cabeza.</l>
+                <l  n="85" xml:id="v_88" corresp="s_87">Al joven noble y hermoso</l>
+                <l  n="86" xml:id="v_89" corresp="s_88">la cabeza y el pelo</l>
+                <l  n="87" xml:id="v_90" corresp="s_89">se le humedecieron de roja sangre.</l>
+                <l  n="88" xml:id="v_91" corresp="s_90">Por esto se cayó y se sentó</l>
+                <l  n="89" xml:id="v_92" corresp="s_91">y comenzó a llorar calidas lágrimas.</l>
+                <l  n="90" xml:id="v_93" corresp="s_92">Que el senescal se atrevió a golpearlo</l>
+                <l  n="91" xml:id="v_94" corresp="s_93">fue visto por un guerrero,</l>
+                <l  n="92" xml:id="v_95" corresp="s_94">un caballero extraordinario,</l>
+                <l  n="93" xml:id="v_96" corresp="s_95">llamado Heinrich von Kempten.</l>
+                <l  n="94" xml:id="v_97" corresp="s_96">Su condición noble se había</l>
+                <l  n="95" xml:id="v_98" corresp="s_97">nutrido de opulenta virilidad.</l>
+                <l  n="96" xml:id="v_99" corresp="s_98">Él había venido con el joven</l>
+                <l  n="97" xml:id="v_100" corresp="s_99">desde Suabia, según he leído,</l>
+                <l  n="98" xml:id="v_101" corresp="s_100">ya que era su educador</l>
+                <l  n="99" xml:id="v_102" corresp="s_101">y lo educaba con lealtad.</l>
+                <l  n="100" xml:id="v_103" corresp="s_102">Que al importante joven noble</l>
+                <l  n="101" xml:id="v_104" corresp="s_103">hubiesen golpeado sin compasión,</l>
+                <l  n="102" xml:id="v_105" corresp="s_104">lo molestó mucho y mala manera</l>
+                <l  n="103" xml:id="v_106" corresp="s_105">y le causó dolor y enojo.</l>
+                <l  n="104" xml:id="v_107" corresp="s_106">Al senescal le dijo</l>
+                <l  n="105" xml:id="v_108" corresp="s_107">el audaz caballero</l>
+                <l  n="106" xml:id="v_109" corresp="s_108">con gran ira:</l>
+                <l  n="107" xml:id="v_110" corresp="s_109">"¿Qué ofensa habeís castigado</l>
+                <l  n="108" xml:id="v_111" corresp="s_110">como para romper ahora</l>
+                <l  n="109" xml:id="v_112" corresp="s_111">vuestras buenas costumbres caballerescas?</l>
+                <l  n="110" xml:id="v_113" corresp="s_112">Que a un noble descendiente de príncipes</l>
+                <l  n="111" xml:id="v_114" corresp="s_113">tan horriblemente habeís golpeado;</l>
+                <l  n="112" xml:id="v_115" corresp="s_114">quiero deciros que</l>
+                <l  n="113" xml:id="v_116" corresp="s_115">os estaís compartando como no debeís.</l>
+                <l  n="114" xml:id="v_117" corresp="s_116">Que sin motivo</l>
+                <l  n="115" xml:id="v_118" corresp="s_117">habeís golpeado a mi señor,</l>
+                <l  n="116" xml:id="v_119" corresp="s_118">eso es realmente despreciable"</l>
+                <l  n="117" xml:id="v_120" corresp="s_119">El senescal dijo:</l>
+                <l  n="118" xml:id="v_121" corresp="s_120">"Me parece apropiado
+                    <pc>“</pc><w><orig>mir</orig><reg>mir</reg></w><c type="space"/>
+                    <w><orig>ist</orig><reg>ist</reg></w><c type="space"/>
+                    <w><orig>daz</orig><reg>daz</reg></w><c type="space"/>
+                    <w><orig>wol</orig><reg>wol</reg></w><c type="space"/>
+                    <w><orig>gemez</orig><reg>gemaeze</reg></w><pc>,</pc>
+                </l>
+                <l  n="119" xml:id="v_122" corresp="s_121">que yo me ocupe de castigar lo inapropiado</l>
+                <l  n="119a" xml:id="v_123" corresp="s_121a"/>
+                <l  n="120" xml:id="v_124" corresp="s_122">y golpée a aquel</l>
+                <l  n="120a" xml:id="v_125" corresp="s_122a"/>
+                <l  n="121" xml:id="v_126" corresp="s_123">que no muestre modales en la corte.</l>
+                <l  n="122" xml:id="v_127" corresp="s_124">Vuestros dichos</l>
+                <l  n="123" xml:id="v_128" corresp="s_125">habandonad completamente.</l>
+                <l  n="124" xml:id="v_129" corresp="s_126">Yo os temo tan poco</l>
+                <l  n="125" xml:id="v_130" corresp="s_127">como el azor al gallo.</l>
+                <l  n="126" xml:id="v_131" corresp="s_128">¿Qué quereís ahora hacer</l>
+                <l  n="127" xml:id="v_132" corresp="s_129">porque he golpeado al duque?"</l>
+                <l  n="127a" xml:id="v_133" corresp="s_130">"Ahora lo sabrás,"</l>
+                <l  n="128" xml:id="v_134" corresp="s_131">dijo Heinrich von Kempten.</l>
+                <l  n="129" xml:id="v_135" corresp="s_132">"Ya que al noblísimo príncipe</l>
+                <l  n="130" xml:id="v_136" corresp="s_133">así habeís sabido golpear,</l>
+                <l  n="131" xml:id="v_137" corresp="s_134">ahora lo lamentaréis,</l>
+                <l  n="132" xml:id="v_138" corresp="s_135">pues ya no lo soporto.</l>
+                <l  n="133" xml:id="v_139" corresp="s_136">Ahora, canalla sin virtud:</l>
+                <l  n="134" xml:id="v_140" corresp="s_137">¿cómo pretendéis vivir</l>
+                <l  n="135" xml:id="v_141" corresp="s_138">luego de haber dado al joven</l>
+                <l  n="136" xml:id="v_142" corresp="s_139">tal paliza inapropiada;</l>
+                <l  n="137" xml:id="v_143" corresp="s_140">de que tu mano abyecta</l>
+                <l  n="138" xml:id="v_144" corresp="s_141">haya hecho tal infamia?</l>
+                <l  n="139" xml:id="v_145" corresp="s_142">Por eso deberá regar vuesta sangre</l>
+                <l  n="140" xml:id="v_146" corresp="s_143">esta sala en este mismísimo lugar."</l>
+                <l  n="141" xml:id="v_147" corresp="s_144">Así tomó él un palo</l>
+                <l  n="142" xml:id="v_148" corresp="s_145">como una enorme vara</l>
+                <l  n="143" xml:id="v_149" corresp="s_146">y lo golpeó de manera que la cabeza</l>
+                <l  n="144" xml:id="v_150" corresp="s_147">se le partió como un huevo</l>
+                <l  n="145" xml:id="v_151" corresp="s_148">y el creaneo se separó en dos,</l>
+                <l  n="146" xml:id="v_152" corresp="s_149">tal como una vasija se quebró,</l>
+                <l  n="147" xml:id="v_153" corresp="s_150">y comenzó a girar</l>
+                <l  n="148" xml:id="v_154" corresp="s_151">de aquí para allá como un trompo.</l>
+                <l  n="149" xml:id="v_155" corresp="s_152">El cerebro y la cabeza</l>
+                <l  n="150" xml:id="v_156" corresp="s_153">me parece que tenía destrozadas.</l>
+                <l  n="151" xml:id="v_157" corresp="s_154">Así cayó al suelo</l>
+                <l  n="152" xml:id="v_158" corresp="s_155">y quedó muerto y dando lástima.</l>
+                <l  n="153" xml:id="v_159" corresp="s_156">La sala se tiñó roja con su sangre</l>
+                <l  n="154" xml:id="v_160" corresp="s_157">y se levantó un enorme clamor</l>
+                <l  n="155" xml:id="v_161" corresp="s_158">y un gran griterío.</l>
+                <l  n="156" xml:id="v_162" corresp="s_159">En eso entró el emperador</l>
+                <l  n="157" xml:id="v_163" corresp="s_160">para beber algo de agua</l>
+                <l  n="158" xml:id="v_164" corresp="s_161">y estaba sentado a la mesa</l>
+                <l  n="159" xml:id="v_165" corresp="s_162">cuando la sangre la sangre fresca</l>
+                <l  n="160" xml:id="v_166" corresp="s_163">comenzó a ver sobre el suelo.</l>
+                <l  n="161" xml:id="v_167" corresp="s_164">Preguntó: "¿Qué ha sucedido?</l>
+                <l  n="162" xml:id="v_168" corresp="s_165">¿Quién ha ensuciado la sala</l>
+                <l  n="163" xml:id="v_169" corresp="s_166">y tal acción ejecutado</l>
+                <l  n="164" xml:id="v_170" corresp="s_167">que la ha ensangrentado?"</l>
+                <l  n="165" xml:id="v_171" corresp="s_168">Enseguida comenzó</l>
+                <l  n="166" xml:id="v_172" corresp="s_169">su preciada comitiva a decirle</l>
+                <l  n="167" xml:id="v_173" corresp="s_170">que su senescal había sido asesinado</l>
+                <l  n="168" xml:id="v_174" corresp="s_171">hace un instante.</l>
+                <l  n="169" xml:id="v_175" corresp="s_172">Con ira habló entonces el emperador:</l>
+                <l  n="170" xml:id="v_176" corresp="s_173">"¿Quién me ha causado esta ofensa?"</l>
+                <l  n="170a" xml:id="v_177" corresp="s_173a"/>
+                <l  n="170b" xml:id="v_178" corresp="s_173b"/>
+                <l  n="171" xml:id="v_179" corresp="s_174">"Lo ha hecho Heinrich von Kempten,"</l>
+                <l  n="172" xml:id="v_180" corresp="s_175">dijeron todos al unísono.</l>
+                <l  n="173" xml:id="v_181" corresp="s_176">"Sí," dijo el poderoso emperador,</l>
+                <l  n="173a" xml:id="v_182" corresp="s_176a"/>
+                <l  n="174" xml:id="v_183" corresp="s_177">"Si él le ha quitado la vida</l>
+                <l  n="175" xml:id="v_184" corresp="s_178">ha venido a destiempo</l>
+                <l  n="176" xml:id="v_185" corresp="s_179">desde Suabia hasta este país.</l>
+                <l  n="177" xml:id="v_186" corresp="s_180">Que lo traigan enseguida</l>
+                <l  n="178" xml:id="v_187" corresp="s_181">a mi presencia.</l>
+                <l  n="179" xml:id="v_188" corresp="s_182">Deseo preguntarle por qué</l>
+                <l  n="180" xml:id="v_189" corresp="s_183">me ha causado tan gran daño."</l>
+                <l  n="181" xml:id="v_190" corresp="s_184">Entonces fue llevado el caballero</l>
+                <l  n="182" xml:id="v_191" corresp="s_185">frente al temible emperador,</l>
+                <l  n="183" xml:id="v_192" corresp="s_186">y mientras iba frente al emperador</l>
+                <l  n="184" xml:id="v_193" corresp="s_187">y este lo vio de lejos</l>
+                <l  n="185" xml:id="v_194" corresp="s_188">con ira le habló:</l>
+                <l  n="186" xml:id="v_195" corresp="s_189">"¿Cómo es posible</l>
+                <l  n="187" xml:id="v_196" corresp="s_190">que mi alabado senescal</l>
+                <l  n="188" xml:id="v_197" corresp="s_191">haya sido asesinado por vos?</l>
+                <l  n="189" xml:id="v_198" corresp="s_192">Os habéis atraído</l>
+                <l  n="190" xml:id="v_199" corresp="s_193">toda mi inclemencia.</l>
+                <l  n="191" xml:id="v_200" corresp="s_194">Mi poder de emperador os</l>
+                <l  n="192" xml:id="v_201" corresp="s_195">será mostrado.</l>
+                <l  n="193" xml:id="v_202" corresp="s_196">Habéis destruido el honor de mi corte</l>
+                <l  n="194" xml:id="v_203" corresp="s_197">y mi buena fama.</l>
+                <l  n="195" xml:id="v_204" corresp="s_198">Será vengada en tí</l>
+                <l  n="196" xml:id="v_205" corresp="s_199">la enorme maldad y el hecho</l>
+                <l  n="197" xml:id="v_206" corresp="s_200">de que al senescal se vea</l>
+                <l  n="198" xml:id="v_207" corresp="s_201">paralizado por la muerte."</l>
+                <l  n="199" xml:id="v_208" corresp="s_202">"No, mi señor," dijo el de Kempten,</l>
+                <l  n="200" xml:id="v_209" corresp="s_203">el audaz Heinrich.</l>
+                <l  n="200a" xml:id="v_210" corresp="s_203a"/>
+                <l  n="200b" xml:id="v_211" corresp="s_203b"/>
+                <l  n="201" xml:id="v_212" corresp="s_204">"Déjame recibir tu clemencia</l>
+                <l  n="202" xml:id="v_213" corresp="s_205">y tu constante favor.</l>
+                <l  n="203" xml:id="v_214" corresp="s_206">Permíteme explicar mi inocencia</l>
+                <l  n="204" xml:id="v_215" corresp="s_207">y mi culpa.</l>
+                <l  n="205" xml:id="v_216" corresp="s_208">Si con recta ferocidad</l>
+                <l  n="206" xml:id="v_217" corresp="s_209">me he ganado vuestra enemistad,</l>
+                <l  n="207" xml:id="v_218" corresp="s_210">deja que tu temible fuerza</l>
+                <l  n="208" xml:id="v_219" corresp="s_211">caiga sobre mí y me aniquile.</l>
+                <l  n="209" xml:id="v_220" corresp="s_212">Si, en cambio, puedo demostrar</l>
+                <l  n="210" xml:id="v_221" corresp="s_213">que no he tenido yo la culpa,</l>
+                <l  n="211" xml:id="v_222" corresp="s_214">permiteme recibir tu clemencia.</l>
+                <l  n="212" xml:id="v_223" corresp="s_215">No me hagais daño,</l>
+                <l  n="213" xml:id="v_224" corresp="s_216">en nombre de Dios que hoy resucitó,</l>
+                <l  n="214" xml:id="v_225" corresp="s_217">en este día de Pascua.</l>
+                <l  n="215" xml:id="v_226" corresp="s_218">Permíteme conseguir</l>
+                <l  n="216" xml:id="v_227" corresp="s_219">tu favor imperial,</l>
+                <l  n="217" xml:id="v_228" corresp="s_220">ya que tenéis el buen juicio</l>
+                <l  n="218" xml:id="v_229" corresp="s_221">de ser de caracter sabío.</l>
+                <l  n="219" xml:id="v_230" corresp="s_222">Por lo tanto, honra esta fiesta</l>
+                <l  n="220" xml:id="v_231" corresp="s_223">conmigo, tan pobre, hoy.</l>
+                <l  n="221" xml:id="v_232" corresp="s_224">Déjame disfrutar de la noble gente</l>
+                <l  n="222" xml:id="v_233" corresp="s_225">que aquí se puede ver.</l>
+                <l  n="223" xml:id="v_234" corresp="s_226">Ninguna culpa fue jamás tan grande,</l>
+                <l  n="224" xml:id="v_235" corresp="s_227">que no le correspondería recibir clemencia.</l>
+                <l  n="225" xml:id="v_236" corresp="s_228">Por eso permíteme encontrar</l>
+                <l  n="226" xml:id="v_237" corresp="s_229">y recibir la salvación</l>
+                <l  n="227" xml:id="v_238" corresp="s_230">y no ser ejecutado."</l>
+                <l  n="228" xml:id="v_239" corresp="s_231">El emperador malvado y pelirrojo</l>
+                <l  n="229" xml:id="v_240" corresp="s_232">le dio esta respuesta</l>
+                <l  n="230" xml:id="v_241" corresp="s_233">desde su turbado corazón;</l>
+                <l  n="231" xml:id="v_242" corresp="s_234">le dijo: "El dolor mortal</l>
+                <l  n="232" xml:id="v_243" corresp="s_235">que sufrió mi senescal</l>
+                <l  n="233" xml:id="v_244" corresp="s_236">padezco con tanto sufrimiento</l>
+                <l  n="234" xml:id="v_245" corresp="s_237">que no tengo la intención</l>
+                <l  n="235" xml:id="v_246" corresp="s_238">de ofrecerte clemencia.</l>
+                <l  n="236" xml:id="v_247" corresp="s_239">Por vuestra gran culpa</l>
+                <l  n="237" xml:id="v_248" corresp="s_240">mi favor imperial</l>
+                <l  n="238" xml:id="v_249" corresp="s_241">siempre os será privado.</l>
+                <l  n="239" xml:id="v_250" corresp="s_242">Por mi barba, lo pagarás,</l>
+                <l  n="240" xml:id="v_251" corresp="s_243">que mi senescal yazga muerto</l>
+                <l  n="241" xml:id="v_252" corresp="s_244">por vuestra culpa sin razón."</l>
+                <l  n="242" xml:id="v_253" corresp="s_245">El noble caballero Heinrich</l>
+                <l  n="243" xml:id="v_254" corresp="s_246">comprendió por este juramento</l>
+                <l  n="244" xml:id="v_255" corresp="s_247">que hizo el malvado emperador</l>
+                <l  n="245" xml:id="v_256" corresp="s_248">que pronto y allí mismo</l>
+                <l  n="246" xml:id="v_257" corresp="s_249">debería perder la vida.</l>
+                <l  n="247" xml:id="v_258" corresp="s_250">Esto lo enfureció mucho</l>
+                <l  n="247a" xml:id="v_259" corresp="s_250-a"/>
+                <l  n="248" xml:id="v_260" corresp="s_251">y quiso salvarse</l>
+                <l  n="249" xml:id="v_261" corresp="s_252">y resguardar su vida</l>
+                <l  n="250" xml:id="v_262" corresp="s_253">con todo sus fuerzas,</l>
+                <l  n="251" xml:id="v_263" corresp="s_254">pues sabía que</l>
+                <l  n="252" xml:id="v_264" corresp="s_255">el juramento por la barba quería decir</l>
+                <l  n="253" xml:id="v_265" corresp="s_256">que lo cumpliría sin falta.</l>
+                <l  n="254" xml:id="v_266" corresp="s_257">Entonces dijo: "ahora veo claramente</l>
+                <l  n="255" xml:id="v_267" corresp="s_258">que pronto he de morir.</l>
+                <l  n="256" xml:id="v_268" corresp="s_259">Por eso tengo derecho a defenderme</l>
+                <l  n="257" xml:id="v_269" corresp="s_260">y resguardar mi vida</l>
+                <l  n="258" xml:id="v_270" corresp="s_261">mientras pueda."</l>
+                <l  n="259" xml:id="v_271" corresp="s_262">Así el extraordinario hombre</l>
+                <l  n="260" xml:id="v_272" corresp="s_263">saltó rápidamente sobre el emperador.</l>
+                <l  n="261" xml:id="v_273" corresp="s_264">Lo tomó por la larga barba</l>
+                <l  n="262" xml:id="v_274" corresp="s_265">y lo llevó por sobre la mesa.</l>
+                <l  n="263" xml:id="v_275" corresp="s_266">Fuese carne o pescado,</l>
+                <l  n="264" xml:id="v_276" corresp="s_267">todo lo que allí se había puesto</l>
+                <l  n="265" xml:id="v_277" corresp="s_268">fue arrojado como basura</l>
+                <l  n="266" xml:id="v_278" corresp="s_269">mientras lo traía de la barba.</l>
+                <l  n="267" xml:id="v_279" corresp="s_270">Del mentón y de la boca</l>
+                <l  n="268" xml:id="v_280" corresp="s_271">se le extrajeron muchos pelos.</l>
+                <l  n="269" xml:id="v_281" corresp="s_272">Su cabeza imperial</l>
+                <l  n="270" xml:id="v_282" corresp="s_273">estaba humillada;</l>
+                <l  n="271" xml:id="v_283" corresp="s_274">la corona adornada</l>
+                <l  n="272" xml:id="v_284" corresp="s_275">que allí se posaba</l>
+                <l  n="273" xml:id="v_285" corresp="s_276">cayó en el piso del palacio</l>
+                <l  n="274" xml:id="v_286" corresp="s_277">con todos sus ricos adornos.</l>
+                <l  n="275" xml:id="v_287" corresp="s_278">Él [Heinrich] lo había apresado</l>
+                <l  n="276" xml:id="v_288" corresp="s_279">rápido, en un instante.</l>
+                <l  n="277" xml:id="v_289" corresp="s_280">Tomó de un costado</l>
+                <l  n="278" xml:id="v_290" corresp="s_281">un cuchillo bien afilado,</l>
+                <l  n="279" xml:id="v_291" corresp="s_282">y lo puso</l>
+                <l  n="280" xml:id="v_292" corresp="s_283">pronto contra su gargante.</l>
+                <l  n="281" xml:id="v_293" corresp="s_284">Con la mano comenzó</l>
+                <l  n="282" xml:id="v_294" corresp="s_285">a ahorcarlo por el cuello.</l>
+                <l  n="283" xml:id="v_295" corresp="s_286">Dijo: "Ahora dejadme recibir</l>
+                <l  n="284" xml:id="v_296" corresp="s_287">la garantía y la seguridad,</l>
+                <l  n="285" xml:id="v_297" corresp="s_288">de que me será dada vuestra clemencia</l>
+                <l  n="286" xml:id="v_298" corresp="s_289">y vuestra protección.</l>
+                <l  n="287" xml:id="v_299" corresp="s_290">Sobre la tierra deberéis</l>
+                <l  n="288" xml:id="v_300" corresp="s_291">perder la vida de otra manera.</l>
+                <l  n="289" xml:id="v_301" corresp="s_292">El juramento que habéis hecho</l>
+                <l  n="290" xml:id="v_302" corresp="s_293">debes falsear si queréis salir con vida,</l>
+                <l  n="291" xml:id="v_303" corresp="s_294">o será vuestro fin."</l>
+                <l  n="292" xml:id="v_304" corresp="s_295">Así estaba él sobre él en este momento</l>
+                <l  n="293" xml:id="v_305" corresp="s_296">y le tiraba con ahinco</l>
+                <l  n="294" xml:id="v_306" corresp="s_297">de su larga barba.</l>
+                <l  n="295" xml:id="v_307" corresp="s_298">Lo ahorcaba tan fuerte</l>
+                <l  n="296" xml:id="v_308" corresp="s_299">que no podía hablar.</l>
+                <l  n="297" xml:id="v_309" corresp="s_300">Los valiosos y atrevidos</l>
+                <l  n="298" xml:id="v_310" corresp="s_301">príncipes todos saltaron,</l>
+                <l  n="299" xml:id="v_311" corresp="s_302">con velocidad se acercaron</l>
+                <l  n="300" xml:id="v_312" corresp="s_303">con violencia.</l>
+                <l  n="301" xml:id="v_313" corresp="s_304">El emperador cadavérico</l>
+                <l  n="302" xml:id="v_314" corresp="s_305">estaba sometido por el de Kempten.</l>
+                <l  n="303" xml:id="v_315" corresp="s_306">Superado en fuerzas (?)</l>
+                <l  n="304" xml:id="v_316" corresp="s_307">les hubiese gustado al instante</l>
+                <l  n="305" xml:id="v_317" corresp="s_308">liberarlo de él.</l>
+                <l  n="306" xml:id="v_318" corresp="s_309">Entonces habló el caballero Heinrich:</l>
+                <l  n="307" xml:id="v_319" corresp="s_310">"Si alguien me toca</l>
+                <l  n="308" xml:id="v_320" corresp="s_311">morirá el emperador.</l>
+                <l  n="309" xml:id="v_321" corresp="s_312">Luego pondré en un apuro</l>
+                <l  n="310" xml:id="v_322" corresp="s_313">al que primero me toque.</l>
+                <l  n="311" xml:id="v_323" corresp="s_314">Si no puedo salvarme,</l>
+                <l  n="312" xml:id="v_324" corresp="s_315">también a nuestro anfitrión le irá mal:</l>
+                <l  n="313" xml:id="v_325" corresp="s_316">lo apuñalaré en el 'huérfano'</l>
+                <l  n="314" xml:id="v_326" corresp="s_317">con este duro cuchillo.</l>
+                <l  n="315" xml:id="v_327" corresp="s_318">También lo pagarán los invitados</l>
+                <l  n="316" xml:id="v_328" corresp="s_319">que quisieran matarme.</l>
+                <l  n="317" xml:id="v_329" corresp="s_320">Hará correr su sangre</l>
+                <l  n="318" xml:id="v_330" corresp="s_321">antes de ser derrotado.</l>
+                <l  n="319" xml:id="v_331" corresp="s_322">Así que quien quiera morir</l>
+                <l  n="320" xml:id="v_332" corresp="s_323">que venga y me toque."</l>
+                <l  n="321" xml:id="v_333" corresp="s_324">Ante esto todos retrocedieron</l>
+                <l  n="322" xml:id="v_334" corresp="s_325">con buena razón.</l>
+                <l  n="323" xml:id="v_335" corresp="s_326">También el emperador con dificultad</l>
+                <l  n="324" xml:id="v_336" corresp="s_327">les indicaba</l>
+                <l  n="325" xml:id="v_337" corresp="s_328">que tomaran distancia.</l>
+                <l  n="326" xml:id="v_338" corresp="s_329">Así se hizo y sucedió.</l>
+                <l  n="327" xml:id="v_339" corresp="s_330">Entonces le dijo al emperador</l>
+                <l  n="328" xml:id="v_340" corresp="s_331">el audaz Heinrich:</l>
+                <l  n="329" xml:id="v_341" corresp="s_332">"No me dejés así mucho más</l>
+                <l  n="330" xml:id="v_342" corresp="s_333">si deseais conservar la vida.</l>
+                <l  n="331" xml:id="v_343" corresp="s_334">Que me sea dada la seguridad</l>
+                <l  n="332" xml:id="v_344" corresp="s_335">de que voy a salvarme si os dejo vivir.</l>
+                <l  n="333" xml:id="v_345" corresp="s_336">Si no se me diera tal certeza</l>
+                <l  n="333a" xml:id="v_346" corresp="s_336a"/>
+                <l  n="334" xml:id="v_347" corresp="s_337">será vuestra muerte."</l>
+                <l  n="335" xml:id="v_348" corresp="s_338">Con esto levantó su dedo</l>
+                <l  n="336" xml:id="v_349" corresp="s_339">el emperador y juró</l>
+                <l  n="337" xml:id="v_350" corresp="s_340">por su honor imperial</l>
+                <l  n="338" xml:id="v_351" corresp="s_341">que lo dejaría</l>
+                <l  n="339" xml:id="v_352" corresp="s_342">salir sano de allí.</l>
+                <l  n="340" xml:id="v_353" corresp="s_343">Cuando fue dada la seguridad</l>
+                <l  n="341" xml:id="v_354" corresp="s_344">dejó al emperador Otto</l>
+                <l  n="342" xml:id="v_355" corresp="s_345">libre al instante.</l>
+                <l  n="343" xml:id="v_356" corresp="s_346">Soltó también con prontitud</l>
+                <l  n="344" xml:id="v_357" corresp="s_347">la barba de sus manos</l>
+                <l  n="345" xml:id="v_358" corresp="s_348">y cuando se levantó</l>
+                <l  n="346" xml:id="v_359" corresp="s_349">del suelo</l>
+                <l  n="347" xml:id="v_360" corresp="s_350">fue a sentarse</l>
+                <l  n="348" xml:id="v_361" corresp="s_351">en su opulenta silla.</l>
+                <l  n="349" xml:id="v_362" corresp="s_352">El pelo y la barba comenzó</l>
+                <l  n="350" xml:id="v_363" corresp="s_353">a peinar y dijo</l>
+                <l  n="351" xml:id="v_364" corresp="s_354">al caballero:</l>
+                <l  n="352" xml:id="v_365" corresp="s_355">"Os he dado la seguridad</l>
+                <l  n="353" xml:id="v_366" corresp="s_356">de que el cuerpo y la vida</l>
+                <l  n="354" xml:id="v_367" corresp="s_357">os dejaré sin mácula.</l>
+                <l  n="355" xml:id="v_368" corresp="s_358">Ahora partid</l>
+                <l  n="356" xml:id="v_369" corresp="s_359">y por siempre</l>
+                <l  n="357" xml:id="v_370" corresp="s_360">evitadme y que yo nunca</l>
+                <l  n="358" xml:id="v_371" corresp="s_361">os vea con mis ojos.</l>
+                <l  n="358a" xml:id="v_372" corresp="s_361a"/>
+                <l  n="358b" xml:id="v_373" corresp="s_361b"/>
+                <l  n="359" xml:id="v_374" corresp="s_362">Me doy cuenta y observo</l>
+                <l  n="360" xml:id="v_375" corresp="s_363">que como parte de mis vasallos</l>
+                <l  n="361" xml:id="v_376" corresp="s_364">me sois una carga. Además me habías</l>
+                <l  n="362" xml:id="v_377" corresp="s_365">causado mucho daño.</l>
+                <l  n="363" xml:id="v_378" corresp="s_366">Quien mire y observe</l>
+                <l  n="364" xml:id="v_379" corresp="s_367">mi barba se dará cuenta</l>
+                <l  n="365" xml:id="v_380" corresp="s_368">que siempre preferiría</l>
+                <l  n="366" xml:id="v_381" corresp="s_369">manteneros lejos.</l>
+                <l  n="367" xml:id="v_382" corresp="s_370">Otro barbero deberá afeitarme</l>
+                <l  n="368" xml:id="v_383" corresp="s_371">y no vos, que no quepa duda.</l>
+                <l  n="369" xml:id="v_384" corresp="s_372">Mi barba siempre, lo juro por Dios,</l>
+                <l  n="370" xml:id="v_385" corresp="s_373">deberá evitar vuestra navaja</l>
+                <l  n="371" xml:id="v_386" corresp="s_374">que puede cortar con aspereza</l>
+                <l  n="372" xml:id="v_387" corresp="s_375">la piel y el pelo de un rey.</l>
+                <l  n="373" xml:id="v_388" corresp="s_376">Yo mismo he experimentado</l>
+                <l  n="374" xml:id="v_389" corresp="s_377">que sois un malvado barbero.</l>
+                <l  n="375" xml:id="v_390" corresp="s_378">En este mismo día</l>
+                <l  n="376" xml:id="v_391" corresp="s_379">debéis abandonar la corte y el país."</l>
+                <l  n="377" xml:id="v_392" corresp="s_380">Enseguida el caballero</l>
+                <l  n="378" xml:id="v_393" corresp="s_381">se despidió de los hombres del emperador</l>
+                <l  n="379" xml:id="v_394" corresp="s_382">y se fue de allí.</l>
+                <l  n="380" xml:id="v_395" corresp="s_383">Volvió a Suabia</l>
+                <l  n="381" xml:id="v_396" corresp="s_384">y se asentó en su tierra</l>
+                <l  n="382" xml:id="v_397" corresp="s_385">sobre un poderoso feudo.</l>
+                <l  n="383" xml:id="v_398" corresp="s_386">Cultivos, praderas y campos</l>
+                <l  n="384" xml:id="v_399" corresp="s_387">tenía el de Kempten, según he leído.</l>
+                <l  n="385" xml:id="v_400" corresp="s_388">Allí se quedó pues también era</l>
+                <l  n="386" xml:id="v_401" corresp="s_389">un servidor del convento [de Kempten].</l>
+                <l  n="387" xml:id="v_402" corresp="s_390">Nos cuenta la verdadera escritura</l>
+                <l  n="388" xml:id="v_403" corresp="s_391">que vivía con comodidad</l>
+                <l  n="389" xml:id="v_404" corresp="s_392">pues tenía ingresos suficientes</l>
+                <l  n="390" xml:id="v_405" corresp="s_393">y era bien considerado.</l>
+                <l  n="390a" xml:id="v_406" corresp="s_393a"/>
+                <l  n="390b" xml:id="v_407" corresp="s_393b"/>
+                <l  n="391" xml:id="v_408" corresp="s_394">Diez años después</l>
+                <l  n="392" xml:id="v_409" corresp="s_395">sucedió que</l>
+                <l  n="393" xml:id="v_410" corresp="s_396">el emperador Otto</l>
+                <l  n="394" xml:id="v_411" corresp="s_397">peleaba una gran guerra</l>
+                <l  n="395" xml:id="v_412" corresp="s_398">del otro lado de las montañas</l>
+                <l  n="396" xml:id="v_413" corresp="s_399">frente a una gran ciudad.</l>
+                <l  n="397" xml:id="v_414" corresp="s_400">Él y los suyos habían</l>
+                <l  n="398" xml:id="v_415" corresp="s_401">abocado mucho tiempo</l>
+                <l  n="399" xml:id="v_416" corresp="s_402">a enfrentar las fortificaciones</l>
+                <l  n="400" xml:id="v_417" corresp="s_403">con piedras y con flechas.</l>
+                <l  n="401" xml:id="v_418" corresp="s_404">Sin embargo, se encontraba</l>
+                <l  n="402" xml:id="v_419" corresp="s_405">tan necesitado de gente</l>
+                <l  n="403" xml:id="v_420" corresp="s_406">que a la caballería alemana</l>
+                <l  n="404" xml:id="v_421" corresp="s_407">ordenó convocar.</l>
+                <l  n="405" xml:id="v_422" corresp="s_408">Mandó en todas partes</l>
+                <l  n="406" xml:id="v_423" corresp="s_409">comunicar y decir:</l>
+                <l  n="407" xml:id="v_424" corresp="s_410">Quienquiera que tuviera</l>
+                <l  n="408" xml:id="v_425" corresp="s_411">un feudo del reino,</l>
+                <l  n="409" xml:id="v_426" corresp="s_412">que con pronittud</l>
+                <l  n="410" xml:id="v_427" corresp="s_413">viniera en ayuda.</l>
+                <l  n="411" xml:id="v_428" corresp="s_414">Así le hizo saber a los nobles:</l>
+                <l  n="412" xml:id="v_429" corresp="s_415">quien le debiera servicio</l>
+                <l  n="413" xml:id="v_430" corresp="s_416">y un feudo o vasallos</l>
+                <l  n="414" xml:id="v_431" corresp="s_417">hubiese recibido de él,</l>
+                <l  n="415" xml:id="v_432" corresp="s_418">que viniese en su ayuda</l>
+                <l  n="416" xml:id="v_433" corresp="s_419">hasta Apulia en ese momento</l>
+                <l  n="417" xml:id="v_434" corresp="s_420">y lo ayudase a luchar.</l>
+                <l  n="418" xml:id="v_435" corresp="s_421">Quien no lo hiciera,</l>
+                <l  n="419" xml:id="v_436" corresp="s_422">perdería su feudo</l>
+                <l  n="420" xml:id="v_437" corresp="s_423">y debería abandonarlo.</l>
+                <l  n="421" xml:id="v_438" corresp="s_424">Cuando se esparcía el mensaje</l>
+                <l  n="422" xml:id="v_439" corresp="s_425">por todas las tierras alemanas,</l>
+                <l  n="423" xml:id="v_440" corresp="s_426">también se envió a Kempten</l>
+                <l  n="424" xml:id="v_441" corresp="s_427">un mensajero para el abad</l>
+                <l  n="425" xml:id="v_442" corresp="s_428">que le contó el asunto.</l>
+                <l  n="426" xml:id="v_443" corresp="s_429">Cuando el encomiable príncipe</l>
+                <l  n="427" xml:id="v_444" corresp="s_430">escuchó el mensaje del emperador</l>
+                <l  n="428" xml:id="v_445" corresp="s_431">se preparó para el viaje.</l>
+                <l  n="429" xml:id="v_446" corresp="s_432">También pronto, según se dice,</l>
+                <l  n="430" xml:id="v_447" corresp="s_433">fueron convocados todos sus vasallos</l>
+                <l  n="431" xml:id="v_448" corresp="s_434">y compelidos a viajar</l>
+                <l  n="432" xml:id="v_449" corresp="s_435">con lealtad y con juramentos.</l>
+                <l  n="433" xml:id="v_450" corresp="s_436">Al astuto caballero</l>
+                <l  n="434" xml:id="v_451" corresp="s_437">de Kempten mando llamar ante él.</l>
+                <l  n="435" xml:id="v_452" corresp="s_438">Le dijo: "habéis escuchado</l>
+                <l  n="436" xml:id="v_453" corresp="s_439">que el emperador ha pedido</l>
+                <l  n="437" xml:id="v_454" corresp="s_440">gente en estas tierras allemanas</l>
+                <l  n="438" xml:id="v_455" corresp="s_441">y yo soy uno de los príncipes</l>
+                <l  n="439" xml:id="v_456" corresp="s_442">que irá en su ayuda</l>
+                <l  n="440" xml:id="v_457" corresp="s_443">por sobre las montañas.</l>
+                <l  n="441" xml:id="v_458" corresp="s_444">Para eso preciso de vos</l>
+                <l  n="442" xml:id="v_459" corresp="s_445">y de mis vasallos</l>
+                <l  n="443" xml:id="v_460" corresp="s_446">a los que hoy pido</l>
+                <l  n="444" xml:id="v_461" corresp="s_447">, como a vos, que emprendais el viaje</l>
+                <l  n="445" xml:id="v_462" corresp="s_448">y no lo dejéis,</l>
+                <l  n="446" xml:id="v_463" corresp="s_449">que nos ha sido a mí y a vos ordenado.</l>
+                <l  n="447" xml:id="v_464" corresp="s_450">Por esto ahora mismo</l>
+                <l  n="448" xml:id="v_465" corresp="s_451">debeís preparaos para el viaje."</l>
+                <l  n="449" xml:id="v_466" corresp="s_452">"Oh, señor, qué tenéis preparado?"</l>
+                <l  n="450" xml:id="v_467" corresp="s_453">dijo Heinrich von Kempten,</l>
+                <l  n="451" xml:id="v_468" corresp="s_454">"sabeis bien que yo</l>
+                <l  n="452" xml:id="v_469" corresp="s_455">ante el emperador no puedo comparecer</l>
+                <l  n="453" xml:id="v_470" corresp="s_456">y que su favor</l>
+                <l  n="454" xml:id="v_471" corresp="s_457">he perdido completamente.</l>
+                <l  n="455" xml:id="v_472" corresp="s_458">Debéis ahorrarme este viaje</l>
+                <l  n="456" xml:id="v_473" corresp="s_459">en nombre de mi buen servicio.</l>
+                <l  n="457" xml:id="v_474" corresp="s_460">El emperador ha alejado de mí</l>
+                <l  n="458" xml:id="v_475" corresp="s_461">su clemencia por completo</l>
+                <l  n="459" xml:id="v_476" corresp="s_462">y extiende sobre mí</l>
+                <l  n="460" xml:id="v_477" corresp="s_463">el techo (?) de su inclemencia.</l>
+                <l  n="461" xml:id="v_478" corresp="s_464">He criado dos hijos</l>
+                <l  n="462" xml:id="v_479" corresp="s_465">que puedo enviar con vos</l>
+                <l  n="463" xml:id="v_480" corresp="s_466">antes de que yo deba viajar solo.</l>
+                <l  n="464" xml:id="v_481" corresp="s_467">Llevaos a ambos.</l>
+                <l  n="465" xml:id="v_482" corresp="s_468">Vestidos para la guerra,</l>
+                <l  n="466" xml:id="v_483" corresp="s_469">están, llevaos hacía allí."</l>
+                <l  n="467" xml:id="v_484" corresp="s_470">"No" dijo el abad, "no soy</l>
+                <l  n="468" xml:id="v_485" corresp="s_471">de ese tipo, que si a vos deseo</l>
+                <l  n="469" xml:id="v_486" corresp="s_472">os reemplazo con ellos dos,</l>
+                <l  n="470" xml:id="v_487" corresp="s_473">porque me sois solo más útil</l>
+                <l  n="471" xml:id="v_488" corresp="s_474">Mi credibilidad y mi honor se juegan</l>
+                <l  n="472" xml:id="v_489" corresp="s_475">con vos en este momento.</l>
+                <l  n="473" xml:id="v_490" corresp="s_476">En la guerra sabeís</l>
+                <l  n="474" xml:id="v_491" corresp="s_477">aconsejar mejor que nadie</l>
+                <l  n="475" xml:id="v_492" corresp="s_478">y las cosas importantes</l>
+                <l  n="476" xml:id="v_493" corresp="s_479">que ocurren en la corte,</l>
+                <l  n="477" xml:id="v_494" corresp="s_480">puede encaminar vuestra cuidado</l>
+                <l  n="478" xml:id="v_495" corresp="s_481">mucho mejor que otros.</l>
+                <l  n="479" xml:id="v_496" corresp="s_482">Nadie me es tan útil</l>
+                <l  n="480" xml:id="v_497" corresp="s_483">en este viaje como vos.</l>
+                <l  n="481" xml:id="v_498" corresp="s_484">Por lo tanto os pido que</l>
+                <l  n="482" xml:id="v_499" corresp="s_485">aconsejeis con buenas enseñanzas.</l>
+                <l  n="483" xml:id="v_500" corresp="s_486">Pero si os negáis</l>
+                <l  n="484" xml:id="v_501" corresp="s_487">y mi servicio refusáis,</l>
+                <l  n="485" xml:id="v_502" corresp="s_488">lo que tenéis como feudo</l>
+                <l  n="486" xml:id="v_503" corresp="s_489">sabe Dios que lo daré a otro</l>
+                <l  n="487" xml:id="v_504" corresp="s_490">que sepa ganárselo."</l>
+                <l  n="488" xml:id="v_505" corresp="s_491">"Verdaderamente (?)", dijo el caballero,</l>
+                <l  n="489" xml:id="v_506" corresp="s_492">si el asunto es así</l>
+                <l  n="490" xml:id="v_507" corresp="s_493">que me quitareis el feudo</l>
+                <l  n="491" xml:id="v_508" corresp="s_494">si no obedezco,</l>
+                <l  n="492" xml:id="v_509" corresp="s_495">prefiero viajar con vosotros, por Cristo,</l>
+                <l  n="493" xml:id="v_510" corresp="s_496">por más que este viaje </l>
+                <l  n="494" xml:id="v_511" corresp="s_497">me prepare dificultades.</l>
+                <l  n="495" xml:id="v_512" corresp="s_498">Antes de dejar que saquen de mi poder</l>
+                <l  n="496" xml:id="v_513" corresp="s_499">mi feudo y mi honor,</l>
+                <l  n="497" xml:id="v_514" corresp="s_500">prefiero cabalgar y seguiros</l>
+                <l  n="498" xml:id="v_515" corresp="s_501">hasta la misma muerte.</l>
+                <l  n="499" xml:id="v_516" corresp="s_502">Mi auxilio estará en la aguda necesidad</l>
+                <l  n="500" xml:id="v_517" corresp="s_503">voluntariamente a vuestra disposición,</l>
+                <l  n="501" xml:id="v_518" corresp="s_504">ya que sois mi señor,</l>
+                <l  n="502" xml:id="v_519" corresp="s_505">al que debo brindar servicio.</l>
+                <l  n="503" xml:id="v_520" corresp="s_506">Ya que no queréis cambiar de opinión,</l>
+                <l  n="504" xml:id="v_521" corresp="s_507">que se cumpla vuestra voluntad.</l>
+                <l  n="505" xml:id="v_522" corresp="s_508">Con lo que el emperador me castigue,</l>
+                <l  n="506" xml:id="v_523" corresp="s_509">lo quiero soportar</l>
+                <l  n="507" xml:id="v_524" corresp="s_510">para que vuestro favor</l>
+                <l  n="508" xml:id="v_525" corresp="s_511">pueda ganar con este viaje."</l>
+                <l  n="509" xml:id="v_526" corresp="s_512">Y así se preparó para el viaje</l>
+                <l  n="510" xml:id="v_527" corresp="s_513">el esforzado hombre.</l>
+                <l  n="511" xml:id="v_528" corresp="s_514">Con su ejército se dirigió</l>
+                <l  n="512" xml:id="v_529" corresp="s_515">a través de las montañas.</l>
+                <l  n="513" xml:id="v_530" corresp="s_516">Era tan valiente y altivo</l>
+                <l  n="514" xml:id="v_531" corresp="s_517">que por miedo nada abandonaba,</l>
+                <l  n="515" xml:id="v_532" corresp="s_518">hacía lo que su señor le ordenaba</l>
+                <l  n="516" xml:id="v_533" corresp="s_519">y le era completamente subordinado.</l>
+                <l  n="517" xml:id="v_534" corresp="s_520">Pronto llegaron ambos</l>
+                <l  n="518" xml:id="v_535" corresp="s_521">a la misma ciudad</l>
+                <l  n="519" xml:id="v_536" corresp="s_522">que el emperador romano</l>
+                <l  n="520" xml:id="v_537" corresp="s_523">asediaba con su poderoso ejército.</l>
+                <l  n="521" xml:id="v_538" corresp="s_524">Heinrich von Kempten se ocultaba</l>
+                <l  n="522" xml:id="v_539" corresp="s_525">de la vista del emperador</l>
+                <l  n="523" xml:id="v_540" corresp="s_526">y nunca se presentaba ante él,</l>
+                <l  n="524" xml:id="v_541" corresp="s_527">porque por su antigua enemistad</l>
+                <l  n="525" xml:id="v_542" corresp="s_528">y lo que había sucedido debía temerle.</l>
+                <l  n="526" xml:id="v_543" corresp="s_529">Así lo evitaba el astuto hombre:</l>
+                <l  n="527" xml:id="v_544" corresp="s_530">a cierta distancia del ejército</l>
+                <l  n="528" xml:id="v_545" corresp="s_531">había puesto su campamento.</l>
+                <l  n="529" xml:id="v_546" corresp="s_532">Un baño le fue traído</l>
+                <l  n="530" xml:id="v_547" corresp="s_533">un día, según he leído,</l>
+                <l  n="531" xml:id="v_548" corresp="s_534">pues luego de su viaje</l>
+                <l  n="532" xml:id="v_549" corresp="s_535">le hacía falta. Allí se bañaba</l>
+                <l  n="533" xml:id="v_550" corresp="s_536">en una bañera que</l>
+                <l  n="534" xml:id="v_551" corresp="s_537">había sido traído de un pueblo,</l>
+                <l  n="535" xml:id="v_552" corresp="s_538">y mientras el caballero oculto</l>
+                <l  n="536" xml:id="v_553" corresp="s_539">estaba sentado en su baño,</l>
+                <l  n="537" xml:id="v_554" corresp="s_540">vio venir de la ciudad</l>
+                <l  n="538" xml:id="v_555" corresp="s_541">una parte de los habitantes</l>
+                <l  n="539" xml:id="v_556" corresp="s_542">y el famoso emperador</l>
+                <l  n="540" xml:id="v_557" corresp="s_543">cabalgar hacia ellos:</l>
+                <l  n="541" xml:id="v_558" corresp="s_544">sobre la ciudad deseaba con ellos</l>
+                <l  n="542" xml:id="v_559" corresp="s_545">tener una discusión e intercambiar ideas.</l>
+                <l  n="543" xml:id="v_560" corresp="s_546">En eso los desleales</l>
+                <l  n="544" xml:id="v_561" corresp="s_547">ciudadanos habían preparado</l>
+                <l  n="545" xml:id="v_562" corresp="s_548">con engaño y malicia</l>
+                <l  n="546" xml:id="v_563" corresp="s_549">que lo asesinarían.</l>
+                <l  n="547" xml:id="v_564" corresp="s_550">Querían hacer que,</l>
+                <l  n="548" xml:id="v_565" corresp="s_551">cuando el quisiese hablar con ellos,</l>
+                <l  n="549" xml:id="v_566" corresp="s_552">lo matarían</l>
+                <l  n="550" xml:id="v_567" corresp="s_553">y asesinarían sin oposición.</l>
+                <l  n="551" xml:id="v_568" corresp="s_554">Entonces sucedió</l>
+                <l  n="552" xml:id="v_569" corresp="s_555">en ese momento, de estos estoy seguro,</l>
+                <l  n="553" xml:id="v_570" corresp="s_556">que él cabalgaba hacia ellos</l>
+                <l  n="554" xml:id="v_571" corresp="s_557">sin armas y desapercibido.</l>
+                <l  n="555" xml:id="v_572" corresp="s_558">Un daño secreto</l>
+                <l  n="556" xml:id="v_573" corresp="s_559">se le estaba preparando,</l>
+                <l  n="557" xml:id="v_574" corresp="s_560">al que él se dirigía sin saberlo.</l>
+                <l  n="558" xml:id="v_575" corresp="s_561">Y así con corajudas manos</l>
+                <l  n="559" xml:id="v_576" corresp="s_562">comenzó una batalla</l>
+                <l  n="560" xml:id="v_577" corresp="s_563">cuando esta gente desleal,</l>
+                <l  n="561" xml:id="v_578" corresp="s_564">que planeaba su maldad en secreto,</l>
+                <l  n="561a" xml:id="v_579" corresp="s_565"/>
+                <l  n="561b" xml:id="v_580" corresp="s_566"/>
+                <l  n="562" xml:id="v_581" corresp="s_567">querían causar daños.</l>
+                <l  n="563" xml:id="v_582" corresp="s_568">Cuando el caballero vio esto,</l>
+                <l  n="564" xml:id="v_583" corresp="s_569">el de Kempten, desde su baño,</l>
+                <l  n="565" xml:id="v_584" corresp="s_570">que allí traición y asesinatos</l>
+                <l  n="566" xml:id="v_585" corresp="s_571">comenzaban a producirse</l>
+                <l  n="567" xml:id="v_586" corresp="s_572">y que sin honor</l>
+                <l  n="568" xml:id="v_587" corresp="s_573">al emperador Otto querían matar,</l>
+                <l  n="569" xml:id="v_588" corresp="s_574">dejó el baño y la limpieza</l>
+                <l  n="570" xml:id="v_589" corresp="s_575">completamente y por la mitad.</l>
+                <l  n="571" xml:id="v_590" corresp="s_576">Como un guerrero extraordinario</l>
+                <l  n="572" xml:id="v_591" corresp="s_577">salto de la profunda bañera.</l>
+                <l  n="573" xml:id="v_592" corresp="s_578">Corrió hasta su escudo,</l>
+                <l  n="574" xml:id="v_593" corresp="s_579">que colgaba de una pared,</l>
+                <l  n="575" xml:id="v_594" corresp="s_580">y lo tomo con su mano</l>
+                <l  n="576" xml:id="v_595" corresp="s_581">así como una espada extraordinaria.</l>
+                <l  n="577" xml:id="v_596" corresp="s_582">Así corrió el héroe desnudo</l>
+                <l  n="578" xml:id="v_597" corresp="s_583">hasta el emperador.</l>
+                <l  n="579" xml:id="v_598" corresp="s_584">De los ciudadanos lo liberó</l>
+                <l  n="579a" xml:id="v_599" corresp="s_584a"/>
+                <l  n="579b" xml:id="v_600" corresp="s_584b"/>
+                <l  n="579c" xml:id="v_601" corresp="s_584c"/>
+                <l  n="579d" xml:id="v_602" corresp="s_584d"/>
+                <l  n="579e" xml:id="v_603" corresp="s_584e"/>
+                <l  n="579f" xml:id="v_604" corresp="s_584f"/>
+                <l  n="580" xml:id="v_605" corresp="s_585">y se defendió desnudo.</l>
+                <l  n="581" xml:id="v_606" corresp="s_586">Cortó y laceró</l>
+                <l  n="582" xml:id="v_607" corresp="s_587">mucho al enemigo.</l>
+                <l  n="583" xml:id="v_608" corresp="s_588">Mucha gente hirió de muerte</l>
+                <l  n="584" xml:id="v_609" corresp="s_589">de los que querían asesinar al emperador.</l>
+                <l  n="585" xml:id="v_610" corresp="s_590">Hizo correr copiosamente la sangre</l>
+                <l  n="586" xml:id="v_611" corresp="s_591">con sus manos valerosas.</l>
+                <l  n="587" xml:id="v_612" corresp="s_592">Llevó a un final amargo</l>
+                <l  n="588" xml:id="v_613" corresp="s_593">a mucha de la gente</l>
+                <l  n="589" xml:id="v_614" corresp="s_594">y los que quedaron con vida</l>
+                <l  n="590" xml:id="v_615" corresp="s_595">los obligó a huir.</l>
+                <l  n="591" xml:id="v_616" corresp="s_596">Y cuando el caballero cortés</l>
+                <l  n="592" xml:id="v_617" corresp="s_597">liberó al emperador</l>
+                <l  n="593" xml:id="v_618" corresp="s_598">volvió al instante</l>
+                <l  n="594" xml:id="v_619" corresp="s_599">de nuevo a su baño.</l>
+                <l  n="595" xml:id="v_620" corresp="s_600">Allí volvió a sentarse</l>
+                <l  n="595a" xml:id="v_621" corresp="s_601"/>
+                <l  n="595b" xml:id="v_622" corresp="s_602"/>
+                <l  n="596" xml:id="v_623" corresp="s_603">y a bañarse como antes.</l>
+                <l  n="597" xml:id="v_624" corresp="s_604">El emperador huyó</l>
+                <l  n="598" xml:id="v_625" corresp="s_605">y volvió rápido a su ejército.</l>
+                <l  n="599" xml:id="v_626" corresp="s_606">Quién en lucha viril</l>
+                <l  n="600" xml:id="v_627" corresp="s_607">lo acaba de salvar,</l>
+                <l  n="601" xml:id="v_628" corresp="s_608">eso deseaba saber,</l>
+                <l  n="602" xml:id="v_629" corresp="s_609">pues no había podido reconocerlo.</l>
+                <l  n="603" xml:id="v_630" corresp="s_610">Hasta su tienda cabalgó</l>
+                <l  n="604" xml:id="v_631" corresp="s_611">y desmontó con premura</l>
+                <l  n="605" xml:id="v_632" corresp="s_612">y se sentó en su silla nuevamente</l>
+                <l  n="606" xml:id="v_633" corresp="s_613">con gran ira en ese momento.</l>
+                <l  n="607" xml:id="v_634" corresp="s_614">Todos los príncipes vinieron</l>
+                <l  n="608" xml:id="v_635" corresp="s_615">pronto hasta él.</l>
+                <l  n="609" xml:id="v_636" corresp="s_616">Les dijo: "vosotros, caballeros, escuchen</l>
+                <l  n="610" xml:id="v_637" corresp="s_617">cómo fui traicionado.</l>
+                <l  n="611" xml:id="v_638" corresp="s_618">Pues si no me hubiese ayudado</l>
+                <l  n="612" xml:id="v_639" corresp="s_619">unas manos caballerescas</l>
+                <l  n="613" xml:id="v_640" corresp="s_620">estaría ahora acabado</l>
+                <l  n="614" xml:id="v_641" corresp="s_621">y habría perdido la vida.</l>
+                <l  n="615" xml:id="v_642" corresp="s_622">Si vosotros supierais quien me ha otorgado</l>
+                <l  n="616" xml:id="v_643" corresp="s_623">tal valiente protección,</l>
+                <l  n="617" xml:id="v_644" corresp="s_624">que me ha liberado desnudo,</l>
+                <l  n="618" xml:id="v_645" corresp="s_625">yo le daría un feudo y regalos.</l>
+                <l  n="619" xml:id="v_646" corresp="s_626">Tengo mi cuerpo y mi vida</l>
+                <l  n="620" xml:id="v_647" corresp="s_627">gracias a su gran ayuda.</l>
+                <l  n="621" xml:id="v_648" corresp="s_628">Ningún caballero fue jamás tan valioso</l>
+                <l  n="622" xml:id="v_649" corresp="s_629">ni tan osado, verdaderamente.</l>
+                <l  n="623" xml:id="v_650" corresp="s_630">Si alguien lo conoce, por Dios,</l>
+                <l  n="624" xml:id="v_651" corresp="s_631">que lo traiga ante mis ojos.</l>
+                <l  n="625" xml:id="v_652" corresp="s_632">Prometo publicamente</l>
+                <l  n="626" xml:id="v_653" corresp="s_633">que él recibirá con prodigalidad.</l>
+                <l  n="627" xml:id="v_654" corresp="s_634">Mi corazón está unido a él en lealtad</l>
+                <l  n="628" xml:id="v_655" corresp="s_635">y siempre deberá serle favorable.</l>
+                <l  n="629" xml:id="v_656" corresp="s_636">Ningún caballero tan extraordinario</l>
+                <l  n="630" xml:id="v_657" corresp="s_637">vive, ni aquí ni en otro lugar."</l>
+                <l  n="631" xml:id="v_658" corresp="s_638">Algunos de los que estaban</l>
+                <l  n="632" xml:id="v_659" corresp="s_639">allí sabían</l>
+                <l  n="633" xml:id="v_660" corresp="s_640">que Heinrich al emperador</l>
+                <l  n="634" xml:id="v_661" corresp="s_641">había ayudado en aquel momento.</l>
+                <l  n="635" xml:id="v_662" corresp="s_642">Todos dijeron jugándosela(?):</l>
+                <l  n="636" xml:id="v_663" corresp="s_643">conocemos, señor, al héroe</l>
+                <l  n="637" xml:id="v_664" corresp="s_644">que vuestra vida extraordinaria</l>
+                <l  n="638" xml:id="v_665" corresp="s_645">ha liberado de la muerte.</l>
+                <l  n="639" xml:id="v_666" corresp="s_646">El problema es que </l>
+                <l  n="640" xml:id="v_667" corresp="s_647">sobre él en este momento</l>
+                <l  n="641" xml:id="v_668" corresp="s_648">pesa vuestra inclemencia</l>
+                <l  n="642" xml:id="v_669" corresp="s_649">con fuerza sobre su espalda.</l>
+                <l  n="643" xml:id="v_670" corresp="s_650">Tiene la desdicha</l>
+                <l  n="644" xml:id="v_671" corresp="s_651">que por su culpa</l>
+                <l  n="645" xml:id="v_672" corresp="s_652">evita vuestro favor.</l>
+                <l  n="646" xml:id="v_673" corresp="s_653">Si se le diera la bendición</l>
+                <l  n="647" xml:id="v_674" corresp="s_654">de poder recobrarlo,</l>
+                <l  n="648" xml:id="v_675" corresp="s_655">os dejaríamos verlo, señor."</l>
+                <l  n="649" xml:id="v_676" corresp="s_656">El emperador comenzó a decir</l>
+                <l  n="650" xml:id="v_677" corresp="s_657">que incluso si hubiese asesinado a su padre</l>
+                <l  n="651" xml:id="v_678" corresp="s_658">le otorgaría su favor</l>
+                <l  n="652" xml:id="v_679" corresp="s_659">y le mostraría su clemencia.</l>
+                <l  n="653" xml:id="v_680" corresp="s_660">Esto lo juró por su lealtad</l>
+                <l  n="654" xml:id="v_681" corresp="s_661">y por su honor imperial.</l>
+                <l  n="655" xml:id="v_682" corresp="s_662">Así le fue mencionado el caballero</l>
+                <l  n="656" xml:id="v_683" corresp="s_663">Heinrich von Kempten.</l>
+                <l  n="657" xml:id="v_684" corresp="s_664">El emperador comprendiendo todo</l>
+                <l  n="658" xml:id="v_685" corresp="s_665">se dijo al instante:</l>
+                <l  n="659" xml:id="v_686" corresp="s_666">"Si ha venido a este país</l>
+                <l  n="660" xml:id="v_687" corresp="s_667">quiero saberlo sin mentiras.</l>
+                <l  n="661" xml:id="v_688" corresp="s_668">¿Quién más podría haber hecho esto,</l>
+                <l  n="662" xml:id="v_689" corresp="s_669">que hoy ha peleado desnudo,</l>
+                <l  n="663" xml:id="v_690" corresp="s_670">pues lleva el coraje</l>
+                <l  n="664" xml:id="v_691" corresp="s_671">alto en su corazón,</l>
+                <l  n="665" xml:id="v_692" corresp="s_672">que de la barba arrojó</l>
+                <l  n="666" xml:id="v_693" corresp="s_673">a un emperador por sobre la mesa.</l>
+                <l  n="667" xml:id="v_694" corresp="s_674">Su espíritu es alegre y altanero,</l>
+                <l  n="668" xml:id="v_695" corresp="s_675">esto nunca le será caro.</l>
+                <l  n="669" xml:id="v_696" corresp="s_676">Mi ayuda deberá por siempre</l>
+                <l  n="670" xml:id="v_697" corresp="s_677">cubrirlo con clemencia.</l>
+                <l  n="671" xml:id="v_698" corresp="s_678">Sin embargo, quiero asustarlo</l>
+                <l  n="672" xml:id="v_699" corresp="s_679">y recibirlo de mala manera."</l>
+                <l  n="673" xml:id="v_700" corresp="s_680">Así pronto ordenó buscarlo</l>
+                <l  n="674" xml:id="v_701" corresp="s_681">y traerlo a la corte.</l>
+                <l  n="675" xml:id="v_702" corresp="s_682">De una manera iracunda</l>
+                <l  n="676" xml:id="v_703" corresp="s_683">fue llevado frente a él.</l>
+                <l  n="677" xml:id="v_704" corresp="s_684">Allí se comportó</l>
+                <l  n="678" xml:id="v_705" corresp="s_685">como si lo odiara.</l>
+                <l  n="679" xml:id="v_706" corresp="s_686">"Ahora, decidme," dijo el famoso</l>
+                <l  n="680" xml:id="v_707" corresp="s_687">emperador, "¿cómo os atreveis</l>
+                <l  n="681" xml:id="v_708" corresp="s_688">a apareceros frente a mí</l>
+                <l  n="682" xml:id="v_709" corresp="s_689">o a venir frente a mis ojos?</l>
+                <l  n="683" xml:id="v_710" corresp="s_690">Bien sabeis</l>
+                <l  n="684" xml:id="v_711" corresp="s_691">la razón por que soy vuestro enemigo.</l>
+                <l  n="685" xml:id="v_712" corresp="s_692">Sois quien mi barba</l>
+                <l  n="686" xml:id="v_713" corresp="s_693">arreglasteis sin navaja</l>
+                <l  n="687" xml:id="v_714" corresp="s_694">y por la despreciable ira</l>
+                <l  n="688" xml:id="v_715" corresp="s_695">muchos cabellos le robasteis</l>
+                <l  n="689" xml:id="v_716" corresp="s_696">y ahora ya no tiene rulos.</l>
+                <l  n="690" xml:id="v_717" corresp="s_697">Eso lo causó vuestra mano.</l>
+                <l  n="691" xml:id="v_718" corresp="s_698">Que os hayais atrevido a venir</l>
+                <l  n="692" xml:id="v_719" corresp="s_699">a este país es una muestra clara</l>
+                <l  n="693" xml:id="v_720" corresp="s_700">de que sois orgulloso</l>
+                <l  n="694" xml:id="v_721" corresp="s_701">y practicas la soberbia."</l>
+                <l  n="695" xml:id="v_722" corresp="s_702">"Clemencia, señor," dijo el guerrero.</l>
+                <l  n="696" xml:id="v_723" corresp="s_703">"Vengo por obligación.</l>
+                <l  n="697" xml:id="v_724" corresp="s_704">Por eso os pido y deseo</l>
+                <l  n="698" xml:id="v_725" corresp="s_705">que perdoneis este hecho.</l>
+                <l  n="699" xml:id="v_726" corresp="s_706">Mi señor, un príncipe aquí presente,</l>
+                <l  n="700" xml:id="v_727" corresp="s_707">con su autoridad me pidió</l>
+                <l  n="701" xml:id="v_728" corresp="s_708">que por ninguna razón</l>
+                <l  n="702" xml:id="v_729" corresp="s_709">deje de venir con él.</l>
+                <l  n="702a" xml:id="v_730" corresp="s_709a"/>
+                <l  n="703" xml:id="v_731" corresp="s_710">Juro por</l>
+                <l  n="704" xml:id="v_732" corresp="s_711">mi salvación</l>
+                <l  n="705" xml:id="v_733" corresp="s_712">que realicé el viaje contra mi voluntad</l>
+                <l  n="705a" xml:id="v_734" corresp="s_712a"/>
+                <l  n="705b" xml:id="v_735" corresp="s_712b"/>
+                <l  n="705c" xml:id="v_736" corresp="s_712c"/>
+                <l  n="706" xml:id="v_737" corresp="s_713">pues debía por Dios</l>
+                <l  n="707" xml:id="v_738" corresp="s_714">cumplir con su orden.</l>
+                <l  n="708" xml:id="v_739" corresp="s_715">Si no hubiese venido</l>
+                <l  n="709" xml:id="v_740" corresp="s_716">me hubiese sacado el feudo,</l>
+                <l  n="709a" xml:id="v_741" corresp="s_716a"/>
+                <l  n="709b" xml:id="v_742" corresp="s_716b"/>
+                <l  n="710" xml:id="v_743" corresp="s_717">si huebiese en ese momento</l>
+                <l  n="711" xml:id="v_744" corresp="s_718">cancelado el viaje."(?)</l>
+                <l  n="711a" xml:id="v_745" corresp="s_718a"/>
+                <l  n="711b" xml:id="v_746" corresp="s_718b"/>
+                <l  n="711c" xml:id="v_747" corresp="s_718c"/>
+                <l  n="711d" xml:id="v_748" corresp="s_718d"/>
+                <l  n="711e" xml:id="v_749" corresp="s_718e"/>
+                <l  n="711f" xml:id="v_750" corresp="s_718f"/>
+                <l  n="712" xml:id="v_751" corresp="s_719">El emperador comenzó a reirse.</l>
+                <l  n="713" xml:id="v_752" corresp="s_720">Dijo: "Vos, hombre exrtaordinario,</l>
+                <l  n="714" xml:id="v_753" corresp="s_721">sois inocente, es lo que escucho.</l>
+                <l  n="715" xml:id="v_754" corresp="s_722">Por eso dejaré con gusto</l>
+                <l  n="716" xml:id="v_755" corresp="s_723">mi ira contra vos.</l>
+                <l  n="717" xml:id="v_756" corresp="s_724">A mí a Dios serás</l>
+                <l  n="718" xml:id="v_757" corresp="s_725">mil veces bienvenido.</l>
+                <l  n="719" xml:id="v_758" corresp="s_726">Me habéis sacado de un gran aprieto</l>
+                <l  n="720" xml:id="v_759" corresp="s_727">y salvado mi vida.</l>
+                <l  n="721" xml:id="v_760" corresp="s_728">Mi cuerpo hubiesen destrozado</l>
+                <l  n="722" xml:id="v_761" corresp="s_729">sin vuestra ayuda, hombre afortunado."</l>
+                <l  n="723" xml:id="v_762" corresp="s_730">Así se incorporó de un salto y se acercó a él</l>
+                <l  n="723a" xml:id="v_763" corresp="s_730a"/>
+                <l  n="723b" xml:id="v_764" corresp="s_730b"/>
+                <l  n="724" xml:id="v_765" corresp="s_731">y lo besó en los ojos y las cejas.</l>
+                <l  n="725" xml:id="v_766" corresp="s_732">Gran reconciliación y paz</l>
+                <l  n="726" xml:id="v_767" corresp="s_733">fue celebrada entre ellos.</l>
+                <l  n="727" xml:id="v_768" corresp="s_734">Su mutua enemistad se acabó</l>
+                <l  n="728" xml:id="v_769" corresp="s_735">pues el bien nacido emperador</l>
+                <l  n="729" xml:id="v_770" corresp="s_736">con su temible ira</l>
+                <l  n="730" xml:id="v_771" corresp="s_737">ya no era contrario al caballero.</l>
+                <l  n="731" xml:id="v_772" corresp="s_738">Dinero y un feudo le otorgó,</l>
+                <l  n="732" xml:id="v_773" corresp="s_739">con rentas de doscientos marcos al año.</l>
+                <l  n="733" xml:id="v_774" corresp="s_740">Su hombría intrépida y fuerte</l>
+                <l  n="734" xml:id="v_775" corresp="s_741">le trajo grandes riquezas</l>
+                <l  n="735" xml:id="v_776" corresp="s_742">y una enorme fama</l>
+                <l  n="736" xml:id="v_777" corresp="s_743">por la que todavía se lo recuerda.</l>
+                <l  n="737" xml:id="v_778" corresp="s_744">Por esto todo caballero debe</l>
+                <l  n="738" xml:id="v_779" corresp="s_745">ser de caracter osado,</l>
+                <l  n="739" xml:id="v_780" corresp="s_746">abandonar cualquier miedo</l>
+                <l  n="740" xml:id="v_781" corresp="s_747">y renovar su fortaleza,</l>
+                <l  n="741" xml:id="v_782" corresp="s_748">pues la hombría y la caballería,</l>
+                <l  n="742" xml:id="v_783" corresp="s_749">ambos dan grandes recompensas;</l>
+                <l  n="743" xml:id="v_784" corresp="s_750">traen elogios y honor</l>
+                <l  n="744" xml:id="v_785" corresp="s_751">a todo hombre</l>
+                <l  n="745" xml:id="v_786" corresp="s_752">que puede mantenerlas</l>
+                <l  n="746" xml:id="v_787" corresp="s_753">y vivir con ambas.</l>
+                <l  n="747" xml:id="v_788" corresp="s_754">Aquí debe terminar este relato</l>
+                <l  n="748" xml:id="v_789" corresp="s_755">y este pequeño cuento</l>
+                <l  n="749" xml:id="v_790" corresp="s_756">que yo gracias al de Tiersberc</l>
+                <l  n="750" xml:id="v_791" corresp="s_757">puse en verso</l>
+                <l  n="751" xml:id="v_792" corresp="s_758">y traduje del latín</l>
+                <l  n="752" xml:id="v_793" corresp="s_759">al alemán, tal como él me pidió.</l>
+                <l  n="753" xml:id="v_794" corresp="s_760">En la buena ciudad de Estrasburgo</l>
+                <l  n="754" xml:id="v_795" corresp="s_761">es él de la catedral</l>
+                <l  n="755" xml:id="v_796" corresp="s_762">preboste y florece</l>
+                <l  n="756" xml:id="v_797" corresp="s_763">por su gran honorabilidad.</l>
+                <l  n="757" xml:id="v_798" corresp="s_764">Que Dios haga crecer su bienaventuranza</l>
+                <l  n="758" xml:id="v_799" corresp="s_765">pues tiene muchísimas virtudes.</l>
+                <l  n="759" xml:id="v_800" corresp="s_766">Yo, Konrad von Würzburg,</l>
+                <l  n="760" xml:id="v_801" corresp="s_767">debe siempre pedir su bendición</l>
+                <l  n="761" xml:id="v_802" corresp="s_768">él ha peleado triunfalmente por su honor</l>
+                <l  n="762" xml:id="v_803" corresp="s_769">con sus manos dadivosas.</l>
+                <l  n="763" xml:id="v_804" corresp="s_770">Aquí tiene el relato un final.</l>
+                <div type="explicit">
+                    <l  n="763a" xml:id="v_805"
+                        corresp="s_770a"></l>
+                    <l  n="763b" xml:id="v_806"
+                        corresp="s_770b"></l>
+                    <l  n="763c" xml:id="v_807"
+                        corresp="s_770c"></l>
+                    <l  n="763d" xml:id="v_808"
+                        corresp="s_770d"></l>
+                    <l  n="763e" xml:id="v_809"
+                        corresp="s_770e"></l>
+                    <l  n="763f" xml:id="v_810"
+                        corresp="s_770f"></l>
+                    <l  n="763g" xml:id="v_811"
+                        corresp="s_770g"></l>
+                    <l  n="763h" xml:id="v_812"
+                        corresp="s_770h"></l>
+                    <l  n="763i" xml:id="v_813"
+                        corresp="s_770i"></l>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
