@@ -3,7 +3,7 @@ import re
 import codecs
 import json
 
-maere = 'dwl' # possibilities: herz, dwl, hvk
+maere = 'hvk' # possibilities: herz, dwl, hvk
 
 path = '/Applications/XAMPP/xamppfiles/htdocs/konrad/'
 
@@ -18,6 +18,7 @@ output = {}
 
 with codecs.open(source, "r", 'utf-8') as f:
     full_tree = etree.parse(f)
+
 def tei(tag):
     return "{http://www.tei-c.org/ns/1.0}%s" % tag
 

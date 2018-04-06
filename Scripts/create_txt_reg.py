@@ -7,8 +7,8 @@ THIS SCRIPT STRIPS THE XML ELEMENTS FROM THE SYNOPTIC TRANSCRIPTION AND RETURNS 
 IT SELECTS THE EXPANDED VERSION AND WITHOUT MOST PALEOGRAPHICAL DIFFERENCES
 '''
 
-source = "/Applications/XAMPP/xamppfiles/htdocs/konrad/TEI/DWL_Synoptische_Transkription.xml"
-text_name = "dwl"
+source = "/Applications/XAMPP/xamppfiles/htdocs/konrad/TEI/HvK_Synoptische_Transkription.xml"
+text_name = "hvk"
 
 
 with codecs.open(source, "r", 'utf-8') as f:
@@ -43,6 +43,7 @@ def create_txt(full_tree):
                 for reg in w.iter(tei('reg')):
                     if reg.text:
                         writing = writing + reg.text + ' '
+            
         
         #Created the file and writes the text. CHECK THE DIRECTORY TO WRITE IN!!
         with codecs.open("generated/" + text_name + "_" + witness[1:] + "_reg.txt", "w", "utf-8") as new_file:

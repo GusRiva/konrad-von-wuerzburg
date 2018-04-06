@@ -4,9 +4,9 @@ import json
 #This script transforms the json output from collatex into a CVS file
 
 #complete with the source path
-source = "welt_lohn_collation1.json"
+source = "hvk_collation_frag.json"
 #complete with the name of the output file
-output_file = "welt_lohn_full.csv"
+output_file = "hvk_full.csv"
 
 data = codecs.open(source, 'r','utf-8-sig')
 data = json.load(data)
