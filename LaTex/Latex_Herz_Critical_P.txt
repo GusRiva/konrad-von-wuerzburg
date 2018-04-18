@@ -1,0 +1,538 @@
+Ich prueve in minen sinnen,\hfill{\footnotesize1}&
+daz lauterliches minnen&
+der welde ist worden wilde.&
+da von solt ir pilde,&
+ir ritter und ir vrowen,\hfill{\footnotesize5}&
+an disem mere schowen.&
+was uns von gantzer liebe seit&
+und ouch von rechter warheit &
+von Wierzburch meister Conrat:\hfill{\footnotesize9}&
+wer uf der waren minnen phat \hfill{\footnotesize12}&
+eben gesetzet sinen fuoz,&
+daz er dester gerner muoz,&
+ sagen unde singen\hfill{\footnotesize15}&
+von herzenlichen dingen,&
+die e waren \edtext{\textit{den}}{\lemma{den}\Afootnote{om. P}} geschehen,&
+die sich hetten undersehen&
+mit innerclichen augen.&
+die rede ist ane laugen:\hfill{\footnotesize20}&
+er minnet immer dester bas,&
+wer von minnen etteswas&
+horet singen oder lesen.&
+durch das so wil ich vlisik wesen,&
+das ich ditz stolze mere \hfill{\footnotesize25}&
+mit rede also bewere,&
+daz man daran gechiesen muge &
+ein bilde, daz der werlde tuge,&
+die lauter und  reine &
+sal sin vor allem meine.\hfill{\footnotesize30}&
+ein ritter und ein vräwe gut,\hfill{\footnotesize33}&
+die hatten leben unde mut &
+in ainander so geweben,\hfill{\footnotesize35}&
+das peide ir leip und ir leben &
+ein dinch was gentzlichen gar.&
+was der vrauwen ie gewar,&
+das was auch dem ritter.&
+da von zu iungest pitter \hfill{\footnotesize40}&
+wart ir ende peider.&
+die minne was ir leider &
+worden so geweldik,&
+daz si vil manikvaldik &
+macht irs herzen smerzen.\hfill{\footnotesize45}&
+groz smerze wart irn herzen \hfill{\footnotesize46}&
+von der suzzen minne kunt:\hfill{\footnotesize49}&
+die \edtext{\textit{hette}}{\lemma{hette}\Afootnote{om. P}} si piz uf den grunt \hfill{\footnotesize50}&
+mit irem feuwer entzundet&
+und also durch grundet&
+mit redelicher fruntschaft,&
+daz nimmer mocht ir libes kraft &
+mit worten werden vollen pracht.\hfill{\footnotesize55}&
+ir lauterliche andacht &
+nieman konde vollensagen.&
+grozzer \edtext{\textit{triuwe}}{\lemma{triuwe}\Afootnote{liebe  P}} wart nie getragen &
+von manne noch von wibe&
+als von ir beider libe,\hfill{\footnotesize60}&
+die si zusamne trugen.&
+auch mochten si mit fugen&
+zu einander kumen nicht,&
+also das si der minnen phlicht&
+ir gernden willen \edtext{\textit{mochten}}{\lemma{mochten}\Afootnote{mochte  P}} han.\hfill{\footnotesize65}&
+das schone wip wol getan\hfill{\footnotesize66}&
+hatte einen man zu rechter e.\hfill{\footnotesize69}&
+des geschach ir hertzen dicke we,\hfill{\footnotesize70}&
+wen si was also behut,&
+so das der werde ritter gut&
+an ir nicht mochte gestillen&
+sines wunden herzen willen.&
+das nach ir minne was versniten.\hfill{\footnotesize75}&
+des wart die not \edtext{\textit{von im geliten}}{\lemma{von im geliten}\Afootnote{in ir liten  P}}  ,&
+die strenge was \edtext{\textit{und}}{\lemma{und}\Afootnote{im  P}} engestlich.&
+nach ir libe minnenklich&
+begonde er also sere queln,&
+daz er den pin nicht verheln\hfill{\footnotesize80}&
+mochte vor ir manne.&
+tzu der schonen danne&
+giench er, wen ez mochte sin&
+und tet ir mit klage schin&
+sines herzen ungemach.\hfill{\footnotesize85}&
+da von zu iungest im geschach&
+ein leit, daz in beswarte:&
+\edtext{\textit{der }}{\lemma{P}\Afootnote{Palabra sacada}}vrowen  herre warte&
+mit grozzer hute ir paider&
+so lang, untz daz er laider\hfill{\footnotesize90}&
+an ir gebaren innen wart,&
+daz si der suozzen minnen zart&
+hatte in iren strik geworren;&
+da von si musten dorren&
+noch ein ander peide.\hfill{\footnotesize95}&
+dar umbe geschach vil leide&
+disem guten herren do.&
+er gedacht wider sich selben so:&
+“unde huete ich miner vrowen nicht,&
+min auge licht an ir gesicht,\hfill{\footnotesize100}&
+daz mich her nach gereuwet,&
+wen si mir schaden pruewet&
+an disem werden edelen man.&
+tzwar ab ich ez behuten kan,&
+ich pringe si uz siner wer.\hfill{\footnotesize105}&
+uber daz wilde lebermer&
+wil ich vil gerne mit ir varn,&
+durch das ich si mug bewarn&
+\edtext{\textit{vor im}}{\lemma{vor im}\Afootnote{om. P}}, untz daz er gar von ir&
+gewende sines herzen gir\hfill{\footnotesize110}&
+und si den mut von im geneme.&
+ich horte ie sagen, das deme&
+sin liep vil sanfte werde leit,&
+das mit langer stetikeit&
+von im gescheiden werde gar.\hfill{\footnotesize115}&
+durch daz ich gerne mit ir var&
+zu dem vronen gotes grabe,&
+untz daz si gar vergessen habe&
+der hohen minne die nu treit&
+gein ir der ritter so gemeit.”\hfill{\footnotesize120}&
+alsus wart er des in ein,&
+das er den geliben zwein&
+ir trutschaft wolde leiden,&
+die nimmer doch gescheiden&
+mochte werden under in.\hfill{\footnotesize125}&
+alsus het er sinen sin&
+gewant, das er mit der vrowen&
+vil gerne wolde schouwen&
+Jherusalem, das reine lant.&
+da des jener bevant,\hfill{\footnotesize130}&
+der nach ir suezzen minne pran,&
+da wart der riche mude man&
+vil schire des tzu rate,&
+das er vor ir drate&
+wolde varn uber mer.\hfill{\footnotesize135}&
+in daucht, daz er ane wer&
+hie heime tot gelege,&
+ob er sich nicht verwege,&
+daz er wendich wurde;&
+wan der suezzen minne purde\hfill{\footnotesize140}&
+twanch so sere sinen liep,&
+das er durch daz schone weip&
+in den tot wolde varn.&
+und doch darumb nicht lenger sparn&
+wolde der wunde sine vart.\hfill{\footnotesize145}&
+da des an im innen wart&
+die suzzen tugenden riche,&
+da besant in heimliche&
+das vil cheiserliche weip:&
+“freunt,” sprach si, “unde lieber.\hfill{\footnotesize150}&
+min man ist an den willen chomen,&
+als du selber hast vernomen,&
+das er mich vloehen wil vor dir.&
+nu volge, traut geselle, mir&
+durch diner hohen selden art:\hfill{\footnotesize155}&
+selbe erwenden dise vart,&
+die sein leip hat ûf geleit.&
+uber das wilde mere preit\hfill{\footnotesize158}&
+var alters eine hin uber e,\hfill{\footnotesize204}&
+durch daz ich alhi beste.\hfill{\footnotesize205}&
+swen er hat von dir vernumen,&
+das du bist vor mir uber kumen,&
+so belibet er  satzehant&
+und wirt der arkwan erwant,&
+densinliphatuffemich;\hfill{\footnotesize210}&
+wanergedenketwidersich:&
+“wereandisendingeniht,&
+derminherzesichversiht&
+anminemschoenenwibeguot,&
+derwerderitterhochgemuot\hfill{\footnotesize215}&
+werenihtvondemlandekomen.”&
+sustwartderzwifelimebenomen,&
+den gegen mir sin hertze treit.&
+auch las dir nicht wesen leit:\hfill{\footnotesize219}&
+belib ein wile durch mich dort,\hfill{\footnotesize224}&
+untz man verredet dise wort,\hfill{\footnotesize225}&
+die von uns fligent uber lant.&
+so dich hat her wider gesant&
+der reine und der süezze Christ,&
+so hast du mich tzu aller vrist&
+nach dinem willen dester pas.\hfill{\footnotesize230}&
+so man nu gar verredet das,&
+was man der mere von uns saget,&
+dem suzzem gote si ez geklaget,&
+das du nach dem willen din&
+nicht  macht bi mir gesin\hfill{\footnotesize235}&
+und ich pei dir nach miner ger.&
+nu ganch vil lieber herre her&
+und nim hin das vingerlin.&
+da mit salt tu der swere din&
+gedenken under stunden\hfill{\footnotesize240}&
+unde wie ich pin gepunden,&
+wen dich min ouge nicht ensicht.&
+was mir halt davon geschicht,&
+ich muz an dich gedenken.&
+din vart, die kan mir schenken\hfill{\footnotesize245}&
+jamer in mines hertzen grunt.&
+nu gip her herre an minen munt&
+einen suzzen freundes chus&
+und tu \edtext{\textit{durch mich}}{\lemma{durch mich}\Afootnote{doch herre  P}}  alsus,&
+als ich han gesaget dir.”\hfill{\footnotesize250}&
+“gerne”, sprach er, “vrouwe” zu ir&
+uz trubes herzen sinne.&
+“swas ich dar an gewinne,&
+ich leiste gerne, swas ir welt.&
+ich han so sere an euch geselt\hfill{\footnotesize255}&
+hertze, leip unde sin,&
+daz ich euch von rechte pin&
+eigenlichen undertan.&
+nu last mich euwer urlaup han,&
+uzerwelt vrauwe gut.\hfill{\footnotesize260}&
+und wizzet, das min sender mut&
+nach euch muz grozzen kummer doln.&
+ich pin so sere an euch verkoln&
+mit herze und auch mit leibe,&
+schonest aller weibe,\hfill{\footnotesize265}&
+das ich des grozzen angest habe,&
+man trage mich toten zu dem grabe&
+ee das mir das heil geschehe,&
+das ich euch immer mer gesehe.”&
+hie mit so giench die rede hin,\hfill{\footnotesize270}&
+die si da triben under in&
+von ir zwen herzenleide.&
+die zwei geliben peide&
+schiden sich mit marter\hfill{\footnotesize274}&
+und \edtext{\textit{zugen}}{\lemma{zugen}\Afootnote{twungent  A}} sich do harter\hfill{\footnotesize277}&
+zu herzen an der stunde,\hfill{\footnotesize280}&
+den ich mit dem munde&
+euch gesagen chunne.\hfill{\footnotesize282}&
+an werltlicher wunne\hfill{\footnotesize284}&
+lak ir peider vreude tot.\hfill{\footnotesize285}&
+ir liechten munde rosen rot&
+suzzer kusse pflagen.&
+\edtext{\textit{darnach}}{\lemma{darnach}\Afootnote{hie mit  P}} si sich verwagen&
+aller vreuden under in.&
+der werde ritter karte hin\hfill{\footnotesize290}&
+mit jamer an das mer zu hant.\hfill{\footnotesize311}&
+den ersten chiel, den er vant,&
+da ward er inne uber pracht.&
+er hatte sich des vil wol bedacht,&
+das er uf der erden\hfill{\footnotesize315}&
+nimmer wolde werden&
+freudenhaft noch rechte vro,&
+got gefuget ez im dan also,&
+das er wider queme&
+und etteswas verneme\hfill{\footnotesize320}&
+von der lieben vrowen sin.&
+des wart sin herzenlicher pin&
+so strenge und also bitter.&
+der tugenthafte ritter\hfill{\footnotesize324}&
+begonde sere trauren\hfill{\footnotesize327}&
+und in sin herze mauren&
+vil senecliche reuwe.&
+sin alte sorge neuwe\hfill{\footnotesize330}&
+nach ir suzzen minne wart.&
+der reinen turteltauben art&
+tet er offenlichen schin,&
+das er nach dem liebe sin&
+vermeit der gruenen vreuden zwei\hfill{\footnotesize335}&
+unde wonte steticlichen bei&
+der durren sorgen aste&
+besaz er durch si vaste,&
+des wart sin not also stark,&
+das im der jamer durch daz mark\hfill{\footnotesize340}&
+dranch biz in der sele grunt.&
+er wart so sere sorgen wunt&
+und innenclicher swere.&
+der sende merterere&
+sprach zu manger stunde\hfill{\footnotesize345}&
+uz suzendem munde:&
+“geheret sei das schone wip.&
+der leben und der suzzer lip&
+mir geit so strenger note pin.&
+ja, si, liebe vrauwe min!\hfill{\footnotesize350}&
+wie kan ir suezze meisterschaft&
+so bitterlicher note kraft&
+senden mir zu herzen?&
+wie kan so grozzen smerzen&
+ir vil suzzer leip gegeben?\hfill{\footnotesize355}&
+wil si mir trosten nicht min leben,&
+so pin ich endeclichen tot.”&
+mit dirre klagenden herzen not&
+was er mit jamer alle tage&
+und treip so lange dise clage,\hfill{\footnotesize360}&
+\edtext{\textit{bitze er ze jungest wart geleit}}{\lemma{bitze er ze jungest wart geleit}\Afootnote{om. P}}&
+\edtext{\textit{in also groze sendikeit}}{\lemma{in also groze sendikeit}\Afootnote{om. P}}&
+\edtext{\textit{daz er nùt langer moehte leben}}{\lemma{daz er nùt langer moehte leben}\Afootnote{om. P}}&
+\edtext{\textit{im wart so grime not gegeben}}{\lemma{im wart so grime not gegeben}\Afootnote{om. P}}&
+das man uzen an im sach\hfill{\footnotesize365}&
+das taugenlich ungemach,&
+das innerhalp sin herze truk&
+untz das der werde ritter cluk\hfill{\footnotesize368}&
+der leiden mere sich versach,\hfill{\footnotesize377}&
+das im zu sterben geschach.&
+da sprach er zu dem knecht sin:\hfill{\footnotesize379}&
+“vernim mich, traut geselle min,\hfill{\footnotesize381}&
+wan ich enphinde leider wol\hfill{\footnotesize383}&
+benamen, das ich sterben sol&
+nach miner lieben vrowen,\hfill{\footnotesize385}&
+wen si mich hat verhouwen&
+bis uf den tot mit sender clage.&
+darumme tu, was ich dir sage:&
+wen ich bin vertorben&
+und \edtext{\textit{liege}}{\lemma{liege}\Afootnote{alhie  P}} erstorben\hfill{\footnotesize390}&
+durch das vil minnencliche wip,&
+so heiz uf sneiden minen lip.&
+daruz nim min herze gar,&
+plutiges unde reuwenvar&
+unde heiz es vaste salben\hfill{\footnotesize395}&
+mit balsamen allenthalben,&
+durch daz es lange vrisch beste.\hfill{\footnotesize397}&
+vernim, was ich dir sage me:\hfill{\footnotesize399}&
+frueme ein ledelin cleine\hfill{\footnotesize401}&
+von golde unde von gesteine;&
+darin mein todes herze tu&
+und leg das vingerlin dazu,&
+das mir gap di vrowe min;\hfill{\footnotesize405}&
+so die zwei bi einander sin&
+verslozzen und verrigelt.&
+so brenge also versigelt&
+si peide miner vrauwen,&
+das si muge beschowen,\hfill{\footnotesize410}&
+was ich han durch sie erliten&
+und wie min herze si versniten&
+nach ir vil edelen minne.&
+so hat si reine sinne&
+und also gute treuwe,\hfill{\footnotesize415}&
+daz ir min iamer neuwe&
+liget immer an irem herzen,&
+bevindet si den smerzen,&
+den ich durch si liden sol.&
+darumme tu so rechte wol\hfill{\footnotesize420}&
+und erfulle min gebot.&
+der reine und der suezze got,&
+der kein edel herze nie&
+mit siner helfe verlie,&
+der muzze sich erbarmen\hfill{\footnotesize425}&
+uber mich vil armen&
+und geruche der vil lieben geben&
+vreud und wunneliches leben,&
+durch die ich hie muoz ligen tot.”&
+mit \edtext{\textit{dirre}}{\lemma{dirre}\Afootnote{grimmen  P}} clagender herzen not,\hfill{\footnotesize430}&
+der ritter nam sin ende.\hfill{\footnotesize433}&
+darumme sine hende&
+der knecht vil jemerlichen want.\hfill{\footnotesize435}&
+er hiez in sniden uf zuhant&
+und ervulte sin gebet,&
+als er in gebeten het.\hfill{\footnotesize438}&
+daz tete er unde kerte dan\hfill{\footnotesize443}&
+als ein vreudenloser man&
+mitdemherzenalsotot\hfill{\footnotesize445}&
+erfuortesalseerimegebot&
+her uber mer wider zu der veste,&
+da er die vrowen uffe weste,&
+durchdiederliebeherresin&
+leitdesgrimentodespin\hfill{\footnotesize450}&
+do er zu der purge quam,\hfill{\footnotesize453}&
+do die vrowe lobesam&
+uffe was an der selben zit,\hfill{\footnotesize455}&
+do wider rait im uf dem velde wit&
+ir wirt engegen von geschicht,&
+als uns die aventeuwer gicht,&
+und wolde haben gebeizet.&
+\edtext{\textit{Des}}{\lemma{Des}\Afootnote{der  P}} wart der knecht gereizet\hfill{\footnotesize460}&
+uf snecliches ungemach.&
+wan der ritter in ersach&
+da gedacht er  santzuhant:&
+“zwar der ist her gesant&
+umme anders nicht, wan umme daz,\hfill{\footnotesize465}&
+daz er der mere etteswas&
+bringe minem wibe&
+von sines herzen libe,&
+der nach ir sende minne treit.”&
+hie mit er zu dem knecht reit\hfill{\footnotesize470}&
+und wolde in mere fragen sa.&
+do gesach er pi im hangen da&
+daz ledelin von gezirde kluk,&
+dar inne er daz herze truk&
+und ouch der vrowen vingerlin.\hfill{\footnotesize475}&
+er het ez an die gurtel sin,&
+den leuten gehenget zu gesicht,&
+als ob es were anders icht.\hfill{\footnotesize478}&
+do der ritter daz ersach,\hfill{\footnotesize481}&
+da gruzte er in unde sprach,&
+was er darinne truge.&
+do sprach der knecht gefuge&
+und der reine jungelinch:\hfill{\footnotesize485}&
+“herre, daz ist einer hande dinch,&
+daz verre bie mir ist gesant.”&
+“las sehen!”, sprach er satzuhant,&
+“was darinne si verporgen.”&
+do sprach der knecht mit sorgen:\hfill{\footnotesize490}&
+“herre, des entun ich nicht;&
+kein auge ez nimmer gesicht,&
+\edtext{\textit{wan der}}{\lemma{wan der}\Afootnote{wen daz  P}}  ez zu rechte sal sehen.”&
+“nein, des mak nicht geschechen,&
+wen ich wol so gewaldik pin,\hfill{\footnotesize495}&
+das ich dir es mit gewalt nim&
+und schauw ez sunder dinen dank.”&
+nu stund ez darnach unlank,&
+das er im das ledelin&
+prach von der gurtel sin.\hfill{\footnotesize500}&
+er tet es uf mit siner hant.&
+er sach das hertze unde vant&
+da pei der vrowen vingerlin.&
+an disen dingen wart im schin,&
+das der ritter were tot\hfill{\footnotesize505}&
+und dise peide seiner not&
+ein urkunde weren&
+zu der vil seldenberen.&
+der ritter sprach dem knechte zu:&
+“ich sag dir, geselle, was du tu:\hfill{\footnotesize510}&
+nu var din straze, wollest du.\hfill{\footnotesize511}&
+ich wil ditz cleinote nu\hfill{\footnotesize514}&
+mir selben haben, sage ich dir.”\hfill{\footnotesize515}&
+sust reit er heim nach siner gir&
+und sprach zu sinem koche sa,&
+das er im uz dem herzen da&
+ein gefuge gerichte machte,&
+mit hohem vliz ertrachte.\hfill{\footnotesize520}&
+das tet der koch mit willen gar.\hfill{\footnotesize527}&
+er nam daz hertz zu im dar&
+und macht ez also rechte wol,&
+das man enpeizen nimmer sol\hfill{\footnotesize530}&
+keiner slacht spise,&
+die so wol zu prise&
+mit edelen wurtzen wer gemacht,&
+als das hertze vil geslacht.\hfill{\footnotesize534}&
+da die spise was bereit,\hfill{\footnotesize541}&
+der wirt nicht lenger enpeit.&
+er satzte sich uber den tisch;&
+er hiez daz herze also vrisch&
+siner vrowen bringen dar.\hfill{\footnotesize545}&
+“vrowe,” sprach er, “und suza gar,&
+dise spise kleine,&
+die solt du ezzen eine,&
+wan du ir nicht geteilen macht.”\hfill{\footnotesize549}&
+sust nam die vrowe vil geslacht\hfill{\footnotesize551}&
+und az irs freundes herze gar,\hfill{\footnotesize553}&
+so daz si nie wart gewar,&
+welcher slachte ez mochte sin\hfill{\footnotesize555}&
+daz iemerliche trechtelin.\hfill{\footnotesize556}&
+da die vrauwe stete\hfill{\footnotesize563}&
+daz herze gezzen hette,\hfill{\footnotesize564}&
+do sprach der ritter sazuhant:\hfill{\footnotesize566}&
+“vrauwe, nu tu mir das bekant,\hfill{\footnotesize567}&
+enpizzestdu keiner spise ie\hfill{\footnotesize570}&
+suzer, vrauwe, danne die?”&
+“lieber herre”, sprach si do,&
+“nimmer muz ich werden vrô,&
+ob ich ie spise geze,&
+die so zucker meze\hfill{\footnotesize575}&
+mich deuchte und so reine,&
+als dise spise cleine,&
+der min herze ie bechort;&
+aller spise ein uberhort&
+muz mir ditz gerichte sin.”\hfill{\footnotesize580}&
+si sprach: “liber herre min,&
+ist ditz ezzen lobesam&
+gewesen wild oder zam?”&
+da sprach der ritter aber zu ir:&
+“vernim was ich nu sage dir\hfill{\footnotesize585}&
+und mit worten hie bescheide.&
+zam und wilde peide&
+was ditz gerichte, sa mir got.&
+den freuden wilde ane spot,&
+den sorgen zam an underlas.\hfill{\footnotesize590}&
+du hast des ritters herze gas,&
+das er in sinem libe truk,&
+der nach dir hat geliten genuk&
+jamers alle sine tage.&
+gelaube mir, was ich dir sage,\hfill{\footnotesize595}&
+er ist vor sender hertzen not&
+nach diner suzen minne tot,&
+und hat dir das herze sin&
+und ditz gute vingerlin&
+zu urkunde her gesant\hfill{\footnotesize600}&
+mit sime knechte in ditz lant.”&
+von dem leiden mere&
+wart die seldenbere&
+alsam ein todes wip gestalt.&
+ir wart in dem leibe kalt\hfill{\footnotesize605}&
+das herze, des geloubet mir.&
+ir lichten hende die enphilen ir&
+beide vor sich in den schoz.&
+das plut ir uz dem munde doz,&
+\edtext{\textit{als es die ware schult gebot}}{\lemma{als es die ware schult gebot}\Afootnote{om. P}}.\hfill{\footnotesize610}&
+“ja”, sprach sie do mit grozer not,&
+“han ich sin herze danne gaz,&
+der mir hat an underlas&
+von grunde ie holden mut getragen,&
+so wil ich euch benamen sagen,\hfill{\footnotesize615}&
+das ich nach dirre spise,&
+so wol gemacht zu prise,&
+mich nimmer keins gerichtes mer&
+vorpas wil genieten her.\hfill{\footnotesize619}&
+got verbiete mir durch sinen mut,\hfill{\footnotesize621}&
+das nach so werder spise gut&
+in mich kein swach gerichte gê.&
+enpeizen sol ich nimmer me&
+keiner slachte dinges,\hfill{\footnotesize625}&
+den des jungelinges,&
+der geheizen ist der tot.&
+ich sol mit sender herzen not&
+verswenden nu min armes leben&
+umb in, der durch mich hat gegeben\hfill{\footnotesize630}&
+beide leben unde lip.\hfill{\footnotesize631}&
+ich wer ein treweloses wip,\hfill{\footnotesize633}&
+ob ich gedechte nicht daran,\hfill{\footnotesize634}&
+das der tugenthafte man\hfill{\footnotesize636}&
+sante mir sin herze tot.&
+we,   das mir ie nach siner not&
+wart einen tach das leben schin.&
+tzwar ez mag lenger nicht gesin,\hfill{\footnotesize640}&
+das ich an in  lebe&
+und er in dem tode swebe,&
+der vor mir treuwe nie verbarch.”&
+sust wart ir not so rechte starch,&
+das si von herzen leide\hfill{\footnotesize645}&
+ir blanken hende beide&
+mit grimme in einander vielt.&
+das herze ir in dem liebe spielt&
+von sender jamerunge.&
+hie mit gab die junge\hfill{\footnotesize650}&
+ein ende ir suzem lebene&
+und wider wak vil ebene&
+mit einem swerem lote,&
+was ir davor genote&
+ir freunt geborget hete.\hfill{\footnotesize655}&
+si galt mit gantzer stete&
+und auch mit hohen treuwen im.&
+got gebe, was ich dinges nim,&
+das ich wider geben das&
+mueze sanfter unde pas.\hfill{\footnotesize660}&
+hie hat das herze ein ende;&
+der riche got in schende,&
+das er der spise ie gewuck,&
+die so iemerlichen truk&
+so gar getreuwem wibe\hfill{\footnotesize665}&
+das leben von irem libe.&
+das muz mich reuwen immer&
+und vergezze ouch nimmer&
+siner dorperheite,&
+das er ires ie geseite.\hfill{\footnotesize670}&
+hie hat das herz ein ende;&
+got uns zu himel sende.Amen\hfill{\footnotesize672}&

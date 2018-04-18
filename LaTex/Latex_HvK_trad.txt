@@ -55,11 +55,11 @@ Toda la gente sin malicia&
 le otorgaban grandes elogios.&
 Su padre era de Suabia&
 y un conde poderoso,&
-con muchas rentas.&
-Esta herencia sería toda&
-de este buen muchacho.&
-Aquel día fue a la corte&
-frente a la mesas y posó&
+cuyas muchas rentas&
+heredaría él solo.&
+Este buen muchacho&
+aquel día fue a la corte,&
+hasta las mesas, y posó&
 allí sus preciosas manos;&
 tomó un tierno pan&
 y quiso comerlo, como hacen los niños&
@@ -113,11 +113,11 @@ quiero deciros que&
 os estaís compartando como no debéis.&
 Que sin motivo&
 habéis golpeado a mi señor,&
-eso es realmente despreciable"&
-El senescal dijo:&
-"Me parece justo&
-que yo me ocupe de castigar lo inapropiado&
-y golpee a aquel&
+"Eso es algo sin importancia,"&
+dijo el senescal,&
+"me corresponde&
+castigar a quienes se comportan de manera inapropiada&
+y golpear a aquel&
 que no muestre modales en la corte.&
 Vuestros dichos&
 abandonad completamente.&
@@ -298,10 +298,10 @@ que no lo dejaba hablar.&
 Los valiosos y atrevidos&
 príncipes todos saltaron;&
 con velocidad se acercaron&
-y con violencia(?).&
-El emperador cadavérico&
-estaba sometido por el de Kempten.&
-Superado en fuerzas (?)&
+todos juntos a donde&
+el emperador pálido de muerte&
+yacía debajo del de Kempten.&
+Menguado en sus fuerzas&
 les hubiese gustado al instante&
 liberarlo de él.&
 Entonces habló el caballero Heinrich:&
@@ -311,7 +311,7 @@ Luego pondré en un apuro&
 al que primero me toque.&
 Si no puedo salvarme,&
 también a nuestro anfitrión le irá mal:&
-lo apuñalaré en el 'huérfano'&
+le arrancaré el 'huérfano'&
 con este duro cuchillo.&
 También lo pagarán los invitados&
 que quisieran matarme.&
@@ -380,8 +380,8 @@ se despidió de los hombres del emperador&
 y se fue de allí.&
 Volvió a Suabia&
 y se asentó en su tierra&
-sobre un poderoso feudo.&
-Cultivos, praderas y campos&
+sobre un poderoso feudo. Bienes,&
+cultivos, praderas y campos&
 tenía el de Kempten, según he leído.&
 Allí se quedó, pues también era&
 un servidor del convento [de Kempten].&
@@ -447,7 +447,7 @@ y no lo dejéis,&
 que nos ha sido a mí y a vos ordenado.&
 Por esto ahora mismo&
 debéis preparaos para el viaje."&
-"Oh, señor, qué tenéis planeado?"&
+"Oh, señor, ¿qué tenéis planeado?"&
 dijo Heinrich von Kempten,&
 "sabéis bien que yo&
 ante el emperador no puedo comparecer&
@@ -458,7 +458,7 @@ en nombre de mi buen servicio.&
 El emperador ha alejado de mí&
 su clemencia por completo&
 y extiende sobre mí&
-el techo (?) de su inclemencia.&
+el entramado de su inclemencia.&
 He criado dos hijos&
 que puedo enviar con vos&
 antes de que yo deba viajar solo.&
@@ -486,7 +486,7 @@ y mi servicio refusáis,&
 lo que tenéis como feudo&
 sabe Dios que lo daré a otro&
 que sepa ganárselo."&
-"Verdaderamente (?)", dijo el caballero,&
+"Verdaderamente", dijo el caballero,&
 "si el asunto es así,&
 que me quitaréis el feudo&
 si no obedezco,&
@@ -633,9 +633,9 @@ Algunos de los que estaban&
 allí, sabían&
 que Heinrich al emperador&
 había ayudado en aquel momento.&
-Todos dijeron jugándosela(?):&
-conocemos, señor, al héroe&
-que vuestra vida extraordinaria&
+Entre unos y otros dijeron:&
+"conocemos, señor, al héroe&
+quien a vuestra vida extraordinaria&
 ha liberado de la muerte.&
 El problema es que,&
 sobre él, en este momento,&
@@ -658,7 +658,7 @@ Heinrich von Kempten.&
 El emperador comprendiendo todo&
 se dijo al instante:&
 "Si ha venido a este país&
-quiero saberlo sin mentiras.(?)&
+quiero saberlo con certeza.&
 ¿Quién más podría haber hecho esto,&
 de pelear hoy desnudo?&
 Pues él lleva el coraje&
@@ -709,7 +709,7 @@ cumplir con su orden.&
 Si no hubiese venido&
 me hubiese arrebatado el feudo;&
 si hubiese en ese momento&
-cancelado el viaje."(?)&
+cancelado el viaje."&
 El emperador comenzó a reirse.&
 Dijo: "Vos, hombre exrtaordinario,&
 sois inocente, es lo que escucho.&
@@ -746,8 +746,8 @@ a todo hombre&
 que puede mantenerlas&
 y vivir con ambas.&
 Aquí debe terminar este relato&
-y este pequeño cuento&
-que yo gracias al de Tiersberc&
+y este pequeño cuento,&
+lo que yo gracias al de Tiersberc&
 puse en verso&
 y traduje del latín&
 al alemán, tal como él me pidió.&
