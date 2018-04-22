@@ -1,0 +1,324 @@
+﻿<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Der Welt Lohn - Spanish Translation</title>
+            <author>Konrad von Würzburg</author>
+            <editor>Gustavo Fernández Riva</editor>
+             <sponsor>CONICET</sponsor>
+         </titleStmt>
+         <publicationStmt>
+             <p>Translated by Gustavo Fernández Riva as part of the PhD in Medieval Studies at the University of Buenos Aires (Argentina) from 2014 to 2017</p>
+         </publicationStmt>
+         <sourceDesc>
+           <p>Based on the Critical Text composed by Gustavo Fernández Riva</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+          <div>
+              <head>El galardón del mundo</head>
+              <l  n="1" xml:id="v_1" corresp="s_1">Amantes del mundo,</l>
+              <l  n="2" xml:id="v_2" corresp="s_2">prestad atención a este relato,</l>
+              <l  n="3" xml:id="v_3" corresp="s_3">sobre lo que sucedió a un caballero,</l>
+              <l  n="4" xml:id="v_4"  corresp="s_4">que se afanaba por el galardón del mundo,</l>
+              <l  n="5" xml:id="v_5"  corresp="s_5">tarde y temprano.</l>
+              <l  n="6" xml:id="v_6"  corresp="s_6">Él consideraba muchas cosas</l>
+              <l n="7" xml:id="v_7" corresp="s_7">que podría emprender</l>
+            <l n="8" xml:id="v_8" corresp="s_8">para conseguir el galardón</l>
+            <l n="9" xml:id="v_9" corresp="s_9">del honor del mundo.</l>
+            <l n="10" xml:id="v_10" corresp="s_10">Él sabía acrentar</l>
+            <l n="11" xml:id="v_11" corresp="s_11">su fama en todas partes</l>
+            <l n="12" xml:id="v_12" corresp="s_12">con obras y con palabras.</l>
+            <l n="13" xml:id="v_13" corresp="s_13">Su vida era tan acabada</l>
+            <l n="14" xml:id="v_14" corresp="s_14">que se la considera entre las mejores</l>
+            <l n="15" xml:id="v_15" corresp="s_15">en todas las tierras alemanas.</l>
+            <l n="16" xml:id="v_16" corresp="s_16">La infamia</l>
+            <l n="17" xml:id="v_17" corresp="s_17">evitó siempre.</l>
+            <l n="18" xml:id="v_18" corresp="s_18">Era cortés e inteligente,</l>
+            <l n="19" xml:id="v_19" corresp="s_19">bello y pleno de virtudes.</l>
+            <l n="20" xml:id="v_20" corresp="s_20">Lo que un hombre en el mundo precisa</l>
+            <l n="21" xml:id="v_21" corresp="s_21">para conseguir estimación,</l>
+            <l n="22" xml:id="v_22" corresp="s_22">eso sabía el astuto señor</l>
+            <l n="23" xml:id="v_23" corresp="s_23">considerar  y reflexionar.</l>
+            <l n="24" xml:id="v_24" corresp="s_24">Se veía al excelente(?)</l>
+            <l n="25" xml:id="v_25" corresp="s_25">portar ropas extraordinarias;</l>
+            <l n="26" xml:id="v_26" corresp="s_26">cazar con halcones y con perros</l>
+            <l n="27" xml:id="v_27" corresp="s_27">sabía bien y lo hacía asiduamente<pc>.</pc></l>
+            <l n="28" xml:id="v_28" corresp="s_28">El ajedrez y la música de cuerdas</l>
+            <l n="29" xml:id="v_29" corresp="s_29">eran su pasatiempo.</l>
+            <l n="30" xml:id="v_30" corresp="s_30">Si en cien millas</l>
+            <l n="31" xml:id="v_31" corresp="s_31">se anunciaba un torneo,</l>
+            <l n="32" xml:id="v_32" corresp="s_32">cabalgaba el virtuso señor</l>
+              <l n="33" xml:id="v_33" corresp="s_33">hacía allí con buen ánimo</l>
+            <l n="34" xml:id="v_34" corresp="s_34">y peleaba con gusto</l>
+            <l n="35" xml:id="v_35" corresp="s_35">por la admiración y el amor cortés.</l>
+            <l n="36" xml:id="v_36" corresp="s_36">Era tan propicio a las damas</l>
+            <l n="37" xml:id="v_37" corresp="s_37">sensatas,</l>
+            <l n="38" xml:id="v_38" corresp="s_38">que en todos sus años,</l>
+            <l n="39" xml:id="v_39" corresp="s_39">con firme constancia</l>
+            <l n="40" xml:id="v_40" corresp="s_40">las servía;</l>
+            <l n="41" xml:id="v_41" corresp="s_41">de manera que todas las mujeres afortunadas</l>
+            <l n="42" xml:id="v_42" corresp="s_42">alababan y elogiaban</l>
+            <l n="43" xml:id="v_43" corresp="s_43">su maravilloso cuerpo,</l>
+            <l n="44" xml:id="v_44" corresp="s_44">tal como nos aseguran los libros</l>
+            <l n="45" xml:id="v_45" corresp="s_45">y yo he encontrado escrito sobre él.</l>
+            <l n="46" xml:id="v_46" corresp="s_46">El señor se llamaba</l>
+            <l n="47" xml:id="v_47" corresp="s_47">Wirin von Grafenberc.</l>
+            <l n="48" xml:id="v_48" corresp="s_48">Obras mundanas</l>
+            <l n="49" xml:id="v_49" corresp="s_49">desarrolló siempre.</l>
+            <l n="50" xml:id="v_50" corresp="s_50">Su corazón calmado y abierto</l>
+            <l n="51" xml:id="v_51" corresp="s_51">se afanaba por el amor.</l>
+            <l n="52" xml:id="v_52" corresp="s_52">Así estaba sentado el afamado</l>
+            <l n="53" xml:id="v_53" corresp="s_53">en una habitación,</l>
+            <l n="54" xml:id="v_54" corresp="s_54">muy contento,</l>
+            <l n="55" xml:id="v_55" corresp="s_55">y sostenía un libro en su mano</l>
+            <l n="56" xml:id="v_56" corresp="s_56">en el que encontraba escritas</l>
+            <l n="57" xml:id="v_57" corresp="s_57">historias de amor.</l>
+            <l n="58" xml:id="v_58" corresp="s_58">En eso se pasó</l>
+            <l n="59" xml:id="v_59" corresp="s_59">el día hasta tarde.</l>
+            <l n="60" xml:id="v_60" corresp="s_60">Su alegría era enorme</l>
+            <l n="61" xml:id="v_61" corresp="s_61">por las dulces palabras que allí leía.</l>
+            <l n="62" xml:id="v_62" corresp="s_62">Cuando estaba así sentado,</l>
+            <l n="63" xml:id="v_63" corresp="s_63">entró andando</l>
+            <l n="64" xml:id="v_64" corresp="s_64">una mujer como quería su corazón,</l>
+            <l n="65" xml:id="v_65" corresp="s_65">creada tal como se podía desear</l>
+            <l n="66" xml:id="v_66" corresp="s_66">y de una aparienca amorosa,</l>
+            <l n="67" xml:id="v_67" corresp="s_67">que nunca se vio una mujer más bella.</l>
+            <l n="68" xml:id="v_68" corresp="s_68">Su belleza sobrepasaba</l>
+            <l n="69" xml:id="v_69" corresp="s_69">a todas las mujeres aquí presentes.</l>
+            <l n="70" xml:id="v_70" corresp="s_70">Una joven tan hermosa</l>
+            <l n="71" xml:id="v_71" corresp="s_71">nunca abandonó el pecho materno.</l>
+            <l n="72" xml:id="v_72" corresp="s_72">Lo juro por mi bautismo</l>
+            <l n="72" xml:id="v_73" corresp="s_72a"/>
+            <l n="72" xml:id="v_74" corresp="s_72b"/>
+            <l n="73" xml:id="v_75" corresp="s_73">que era mucho más bella</l>
+            <l n="74" xml:id="v_76" corresp="s_74">que Venus o la señora Palas</l>
+            <l n="75" xml:id="v_77" corresp="s_75">y que todas las diosas</l>
+            <l n="76" xml:id="v_78" corresp="s_76">que se dedican al amor.</l>
+            <l n="77" xml:id="v_79" corresp="s_77">Su apariencia y su color</l>
+            <l n="78" xml:id="v_80" corresp="s_78">eran ambos</l>
+            <l n="79" xml:id="v_81" corresp="s_79">brillantes como un espejo.</l>
+            <l n="80" xml:id="v_82" corresp="s_80">Su belleza generaba tal resplandor</l>
+            <l n="81" xml:id="v_83" corresp="s_81">y un explendor maravilloso,</l>
+            <l n="82" xml:id="v_84" corresp="s_82">que el mismísimo palacio</l>
+            <l n="83" xml:id="v_85" corresp="s_83">estaba iluminado por su presencia.</l>
+            <l n="84" xml:id="v_86" corresp="s_84">La plenitud no había escatimado</l>
+            <l n="85" xml:id="v_87" corresp="s_85">su gran potencia en ella,</l>
+            <l n="86" xml:id="v_88" corresp="s_86">ella había aplicadao en ella</l>
+            <l n="87" xml:id="v_89" corresp="s_87">su maestría con empeño.</l>
+            <l n="88" xml:id="v_90" corresp="s_88">Cualquier cosa que se diga sobre las</l>
+            <l n="89" xml:id="v_91" corresp="s_89">mujeres bellas, ella era superior.</l>
+            <l n="90" xml:id="v_92" corresp="s_90">Nunca fue vista una mujer más hermosa</l>
+            <l n="91" xml:id="v_93" corresp="s_91">sobre la tierra.</l>
+            <l n="92" xml:id="v_94" corresp="s_92">También estaba con lujo</l>
+            <l n="93" xml:id="v_95" corresp="s_93">y con belleza vestida.</l>
+            <l n="94" xml:id="v_96" corresp="s_94">Las ropas y la corona</l>
+            <l n="95" xml:id="v_97" corresp="s_95">que portaba la hermosa mujer</l>
+            <l n="96" xml:id="v_98" corresp="s_96">sobre su cuerpo</l>
+            <l n="97" xml:id="v_99" corresp="s_97">eran tan ricas</l>
+            <l n="98" xml:id="v_100" corresp="s_98">que con seguridad</l>
+            <l n="99" xml:id="v_101" corresp="s_99">nadie podría comprarlas</l>
+            <l n="100" xml:id="v_102" corresp="s_100">si estuvieran en venta.</l>
+            <l n="101" xml:id="v_103" corresp="s_101">El señor Wirnt von Grafenberc</l>
+            <l n="102" xml:id="v_104" corresp="s_102">se asustó mucho de ella;</l>
+            <l n="103" xml:id="v_105" corresp="s_103">mientras se acercaba a paso lento</l>
+            <l n="104" xml:id="v_106" corresp="s_104">él empalideció</l>
+            <l n="105" xml:id="v_107" corresp="s_105">mucho a causa de su llegada;</l>
+            <l n="106" xml:id="v_108" corresp="s_106">comenzó a preguntarse</l>
+            <l n="107" xml:id="v_109" corresp="s_107">qué mujer era que así venía.</l>
+            <l n="108" xml:id="v_110" corresp="s_108">El admirable hombre dio un salto</l>
+            <l n="109" xml:id="v_111" corresp="s_109">asustado y empalidecido</l>
+            <l n="110" xml:id="v_112" corresp="s_110">y recibió a la preciosa mujer</l>
+            <l n="111" xml:id="v_113" corresp="s_111">todo lo bien que sabía hacerlo.</l>
+            <l n="112" xml:id="v_114" corresp="s_112">Le dijo con su dulce boca:</l>
+            <l n="113" xml:id="v_115" corresp="s_113">"Mujer, bienvenida seas, por dios,</l>
+            <l n="114" xml:id="v_116" corresp="s_114">a todas las mujeres que he conocido</l>
+            <l n="115" xml:id="v_117" corresp="s_115">las superas con comodidad."</l>
+            <l n="116" xml:id="v_118" corresp="s_116">Entonces habló la bella:</l>
+            <l n="117" xml:id="v_119" corresp="s_117">"Querido amigo, que dios te premie,</l>
+            <l n="118" xml:id="v_120" corresp="s_118">no te asustes de mí.</l>
+            <l n="118" xml:id="v_121" corresp="s_119"/>
+            <l n="118" xml:id="v_122" corresp="s_120"/>
+            <l n="118" xml:id="v_123" corresp="s_121"/>
+            <l n="118" xml:id="v_124" corresp="s_122"/>
+            <l n="119" xml:id="v_125" corresp="s_123">Yo soy aquella mujer</l>
+            <l n="120" xml:id="v_126" corresp="s_124">por la que tu cuerpo y alma</l>
+            <l n="121" xml:id="v_127" corresp="s_125">muchas veces has arriesgado.</l>
+            <l n="122" xml:id="v_128" corresp="s_126">Cuando tu corazón ha flaqueado,</l>
+            <l n="123" xml:id="v_129" corresp="s_127">por mí ha adquirido coraje.</l>
+            <l n="124" xml:id="v_130" corresp="s_128">Has sido bello e inteligente</l>
+            <l n="125" xml:id="v_131" corresp="s_129">todos tus años.</l>
+            <l n="126" xml:id="v_132" corresp="s_130">Tu valiosa vida dulce y clara</l>
+            <l n="127" xml:id="v_133" corresp="s_131">por conquistarme se ha esforzado;</l>
+            <l n="128" xml:id="v_134" corresp="s_132">ha hablado y ha cantado</l>
+            <l n="129" xml:id="v_135" corresp="s_133">sobre mí lo mejor que puede.</l>
+            <l n="130" xml:id="v_136" corresp="s_134">Siempre has sido mi servidor</l>
+            <l n="131" xml:id="v_137" corresp="s_135">por las noches y las mañanas.</l>
+            <l n="132" xml:id="v_138" corresp="s_136">Has sabido conseguir</l>
+            <l n="133" xml:id="v_139" corresp="s_137">grandes elogios y valiosas recompensas;</l>
+            <l n="134" xml:id="v_140" corresp="s_138">floreces como una flor de mayo</l>
+            <l n="135" xml:id="v_141" corresp="s_139">con variadas virtudes.</l>
+            <l n="136" xml:id="v_142" corresp="s_140">Desde la infancia has</l>
+            <l n="137" xml:id="v_143" corresp="s_141">llevado la corona del honor;</l>
+            <l n="138" xml:id="v_144" corresp="s_142">tu intención ha sido clara y plena,</l>
+            <l n="139" xml:id="v_145" corresp="s_143">siempre leal a mí,</l>
+            <l n="140" xml:id="v_146" corresp="s_144">extraordinario y valioso caballero.</l>
+            <l n="141" xml:id="v_147" corresp="s_145">Por eso he venido aquí,</l>
+            <l n="142" xml:id="v_148" corresp="s_146">para que según tu deseo</l>
+            <l n="143" xml:id="v_149" corresp="s_147">mi cuerpo hermoso</l>
+            <l n="144" xml:id="v_150" corresp="s_148">contemples por todas partes;</l>
+            <l n="145" xml:id="v_151" corresp="s_149">qué bella soy y que perfecta.</l>
+            <l n="146" xml:id="v_152" corresp="s_150">El rico galardón y el gran provecho</l>
+            <l n="147" xml:id="v_153" corresp="s_151">que recibirás de mí</l>
+            <l n="148" xml:id="v_154" corresp="s_152">por tu apropiado servicio</l>
+            <l n="149" xml:id="v_155" corresp="s_153">debes mirar y observar.</l>
+            <l n="150" xml:id="v_156" corresp="s_154">Quiero dejarte ver</l>
+            <l n="151" xml:id="v_157" corresp="s_155">el galardón que te corresponderá</l>
+            <l n="152" xml:id="v_158" corresp="s_156">por haberme servido tan correctamente."</l>
+            <l n="152" xml:id="v_159" corresp="s_156a"/>
+            <l n="152" xml:id="v_160" corresp="s_156b"/>
+            <l n="153" xml:id="v_161" corresp="s_157">El nobre y virtuoso</l>
+            <l n="154" xml:id="v_162" corresp="s_158">se sorprendió mucho</l>
+            <l n="155" xml:id="v_163" corresp="s_159">de las palabras de esta dama,</l>
+            <l n="156" xml:id="v_164" corresp="s_160">porque el joven</l>
+            <l n="157" xml:id="v_165" corresp="s_161">jamás la había visto con sus ojos</l>
+            <l n="158" xml:id="v_166" corresp="s_162">y, sin embargo, la dama afirmaba</l>
+            <l n="159" xml:id="v_167" corresp="s_163">que él había sido su servidor.</l>
+            <l n="160" xml:id="v_168" corresp="s_164">Él dijo: "Piedad, señora mía,</l>
+            <l n="161" xml:id="v_169" corresp="s_165">si alguna vez os he servido,</l>
+            <l n="162" xml:id="v_170" corresp="s_166">disculpadme, yo no lo sé.</l>
+            <l n="163" xml:id="v_171" corresp="s_167">Me parece la verdad,</l>
+            <l n="164" xml:id="v_172" corresp="s_168">que yo con mis ojos</l>
+            <l n="165" xml:id="v_173" corresp="s_169">nunca os he visto.</l>
+            <l n="166" xml:id="v_174" corresp="s_170">Ya que deséais afirmar</l>
+            <l n="167" xml:id="v_175" corresp="s_171">que soy vuestro sirviente, alabada mujer,</l>
+            <l n="168" xml:id="v_176" corresp="s_172">mi corazón y mi cuerpo están</l>
+            <l n="169" xml:id="v_177" corresp="s_173">dispuestos a serviros</l>
+            <l n="170" xml:id="v_178" corresp="s_174">voluntariamente y con esfuerzo</l>
+            <l n="171" xml:id="v_179" corresp="s_175">hasta mi muerte.</l>
+            <l n="172" xml:id="v_180" corresp="s_176">Vos poseéis tan elevada perfección</l>
+            <l n="173" xml:id="v_181" corresp="s_177">y tan amplia virtud</l>
+            <l n="174" xml:id="v_182" corresp="s_178">que vuestra juventud floreciente en alegrías</l>
+            <l n="175" xml:id="v_183" corresp="s_179">podrá recompensarme con justicia.</l>
+            <l n="176" xml:id="v_184" corresp="s_180">Bien por mí que este día</l>
+            <l n="177" xml:id="v_185" corresp="s_181">he podido vivir; de eso me alegro.</l>
+            <l n="178" xml:id="v_186" corresp="s_182">Si es que vos, delicada dama,</l>
+            <l n="179" xml:id="v_187" corresp="s_183">deseáis recibir mi servicio,</l>
+            <l n="180" xml:id="v_188" corresp="s_184">dama excelente en todas las virtudes,</l>
+            <l n="181" xml:id="v_189" corresp="s_185">permitidme saber algo</l>
+            <l n="182" xml:id="v_190" corresp="s_186">por la maravillosa dicha</l>
+            <l n="183" xml:id="v_191" corresp="s_187">que en vosotros, hermosa mujer, reposa:</l>
+            <l n="184" xml:id="v_192" corresp="s_188">¿De dónde proviene vuestro nombre</l>
+            <l n="185" xml:id="v_193" corresp="s_189">o por qué lugar sois llamada?</l>
+            <l n="186" xml:id="v_194" corresp="s_190">Que vuestro nombre y vuestro país</l>
+            <l n="187" xml:id="v_195" corresp="s_191">me sean aquí comunicados,</l>
+            <l n="188" xml:id="v_196" corresp="s_192">para que sepa sin falsedad</l>
+            <l n="189" xml:id="v_197" corresp="s_193">si alguna vez en todos mis días</l>
+            <l n="190" xml:id="v_198" corresp="s_194">escuché hablar de vos."</l>
+            <l n="191" xml:id="v_199" corresp="s_195">A esto respondió la bella</l>
+            <l n="192" xml:id="v_200" corresp="s_196">y habló decentemente:</l>
+            <l n="193" xml:id="v_201" corresp="s_197">"Querido amigo, eso sucederá.</l>
+            <l n="194" xml:id="v_202" corresp="s_198">Deseo confesarte aquí mismo</l>
+            <l n="195" xml:id="v_203" corresp="s_199">mi preciado nombre.</l>
+            <l n="196" xml:id="v_204" corresp="s_200">Jamás debes avergonzarte</l>
+            <l n="197" xml:id="v_205" corresp="s_201">de ser mi súbdito, pues</l>
+            <l n="198" xml:id="v_206" corresp="s_202">me rinde servicio todo lo que sobre la tierra</l>
+            <l n="199" xml:id="v_207" corresp="s_203">es preciado y bueno.</l>
+            <l n="200" xml:id="v_208" corresp="s_204">Soy de tan gran valor</l>
+            <l n="201" xml:id="v_209" corresp="s_205">que el emperador y los hijos de reyes</l>
+            <l n="202" xml:id="v_210" corresp="s_206">están todos bajo mi corona;</l>
+            <l n="203" xml:id="v_211" corresp="s_207">condes, libres y duques,</l>
+            <l n="204" xml:id="v_212" corresp="s_208">todos me han hincado la rodilla</l>
+            <l n="205" xml:id="v_213" corresp="s_209">y cumplen mis ordenes.</l>
+            <l n="206" xml:id="v_214" corresp="s_210">No temo a nadie salvo a dios,</l>
+            <l n="207" xml:id="v_215" corresp="s_211">que tiene poder sobre mí.</l>
+            <l n="208" xml:id="v_216" corresp="s_212">Mi nombre es El Mundo,</l>
+            <l n="209" xml:id="v_217" corresp="s_213">el que tú tanto tiempo has deseado.</l>
+            <l n="210" xml:id="v_218" corresp="s_214">Su galardón te será otorgado</l>
+            <l n="211" xml:id="v_219" corresp="s_215">tal como ahora te mostraré.</l>
+            <l n="212" xml:id="v_220" corresp="s_216">Aqui viene, ahora obsérvalo."</l>
+            <l n="213" xml:id="v_221" corresp="s_217">Entonces se tornó y le dio la espalda,</l>
+            <l n="214" xml:id="v_222" corresp="s_218">que por todas partes estaba</l>
+            <l n="215" xml:id="v_223" corresp="s_219">cubierta y cargada</l>
+            <l n="216" xml:id="v_224" corresp="s_220">con horribles serpientes,</l>
+            <l n="217" xml:id="v_225" corresp="s_221">sapos y culebras.</l>
+            <l n="218" xml:id="v_226" corresp="s_222">Su cuerpo estaba repleto de hojas</l>
+            <l n="219" xml:id="v_227" corresp="s_223">y desagradables úlceras.</l>
+            <l n="220" xml:id="v_228" corresp="s_224">Moscas y hormigas</l>
+            <l n="221" xml:id="v_229" corresp="s_225">había en gran cantidad.</l>
+            <l n="222" xml:id="v_230" corresp="s_226">Los gusanos devoraban su carne</l>
+            <l n="223" xml:id="v_231" corresp="s_227">hasta los huesos.</l>
+            <l n="224" xml:id="v_232" corresp="s_228">Era tan impura</l>
+            <l n="225" xml:id="v_233" corresp="s_229">que de su pútrido cuerpo se desprendía</l>
+            <l n="226" xml:id="v_234" corresp="s_230">un olor horrible</l>
+            <l n="227" xml:id="v_235" corresp="s_231">que nadie podría soportar.</l>
+            <l n="228" xml:id="v_236" corresp="s_232">Sua rico vestido de seda</l>
+            <l n="228" xml:id="v_237" corresp="s_233"/>
+            <l n="228" xml:id="v_238" corresp="s_234"/>
+            <l n="228" xml:id="v_239" corresp="s_235"/>
+            <l n="228" xml:id="v_240" corresp="s_236"/>
+            <l n="229" xml:id="v_241" corresp="s_237">era de una apariencia penosa,</l>
+            <l n="230" xml:id="v_242" corresp="s_238">pálida como la ceniza.</l>
+            <l n="230" xml:id="v_243" corresp="s_238a"/>
+            <l n="230" xml:id="v_244" corresp="s_238b"/>
+            <l n="231" xml:id="v_245" corresp="s_239">Así se despidió.</l>
+            <l n="232" xml:id="v_246" corresp="s_240">¡Que sea alejada de mí</l>
+            <l n="233" xml:id="v_247" corresp="s_241">y de toda la cristiandad!</l>
+            <l n="234" xml:id="v_248" corresp="s_242">El noble y libre caballero,</l>
+            <l n="235" xml:id="v_249" corresp="s_243">al ver esta maravilla,</l>
+            <l n="236" xml:id="v_250" corresp="s_244">enseguida su corazón le dijo</l>
+            <l n="237" xml:id="v_251" corresp="s_245">que estaría completamente perdido</l>
+            <l n="238" xml:id="v_252" corresp="s_246">quien quisiera dejarse encontrar</l>
+            <l n="239" xml:id="v_253" corresp="s_247">en su servicio.</l>
+            <l n="240" xml:id="v_254" corresp="s_248">De la mujer y de sus hijos</l>
+            <l n="241" xml:id="v_255" corresp="s_249">pronto se despidió.</l>
+            <l n="242" xml:id="v_256" corresp="s_250">Tomó la cruz en su ropa</l>
+            <l n="243" xml:id="v_257" corresp="s_251">y se ambarcó sobre el salvaje mar</l>
+            <l n="244" xml:id="v_258" corresp="s_252">y ayudó al noble ejército de Dios</l>
+            <l n="245" xml:id="v_259" corresp="s_253">a pelear contra los paganos.</l>
+            <l n="246" xml:id="v_260" corresp="s_254">Así estaba el caballero virtuoso</l>
+            <l n="247" xml:id="v_261" corresp="s_255">en contínua penitencia,</l>
+            <l n="248" xml:id="v_262" corresp="s_256">que ejercía a toda hora.</l>
+            <l n="249" xml:id="v_263" corresp="s_257">Cuando su cuerpo pereció,</l>
+            <l n="250" xml:id="v_264" corresp="s_258">su alma gozó la salvación.</l>
+            <l n="251" xml:id="v_265" corresp="s_259">Aprendan los que aquí están</l>
+            <l n="252" xml:id="v_266" corresp="s_260">de este hijo del salvaje mundo.</l>
+            <l n="253" xml:id="v_267" corresp="s_261">Este relato se acaba</l>
+            <l n="254" xml:id="v_268" corresp="s_262">y está de tal manera compuesto,</l>
+            <l n="255" xml:id="v_269" corresp="s_263">que se debe oirlo con placer.</l>
+            <l n="256" xml:id="v_270" corresp="s_264">El galardón del mundo es puro dolor,</l>
+            <l n="257" xml:id="v_271" corresp="s_265">esto deben haber comprendido todos.</l>
+            <l n="258" xml:id="v_272" corresp="s_266">He llegado al fin.</l>
+            <l n="259" xml:id="v_273" corresp="s_267">Quien en su servicio sea hallado,</l>
+            <l n="260" xml:id="v_274" corresp="s_268">será privado de la felicidad</l>
+            <l n="261" xml:id="v_275" corresp="s_269">que Dios con lealtad</l>
+            <l n="262" xml:id="v_276" corresp="s_270">ha preparado para los elegidos.</l>
+            <l n="263" xml:id="v_277" corresp="s_271">Yo, Konrad von Würzburg,</l>
+            <l n="264" xml:id="v_278" corresp="s_272">os doy este consejo:</l>
+            <l n="265" xml:id="v_279" corresp="s_273">que dejéis alejarse al mundo</l>
+            <l n="266" xml:id="v_280" corresp="s_274">si deseáis salvar el alma.</l>
+            <l n="266" xml:id="v_281" corresp="s_274a"/>
+            <l n="266" xml:id="v_282" corresp="s_274b"/>
+            <l n="266" xml:id="v_283" corresp="s_274c"/>
+            <l n="266" xml:id="v_284" corresp="s_274d"/>
+            <l n="266" xml:id="v_285" corresp="s_274e"/>
+            <l n="266" xml:id="v_286" corresp="s_274f"/>
+            <l n="266" xml:id="v_287" corresp="s_274g"/>
+            <l n="266" xml:id="v_288" corresp="s_274h"/>
+            <l n="266" xml:id="v_289" corresp="s_274i"/>
+            <l n="266" xml:id="v_290" corresp="s_274j"/>
+            <l n="266" xml:id="v_291" corresp="s_274k"/>
+            <l n="266" xml:id="v_292" corresp="s_274l"/>
+            <l n="266" xml:id="v_293" corresp="s_274m"/>
+            <l n="266" xml:id="v_294" corresp="s_274n"/>
+            <l n="266" xml:id="v_295" corresp="s_274o"/>
+            <l n="266" xml:id="v_296" corresp="s_274p"/>
+            <l n="266" xml:id="v_297" corresp="s_274q"/>
+            <l n="266" xml:id="v_298" corresp="s_274r"/>              
+          </div>
+      </body>
+   </text>
+</TEI>
