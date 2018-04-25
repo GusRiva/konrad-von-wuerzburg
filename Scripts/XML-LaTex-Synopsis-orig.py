@@ -4,7 +4,7 @@ import re
 
 text_title = "Heinrich von Kempten"
 
-source = "/Applications/XAMPP/xamppfiles/htdocs/konrad/TEI/Herz_Kritischer_Text_V.xml"
+source = "/Applications/XAMPP/xamppfiles/htdocs/konrad/TEI/Herz_Synoptische_Transkription.xml"
 
 destination = "/Users/gusriva/konrad-git/konrad-von-wuerzburg/LaTex/Latex_Herz_Critical_V.txt"
 

@@ -8,11 +8,11 @@ maere = 'hvk' # possibilities: herz, dwl, hvk
 path = '/Applications/XAMPP/xamppfiles/htdocs/konrad/'
 
 if maere == 'herz':
-    source = path + "TEI/Herz_Synoptische_Transkription.xml"
+    source = path + "TEI/Herz_syn.xml"
 elif maere == 'dwl':
-    source = path + "TEI/DWL_Synoptische_Transkription.xml"
+    source = path + "TEI/DWL_syn.xml"
 elif maere == 'hvk':
-    source = path + "TEI/HvK_Synoptische_Transkription.xml"
+    source = path + "TEI/HvK_syn.xml"
 
 output = {}
 

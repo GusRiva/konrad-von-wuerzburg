@@ -4,9 +4,9 @@ import re
 
 text_title = "Heinrich von Kempten"
 
-source = "/Applications/XAMPP/xamppfiles/htdocs/konrad/TEI/DWL_Trad.xml"
+source = "/Applications/XAMPP/xamppfiles/htdocs/konrad/TEI/Herz_trad_P(A).xml"
 
-destination = "/Users/gusriva/konrad-git/konrad-von-wuerzburg/LaTex/Latex_DWL_trad.txt"
+destination = "/Users/gusriva/konrad-git/konrad-von-wuerzburg/LaTex/Latex_Herz_trad_P.txt"
 
 
 

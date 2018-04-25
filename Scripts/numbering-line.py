@@ -4,9 +4,9 @@ import re
 
 text_title = "Heinrich von Kempten"
 
-source = "/Applications/XAMPP/xamppfiles/htdocs/konrad/TEI/Herz_Kritischer_Text_P(A).xml"
+source = "/Applications/XAMPP/xamppfiles/htdocs/konrad/TEI/Herz_syn.xml"
 
-destination = "/Applications/XAMPP/xamppfiles/htdocs/konrad/TEI/Herz_Kritischer_Text_P(A)1.xml"
+destination = "/Applications/XAMPP/xamppfiles/htdocs/konrad/TEI/Herz_syn1.xml"
 
 
 with codecs.open(source, 'r', 'utf-8') as file:
@@ -17,11 +17,9 @@ def tei(tag):
     return "{http://www.tei-c.org/ns/1.0}%s" % tag
 
 verse_number = 1
-for elem in full_tree.iter():
-	if elem.tag == tei('l'):
-		if elem.findall(tei('w')) != [] or elem.findall(tei('app')) != []:
-			elem.attrib['n'] = str(verse_number)
-			verse_number = verse_number + 1
+for elem in full_tree.iter(tei('l')):
+	elem.attrib['{http://www.w3.org/XML/1998/namespace}id'] = "v_" + str(verse_number)
+	verse_number = verse_number + 1
 		
 
 

@@ -24,7 +24,7 @@ def dive(elem):
     if elem.text:
         text = text + elem.text
     for child in elem:
-        if child.tag == tei("choice") or child.tag == tei("expan") or child.tag == tei("ex") or child.tag == tei("hi") or child.tag == tei("corr"):
+        if child.tag == tei("w") or tei("choice") or child.tag == tei("expan") or child.tag == tei("ex") or child.tag == tei("hi") or child.tag == tei("corr"):
             text = text + dive(child)
     if elem.tail:
         text = text + elem.tail
