@@ -4,15 +4,16 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="file-title">Synoptic edition of <title type="text-title">Heinrich von Kempten</title> by Konrad von Würzburg</title>
+        <title type="file-title">Synoptic edition of <title type="text-title">Heinrich von Kempten</title></title>
         <title type="title-abbreviation">HvK</title>
-        <author xml:id="GR" ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernandez Riva</author>
+        <author role="orig_author">Konrad von Würzburg</author>
+        <author role="editor" xml:id="GR" ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernandez Riva</author>
         <sponsor>CONICET</sponsor>
       </titleStmt>
       <publicationStmt>
-        <p>Created by Gustavo Fernández Riva as part of the PhD in Medieval Studies at the
-          University of Buenos Aires (Argentina) from 2014 to 2018. It is published under the
-          Creative Commons 4.0 Attribution Licence (CC BY 4.0).</p>
+        <authority><persName ref="#GR">Gustavo Fernández Riva</persName></authority>
+        <date>2018</date>
+        <availability><licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons 4.0 BY-NC (Attribution-NonCommercial)</licence></availability>
       </publicationStmt>
       <sourceDesc>
         <listWit>
@@ -53,13 +54,9 @@
                 <repository>Institute of Germanic Studies</repository>
                 <idno>Ms Germ. 5</idno>
                 <msName>L</msName>
-                <altIdentifier>
-                  <settlement>Bristol</settlement>
-                  <idno>Ms. P. Germ. 1</idno>
-                </altIdentifier>
               </msIdentifier>
               <history>
-                <p>Früher Privatbesitz August Closs; davor Privatbesitz Robert Priebsch</p>
+                <p>Used to be property of August Closs; before property of Robert Priebsch</p>
               </history>
             </msDesc>
           </witness>
@@ -183,7 +180,7 @@
               <w><orig>maiſter</orig><reg>meister</reg></w><c type="space"/>
               <w><orig>Chunrad</orig><reg>konrad</reg></w><c type="space"/>
               <w><orig>von</orig><reg>von</reg></w><c type="space"/>
-              <w><orig>Wirz<lb type="prose"/>pur<unclear>kh</unclear><pc>.</pc></orig><reg>Würzburg</reg></w></rdg>
+              <w><orig>Wirz<lb type="prose"/>pur<unclear>kh</unclear></orig><reg>Würzburg</reg></w><pc>.</pc></rdg>
           </app>
         </head>
         <cb edRef="#P" facs="#P_241r-b" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg341/0485?sid=47f61bfbae5f387885da0bc8e725ba47"/>
@@ -211,7 +208,7 @@
                 <w><orig>was</orig><reg>waz</reg></w><c type="space"/>
                 <w><orig>genant</orig><reg>genant</reg></w></rdg>
               <rdg xml:space="preserve" xml:id="P_241r-b.v_1_line_1" n="1" wit="#P">
-                <w><orig><hi rend="deluxe_initial color_red" n="2">E</hi>Jn</orig><reg>ein</reg></w><c type="space"/>
+                <w><orig><hi rend="initial color:red" n="2">E</hi>Jn</orig><reg>ein</reg></w><c type="space"/>
                 <w><orig>keyſer</orig><reg>keiser</reg></w><c type="space"/>
                 <w><orig>otte</orig><reg>Otte</reg></w><c type="space"/>
                 <w><orig>was</orig><reg>waz</reg></w><c type="space"/>
@@ -2583,7 +2580,7 @@
                       <abbr>v<am>n̄</am></abbr>
                       <expan>vn<ex>d</ex></expan>
                     </choice></orig><reg>und</reg></w><c type="space"/>
-                <w><orig>w<subst><del rend="erased">a</del><add rend="adapted">u</add></subst>nne var</orig><reg>wunnevar</reg></w></rdg>
+                <w><orig>w<subst><del rend="erased">a</del><add place="adapted">u</add></subst>nne var</orig><reg>wunnevar</reg></w></rdg>
               <rdg xml:space="preserve" xml:id="W_18r.v_52_line_32" n="50" wit="#W">
                 <w><orig>Schon</orig><reg>schoen</reg></w><c type="space"/>
                 <w><orig>vnd</orig><reg>und</reg></w><c type="space"/>
@@ -3013,7 +3010,7 @@
                 <w><orig>den</orig><reg>den</reg></w><c type="space"/>
                 <w><orig><subst>
                       <del rend="adapted">v</del>
-                      <add rend="adapted">t</add>
+                      <add place="adapted">t</add>
                     </subst>iſchen</orig><reg>tischen</reg></w><c type="space"/>
                 <w><orig>vmbe</orig><reg>umbe</reg></w><c type="space"/>
                 <w><orig>gevie</orig><reg>gevie</reg></w></rdg>
@@ -3815,7 +3812,7 @@
           </l>
         </lg>
         <lg>
-          <l xml:id="v_82" corresp="s_81" ana="transposed">
+          <l xml:id="v_82" corresp="s_81">
             <app>
               <rdg xml:space="preserve" type="transposed" xml:id="H_93r-b.v_81_line_11" n="75" wit="#H">
                 <w><orig><hi rend="decoration color:red">D</hi>es</orig><reg>dez</reg></w><c type="space"/>
@@ -3858,7 +3855,7 @@
                 <w><orig>alzehant</orig><reg>alzehant</reg></w></rdg>
             </app>
           </l>
-          <l xml:id="v_83" corresp="s_82" ana="transposed">
+          <l xml:id="v_83" corresp="s_82">
             <app>
               <rdg xml:space="preserve" type="transposed" xml:id="H_93r-b.v_82_line_12" n="76" wit="#H">
                 <w><orig><hi rend="decoration color:red">D</hi>er</orig><reg>der</reg></w><c type="space"/>
@@ -4999,7 +4996,7 @@
                 <w><orig>ſlüg</orig><reg>sluoc</reg></w></rdg>
               <rdg xml:space="preserve" xml:id="K_242v-b.v_103_line_21" n="101" wit="#K">
                 <w><orig>Als</orig><reg>als</reg></w><c type="space"/>
-                <w><orig>mi<add><hi rend="superscript">e</hi></add>r</orig><reg>mir</reg></w><c type="space"/>
+                <w><orig>mi<hi rend="superscript">e</hi>r</orig><reg>mir</reg></w><c type="space"/>
                 <w><orig>bermeclichen</orig><reg>bermeclîchen</reg></w><c type="space"/>
                 <w><orig>ſlvc</orig><reg>sluoc</reg></w></rdg>
               <rdg xml:space="preserve" xml:id="P_241v-b.v_103_line_21" n="101" wit="#P">
@@ -6163,7 +6160,8 @@
             </app>
           </l>
         </lg>
-        <l xml:id="v_132" corresp="s_129">
+        <lg>
+          <l xml:id="v_132" corresp="s_129">
           <app>
             <rdg xml:space="preserve" xml:id="H_93v-a.v_129_line_27" n="123" wit="#H">
               <w><orig><hi rend="decoration color:red">D</hi>az</orig><reg>daz</reg></w><c type="space"/>
@@ -6255,6 +6253,7 @@
               <w><orig>genug</orig><reg>genuoc</reg></w></rdg>
           </app>
         </l>
+        </lg>
         <lg>
           <l xml:id="v_134" corresp="s_131">
             <app>
@@ -6411,9 +6410,9 @@
             </app>
           </l>
         </lg>
+        <cb edRef="#H" facs="#H_93v-b" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg395/0196?sid=47f61bfbae5f387885da0bc8e725ba47"/>
         <lg>
-          <cb edRef="#H" facs="#H_93v-b" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg395/0196?sid=47f61bfbae5f387885da0bc8e725ba47"/>
-          <l xml:id="v_138" corresp="s_135" ana="transposed">
+          <l xml:id="v_138" corresp="s_135">
             <app>
               <rdg xml:space="preserve" type="transposed" xml:id="H_93v-b.v_135_line_1" n="129" wit="#H">
                 <w><orig><choice>
@@ -7586,7 +7585,7 @@
                 <w><orig>kvnic</orig><reg>kunic</reg></w><c type="space"/>
                 <w><orig>kvmen</orig><reg>komen</reg></w></rdg>
               <rdg xml:space="preserve" xml:id="P_242r-a.v_159_line_36" n="156" wit="#P">
-                <w><orig><hi rend="deluxe_initial color-blue">N</hi>v</orig><reg>nun</reg></w><c type="space"/>
+                <w><orig><hi rend="initial color:blue">N</hi>v</orig><reg>nun</reg></w><c type="space"/>
                 <w><orig>was</orig><reg>waz</reg></w><c type="space"/>
                 <w><orig>ovch</orig><reg>ouch</reg></w><c type="space"/>
                 <w><orig>der</orig><reg>der</reg></w><c type="space"/>
@@ -7944,9 +7943,9 @@
             </app>
           </l>
         </lg>
+        <pb edRef="#H" facs="#H_94r" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg395/0197?sid=47f61bfbae5f387885da0bc8e725ba47"/>
+        <cb edRef="#H" facs="#H_94r-a" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg395/0197?sid=47f61bfbae5f387885da0bc8e725ba47"/>
         <lg>
-          <pb edRef="#H" facs="#H_94r" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg395/0197?sid=47f61bfbae5f387885da0bc8e725ba47"/>
-          <cb edRef="#H" facs="#H_94r-a" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg395/0197?sid=47f61bfbae5f387885da0bc8e725ba47"/>
           <l xml:id="v_170" corresp="s_167">
             <app>
               <rdg xml:space="preserve" xml:id="H_94r-a.v_167_line_1" n="160" wit="#H">
@@ -8124,8 +8123,8 @@
             </app>
           </l>
         </lg>
+        <cb edRef="#I" facs="#I_85v-b"/>
         <lg>
-          <cb edRef="#I" facs="#I_85v-b"/>
           <l xml:id="v_174" corresp="s_171">
             <app>
               <rdg xml:space="preserve" xml:id="H_94r-a.v_171_line_5" n="164" wit="#H"><w><orig><hi rend="decoration color:red">N</hi>v</orig><reg>nun</reg></w><c type="space"/>
@@ -9178,8 +9177,8 @@
             </app>
           </l>
         </lg>
+        <cb edRef="#V" facs="#V_207v-b"/>
         <lg>
-          <cb edRef="#V" facs="#V_207v-b"/>
           <l xml:id="v_203" corresp="s_197">
             <app>
               <rdg xml:space="preserve" xml:id="H_94r-a.v_197_line_31" n="190" wit="#H"><w><orig><choice>
@@ -9264,8 +9263,8 @@
             </app>
           </l>
         </lg>
+        <cb edRef="#H" facs="#H_94r-b" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg395/0197?sid=47f61bfbae5f387885da0bc8e725ba47"/>
         <lg>
-          <cb edRef="#H" facs="#H_94r-b" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg395/0197?sid=47f61bfbae5f387885da0bc8e725ba47"/>
           <l xml:id="v_205" corresp="s_199">
             <app>
               <rdg xml:space="preserve" xml:id="H_94r-b.v_199_line_1" n="192" wit="#H"><w><orig><hi rend="decoration color:red">D</hi>er</orig><reg>der</reg></w><c type="space"/>
@@ -9846,10 +9845,7 @@
                 <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
                 <w><orig>erzeigen</orig><reg>erzeigen</reg></w></rdg>
               <rdg xml:space="preserve" xml:id="V_207v-b.v_212_line_16" n="212" wit="#V"><w><orig><hi rend="decoration color:red">M</hi>ag</orig><reg>mac</reg></w><c type="space"/>
-                <w><orig><choice>
-                      <orig>abr</orig>
-                      <corr>ab<add resp="editor">e</add>r</corr>
-                    </choice></orig><reg>aber</reg></w><c type="space"/>
+                <w><orig>abr</orig><reg>aber</reg></w><c type="space"/>
                 <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
                 <w><orig><choice>
                       <abbr>erzaig<am>n̄</am></abbr>
@@ -10593,9 +10589,9 @@
             </app>
           </l>
         </lg>
+        <pb edRef="#H" facs="#H_94v" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg395/0198?sid=47f61bfbae5f387885da0bc8e725ba47"/>
+        <cb edRef="#H" facs="#H_94v-a" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg395/0198?sid=47f61bfbae5f387885da0bc8e725ba47"/>
         <lg>
-          <pb edRef="#H" facs="#H_94v" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg395/0198?sid=47f61bfbae5f387885da0bc8e725ba47"/>
-          <cb edRef="#H" facs="#H_94v-a" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg395/0198?sid=47f61bfbae5f387885da0bc8e725ba47"/>
           <l xml:id="v_239" corresp="s_231">
             <app>
               <rdg xml:space="preserve" xml:id="H_94v-a.v_231_line_1" n="224" wit="#H"><w><orig><metamark function="cue_initial" place="margin">d</metamark><hi rend="initial color:red" n="2">D</hi><hi rend="decoration color:red">e</hi>r</orig><reg>der</reg></w><c type="space"/>
@@ -10616,7 +10612,7 @@
                       <expan>vn<ex>d</ex></expan>
                     </choice></orig><reg>und</reg></w><c type="space"/>
                 <w><orig>rot</orig><reg>rôt</reg></w></rdg>
-              <rdg xml:space="preserve" xml:id="P_242v-a.v_231_line_29" n="228" wit="#P"><w><orig><hi rend="deluxe_initial color:red">D</hi>Er</orig><reg>der</reg></w><c type="space"/>
+              <rdg xml:space="preserve" xml:id="P_242v-a.v_231_line_29" n="228" wit="#P"><w><orig><hi rend="initial color:red">D</hi>Er</orig><reg>der</reg></w><c type="space"/>
                 <w><orig>keyſer</orig><reg>keiser</reg></w><c type="space"/>
                 <w><orig>vbel</orig><reg>übel</reg></w><c type="space"/>
                 <w><orig><choice>
@@ -11169,7 +11165,7 @@
                 <w><orig>werde</orig><reg>werde</reg></w><c type="space"/>
                 <w><orig>ritter</orig><reg>ritter</reg></w><c type="space"/>
                 <w><orig>heinrich</orig><reg>Heinrich</reg></w></rdg>
-              <rdg xml:space="preserve" xml:id="P_242v-b.v_245_line_3" n="242" wit="#P"><w><orig><hi rend="deluxe_initial color:blue" n="2">D</hi>er</orig><reg>der</reg></w><c type="space"/>
+              <rdg xml:space="preserve" xml:id="P_242v-b.v_245_line_3" n="242" wit="#P"><w><orig><hi rend="initial color:blue" n="2">D</hi>er</orig><reg>der</reg></w><c type="space"/>
                 <w><orig>werde</orig><reg>werde</reg></w><c type="space"/>
                 <w><orig>Ritter</orig><reg>ritter</reg></w><c type="space"/>
                 <w><orig>heinrich</orig><reg>Heinrich</reg></w></rdg>
@@ -11663,7 +11659,7 @@
                 <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
                 <w><orig>wol</orig><reg>wol</reg></w></rdg>
               <rdg xml:space="preserve" xml:id="W_19v.v_257_line_35" n="237" wit="#W">
-                <w><orig><metamark place="margin" function="lacuna_marker?"/>Er</orig><reg>er</reg></w><c type="space"/>
+                <w><orig><metamark place="margin" function="uncertain"/>Er</orig><reg>er</reg></w><c type="space"/>
                 <w><orig>ſprach</orig><reg>sprach</reg></w><c type="space"/>
                 <w><orig>aller</orig><reg>aller</reg></w><c type="space"/>
                 <w><orig>erſt</orig><reg>erst</reg></w><c type="space"/>
@@ -11826,7 +11822,7 @@
                 <w><orig>wile</orig><reg>wîle</reg></w><c type="space"/>
                 <w><orig>daz</orig><reg>daz</reg></w><c type="space"/>
                 <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
-                <del rend="ovestrike underlined"><w><orig>lebe</orig><reg>lebe</reg></w><c type="space"/></del>
+                <del rend="overstrike underlined"><w><orig>lebe</orig><reg>lebe</reg></w><c type="space"/></del>
                 <w><orig>kan</orig><reg>kan</reg></w></rdg>
               <rdg xml:space="preserve" xml:id="V_208r-b.v_261_line_18" n="261" wit="#V"><w><orig><hi rend="decoration color:red">A</hi>ll</orig><reg>all</reg></w><c type="space"/>
                 <w><orig>die</orig><reg>die</reg></w><c type="space"/>
@@ -12047,7 +12043,7 @@
                 <w><orig>viſch</orig><reg>visch</reg></w></rdg>
               <rdg xml:space="preserve" xml:id="V_208r-b.v_266_line_23" n="266" wit="#V"><w><orig><hi rend="decoration color:red">E</hi>z</orig><reg>ez</reg></w><c type="space"/>
                 <w><orig>wer</orig><reg>waer</reg></w><c type="space"/>
-                <w><orig>flais<add rend="superscript">c</add>h</orig><reg>vleisch</reg></w><c type="space"/>
+                <w><orig>flais<add place="above">c</add>h</orig><reg>vleisch</reg></w><c type="space"/>
                 <w><orig>oder</orig><reg>oder</reg></w><c type="space"/>
                 <w><orig>fiſch</orig><reg>visch</reg></w></rdg>
               <rdg xml:space="preserve" xml:id="W_19v.v_266_line_44" n="246" wit="#W"><w><orig>Es</orig><reg>ez</reg></w><c type="space"/>
@@ -12151,9 +12147,9 @@
             </app>
           </l>
         </lg>
+        <pb edRef="#V" facs="#V_208v"/>
+        <cb edRef="#V" facs="#V_208v-a"/>
         <lg>
-          <pb edRef="#V" facs="#V_208v"/>
-          <cb edRef="#V" facs="#V_208v-a"/>
           <l xml:id="v_278" corresp="s_269">
             <app>
               <rdg xml:space="preserve" xml:id="H_94v-a.v_269_line_31" n="254" wit="#H"><w><orig><hi rend="decoration color:red">A</hi>ls</orig><reg>als</reg></w><c type="space"/>
@@ -12257,8 +12253,8 @@
             </app>
           </l>
         </lg>
+        <cb edRef="#H" facs="#H_94v-b" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg395/0198?sid=47f61bfbae5f387885da0bc8e725ba47"/>
         <lg>
-          <cb edRef="#H" facs="#H_94v-b" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg395/0198?sid=47f61bfbae5f387885da0bc8e725ba47"/>
           <l xml:id="v_280" corresp="s_271">
             <app>
               <rdg xml:space="preserve" xml:id="H_94v-b.v_271_line_1" n="256" wit="#H"><w><orig><hi rend="decoration color:red">V</hi>il</orig><reg>vil</reg></w><c type="space"/>
@@ -13017,7 +13013,7 @@
               <rdg xml:space="preserve" xml:id="H_94v-b.v_293_line_n" n="261q" wit="#H" type="missing"/>
               <rdg xml:space="preserve" xml:id="I_86r-b.v_293_line_19" n="293" wit="#I">
                 <w><orig><hi rend="decoration color:red">D</hi>en</orig><reg>den</reg></w><c type="space"/>
-                <w><orig>fel<unclear reason="ink">ſ</unclear>ht</orig><reg>felscht</reg></w><c type="space"/>
+                <w><orig>fel<unclear agent="ink">ſ</unclear>ht</orig><reg>felscht</reg></w><c type="space"/>
                 <w><orig>welt</orig><reg>welt</reg></w><c type="space"/>
                 <w><orig>ir</orig><reg>ir</reg></w><c type="space"/>
                 <w><orig><choice>
@@ -13092,7 +13088,6 @@
           </l>
         </lg>
         <lg>
-          <cb edRef="#V" facs="#V_208v-b"/>
           <l xml:id="v_304" corresp="s_295">
             <app>
               <rdg xml:space="preserve" xml:id="H_94v-b.v_295_line_7" n="262" wit="#H"><w><orig><hi rend="decoration color:red">S</hi>us</orig><reg>sus</reg></w><c type="space"/>
@@ -13354,7 +13349,7 @@
                 <w><orig>uf</orig><reg>ûf</reg></w><c type="space"/>
                 <w><orig>ſprungen</orig><reg>sprungen</reg></w></rdg>
               <rdg xml:space="preserve" xml:id="I_86r-b.v_301_line_27" n="301" wit="#I">
-                <w><orig><choice><abbr><am>ff</am>ürſten</abbr><expan><expan><ex>F</ex></expan>ürſten</expan></choice></orig><reg>vürsten</reg></w><c type="space"/>
+                <w><orig><choice><abbr><am>ff</am>ürſten</abbr><expan><ex>F</ex>ürſten</expan></choice></orig><reg>vürsten</reg></w><c type="space"/>
                 <w><orig>all</orig><reg>all</reg></w><c type="space"/>
                 <w><orig>auf</orig><reg>ûf</reg></w><c type="space"/>
                 <w><orig><choice>
@@ -13661,7 +13656,7 @@
                       <expan>d<ex>er</ex></expan>
                     </choice></orig><reg>der</reg></w><c type="space"/>
                 <w><orig>ritter</orig><reg>ritter</reg></w><c type="space"/>
-                <w><orig><persName>heinrich</persName></orig><reg>Heinrich</reg></w></rdg>
+                <w><orig>heinrich</orig><reg>Heinrich</reg></w></rdg>
               <rdg xml:space="preserve" xml:id="I_86r-b.v_309_line_35" n="309" wit="#I">
                 <w><orig><hi rend="decoration color:red" n="3">D</hi><hi rend="decoration color:red">O</hi></orig><reg>dô</reg></w><c type="space"/>
                 <w><orig><choice>
@@ -13672,13 +13667,13 @@
                       <abbr>rit<am>tʼ</am></abbr>
                       <expan>ritt<ex>er</ex></expan>
                     </choice></orig><reg>ritter</reg></w><c type="space"/>
-                <w><orig><persName>hainrich</persName></orig><reg>Heinrich</reg></w></rdg>
+                <w><orig>hainrich</orig><reg>Heinrich</reg></w></rdg>
               <rdg xml:space="preserve" xml:id="K_244r-a.v_309_line_27" n="307" wit="#K"><w><orig><hi rend="initial color:red" n="2">D</hi>O</orig><reg>dô</reg></w><c type="space"/>
                 <w><orig>ſprach</orig><reg>sprach</reg></w><c type="space"/>
                 <w><orig>der</orig><reg>der</reg></w><c type="space"/>
                 <w><orig>Ritter</orig><reg>ritter</reg></w><c type="space"/>
                 <w><orig>heinrich</orig><reg>Heinrich</reg></w></rdg>
-              <rdg xml:space="preserve" xml:id="P_243r-a.v_309_line_27" n="306" wit="#P"><w><orig><hi rend="deluxe_initial color:red" n="2">D</hi>O</orig><reg>dô</reg></w><c type="space"/>
+              <rdg xml:space="preserve" xml:id="P_243r-a.v_309_line_27" n="306" wit="#P"><w><orig><hi rend="initial color:red" n="2">D</hi>O</orig><reg>dô</reg></w><c type="space"/>
                 <w><orig>ſprach</orig><reg>sprach</reg></w><c type="space"/>
                 <w><orig>der</orig><reg>der</reg></w><c type="space"/>
                 <w><orig>Ritter</orig><reg>ritter</reg></w><c type="space"/>
@@ -13724,7 +13719,7 @@
                 <w><orig>ieman</orig><reg>ieman</reg></w><c type="space"/>
                 <w><orig>der</orig><reg>der</reg></w><c type="space"/>
                 <w><orig>nv</orig><reg>nun</reg></w><c type="space"/>
-                <w><orig>rvre<add rend="superscript">t</add></orig><reg>ruret</reg></w><c type="space"/>
+                <w><orig>rvre<add place="above">t</add></orig><reg>ruret</reg></w><c type="space"/>
                 <w><orig>mich</orig><reg>mich</reg></w></rdg>
               <rdg xml:space="preserve" xml:id="V_208v-b.v_310_line_16" n="310" wit="#V"><w><orig><hi rend="decoration color:red">J</hi>st</orig><reg>ist</reg></w><c type="space"/>
                 <w><orig>iemand</orig><reg>iemand</reg></w><c type="space"/>
@@ -14198,7 +14193,8 @@
                         <abbr>trah<am>n̄</am></abbr>
                         <expan>trah<ex>e</ex>n</expan>
                       </choice></orig><reg>trâhen</reg></w></add></rdg>
-              <rdg xml:space="preserve" xml:id="W_20r.v_320_line_38" n="298" wit="#W"><w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
+              <rdg xml:space="preserve" xml:id="W_20r.v_320_line_38" n="298" wit="#W">
+                <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
                 <unclear><w><orig>rer</orig><reg>rer</reg></w></unclear><c type="space"/>
                 <w><orig>des</orig><reg>dez</reg></w><c type="space"/>
                 <w><orig>plutes</orig><reg>bluotes</reg></w><c type="space"/>
@@ -14211,7 +14207,7 @@
           <l xml:id="v_330" corresp="s_321">
             <app>
               <rdg xml:space="preserve" xml:id="H_94v-b.v_321_line_31" n="286" wit="#H">
-                <w><orig><hi rend="decoration color:red">E</hi><c>·</c></orig><reg>ê</reg></w><c type="space"/>
+                <w><orig><hi rend="decoration color:red">E</hi><c type="diacritic">·</c></orig><reg>ê</reg></w><c type="space"/>
                 <w><orig>daz</orig><reg>daz</reg></w><c type="space"/>
                 <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
                 <w><orig>mvge</orig><reg>muoge</reg></w><c type="space"/>
@@ -14226,13 +14222,13 @@
                       <expan>v<ex>er</ex>derb<ex>e</ex>n</expan>
                     </choice></orig><reg>verderben</reg></w></rdg>
               <rdg xml:space="preserve" xml:id="K_244r-a.v_321_line_39" n="319" wit="#K">
-                <w><orig>E<c>·</c></orig><reg>ê</reg></w><c type="space"/>
+                <w><orig>E<c type="diacritic">·</c></orig><reg>ê</reg></w><c type="space"/>
                 <w><orig>daz</orig><reg>daz</reg></w><c type="space"/>
                 <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
                 <w><orig>mvge</orig><reg>muoge</reg></w><c type="space"/>
                 <w><orig>ver terben</orig><reg>verderben</reg></w></rdg>
               <rdg xml:space="preserve" xml:id="P_243r-a.v_321_line_39" n="318" wit="#P">
-                <w><orig>E<c>·</c></orig><reg>ê</reg></w><c type="space"/>
+                <w><orig>E<c type="diacritic">·</c></orig><reg>ê</reg></w><c type="space"/>
                 <w><orig>daz</orig><reg>daz</reg></w><c type="space"/>
                 <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
                 <w><orig>mvg</orig><reg>mvg</reg></w><c type="space"/>
@@ -14299,11 +14295,11 @@
             </app>
           </l>
         </lg>
+        <pb edRef="#H" facs="#H_95r" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg395/0199?sid=47f61bfbae5f387885da0bc8e725ba47"/>
+        <cb edRef="#H" facs="#H_95r-a" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg395/0199?sid=47f61bfbae5f387885da0bc8e725ba47"/>
+        <cb edRef="#K" facs="#K_244r-b" ed="http://www.e-codices.unifr.ch/de/fmb/cb-0072/244r/0/Sequence-824"/>
+        <cb edRef="#P" facs="#P_243r-b" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg341/0489?sid=47f61bfbae5f387885da0bc8e725ba47"/>
         <lg>
-          <pb edRef="#H" facs="#H_95r" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg395/0199?sid=47f61bfbae5f387885da0bc8e725ba47"/>
-          <cb edRef="#H" facs="#H_95r-a" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg395/0199?sid=47f61bfbae5f387885da0bc8e725ba47"/>
-          <cb edRef="#K" facs="#K_244r-b" ed="http://www.e-codices.unifr.ch/de/fmb/cb-0072/244r/0/Sequence-824"/>
-          <cb edRef="#P" facs="#P_243r-b" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg341/0489?sid=47f61bfbae5f387885da0bc8e725ba47"/>
           <l xml:id="v_332" corresp="s_323">
             <app>
               <rdg xml:space="preserve" xml:id="H_95r-a.v_323_line_1" n="288" wit="#H">
@@ -14395,9 +14391,9 @@
             </app>
           </l>
         </lg>
+        <pb edRef="#I" facs="#I_86v"/>
+        <cb edRef="#I" facs="#I_86v-a"/>
         <lg>
-          <pb edRef="#I" facs="#I_86v"/>
-          <cb edRef="#I" facs="#I_86v-a"/>
           <l xml:id="v_334" corresp="s_325">
             <app>
               <rdg xml:space="preserve" xml:id="H_95r-a.v_325_line_3" n="290" wit="#H">
@@ -14593,7 +14589,7 @@
                 <w><orig>vnd</orig><reg>und</reg></w><c type="space"/>
                 <w><orig>ditz</orig><reg>dise</reg></w><c type="space"/>
                 <w><orig>geſchach</orig><reg>geschach</reg></w></rdg>
-              <rdg xml:space="preserve" xml:id="P_243r-b.v_329_line_7" n="326" wit="#P"><w><orig><hi rend="deluxe_initial color:blue" n="2">D</hi>az</orig><reg>daz</reg></w><c type="space"/>
+              <rdg xml:space="preserve" xml:id="P_243r-b.v_329_line_7" n="326" wit="#P"><w><orig><hi rend="initial color:blue" n="2">D</hi>az</orig><reg>daz</reg></w><c type="space"/>
                 <w><orig>wart</orig><reg>wart</reg></w><c type="space"/>
                 <w><orig>getan</orig><reg>getan</reg></w><c type="space"/>
                 <w><orig>vnd</orig><reg>und</reg></w><c type="space"/>
@@ -15710,8 +15706,8 @@
             </app>
           </l>
         </lg>
+        <cb edRef="#H" facs="#H_95r-b" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg395/0199?sid=47f61bfbae5f387885da0bc8e725ba47"/>
         <lg>
-          <cb edRef="#H" facs="#H_95r-b" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg395/0199?sid=47f61bfbae5f387885da0bc8e725ba47"/>
           <l xml:id="v_365" corresp="s_355">
             <app>
               <rdg xml:space="preserve" xml:id="H_95r-b.v_355_line_1" n="320" wit="#H">
@@ -16071,11 +16067,11 @@
             </app>
           </l>
         </lg>
+        <pb edRef="#K" facs="#K_244v" ed="http://www.e-codices.unifr.ch/de/fmb/cb-0072/244v/0/Sequence-824"/>
+        <cb edRef="#K" facs="#K_244v-a" ed="http://www.e-codices.unifr.ch/de/fmb/cb-0072/244v/0/Sequence-824"/>
+        <pb edRef="#P" facs="#P_243v" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg341/0490?sid=47f61bfbae5f387885da0bc8e725ba47"/>
+        <cb edRef="#P" facs="#P_243v-a" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg341/0490?sid=47f61bfbae5f387885da0bc8e725ba47"/>
         <lg>
-          <pb edRef="#K" facs="#K_244v" ed="http://www.e-codices.unifr.ch/de/fmb/cb-0072/244v/0/Sequence-824"/>
-          <cb edRef="#K" facs="#K_244v-a" ed="http://www.e-codices.unifr.ch/de/fmb/cb-0072/244v/0/Sequence-824"/>
-          <pb edRef="#P" facs="#P_243v" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg341/0490?sid=47f61bfbae5f387885da0bc8e725ba47"/>
-          <cb edRef="#P" facs="#P_243v-a" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg341/0490?sid=47f61bfbae5f387885da0bc8e725ba47"/>
           <l xml:id="v_375" corresp="s_363">
             <app>
               <rdg xml:space="preserve" xml:id="H_95r-b.v_363_line_9" n="328" wit="#H">
@@ -16933,7 +16929,7 @@
                 <w><orig>ſwaben</orig><reg>Swaben</reg></w><c type="space"/>
                 <w><orig>wider</orig><reg>wider</reg></w></rdg>
               <rdg xml:space="preserve" xml:id="P_243v-a.v_383_line_21" n="380" wit="#P">
-                <w><orig><hi rend="deluxe_initial color:blue" n="2">E</hi>R</orig><reg>er</reg></w><c type="space"/>
+                <w><orig><hi rend="initial color:blue" n="2">E</hi>R</orig><reg>er</reg></w><c type="space"/>
                 <w><orig>kert</orig><reg>kert</reg></w><c type="space"/>
                 <w><orig>gegen</orig><reg>gegen</reg></w><c type="space"/>
                 <w><orig>ſwaben</orig><reg>Swaben</reg></w><c type="space"/>
@@ -17317,7 +17313,7 @@
           </l>
         </lg>
         <lg>
-          <l xml:id="v_403" corresp="s_391" ana="transposed">
+          <l xml:id="v_403" corresp="s_391">
             <app>
               <rdg xml:space="preserve" type="transposed" xml:id="H_95v-a.v_391_line_5" n="356" wit="#H">
                 <w><orig><hi rend="decoration color:red">D</hi>az</orig><reg>daz</reg></w><c type="space"/>
@@ -17363,7 +17359,7 @@
             </app>
           </l>
           <cb edRef="#V" facs="#V_209v-b"/>
-          <l xml:id="v_404" corresp="s_392" ana="transposed">
+          <l xml:id="v_404" corresp="s_392">
             <app>
               <rdg xml:space="preserve" type="transposed" xml:id="H_95v-a.v_392_line_6" n="357" wit="#H">
                 <w><orig><hi rend="decoration color:red">W</hi>ande</orig><reg>wande</reg></w><c type="space"/>
@@ -17592,7 +17588,7 @@
           </l>
         </lg>
         <lg>
-          <l xml:id="v_411" corresp="s_397" ana="transposed">
+          <l xml:id="v_411" corresp="s_397">
             <app>
               <rdg xml:space="preserve" type="transposed" xml:id="H_95v-a.v_397_line_11" n="362" wit="#H">
                 <w><orig><hi rend="decoration color:red">E</hi>ines</orig><reg>eines</reg></w><c type="space"/>
@@ -17627,7 +17623,7 @@
                 <w><orig>phlag</orig><reg>pflac</reg></w></rdg>
             </app>
           </l>
-          <l xml:id="v_412" corresp="s_398" ana="transposed">
+          <l xml:id="v_412" corresp="s_398">
             <app>
               <rdg xml:space="preserve" type="transposed" xml:id="H_95v-a.v_398_line_12" n="363" wit="#H"><w><orig><choice>
                       <abbr><hi rend="decoration color:red">V</hi><am>n̄</am></abbr>
@@ -17864,9 +17860,9 @@
             </app>
           </l>
         </lg>
+        <cb edRef="#K" facs="#K_244v-b" ed="http://www.e-codices.unifr.ch/de/fmb/cb-0072/244v/0/Sequence-824"/>
+        <cb edRef="#P" facs="#P_243v-b" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg341/0490?sid=47f61bfbae5f387885da0bc8e725ba47"/>
         <lg>
-          <cb edRef="#K" facs="#K_244v-b" ed="http://www.e-codices.unifr.ch/de/fmb/cb-0072/244v/0/Sequence-824"/>
-          <cb edRef="#P" facs="#P_243v-b" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg341/0490?sid=47f61bfbae5f387885da0bc8e725ba47"/>
           <l xml:id="v_417" corresp="s_403">
             <app>
               <rdg xml:space="preserve" xml:id="H_95v-a.v_403_line_17" n="368" wit="#H"><w><orig><hi rend="decoration color:red">M</hi>it</orig><reg>mit</reg></w><c type="space"/>
@@ -18386,9 +18382,9 @@
             </app>
           </l>
         </lg>
+        <pb edRef="#V" facs="#V_210r"/>
+        <cb edRef="#V" facs="#V_210r-a"/>
         <lg>
-          <pb edRef="#V" facs="#V_210r"/>
-          <cb edRef="#V" facs="#V_210r-a"/>
           <l xml:id="v_429" corresp="s_415">
             <app>
               <rdg xml:space="preserve" xml:id="H_95v-a.v_415_line_29" n="380" wit="#H"><w><orig><hi rend="decoration color:red">W</hi>er</orig><reg>wer</reg></w><c type="space"/>
@@ -18520,8 +18516,8 @@
             </app>
           </l>
         </lg>
+        <cb edRef="#H" facs="#H_95v-b" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg395/0200?sid=47f61bfbae5f387885da0bc8e725ba47"/>
         <lg>
-          <cb edRef="#H" facs="#H_95v-b" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg395/0200?sid=47f61bfbae5f387885da0bc8e725ba47"/>
           <l xml:id="v_433" corresp="s_419">
             <app>
               <rdg xml:space="preserve" xml:id="H_95v-b.v_419_line_1" n="384" wit="#H"><w><orig><hi rend="decoration color:red">Z</hi>v</orig><reg>zuo</reg></w><c type="space"/>
@@ -18757,7 +18753,7 @@
                 <w><orig>getan</orig><reg>getan</reg></w></rdg>
               <rdg xml:space="preserve" xml:id="V_210r-a.v_424_line_10" n="424" wit="#V"><w><orig><hi rend="decoration color:red">N</hi>u</orig><reg>nu</reg></w><c type="space"/>
                 <w><orig>dw</orig><reg>diu</reg></w><c type="space"/>
-                <del rend="overstriked underdotted" status="unremarkable">pa</del><c type="space"/>
+                <del rend="overstrike underdotted">pa</del><c type="space"/>
                 <w><orig>potſchaft</orig><reg>botschaft</reg></w><c type="space"/>
                 <w><orig>gtan</orig><reg>getan</reg></w></rdg>
               <rdg xml:space="preserve" xml:id="W_21r.v_424_line_6" n="388" wit="#W"><w><orig>do</orig><reg>dô</reg></w><c type="space"/>
@@ -18948,7 +18944,7 @@
                 <w><orig>der</orig><reg>der</reg></w><c type="space"/>
                 <w><orig>fvrſte</orig><reg>vürste</reg></w><c type="space"/>
                 <w><orig>lobeſam</orig><reg>lobesam</reg></w></rdg>
-              <rdg xml:space="preserve" xml:id="P_243v-b.v_429_line_27" n="426" wit="#P"><w><orig><hi rend="deluxe_initial color:red">A</hi>Ls</orig><reg>als</reg></w><c type="space"/>
+              <rdg xml:space="preserve" xml:id="P_243v-b.v_429_line_27" n="426" wit="#P"><w><orig><hi rend="initial color:red">A</hi>Ls</orig><reg>als</reg></w><c type="space"/>
                 <w><orig>der</orig><reg>der</reg></w><c type="space"/>
                 <w><orig>fvrſte</orig><reg>vürste</reg></w><c type="space"/>
                 <w><orig>lobeſam</orig><reg>lobesam</reg></w></rdg>
@@ -19381,8 +19377,8 @@
             </app>
           </l>
         </lg>
+        <cb edRef="#V" facs="#V_210r-b"/>
         <lg>
-          <cb edRef="#V" facs="#V_210r-b"/>
           <l xml:id="v_453" corresp="s_439">
             <app>
               <rdg xml:space="preserve" xml:id="H_95v-b.v_439_line_21" n="404" wit="#H"><w><orig><hi rend="decoration color:red">D</hi>az</orig><reg>daz</reg></w><c type="space"/>
@@ -19912,9 +19908,9 @@
             </app>
           </l>
         </lg>
+        <pb edRef="#H" facs="#H_96r" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg395/0201?sid=47f61bfbae5f387885da0bc8e725ba47"/>
+        <cb edRef="#H" facs="#H_96r-a" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg395/0201?sid=47f61bfbae5f387885da0bc8e725ba47"/>
         <lg>
-          <pb edRef="#H" facs="#H_96r" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg395/0201?sid=47f61bfbae5f387885da0bc8e725ba47"/>
-          <cb edRef="#H" facs="#H_96r-a" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg395/0201?sid=47f61bfbae5f387885da0bc8e725ba47"/>
           <l xml:id="v_465" corresp="s_451">
             <app>
               <rdg xml:space="preserve" xml:id="H_96r-a.v_451_line_1" n="416" wit="#H"><w><orig><hi rend="decoration color:red">V</hi>f</orig><reg>ûf</reg></w><c type="space"/>
@@ -20391,9 +20387,9 @@
             </app>
           </l>
         </lg>
+        <pb edRef="#V" facs="#V_210v"/>
+        <cb edRef="#V" facs="#V_210v-a"/>
         <lg>
-          <pb edRef="#V" facs="#V_210v"/>
-          <cb edRef="#V" facs="#V_210v-a"/>
           <l xml:id="v_477" corresp="s_463">
             <app>
               <rdg xml:space="preserve" xml:id="H_96r-a.v_463_line_13" n="428" wit="#H"><w><orig><hi rend="decoration color:red">S</hi>iner</orig><reg>sîner</reg></w><c type="space"/>
@@ -20522,7 +20518,7 @@
                 <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
                 <w><orig>alterſaine</orig><reg>altersaine</reg></w><c type="space"/>
                 <w><orig>var</orig><reg>var</reg></w></rdg>
-              <rdg xml:space="preserve" xml:id="K_245r-a.v_466_line_24" n="464" wit="#K"><w><orig>E<pc>·</pc></orig><reg>e·</reg></w><c type="space"/>
+              <rdg xml:space="preserve" xml:id="K_245r-a.v_466_line_24" n="464" wit="#K"><w><orig>E<c type="diacritic">·</c></orig><reg>e·</reg></w><c type="space"/>
                 <w><orig>daz</orig><reg>daz</reg></w><c type="space"/>
                 <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
                 <w><orig>alters</orig><reg>alters</reg></w><c type="space"/>
@@ -21200,7 +21196,7 @@
             <app>
               <rdg xml:space="preserve" xml:id="H_96r-a.v_482_line_32" n="447" wit="#H"><w><orig><hi rend="decoration color:red">S</hi>o</orig><reg>sô</reg></w><c type="space"/>
                 <w><orig>nueze</orig><reg>nütze</reg></w><c type="space"/>
-                <w><orig><del>ī</del></orig><reg>ī</reg></w><c type="space"/>
+                <w><orig><del rend="none">ī</del></orig><reg>ī</reg></w><c type="space"/>
                 <w><orig>iſt</orig><reg>ist</reg></w><c type="space"/>
                 <w><orig>mir</orig><reg>mir</reg></w><c type="space"/>
                 <w><orig>nieman</orig><reg>nieman</reg></w></rdg>
@@ -21232,12 +21228,12 @@
             </app>
           </l>
         </lg>
+        <cb edRef="#H" facs="#H_96r-b" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg395/0201?sid=47f61bfbae5f387885da0bc8e725ba47"/>
+        <cb edRef="#I" facs="#I_87r-b"/>
+        <cb edRef="#K" facs="#K_245r-b" ed="http://www.e-codices.unifr.ch/de/fmb/cb-0072/245r/0/Sequence-824"/>
+        <cb edRef="#P" facs="#P_244r-b" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg341/0491?sid=47f61bfbae5f387885da0bc8e725ba47"/>
+        <pb edRef="#W" facs="#W_21v"/>
         <lg>
-          <cb edRef="#H" facs="#H_96r-b" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg395/0201?sid=47f61bfbae5f387885da0bc8e725ba47"/>
-          <cb edRef="#I" facs="#I_87r-b"/>
-          <cb edRef="#K" facs="#K_245r-b" ed="http://www.e-codices.unifr.ch/de/fmb/cb-0072/245r/0/Sequence-824"/>
-          <cb edRef="#P" facs="#P_244r-b" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg341/0491?sid=47f61bfbae5f387885da0bc8e725ba47"/>
-          <pb edRef="#W" facs="#W_21v"/>
           <l xml:id="v_497" corresp="s_483">
             <app>
               <rdg xml:space="preserve" xml:id="H_96r-b.v_483_line_1" n="448" wit="#H"><w><orig><hi rend="decoration color:red">A</hi>n</orig><reg>an</reg></w><c type="space"/>
@@ -21426,8 +21422,8 @@
             </app>
           </l>
         </lg>
+        <cb edRef="#V" facs="#V_210v-b"/>
         <lg>
-          <cb edRef="#V" facs="#V_210v-b"/>
           <l xml:id="v_501" corresp="s_487">
             <app>
               <rdg xml:space="preserve" xml:id="H_96r-b.v_487_line_5" n="452" wit="#H"><w><orig><choice>
@@ -21814,7 +21810,7 @@
               <rdg xml:space="preserve" xml:id="H_96r-b.v_495_line_13" n="460" wit="#H">
                 <w><orig><hi rend="decoration color:red">J</hi>ch</orig><reg>ich</reg></w><c type="space"/>
                 <w><orig>far</orig><reg>var</reg></w><c type="space"/>
-                <w><orig>e<pc>·</pc></orig><reg>ê</reg></w><c type="space"/>
+                <w><orig>e<c type="diacritic">·</c></orig><reg>ê</reg></w><c type="space"/>
                 <w><orig>mit</orig><reg>mit</reg></w><c type="space"/>
                 <w><orig>vch</orig><reg>iuch</reg></w><c type="space"/>
                 <w><orig>wiſze</orig><reg>wizze</reg></w><c type="space"/>
@@ -21955,7 +21951,8 @@
           </l>
           <l xml:id="v_512" corresp="s_498">
             <app>
-              <rdg xml:space="preserve" xml:id="H_96r-b.v_498_line_16" n="463" wit="#H"><w><orig><hi rend="decoration color:red">E</hi><pc>·</pc></orig><reg>e·</reg></w><c type="space"/>
+              <rdg xml:space="preserve" xml:id="H_96r-b.v_498_line_16" n="463" wit="#H">
+                <w><orig><hi rend="decoration color:red">E</hi><c type="diacritic">·</c></orig><reg>e·</reg></w><c type="space"/>
                 <w><orig>daz</orig><reg>daz</reg></w><c type="space"/>
                 <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
                 <w><orig>laze</orig><reg>laze</reg></w><c type="space"/>
@@ -21972,7 +21969,7 @@
                       <expan>mein<ex>er</ex></expan>
                     </choice></orig><reg>meiner</reg></w><c type="space"/>
                 <w><orig>hant</orig><reg>hant</reg></w></rdg>
-              <rdg xml:space="preserve" xml:id="K_245r-b.v_498_line_16" n="496" wit="#K"><w><orig>E<pc>·</pc></orig><reg>e·</reg></w><c type="space"/>
+              <rdg xml:space="preserve" xml:id="K_245r-b.v_498_line_16" n="496" wit="#K"><w><orig>E<c type="diacritic">·</c></orig><reg>e·</reg></w><c type="space"/>
                 <w><orig>daz</orig><reg>daz</reg></w><c type="space"/>
                 <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
                 <w><orig>laze</orig><reg>laze</reg></w><c type="space"/>
@@ -22052,17 +22049,18 @@
                 <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
                 <w><orig>vnde</orig><reg>und</reg></w><c type="space"/>
                 <w><orig>kere</orig><reg>kêre</reg></w></rdg>
-              <rdg xml:space="preserve" xml:id="I_87r-b.v_500_line_18" n="500" wit="#I"><w><orig><hi rend="decoration color:red">E</hi>E</orig><reg>ê</reg></w><c type="space"/>
+              <rdg xml:space="preserve" xml:id="I_87r-b.v_500_line_18" n="500" wit="#I">
+                <w><orig><hi rend="decoration color:red">E</hi>E</orig><reg>ê</reg></w><c type="space"/>
                 <w><orig>reyt</orig><reg>rît</reg></w><c type="space"/>
                 <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
                 <w><orig>vnd</orig><reg>und</reg></w><c type="space"/>
                 <w><orig>chere</orig><reg>kêre</reg></w></rdg>
-              <rdg xml:space="preserve" xml:id="K_245r-b.v_500_line_18" n="498" wit="#K"><w><orig>E<c>·</c></orig><reg>ê</reg></w><c type="space"/>
+              <rdg xml:space="preserve" xml:id="K_245r-b.v_500_line_18" n="498" wit="#K"><w><orig>E<c type="diacritic">·</c></orig><reg>ê</reg></w><c type="space"/>
                 <w><orig>rite</orig><reg>rîte</reg></w><c type="space"/>
                 <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
                 <w><orig>vnde</orig><reg>und</reg></w><c type="space"/>
                 <w><orig>kere</orig><reg>kêre</reg></w></rdg>
-              <rdg xml:space="preserve" xml:id="P_244r-b.v_500_line_18" n="497" wit="#P"><w><orig>E<c>·</c></orig><reg>ê</reg></w><c type="space"/>
+              <rdg xml:space="preserve" xml:id="P_244r-b.v_500_line_18" n="497" wit="#P"><w><orig>E<c type="diacritic">·</c></orig><reg>ê</reg></w><c type="space"/>
                 <w><orig>riͤte</orig><reg>rîte</reg></w><c type="space"/>
                 <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
                 <w><orig>vnde</orig><reg>und</reg></w><c type="space"/>
@@ -22531,9 +22529,9 @@
             </app>
           </l>
         </lg>
+        <pb edRef="#V" facs="#V_211r"/>
+        <cb edRef="#V" facs="#V_211r-a"/>
         <lg>
-          <pb edRef="#V" facs="#V_211r"/>
-          <cb edRef="#V" facs="#V_211r-a"/>
           <l xml:id="v_525" corresp="s_511">
             <app>
               <rdg xml:space="preserve" xml:id="H_96r-b.v_511_line_29" n="476" wit="#H"><w><orig><choice>
@@ -22700,9 +22698,9 @@
             </app>
           </l>
         </lg>
+        <pb edRef="#H" facs="#H_96v" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg395/0202?sid=47f61bfbae5f387885da0bc8e725ba47"/>
+        <cb edRef="#H" facs="#H_96v-a" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg395/0202?sid=47f61bfbae5f387885da0bc8e725ba47"/>
         <lg>
-          <pb edRef="#H" facs="#H_96v" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg395/0202?sid=47f61bfbae5f387885da0bc8e725ba47"/>
-          <cb edRef="#H" facs="#H_96v-a" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg395/0202?sid=47f61bfbae5f387885da0bc8e725ba47"/>
           <l xml:id="v_529" corresp="s_515">
             <app>
               <rdg xml:space="preserve" xml:id="H_96v-a.v_515_line_1" n="480" wit="#H"><w><orig><hi rend="decoration color:red">V</hi>ber</orig><reg>über</reg></w><c type="space"/>
@@ -23500,9 +23498,9 @@
             </app>
           </l>
         </lg>
+        <pb edRef="#I" facs="#I_87v"/>
+        <cb edRef="#I" facs="#I_87v-a"/>
         <lg>
-          <pb edRef="#I" facs="#I_87v"/>
-          <cb edRef="#I" facs="#I_87v-a"/>
           <l xml:id="v_547" corresp="s_533">
             <app>
               <rdg xml:space="preserve" xml:id="H_96v-a.v_533_line_17" n="496" wit="#H"><w><orig><hi rend="decoration color:red">A</hi>n</orig><reg>an</reg></w><c type="space"/>
@@ -24171,8 +24169,8 @@
             </app>
           </l>
         </lg>
+        <cb edRef="#H" facs="#H_96v-b" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg395/0202?sid=47f61bfbae5f387885da0bc8e725ba47"/>
         <lg>
-          <cb edRef="#H" facs="#H_96v-b" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg395/0202?sid=47f61bfbae5f387885da0bc8e725ba47"/>
           <l xml:id="v_563" corresp="s_549">
             <app>
               <rdg xml:space="preserve" xml:id="H_96v-b.v_549_line_1" n="512" wit="#H"><w><orig><hi rend="decoration color:red">D</hi>az</orig><reg>daz</reg></w><c type="space"/>
@@ -24601,21 +24599,21 @@
             <app>
               <rdg xml:space="preserve" xml:id="H_96v-b.v_559_line_11" n="522" wit="#H"><w><orig><hi rend="decoration color:red">W</hi>art</orig><reg>Wart</reg></w><c type="space"/>
                 <w><orig>im</orig><reg>im</reg></w><c type="space"/>
-                <w><orig>ze</orig><reg>zuo</reg></w><c type="space"/>
+                <w><orig>ze</orig><reg>ze</reg></w><c type="space"/>
                 <w><orig>lage</orig><reg>lage</reg></w><c type="space"/>
                 <w><orig>da</orig><reg>da</reg></w><c type="space"/>
                 <w><orig>geleit</orig><reg>geleit</reg></w></rdg>
               <rdg xml:space="preserve" xml:id="I_87v-a.v_559_line_27" n="559" wit="#I"><w><orig><hi rend="decoration color:red">W</hi>az</orig><reg>Waz</reg></w><c type="space"/>
                 <w><orig>im</orig><reg>im</reg></w><c type="space"/>
-                <w><orig>ze</orig><reg>zuo</reg></w><c type="space"/>
+                <w><orig>ze</orig><reg>ze</reg></w><c type="space"/>
                 <w><orig>lag</orig><reg>lac</reg></w><c type="space"/>
                 <w><orig>da</orig><reg>da</reg></w><c type="space"/>
                 <w><orig>perait</orig><reg>berait</reg></w></rdg>
               <rdg xml:space="preserve" xml:id="K_245v-a.v_559_line_37" n="557" wit="#K"><w><orig>Was</orig><reg>waz</reg></w><c type="space"/>
                 <w><orig>im</orig><reg>im</reg></w><c type="space"/>
-                <w><orig>ze</orig><reg>zuo</reg></w><c type="space"/>
+                <w><orig>ze</orig><reg>ze</reg></w><c type="space"/>
                 <w><orig>lage</orig><reg>lage</reg></w><c type="space"/>
-                <w><orig>da<del status="unremarkable">r</del></orig><reg>dar</reg></w><c type="space"/>
+                <w><orig>da<del rend="erased">r</del></orig><reg>dar</reg></w><c type="space"/>
                 <w><orig>geleit</orig><reg>geleit</reg></w></rdg>
               <rdg xml:space="preserve" xml:id="P_244v-a.v_559_line_37" n="556" wit="#P">
                 <w><orig>Waz</orig><reg>waz</reg></w><c type="space"/>
@@ -24626,7 +24624,7 @@
                 <w><orig>geleit</orig><reg>geleit</reg></w></rdg>
               <rdg xml:space="preserve" xml:id="V_211v-a.v_559_line_2" n="559" wit="#V"><w><orig><hi rend="decoration color:red">W</hi>az</orig><reg>Waz</reg></w><c type="space"/>
                 <w><orig>im</orig><reg>im</reg></w><c type="space"/>
-                <w><orig>ze</orig><reg>zuo</reg></w><c type="space"/>
+                <w><orig>ze</orig><reg>ze</reg></w><c type="space"/>
                 <w><orig>lag</orig><reg>lac</reg></w><c type="space"/>
                 <w><orig>da</orig><reg>da</reg></w><c type="space"/>
                 <w><orig>berait</orig><reg>bereit</reg></w></rdg>
@@ -24651,7 +24649,7 @@
                 <w><orig>rait</orig><reg>rait</reg></w></rdg>
               <rdg xml:space="preserve" xml:id="K_245v-a.v_560_line_38" n="558" wit="#K"><w><orig>dar</orig><reg>dar</reg></w><c type="space"/>
                 <w><orig>in</orig><reg>in</reg></w><c type="space"/>
-                <w><orig>e<unclear reason="damage">r</unclear></orig><reg>er</reg></w><c type="space"/>
+                <w><orig>e<unclear agent="damage">r</unclear></orig><reg>er</reg></w><c type="space"/>
                 <w><orig>vngewarnet</orig><reg>ungewarnet</reg></w><c type="space"/>
                 <w><orig>reit</orig><reg>rît</reg></w></rdg>
               <rdg xml:space="preserve" xml:id="P_244v-a.v_560_line_38" n="557" wit="#P">
@@ -24756,9 +24754,9 @@
             </app>
           </l>
         </lg>
+        <cb edRef="#K" facs="#K_245v-b" ed="http://www.e-codices.unifr.ch/de/fmb/cb-0072/245v/0/Sequence-824"/>
+        <cb edRef="#P" facs="#P_244v-b" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg341/0492?sid=47f61bfbae5f387885da0bc8e725ba47"/>
         <lg>
-          <cb edRef="#K" facs="#K_245v-b" ed="http://www.e-codices.unifr.ch/de/fmb/cb-0072/245v/0/Sequence-824"/>
-          <cb edRef="#P" facs="#P_244v-b" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg341/0492?sid=47f61bfbae5f387885da0bc8e725ba47"/>
           <l xml:id="v_577" corresp="s_563">
             <app>
               <rdg xml:space="preserve" xml:id="H_96v-b.v_563_line_15" n="526" wit="#H"><w><orig><hi rend="decoration color:red">W</hi>ant</orig><reg>Want</reg></w><c type="space"/>
@@ -25213,7 +25211,7 @@
                 <w><orig>wolten</orig><reg>wolten</reg></w><c type="space"/>
                 <w><orig><choice>
                       <abbr>ſlah<am>n̄</am></abbr>
-                      <expan>ſlah<am>en</am></expan>
+                      <expan>ſlah<ex>en</ex></expan>
                     </choice></orig><reg>slâhen</reg></w></rdg>
             </app>
           </l>
@@ -25731,7 +25729,7 @@
           </l>
         </lg>
         <lg>
-          <l xml:id="v_599" corresp="s_584a" ana="transposed">
+          <l xml:id="v_599" corresp="s_584a">
             <app>
               <rdg xml:space="preserve" type="missing" xml:id="H_97r-a.v_584a_line_n" n="545a" wit="#H"/>
               <rdg xml:space="preserve" type="transposed" xml:id="I_87v-a.v_584a_line_53" n="585" wit="#I"><w><orig><hi rend="decoration color:red">D</hi>en</orig><reg>den</reg></w><c type="space"/>
@@ -25759,7 +25757,7 @@
                 <w><orig>pot</orig><reg>bot</reg></w></rdg>
             </app>
           </l>
-          <l xml:id="v_600" corresp="s_584b" ana="transposed">
+          <l xml:id="v_600" corresp="s_584b">
             <app>
               <rdg xml:space="preserve" type="missing" xml:id="H_97r-a.v_584b_line_n" n="545b" wit="#H"/>
               <rdg xml:space="preserve" type="transposed" xml:id="I_87v-a.v_584b_line_54" n="586" wit="#I"><w><orig><hi rend="decoration color:red">V</hi>nd</orig><reg>und</reg></w><c type="space"/>
@@ -25794,9 +25792,9 @@
             </app>
           </l>
         </lg>
+        <cb edRef="#I" facs="#I_87v-b"/>
         <lg>
-          <cb edRef="#I" facs="#I_87v-b"/>
-          <l xml:id="v_601" corresp="s_584c" ana="transposed">
+          <l xml:id="v_601" corresp="s_584c">
             <app>
               <rdg xml:space="preserve" type="missing" xml:id="H_97r-a.v_584c_line_n" n="545c" wit="#H"/>
               <rdg xml:space="preserve" type="transposed" xml:id="I_87v-b.v_584c_line_1" n="587" wit="#I">
@@ -25866,7 +25864,7 @@
               <rdg xml:space="preserve" xml:id="W_22r.v_584e_line_n" n="548b" wit="#W" type="missing"/>
             </app>
           </l>
-          <l xml:id="v_604" corresp="s_584f" ana="transposed">
+          <l xml:id="v_604" corresp="s_584f">
             <app>
               <rdg xml:space="preserve" type="missing" xml:id="H_97r-a.v_584f_line_n" n="545f" wit="#H"/>
               <rdg xml:space="preserve" type="transposed" xml:id="I_87v-b.v_584f_line_4" n="590" wit="#I"><w><orig><hi rend="decoration color:red">A</hi>ls</orig><reg>als</reg></w><c type="space"/>
@@ -26450,9 +26448,9 @@
             </app>
           </l>
         </lg>
+        <pb edRef="#V" facs="#V_212r"/>
+        <cb edRef="#V" facs="#V_212r-a"/>
         <lg>
-          <pb edRef="#V" facs="#V_212r"/>
-          <cb edRef="#V" facs="#V_212r-a"/>
           <l xml:id="v_619" corresp="s_599">
             <app>
               <rdg xml:space="preserve" xml:id="H_97r-a.v_599_line_17" n="560" wit="#H"><w><orig><hi rend="decoration color:red">A</hi>ber</orig><reg>aber</reg></w><c type="space"/>
@@ -26755,11 +26753,11 @@
             </app>
           </l>
         </lg>
+        <pb edRef="#K" facs="#K_246r" ed="http://www.e-codices.unifr.ch/de/fmb/cb-0072/246r/0/Sequence-824"/>
+        <cb edRef="#K" facs="#K_246r-a" ed="http://www.e-codices.unifr.ch/de/fmb/cb-0072/246r/0/Sequence-824"/>
+        <pb edRef="#P" facs="#P_245r" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg341/0493?sid=47f61bfbae5f387885da0bc8e725ba47"/>
+        <cb edRef="#P" facs="#P_245r-a" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg341/0493?sid=47f61bfbae5f387885da0bc8e725ba47"/>
         <lg>
-          <pb edRef="#K" facs="#K_246r" ed="http://www.e-codices.unifr.ch/de/fmb/cb-0072/246r/0/Sequence-824"/>
-          <cb edRef="#K" facs="#K_246r-a" ed="http://www.e-codices.unifr.ch/de/fmb/cb-0072/246r/0/Sequence-824"/>
-          <pb edRef="#P" facs="#P_245r" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg341/0493?sid=47f61bfbae5f387885da0bc8e725ba47"/>
-          <cb edRef="#P" facs="#P_245r-a" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg341/0493?sid=47f61bfbae5f387885da0bc8e725ba47"/>
           <l xml:id="v_627" corresp="s_607">
             <app>
               <rdg xml:space="preserve" xml:id="H_97r-a.v_607_line_23" n="566" wit="#H"><w><orig><hi rend="decoration color:red">E</hi>r</orig><reg>er</reg></w><c type="space"/>
@@ -27178,8 +27176,8 @@
             </app>
           </l>
         </lg>
+        <cb edRef="#H" facs="#H_97r-b" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg395/0203?sid=47f61bfbae5f387885da0bc8e725ba47"/>
         <lg>
-          <cb edRef="#H" facs="#H_97r-b" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg395/0203?sid=47f61bfbae5f387885da0bc8e725ba47"/>
           <l xml:id="v_637" corresp="s_617">
             <app>
               <rdg xml:space="preserve" xml:id="H_97r-b.v_617_line_1" n="576" wit="#H"><w><orig><hi rend="decoration color:red">W</hi>ie</orig><reg>Wie</reg></w><c type="space"/>
@@ -27428,8 +27426,8 @@
             </app>
           </l>
         </lg>
+        <cb edRef="#V" facs="#V_212r-b"/>
         <lg>
-          <cb edRef="#V" facs="#V_212r-b"/>
           <l xml:id="v_643" corresp="s_623">
             <app>
               <rdg xml:space="preserve" xml:id="H_97r-b.v_623_line_7" n="582" wit="#H"><w><orig><hi rend="decoration color:red">M</hi>ir</orig><reg>mir</reg></w><c type="space"/>
@@ -27838,7 +27836,7 @@
                       <expan>mei<ex>n</ex></expan>
                     </choice></orig><reg>mîn</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr>aug<abbr>n̄</abbr></abbr>
+                      <abbr>aug<am>n̄</am></abbr>
                       <expan>aug<ex>e</ex>n</expan>
                     </choice></orig><reg>ougen</reg></w><c type="space"/>
                 <w><orig>her</orig><reg>her</reg></w></rdg>
@@ -28239,12 +28237,12 @@
           <l xml:id="v_660" corresp="s_640">
             <app>
               <rdg xml:space="preserve" xml:id="H_97r-b.v_640_line_24" n="599" wit="#H"><w><orig><hi rend="decoration color:red">D</hi>az</orig><reg>daz</reg></w><c type="space"/>
-                <w><orig><persName>heinrich</persName></orig><reg>Heinrich</reg></w><c type="space"/>
+                <w><orig>heinrich</orig><reg>Heinrich</reg></w><c type="space"/>
                 <w><orig>deme</orig><reg>deme</reg></w><c type="space"/>
                 <w><orig>keiſer</orig><reg>keiser</reg></w><c type="space"/>
                 <w><orig>hin</orig><reg>hin</reg></w></rdg>
               <rdg xml:space="preserve" xml:id="I_88r-a.v_640_line_10" n="646" wit="#I"><w><orig><hi rend="decoration color:red">D</hi>az</orig><reg>daz</reg></w><c type="space"/>
-                <w><orig><persName>hainreich</persName></orig><reg>Heinrich</reg></w><c type="space"/>
+                <w><orig>hainreich</orig><reg>Heinrich</reg></w><c type="space"/>
                 <w><orig>den</orig><reg>den</reg></w><c type="space"/>
                 <w><orig><choice>
                       <abbr>chai<am>ſʼ</am></abbr>
@@ -28252,7 +28250,7 @@
                     </choice></orig><reg>keiser</reg></w><c type="space"/>
                 <w><orig>hin</orig><reg>hin</reg></w></rdg>
               <rdg xml:space="preserve" xml:id="K_246r-a.v_640_line_34" n="634" wit="#K"><w><orig>daz</orig><reg>daz</reg></w><c type="space"/>
-                <w><orig><persName>heinrich</persName></orig><reg>Heinrich</reg></w><c type="space"/>
+                <w><orig>heinrich</orig><reg>Heinrich</reg></w><c type="space"/>
                 <w><orig>dem</orig><reg>dem</reg></w><c type="space"/>
                 <w><orig>keiſer</orig><reg>keiser</reg></w><c type="space"/>
                 <w><orig>hin</orig><reg>hin</reg></w></rdg>
@@ -28312,7 +28310,7 @@
                 <w><orig>der</orig><reg>der</reg></w><c type="space"/>
                 <w><orig>zeit</orig><reg>zît</reg></w></rdg>
               <rdg xml:space="preserve" xml:id="W_22v.v_641_line_31" n="601" wit="#W"><w><orig>Het</orig><reg>het</reg></w><c type="space"/>
-                <w><orig>geholffe<unclear reason="damaged">n</unclear></orig><reg>geholffen</reg></w><c type="space"/>
+                <w><orig>geholffe<unclear agent="damaged">n</unclear></orig><reg>geholffen</reg></w><c type="space"/>
                 <w><orig>zuder</orig><reg>zuder</reg></w><c type="space"/>
                 <w><orig>zeit</orig><reg>zît</reg></w></rdg>
             </app>
@@ -28529,11 +28527,11 @@
             </app>
           </l>
         </lg>
+        <cb edRef="#K" facs="#K_246r-b" ed="http://www.e-codices.unifr.ch/de/fmb/cb-0072/246r/0/Sequence-824"/>
+        <cb edRef="#P" facs="#P_245r-b" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg341/0493?sid=47f61bfbae5f387885da0bc8e725ba47"/>
+        <pb edRef="#V" facs="#V_212v"/>
+        <cb edRef="#V" facs="#V_212v-a"/>
         <lg>
-          <cb edRef="#K" facs="#K_246r-b" ed="http://www.e-codices.unifr.ch/de/fmb/cb-0072/246r/0/Sequence-824"/>
-          <cb edRef="#P" facs="#P_245r-b" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg341/0493?sid=47f61bfbae5f387885da0bc8e725ba47"/>
-          <pb edRef="#V" facs="#V_212v"/>
-          <cb edRef="#V" facs="#V_212v-a"/>
           <l xml:id="v_667" corresp="s_647">
             <app>
               <rdg xml:space="preserve" xml:id="H_97r-b.v_647_line_31" n="606" wit="#H"><w><orig><hi rend="decoration color:red">V</hi>mbe</orig><reg>umbe</reg></w><c type="space"/>
@@ -28850,7 +28848,7 @@
                 <w><orig>ſehen</orig><reg>sehen</reg></w></rdg>
               <rdg xml:space="preserve" xml:id="P_245r-b.v_655_line_9" n="648" wit="#P"><w><orig>Wir</orig><reg>wir</reg></w><c type="space"/>
                 <w><orig><subst>
-                      <del type="erased"><unclear atLeast="4"/></del>
+                      <del rend="erased"><unclear/></del>
                       <add place="inline">liezen</add>
                     </subst></orig><reg>liezen</reg></w><c type="space"/>
                 <w><orig><choice>
@@ -29188,7 +29186,7 @@
                       <expan>d<ex>er</ex></expan>
                     </choice></orig><reg>der</reg></w><c type="space"/>
                 <w><orig>ritter</orig><reg>ritter</reg></w><c type="space"/>
-                <w><orig><persName>heinrich</persName></orig><reg>Heinrich</reg></w></rdg>
+                <w><orig>heinrich</orig><reg>Heinrich</reg></w></rdg>
               <rdg xml:space="preserve" xml:id="I_88r-a.v_662_line_32" n="668" wit="#I"><w><orig><hi rend="decoration color:red">D</hi>a</orig><reg>da</reg></w><c type="space"/>
                 <w><orig>wart</orig><reg>wart</reg></w><c type="space"/>
                 <w><orig>der</orig><reg>der</reg></w><c type="space"/>
@@ -29196,12 +29194,12 @@
                       <abbr>rit<am>tʼ</am></abbr>
                       <expan>ritt<ex>er</ex></expan>
                     </choice></orig><reg>ritter</reg></w><c type="space"/>
-                <w><orig><persName>hainreich</persName></orig><reg>Heinrich</reg></w></rdg>
+                <w><orig>hainreich</orig><reg>Heinrich</reg></w></rdg>
               <rdg xml:space="preserve" xml:id="K_246r-b.v_662_line_16" n="656" wit="#K"><w><orig>ſvſt</orig><reg>sust</reg></w><c type="space"/>
                 <w><orig>wart</orig><reg>wart</reg></w><c type="space"/>
                 <w><orig>der</orig><reg>der</reg></w><c type="space"/>
                 <w><orig>Ritter</orig><reg>ritter</reg></w><c type="space"/>
-                <w><orig><persName>heinrich</persName></orig><reg>Heinrich</reg></w></rdg>
+                <w><orig>heinrich</orig><reg>Heinrich</reg></w></rdg>
               <rdg xml:space="preserve" xml:id="P_245r-b.v_662_line_16" n="655" wit="#P"><w><orig>Svſt</orig><reg>sust</reg></w><c type="space"/>
                 <w><orig>wart</orig><reg>wart</reg></w><c type="space"/>
                 <w><orig>der</orig><reg>der</reg></w><c type="space"/>
@@ -29215,7 +29213,7 @@
                       <abbr>rit<am>tʼ</am></abbr>
                       <expan>ritt<ex>er</ex></expan>
                     </choice></orig><reg>ritter</reg></w><c type="space"/>
-                <w><orig><persName>hainreih</persName></orig><reg>Heinrich</reg></w></rdg>
+                <w><orig>hainreih</orig><reg>Heinrich</reg></w></rdg>
               <rdg xml:space="preserve" xml:id="W_22v.v_662_line_52" n="622" wit="#W"><w><orig>do</orig><reg>dô</reg></w><c type="space"/>
                 <w><orig>wart</orig><reg>wart</reg></w><c type="space"/>
                <w><orig>von</orig><reg>von</reg></w><c type="space"/>
@@ -29353,7 +29351,7 @@
                 <w><orig>kvmen</orig><reg>kvmen</reg></w><c type="space"/>
                 <w><orig>in</orig><reg>in</reg></w><c type="space"/>
                 <w><orig><subst>
-                      <del>die</del>
+                      <del rend="none">die</del>
                       <add place="above">ditz</add>
                     </subst></orig><reg>dise</reg></w><c type="space"/>
                 <w><orig>lant</orig><reg>lant</reg></w></rdg>
@@ -29549,8 +29547,8 @@
             </app>
           </l>
         </lg>
+        <cb edRef="#V" facs="#V_212v-b"/>
         <lg>
-          <cb edRef="#V" facs="#V_212v-b"/>
           <l xml:id="v_691" corresp="s_671">
             <app>
               <rdg xml:space="preserve" xml:id="H_97v-a.v_671_line_23" n="630" wit="#H"><w><orig><hi rend="decoration color:red">T</hi>ruch</orig><reg>truch</reg></w><c type="space"/>
@@ -29870,8 +29868,8 @@
             </app>
           </l>
         </lg>
+        <cb edRef="#I" facs="#I_88r-b"/>
         <lg>
-          <cb edRef="#I" facs="#I_88r-b"/>
           <l xml:id="v_699" corresp="s_679">
             <app>
               <rdg xml:space="preserve" xml:id="H_97v-a.v_679_line_31" n="638" wit="#H"><w><orig><choice>
@@ -29949,8 +29947,8 @@
             </app>
           </l>
         </lg>
+        <cb edRef="#H" facs="#H_97v-b" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg395/0204?sid=47f61bfbae5f387885da0bc8e725ba47"/>
         <lg>
-          <cb edRef="#H" facs="#H_97v-b" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg395/0204?sid=47f61bfbae5f387885da0bc8e725ba47"/>
           <l xml:id="v_701" corresp="s_681">
             <app>
               <rdg xml:space="preserve" xml:id="H_97v-b.v_681_line_1" n="640" wit="#H"><w><orig><choice>
@@ -30197,11 +30195,11 @@
             </app>
           </l>
         </lg>
+        <pb edRef="#K" facs="#K_246v" ed="http://www.e-codices.unifr.ch/de/fmb/cb-0072/246v/0/Sequence-824"/>
+        <cb edRef="#K" facs="#K_246v-a" ed="http://www.e-codices.unifr.ch/de/fmb/cb-0072/246v/0/Sequence-824"/>
+        <pb edRef="#P" facs="#P_245v" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg341/0494?sid=47f61bfbae5f387885da0bc8e725ba47"/>
+        <cb edRef="#P" facs="#P_245v-a" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg341/0494?sid=47f61bfbae5f387885da0bc8e725ba47"/>
         <lg>
-          <pb edRef="#K" facs="#K_246v" ed="http://www.e-codices.unifr.ch/de/fmb/cb-0072/246v/0/Sequence-824"/>
-          <cb edRef="#K" facs="#K_246v-a" ed="http://www.e-codices.unifr.ch/de/fmb/cb-0072/246v/0/Sequence-824"/>
-          <pb edRef="#P" facs="#P_245v" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg341/0494?sid=47f61bfbae5f387885da0bc8e725ba47"/>
-          <cb edRef="#P" facs="#P_245v-a" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg341/0494?sid=47f61bfbae5f387885da0bc8e725ba47"/>
           <l xml:id="v_707" corresp="s_687">
             <app>
               <rdg xml:space="preserve" xml:id="H_97v-b.v_687_line_7" n="646" wit="#H"><w><orig><hi rend="decoration color:red">K</hi>eiſer</orig><reg>keiser</reg></w><c type="space"/>
@@ -30575,9 +30573,9 @@
             </app>
           </l>
         </lg>
+        <pb edRef="#V" facs="#V_213r"/>
+        <cb edRef="#V" facs="#V_213r-a"/>
         <lg>
-          <pb edRef="#V" facs="#V_213r"/>
-          <cb edRef="#V" facs="#V_213r-a"/>
           <l xml:id="v_715" corresp="s_695">
             <app>
               <rdg xml:space="preserve" xml:id="H_97v-b.v_695_line_15" n="654" wit="#H">
@@ -30738,7 +30736,7 @@
               <rdg xml:space="preserve" xml:id="H_97v-b.v_699_line_19" n="658" wit="#H"><w><orig><choice>
                       <abbr><hi rend="decoration color:red">K</hi>vm<am>ē</am></abbr>
                       <expan><hi rend="decoration color:red">K</hi>vme<ex>n</ex></expan>
-                    </choice><pc>·</pc></orig><reg>kvmen</reg></w><c type="space"/>
+                    </choice></orig><reg>kvmen</reg></w><pc>·</pc><c type="space"/>
                 <w><orig>dar</orig><reg>dar</reg></w><c type="space"/>
                 <w><orig>vmbe</orig><reg>umbe</reg></w><c type="space"/>
                 <w><orig>wirt</orig><reg>wirt</reg></w><c type="space"/>
@@ -31322,9 +31320,10 @@
               <rdg xml:space="preserve" xml:id="W_23r.v_711_line_n" n="670b" wit="#W" type="missing"/>
             </app>
           </l>
-          <l xml:id="v_733" corresp="s_712" ana="transposed">
+          <l xml:id="v_733" corresp="s_712">
             <app>
-              <rdg xml:space="preserve" xml:id="H_97v-b.v_712_line_32" n="671" wit="#H"><w><orig><hi rend="decoration color:red">D</hi>az</orig><reg>daz</reg></w><c type="space"/>
+              <rdg xml:space="preserve" xml:id="H_97v-b.v_712_line_32" n="671" wit="#H">
+                <w><orig><hi rend="decoration color:red">D</hi>az</orig><reg>daz</reg></w><c type="space"/>
                 <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
                 <w><orig>die</orig><reg>die</reg></w><c type="space"/>
                 <w><orig>vart</orig><reg>vart</reg></w><c type="space"/>
@@ -31372,7 +31371,7 @@
               <note>verso en otro lugar</note>
             </app>
           </l>
-          <l xml:id="v_734" corresp="s_712a" ana="transposed">
+          <l xml:id="v_734" corresp="s_712a">
             <app>
               <rdg xml:space="preserve" type="missing" xml:id="H_97v-b.v_712a_line_n" n="671a" wit="#H"/>
               <rdg xml:space="preserve" type="missing" xml:id="I_88r-b.v_712a_line_n" n="718a" wit="#I"/>
@@ -31386,7 +31385,7 @@
                 <w><orig>ait</orig><reg>ait</reg></w></rdg>
             </app>
           </l>
-          <l xml:id="v_735" corresp="s_712b" ana="transposed">
+          <l xml:id="v_735" corresp="s_712b">
             <app>
               <rdg xml:space="preserve" type="missing" xml:id="H_97v-b.v_712b_line_n" n="671b" wit="#H"/>
               <rdg xml:space="preserve" type="missing" xml:id="I_88r-b.v_712b_line_n" n="718b" wit="#I"/>
@@ -31404,7 +31403,7 @@
                 <w><orig>tut</orig><reg>tut</reg></w></rdg>
             </app>
           </l>
-          <l xml:id="v_736" corresp="s_712c" ana="transposed">
+          <l xml:id="v_736" corresp="s_712c">
             <app>
               <rdg xml:space="preserve" type="missing" xml:id="H_97v-b.v_712c_line_n" n="671c" wit="#H"/>
               <rdg xml:space="preserve" type="missing" xml:id="I_88r-b.v_712c_line_n" n="718c" wit="#I"/>
@@ -31607,7 +31606,7 @@
                     </choice></orig><reg>genommen</reg></w></rdg>
             </app>
           </l>
-          <l xml:id="v_741" corresp="s_716a" ana="transposed">
+          <l xml:id="v_741" corresp="s_716a">
             <app>
               <rdg xml:space="preserve" type="missing" xml:id="H_98r-a.v_716a_line_n" n="673a" wit="#H"/>
               <rdg xml:space="preserve" type="missing" xml:id="I_88r-b.v_716a_line_n" n="722a" wit="#I"/>
@@ -31622,7 +31621,7 @@
                 <w><orig>geben</orig><reg>geben</reg></w></rdg>
             </app>
           </l>
-          <l xml:id="v_742" corresp="s_716b" ana="transposed">
+          <l xml:id="v_742" corresp="s_716b">
             <app>
               <rdg xml:space="preserve" type="missing" xml:id="H_98r-a.v_716b_line_n" n="673b" wit="#H"/>
               <rdg xml:space="preserve" type="missing" xml:id="I_88r-b.v_716b_line_n" n="722b" wit="#I"/>
@@ -31834,8 +31833,8 @@
             </app>
           </l>
         </lg>
+        <cb edRef="#V" facs="#V_213r-b"/>
         <lg>
-          <cb edRef="#V" facs="#V_213r-b"/>
           <l xml:id="v_751" corresp="s_719">
             <app>
               <rdg xml:space="preserve" xml:id="H_98r-a.v_719_line_11" n="682" wit="#H"><w><orig><hi rend="initial color:red" n="2">D</hi><hi rend="decoration color:red">e</hi>r</orig><reg>der</reg></w><c type="space"/>
@@ -31857,12 +31856,12 @@
                 <w><orig>do</orig><reg>dô</reg></w><c type="space"/>
                 <w><orig>began</orig><reg>began</reg></w></rdg>
               <rdg xml:space="preserve" xml:id="P_245v-a.v_719_line_33" n="712" wit="#P">
-                <w><orig><hi rend="deluxe_initial" n="2">D</hi>Er</orig><reg>der</reg></w><c type="space"/>
+                <w><orig><hi rend="initial" n="2">D</hi>Er</orig><reg>der</reg></w><c type="space"/>
                 <w><orig>keiſer</orig><reg>keiser</reg></w><c type="space"/>
                 <w><orig>lachen</orig><reg>lachen</reg></w><c type="space"/>
                 <w><orig>da</orig><reg>da</reg></w><c type="space"/>
                 <w><orig>began</orig><reg>began</reg></w></rdg>
-              <rdg xml:space="preserve" xml:id="V_213r-b.v_719_line_1" n="725" wit="#V"><w><orig><hi rend="initital color:red" n="2">D</hi><hi rend="decoration color:red">e</hi>r</orig><reg>der</reg></w><c type="space"/>
+              <rdg xml:space="preserve" xml:id="V_213r-b.v_719_line_1" n="725" wit="#V"><w><orig><hi rend="initial color:red" n="2">D</hi><hi rend="decoration color:red">e</hi>r</orig><reg>der</reg></w><c type="space"/>
                 <w><orig>kaiſer</orig><reg>keiser</reg></w><c type="space"/>
                 <w><orig><choice>
                       <abbr>lach<am>n̄</am></abbr>
@@ -31923,9 +31922,9 @@
             </app>
           </l>
         </lg>
+        <pb edRef="#I" facs="#I_88v"/>
+        <cb edRef="#I" facs="#I_88v-a"/>
         <lg>
-          <pb edRef="#I" facs="#I_88v"/>
-          <cb edRef="#I" facs="#I_88v-a"/>
           <l xml:id="v_753" corresp="s_721">
             <app>
               <rdg xml:space="preserve" xml:id="H_98r-a.v_721_line_13" n="684" wit="#H"><w><orig><hi rend="decoration color:red">J</hi>r</orig><reg>ir</reg></w><c type="space"/>
@@ -32195,9 +32194,9 @@
             </app>
           </l>
         </lg>
+        <cb edRef="#K" facs="#K_246v-b" ed="http://www.e-codices.unifr.ch/de/fmb/cb-0072/246v/0/Sequence-824"/>
+        <cb edRef="#P" facs="#P_245v-b" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg341/0494?sid=47f61bfbae5f387885da0bc8e725ba47"/>
         <lg>
-          <cb edRef="#K" facs="#K_246v-b" ed="http://www.e-codices.unifr.ch/de/fmb/cb-0072/246v/0/Sequence-824"/>
-          <cb edRef="#P" facs="#P_245v-b" ed="http://digi.ub.uni-heidelberg.de/diglit/cpg341/0494?sid=47f61bfbae5f387885da0bc8e725ba47"/>
           <l xml:id="v_759" corresp="s_727">
             <app>
               <rdg xml:space="preserve" xml:id="H_98r-a.v_727_line_19" n="690" wit="#H"><w><orig><hi rend="decoration color:red">V</hi>nt</orig><reg>und</reg></w><c type="space"/>
@@ -33620,7 +33619,7 @@
               <note>versos en otro lugar</note>
             </app>
           </l>
-          <l xml:id="v_792" corresp="s_758" ana="transposed">
+          <l xml:id="v_792" corresp="s_758">
             <app>
               <rdg xml:space="preserve" xml:id="H_98r-b.v_758_line_n" n="717d" wit="#H" type="missing"/>
               <rdg xml:space="preserve" xml:id="I_88v-a.v_758_line_41" n="767" wit="#I" type="transposed"><w><orig><hi rend="decoration color:red">V</hi>on</orig><reg>von</reg></w><c type="space"/>
@@ -33651,7 +33650,7 @@
           </l>
         </lg>
         <lg>
-          <l xml:id="v_793" corresp="s_759" ana="transposed">
+          <l xml:id="v_793" corresp="s_759">
             <app>
               <rdg xml:space="preserve" xml:id="H_98r-b.v_759_line_n" n="717e" wit="#H" type="missing"/>
               <rdg xml:space="preserve" xml:id="I_88v-a.v_759_line_40" n="766" wit="#I" type="transposed"><w><orig><hi rend="decoration color:red">V</hi>nd</orig><reg>und</reg></w><c type="space"/>
@@ -33794,8 +33793,8 @@
             </app>
           </l>
         </lg>
+        <cb edRef="#V" facs="#V_213v-b"/>
         <lg>
-          <cb edRef="#V" facs="#V_213v-b"/>
           <l xml:id="v_797" corresp="s_763">
             <app>
               <rdg xml:space="preserve" xml:id="H_98r-b.v_763_line_n" n="717i" wit="#H" type="missing"/>
@@ -34093,8 +34092,8 @@
             </app>
           </l>
         </lg>
+        <cb edRef="#I" facs="#I_88v-b"/>
         <lg>
-          <cb edRef="#I" facs="#I_88v-b"/>
           <l xml:id="v_803" corresp="s_769">
             <app>
               <rdg xml:space="preserve" xml:id="H_98r-b.v_7769_line_19" n="722" wit="#H" type="alternative">
@@ -34180,7 +34179,6 @@
             </app>
           </l>
         </lg>
-        <div type="explicit">
           <lg>
             <l xml:id="v_805" corresp="s_770a">
               <app>
@@ -34260,11 +34258,11 @@
                 <rdg xml:space="preserve" xml:id="K_247r-a.v_770e_line_n" n="764e" wit="#K" type="missing"/>
                 <rdg xml:space="preserve" xml:id="P_246r-a.v_770e_line_n" n="763e" wit="#P" type="missing"/>
                 <rdg xml:space="preserve" xml:id="V_213v-b.v_770e_line_11" n="781" wit="#V">
-                  <metamark function="decoration">·:</metamark><hi rend="decoration color:red">
+                  <metamark function="structural">·:</metamark><hi rend="decoration color:red">
                     <w><orig>Amen</orig><reg>amen</reg></w><c type="space"/>
                     <w><orig>daz</orig><reg>daz</reg></w><c type="space"/>
                     <w><orig>werd</orig><reg>werde</reg></w><c type="space"/>
-                    <w><orig>war</orig><reg>wâr</reg></w><c type="space"/><metamark function="decoration">·:</metamark></hi></rdg>
+                    <w><orig>war</orig><reg>wâr</reg></w><c type="space"/><metamark function="structural">·:</metamark></hi></rdg>
                 <rdg xml:space="preserve" xml:id="W_23v.v_770e_line_n" n="732e" wit="#W" type="missing"/>
               </app>
             </l>
@@ -34290,9 +34288,13 @@
           <lg>
             <l xml:id="v_811" corresp="s_770g">
               <app>
-                <rdg xml:space="preserve" xml:id="I_88v-b.v_770g_line_8" n="784" wit="#I"><w><orig><w xml:lang="lat">Des<reg/></w></orig><reg>dez</reg></w><c type="space"/>
-                  <w><orig><w xml:lang="lat">gratias <reg/></w><w xml:lang="lat">J <reg/></w><w xml:lang="lat">Et<reg/></w></orig><reg>gratias J Et</reg></w><c type="space"/>
-                  <w><orig><w xml:lang="lat">finitu᷒<reg/></w><w xml:lang="lat">eſt<reg/></w></orig><reg>finitu᷒est</reg></w></rdg>
+                <rdg xml:space="preserve" xml:id="I_88v-b.v_770g_line_8" n="784" wit="#I">
+                  <w xml:lang="lat"><orig>Des</orig><reg>des</reg></w><c type="space"/>
+                  <w xml:lang="lat"><orig>gratias</orig><reg>gratias</reg></w><c type="space"/>
+                  <w xml:lang="lat"><orig>J</orig><reg>J</reg></w><c type="space"/>
+                  <w xml:lang="lat"><orig>Et</orig><reg>et</reg></w><c type="space"/>
+                  <w xml:lang="lat"><orig><choice><abbr>finit<am>u᷒</am></abbr><expan>finit<ex>us</ex></expan></choice></orig><reg>finitus</reg></w><c type="space"/>
+                  <w xml:lang="lat"><orig>eſt</orig><reg>est</reg></w></rdg>
                 <rdg xml:space="preserve" xml:id="K_247r-a.v_770g_line_n" n="764g" wit="#K" type="missing"/>
                 <rdg xml:space="preserve" xml:id="P_246r-a.v_770g_line_n" n="763g" wit="#P" type="missing"/>
                 <rdg xml:space="preserve" xml:id="V_213v-b.v_770g_line_n" n="781b" wit="#V" type="missing"/>
@@ -34330,7 +34332,7 @@
               </app>
             </l>
           </lg>
-        </div>
+        
       </div>
     </body>
   </text>

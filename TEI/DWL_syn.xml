@@ -6,13 +6,16 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="file-title">Synoptic edition of <title type="text-title">Der Welt Lohn</title> by Konrad von Würzburg</title>
+            <title type="file-title">Synoptic edition of <title type="text-title">Der Welt Lohn</title></title>
             <title type="title-abbreviation">DWL</title>
-            <author xml:id="GR" ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernandez Riva</author>
+            <author role="orig_author">Konrad von Würzburg</author>
+            <author role="editor" xml:id="GR" ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernandez Riva</author>
             <sponsor>CONICET</sponsor>
          </titleStmt>
          <publicationStmt>
-            <p>Created by Gustavo Fernández Riva as part of the PhD in Medieval Studies at the University of Buenos Aires (Argentina) from 2014 to 2018. It is published under the Creative Commons 4.0 Attribution Licence (CC BY 4.0).</p>
+            <authority><persName ref="#GR">Gustavo Fernández Riva</persName></authority>
+            <date>2018</date>
+            <availability><licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons 4.0 BY-NC (Attribution-NonCommercial)</licence></availability>
          </publicationStmt>
          <sourceDesc>
             <listWit>
@@ -182,13 +185,13 @@
                         <w><orig>Der</orig><reg>der</reg></w><c type="space"/>
                         <w><orig>welt</orig><reg>werlt</reg></w><c type="space"/> 
                         <w><orig>Lon</orig><reg>lôn</reg></w></hi><c type="space"/>
-                     <choice><sic><add place="margin">
+                     <note type="gloss">
                         <w><orig><choice><abbr><am>dʼ</am></abbr>
                                  <expan>d<ex>er</ex></expan>
-                        </choice></orig><reg>der</reg></w> <c type="space"/>
+                        </choice></orig><reg>der</reg></w><c type="space"/>
                         <w><orig>werlt</orig><reg>werlt</reg></w><c type="space"/>
                         <w><orig>lon</orig><reg>lôn</reg></w>
-                     </add></sic><corr/></choice></rdg>
+                     </note></rdg>
                </app>
             </head>
             <lg>
@@ -5353,7 +5356,7 @@
                         <w><orig>vnd</orig><reg>und</reg></w><c type="space"/>
                         <w><orig>die</orig><reg>die</reg></w><c type="space"/>
                         <w><orig>chrone</orig><reg>krône</reg></w><pc>·</pc>
-                        <note type="marginal" place="bottom"><hi rend="decoration color:red">e</hi>r᷒<pc>·</pc> <hi rend="decoration color:red">N᷒</hi><pc>·</pc></note></rdg>
+                        <note type="gloss" place="bottom"><hi rend="decoration color:red">e</hi>r᷒<pc>·</pc> <hi rend="decoration color:red">N᷒</hi><pc>·</pc></note></rdg>
                   </app>
                </l>
             </lg>

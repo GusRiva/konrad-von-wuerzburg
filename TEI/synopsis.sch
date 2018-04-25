@@ -36,7 +36,7 @@
         </sch:rule>
         <sch:rule context="tei:author">
             <sch:assert test="parent::tei:titleStmt">Invalid parent for author (valid: titleStmt)</sch:assert>
-            <sch:assert test="count(@*) = count(@xml:id | @ref)">Invalid attribute for author (valid: ref, xml:id)</sch:assert>
+            <sch:assert test="count(@*) = count(@xml:id | @ref | @role)">Invalid attribute for author (valid: ref, xml:id)</sch:assert>
             <sch:assert test="count(*) = 0">author is text-node</sch:assert>
         </sch:rule>
         <sch:rule context="tei:body">
@@ -45,9 +45,9 @@
             <sch:assert test="count(*) = count(tei:div)">Invalid child for body (valid: div)</sch:assert>
         </sch:rule>
         <sch:rule context="tei:c">
-            <sch:assert test="parent::tei:add or parent::tei:corr or parent::tei:rdg or parent::tei:hi or parent::tei:del or parent::tei:sic or parent::tei:subst">Invalid parent for c  element (valid: add, del, hi, rdg, sic)</sch:assert>
-            <sch:assert test="count(@*) = count(@type) and @type='space'">c element must have attribute @type='space'</sch:assert>
-            <sch:assert test="count(node()) = 0">c is an empty element</sch:assert>
+            <sch:assert test="parent::tei:add or parent::tei:corr or parent::tei:del or parent::tei:hi or parent::tei:note or parent::tei:orig or parent::tei:rdg or parent::tei:sic or parent::tei:subst">Invalid parent for c  element (valid: add, del, hi, note, rdg, sic)</sch:assert>
+            <sch:assert test="count(@*) = count(@type) and (@type='space' or @type='diacritic')">c element must have attribute @type='space' or 'diacritic'</sch:assert>
+            <sch:assert test="(@type='space' and count(node()) = 0) or (count(*)= 0)">c type='space' is an empty element</sch:assert>
         </sch:rule>
         <sch:rule context="tei:cb">
             <sch:assert test="parent::tei:div or preceding-sibling::tei:l">The element cb must be outside the lg, unless it is between two l</sch:assert>
@@ -74,7 +74,7 @@
             <sch:assert test="parent::tei:orig | parent::tei:rdg | parent::tei:subst">Invalid parent for del</sch:assert>
             <sch:assert test="@rend">del must have attribute @rend (and only that)</sch:assert>
             <sch:let name="attr_values" value="for $val in tokenize(@rend, '\s') return $val"/>
-            <sch:assert test="every $token in $attr_values satisfies $token = 'adapted' or $token = 'color:red' or $token = 'color:blue' or $token = 'erased' or $token = 'overdotted' or $token = 'overstrike' or $token = 'overwritten' or $token = 'underdotted' or $token = 'underlined'">Invalid value for @rend (valid: adapted, color:red, color:blue, erased, overdotted, overstrike, overwritten, underdotted, underlined)</sch:assert>
+            <sch:assert test="every $token in $attr_values satisfies $token = 'adapted' or $token = 'color:red' or $token = 'color:blue' or $token = 'erased' or $token='none' or $token = 'overdotted' or $token = 'overstrike' or $token = 'overwritten' or $token = 'underdotted' or $token = 'underlined'">Invalid value for @rend (valid: adapted, color:red, color:blue, erased, none, overdotted, overstrike, overwritten, underdotted, underlined)</sch:assert>
             <sch:assert test="count(*) = count(tei:c | tei:gap | tei:choice | tei:lb | tei:subst | tei:unclear | tei:w)">Invalid element inside del (valid: c, choice, gap, lb, unclear, w)</sch:assert>
         </sch:rule>
         <sch:rule context="tei:div">
@@ -123,7 +123,7 @@
             <sch:assert test="@rend">Invalid attribute for hi (valid and obligatory: @rend)</sch:assert>
             <sch:let name="attr_values" value="for $val in tokenize(@rend, '\s') return $val"/>
             <sch:assert test="every $token in $attr_values satisfies $token = 'color:red' or $token = 'color:blue' or $token = 'decoration' or $token = 'superscript' or $token = 'underlined' or $token = 'initial'">Invalid value for @rend (valid: color:red, color:blue, initial, underlined)</sch:assert>
-            <sch:assert test="count(*) = count(tei:am | tei:c | tei:choice | tei:metamark | tei:lb | tei:unclear | tei:w)">Invalid element inside hi (valid: choice, metamark, lb, c, w)</sch:assert>
+            <sch:assert test="count(*) = count(tei:am | tei:c | tei:choice | tei:metamark | tei:lb | tei:pc | tei:unclear | tei:w)">Invalid element inside hi (valid: choice, metamark, lb, c, w)</sch:assert>
             <sch:assert test="descendant::text()">hi must have a text-node</sch:assert>
         </sch:rule>
         <sch:rule context="tei:idno">
@@ -153,15 +153,15 @@
         </sch:rule>
         <sch:rule context="tei:metamark">
             <sch:assert test=" parent::tei:add | parent::tei:rdg | parent::tei:hi | parent::tei:orig | parent::tei:sic">Invalid parent for metamark (valid: add, rdg, hi, orig, sic)</sch:assert>
-            <sch:assert test="count(@*) = count(@function | @target)">Invalid attribute for metamark (valid: @target, @function='addition' o 'correction' o 'cue_initial', 'link', 'space', 'uncertain')</sch:assert>
+            <sch:assert test="count(@*) = count(@function | @target | @place | @xml:id)">Invalid attribute for metamark (valid: @target, @function='addition' o 'correction' o 'cue_initial', 'link', 'space', 'uncertain')</sch:assert>
             <sch:let name="function" value="for $val in tokenize(@function, '\s') return $val"></sch:let>
-            <sch:assert test="every $token in $function satisfies $token = 'addition' or $token = 'correction' or $token = 'cue_initial' or $token = 'link' or $token = 'uncertain' or $token = 'space'"></sch:assert>
+            <sch:assert test="every $token in $function satisfies $token = 'addition' or $token = 'correction' or $token = 'cue_initial' or $token = 'link' or $token = 'structural'  or $token = 'uncertain' or $token = 'space'"></sch:assert>
             <sch:assert test="count(*) = count(tei:hi | tei:w)">Invalid element inside metamark (valid: hi, w)</sch:assert>
         </sch:rule>
         <sch:rule context="tei:msDesc">
             <sch:assert test="parent::tei:witness">invalid parent for msDesc (valid: witness)</sch:assert>
             <sch:assert test="count(@*) = 0">msDesc can't have any attributes</sch:assert>
-            <sch:assert test="count(*) = count(tei:msIdentifier)">Invalid child for msDesc (valid: msIdentifier)</sch:assert>
+            <sch:assert test="count(*) = count(tei:msIdentifier | tei:history)">Invalid child for msDesc (valid: history, msIdentifier)</sch:assert>
         </sch:rule>
         <sch:rule context="tei:msIdentifier">
             <sch:assert test="parent::tei:msDesc">invalid parent for msIdentifier (valid: msDesc)</sch:assert>
@@ -181,10 +181,10 @@
         <sch:rule context="tei:orig">
             <sch:assert test="parent::tei:w">The element orig must have w for parent</sch:assert>
             <sch:assert test="count(@*) = 0">orig can not have any attributes</sch:assert>
-            <sch:assert test="count(*) = count(tei:add | tei:choice | tei:damage | tei:del | tei:hi | tei:lb | tei:metamark | tei:sic | tei:subst | tei:supplied | tei:unclear)">Invalid element inside orig (valid: add, choice, damage, del, hi, lb, metamark, sic, subst, supplied and unclear)</sch:assert>
+            <sch:assert test="count(*) = count(tei:add | tei:c | tei:choice | tei:damage | tei:del | tei:hi | tei:lb | tei:metamark | tei:sic | tei:subst | tei:supplied | tei:unclear)">Invalid element inside orig (valid: add, choice, damage, del, hi, lb, metamark, sic, subst, supplied and unclear)</sch:assert>
         </sch:rule>
         <sch:rule context="tei:p">
-            <sch:assert test="parent::tei:encodingDesc | parent::tei:head or parent::tei:note or parent::tei:publicationStmt">Invalid parent of p (valid: encodingDesc, head, note, publicationStmt)</sch:assert>
+            <sch:assert test="parent::tei:encodingDesc | parent::tei:head or parent::tei:note or parent::tei:publicationStmt or parent::tei:history">Invalid parent of p (valid: encodingDesc, head, note, publicationStmt)</sch:assert>
             <sch:assert test="count(@*) = 0">Element p can't have attributes</sch:assert>
             <sch:assert test="count(*) = count(tei:persName)">p element is a text-node</sch:assert>
         </sch:rule>
@@ -194,17 +194,17 @@
             <sch:assert test="count(node()) = 0">pb is an empty element</sch:assert>
         </sch:rule>
         <sch:rule context="tei:pc">
-            <sch:assert test="parent::tei:rdg">Invalid parent for pc (valid: rdg)</sch:assert>
+            <sch:assert test="parent::tei:rdg or parent::tei:note or parent::tei:hi">Invalid parent for pc (valid: rdg)</sch:assert>
             <sch:assert test="count(@*) = 0">pc can not have any attributes</sch:assert>
             <sch:assert test="count(*) = 0">pc is text-node only</sch:assert>
         </sch:rule>
         <sch:rule context="tei:publicationStmt">
             <sch:assert test="parent::tei:fileDesc">Invalid parent for publicationStmt (valid: fileDesc)</sch:assert>
             <sch:assert test="count(@*) = 0">pc can not have any attributes</sch:assert>
-            <sch:assert test="count(*) = count(tei:p)">Invalid child for publicationStmt (valid: p)</sch:assert>
+            <!-- Children according to normal TEI rules           -->
         </sch:rule>
         <sch:rule context="tei:rdg">
-            <sch:assert test="count(*) = count(tei:add | tei:c | tei:choice | tei:damage | tei:del | tei:gap | tei:hi | tei:lb | tei:metamark | tei:note | tei:pc | tei:subst | tei:w | tei:witEnd | tei:witStart)">Invalid element inside rdg (valid: add, c, choice, damage, del, gap, hi, lb, pc, sic, subst, note, metamark, w, witEnd, witStart)</sch:assert>
+            <sch:assert test="count(*) = count(tei:add | tei:c | tei:choice | tei:damage | tei:del | tei:gap | tei:hi | tei:lb | tei:metamark | tei:note | tei:pc | tei:subst | tei:unclear | tei:w | tei:witEnd | tei:witStart)">Invalid element inside rdg (valid: add, c, choice, damage, del, gap, hi, lb, pc, sic, subst, note, metamark, w, witEnd, witStart)</sch:assert>
         </sch:rule>
         <sch:rule context="tei:reg">
             <sch:assert test="parent::tei:w">Invalid parent for reg (valid: w)</sch:assert>
@@ -267,7 +267,7 @@
             <sch:assert test="count(*) = count(tei:author | tei:sponsor | tei:title)">Invalid child for titleStmt (valid: author, sponsor, title)</sch:assert>
         </sch:rule>
         <sch:rule context="tei:unclear">
-            <sch:assert test=" parent::tei:abbr | parent::tei:del | parent::tei:hi | parent::tei:orig | parent::tei:sic">Invalid parent for unclear (valid: abbr, del,hi, orig, sic)</sch:assert>
+            <sch:assert test=" parent::tei:abbr | parent::tei:del | parent::tei:hi | parent::tei:orig | parent::tei:rdg | parent::tei:sic">Invalid parent for unclear (valid: abbr, del,hi, orig, sic)</sch:assert>
             <sch:assert test="count(@*) = count(@agent)">Invalid attribute for unclear (valid: agent)</sch:assert>
             <sch:assert test="count(*) = count(tei:am | tei:choice | tei:w)">Invalid element inside unclear (valid: am, choice, w)</sch:assert>
         </sch:rule>
@@ -277,8 +277,8 @@
             <sch:assert test="count(node()) = 0">variantEncoding is an empty element</sch:assert>
         </sch:rule>
         <sch:rule context="tei:w">
-            <sch:assert test="parent::tei:add | parent::tei:del | parent::tei:hi | parent::tei:rdg | parent::tei:sic | parent::tei:corr | parent::tei:note[@type='gloss']">Invalid parent for w</sch:assert>
-            <sch:assert test="count(@*) = count(@lemma | @lemmaRef | @type)">Invalid attribute for w (valid: @lemma, @lemmaRef, @type = 'incomplete')</sch:assert>
+            <sch:assert test="parent::tei:add | parent::tei:del | parent::tei:hi | parent::tei:rdg | parent::tei:sic | parent::tei:supplied | parent::tei:corr | parent::tei:note[@type='gloss'] | parent::tei:unclear">Invalid parent for w</sch:assert>
+            <sch:assert test="count(@*) = count(@lemma | @lemmaRef | @type | @xml:id | @xml:lang)">Invalid attribute for w (valid: @lemma, @lemmaRef, @type = 'incomplete')</sch:assert>
             <sch:assert test="not(@type) or @type = 'incomplete'">Invalid value for atributte type (valid: incomplete)</sch:assert>
             <sch:assert test="count(*) = count(tei:orig | tei:reg)">Invalid element inside w (valid: orig, reg)</sch:assert>
         </sch:rule>

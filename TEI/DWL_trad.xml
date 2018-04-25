@@ -2,17 +2,20 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
-         <titleStmt>
-            <title>Der Welt Lohn - Spanish Translation</title>
-            <author>Konrad von Würzburg</author>
-            <editor>Gustavo Fernández Riva</editor>
-             <sponsor>CONICET</sponsor>
-         </titleStmt>
-         <publicationStmt>
-             <p>Translated by Gustavo Fernández Riva as part of the PhD in Medieval Studies at the University of Buenos Aires (Argentina) from 2014 to 2017</p>
-         </publicationStmt>
+        <titleStmt>
+          <title type="file-title">Spanish translation of <title type="text-title">Der Welt Lohn</title></title>
+          <title type="title-abbreviation">DWL</title>
+          <author role="orig_author">Konrad von Würzburg</author>
+          <author role="translator" xml:id="GR" ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernandez Riva</author>
+          <sponsor>CONICET</sponsor>
+        </titleStmt>
+        <publicationStmt>
+          <authority><persName ref="#GR">Gustavo Fernández Riva</persName></authority>
+          <date>2018</date>
+          <availability><licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons 4.0 BY-NC (Attribution-NonCommercial)</licence></availability>
+        </publicationStmt>
          <sourceDesc>
-           <p>Based on the Critical Text composed by Gustavo Fernández Riva</p>
+           <p>Born Digital</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>

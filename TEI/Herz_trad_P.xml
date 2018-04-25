@@ -4,14 +4,16 @@
  <teiHeader>
    <fileDesc>
      <titleStmt>
-       <title>Herzmaere - Critical Text</title>
-       <author>Konrad von Würzburg</author>
-       <editor>Gustavo Fernández Riva</editor>
+       <title type="file-title">Spanish translation of <title type="text-title">Herzmaere</title> version P</title>
+       <title type="title-abbreviation">Herz</title>
+       <author role="orig_author">Konrad von Würzburg</author>
+       <author role="translator" xml:id="GR" ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernandez Riva</author>
        <sponsor>CONICET</sponsor>
      </titleStmt>
      <publicationStmt>
-       <p>Created by Gustavo Fernández Riva as part of the PhD in Medieval Studies at the University
-          of Buenos Aires (Argentina) from 2014 to 2017</p>
+       <authority><persName ref="#GR">Gustavo Fernández Riva</persName></authority>
+       <date>2018</date>
+       <availability><licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons 4.0 BY-NC (Attribution-NonCommercial)</licence></availability>
      </publicationStmt>
      <sourceDesc>
       <p>Born Digital</p>
