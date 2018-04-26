@@ -1,4 +1,6 @@
-﻿<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+﻿<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="Konrad_von_W%C3%BCrzburg_Versnovellen.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -352,7 +354,7 @@
               <rdg n="0b" wit="#Ko" type="missing"/>
               <rdg xml:id="L_226v.v_2_line_3" n="2" xml:space="preserve" wit="#L"><w><orig><hi rend="decoration color:red">D</hi>as</orig><reg>daz</reg></w><c type="space"/>
                 <subst><del rend="overstrike"><w><orig><choice>
-                      <abbr>laut<am>eˀ</am>liche</abbr>
+                      <abbr>laut<am>eʼ</am>liche</abbr>
                       <expan>laut<ex>er</ex>liche</expan>
                 </choice></orig><reg>lûterliche</reg></w><c type="space"/>
                 <w><orig>mynn</orig><reg>minne</reg></w></del><add place="above"><w><orig>Die</orig><reg>die</reg></w></add></subst><c type="space"/>
@@ -499,7 +501,7 @@
                 <w><orig>vnnd</orig><reg>und</reg></w><c type="space"/>
                 <w><orig>fraw̑n</orig><reg>vrouwen</reg></w></rdg>
               <rdg xml:id="D_129v-a.v_5_line_6" n="5" xml:space="preserve" wit="#D"><w><orig><choice>
-                      <abbr>Rit<am>tˀ</am></abbr>
+                      <abbr>Rit<am>tʼ</am></abbr>
                       <expan>Ritt<ex>er</ex></expan>
                     </choice></orig><reg>ritter</reg></w><c type="space"/>
                 <w><orig>vnd</orig><reg>und</reg></w><c type="space"/>
@@ -640,7 +642,7 @@
                       <expan>vo<ex>n</ex></expan>
                     </choice></orig><reg>von</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr>ganz<am>eˀ</am></abbr>
+                      <abbr>ganz<am>eʼ</am></abbr>
                       <expan>ganze<ex>r</ex></expan>
                     </choice></orig><reg>ganzer</reg></w><c type="space"/>
                 <w><orig>tugent</orig><reg>tugent</reg></w><c type="space"/>
@@ -2440,7 +2442,7 @@
                       <expan>frawe<ex>n</ex></expan>
                 </choice></orig><reg>vrouwen</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr><am>aˀ</am>ges</abbr>
+                      <abbr><am>aʼ</am>ges</abbr>
                       <expan><ex>ar</ex>ges</expan>
                     </choice></orig><reg>arges</reg></w><c type="space"/>
                 <w><orig>ward</orig><reg>war</reg></w></rdg>
@@ -3580,7 +3582,7 @@
                 <w><orig>getragen</orig><reg>getragen</reg></w></rdg>
               <rdg xml:id="h_82v.v_58_line_24" n="54" xml:space="preserve" wit="#h"><w><orig><hi rend="decoration color:red">G</hi>röſſer</orig><reg>grozer</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr>tr<am>w̄ˀ</am></abbr>
+                      <abbr>tr<am>w̄ʼ</am></abbr>
                       <expan>tr<ex>ewer</ex></expan>
                     </choice></orig><reg>triuwe</reg></w><c type="space"/>
                 <w><orig>ward</orig><reg>wart</reg></w><c type="space"/>
@@ -4687,7 +4689,7 @@
                 <w><orig><choice><abbr>min<am>ē</am></abbr><expan>min<ex>n</ex>e</expan></choice></orig><reg>minne</reg></w><c type="space"/>
                 <w><orig>waz</orig><reg>waz</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr><am>vˀ</am>ſniten</abbr>
+                      <abbr><am>vʼ</am>ſniten</abbr>
                       <expan>v<ex>er</ex>ſniten</expan>
                     </choice></orig><reg>versniten</reg></w></rdg>
               <rdg xml:id="h_83r.v_75_line_5" n="69" xml:space="preserve" wit="#h"><w><orig><hi rend="decoration color:red">D</hi>er</orig><reg>der</reg></w><c type="space"/>
@@ -6653,7 +6655,7 @@
                 <w><orig>ſie</orig><reg>sie</reg></w><c type="space"/>
                 <w><orig>auſz</orig><reg>ûz</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr>ſein<am>eˀ</am></abbr>
+                      <abbr>ſein<am>eʼ</am></abbr>
                       <expan>ſeine<ex>r</ex></expan>
                     </choice></orig><reg>sîner</reg></w><c type="space"/>
                 <w><orig>wer</orig><reg>wer</reg></w></rdg>
@@ -6889,7 +6891,7 @@
                   <w><orig>ſie</orig><reg>sie</reg></w><c type="space"/>  
                   <w><orig>auſz</orig><reg>ûz</reg></w><c type="space"/>  
                   <w><orig><choice>
-                        <abbr>ſein<am>eˀ</am></abbr>
+                        <abbr>ſein<am>eʼ</am></abbr>
                         <expan>ſeine<ex>r</ex></expan>
                       </choice></orig><reg>sîner</reg></w><c type="space"/>  
                   <w><orig>wer</orig><reg>were</reg></w>
@@ -7337,7 +7339,7 @@
                 <w><orig>lieb</orig><reg>lieb</reg></w><c type="space"/>
                 <w><orig>mit</orig><reg>mit</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr>gantz<am>eˀ</am></abbr>
+                      <abbr>gantz<am>eʼ</am></abbr>
                       <expan>gantze<ex>r</ex></expan>
                     </choice></orig><reg>ganzer</reg></w><c type="space"/>
                 <w><orig>ſtettigkeit</orig><reg>stetikeit</reg></w></rdg>
@@ -7434,7 +7436,7 @@
                 <w><orig/><reg>umb</reg></w><c type="space"/>
                 <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr>g<am>nˀ</am></abbr>
+                      <abbr>g<am>nʼ</am></abbr>
                       <expan>g<ex>ern</ex></expan>
                     </choice></orig><reg>gerne</reg></w><c type="space"/>
                 <w><orig>mit</orig><reg>mit</reg></w><c type="space"/>
@@ -7596,7 +7598,7 @@
                 <w><orig>das</orig><reg>daz</reg></w><c type="space"/>
                 <w><orig>ſie</orig><reg>sie</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr><am>vˀ</am>geſſen</abbr>
+                      <abbr><am>vʼ</am>geſſen</abbr>
                   <expan><ex>ver</ex>geſſenv</expan>
                     </choice></orig><reg>vergezzen</reg></w><c type="space"/>
                 <w><orig>hab</orig><reg>habe</reg></w></rdg>
@@ -7644,7 +7646,7 @@
                 <w><orig>ſie</orig><reg>sie</reg></w><c type="space"/>
                 <w><orig>treytt</orig><reg>treit</reg></w></rdg>
               <rdg xml:id="D_130r-a.v_119_line_35" n="113" xml:space="preserve" wit="#D"><w><orig><choice>
-                      <abbr><am>vˀ</am>holn</abbr>
+                      <abbr><am>vʼ</am>holn</abbr>
                       <expan>v<ex>er</ex>holn</expan>
                     </choice></orig><reg>verholn</reg></w><c type="space"/>
                 <w><orig>liebi</orig><reg>liebe</reg></w><c type="space"/>
@@ -9167,7 +9169,7 @@
               <rdg xml:id="D_130r-b.v_143_line_12" n="137" xml:space="preserve" wit="#D"><w><orig>wär</orig><reg>waere</reg></w><c type="space"/>
                 <w><orig>jn</orig><reg>in</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr><am>gˀ</am>mem</abbr>
+                      <abbr><am>gʼ</am>mem</abbr>
                       <expan>g<ex>ri</ex>mem</expan>
                     </choice></orig><reg>grimmem</reg></w><c type="space"/>
                 <w><orig>tot</orig><reg>tot</reg></w><c type="space"/>
@@ -9848,7 +9850,7 @@
                 <w><orig>ſelbſt</orig><reg>selbst</reg></w><c type="space"/>
                 <w><orig>haſt</orig><reg>hast</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr><am>vˀ</am>enom<am>ē</am></abbr>
+                      <abbr><am>vʼ</am>enom<am>ē</am></abbr>
                       <expan><ex>ver</ex>nomen</expan>
                     </choice></orig><reg>vernomen</reg></w></rdg>
               <rdg xml:id="N_150v.v_152_line_14" n="144" xml:space="preserve" wit="#N"><w><orig><hi rend="decoration color:red">A</hi>ls</orig><reg>als</reg></w><c type="space"/>
@@ -10083,7 +10085,7 @@
                 <w><orig>art.</orig><reg>art</reg></w></rdg>
               <rdg xml:id="L_229v.v_155_line_6" n="148" xml:space="preserve" wit="#L" type="transposed"><w><orig><hi rend="decoration color:red">D</hi>urch</orig><reg>durch</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr>dein<am>eˀ</am></abbr>
+                      <abbr>dein<am>eʼ</am></abbr>
                       <expan>deine<ex>r</ex></expan>
                 </choice></orig><reg>dîner</reg></w><c type="space"/>
                 <w><orig>hochſte</orig><reg>hoehste</reg></w><c type="space"/>
@@ -11902,7 +11904,7 @@
                 <w><orig>hertz</orig><reg>herze</reg></w><c type="space"/>
                 <w><orig>ſich</orig><reg>sich</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr><am>vˀ</am>ſicht</abbr>
+                      <abbr><am>vʼ</am>ſicht</abbr>
                       <expan>v<ex>er</ex>ſicht</expan>
                     </choice></orig><reg>versiht</reg></w></rdg>
               <rdg xml:id="h_84r.v_213_line_26" n="158" xml:space="preserve" wit="#h"><w><orig><hi rend="decoration color:red">D</hi>es</orig><reg>des</reg></w><c type="space"/>
@@ -12102,7 +12104,7 @@
                 <w><orig>dem</orig><reg>dem</reg></w><c type="space"/>
                 <w><orig>land</orig><reg>lant</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr>n<am>ȳ</am>m<am>eˀ</am></abbr>
+                      <abbr>n<am>ȳ</am>m<am>eʼ</am></abbr>
                       <expan>ny<ex>m</ex>me<ex>r</ex></expan>
                     </choice></orig><reg>nimmer</reg></w><c type="space"/>
                 <w><orig><choice><abbr>k<am>ō</am>m<am>ē</am></abbr><expan>ko<ex>m</ex>me<ex>n</ex></expan></choice></orig><reg>komen</reg></w></rdg>
@@ -12152,7 +12154,7 @@
                 <w><orig>zwifel</orig><reg>zwîvel</reg></w><c type="space"/>
                 <w><orig>jm</orig><reg>im</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr><am>vˀ</am>nom<am>ē</am></abbr>
+                      <abbr><am>vʼ</am>nom<am>ē</am></abbr>
                       <expan>v<ex>er</ex>nome<ex>n</ex></expan>
                     </choice></orig><reg>vernomen</reg></w></rdg>
               <rdg xml:id="h_84r.v_217_line_30" n="162" xml:space="preserve" wit="#h"><w><orig><hi rend="decoration color:red">V</hi>nd</orig><reg>und</reg></w><c type="space"/>
@@ -13037,7 +13039,7 @@
               <rdg xml:id="D_130v-a.v_231_line_3" n="176" xml:space="preserve" wit="#D"><w><orig>Ob</orig><reg>ob</reg></w><c type="space"/>
                 <w><orig>man</orig><reg>man</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr><am>vˀ</am>redet</abbr>
+                      <abbr><am>vʼ</am>redet</abbr>
                       <expan>v<ex>er</ex>redet</expan>
                     </choice></orig><reg>verredet</reg></w><c type="space"/>
                 <w><orig>das</orig><reg>daz</reg></w></rdg>
@@ -13467,7 +13469,7 @@
                 <w><orig>nach</orig><reg>nach</reg></w><c type="space"/>
                 <w><orig>meines</orig><reg>mînes</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr>h<am>eˀ</am>tze</abbr>
+                      <abbr>h<am>eʼ</am>tze</abbr>
                       <expan>he<ex>r</ex>tze</expan>
                     </choice></orig><reg>herze</reg></w><c type="space"/>
                 <w><orig>gir</orig><reg>gir</reg></w></rdg>
@@ -13477,7 +13479,7 @@
                 <w><orig>dir</orig><reg>dir</reg></w><c type="space"/>
                 <w><orig>nach</orig><reg>nach</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr>mei<am>nˀ</am></abbr>
+                      <abbr>mei<am>nʼ</am></abbr>
                       <expan>mein<ex>er</ex></expan>
                 </choice></orig><reg>mîner</reg></w><c type="space"/>
                 <w><orig>gir</orig><reg>gir</reg></w></rdg>
@@ -13992,53 +13994,53 @@
         <lg>
           <l xml:id="v_244" corresp="s_187">
             <app>
-              <rdg xml:id="A_4v-a.v_244_line_188" n="187" xml:space="preserve" wit="#A" type="alternative:1"><w><orig>Ich</orig><reg>ich</reg></w><c type="space"/>
+              <rdg xml:id="A_4v-a.v_244_line_188" n="187" xml:space="preserve" wit="#A"><w><orig>Ich</orig><reg>ich</reg></w><c type="space"/>
                 <w><orig>muos</orig><reg>muoz</reg></w><c type="space"/>
                 <w><orig>an</orig><reg>an</reg></w><c type="space"/>
                 <w><orig>dich</orig><reg>dich</reg></w><c type="space"/>
                 <w><orig>gedenken</orig><reg>gedenken</reg></w></rdg>
-              <rdg xml:id="B_100v.v_244_line_19" n="189" xml:space="preserve" wit="#B" type="alternative:2"><w><orig>Mein</orig><reg>mîn</reg></w><c type="space"/>
+              <rdg xml:id="B_100v.v_244_line_19" n="189" xml:space="preserve" wit="#B"><w><orig>Mein</orig><reg>mîn</reg></w><c type="space"/>
                 <w><orig>troſt</orig><reg>trost</reg></w><c type="space"/>
                 <w><orig>will</orig><reg>wil</reg></w><c type="space"/>
                 <w><orig>ſih</orig><reg>sih</reg></w><c type="space"/>
                 <w><orig><unclear>ſwekenn</unclear></orig><reg>swenken</reg></w></rdg>
-              <rdg xml:id="D_130v-a.v_244_line_16" n="189" xml:space="preserve" wit="#D" type="alternative:1"><w><orig>So</orig><reg>sô</reg></w><c type="space"/>
+              <rdg xml:id="D_130v-a.v_244_line_16" n="189" xml:space="preserve" wit="#D"><w><orig>So</orig><reg>sô</reg></w><c type="space"/>
                 <w><orig>muſz</orig><reg>muoz</reg></w><c type="space"/>
                 <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
                 <w><orig>an</orig><reg>an</reg></w><c type="space"/>
                 <w><orig>dich</orig><reg>dich</reg></w><c type="space"/>
                 <w><orig>gedencken</orig><reg>gedenken</reg></w></rdg>
-              <rdg xml:id="h_84v.v_244_line_23" n="189" xml:space="preserve" wit="#h" type="alternative:2"><w><orig><hi rend="decoration color:red">M</hi>ein</orig><reg>mîn</reg></w><c type="space"/>
+              <rdg xml:id="h_84v.v_244_line_23" n="189" xml:space="preserve" wit="#h"><w><orig><hi rend="decoration color:red">M</hi>ein</orig><reg>mîn</reg></w><c type="space"/>
                 <w><orig>troſt</orig><reg>trost</reg></w><c type="space"/>
                 <w><orig>will</orig><reg>wil</reg></w><c type="space"/>
                 <w><orig>ſich</orig><reg>sich</reg></w><c type="space"/>
                 <w><orig>ſencken</orig><reg>senken</reg></w></rdg>
-              <rdg xml:id="I_9r-b.v_244_line_43" n="187" xml:space="preserve" wit="#I" type="alternative:2"><w><orig><hi rend="decoration color:red">M</hi>ein</orig><reg>mîn</reg></w><c type="space"/>
+              <rdg xml:id="I_9r-b.v_244_line_43" n="187" xml:space="preserve" wit="#I"><w><orig><hi rend="decoration color:red">M</hi>ein</orig><reg>mîn</reg></w><c type="space"/>
                 <w><orig>trew</orig><reg>triuwe</reg></w><c type="space"/>
                 <w><orig>iſt</orig><reg>ist</reg></w><c type="space"/>
                 <w><orig>ane</orig><reg>ane</reg></w><c type="space"/>
                 <w><orig>wenckhen</orig><reg>wenken</reg></w></rdg>
-              <rdg xml:id="Ko_8b.v_244_line_11" n="143" xml:space="preserve" wit="#Ko" type="alternative:1"><w><orig>Jch</orig><reg>ich</reg></w><c type="space"/>
+              <rdg xml:id="Ko_8b.v_244_line_11" n="143" xml:space="preserve" wit="#Ko"><w><orig>Jch</orig><reg>ich</reg></w><c type="space"/>
                 <w><orig>muz</orig><reg>muoz</reg></w><c type="space"/>
                 <w><orig>dich</orig><reg>dich</reg></w><c type="space"/>
                 <w><orig>gedenkin.</orig><reg>gedenken</reg></w></rdg>
-              <rdg xml:id="L_230r.v_244_line_22" n="188" xml:space="preserve" wit="#L" type="alternative:2"><w><orig><hi rend="decoration color:red">M</hi>ein</orig><reg>mîn</reg></w><c type="space"/>
+              <rdg xml:id="L_230r.v_244_line_22" n="188" xml:space="preserve" wit="#L"><w><orig><hi rend="decoration color:red">M</hi>ein</orig><reg>mîn</reg></w><c type="space"/>
                 <w><orig>troſt</orig><reg>trost</reg></w><c type="space"/>
                 <w><orig>will</orig><reg>wil</reg></w><c type="space"/>
                 <w><orig>ſich</orig><reg>sich</reg></w><c type="space"/>
                 <w><orig>ſencken</orig><reg>senken</reg></w>
                 </rdg>
-              <rdg xml:id="N_151v.v_244_line_17" n="187" xml:space="preserve" wit="#N" type="alternative:1"><w><orig><hi rend="decoration color:red">I</hi>ch</orig><reg>ich</reg></w><c type="space"/>
+              <rdg xml:id="N_151v.v_244_line_17" n="187" xml:space="preserve" wit="#N"><w><orig><hi rend="decoration color:red">I</hi>ch</orig><reg>ich</reg></w><c type="space"/>
                 <w><orig>muſz</orig><reg>muoz</reg></w><c type="space"/>
                 <w><orig>an</orig><reg>an</reg></w><c type="space"/>
                 <w><orig>dich</orig><reg>dich</reg></w><c type="space"/>
                 <w><orig>gedencken</orig><reg>gedenken</reg></w></rdg>
-              <rdg xml:id="P_347r-b.v_244_line_13" n="179" xml:space="preserve" wit="#P" type="alternative:1"><w><orig>Ich</orig><reg>ich</reg></w><c type="space"/>
+              <rdg xml:id="P_347r-b.v_244_line_13" n="179" xml:space="preserve" wit="#P"><w><orig>Ich</orig><reg>ich</reg></w><c type="space"/>
                 <w><orig>muz</orig><reg>muoz</reg></w><c type="space"/>
                 <w><orig>an</orig><reg>an</reg></w><c type="space"/>
                 <w><orig>dich</orig><reg>dich</reg></w><c type="space"/>
                 <w><orig>gedenken</orig><reg>gedenken</reg></w></rdg>
-              <rdg xml:id="V_11v-b.v_244_line_27" n="187" xml:space="preserve" wit="#V" type="alternative:1"><w><orig><hi rend="decoration color:red">M</hi>ein</orig><reg>mîn</reg></w><c type="space"/>
+              <rdg xml:id="V_11v-b.v_244_line_27" n="187" xml:space="preserve" wit="#V"><w><orig><hi rend="decoration color:red">M</hi>ein</orig><reg>mîn</reg></w><c type="space"/>
                 <w><orig>trew</orig><reg>triuwe</reg></w><c type="space"/>
                 <w><orig>iſt</orig><reg>ist</reg></w><c type="space"/>
                 <w><orig>ane</orig><reg>ane</reg></w><c type="space"/>
@@ -14046,7 +14048,7 @@
                       <abbr>wenk<am>n̄</am></abbr>
                       <expan>wenk<ex>e</ex>n</expan>
                     </choice></orig><reg>wenken</reg></w></rdg>
-              <rdg xml:id="w_4v.v_244_line_23" n="224" xml:space="preserve" wit="#w" type="alternative:1"><w><orig>Jch</orig><reg>ich</reg></w><c type="space"/>
+              <rdg xml:id="w_4v.v_244_line_23" n="224" xml:space="preserve" wit="#w" ><w><orig>Jch</orig><reg>ich</reg></w><c type="space"/>
                 <w><orig>muͦß</orig><reg>muoz</reg></w><c type="space"/>
                 <w><orig>an</orig><reg>an</reg></w><c type="space"/>
                 <w><orig>dich</orig><reg>dich</reg></w><c type="space"/>
@@ -14762,7 +14764,7 @@
                 <w><orig>an</orig><reg>an</reg></w><c type="space"/>
                 <w><orig>uch</orig><reg>iuch</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr><am>vˀ</am>ſent</abbr>
+                      <abbr><am>vʼ</am>ſent</abbr>
                       <expan>v<ex>er</ex>ſent</expan>
                     </choice></orig><reg>versent</reg></w></rdg>
               <rdg xml:id="h_84v.v_255_line_34" n="200" xml:space="preserve" wit="#h"><w><orig><hi rend="decoration color:red">J</hi>ch</orig><reg>ich</reg></w><c type="space"/>
@@ -15132,7 +15134,7 @@
                 <w><orig>an</orig><reg>an</reg></w><c type="space"/>
                 <w><orig>uch</orig><reg>iuch</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr><am>vˀ</am>holn</abbr>
+                      <abbr><am>vʼ</am>holn</abbr>
                       <expan>v<ex>er</ex>holn</expan>
                     </choice></orig><reg>verholen</reg></w></rdg>
               <rdg n="200h" xml:space="preserve" wit="#h" type="missing"/>
@@ -16053,15 +16055,15 @@
                 <w><orig>vnd</orig><reg>und</reg></w><c type="space"/>
                 <w><orig>mit</orig><reg>mit</reg></w><c type="space"/>
                 <w><orig>laid</orig><reg>leide</reg></w></rdg>
-              <rdg xml:id="I_9v-a.v_279_line_17" n="212" xml:space="preserve" wit="#I"><w><orig><hi rend="decoration color:red">M</hi>it</orig><reg>mit</reg></w><c type="space"/>
+              <rdg xml:id="I_9v-a.v_279_line_17" n="212" xml:space="preserve" wit="#I">
+                <w><orig><hi rend="decoration color:red">M</hi>it</orig><reg>mit</reg></w><c type="space"/>
                 <w><orig>trawren</orig><reg>trûren</reg></w><c type="space"/>
                 <w><orig>vnd</orig><reg>und</reg></w><c type="space"/>
                 <w><orig>mit</orig><reg>mit</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr>h<am>rʼ</am>tzenlaid</abbr>
-                      <expan>h<ex>e</ex>rtzenlaid</expan>
+                      <abbr>h<am>rʼ</am>zenlaid</abbr>
+                      <expan>h<ex>e</ex>rzenlaid</expan>
                     </choice></orig><reg>herzeleide</reg></w></rdg>
-              <note/>
               <rdg n="174b" xml:space="preserve" wit="#Ko" type="missing"/>
               <rdg xml:id="L_230v.v_279_line_21" n="211" xml:space="preserve" wit="#L"><w><orig><hi rend="decoration color:red">M</hi>it</orig><reg>mit</reg></w><c type="space"/>
                 <w><orig>trawrēn</orig><reg>trûren</reg></w><c type="space"/>
@@ -16368,7 +16370,7 @@
                 <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
                 <w><orig>baider</orig><reg>beider</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr>h<am>rˀ</am>tze</abbr>
+                      <abbr>h<am>rʼ</am>tze</abbr>
                       <expan>h<ex>e</ex>rtze</expan>
                     </choice></orig><reg>herze</reg></w><c type="space"/>
                 <w><orig>tot</orig><reg>tôt</reg></w></rdg>
@@ -16549,7 +16551,7 @@
                 <w><orig>ſy</orig><reg>sie</reg></w><c type="space"/>
                 <w><orig>ſich</orig><reg>sich</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr><am>vˀ</am>wagen</abbr>
+                      <abbr><am>vʼ</am>wagen</abbr>
                       <expan>v<ex>er</ex>wagen</expan>
                     </choice></orig><reg>verwagen</reg></w></rdg>
               <rdg xml:id="h_85r.v_288_line_19" n="219" xml:space="preserve" wit="#h"><w><orig><hi rend="decoration color:red">D</hi>as</orig><reg>daz</reg></w><c type="space"/>
@@ -16659,7 +16661,7 @@
               <rdg xml:id="D_130v-b.v_290_line_15" n="232" xml:space="preserve" wit="#D"><w><orig>der</orig><reg>der</reg></w><c type="space"/>
                 <w><orig>werd</orig><reg>werde</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr>rit<am>tˀ</am></abbr>
+                      <abbr>rit<am>tʼ</am></abbr>
                       <expan>ritt<ex>er</ex></expan>
                     </choice></orig><reg>ritter</reg></w><c type="space"/>
                 <w><orig>kert</orig><reg>kerte</reg></w><c type="space"/>
@@ -17946,7 +17948,7 @@
                       <expan>v<ex>nd</ex></expan>
                     </choice></orig><reg>und</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr>bit<am>tˀ</am></abbr>
+                      <abbr>bit<am>tʼ</am></abbr>
                       <expan>bitt<ex>er</ex></expan>
                     </choice></orig><reg>bitter</reg></w></rdg>
               <rdg xml:id="h_85v.v_323_line_2" n="234" xml:space="preserve" wit="#h"><w><orig><hi rend="decoration color:red">W</hi>as</orig><reg>waz</reg></w><c type="space"/>
@@ -18453,7 +18455,7 @@
                 <w lemmaRef="http://www.woerterbuchnetz.de/Lexer?bookref=3,1212,8"><orig>zwi</orig><reg>zwî</reg></w></rdg>
               <rdg n="239e" xml:space="preserve" wit="#B" type="missing"/>
               <rdg xml:id="D_130v-b.v_335_line_36" n="253" xml:space="preserve" wit="#D"><w><orig><choice>
-                      <abbr><am>vˀ</am>mait</abbr>
+                      <abbr><am>vʼ</am>mait</abbr>
                       <expan>v<ex>er</ex>mait</expan>
                     </choice></orig><reg>vermeit</reg></w><c type="space"/>
                 <w><orig>der</orig><reg>der</reg></w><c type="space"/>
@@ -18474,7 +18476,7 @@
                 <del rend="overstrike color:red">z</del><c type="space"/>
                 <w><orig>frewden</orig><reg>vröuden</reg></w><c type="space"/>
                 <w lemmaRef="http://www.woerterbuchnetz.de/Lexer?bookref=3,1212,8"><orig>zweÿ</orig><reg>zwî</reg></w></rdg>
-              <note>El copista comenzó a copiar 'zwey' antes de 'frewden', se dio cuenta de su error
+              <note type="editorial">El copista comenzó a copiar 'zwey' antes de 'frewden', se dio cuenta de su error
                 y corrigió la primera letra</note>
               <rdg xml:id="P_347v-a.v_335_line_37" n="243" xml:space="preserve" wit="#P"><w><orig>ver meit</orig><reg>vermeit</reg></w><c type="space"/>
                 <w><orig>der</orig><reg>der</reg></w><c type="space"/>
@@ -18849,7 +18851,7 @@
               <rdg xml:id="L_231v.v_344_line_2" n="243" xml:space="preserve" wit="#L"><w><orig><hi rend="decoration color:red">D</hi>er</orig><reg>der</reg></w><c type="space"/>
                 <w><orig>ſenend</orig><reg>senende</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr>m<am>aˀ</am>terer</abbr>
+                      <abbr>m<am>aʼ</am>terer</abbr>
                       <expan>ma<ex>r</ex>terer</expan>
                     </choice></orig><reg>marterere</reg></w></rdg>
               <rdg xml:id="N_153v.v_344_line_14" n="261" xml:space="preserve" wit="#N"><w><orig><hi rend="decoration color:red">D</hi>er</orig><reg>der</reg></w><c type="space"/>
@@ -18902,7 +18904,7 @@
               <rdg xml:id="L_231v.v_345_line_3" n="244" xml:space="preserve" wit="#L"><w><orig><hi rend="decoration color:red">R</hi>ufft</orig><reg>ruft</reg></w><c type="space"/>
                 <w><orig>zu</orig><reg>zuo</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr>manch<am>eˀ</am></abbr>
+                      <abbr>manch<am>eʼ</am></abbr>
                       <expan>manche<ex>r</ex></expan>
                     </choice></orig><reg>maniger</reg></w><c type="space"/>
                 <w><orig>stündt</orig><reg>stunde</reg></w></rdg>
@@ -19293,7 +19295,7 @@
                 <w><orig>gar</orig><reg>gar</reg></w><c type="space"/>
                 <w><orig>mit</orig><reg>mit</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr>meiſt<am>eˀ</am>ſchafft</abbr>
+                      <abbr>meiſt<am>eʼ</am>ſchafft</abbr>
                       <expan>meiſte<ex>r</ex>ſchafft</expan>
                 </choice></orig><reg>meisterschaft</reg></w></rdg>
               <rdg xml:id="N_154r.v_351_line_1" n="268" xml:space="preserve" wit="#N"><w><orig><hi rend="decoration color:red">W</hi>ie</orig><reg>wie</reg></w><c type="space"/>
@@ -20472,7 +20474,7 @@
                 <w><orig>gar</orig><reg>gar</reg></w><c type="space"/>
                 <w><orig>ſchier</orig><reg>schier</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr><am>vˀ</am>nom<am>ē</am></abbr>
+                      <abbr><am>vʼ</am>nom<am>ē</am></abbr>
                       <expan>v<ex>er</ex>nome<ex>n</ex></expan>
                     </choice></orig><reg>vernomen</reg></w></rdg>
               <rdg n="285c" xml:space="preserve" wit="#N" type="missing"/>
@@ -20703,7 +20705,7 @@
                 <w><orig>mer</orig><reg>mere</reg></w><c type="space"/>
                 <w><orig>ſich</orig><reg>sich</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr><am>vˀ</am>ſach</abbr>
+                      <abbr><am>vʼ</am>ſach</abbr>
                   <expan>v<ex>er</ex>ſach</expan>
                     </choice></orig><reg>versach</reg></w></rdg>
               <rdg n="285h" xml:space="preserve" wit="#N" type="missing"/>
@@ -21549,7 +21551,7 @@
                 <w><orig>auſſ</orig><reg>ûz</reg></w><c type="space"/>
                 <w><orig>mein</orig><reg>mîn</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr>h<am>eˀ</am>tz</abbr>
+                      <abbr>h<am>eʼ</am>tz</abbr>
                       <expan>he<ex>r</ex>tz</expan>
                     </choice></orig><reg>herze</reg></w><c type="space"/>
                 <w><orig>gar</orig><reg>gar</reg></w></rdg>
@@ -22156,7 +22158,7 @@
                 <w><orig>das</orig><reg>daz</reg></w><c type="space"/>
                 <w><orig>ringlein</orig><reg>ringlîn</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr>d<am>aˀ</am></abbr>
+                      <abbr>d<am>aʼ</am></abbr>
                       <expan>da<ex>r</ex></expan>
                 </choice> ztu</orig><reg>darzuo</reg></w></rdg>
               <rdg xml:id="N_155r.v_404_line_3" n="308" xml:space="preserve" wit="#N"><w><orig><hi rend="decoration color:red">V</hi>nd</orig><reg>und</reg></w><c type="space"/>
@@ -22465,7 +22467,7 @@
                 <w><orig>miner</orig><reg>mîner</reg></w><c type="space"/>
                 <w><orig>vrouwen.</orig><reg>vrouwen</reg></w></rdg>
               <rdg xml:id="L_232v.v_409_line_1" n="291" xml:space="preserve" wit="#L"><w><orig><choice>
-                      <abbr><hi rend="decoration color:red">M</hi>ein<am>eˀ</am></abbr>
+                      <abbr><hi rend="decoration color:red">M</hi>ein<am>eʼ</am></abbr>
                       <expan><hi rend="decoration color:red">M</hi>eine<ex>r</ex></expan>
                     </choice></orig><reg>mîner</reg></w><c type="space"/>
                 <w><orig>liebste</orig><reg>liebste</reg></w>
@@ -22675,7 +22677,7 @@
                     </choice></orig><reg>herze</reg></w><c type="space"/>
                 <w><orig>ſy</orig><reg>sî</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr><am>vˀ</am>ſnitten</abbr>
+                      <abbr><am>vʼ</am>ſnitten</abbr>
                       <expan>v<ex>er</ex>ſnitten</expan>
                     </choice></orig><reg>versnitten</reg></w></rdg>
               <rdg xml:id="h_86r.v_412_line_28" n="293" xml:space="preserve" wit="#h"><w><orig><hi rend="decoration color:red">W</hi>ie</orig><reg>wie</reg></w><c type="space"/>
@@ -23009,7 +23011,7 @@
                 <w><orig>hertzenn</orig><reg>herzen</reg></w></rdg>
               <rdg xml:id="D_131r-b.v_417_line_24" n="327" xml:space="preserve" wit="#D"><w><orig>lit</orig><reg>lit</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr>ie<am>mˀ</am></abbr>
+                      <abbr>ie<am>mʼ</am></abbr>
                       <expan>iem<ex>er</ex></expan>
                     </choice></orig><reg>iemer</reg></w><c type="space"/>
                 <w><orig>jn</orig><reg>in</reg></w><c type="space"/>
@@ -23097,7 +23099,7 @@
                 <w><orig>ſye</orig><reg>sie</reg></w><c type="space"/>
                 <w><orig>den</orig><reg>den</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr>ſchm<am>eˀ</am>tzēn</abbr>
+                      <abbr>ſchm<am>eʼ</am>tzēn</abbr>
                       <expan>ſchme<ex>r</ex>tzēn</expan>
                     </choice></orig><reg>smerzen</reg></w></rdg>
               <rdg xml:id="N_155r.v_418_line_17" n="322" xml:space="preserve" wit="#N"><w><orig><hi rend="decoration color:red">B</hi>efint</orig><reg>bevindet</reg></w><c type="space"/>
@@ -23466,7 +23468,7 @@
                 <w><orig>helffe</orig><reg>helfe</reg></w><c type="space"/>
                 <w><orig>ſin</orig><reg>sîn</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr><am>vˀ</am>lie</abbr>
+                      <abbr><am>vʼ</am>lie</abbr>
                       <expan>v<ex>er</ex>lie</expan>
                     </choice></orig><reg>verlie</reg></w></rdg>
               <rdg xml:id="h_86v.v_424_line_8" n="305" xml:space="preserve" wit="#h"><w><orig><hi rend="decoration color:red">M</hi>it</orig><reg>mit</reg></w><c type="space"/>
@@ -23921,7 +23923,7 @@
                 <w><orig>end</orig><reg>ende</reg></w></rdg>
               <rdg xml:id="D_131r-b.v_433_line_38" n="341" xml:space="preserve" wit="#D"><w><orig><hi rend="decoration color:red"><metamark function="cue_initial">d</metamark></hi>er</orig><reg>der</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr>rit<am>tˀ</am></abbr>
+                      <abbr>rit<am>tʼ</am></abbr>
                       <expan>ritt<ex>er</ex></expan>
                     </choice></orig><reg>ritter</reg></w><c type="space"/>
                 <w><orig>nam</orig><reg>nam</reg></w><c type="space"/>
@@ -24125,7 +24127,7 @@
                 <w><orig>zehant.</orig><reg>zehant</reg></w></rdg>
               <rdg xml:id="L_232v.v_436_line_23" n="313" xml:space="preserve" wit="#L"><w><orig><hi rend="decoration color:red">D</hi>en</orig><reg>den</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr>h<am>eˀ</am>r<am>ē</am></abbr>
+                      <abbr>h<am>eʼ</am>r<am>ē</am></abbr>
                       <expan>he<ex>r</ex>re<ex>n</ex></expan>
                     </choice></orig><reg>herren</reg></w><c type="space"/>
                 <w><orig>auff</orig><reg>ûf</reg></w><c type="space"/>
@@ -24211,8 +24213,7 @@
                 <w><orig>her</orig><reg>herr</reg></w><c type="space"/>
                 <w><orig>gebǒt</orig><reg>gebot</reg></w>
                 </rdg>
-              <note>Verso que tiene el sentido de este y el siguiente juntos, pero redacción
-                diferente</note>
+              <note type="editorial">Verso que tiene el sentido de este y el siguiente juntos, pero redacción diferente.</note>
             </app>
           </l>
           <l xml:id="v_438" corresp="s_340">
@@ -24283,13 +24284,13 @@
               <rdg xml:id="L_232v.v_439_line_24" n="314" xml:space="preserve" wit="#L"><w><orig><hi rend="decoration color:red">V</hi>nnd</orig><reg>und</reg></w><c type="space"/>
                 <w><orig>nam</orig><reg>nam</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr>d<am>aˀ</am></abbr>
+                      <abbr>d<am>aʼ</am></abbr>
                       <expan>da<ex>r</ex></expan>
                     </choice></orig><reg>dar</reg></w><c type="space"/>
                 <w><orig>auſz</orig><reg>ûz</reg></w><c type="space"/>
                 <w><orig>ſein</orig><reg>sîn</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr>h<am>eˀ</am>tz</abbr>
+                      <abbr>h<am>eʼ</am>tz</abbr>
                       <expan>he<ex>r</ex>tz</expan>
                     </choice></orig><reg>herze</reg></w><c type="space"/>
                 <w><orig>gar</orig><reg>gar</reg></w></rdg>
@@ -24585,7 +24586,7 @@
               <rdg xml:id="L_233r.v_445_line_2" n="320" xml:space="preserve" wit="#L"><w><orig><hi rend="decoration color:red">M</hi>it</orig><reg>mit</reg></w><c type="space"/>
                 <w><orig>ſeins</orig><reg>sînes</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr>h<am>eˀ</am>ren</abbr>
+                      <abbr>h<am>eʼ</am>ren</abbr>
                       <expan>he<ex>r</ex>ren</expan>
                     </choice></orig><reg>herren</reg></w><c type="space"/>
                 <w><orig><choice>
@@ -24827,7 +24828,7 @@
                       <expan>lieb<ex>e</ex>n</expan>
                     </choice></orig><reg>lieben</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr>hr<am>nˀ</am></abbr>
+                      <abbr>hr<am>nʼ</am></abbr>
                       <expan>h<ex>er</ex>rn</expan>
                     </choice></orig><reg>herren</reg></w><c type="space"/>
                 <w><orig>ſin</orig><reg>sîn</reg></w></rdg>
@@ -24892,7 +24893,6 @@
                 <w><orig>des</orig><reg>des</reg></w><c type="space"/>
                 <w><orig>todes</orig><reg>todes</reg></w><c type="space"/>
                 <w><orig>pein</orig><reg>pîn</reg></w></rdg>
-              <note>Verso en cualquier lado</note>
             </app>
           </l>
         </lg>
@@ -27333,7 +27333,7 @@
                 <w><orig>dar jn</orig><reg>darin</reg></w><c type="space"/>
                 <w><orig>iſt</orig><reg>ist</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr><am>vˀ</am>borgen</abbr>
+                      <abbr><am>vʼ</am>borgen</abbr>
                       <expan>v<ex>er</ex>borgen</expan>
                     </choice></orig><reg>verborgen</reg></w></rdg>
               <rdg n="349a" xml:space="preserve" wit="#h" type="missing"/>
@@ -27785,7 +27785,7 @@
               <rdg xml:id="D_131v-b.v_496_line_7" n="394" xml:space="preserve" wit="#D"><w><orig>Sprach</orig><reg>sprach</reg></w><c type="space"/>
                 <w><orig>der</orig><reg>der</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr>rit<am>tˀ</am></abbr>
+                      <abbr>rit<am>tʼ</am></abbr>
                       <expan>ritt<ex>er</ex></expan>
                     </choice></orig><reg>ritter</reg></w><c type="space"/>
                 <w><orig>zu</orig><reg>zuo</reg></w><c type="space"/>
@@ -28553,7 +28553,7 @@
               <rdg xml:id="D_131v-b.v_506_line_17" n="404" xml:space="preserve" wit="#D"><w><orig>das</orig><reg>daz</reg></w><c type="space"/>
                 <w><orig>der</orig><reg>der</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr>rit<am>tˀ</am></abbr>
+                      <abbr>rit<am>tʼ</am></abbr>
                       <expan>ritt<ex>er</ex></expan>
                     </choice></orig><reg>ritter</reg></w><c type="space"/>
                 <w><orig>do</orig><reg>do</reg></w><c type="space"/>
@@ -28780,7 +28780,7 @@
                 <w><orig>zw̑</orig><reg>zuo</reg></w></rdg>
               <rdg xml:id="D_131v-b.v_510_line_21" n="408" xml:space="preserve" wit="#D"><w><orig>der</orig><reg>der</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr>rit<am>tˀ</am></abbr>
+                      <abbr>rit<am>tʼ</am></abbr>
                       <expan>ritt<ex>er</ex></expan>
                     </choice></orig><reg>ritter</reg></w><c type="space"/>
                 <w><orig>ſprach</orig><reg>sprach</reg></w><c type="space"/>
@@ -28886,8 +28886,7 @@
                 <del rend="overstrike color:red"><w><orig>dw</orig><reg>du</reg></w><c type="space"/></del>
                 <w><orig>thuſt</orig><reg>tuos</reg></w><c type="space"/>
                 <w><orig>dw</orig><reg>du</reg></w></rdg>
-              <note>El copista se da cuenta que para que la rima funcione debe invertir el orden de
-                verbo y sujeto.</note>
+              <note type="editorial">El copista se da cuenta que para que la rima funcione debe invertir el orden de verbo y sujeto.</note>
               <rdg xml:id="P_348v-a.v_511_line_22" n="388" xml:space="preserve" wit="#P"><w><orig>Ich</orig><reg>ich</reg></w><c type="space"/>
                 <w><orig>ſag</orig><reg>sage</reg></w><c type="space"/>
                 <w><orig>dir</orig><reg>dir</reg></w><c type="space"/>
@@ -31289,7 +31288,7 @@
                 <del rend="overstrike">gr</del><c type="space"/>
                 <w><orig>freundes</orig><reg>vriundes</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr>hrtz<am>eˀ</am></abbr>
+                      <abbr>hrtz<am>eʼ</am></abbr>
                       <expan>h<ex>er</ex>rtz</expan>
                     </choice></orig><reg>herze</reg></w><c type="space"/>
                 <w><orig>gar</orig><reg>gar</reg></w></rdg>
@@ -31560,7 +31559,7 @@
                 <w><orig>vor</orig><reg>vor</reg></w><c type="space"/>
                 <w><orig>jn</orig><reg>in</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr>kai<am>nˀ</am></abbr>
+                      <abbr>kai<am>nʼ</am></abbr>
                       <expan>kain<ex>er</ex></expan>
                     </choice></orig><reg>keiner</reg></w><c type="space"/>
                 <w><orig>ſtunt</orig><reg>stunt</reg></w></rdg>
@@ -32535,11 +32534,11 @@
               <rdg xml:id="D_132r-a.v_584_line_32" n="465" xml:space="preserve" wit="#D"><w><orig>Nü</orig><reg>nun</reg></w><c type="space"/>
                 <w><orig>ſprachent</orig><reg>sprachent</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr>lie<am>bˀ</am></abbr>
+                      <abbr>lie<am>bʼ</am></abbr>
                       <expan>lieb<ex>er</ex></expan>
                     </choice></orig><reg>lieber</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr>he<am>rˀ</am></abbr>
+                      <abbr>he<am>rʼ</am></abbr>
                       <expan>he<ex>rr</ex></expan>
                     </choice></orig><reg>herre</reg></w><c type="space"/>
                 <w><orig>min</orig><reg>mîn</reg></w></rdg>
@@ -34249,7 +34248,7 @@
                 <w><orig>ſin</orig><reg>sînes</reg></w><c type="space"/>
                 <w><orig>totes</orig><reg>totes</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr>hrtz<am>eˀ</am></abbr>
+                      <abbr>hrtz<am>eʼ</am></abbr>
                       <expan>h<ex>er</ex>rtz</expan>
                     </choice></orig><reg>herzes</reg></w><c type="space"/>
                 <w><orig>göſz</orig><reg>gaz</reg></w></rdg>
@@ -34579,11 +34578,11 @@
                 <w><orig>keynerleẏ</orig><reg>keinerlei</reg></w><c type="space"/>
                 <w><orig>weyß</orig><reg>wîse</reg></w></rdg>
               <rdg xml:id="D_132r-b.v_620_line_24" n="501" xml:space="preserve" wit="#D"><w><orig><choice>
-                      <abbr>kai<am>nˀ</am></abbr>
+                      <abbr>kai<am>nʼ</am></abbr>
                       <expan>kain<ex>er</ex></expan>
                     </choice></orig><reg>keiner</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr>ni<am>mˀ</am></abbr>
+                      <abbr>ni<am>mʼ</am></abbr>
                       <expan>nim<ex>er</ex></expan>
                     </choice></orig><reg>nimmer</reg></w><c type="space"/>
                 <w><orig>me</orig><reg>mê</reg></w></rdg>
@@ -34694,7 +34693,7 @@
                 <w><orig>ſol</orig><reg>sol</reg></w><c type="space"/>
                 <w><orig>mir</orig><reg>mir</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr><am>vˀ</am>bietten</abbr>
+                      <abbr><am>vʼ</am>bietten</abbr>
                       <expan>v<ex>er</ex>bietten</expan>
                     </choice></orig><reg>verbieten</reg></w></rdg>
               <rdg xml:id="h_88v.v_622_line_28" n="447" xml:space="preserve" wit="#h"><w><orig><hi rend="decoration color:red">G</hi>ot</orig><reg>got</reg></w><c type="space"/>
@@ -35840,7 +35839,7 @@
                 <w><orig>trüwe</orig><reg>triuwe</reg></w><c type="space"/>
                 <w><orig>nie</orig><reg>nie</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr><am>vˀ</am>barg</abbr>
+                      <abbr><am>vʼ</am>barg</abbr>
                       <expan>v<ex>er</ex>barg</expan>
                     </choice></orig><reg>verbarc</reg></w></rdg>
               <rdg n="460a" xml:space="preserve" wit="#h" type="missing"/>
@@ -36835,7 +36834,7 @@
                 <w><orig>ſie</orig><reg>sie</reg></w><c type="space"/>
                 <w><orig>ein</orig><reg>ein</reg></w><c type="space"/>
                 <w><orig>end</orig><reg>ende</reg></w></rdg>
-              <rdg xml:id="D_132v-a.v_663_line_23" n="544" xml:space="preserve" wit="#D" type="alternative:1"><w><orig><choice>
+              <rdg xml:id="D_132v-a.v_663_line_23" n="544" xml:space="preserve" wit="#D" ><w><orig><choice>
                       <abbr>de<am>n̄</am></abbr>
                       <expan>den<ex>n</ex></expan>
                     </choice></orig><reg>denn</reg></w><c type="space"/>
@@ -36865,7 +36864,7 @@
                 <w><orig>ſie</orig><reg>sie</reg></w><c type="space"/>
                 <w><orig>ein</orig><reg>ein</reg></w><c type="space"/>
                 <w><orig>end</orig><reg>ende</reg></w></rdg>
-              <rdg xml:id="N_160r.v_663_line_20" n="524" xml:space="preserve" wit="#N" type="alternative:1"><w><orig><hi rend="decoration color:red">D</hi>em</orig><reg>dem</reg></w><c type="space"/>
+              <rdg xml:id="N_160r.v_663_line_20" n="524" xml:space="preserve" wit="#N" ><w><orig><hi rend="decoration color:red">D</hi>em</orig><reg>dem</reg></w><c type="space"/>
                 <w><orig>ÿr</orig><reg>ir</reg></w><c type="space"/>
                 <w><orig>rains</orig><reg>reines</reg></w><c type="space"/>
                 <w><orig>hertz</orig><reg>herze</reg></w><c type="space"/>
@@ -36895,7 +36894,7 @@
                 <w><orig>der</orig><reg>der</reg></w><c type="space"/>
                 <w><orig>herrn</orig><reg>herren</reg></w><c type="space"/>
                 <w><orig>ſchendt</orig><reg>schende</reg></w></rdg>
-              <rdg xml:id="D_132v-a.v_664_line_24" n="545" xml:space="preserve" wit="#D" type="alternative:1"><w><orig>Jch</orig><reg>ich</reg></w><c type="space"/>
+              <rdg xml:id="D_132v-a.v_664_line_24" n="545" xml:space="preserve" wit="#D" ><w><orig>Jch</orig><reg>ich</reg></w><c type="space"/>
                 <w><orig><choice><abbr>we<am>n̄</am></abbr><expan>wen<ex>e</ex></expan></choice></orig><reg>waene</reg></w><c type="space"/>
                 <w><orig>das</orig><reg>daz</reg></w><c type="space"/>
                 <w><orig>an</orig><reg>an</reg></w><c type="space"/>
@@ -36927,7 +36926,7 @@
                 <w><orig>der</orig><reg>der</reg></w><c type="space"/>
                 <w><orig>herre</orig><reg>herre</reg></w><c type="space"/>
                 <w><orig>ſchend</orig><reg>schende</reg></w></rdg>
-              <rdg xml:id="N_160r.v_664_line_21" n="525" xml:space="preserve" wit="#N" type="alternative:1"><w><orig><hi rend="decoration color:red">J</hi>ch</orig><reg>ich</reg></w><c type="space"/>
+              <rdg xml:id="N_160r.v_664_line_21" n="525" xml:space="preserve" wit="#N" ><w><orig><hi rend="decoration color:red">J</hi>ch</orig><reg>ich</reg></w><c type="space"/>
                 <w><orig>main</orig><reg>meine</reg></w><c type="space"/>
                 <w><orig>das</orig><reg>daz</reg></w><c type="space"/>
                 <w><orig>an</orig><reg>an</reg></w><c type="space"/>
@@ -36965,10 +36964,10 @@
                 <w><orig>ſpeis</orig><reg>spîse</reg></w><c type="space"/>
                 <w><orig>ye</orig><reg>ie</reg></w><c type="space"/>
                 <w><orig>gewȗg</orig><reg>gewuoc</reg></w></rdg>
-              <rdg xml:id="D_132v-a.v_665_line_25" n="546" xml:space="preserve" wit="#D" type="alternative:1"><w><orig><hi rend="decoration color:red"><metamark>w</metamark></hi>art</orig><reg>wart</reg></w><c type="space"/>
+              <rdg xml:id="D_132v-a.v_665_line_25" n="546" xml:space="preserve" wit="#D" ><w><orig><hi rend="decoration color:red"><metamark>w</metamark></hi>art</orig><reg>wart</reg></w><c type="space"/>
                 <w><orig>nie</orig><reg>nie</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr><am>vˀ</am>golten</abbr>
+                      <abbr><am>vʼ</am>golten</abbr>
                       <expan>v<ex>er</ex>golten</expan>
                     </choice></orig><reg>vergolten</reg></w><c type="space"/>
                 <w><orig>alſo</orig><reg>alsô</reg></w><c type="space"/>
@@ -36997,7 +36996,7 @@
                 <w><orig>ſpeiſz</orig><reg>spîse</reg></w><c type="space"/>
                 <w><orig>ye</orig><reg>ie</reg></w><c type="space"/>
                 <w><orig>gewug</orig><reg>gewuoc</reg></w></rdg>
-              <rdg xml:id="N_160v.v_665_line_1" n="526" xml:space="preserve" wit="#N" type="alternative:1"><w><orig><hi rend="decoration color:red">L</hi>ieb</orig><reg>lieb</reg></w><c type="space"/>
+              <rdg xml:id="N_160v.v_665_line_1" n="526" xml:space="preserve" wit="#N" ><w><orig><hi rend="decoration color:red">L</hi>ieb</orig><reg>lieb</reg></w><c type="space"/>
                 <w><orig>nÿe</orig><reg>nie</reg></w><c type="space"/>
                 <w><orig>vergolten</orig><reg>vergolten</reg></w><c type="space"/>
                 <w><orig>ward</orig><reg>ward</reg></w><c type="space"/>
@@ -37029,7 +37028,7 @@
                 <w><orig>fraw̑enn</orig><reg>vrouwen</reg></w><c type="space"/>
                 <w><orig>fȗr</orig><reg>vür</reg></w><c type="space"/>
                 <w><orig>trȗg</orig><reg>truoc</reg></w></rdg>
-              <rdg xml:id="D_132v-a.v_666_line_26" n="547" xml:space="preserve" wit="#D" type="alternative:1"><w><orig>Nach</orig><reg>nach</reg></w><c type="space"/>
+              <rdg xml:id="D_132v-a.v_666_line_26" n="547" xml:space="preserve" wit="#D" ><w><orig>Nach</orig><reg>nach</reg></w><c type="space"/>
                 <w><orig><choice>
                       <abbr>mi<am>nʼ</am></abbr>
                       <expan>min<ex>er</ex></expan>
@@ -37069,7 +37068,7 @@
                     </choice></orig><reg>vrouwen</reg></w><c type="space"/>
                 <w><orig>für</orig><reg>vür</reg></w><c type="space"/>
                 <w><orig>trüg</orig><reg>truoc</reg></w></rdg>
-              <rdg xml:id="N_160v.v_666_line_2" n="527" xml:space="preserve" wit="#N" type="alternative:1"><w><orig><hi rend="decoration color:red">N</hi>och</orig><reg>nach</reg></w><c type="space"/>
+              <rdg xml:id="N_160v.v_666_line_2" n="527" xml:space="preserve" wit="#N" ><w><orig><hi rend="decoration color:red">N</hi>och</orig><reg>nach</reg></w><c type="space"/>
                 <w><orig>nymer</orig><reg>nimmer</reg></w><c type="space"/>
                 <w><orig>wirt</orig><reg>wirt</reg></w><c type="space"/>
                 <w><orig>des</orig><reg>des</reg></w><c type="space"/>
@@ -37099,7 +37098,7 @@
               <rdg xml:id="B_106v.v_667_line_11" n="479" xml:space="preserve" wit="#B"><w><orig>Dieſenm</orig><reg>diesem</reg></w><c type="space"/>
                 <w><orig>getrew̑em</orig><reg>getriuwem</reg></w><c type="space"/>
                 <w><orig>weẏb</orig><reg>wîp</reg></w></rdg>
-              <rdg xml:id="D_132v-a.v_667_line_27" n="548" xml:space="preserve" wit="#D" type="alternative:1"><w><orig>An</orig><reg>an</reg></w><c type="space"/>
+              <rdg xml:id="D_132v-a.v_667_line_27" n="548" xml:space="preserve" wit="#D" ><w><orig>An</orig><reg>an</reg></w><c type="space"/>
                 <w><orig>den</orig><reg>den</reg></w><c type="space"/>
                 <w><orig>lüten</orig><reg>liuten</reg></w><c type="space"/>
                 <w><orig>die</orig><reg>die</reg></w><c type="space"/>
@@ -37118,7 +37117,7 @@
               <rdg xml:id="L_236r.v_667_line_12" n="483" xml:space="preserve" wit="#L"><w><orig><hi rend="decoration color:red">D</hi>iſzem</orig><reg>disem</reg></w><c type="space"/>
                 <w><orig><choice><abbr>getrew<am>ē</am></abbr><expan>getrewe<ex>n</ex></expan></choice></orig><reg>getriuwen</reg></w><c type="space"/>
                 <w><orig>weib</orig><reg>wîp</reg></w></rdg>
-              <rdg xml:id="N_160v.v_667_line_3" n="528" xml:space="preserve" wit="#N" type="alternative:1"><w><orig><hi rend="decoration color:red">A</hi>n</orig><reg>an</reg></w><c type="space"/>
+              <rdg xml:id="N_160v.v_667_line_3" n="528" xml:space="preserve" wit="#N" ><w><orig><hi rend="decoration color:red">A</hi>n</orig><reg>an</reg></w><c type="space"/>
                 <w><orig>lewten</orig><reg>liuten</reg></w><c type="space"/>
                 <w><orig>die</orig><reg>die</reg></w><c type="space"/>
                 <w><orig>nu</orig><reg>nun</reg></w><c type="space"/>
@@ -37142,7 +37141,7 @@
                 <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
                 <w><orig>ſeinem</orig><reg>sînem</reg></w><c type="space"/>
                 <w><orig>leÿb</orig><reg>lîp</reg></w></rdg>
-              <rdg xml:id="D_132v-a.v_668_line_28" n="549" xml:space="preserve" wit="#D" type="alternative:1"><w><orig><choice>
+              <rdg xml:id="D_132v-a.v_668_line_28" n="549" xml:space="preserve" wit="#D" ><w><orig><choice>
                       <abbr>wa<am>n̄</am></abbr>
                       <expan>wan<ex>n</ex></expan>
                     </choice></orig><reg>wann</reg></w><c type="space"/>
@@ -37173,7 +37172,7 @@
                       <expan>ſeine<ex>n</ex></expan>
                     </choice></orig><reg>sînen</reg></w><c type="space"/>
                 <w><orig>leib</orig><reg>lîp</reg></w></rdg>
-              <rdg xml:id="N_160v.v_668_line_4" n="529" xml:space="preserve" wit="#N" type="alternative:1"><w><orig><hi rend="decoration color:red">W</hi>enn</orig><reg>wenn</reg></w><c type="space"/>
+              <rdg xml:id="N_160v.v_668_line_4" n="529" xml:space="preserve" wit="#N" ><w><orig><hi rend="decoration color:red">W</hi>enn</orig><reg>wenn</reg></w><c type="space"/>
                 <w><orig>ÿn</orig><reg>in</reg></w><c type="space"/>
                 <w><orig>fraw</orig><reg>vrouwe</reg></w><c type="space"/>
                 <w><orig>mÿnne</orig><reg>minne</reg></w><c type="space"/>
@@ -37198,7 +37197,7 @@
                 <w><orig>ruwet</orig><reg>riuwet</reg></w><c type="space"/>
                 <w><orig>iemer</orig><reg>iemer</reg></w></rdg>
               <rdg n="480a" xml:space="preserve" wit="#B" type="missing"/>
-              <rdg xml:id="D_132v-a.v_669_line_29" n="550" xml:space="preserve" wit="#D" type="alternative:1"><w><orig>lit</orig><reg>lit</reg></w><c type="space"/>
+              <rdg xml:id="D_132v-a.v_669_line_29" n="550" xml:space="preserve" wit="#D" ><w><orig>lit</orig><reg>lit</reg></w><c type="space"/>
                 <w><orig>nit</orig><reg>niht</reg></w><c type="space"/>
                 <w><orig><choice>
                       <abbr>ſtrencklich<am>n̄</am></abbr>
@@ -37212,7 +37211,7 @@
                 <w><orig>ruwet</orig><reg>riuwet</reg></w><c type="space"/>
                 <w><orig>immer.</orig><reg>iemer</reg></w></rdg>
               <rdg n="484a" xml:space="preserve" wit="#L" type="missing"/>
-              <rdg xml:id="N_160v.v_669_line_5" n="530" xml:space="preserve" wit="#N" type="alternative:1"><w><orig><hi rend="decoration color:red">N</hi>icht</orig><reg>niht</reg></w><c type="space"/>
+              <rdg xml:id="N_160v.v_669_line_5" n="530" xml:space="preserve" wit="#N" ><w><orig><hi rend="decoration color:red">N</hi>icht</orig><reg>niht</reg></w><c type="space"/>
                 <w><orig>leg</orig><reg>leg</reg></w><c type="space"/>
                 <w><orig>ſo</orig><reg>sô</reg></w><c type="space"/>
                 <w><orig>ſtrenklichen</orig><reg>strenclichen</reg></w><c type="space"/>
@@ -37233,7 +37232,7 @@
                 <w><orig>es</orig><reg>ez</reg></w><c type="space"/>
                 <w><orig>niemer</orig><reg>nimmer</reg></w></rdg>
               <rdg n="480b" xml:space="preserve" wit="#B" type="missing"/>
-              <rdg xml:id="D_132v-a.v_670_line_30" n="551" xml:space="preserve" wit="#D" type="alternative:1"><w><orig>das</orig><reg>daz</reg></w><c type="space"/>
+              <rdg xml:id="D_132v-a.v_670_line_30" n="551" xml:space="preserve" wit="#D" ><w><orig>das</orig><reg>daz</reg></w><c type="space"/>
                 <w><orig>laide</orig><reg>leide</reg></w><c type="space"/>
                 <w><orig>frowen</orig><reg>vrouwen</reg></w><c type="space"/>
                 <w><orig><choice>
@@ -37249,7 +37248,7 @@
                 <w><orig>vergeszens</orig><reg>vergezzens</reg></w><c type="space"/>
                 <w><orig>nimmer.</orig><reg>nimmer</reg></w></rdg>
               <rdg n="484b" xml:space="preserve" wit="#L" type="missing"/>
-              <rdg xml:id="N_160v.v_670_line_6" n="531" xml:space="preserve" wit="#N" type="alternative:1"><w><orig><hi rend="decoration color:red">D</hi>as</orig><reg>daz</reg></w><c type="space"/>
+              <rdg xml:id="N_160v.v_670_line_6" n="531" xml:space="preserve" wit="#N" ><w><orig><hi rend="decoration color:red">D</hi>as</orig><reg>daz</reg></w><c type="space"/>
                 <w><orig>paÿde</orig><reg>beide</reg></w><c type="space"/>
                 <w><orig>fraw</orig><reg>vrouwe</reg></w><c type="space"/>
                 <w><orig>vnd</orig><reg>und</reg></w><c type="space"/>
@@ -37268,10 +37267,10 @@
         <lg>
           <l xml:id="v_671" corresp="s_541">
             <app>
-              <rdg xml:id="A_4v-a.v_671_line_543" n="542" xml:space="preserve" wit="#A" type="alternative:2"><w><orig>Sinre</orig><reg>sîner</reg></w><c type="space"/>
+              <rdg xml:id="A_4v-a.v_671_line_543" n="542" xml:space="preserve" wit="#A" ><w><orig>Sinre</orig><reg>sîner</reg></w><c type="space"/>
                 <w><orig>toerpeheite</orig><reg>dörperheit</reg></w></rdg>
               <rdg n="480c" xml:space="preserve" wit="#B" type="missing"/>
-              <rdg xml:id="D_132v-a.v_671_line_31" n="552" xml:space="preserve" wit="#D" type="alternative:1"><w><orig><choice>
+              <rdg xml:id="D_132v-a.v_671_line_31" n="552" xml:space="preserve" wit="#D" ><w><orig><choice>
                       <abbr>zeſam<am>ē</am></abbr>
                       <expan>zeſame<ex>n</ex></expan>
                     </choice></orig><reg>zesamen</reg></w><c type="space"/>
@@ -37283,25 +37282,25 @@
               <rdg xml:id="Ko_12a.v_671_line_21" n="478" wit="#Ko" xml:space="preserve"><w><orig>Sinre</orig><reg>sîner</reg></w><c type="space"/>
                 <w><orig>dorperheide.</orig><reg>dörperheit</reg></w></rdg>
               <rdg n="484c" xml:space="preserve" wit="#L" type="missing"/>
-              <rdg xml:id="N_160v.v_671_line_7" n="532" xml:space="preserve" wit="#N" type="alternative:1"><w><orig><hi rend="decoration color:red">Z</hi>u</orig><reg>zuo</reg></w><c type="space"/>
+              <rdg xml:id="N_160v.v_671_line_7" n="532" xml:space="preserve" wit="#N" ><w><orig><hi rend="decoration color:red">Z</hi>u</orig><reg>zuo</reg></w><c type="space"/>
                 <w><orig>einander</orig><reg>einander</reg></w><c type="space"/>
                 <w><orig>gepunden</orig><reg>gebunden</reg></w><c type="space"/>
                 <w><orig>ſein</orig><reg>sîn</reg></w></rdg>
-              <rdg xml:id="P_349r-b.v_671_line_31" n="517" xml:space="preserve" wit="#P" type="alternative:2"><w><orig>Siner</orig><reg>sîner</reg></w><c type="space"/>
+              <rdg xml:id="P_349r-b.v_671_line_31" n="517" xml:space="preserve" wit="#P" ><w><orig>Siner</orig><reg>sîner</reg></w><c type="space"/>
                 <w><orig>dorperheite</orig><reg>dörperheit</reg></w></rdg>
               <rdg n="483c" xml:space="preserve" wit="#V" type="missing"/>
             </app>
           </l>
           <l xml:id="v_672" corresp="s_542">
             <app>
-              <rdg xml:id="A_4v-a.v_672_line_544" n="543" xml:space="preserve" wit="#A" type="alternative:2"><w><orig>Das</orig><reg>daz</reg></w><c type="space"/>
+              <rdg xml:id="A_4v-a.v_672_line_544" n="543" xml:space="preserve" wit="#A" ><w><orig>Das</orig><reg>daz</reg></w><c type="space"/>
                 <w><orig>er</orig><reg>er</reg></w>
                 <w><orig>s</orig><reg>ez</reg></w><c type="space"/>
                 <w><orig>ir</orig><reg>ir</reg></w><c type="space"/>
                 <w><orig>ie</orig><reg>ie</reg></w><c type="space"/>
                 <w><orig>geſeite</orig><reg>geseite</reg></w><pc>.</pc><witEnd wit="#A"/></rdg>
               <rdg n="480d" xml:space="preserve" wit="#B" type="missing"/>
-              <rdg xml:id="D_132v-a.v_672_line_32" n="553" xml:space="preserve" wit="#D" type="alternative:1"><w><orig>das</orig><reg>daz</reg></w><c type="space"/>
+              <rdg xml:id="D_132v-a.v_672_line_32" n="553" xml:space="preserve" wit="#D" ><w><orig>das</orig><reg>daz</reg></w><c type="space"/>
                 <w><orig>ſy</orig><reg>sie</reg></w><c type="space"/>
                 <w><orig>dez</orig><reg>dez</reg></w><c type="space"/>
                 <w><orig><choice>
@@ -37319,12 +37318,12 @@
                 <w><orig>ir</orig><reg>ir</reg></w><c type="space"/>
                 <w><orig>ie</orig><reg>ie</reg></w><c type="space"/>
                 <w><orig>geseite.</orig><reg>geseite</reg></w><witEnd wit="#Ko"/></rdg>
-              <rdg xml:id="N_160v.v_672_line_8" n="533" xml:space="preserve" wit="#N" type="alternative:1"><w><orig><hi rend="decoration color:red">A</hi>n</orig><reg>an</reg></w><c type="space"/>
+              <rdg xml:id="N_160v.v_672_line_8" n="533" xml:space="preserve" wit="#N" ><w><orig><hi rend="decoration color:red">A</hi>n</orig><reg>an</reg></w><c type="space"/>
                 <w><orig>des</orig><reg>des</reg></w><c type="space"/>
                 <w><orig>grÿmen</orig><reg>grimmen</reg></w><c type="space"/>
                 <w><orig>todes</orig><reg>todes</reg></w><c type="space"/>
                 <w><orig>pein</orig><reg>bin</reg></w></rdg>
-              <rdg xml:id="P_349r-b.v_672_line_32" n="518" xml:space="preserve" wit="#P" type="alternative:2"><w><orig>Das</orig><reg>daz</reg></w><c type="space"/>
+              <rdg xml:id="P_349r-b.v_672_line_32" n="518" xml:space="preserve" wit="#P" ><w><orig>Das</orig><reg>daz</reg></w><c type="space"/>
                 <w><orig>er</orig><reg>er</reg></w><c type="space"/>
                 <w><orig>ir</orig><reg>ir</reg></w>
                 <w><orig>ſ</orig><reg>ez</reg></w><c type="space"/>
@@ -37342,7 +37341,7 @@
                 <w><orig>hatt</orig><reg>hat</reg></w><c type="space"/>
                 <w><orig>ein</orig><reg>ein</reg></w><c type="space"/>
                 <w><orig>endt</orig><reg>ende</reg></w></rdg>
-              <rdg xml:id="D_132v-a.v_673_line_33" n="554" xml:space="preserve" wit="#D" type="alternative:1"><w><orig>Nü</orig><reg>nun</reg></w><c type="space"/>
+              <rdg xml:id="D_132v-a.v_673_line_33" n="554" xml:space="preserve" wit="#D" ><w><orig>Nü</orig><reg>nun</reg></w><c type="space"/>
                 <w><orig>durch</orig><reg>durch</reg></w><c type="space"/>
                 <w><orig>ain</orig><reg>ein</reg></w><c type="space"/>
                 <w><orig>ander</orig><reg>ander</reg></w><c type="space"/>
@@ -37383,7 +37382,7 @@
               <rdg xml:id="B_106v.v_674_line_14" n="482" xml:space="preserve" wit="#B"><w><orig>Fȗr</orig><reg>vür</reg></w><c type="space"/>
                 <w><orig>alle</orig><reg>alle</reg></w><c type="space"/>
                 <w><orig>miſſewendt</orig><reg>missewende</reg></w><witEnd wit="#B"/></rdg>
-              <rdg xml:id="D_132v-a.v_674_line_34" n="555" xml:space="preserve" wit="#D" type="alternative:1"><w><orig>Man</orig><reg>man</reg></w><c type="space"/>
+              <rdg xml:id="D_132v-a.v_674_line_34" n="555" xml:space="preserve" wit="#D" ><w><orig>Man</orig><reg>man</reg></w><c type="space"/>
                 <w><orig>ſlaichſt</orig><reg>sliefe</reg></w><c type="space"/>
                 <w><orig>ez</orig><reg>ez</reg></w><c type="space"/>
                 <w><orig>ab</orig><reg>ab</reg></w><c type="space"/>
@@ -37554,13 +37553,13 @@
           <cb edRef="#D" facs="#D_132v-b" ed="https://digital.blb-karlsruhe.de/blbhs/content/pageview/36377"/>
           <l xml:id="v_684" corresp="s_554">
             <app>
-              <rdg xml:id="D_132v-b.v_684_line_1" n="565" xml:space="preserve" wit="#D" type="alternative:1"><w><orig><del rend="overstrike"><unclear/></del></orig><reg/></w><c type="space"/>
+              <rdg xml:id="D_132v-b.v_684_line_1" n="565" xml:space="preserve" wit="#D" ><w><orig><del rend="overstrike"><unclear/></del></orig><reg/></w><c type="space"/>
                 <w><orig>Biſſent</orig><reg>biſſent</reg></w><c type="space"/>
                 <w><orig>das</orig><reg>daz</reg></w><c type="space"/>
                 <w><orig>ſy</orig><reg>sie</reg></w><c type="space"/>
                 <w><orig>nie</orig><reg>nie</reg></w><c type="space"/>
                 <w><orig>geſloff</orig><reg>gesloff</reg></w></rdg>
-              <rdg xml:id="N_160v.v_684_line_14" n="539" xml:space="preserve" wit="#N" type="alternative:2"><w><orig><hi rend="decoration color:red">V</hi>or</orig><reg>vor</reg></w><c type="space"/>
+              <rdg xml:id="N_160v.v_684_line_14" n="539" xml:space="preserve" wit="#N" ><w><orig><hi rend="decoration color:red">V</hi>or</orig><reg>vor</reg></w><c type="space"/>
                 <w><orig>zeÿten</orig><reg>zeiten</reg></w><c type="space"/>
                 <w><orig>do</orig><reg>do</reg></w><c type="space"/>
                 <w><orig>ſie</orig><reg>sie</reg></w><c type="space"/>
@@ -37572,10 +37571,10 @@
         <lg>
           <l xml:id="v_685" corresp="s_555">
             <app>
-              <rdg xml:id="D_132v-b.v_685_line_2" n="566" xml:space="preserve" wit="#D" type="alternative:1"><w><orig>zu</orig><reg>zuo</reg></w><c type="space"/>
+              <rdg xml:id="D_132v-b.v_685_line_2" n="566" xml:space="preserve" wit="#D" ><w><orig>zu</orig><reg>zuo</reg></w><c type="space"/>
                 <w><orig>togenlicher</orig><reg>togenlicher</reg></w><c type="space"/>
                 <w><orig>diete</orig><reg>diete</reg></w></rdg>
-              <rdg xml:id="N_160v.v_685_line_15" n="540" xml:space="preserve" wit="#N" type="alternative:2"><w><orig><hi rend="decoration color:red">Z</hi>w</orig><reg>zuo</reg></w><c type="space"/>
+              <rdg xml:id="N_160v.v_685_line_15" n="540" xml:space="preserve" wit="#N" ><w><orig><hi rend="decoration color:red">Z</hi>w</orig><reg>zuo</reg></w><c type="space"/>
                 <w><orig>orn</orig><reg>orn</reg></w><c type="space"/>
                 <w><orig>gelofen</orig><reg>gelofen</reg></w><c type="space"/>
                 <w><orig>thet</orig><reg>thet</reg></w></rdg>
@@ -37627,7 +37626,7 @@
                 <w><orig>den</orig><reg>den</reg></w><c type="space"/>
                 <w><orig>tot</orig><reg>tot</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr><am>vˀ</am>ſeret</abbr>
+                      <abbr><am>vʼ</am>ſeret</abbr>
                       <expan>v<ex>er</ex>ſeret</expan>
                     </choice></orig><reg>verseret</reg></w><c type="space"/>
                 <w><orig>waz</orig><reg>waz</reg></w></rdg>
@@ -37779,11 +37778,11 @@
         <lg>
           <l xml:id="v_699" corresp="s_569">
             <app>
-              <rdg xml:id="D_132v-b.v_699_line_16" n="580" xml:space="preserve" wit="#D" type="alternative:1"><w><orig>den</orig><reg>den</reg></w><c type="space"/>
+              <rdg xml:id="D_132v-b.v_699_line_16" n="580" xml:space="preserve" wit="#D" ><w><orig>den</orig><reg>den</reg></w><c type="space"/>
                 <w><orig>lüten</orig><reg>lüten</reg></w><c type="space"/>
                 <w><orig>allen</orig><reg>allen</reg></w><c type="space"/>
                 <w><orig>genam</orig><reg>genam</reg></w></rdg>
-              <rdg xml:id="N_161r.v_699_line_1" n="548" xml:space="preserve" wit="#N" type="alternative:2"><w><orig><hi rend="decoration color:red">V</hi>nd</orig><reg>und</reg></w><c type="space"/>
+              <rdg xml:id="N_161r.v_699_line_1" n="548" xml:space="preserve" wit="#N" ><w><orig><hi rend="decoration color:red">V</hi>nd</orig><reg>und</reg></w><c type="space"/>
                 <w><orig>wirt</orig><reg>wirt</reg></w><c type="space"/>
                 <w><orig>es</orig><reg>ez</reg></w><c type="space"/>
                 <w><orig>zu</orig><reg>zuo</reg></w><c type="space"/>
@@ -37896,13 +37895,13 @@
         <lg>
           <l xml:id="v_707" corresp="s_577">
             <app>
-              <rdg xml:id="D_132v-b.v_707_line_24" n="588" xml:space="preserve" wit="#D" type="alternative:1"><w><orig>Ez</orig><reg>ez</reg></w><c type="space"/>
+              <rdg xml:id="D_132v-b.v_707_line_24" n="588" xml:space="preserve" wit="#D" ><w><orig>Ez</orig><reg>ez</reg></w><c type="space"/>
                 <w><orig>wirt</orig><reg>wirt</reg></w><c type="space"/>
                 <w><orig>nach</orig><reg>nach</reg></w><c type="space"/>
                 <w><orig>jr</orig><reg>ir</reg></w><c type="space"/>
                 <w><orig>alſo</orig><reg>alsô</reg></w><c type="space"/>
                 <w><orig>geſtritten</orig><reg>gestritten</reg></w></rdg>
-              <rdg xml:id="N_161r.v_707_line_7" n="554" xml:space="preserve" wit="#N" type="alternative:2"><w><orig><hi rend="decoration color:red">D</hi>urch</orig><reg>durch</reg></w><c type="space"/>
+              <rdg xml:id="N_161r.v_707_line_7" n="554" xml:space="preserve" wit="#N" ><w><orig><hi rend="decoration color:red">D</hi>urch</orig><reg>durch</reg></w><c type="space"/>
                 <w><orig>ſie</orig><reg>sie</reg></w><c type="space"/>
                 <w><orig>noch</orig><reg>noch</reg></w><c type="space"/>
                 <w><orig>alſo</orig><reg>alsô</reg></w><c type="space"/>
@@ -37912,9 +37911,9 @@
           </l>
           <l xml:id="v_708" corresp="s_578">
             <app>
-              <rdg xml:id="D_132v-b.v_708_line_25" n="589" xml:space="preserve" wit="#D" type="alternative:1"><w><orig>vnd</orig><reg>und</reg></w><c type="space"/>
+              <rdg xml:id="D_132v-b.v_708_line_25" n="589" xml:space="preserve" wit="#D" ><w><orig>vnd</orig><reg>und</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr>ai<am>nˀ</am></abbr>
+                      <abbr>ai<am>nʼ</am></abbr>
                       <expan>ain<ex>er</ex></expan>
                     </choice></orig><reg>einer</reg></w><c type="space"/>
                 <w><orig>für</orig><reg>für</reg></w><c type="space"/>
@@ -37924,7 +37923,7 @@
                       <expan>and<ex>er</ex>n</expan>
                     </choice></orig><reg>andern</reg></w><c type="space"/>
                 <w><orig>bitten</orig><reg>bitten</reg></w></rdg>
-              <rdg xml:id="N_161r.v_708_line_8" n="555" xml:space="preserve" wit="#N" type="alternative:2"><w><orig><hi rend="decoration color:red">V</hi>nd</orig><reg>und</reg></w><c type="space"/>
+              <rdg xml:id="N_161r.v_708_line_8" n="555" xml:space="preserve" wit="#N" ><w><orig><hi rend="decoration color:red">V</hi>nd</orig><reg>und</reg></w><c type="space"/>
                 <w><orig>alſo</orig><reg>alsô</reg></w><c type="space"/>
                 <w><orig>vil</orig><reg>vil</reg></w><c type="space"/>
                 <w><orig>nach</orig><reg>nach</reg></w><c type="space"/>
@@ -37943,7 +37942,7 @@
                     </choice></orig><reg>man</reg></w><c type="space"/>
                 <w><orig>ez</orig><reg>ez</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr>g<am>nˀ</am></abbr>
+                      <abbr>g<am>nʼ</am></abbr>
                       <expan>g<ex>er</ex>n</expan>
                     </choice></orig><reg>gerne</reg></w><c type="space"/>
                 <w><orig>möcht</orig><reg>möcht</reg></w><c type="space"/>
@@ -37970,7 +37969,7 @@
                 <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
                 <w><orig>uch</orig><reg>uch</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr>v<am>iˀ</am>ech<am>n̄</am></abbr>
+                      <abbr>v<am>iʼ</am>ech<am>n̄</am></abbr>
                       <expan>v<ex>r</ex>iech<ex>e</ex>n</expan>
                     </choice></orig><reg>vriechen</reg></w></rdg>
               <rdg xml:id="N_161r.v_710_line_10" n="557" xml:space="preserve" wit="#N"><w><orig><hi rend="decoration color:red">N</hi>icht</orig><reg>niht</reg></w><c type="space"/>
@@ -37998,12 +37997,12 @@
           </l>
           <l xml:id="v_712" corresp="s_582">
             <app>
-              <rdg xml:id="D_132v-b.v_712_line_29" n="593" xml:space="preserve" wit="#D" type="alternative:1"><w><orig>wer</orig><reg>wer</reg></w><c type="space"/>
+              <rdg xml:id="D_132v-b.v_712_line_29" n="593" xml:space="preserve" wit="#D" ><w><orig>wer</orig><reg>wer</reg></w><c type="space"/>
                 <w><orig>als</orig><reg>als</reg></w><c type="space"/>
                 <w><orig>rain</orig><reg>reine</reg></w><c type="space"/>
                 <w><orig>ſine</orig><reg>sine</reg></w><c type="space"/>
                 <w><orig>hat</orig><reg>hat</reg></w></rdg>
-              <rdg xml:id="N_161r.v_712_line_12" n="559" xml:space="preserve" wit="#N" type="alternative:2"><w><orig><hi rend="decoration color:red">D</hi>iſz</orig><reg>dise</reg></w><c type="space"/>
+              <rdg xml:id="N_161r.v_712_line_12" n="559" xml:space="preserve" wit="#N" ><w><orig><hi rend="decoration color:red">D</hi>iſz</orig><reg>dise</reg></w><c type="space"/>
                 <w><orig>ain</orig><reg>ein</reg></w><c type="space"/>
                 <w><orig>zil</orig><reg>zil</reg></w><c type="space"/>
                 <w><orig>genumen</orig><reg>genumen</reg></w><c type="space"/>
@@ -38014,16 +38013,16 @@
         <lg>
           <l xml:id="v_713" corresp="s_583">
             <app>
-              <rdg xml:id="D_132v-b.v_713_line_30" n="594" xml:space="preserve" wit="#D" type="alternative:1"><w><orig>das</orig><reg>daz</reg></w><c type="space"/>
+              <rdg xml:id="D_132v-b.v_713_line_30" n="594" xml:space="preserve" wit="#D" ><w><orig>das</orig><reg>daz</reg></w><c type="space"/>
                 <w><orig>er</orig><reg>er</reg></w><c type="space"/>
                 <w><orig>daz</orig><reg>daz</reg></w><c type="space"/>
                 <w><orig>beſt</orig><reg>beſt</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr>g<am>nˀ</am></abbr>
+                      <abbr>g<am>nʼ</am></abbr>
                       <expan>g<ex>er</ex>n</expan>
                     </choice></orig><reg>gerne</reg></w><c type="space"/>
                 <w><orig>tüt</orig><reg>tut</reg></w></rdg>
-              <rdg xml:id="N_161r.v_713_line_13" n="560" xml:space="preserve" wit="#N" type="alternative:2"><w><orig><hi rend="decoration color:red">W</hi>elch</orig><reg>welch</reg></w><c type="space"/>
+              <rdg xml:id="N_161r.v_713_line_13" n="560" xml:space="preserve" wit="#N" ><w><orig><hi rend="decoration color:red">W</hi>elch</orig><reg>welch</reg></w><c type="space"/>
                 <w><orig>mein</orig><reg>mîn</reg></w><c type="space"/>
                 <w><orig>freunt</orig><reg>vriunt</reg></w><c type="space"/>
                 <w><orig>meins</orig><reg>mîns</reg></w><c type="space"/>
@@ -38033,14 +38032,14 @@
           </l>
           <l xml:id="v_714" corresp="s_584">
             <app>
-              <rdg xml:id="D_132v-b.v_714_line_31" n="595" xml:space="preserve" wit="#D" type="alternative:1"><w><orig>der</orig><reg>der</reg></w><c type="space"/>
+              <rdg xml:id="D_132v-b.v_714_line_31" n="595" xml:space="preserve" wit="#D" ><w><orig>der</orig><reg>der</reg></w><c type="space"/>
                 <w><orig>ſol</orig><reg>sol</reg></w><c type="space"/>
                 <w><orig>diſi</orig><reg>diſi</reg></w><c type="space"/>
                 <w><orig>mer</orig><reg>mer</reg></w><c type="space"/>
                 <w><orig>jn</orig><reg>in</reg></w><c type="space"/>
                 <w><orig>ſinen</orig><reg>sînen</reg></w><c type="space"/>
                 <w><orig>müt</orig><reg>müt</reg></w></rdg>
-              <rdg xml:id="N_161r.v_714_line_14" n="561" xml:space="preserve" wit="#N" type="alternative:2"><w><orig><hi rend="decoration color:red">E</hi>rzaÿgen</orig><reg>erzaÿgen</reg></w><c type="space"/>
+              <rdg xml:id="N_161r.v_714_line_14" n="561" xml:space="preserve" wit="#N" ><w><orig><hi rend="decoration color:red">E</hi>rzaÿgen</orig><reg>erzaÿgen</reg></w><c type="space"/>
                 <w><orig>on</orig><reg>on</reg></w><c type="space"/>
                 <w><orig>miſſethat</orig><reg>miſſethat</reg></w></rdg>
             </app>
@@ -38049,14 +38048,14 @@
         <lg>
           <l xml:id="v_715" corresp="s_585">
             <app>
-              <rdg xml:id="D_132v-b.v_715_line_32" n="596" xml:space="preserve" wit="#D" type="alternative:1"><w><orig>dar</orig><reg>dar</reg></w><c type="space"/>
+              <rdg xml:id="D_132v-b.v_715_line_32" n="596" xml:space="preserve" wit="#D" ><w><orig>dar</orig><reg>dar</reg></w><c type="space"/>
                 <w><orig>vmb</orig><reg>umb</reg></w><c type="space"/>
                 <w><orig>ſetzen</orig><reg>setzen</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr>g<am>nˀ</am>e</abbr>
+                      <abbr>g<am>nʼ</am>e</abbr>
                       <expan>g<ex>er</ex>ne</expan>
                     </choice></orig><reg>gerne</reg></w></rdg>
-              <rdg xml:id="N_161r.v_715_line_15" n="562" xml:space="preserve" wit="#N" type="alternative:2"><w><orig><hi rend="decoration color:red">V</hi>nd</orig><reg>und</reg></w><c type="space"/>
+              <rdg xml:id="N_161r.v_715_line_15" n="562" xml:space="preserve" wit="#N" ><w><orig><hi rend="decoration color:red">V</hi>nd</orig><reg>und</reg></w><c type="space"/>
                 <w><orig>mich</orig><reg>mich</reg></w><c type="space"/>
                 <w><orig>nicht</orig><reg>niht</reg></w><c type="space"/>
                 <w><orig>empfilcht</orig><reg>empfilcht</reg></w><c type="space"/>
@@ -38065,12 +38064,12 @@
           </l>
           <l xml:id="v_716" corresp="s_586">
             <app>
-              <rdg xml:id="D_132v-b.v_716_line_33" n="597" xml:space="preserve" wit="#D" type="alternative:1"><w><orig>das</orig><reg>daz</reg></w><c type="space"/>
+              <rdg xml:id="D_132v-b.v_716_line_33" n="597" xml:space="preserve" wit="#D" ><w><orig>das</orig><reg>daz</reg></w><c type="space"/>
                 <w><orig>er</orig><reg>er</reg></w><c type="space"/>
                 <w><orig>da</orig><reg>da</reg></w><c type="space"/>
                 <w><orig>by</orig><reg>bî</reg></w><c type="space"/>
                 <w><orig>gelerne</orig><reg>gelerne</reg></w></rdg>
-              <rdg xml:id="N_161r.v_716_line_16" n="563" xml:space="preserve" wit="#N" type="alternative:2"><w><orig><hi rend="decoration color:red">D</hi>as</orig><reg>daz</reg></w><c type="space"/>
+              <rdg xml:id="N_161r.v_716_line_16" n="563" xml:space="preserve" wit="#N" ><w><orig><hi rend="decoration color:red">D</hi>as</orig><reg>daz</reg></w><c type="space"/>
                 <w><orig>iſt</orig><reg>ist</reg></w><c type="space"/>
                 <w><orig>ain</orig><reg>ein</reg></w><c type="space"/>
                 <w><orig>freuntlich</orig><reg>vriuntlich</reg></w><c type="space"/>
@@ -38081,14 +38080,14 @@
         <lg>
           <l xml:id="v_717" corresp="s_587">
             <app>
-              <rdg xml:id="D_132v-b.v_717_line_34" n="598" xml:space="preserve" wit="#D" type="alternative:1"><w><orig>die</orig><reg>die</reg></w><c type="space"/>
+              <rdg xml:id="D_132v-b.v_717_line_34" n="598" xml:space="preserve" wit="#D" ><w><orig>die</orig><reg>die</reg></w><c type="space"/>
                 <w><orig>mine</orig><reg>mine</reg></w><c type="space"/>
                 <w><orig><choice>
                       <abbr>luterlich<am>n̄</am></abbr>
                       <expan>luterlich<ex>e</ex>n</expan>
                     </choice></orig><reg>luterlichen</reg></w><c type="space"/>
                 <w><orig>tragen</orig><reg>tragen</reg></w></rdg>
-              <rdg xml:id="N_161r.v_717_line_17" n="564" xml:space="preserve" wit="#N" type="alternative:2"><w><orig><hi rend="decoration color:red">D</hi>er</orig><reg>der</reg></w><c type="space"/>
+              <rdg xml:id="N_161r.v_717_line_17" n="564" xml:space="preserve" wit="#N" ><w><orig><hi rend="decoration color:red">D</hi>er</orig><reg>der</reg></w><c type="space"/>
                 <w><orig>leg</orig><reg>leg</reg></w><c type="space"/>
                 <w><orig>an</orig><reg>an</reg></w><c type="space"/>
                 <w><orig>mich</orig><reg>mich</reg></w><c type="space"/>
@@ -38099,7 +38098,7 @@
           </l>
           <l xml:id="v_718" corresp="s_588">
             <app>
-              <rdg xml:id="D_132v-b.v_718_line_35" n="599" xml:space="preserve" wit="#D" type="alternative:1"><w><orig>kain</orig><reg>kein</reg></w><c type="space"/>
+              <rdg xml:id="D_132v-b.v_718_line_35" n="599" xml:space="preserve" wit="#D" ><w><orig>kain</orig><reg>kein</reg></w><c type="space"/>
                 <w><orig>edel</orig><reg>edel</reg></w><c type="space"/>
                 <w><orig><choice>
                       <abbr>hrt<am>zʼ</am></abbr>
@@ -38107,10 +38106,10 @@
                     </choice></orig><reg>herze</reg></w><c type="space"/>
                 <w><orig>ſol</orig><reg>sol</reg></w><c type="space"/>
                 <w><orig><choice>
-                      <abbr><am>vˀ</am>zagen </abbr>
+                      <abbr><am>vʼ</am>zagen </abbr>
                       <expan>v<ex>er</ex>zagen </expan>
                     </choice></orig><reg>verzagen </reg></w></rdg>
-              <rdg xml:id="N_161r.v_718_line_18" n="565" xml:space="preserve" wit="#N" type="alternative:2"><w><orig><hi rend="decoration color:red">W</hi>er</orig><reg>wer</reg></w><c type="space"/>
+              <rdg xml:id="N_161r.v_718_line_18" n="565" xml:space="preserve" wit="#N" ><w><orig><hi rend="decoration color:red">W</hi>er</orig><reg>wer</reg></w><c type="space"/>
                 <w><orig>mein</orig><reg>mîn</reg></w><c type="space"/>
                 <w><orig>freunt</orig><reg>vriunt</reg></w><c type="space"/>
                 <w><orig>ſeÿ</orig><reg>sei</reg></w><c type="space"/>
