@@ -12,10 +12,10 @@ var content =
 		{"title":"Versnovellen", 
 		"editions":"Editionen",
 		"about":"Über das Projekt",
-		"welcome": "Willkommen in die Digitale Edition der Versnovellen Konrads von Würzburg (Beta Version)",
-		"p_1": "In dieser Seite findet man eine synoptische Digitale Edition der drei Versnovellen des mittelhochdeutschen Dichters Konrads von Würzburg (13. Jahrhundert). Sie wurde von Gustavo Fernández Riva für seine Doktorarbeit an der Universität von Buenos Aires dank der Unterstützung von CONICET hergestellt.",
+		"welcome": "Willkommen bei der Digitalen Edition der Versnovellen Konrads von Würzburg (Beta Version)",
+		"p_1": "Auf dieser Seite finden Sie eine synoptische digitale Edition der drei Versnovellen des mittelhochdeutschen Dichters Konrads von Würzburg (13. Jahrhundert). Sie wurde von Gustavo Fernández Riva für seine Doktorarbeit an der Universität von Buenos Aires dank der Unterstützung des CONICET hergestellt.",
 		"p_2": "Die synoptische Ansicht bietet Transkriptionen aller Textzeugnisse, einen neuen kritischen Text und Variantengraphen an.",
-		"p_3": "Achtung! Diese Seite ist eine Beta-Version! Einige Text und Eigenschaften sind entweder nicht verfügbar oder funktionieren nicht richtig"}, 
+		"p_3": "Achtung! Diese Seite ist eine Beta-Version! Einige Texte und Eigenschaften sind entweder nicht verfügbar oder funktionieren nicht richtig"}, 
 	"es":
 		{"title":"Relatos Cortos en Verso", 
 		"editions":"Ediciones",

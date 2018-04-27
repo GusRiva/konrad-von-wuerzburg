@@ -37,6 +37,11 @@ thead{
     width: 100%;
 }
 
+#traviz_button{
+    position: relative;
+  margin: 10px;
+}
+
 li > form{
     margin-left: 20px;
     margin-bottom: 5px;

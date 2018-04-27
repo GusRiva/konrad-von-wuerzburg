@@ -13,6 +13,7 @@
     var scrollController =[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]; // to move all scrolls at the same time, see scroll function
     var automaticScrolling = false; //to change when using the automatic click scrolling, to avoid conflict with user scroll events
     var counter = 0;
+    var verse = "undefined" //This will keep track of the verse being clicked
     
     // this variable keeps track of the visualization options for each column from 0 to 11
     var columns_master = []
@@ -41,8 +42,9 @@
             $("option[value='references.html']").text("Symbols");
             $("option[value='wit_list']").text("List of Witnesses");
             $("optgroup:nth-of-type(1)").attr("label", "Critical Edition");
-            $("optgroup:nth-of-type(2)").attr("label", "Transcriptions");
-            $("optgroup:nth-of-type(3)").attr("label", "References");
+            $("optgroup:nth-of-type(2)").attr("label", "Translations");
+            $("optgroup:nth-of-type(3)").attr("label", "Transcriptions");
+            $("optgroup:nth-of-type(4)").attr("label", "References");
         }
         if (language == "de") {
             $("option[value ='default']").text("Textauswählen");
@@ -54,8 +56,9 @@
             $("option[value='references.html']").text("Symbole");
             $("option[value='wit_list']").text("Zeugnisliste");
             $("optgroup:nth-of-type(1)").attr("label", "Kritische Edition");
-            $("optgroup:nth-of-type(2)").attr("label", "Transkriptionen");
-            $("optgroup:nth-of-type(3)").attr("label", "Referenzen");
+            $("optgroup:nth-of-type(2)").attr("label", "Übersetzungen");
+            $("optgroup:nth-of-type(3)").attr("label", "Transkriptionen");
+            $("optgroup:nth-of-type(4)").attr("label", "Referenzen");
         }
         if (language == "es") {
             $("option[value ='default']").text("Seleccionar Texto");
@@ -67,8 +70,9 @@
             $("option[value='references.html']").text("Símbolos");
             $("option[value='wit_list']").text("Lista de testimonios");
             $("optgroup:nth-of-type(1)").attr("label", "Edición Crítica");
-            $("optgroup:nth-of-type(2)").attr("label", "Transcripciones");
-            $("optgroup:nth-of-type(3)").attr("label", "Referencias");
+            $("optgroup:nth-of-type(2)").attr("label", "Traducción");
+            $("optgroup:nth-of-type(3)").attr("label", "Transcripciones");
+            $("optgroup:nth-of-type(4)").attr("label", "Referencias");
         }
     };
     
@@ -202,9 +206,13 @@
         
         else{
             if (columns_master[columnToChange]['normal'] == false){
-            columnObject.load('HTML_TEXTS/'+textToLoad+'_orig.html', function(){$(".text-container").find("td").css("font-size", font_size+"px");});    
+            columnObject.load('HTML_TEXTS/'+textToLoad+'_orig.html', function(){$(".text-container").find("td.verse").css("font-size", font_size+"px");
+                                                                                $("text-container").find("td.line_number").css("font-size", font_size - 8 + "px");
+                                                                                $("text-container").find("td.folioetc").css("font-size", font_size - 8 + "px");});    
         }else{
-            columnObject.load('HTML_TEXTS/'+textToLoad+'_reg.html', function(){$(".text-container").find("td").css("font-size", font_size+"px");});
+            columnObject.load('HTML_TEXTS/'+textToLoad+'_reg.html', function(){$(".text-container").find("td.verse").css("font-size", font_size+"px");
+                                                                                $("text-container").find("td.line_number").css("font-size", font_size - 8 + "px");
+                                                                                $("text-container").find("td.folioetc").css("font-size", font_size - 8 + "px")});
         };
 
         
@@ -451,24 +459,24 @@
     
     
     /*    Option: Normalised Text*/
-    $("input[name=normalizierung]").change(function () {
-        var columnIndex = ($(this).parents(".text-title")).index(); //index of the column starting at 0
+    // $("input[name=normalizierung]").change(function () {
+    //     var columnIndex = ($(this).parents(".text-title")).index(); //index of the column starting at 0
         
-        var columnObject = $(".text-container").filter(function () {
-        // the actual JQuery object for the column to change
-            return $(this).parents(".edition-text").index() == columnIndex;
-        });
-        columnObject.empty();
+    //     var columnObject = $(".text-container").filter(function () {
+    //     // the actual JQuery object for the column to change
+    //         return $(this).parents(".edition-text").index() == columnIndex;
+    //     });
+    //     columnObject.empty();
         
-        if ($(this).is(":checked")) {
-            columnObject.load('HTML_TEXTS/'+columns_master[columnIndex]['text']+'_reg.html', function(){$(".text-container").find("td").css("font-size", font_size+"px");});
-            columns_master[columnIndex]['normal'] = true;
-        } else {
-            columnObject.load('HTML_TEXTS/'+columns_master[columnIndex]['text']+'_orig.html', function(){$(".text-container").find("td").css("font-size", font_size+"px");});
-            columns_master[columnIndex]['normal'] = false;
-        };
+    //     if ($(this).is(":checked")) {
+    //         columnObject.load('HTML_TEXTS/'+columns_master[columnIndex]['text']+'_reg.html', function(){$(".text-container").find("td").css("font-size", font_size+"px");});
+    //         columns_master[columnIndex]['normal'] = true;
+    //     } else {
+    //         columnObject.load('HTML_TEXTS/'+columns_master[columnIndex]['text']+'_orig.html', function(){$(".text-container").find("td").css("font-size", font_size+"px");});
+    //         columns_master[columnIndex]['normal'] = false;
+    //     };
         
-    });
+    // });
     
     // /*    Option: Right Margin References*/
     // $("input[name=notes]").change(function () {
@@ -509,9 +517,20 @@
     /*    Option: Font-size*/
     $("select[id=font_control]").change(function () {
         font_size = $(this).val();
-        console.log(font_size);
-        $(".text-container").find("td").css("font-size", font_size+"px");
-        $(".text-container").css("font-size", font_size+"px");
+        // $(".text-container").css("font-size", font_size+"px");
+        $(".text-container").find("td.verse").css("font-size", font_size+"px");
+        $(".text-container").find("td.line_number").css("font-size", font_size - 8+"px");
+        console.log(font_size-2);
+        $(".text-container").find("td.folioetc").css("font-size", font_size - 8+"px");
+    });
+
+    // VARIANT GRAPH BUTTON
+    $("#traviz_button").on("click", function(){
+        if (verse == "undefined"){
+            alert("Selecciona un verso para poder ver el Gráfico de Variantes.")
+        }else{
+            window.open('traviz_window.php?maere=' + maere +'&line=' + verse.substring(1), '', 'height=400,width=1200, scrollbars=yes');
+        }
     });
 
 });

@@ -3,7 +3,7 @@ import re
 import codecs
 import json
 
-maere = 'hvk' # possibilities: herz, dwl, hvk
+maere = 'herz' # possibilities: herz, dwl, hvk
 
 path = '/Applications/XAMPP/xamppfiles/htdocs/konrad/'
 
