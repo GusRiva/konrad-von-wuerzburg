@@ -1,0 +1,607 @@
+\documentclass[12pt]{article}
+\usepackage{polyglossia,fontspec,xunicode}
+\usepackage[a4paper, portrait, top=2cm, bottom=3.5cm, left=2cm, right=2cm,]{geometry}
+\usepackage{libertine}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\setlength{\headheight}{1.7cm}
+\fancyhead[L]{\small{\textit{Der Welt Lohn - Texto Crítico y Traducción}}}
+\fancyhead[R]{\thepage}
+\setlength{\columnsep}{3cm}
+\setlength{\columnseprule}{0.4pt}
+\setmainlanguage{german}
+\usepackage[series={A,B},noend,noeledsec,noledgroup]{reledmac}
+\sethangingsymbol{[\,}
+\sidenotemargin{outer}
+\renewcommand{\ledrsnotefontsetup}{\small\it}% right
+\rightnoteupfalse
+\ledlsnotesep=1cm
+\usepackage[]{reledpar}
+\sethangingsymbol{[\,}
+%\renewcommand{\ledrsnotefontsetup}{\small\it}% right
+\rightnoteupfalse
+\ledlsnotesep=1cm
+\Xarrangement{paragraph}
+\Xarrangement[B]{normal}
+\Xwidth{\columnwidth}
+\Xnumberonlyfirstinline
+
+\setlength{\stanzaindentbase}{5pt}
+\setRlineflag{}
+
+% Set stanza indentation
+\setcounter{stanzaindentsrepetition}{2}
+\setstanzaindents{0,0,0}
+
+\begin{document}
+\setcounter{page}{239}
+
+\begin{pairs}
+\begin{Leftside}
+\beginnumbering
+\pstart
+{\Large\textbf{Der Welt Lohn}}\\
+\pend
+\endnumbering
+\end{Leftside}
+\begin{Rightside}
+\beginnumbering
+\pstart
+{\Large\textbf{El galardón del mundo}}\\
+\pend
+\endnumbering
+\end{Rightside}
+\end{pairs}
+\Columns
+
+
+\AtBeginPairs{\sloppy}
+\begin{pairs}
+\begin{Leftside}
+\beginnumbering
+\begin{astanza}
+Ir werlte minnaere, \hfill{\footnotesize1}&
+vernemet disiu maere, &
+wie ainem ritter gelanc, &
+der nah der werlde lone ranc &
+baidiu spat und vruo. \hfill{\footnotesize5}&
+er daht in manige weis darzuo, &
+wamit er das begienge, &
+das er den lon enphienge &
+werltlicher eren. &
+er chunde wol gemeren \hfill{\footnotesize10}&
+sein lop an allen orten &
+mit wercken und mit worten. &
+sein leben was so volbraht, &
+das sein zem besten wart gedaht &
+in allen tiuschen landen. \hfill{\footnotesize15}&
+er het sich vor schanden &
+alliu seiniu jar behuot. &
+er was hubsch und fruot, &
+schon und aller tugenden vol. &
+swamit ain man zer werlte sol \hfill{\footnotesize20}&
+beiagen hoher wirde preis, &
+das chunde wol der herre weis &
+bedencken und betrahten. &
+man sach den vil geslahten &
+auzerweltiu chlaider tragen; \hfill{\footnotesize25}&
+pirsen, baisen und iagen &
+chund er und traip sein vil. &
+schahzabel und saiten spil, &
+das was sein churtzeweile. &
+waer uber \edtext{hundert}{\lemma{\textit{hundert}}\Bfootnote{Como suele suceder con las medidas de espacio, tiempo y cantidad hay gran variación entre los testimonios. En este verso, \emph{K, P} y \emph{W} leen \emph{tûsent}, mientras que \emph{G}, \emph{drîzic}. Mantendré siempre la lectura del manuscrito guía en estos casos, a menos que haya motivos de mucho peso para alterarla.}} meile \hfill{\footnotesize30}&
+gezaigt im ain ritterschaft &
+dar wær der herre tugenthaft &
+mit guoten willen hin geritten &
+und het gerne da gestritten. &
+nah lobe auf hoher minne solt. \hfill{\footnotesize35}&
+er was den vrawen also holt, &
+die wol beschaiden waren, &
+das er in seinen jaren &
+mit langer wernder staete &
+in so gedienet hete, \hfill{\footnotesize40}&
+das alliu saeldenhaften weip &
+seinen wunnechlichen leip &
+lobten und preisten &
+als uns diu buoch beweisten &
+und ich'z von im geschriben vant. \hfill{\footnotesize45}&
+so was der herre genant &
+her Wirin da von Gravenberc. &
+er hete werltichiu werc &
+geworht alliu seiniu iar. &
+sein herze stille und offenbar \hfill{\footnotesize50}&
+nach der minne tobte. &
+sus saz der gelobte &
+in ainer chemnaten &
+mit vreuden wol beraten &
+und het ain buoch in seiner hant; \hfill{\footnotesize55}&
+daran er aventiure vant &
+von der minne geschriben. &
+dar ob het er do vertriben &
+den tac untz auf die vesperzeit. &
+sein vreude was vil harte weit \hfill{\footnotesize60}&
+von suzzer rede, die er da las. &
+do er alsus gesezzen was, &
+do cham gegangen dort her &
+ein weip nah seins hertzen ger, &
+ze wunsche wol gebruefet dar \hfill{\footnotesize65}&
+und also minnechlich gevar, &
+das man nie schoner weip gesach. &
+ir schone vollechlichen brach &
+fuor alle vrowen die nu sint. &
+ain so reht minnechlichz chint \hfill{\footnotesize70}&
+von weibes brusten nie geslauf. &
+ich spriche das auf meinen tauf, \hfill{\footnotesize72}&
+das si noch verrer schoner was \hfill{\footnotesize75}&
+danne Venus oder vrau Pallas &
+und alle die gottinne, &
+die weilen phlagen der minne. &
+ir antliutz und ir varwe, &
+diu waren baidiu garbe, \hfill{\footnotesize80}&
+erliuchtet als ain spiegellein. &
+ir schone gap so liehten schein &
+und also wunnechlichen glast, &
+das der selbe palast &
+von ir leibe erliuhtet wart. \hfill{\footnotesize85}&
+der wunsch hete niht gespart, &
+\edtext{an ir die seinen grosten chraft, &
+er hete seine maisterschaft}{\lemma{}\Bfootnote[nosep]{Schröder y los testimonios \emph{C,D,G,K,P,W} tienen los sintagmas \emph{meisterschaft} y \emph{grosten kraft} invertidos. Mantengo aquí la lectura del manuscrito guía, que además tiene mayor sentido: lo que no se escatima es la fuerza, mientras que lo que se aplica con empeño es la maestría y no al revés.}} &
+mit gantzem vleiz an sei gelait. &
+swaz man von schonen weiben sait, \hfill{\footnotesize90}&
+der ubergulde was ir leip. &
+ez wart nie minnechlicher weip &
+gesehen auf der erde. &
+auh was nah vollem werde &
+ir leip gechlaidet schone. \hfill{\footnotesize95}&
+diu chlaider und diu chrone, &
+die diu schoniu vrowe chluoc, &
+auf unde an ir leibe truoc, &
+die waren also reiche &
+das si halt sicherleiche \hfill{\footnotesize100}&
+nieman vergelten chunde, &
+ob man si vaile funde. &
+Von Gravenberc her Wirn &
+erschrac von ir wol zwirn. &
+do si cham geslichen, \hfill{\footnotesize105}&
+sein varwe wart erblichen &
+vil harte von ir chunfte da. &
+in nam des groz wunder sa &
+waz vrawen also chæme. &
+auf spranc der vil genæme \hfill{\footnotesize110}&
+erschrocken und missevar &
+und enphie die minneclichen gar &
+vil schon als er wol chunde. &
+er sprach auz svzem munde: &
+“seit, vrawe, got willechomen. \hfill{\footnotesize115}&
+swaz ich von vrawen han vernomen, &
+der seit ir ubergulde gar.” &
+hie mit sprach diu schoniu gar: &
+“vil lieber friunt, got lone dir, &
+erschricke so sere niht von mir. \hfill{\footnotesize120}&
+nu bin ich doch das selbe weip, \hfill{\footnotesize125}&
+durch die du sel und leip &
+vil dicke hast gewaget. &
+dein hertze niht betragt, &
+ez trag durch mich hohen muot. &
+du bist hiubsch und fruot \hfill{\footnotesize130}&
+gewesen alliu deiniu jar. &
+dein werder leip suoz und chlar &
+hat nah mir gerungen, &
+gesprochen und gesungen. &
+von mir swaz er guotes chan. \hfill{\footnotesize135}&
+dv wart \edtext{\textit{ie}}{\lemma{ie}\Afootnote{ot ie M}} mein dienstman, &
+den abent und den morgen. &
+du chundest wol besorgen &
+hohez lop und werden preis. &
+du bluest als ain maienreis \hfill{\footnotesize140}&
+in manicvalter tugent; &
+du hast von chindes jugent &
+getragen ie der eren chrantz; &
+dein sin ist lauter und gantz &
+an truven ie gen mir gewesen, \hfill{\footnotesize145}&
+vil werder ritter auzerlesen. &
+darumbe bin ich chomen her, &
+daz du nah deines hertzen ger &
+meinen leip von hoher chur &
+beschawest wider unde fur, \hfill{\footnotesize150}&
+wie schoen ich sei, wie volchomen. &
+den reichen lon, den grozen fromen, &
+den du von mir enphahen maht &
+umb deinen dienst wol geslaht, &
+den solt du schawen und spehn. \hfill{\footnotesize155}&
+ich wil dich gern lazen sehn, &
+waz lones dir geziehen sol, &
+du hast gedienet mir so wol.” \hfill{\footnotesize158}&
+den edeln herren tugentreich \hfill{\footnotesize161}&
+dauhte harte wunderleich &
+diser vrawen taidinc; &
+wan sei der selbe jungelinc &
+mit seinen augen nie gesach \hfill{\footnotesize165}&
+und doch diu selbiu vrowe sprach, &
+er wær ir dienstman gesein. &
+er sprach, “genade, vrowe mein, &
+han ich iu gedienet iht, &
+entruven des enwaiz ich niht. \hfill{\footnotesize170}&
+mich duncket ane laugen, &
+daz ich mit meinen augen &
+iuh vil selten han gesehn. &
+seit daz ir geruchet iehn, &
+mein ze chnehte, selic weip, \hfill{\footnotesize175}&
+des sol mein hertze und mein leip &
+iuch ze dienste sein berait &
+mit willechlicher arbait &
+untz auf meines todes zil. &
+ir habt so hoher selden vil \hfill{\footnotesize180}&
+und als manicvalte tugent, &
+daz iuver vreude bluendiu jugent &
+mir vil wol gelonen mac. &
+ja, wol mich, daz ich disen tac &
+gelebt han, des vreu ich mich. \hfill{\footnotesize185}&
+seit daz ir, vrowe minnechlich, &
+meinen dienst enphahen welt, &
+vrowe an tugenden auzgezelt, &
+geruochet chunden mir ain tail &
+durch daz wunne bernde hail, \hfill{\footnotesize190}&
+daz an iu schoniu vrawe leit: &
+von wannen ir gehaizen seit &
+oder von wanne ir seit genant; &
+iuver name und iuver lant, &
+daz werde mir hie chunt getan, \hfill{\footnotesize195}&
+durch daz ich wizze sunder wan, &
+ob ich in allen meinen tagen, &
+ie von iu gehorte sagen.” &
+des antwurt im diu schoniu do, &
+si sprach gezogenlich also: \hfill{\footnotesize200}&
+vil lieber friunt, daz sol geschehn. &
+ich wil dir gern alhie veriehn &
+meins hochgelopten namen. &
+du endarft dich nimmer des geschamen, &
+ob du mir undertænic bist. \hfill{\footnotesize205}&
+mir dienet swaz auf erde ist &
+hordes und guoetes. &
+ich bin so hohes muoetes, &
+daz chaiser und chuniges chint &
+alle under meiner chrone sint; \hfill{\footnotesize210}&
+graven, vreien und hertzogen, &
+die habent mir ir knie gebogen &
+und laistent alle mein gebot. &
+ich enfurchte nieman wan got; &
+der ist gewaltic uber mich. \hfill{\footnotesize215}&
+Diu Werlt bin gehaizen ich, &
+der du nu lange hast gegert. &
+lones solt du sein gewert &
+\edtext{an mir, als ich dir zaige nu; &
+nu chumt ez dir, nu schowe du.}{\lemma{}\Bfootnote[nosep]{Mantengo la repetición de \emph{nu}, que solo está presente en el manuscrito guía. Si bien podría considerarse menos elegante que la lectura de \emph{K,P,W}: \emph{hier kumm ich dir, daz schowe du}, la aliteración le otorga un efecto poético tal vez más interesante.}} \hfill{\footnotesize220}&
+sus chert si im den ruggen dar; &
+der was in allen enden gar &
+bestecket und behangen &
+mit ungefuegen slangen, &
+krotten unde natern. \hfill{\footnotesize225}&
+ir leip was voller blatern &
+und ungefueger aizen; &
+vliegen und amaizen &
+ain wunder drinne sazen. &
+ir vlaisch die maden azen \hfill{\footnotesize230}&
+untz auf daz gebaine. &
+si was so gar unraine, &
+daz von ir bloden leibe wac &
+ain so aengestlicher smac, &
+den nieman chunde erleiden. \hfill{\footnotesize235}&
+ir reichez chlait von seiden \hfill{\footnotesize236}&
+was vil jaemerlich gevar, \hfill{\footnotesize241}&
+blaich als ain asche gar. \hfill{\footnotesize242}&
+hie mit schiet si dannen. \hfill{\footnotesize245}&
+daz si vor mir verbannen &
+und al der christenhait sei. &
+\edtext{\textit{dem}}{\lemma{dem}\Afootnote{der P}} ritter edel und vrei, &
+do der ditz wunder anesach, &
+zehant sein hertze im des verjach, \hfill{\footnotesize250}&
+er wære gar verwazen, &
+swer sich wolte lazen &
+an ir dienste vinden. &
+von weiben und von chinden &
+schiet er sich alda zehant. \hfill{\footnotesize255}&
+er nam daz chriutz an sein gewant &
+und huop sich uber daz wilde mer &
+und half dem edeln gots her &
+streiten an die haidenschaft. &
+da wart der ritter tugenthaft \hfill{\footnotesize260}&
+an staeter buoze funden. &
+er schuf daz ze allen stunden, &
+do im der leip erstorben was, &
+daz im diu sel dort genas. &
+nu mercket, alle die nu sint \hfill{\footnotesize265}&
+diser wilden werlte chint, &
+ditz endehafte mære, &
+daz ist also gewære, &
+daz man ez gern horen sol. &
+der werlte lon ist jamers vol ; \hfill{\footnotesize270}&
+daz muogt ir alle han vernomen. &
+ich bin sein an ain ende chomen . &
+swer an ir dienste funden wirt, &
+daz in diu vreude gar verbirt, &
+die got mit gantzer staetichait \hfill{\footnotesize275}&
+den auzerwelten hat berait. &
+\edtext{von Wirtzpurch ich Chunrat &
+gip iu allen disen rat: &
+daz ir die werlt lazet varn, &
+wellet ir die sel bewarn.}{\lemma{}\Bfootnote[nosep]{Estos últimos cuatro versos que nombran al autor solo en los testimoinos \emph{B,D,M}}} \hfill{\footnotesize280}\&
+\end{astanza}
+\endnumbering
+\end{Leftside}
+\begin{Rightside}
+\beginnumbering
+\begin{astanza}
+Amantes del mundo,&
+prestad atención a este relato,&
+sobre lo que sucedió a un caballero,&
+que se afanaba por el galardón del mundo,&
+tarde y temprano.&
+Él consideraba muchas cosas&
+que podía emprender&
+para conseguir el galardón&
+del honor del mundo.&
+Él sabía multiplicar&
+su fama en todas partes&
+con obras y con palabras.&
+Su vida era tan acabada&
+que se la considera entre las mejores&
+en todas las tierras alemanas.&
+La infamia&
+evitó siempre.&
+Era cortés e inteligente,&
+bello y pleno de virtudes.&
+Lo que un hombre en el mundo precisa&
+para conseguir estimación,&
+eso sabía el astuto señor&
+considerar y reflexionar.&
+Se veía al excelente&
+portar ropas extraordinarias;&
+cazar con halcones y con perros\footnote{El alto alemán medio poseía palabras que diferenciaban diferentes tipo de actividades de cacería que ocurren en este mismo verso: \emph{birsen} = cazar con perros; \emph{beizen} = cazar pájaros con halcones; jagen = palabra general para la cacería.}&
+sabía bien y lo hacía asiduamente.&
+El ajedrez y la música de cuerdas&
+eran su pasatiempo.&
+Si en cien millas&
+se anunciaba un torneo,&
+cabalgaba el virtuso señor&
+hacía allí con buen ánimo&
+y peleaba con gusto&
+por la admiración y el amor cortés.\footnote{Traduzco como ‘amor cortés' la expresión \emph{hohe minne}, que designa la forma de amor que se tematiza en la poesía cortesana (lírica y narrativa) de inspiración franco-provenzal.}&
+Era tan propicio a las damas&
+sensatas,&
+que en todos sus años,&
+con firme constancia&
+las servía;&
+de manera que todas las mujeres afortunadas&
+alababan y elogiaban&
+su maravilloso cuerpo,&
+tal como nos aseguran los libros&
+que he encontrado escritos sobre él.&
+El señor se llamaba&
+Wirin von Grafenberc.&
+Con quehaceres mundanos&
+se ocupó siempre.&
+Su corazón calmado y abierto&
+se afanaba por el amor.&
+Así estaba sentado el afamado&
+en una habitación,&
+bien aprovisionado de alegrías,&
+y sostenía un libro en su mano&
+en el que encontraba escritas&
+historias de amor.&
+En eso se pasó&
+el día hasta tarde.&
+Su alegría era enorme&
+por las dulces palabras que allí leía.&
+Cuando estaba así sentado,&
+entró andando&
+una mujer como quería su corazón,&
+creada tal como se podía desear&
+y de una apariencia amorosa,&
+tal que nunca se vio una mujer más bella.&
+Su belleza sobrepasaba&
+a todas las mujeres aquí presentes.&
+Una joven tan hermosa&
+nunca despegaron de un pecho materno.\footnote{Literalmente, ‘nunca fue sacada del pecho de una mujer', forma poética de decir ‘nunca existió'.}&
+Lo juro por mi bautismo&
+que era mucho más bella&
+que Venus o la señora Palas&
+y que todas las diosas&
+que se dedican al amor.&
+Su apariencia y su color&
+eran ambos&
+brillantes como un espejo.&
+Su belleza generaba tal resplandor&
+y un fulgor maravilloso,&
+que el mismísimo palacio&
+se iluminaba con su presencia.&
+La plenitud\footnote{\emph{der wunsch}, que traduzco como ‘la plenitud' es una de las formas de referirse a la divinidad. Proviene de la misma raíz que la palabra ‘deseo' y se relaciona con la potencialidad creadora.} no había escatimado&
+su gran potencia en ella,&
+y a ella había consagrado&
+su maestría con empeño.&
+Cualquier cosa que se diga sobre las&
+mujeres bellas, ella la sobrepasaba.&
+Nunca fue vista una mujer más hermosa&
+sobre la tierra.&
+También estaba con lujo&
+y con belleza vestida.&
+Las ropas y la corona&
+que portaba la hermosa mujer&
+sobre su cuerpo&
+eran tan ricas&
+que con seguridad&
+nadie podría comprarlas&
+si estuvieran en venta.&
+El señor Wirnt von Grafenberc&
+se asustó mucho de ella;&
+mientras se acercaba a paso lento,&
+él empalideció&
+mucho a causa de su llegada;&
+comenzó a preguntarse&
+qué mujer era que así venía.&
+El admirable hombre dio un salto&
+asustado y empalidecido&
+y recibió a la preciosa mujer&
+todo lo bien que sabía hacerlo.&
+Le dijo con su dulce boca:&
+“Mujer, bienvenida seas, por Dios,&
+a todas las mujeres que he conocido&
+las superas con comodidad".&
+Entonces habló la bella:&
+“Querido amigo, que Dios te premie,&
+no te asustes de mí.&
+Yo soy aquella mujer&
+por la que tu cuerpo y alma&
+muchas veces has arriesgado.&
+Cuando tu corazón ha flaqueado,&
+por mí ha adquirido coraje.&
+Has sido bello e inteligente&
+todos tus años.&
+Tu valiosa vida dulce y clara&
+por conquistarme se ha esforzado;&
+ha hablado y ha cantado&
+sobre mí lo mejor que ha podido.&
+Siempre has sido mi servidor&
+por las noches y las mañanas.&
+Has sabido conseguir&
+grandes elogios y valiosas recompensas;&
+floreces como una flor de mayo\footnote{\emph{maienreis} designa a las plantas que tienen una floración tardía y por lo tanto un tiempo de esplendor menor de lo normal.}&
+con variadas virtudes.&
+Desde la infancia has&
+llevado la corona del honor;&
+tu intención ha sido clara y plena,&
+siempre leal a mí,&
+extraordinario y valioso caballero.&
+Por eso he venido aquí,&
+para que según tu deseo&
+mi cuerpo hermoso&
+contemples por todas partes;&
+qué bella soy y qué perfecta.&
+El rico galardón y el gran provecho&
+que recibirás de mí&
+por tu apropiado servicio&
+debes mirar y observar.&
+Quiero dejarte ver&
+el galardón que te corresponderá&
+por haberme servido tan correctamente".&
+El noble y virtuoso&
+se sorprendió mucho&
+de las palabras de esta dama,&
+porque el joven&
+jamás la había visto con sus ojos&
+y, sin embargo, la dama afirmaba&
+que él había sido su servidor.&
+Él dijo: “Piedad, señora mía,&
+si alguna vez os he servido,&
+disculpadme, yo no lo sé.&
+Me parece verdad,&
+que yo con mis ojos&
+nunca os he visto.&
+Ya que deséais afirmar&
+que soy vuestro sirviente, alabada mujer,&
+mi corazón y mi cuerpo están&
+dispuestos a serviros&
+voluntariamente y con esfuerzo&
+hasta mi muerte.&
+Vos poseéis tan elevada perfección&
+y tan amplia virtud&
+que vuestra juventud floreciente en alegrías&
+podrá recompensarme con justicia.&
+Bien por mí que este día&
+he podido vivir; de eso me alegro.&
+Si es que vos, delicada dama,&
+deseáis recibir mi servicio,&
+dama excelente en todas las virtudes,&
+permitidme saber algo&
+por la maravillosa dicha&
+que en vos, hermosa mujer, reposa:&
+¿De dónde proviene vuestro nombre&
+o por qué lugar sois llamada?\footnote{Como era común en la época las personas se reconocían por su nombre y lugar de procedencia y no por un apellido.}&
+Que vuestro nombre y vuestro país&
+me sean aquí comunicados,&
+para que sepa sin falsedad&
+si alguna vez en todos mis días&
+he oido hablar de vos".&
+A esto respondió la bella&
+y habló decentemente:&
+“Querido amigo, eso sucederá.&
+Deseo confesarte aquí mismo&
+mi preciado nombre.&
+Jamás debes avergonzarte&
+de ser mi súbdito, pues&
+me rinde servicio todo lo que sobre la tierra&
+es preciado y bueno.&
+Soy de tan gran valor&
+que el emperador y los hijos de reyes&
+están todos bajo mi corona;&
+condes, libres\footnote{\emph{vrîen} designa quienes carecen de título nobiliario, pero que por alguna razón han obtenido una tierra en propiedad. Esto los libera de servidumbre y eleva a la categoría de ‘libres’.} y duques,&
+todos han hincado la rodilla ante mí&
+y cumplen mis ordenes.&
+No temo a nadie salvo a Dios,&
+que tiene poder sobre mí.&
+Mi nombre es El Mundo,&
+el que tú tanto tiempo has deseado.&
+Su galardón te será otorgado&
+tal como ahora te mostraré.&
+Aquí viene, ahora obsérvalo".&
+Entonces se tornó y le dio la espalda,&
+que por todas partes estaba&
+cubierta y cargada&
+con horribles serpientes,&
+sapos y culebras.&
+Su cuerpo estaba repleto de hojas&
+y desagradables úlceras.&
+Moscas y hormigas&
+había en gran cantidad.&
+Los gusanos devoraban su carne&
+hasta los huesos.&
+Era tan impura&
+que de su pútrido cuerpo se desprendía&
+un olor horrible&
+que nadie podría soportar.&
+Su rico vestido de seda&
+era de una apariencia penosa,&
+pálida como la ceniza.&
+Así se despidió.&
+¡Que sea alejada de mí&
+y de toda la cristiandad!&
+Al noble y libre caballero,&
+al ver esta maravilla,&
+enseguida su corazón le dijo&
+que estaría completamente perdido&
+quien se hallara&
+a su servicio.&
+De su mujer y de sus hijos&
+pronto se despidió.&
+Tomó la cruz en su ropa\footnote{Expresión común para ‘partir en una cruzada' que hace referencia a la práctica de inscribirse el signo de la cruz en las vestimentas.}&
+y se embarcó sobre el salvaje mar&
+y ayudó al noble ejército de Dios&
+a pelear contra los paganos.&
+Así estaba el caballero virtuoso&
+en continua penitencia,&
+que ejercía a toda hora.&
+Cuando su cuerpo pereció,&
+su alma gozó la salvación.&
+Aprendan los que aquí están&
+de este hijo del salvaje mundo.&
+Este relato se acaba&
+y está de tal manera compuesto,&
+que se debe oirlo con placer.&
+El galardón del mundo es puro dolor,&
+esto deben haber comprendido todos.&
+He llegado al fin.&
+Quien en su servicio sea hallado,&
+será privado de la felicidad&
+que Dios con lealtad&
+ha preparado para los elegidos.&
+Yo, Konrad von Würzburg,&
+os doy este consejo:&
+que dejéis alejarse al mundo&
+si deseáis salvar el alma.\&
+\end{astanza}
+\endnumbering
+\end{Rightside}
+\end{pairs}
+\Columns
+\end{document}

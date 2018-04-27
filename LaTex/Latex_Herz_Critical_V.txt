@@ -1,3 +1,66 @@
+\documentclass[12pt]{article}
+\usepackage{polyglossia,fontspec,xunicode}
+\usepackage[a4paper, portrait, top=2cm, bottom=3.5cm, left=2cm, right=2cm,]{geometry}
+\usepackage{libertine}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\setlength{\headheight}{1.7cm}
+\fancyhead[L]{\small{\textit{Herzmaere - Texto Crítico y Traducción - Versión V}}}
+\fancyhead[R]{\thepage}
+\setlength{\columnsep}{3cm}
+\setlength{\columnseprule}{0.4pt}
+\setmainlanguage{german}
+\usepackage[series={A,B},noend,noeledsec,noledgroup]{reledmac}
+\sethangingsymbol{[\,}
+\sidenotemargin{outer}
+\renewcommand{\ledrsnotefontsetup}{\small\it}% right
+\rightnoteupfalse
+\ledlsnotesep=1cm
+\usepackage[]{reledpar}
+\sethangingsymbol{[\,}
+%\renewcommand{\ledrsnotefontsetup}{\small\it}% right
+\rightnoteupfalse
+\ledlsnotesep=1cm
+\Xarrangement{paragraph}
+\Xarrangement[B]{normal}
+\Xwidth{\columnwidth}
+\Xnumberonlyfirstinline
+
+\setlength{\stanzaindentbase}{5pt}
+\setRlineflag{}
+
+% Set stanza indentation
+\setcounter{stanzaindentsrepetition}{2}
+\setstanzaindents{0,0,0}
+
+\begin{document}
+\setcounter{page}{285}
+
+\begin{pairs}
+\begin{Leftside}
+\beginnumbering
+\pstart
+{\Large\textbf{Herzmaere (V)}}\\
+\pend
+\endnumbering
+\end{Leftside}
+\begin{Rightside}
+\beginnumbering
+\pstart
+{\Large\textbf{El relato del corazón (V)}}\\
+\pend
+\endnumbering
+\end{Rightside}
+\end{pairs}
+\Columns
+
+
+\AtBeginPairs{\sloppy}
+\begin{pairs}
+\begin{Leftside}
+\beginnumbering
+\begin{astanza}
 Ich preise in meins hertzen sinne,\hfill{\footnotesize1}&
 daz lawterliche minne &
 in der werld ist wilde.&
@@ -7,15 +70,21 @@ pei disem mere schawen &
 daz uns von gantzer tugent sait.&
 des pringet uns die weishait &
 von Strazpurg maister Götfrit,&
-\edtext{\textit{der worcht als ain haubtschmid}}{\lemma{der worcht als ain haubtschmid}\Afootnote{om. V}}\hfill{\footnotesize10}&
-\edtext{\textit{alles sein geticht in guͦt}}{\lemma{alles sein geticht in guͦt}\Afootnote{om. V}}:&
-\edtext{\textit{wer ye der mynn muͦt}}{\lemma{wer ye der mynn muͦt}\Afootnote{wer in gewert in meinen trit  V}}     ,&
-\edtext{\textit{der setz weislich}}{\lemma{der setz weislich}\Afootnote{und weisleich wil setzen  V}}     seinen fuz.&
+\edtext{\textit{der worcht als ain haubtschmid}&
+\textit{alles sein geticht in guot}&
+\textit{wer ye der mynn muot}}{\lemma{}\Afootnote[nosep]{om. V, tomados del manuscrito h}}&
+\edtext{\textit{der setz weislich}}{\lemma{der setz weislich}\Afootnote{und weisleich wil setzen V}} seinen fuz&
 wizzent, daz er hören muz &
 sagen und singen \hfill{\footnotesize15}&
 von minnichleichen dingen.&
-wem dw seld möcht geschehen,&
-daz \edtext{\textit{er}}{\lemma{er}\Afootnote{ez  V}} sich möht und\edtext{\textit{er}}{\lemma{er}\Afootnote{ez  V}} sehen&
+wem dew seld möcht geschehen,&
+% * <gusfer@gmail.com> 2018-04-19T21:53:41.505Z:
+%
+% ^.
+% * <gusfer@gmail.com> 2018-04-19T21:53:39.224Z:
+%
+% ^.
+daz \edtext{\textit{er}}{\lemma{er}\Afootnote{ez  V}} sich möht undersehen&
 mit minikleichen augen.&
 diu red ist ane lawgen:\hfill{\footnotesize20}&
 der minnet etwaz dester paz &
@@ -38,12 +107,12 @@ wart an in paiden laider.&
 dew minne waz ir paider&
 worden so gar gewaltig&
 und so manig valtig&
-chomen  in ir hertz,\hfill{\footnotesize45}&
+chomen \edtext{}{\lemma{chomen in}\Afootnote{chomen si in V}} in ir hertz.\hfill{\footnotesize45}&
 da von grozzer smertz&
 in paiden wart bechant,&
-als ich dw abentewr vant,&
-waz von der süzzen minne.&
- het in irs hertzen \edtext{\textit{grymme}}{\lemma{grymme}\Afootnote{minne  V}}\hfill{\footnotesize50}&
+als ich dew abentewr vant.&
+waz von der süzzen minne\edtext{}{\lemma{}\linenum{45s}\Bfootnote[nosep]{Mantengo la variante de \emph{V-I}, que si bien más es es la más difícil de comprender, tiene sentido. La repetición de \emph{minne} en 46 es evidentemente un error de copia (que bien identificó el copista de I al cambiarlo por \emph{sinne}), retomo la lectura de los otros testimonios que carecen de ese error. La variante de \emph{B/h} es más sencilla de comprender: \textit{wan die starcke minne / het in irs hertzen grimme}.}} &
+\edtext{}{\lemma{het}\Afootnote{daz het V}}het in irs hertzen \edtext{\textit{grymme}}{\lemma{grymme}\Afootnote{minne  V}}\hfill{\footnotesize50}&
 mit dem iren fewr erzündet&
 und also gar durh gründet&
 mit minnichleicher trawtschaft,&
@@ -73,18 +142,18 @@ nach ir lib minnichleich&
 pegund er also ser quelen,&
 daz er die pein nit moht verhelen\hfill{\footnotesize80}&
 vor irem ee manne.&
-zu der frawen rait er  dannen&
+zu der frawen rait er\edtext{}{\lemma{er dannen}\Afootnote{er und dannen V}} dannen&
 und ie als daz mocht gesein.&
 so tet er ir mit chlag schein&
 seins hertzen ungemah.\hfill{\footnotesize85}&
 da von ze jüngst geschah&
-ain lait, daz sie peswert:&
-der frawn man warte&
-faste hüten ir paider,&
+ain lait, daz sie peswerte:&
+\edtext{der frawn man warte&
+faste hüten ir paider,}{\lemma{\textit{warte... hüten}}\Bfootnote{Expresión con valor incoativo, ver Paul, Hermann, \emph{Mittelhochdeutsche Grammatik} (25 ed, 2007) §S28, Anm. 3, p. 307.}}&
 piz ez ze jüngst laider\hfill{\footnotesize90}&
 an ir geperd wart gewar,&
-daz sich diu fraw gar&
-het in iren strik verworren,&
+\edtext{daz sich diu fraw gar&
+het in iren strik verworren,}{\lemma{}\Bfootnote[nosep]{En la versión de P el pronombre \emph{ir} refiere al amor mencionado en el verbo anterior. En esta versión, en cambio, la sintaxis de la frase es complicada y cambia el sentido, pues se transforma en una construcción reflexiva con el \emph{sich} del verso 86.}}&
 daz si musten dorren&
 paide nach anander do.\hfill{\footnotesize95}&
 der frawen man gedaht also:\hfill{\footnotesize98}&
@@ -125,7 +194,7 @@ do wart der mut reich man&
 vil schier des ze rat,&
 daz er pald und drat&
 wolt faren über mer.\hfill{\footnotesize135}&
-In dawcht, wie er an wer&
+in dawcht, wie er an wer&
 hie haim tot geleg,&
 ob er sich des verweg,&
 daz er wendig würde.&
@@ -143,7 +212,7 @@ sprach: “frewnt, herr, lieber leib.\hfill{\footnotesize150}&
 mein man ist in den willen komen,&
 als ir wol habt vernomen,&
 daz er mich wil füren von dir.&
-nu volg, lieber herr, mir\hfill{\footnotesize154}&
+nu \edtext{volg}{\Bfootnote{Utilizado en el sentido de ‘escúchame, presta atención a lo que digo', pero resulta sugerente el uso de este verbo en el contexto de seguirse en el viaje.}}, lieber herr, mir\hfill{\footnotesize154}&
 und wind allain dise fart,\hfill{\footnotesize156}&
 durch dein tugentleiche art,\hfill{\footnotesize155}&
 diu er uns hat auf gelait\hfill{\footnotesize157}&
@@ -160,15 +229,15 @@ gen meiner schon frawen gut,&
 so wer der ritter hohgemut\hfill{\footnotesize215}&
 von dem land nimmer komen.’&
 also wirt im der zweifel penomen.&
-da er sein sin hat aufgelait.&
+da er sein sin hat aufgelait,&
 daz darf dir nicht wesen lait,&
-ob unser fart nit wendig wirt:\hfill{\footnotesize220}&
+\edtext{ob unser fart nit wendig wirt:\hfill{\footnotesize220}&
 diu fart uns paiden frawd pirt.&
 peleib aber hie haim wir,&
 sô darf nicht laid wesen dir,&
 peleist du ain weil dort&
 piz verredet wirt daz wort,\hfill{\footnotesize225}&
-daz von uns flewgt in daz lant.&
+daz von uns fleugt in daz lant.}{\lemma{}\Bfootnote[nosep]{Mantengo la lectura del manuscrito guía aunque sea difícil de comprender. El primer \emph{fart} refiere al de la dama y su esposo, el segundo al del caballero. Los versos 167 y 169 describen, en conjunto, una de las posibilidades: que el caballero viaje y la dama y su esposo se queden.}}&
 als dich denn hat der wider gesant&
 unser herre Jesuchrist,&
 so hast du mit mir all frist&
@@ -186,7 +255,7 @@ gedenken ze allen stunden.\hfill{\footnotesize240}&
 damit ich gen gepunden,&
 als mich dein aug nicht ansicht.&
 grozz trawren mir dain geschiht;&
-mein \edtext{\textit{trew ist ane wenken}}{\lemma{trew ist ane wenken}\Afootnote{mein trost will sich sencken  h}}    .&
+mein trew ist ane wenken.&
 dein fart chan mir schenken\hfill{\footnotesize245}&
 sorg in meins hertzen grunt.&
 nu pewt mir, lieb, dein munt&
@@ -197,7 +266,7 @@ als ich han gesaget dir.”\hfill{\footnotesize250}&
 auz trübs hertz sinne.&
 “Waz ich dar an gewinne,&
 so tun ich gerne, waz ir went.&
-Ich pin so gar nach ew versent\hfill{\footnotesize255}&
+ich pin so gar nach ew versent\hfill{\footnotesize255}&
 mit hertzen und mit leibe,\hfill{\footnotesize264}&
 fraw schönest aller weib,\hfill{\footnotesize265}&
 daz ich michl angest hab,&
@@ -210,12 +279,12 @@ zwai hertz twungen in ain,\hfill{\footnotesize274}&
 der ritter und dew fraw rain;\hfill{\footnotesize277}&
 diu lib ir hertz ser durhsnait&
 mit trawren und mit hertzenlait.&
-zwai hertz sich schieden ander stunt,\hfill{\footnotesize280}&
+zwai hertz sich schieden an der stunt,\hfill{\footnotesize280}&
 mer dan ich mit dem mund&
 ew peschaiden künne.\hfill{\footnotesize282}&
 an wirdichleicher wunne\hfill{\footnotesize284}&
 so lag ir paider hertz tod.\hfill{\footnotesize285}&
-Ir liecht wengl rosen rot&
+ir liecht wengl rosen rot&
 vil senfter chüsse phlagen,&
 daz si sich verwagen&
 aller fraẅs under in.&
@@ -251,7 +320,7 @@ des pitterleichen tods kraft\hfill{\footnotesize352}&
 mir ir rainer leib gegeben?\hfill{\footnotesize355}&
 Wil si nicht trosten mir daz leben,&
 so muz ich schir ligen \edtext{\textit{tot}}{\lemma{tot}\Afootnote{tod  V}}.”&
-In der chlag und in der not,&
+in der chlag und in der not,&
 so lag der ritter alle tag&
 und traib so lang dise chlag\hfill{\footnotesize360}&
 piz das man auzzen an im sah\hfill{\footnotesize365}&
@@ -306,7 +375,7 @@ der chain edel hertz nie&
 mit seiner hilfe gelie,&
 der müz sich erparmen\hfill{\footnotesize425}&
 über mich \edtext{\textit{vil}}{\lemma{vil}\Afootnote{vil vil  V}}  armen.”\hfill{\footnotesize426}&
-In der chlag und in der not\hfill{\footnotesize429}&
+in der chlag und in der not\hfill{\footnotesize429}&
 so lag der edel ritter tot\hfill{\footnotesize430}&
 und nam also sein ende.\hfill{\footnotesize433}&
 darumb seine hende&
@@ -361,11 +430,13 @@ geprach von der seiten sein\hfill{\footnotesize500}&
 und tet ez auf mit seiner hant.&
 da er daz hertz inne vant&
 und seiner frawen vingerlein,&
-an den zwain wart im schein,&
+\edtext{an den zwain wart im schein,&
 wie der ritter wer tod\hfill{\footnotesize505}&
 und diu zwai seiner not&
-ain urchunde \edtext{\textit{waren}}{\lemma{waren}\Afootnote{waere  V I D h Ko L w}}&
-zu der vil \edtext{\textit{seldenpaeren}}{\lemma{seldenpaeren}\Afootnote{seldenpaere  V I D h Ko L w B}}.&
+ain urchunde waere&
+zu der vil seldenpaere.}{\lemma{}\Bfootnote{Repetición de los versos 338-342. El relato tendría más sentido sin la primera mención, pues en ese momento el cofre se encontraba cerrado y difícilmente podría verse su contenido.}}&
+%\edtext{ain urchunde \edtext{\textit{waren}}{\lemma{waren}\Afootnote{waere  V I D h Ko L w}}&
+%zu der vil \edtext{\textit{seldenpaeren}}{\lemma{seldenpaeren}\Afootnote{seldenpaere  V I D h Ko L w B}}}{\lemma{}\Bfootnote{Corrijo según el testimonio A la declinación de ambas palabras en posición de rima. \emph{ware} sería una lectura posible, pero implica que el sujeto es \emph{urkunde}, cuando \emph{diu zwai} tal vey sea más correcto, y además corresponde en la rima con la declinación correcta del adjetivo \emph{seldenpaere} en la segundo línea.}}.&
 der ritter sprach dem knecht zu:\hfill{\footnotesize509}&
 “reit von hinnen, wellest du\hfill{\footnotesize511}&
 fristen fuz und hant.&
@@ -376,12 +447,12 @@ er sprach zu dem choche da,&
 daz er aus dem hertzen sa&
 ain raine pesunder trachte&
 mit gutem fleizze machte.\hfill{\footnotesize520}&
-“du solt auch merken dapei,&
+\edtext{“du solt auch merken dapei,&
 waz speise hie inder chuchen sei.&
 diu sol versaltzen werden,&
 daz ir auf der erden&
 nieman muog geniezzen,\hfill{\footnotesize525}&
-des la dich nicht verdriezzen.”&
+des la dich nicht verdriezzen.”}{\lemma{}\Bfootnote[nosep]{Estos versos y los que los retoman constituyen la diferencia narrativa más importante entre las dos versiones.}}&
 daz tet der koch mit willen gar.&
 er nam daz tot hertz dar,&
 er macht ez alz rechte wol,&
@@ -396,7 +467,7 @@ der koch het nicht vergezzen:&
 versaltzen waz daz ezzen,&
 daz man es wider dannen trug.&
 darumb wart er gescholten genug.\hfill{\footnotesize540}&
-zve jüngst trug man ze tisch\hfill{\footnotesize543}&
+ze jüngst trug man ze tisch\hfill{\footnotesize543}&
 daz tot hertz frische.&
 der herr pot ez der frawen dar:\hfill{\footnotesize545}&
 “fraw, ir sult nu gar&
@@ -420,8 +491,8 @@ daucht und also rain&
 als dise trachte chlain.&
 nu sagent mir, durh got,&
 diu warhait sunder spot:\hfill{\footnotesize579}&
-Ist dise speise lobesam\hfill{\footnotesize582}&
-gewesen wild oder zam?”&
+ist dise speise lobesam\hfill{\footnotesize582}&
+gewesen wild oder zam?”\edtext{}{\lemma{}\Bfootnote[nosep]{La pregunta de la dama queda sin respuesta en esta versión del texto.}}&
 er sprach: “fraw, gelawb mir,&
 der ritter der mit dinst dir\hfill{\footnotesize585}&
 waz ie perait an underlaz,\hfill{\footnotesize590}&
@@ -435,7 +506,7 @@ durh dein edle minne tot.”\hfill{\footnotesize597}&
 von dem laidigen mere\hfill{\footnotesize602}&
 wart dew seldenpëre&
 als ain tot weib gestalt.&
-Ir wart in dem leib kalt\hfill{\footnotesize605}&
+ir wart in dem leib kalt\hfill{\footnotesize605}&
 daz hertz, daz gelawbt mir,&
 ir plank hend enphielen ir&
 paide nider in die schoz.&
@@ -445,15 +516,15 @@ als ir diu ware schulde gepot\hfill{\footnotesize610}&
 “han ich meins frewnds hertz gaz,&
 der mir an allen underlaz&
 je holden mut hat getragen,&
-Ich wil daz sicherleichen sagen,\hfill{\footnotesize615}&
+ich wil daz sicherleichen sagen,\hfill{\footnotesize615}&
 daz ich kaine speise&
 in kainer slachte weise&
-mich nimmer wil gemeten.\hfill{\footnotesize618}&
+mich nimmer wil genieten.\hfill{\footnotesize618}&
 Got müz mir gepieten\hfill{\footnotesize620}&
 durch sein tugentleichen mut,&
 daz nach so werder speise gut&
 swacher ezzen in mich icht ge.&
-Ich enpeizz nimmer me&
+ich enpeizz nimmer me&
 chainer hande dings,\hfill{\footnotesize625}&
 wan des ungelings,&
 daz gehaizzen ist der tot.\hfill{\footnotesize627}&
@@ -462,7 +533,7 @@ je tag wart daz leben schein.&
 ez mag auch nicht gesein,\hfill{\footnotesize640}&
 daz ich hie allain leb&
 und er dort in dem tod streb.”\hfill{\footnotesize642}&
-Ir hend si ze samen vielt;\hfill{\footnotesize647}&
+ir hend si ze samen vielt;\hfill{\footnotesize647}&
 daz hertz ir in dem leib spielt&
 in sender jamerung.&
 diu zarte fraw jung\hfill{\footnotesize650}&
@@ -471,16 +542,514 @@ si wider wag vil eben&
 mit ainem sweren gelöt&
 daz si davor genöt&
 irem frewnd gepürget hat\hfill{\footnotesize655}&
-mit vil jemerleicher tat&
+mit vil jemerleicher tat.&
 so vergalt si im.&
 Got geb, waz ich geporg oder genim,&
-das ich ez allz gelte paz,&
-dann dew fraw tet daz\hfill{\footnotesize660}&
-also nam si ir ende.&
-daz got den ritter schende,&
+das ich ez allez gelte paz,&
+dann dew fraw tet daz.\edtext{}{\lemma{}\Bfootnote[nosep]{Este verso, solo presente en esta rama de las versiones del texto, parece sugerir un reproche contra la dama.}}\hfill{\footnotesize660}&
+also nam si ir ende.\edtext{}{\lemma{}\Bfootnote[nosep]{Luego de este verso los epílogos de los diferentes testimonios difieren considerablemente, especialmente en el caso de los manuscritos \emph{D} y \emph{N}.}}&
+\edtext{daz got den ritter schende,&
 daz er der speise ie gewug,&
-davon ir hertz jamer trug.&
- an ain getrewn weib.\hfill{\footnotesize665}&
+davon ir hertz jamer trug}{\lemma{}\Bfootnote[nosep]{El \emph{ritter} de estos versos es el esposo de la dama y se le reprocha haber rebelado el origen del corazón.}}&
+\edtext{}{\lemma{an}\Afootnote{am an V}}an ain getrewn weib.\hfill{\footnotesize665}&
 dew red alsô beleib.\hfill{\footnotesize666}&
 ditz gut mer hat ain end,\hfill{\footnotesize671}&
-so got den ritter schend.amen\hfill{\footnotesize672}&
+so got den ritter schend. amen\hfill{\footnotesize672}\&
+\end{astanza}
+\endnumbering
+\end{Leftside}
+\begin{Rightside}
+\beginnumbering
+\begin{astanza}
+Juzgo con mi corazón&
+que el prístino amor&
+es extraño a este mundo.&
+Por ello un ejemplo,&
+caballeros y damas,&
+observan en este relato,&
+que nos habla de gran virtud.&
+Esto nos lo trae la sabiduría&
+del maestro Gottfried von Strasburg,&
+que conformó como un gran herrero&
+toda su poesía para bien:&
+quien alguna vez se atreve al amor,&
+posa con seguridad su pie.&
+Sabed que debe escuchar&
+decir y cantar&
+de asuntos de amor,&
+quien tenga la dicha,&
+de ser visto&
+con ojos enamorados.&
+La sentencia no tiene falsedad:&
+Ama mejor&
+quien algo del amor&
+escucha cantar o leer.&
+Por esto quiero ser diligente,&
+y envolver este buen relato&
+con palabras,&
+para que se pueda extraer&
+un ejemplo que incite al amor.&
+Un buen caballero y una buena mujer&
+enlazaron vida y voluntad&
+uno con el otro,&
+de manera que ambos, cuerpo y vida,&
+se habían convertido en una sola cosa.&
+Lo que molestaba a la mujer,&
+también molestaba al caballero.&
+Por ello una conclusión amarga&
+les avino a ambos por desgracia.&
+El amor para ambos&
+había llegado con mucha potencia&
+y variedad&
+hasta su corazón.&
+Por esto mucho dolor&
+conocieron ambos,&
+según he encontrado en mi fuente.\footnote{Traduzco como ‘fuente' la palabra \emph{abentewr}, préstamo del francés común en la poesía cortesana que designa a diversos tipos de textos y relatos.}&
+Algo del dulce amor&
+había encendido la fiereza de su corazón&
+con su fuego&
+y los perforó&
+con lealtad amorosa,&
+así que nunca podría la fuerza de su cariño&
+ser dicha con palabras.&
+Su claro recuerdo&
+nadie podría contar cabalmente.&
+Una lealtad más grande nunca mostró&
+ningún hombre ni ninguna mujer&
+como la que ellos dos en su vida&
+juntos llevaban.&
+Y, sin embargo, con decencia&
+no podían unirse,&
+así que la pasión amorosa&
+no podían concretar.&
+La hermosa dama bien creada&
+tenía un esposo en matrimonio.&
+Esto atormentaba su corazón&
+porque estaba tan custodiada&
+y el honrado y buen caballero&
+no podía apaciguar en ella&
+la voluntad de su corazón,&
+que por su amor estaba partido.&
+A causa de esto sufría una pena&
+fuerte y apabullante.&
+Por su cuerpo amoroso&
+comenzó él a sufrir,&
+pues no podía ocultar el dolor&
+frente a su esposo.&
+Él cabalgaba hasta la dama&
+siempre que podía.&
+Entonces con lamento le dejó entender&
+el sufrimiento de su corazón.&
+A causa de esto le advino finalmente&
+una pena que lo aplastaba.&
+El esposo de la mujer comenzó&
+a custodiar con atención a ambos,&
+hasta que desgraciadamente&
+era claro por sus gestos&
+que a sí misma la mujer&
+se había envuelto en su lazo,&
+de manera que debían anhelarse&
+uno al otro.&
+El esposo de la mujer pensaba así:&
+“Si no custodio a mi mujer&
+mis ojos fácilmente verán&
+algo que me angustía&
+y me prepara gran vergüenza".&
+Entonces pensó el honorable hombre:&
+“Si lo puedo lograr,&
+la alejaré de su influencia&
+llevándola a través del mar.&
+Así quiero viajar&
+con ella, para poder apartarla&
+de él y llevármela&
+Si lo emprendo,&
+el cariño se resquebrajará&
+completamente entre ambos&
+y tal vez una pena del corazón,&
+cuando se carece del cariño fiel,&
+durante mucho tiempo.&
+Ahora quiero emprender este viaje&
+al sagrado sepulcro&
+hasta que ella haya olvidado&
+el gran cariño que lleva&
+por el valioso y jovial caballero".&
+Así decidió&
+cómo a los dos amantes&
+quería dañarles la amistad,&
+a aquellos para los que&
+ninguna separación era posible.&
+Así tomó la decisión&
+de que con la dama&
+pronto quería ver&
+Jerusalén, ese gran país.&
+Cuando el caballero se enteró,&
+aquel que ardía por su amor,&
+al lozano hombre&
+rápido se le ocurrió,&
+que rápido y con presteza&
+podía cruzar el mar.&
+Le parecía que sin demora&
+aquí moriría&
+si no impedía&
+quedarse solo.&
+La pesada carga del amor&
+oprimía tanto su cuerpo,&
+que por la pura mujer&
+viajaría hacia la horrible muerte.&
+Dijo: “Dios me protejerá,&
+quiero detrás de ella viajar".&
+Cuando la mujer se enteró de esto,&
+la dichosa y virtuosa&
+lo mandó llamar en secreto.&
+La grandiosa mujer&
+dijo: “Amigo, señor, querido,&
+mi esposo tiene la intención&
+como ya debéis haber escuchado,&
+de separarme de ti.&
+Ahora, escúchame, mi querido señor&
+y emprende solo este viaje,&
+a tu manera virtuosa,&
+que él nos ha impuesto.&
+Por el amplio y salvaje mar&
+y viaja tú primero,&
+para que él permanezca aquí.&
+Entonces se quedará aquí&
+y se le pasará la sospecha&
+que tiene contra mí&
+y reflexionará:&
+‘De haber algo cierto&
+en esto que mi corazón sospecha&
+sobre mi bella y buena esposa,&
+entonces el magnífico caballero&
+no habría abandonado el país.'&
+Así se le iría la duda.&
+Una vez que haya tomado la decisión,&
+no debe causarte pena,&
+si nuestro viaje no se realiza:&
+el viaje a ambos también nos traerá alegría.&
+Si nosotros nos quedamos en casa,&
+no dejes que te cause angustia,&
+si te quedas un tiempo allí&
+hasta que se hayan acallado los rumores&
+sobre nosotros que recorren el país.&
+Cuando te envíe de vuelta&
+nuestro señor Jesucristo,&
+gozarás conmigo por siempre&
+tu voluntad mucho mejor,&
+cuando el mundo haya negado&
+lo que se cuenta sobre nosotros.&
+Que ante Dios sea lamentado&
+que no puedas estar conmigo&
+siempre según tu voluntad&
+y que yo, según el deseo de mi corazón,&
+no pueda estar siempre contigo.&
+Ahora toma este anillo.&
+Por él recordarás mi pesar&
+en todo momento.&
+Con él estoy unida&
+incluso cuando tus ojos no me vean.&
+Gran penar tendré por tí,&
+mi lealtad no flaqueará.&
+Tu viaje puede causarme&
+dolor en lo profundo del corazón.&
+Ahora, amado, préstame tu boca&
+con un dulce beso de amigo&
+y haz por mi dulce voluntad&
+lo que te he pedido".&
+“Con placer, mi señora", le dijo él&
+con el corazón afligido.&
+“Sin importar lo que yo gane,&
+haré con gusto lo que deseáis.&
+Estoy tan perdido por vos&
+con mi corazón y mi vida,&
+dama más bella entre todas las mujeres,&
+que tengo un gran miedo,&
+de que me lleven muerto a la tumba&
+antes de tener la dicha&
+de volver a verte".&
+Con pena y con dolor&
+los dos amantes&
+sus dos corazones unieron en uno.&
+Al caballero y a la pura mujer,&
+el cariño les partió el corazón&
+con tristeza y angustia.&
+Dos corazones se separaron entonces&
+más de lo que yo con mi boca&
+puedo describiros.&
+Para los placeres nobles&
+el corazón de ambos había muerto.&
+Sus claras mejillas rosadas&
+recibían muchos tiernos besos,&
+por los que renunciaban&
+a toda alegría entre ellos.&
+El valioso caballero partió de allí&
+hacia el mar al instante.&
+El primer barco que encontró,&
+en él se subió.&
+Muy bien lo había considerado&
+que sobre la tierra&
+nunca volvería a ser&
+feliz, ni tener alegrías,&
+a menos que Dios hiciera&
+que pudiera volver al país&
+y algo supiera&
+de su querida dama&
+por la que su dolor de corazón&
+era fuerte y amargo.&
+El virtuoso caballoro&
+comenzó a afligirse mucho&
+y a amurallar su corazón&
+con penas ansiosas.&
+El viejo dolor se renueva&
+con un peso doloroso.&
+El anhelante mártir&
+gritaba muchas veces&
+de su boca suspirante:&
+“Ah, alabada sea la pura mujer&
+que por su vida y por su dulce cuerpo&
+me da tan terrible dolor!&
+Ah, ella, querida señora!&
+¿Cómo puede tan cabal con maestría&
+el poder de la amarga muerte&
+serme otorgado por su inmaculado cuerpo?&
+Si ello no desea consolar mi vida&
+deberé pronto yacer muerto".&
+Apenado y adolorido&
+estaba el caballero todos los días&
+y continuó tanto tiempo con esta queja&
+hasta que se volvió visible en su exterior&
+el sufrimiento oculto&
+que llevaba en su corazón.&
+Cuando el gran y delicado caballero&
+había viajado sobre el mar&
+su fuerza estaba agotada&
+y lo había abandonado.&
+Entonces comprendió&
+que el viaje de su querida dama&
+se había cancelado y anulado&
+por culpa de su esposo.&
+Cuando el renombrado guerrero&
+tomó conciencia de esta terrible noticia,&
+le sobrevino la muerte.&
+Le dijo a su sirviente:&
+“Escucha, mi leal compañero,&
+ya presiento con claridad&
+que pronto he de morir&
+por la preclara mujer.&
+Ordena cortarme el cuerpo&
+y saca de allí mi corazón&
+sangrante y del color de la pena,&
+y ordena que lo unten bien&
+con bálsamos por todas partes,&
+para que pueda mantenerse por más tiempo.&
+Escucha esto otro que te digo:&
+consigue un pequeño cofre&
+de oro y piedras preciosas;&
+allí coloca mi corazón muerto&
+y también el anillo&
+que me dio mi señora,&
+para que estén juntos&
+cerrados y con llave.&
+Llévalo así sellados&
+a mi querida señora&
+para que allí pueda apreciar&
+lo que he sufrido por ella,&
+y cómo mi corazón se ha partido&
+por su nobilísimo amor.&
+Ella tiene la inteligencia&
+y tanta lealtad&
+que mi pena renovada&
+siempre le llegará al corazón;&
+descubrirá el dolor&
+que yo he padecido por ella.&
+Por eso, actúa como corresponde&
+y cumple con mi orden.&
+El puro y dulce Dios,&
+que a ningún corazón noble\footnote{Los ‘corazones nobles' (\emph{edele herzen}) son un concepto que aparece en el \emph{Tristan} de Gottfried von Strassburg (v. 47) para describir a los receptores ideales de la obra, que entienden que el dolor y el amor siempre están juntos.} jamás&
+retiró su ayuda,&
+tendrá piedad&
+de mí, el desdichado".&
+En el llanto y en la pena&
+murió el noble caballero&
+y alcanzó su fin.&
+Sus manos&
+su sirviente unió y lloró.&
+Al señor cortó&
+y le sacó su corazón entero&
+sangrante y del color de la pena&
+Ordenó ungirlo&
+con bálsamos en todas partes.&
+Cuando lo hubo hecho se fue de allí&
+con gran tristeza&
+y el corazón muerto.&
+Se dirigió, tal como le ordenara su señor,&
+a la misma fortaleza&
+donde él sabía que estaba&
+la dama en aquel momento.&
+En eso llegó por el amplio campo,&
+de casualidad, el esposo de la dama.&
+Como nos cuenta el libro, quería&
+ir de cacería.&
+Esto le causó al sirviente&
+una turbación aquel día.&
+El señor habló con el sirviente&
+y le preguntó hacia dónde cabalgaba&
+Entonces le vio en el costado&
+el precioso cofrecillo&
+donde llevaba el corazón&
+y el anillo de su dama.&
+Para los dos era evidente&
+que el caballero estaba muerto&
+y que ambos de su sufrimiento&
+eran una prueba&
+enviada a la venerable mujer.&
+Cuando el caballero vio esto&
+saludó al sirviente y le dijo:&
+“¿Qué llevas aquí escondido?"&
+El sirviento habló preocupado&
+como un joven virtuoso:&
+“Señor, es algo secreto&
+que viene conmigo desde lejos".&
+“Deja ver", dijo enseguida.&
+Él dijo: “Señor, no lo haré.&
+Ningún ojo lo verá&
+excepto aquel con derecho a verlo".&
+“Eso no puede ser así",&
+le dijo el caballero,&
+“pues te lo quitaré por la fuerza&
+y lo veré sin tu ayuda".&
+Después de esto no pasó mucho tiempo&
+hasta que arrancó el cofrecillo&
+de su costado&
+y lo abrió con sus manos.&
+Cuando encontró el corazón allí dentro&
+y el anillo de su esposa,&
+por ambos se dio cuenta&
+cómo el caballero estaba muerto&
+y que ambos eran&
+una prueba de su sufrimiento&
+enviada a la venerable mujer.&
+El caballero le dijo al sirviente:&
+“Aléjate de aquí, si quieres&
+salvar pies y manos.&
+No hay otra opción,&
+este tesoro quiero quedármelo".&
+Cabalgó de vuelta a su casa.&
+Le dijo allí al cocinero&
+que del corazón&
+hiciera una comida especial&
+con gran aplicación.&
+“Además debes encargarte de esto:&
+toda la comida aquí en la cocina&
+debe salarse,&
+de manera que sobre esta tierra&
+a nadie pueda agradarle:&
+¡que no se te olvide!"&
+Esto el cocinero lo hizo con buena voluntad.&
+Tomó el corazón muerto&
+y lo preparó muy bien&
+que nunca nadie&
+probará una comida&
+que tan deliciosa&
+sea preparada con especias&
+como el hermoso corazón.&
+Cuando llegó el momento&
+que el señor se sentaba a la mesa,&
+el cocinero no se había olvidado:&
+la comida que se trajo&
+estaba increíblemente salada.&
+Por esto fue muy reprendido.&
+Finalmente se trajo a la mesa&
+el fresco corazón muerto.&
+El señor se lo ofreció a la dama:&
+“Señora, ahora debéis&
+comer sola este&
+pequeño manjar,&
+pues no puedes compartirlo".&
+La noble y hermosa dama&
+comió todo el corazón muerto&
+sin darse cuenta&
+de dónde podría provenir&
+la triste comida&
+Cuando el caballero se dio cuenta&
+le dijo a la dama:&
+“¿Cuándo habéis comido&
+algo más dulce que esto?"&
+La dama respondió:&
+“Siempre seré feliz&
+si alguna vez vuelvo a comer&
+algo que me resultara tan dulce&
+y puro&
+como este pequeño manjar.&
+Dime, por Dios,&
+la verdad sin falta:&
+¿Proviene esta comida admirable&
+de animal salvaje o manso?"&
+Él dijo: “Señora, creedme,&
+el caballero que siempre estuvo&
+dispuesto a tu servicio,&
+su corazón has comido,&
+el que llevaba en su mismo cuerpo.&
+Por tí el sufrió muchas&
+tristeza todos sus días.&
+Créeme lo que te digo:&
+de las anhelantes penas del corazón&
+por tu noble amor ha muerto".&
+Por este espantoso relato&
+parecía la venerable&
+una mujer muerta.&
+En el cuerpo el corazón&
+se le congelaba, creedme.&
+Sus suaves manos cayeron&
+ambas al suelo.&
+La sangre de la boca y la nariz le salía&
+como lo requiere la verdadera culpa.&
+“Oh", dijo con gran pena&
+“si he comido el corazón de mi amigo,&
+quien sin interrupción&
+siempre me fue propicio,&
+quiero decir con confianza,&
+que ninguna comida&
+de ningún animal&
+quiero volver a probar.&
+Dios debe permitirme&
+por su virtuosa voluntad&
+que luego de un alimento tan excelente&
+no consuma algo de menor calidad.&
+Nunca volveré a probar&
+ninguna cosa&
+más que la desgracia&
+que se llama Muerte.&
+¡Oh, que después de su sufrimiento&
+continuara un solo día mi vida!&
+No puede ser&
+que yo viva sola ahora&
+y él allí en la muerte se debata".&
+Sus manos juntó,&
+el corazón en su cuerpo se partió&
+con un dolor anhelante.&
+La joven y tierna dama&
+dio fin a su clara vida.&
+Correspondió con justicia&
+y pagando un gran precio&
+lo que antes con intensidad&
+su amigo le había otorgado&
+con su dolorosa acción.&
+Así ella lo compensó.&
+Dios permita que lo que yo tomo prestado&
+que lo pueda devolver mejor&
+de lo que lo hizo la dama.&
+Así llegó ella a su fin.&
+Que Dios deshonre al caballero&
+por haber mencionado ese plato&
+por el que hizo sufrir al corazón&
+de una leal mujer.&
+Aquí se deja este texto,&
+este buen relato llega a su fin,&
+que Dios deshonre al caballero. Amen.\&
+\end{astanza}
+\endnumbering
+\end{Rightside}
+\end{pairs}
+\Columns
+\end{document}
