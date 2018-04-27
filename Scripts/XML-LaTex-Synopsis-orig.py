@@ -1,122 +1,86 @@
-import codecs
 from lxml import etree
 import re
+import codecs
 
-text_title = "Heinrich von Kempten"
+'''
+NOT READY!!!!!!!!
+THIS SCRIPT STRIPS THE XML ELEMENTS FROM THE SYNOPTIC TRANSCRIPTION AND RETURNS A .TXT FOR EACH WITNESS.
+EACH VERSE IN A DIFFERENT LINE AND READY FOR THE LATEX TEMPLATE WITH RELEDMAC.
+IT SELECTS THE EXPANDED VERSION AND ADDS SIGNS FOR DEL, ADD, HI = BOLD
+'''
 
-source = "/Applications/XAMPP/xamppfiles/htdocs/konrad/TEI/Herz_Synoptische_Transkription.xml"
+source = "/Applications/XAMPP/xamppfiles/htdocs/konrad/TEI/DWL_syn.xml"
+text_name = "dwl"
 
-destination = "/Users/gusriva/konrad-git/konrad-von-wuerzburg/LaTex/Latex_Herz_Critical_V.txt"
 
-text = ""
+with codecs.open(source, "r", 'utf-8') as f:
+    full_tree = etree.parse(f)
 
-with codecs.open(source, 'r', 'utf-8') as file:
-	full_tree = etree.parse(file)
-	
 
 def tei(tag):
     return "{http://www.tei-c.org/ns/1.0}%s" % tag
 
+def dive(elem):
+    text = ""
+    if elem.tag != tei("reg") and elem.tag != tei("abbr") and elem.tag != tei("am"):
+        if elem.text:
+            text = text + elem.text
+        if elem.tag == tei("choice") or elem.tag == tei("corr") or elem.tag == tei("w") or elem.tag == tei("orig"):
+            for child in elem:
+                text = text + dive(child)
+        elif elem.tag == tei("add"):
+            for child in elem:
+                text = text + '[' + dive(child) + ']'
+        elif elem.tag == tei("del"):
+            for child in elem:
+                text = text + r"\st{" + dive(child) + '}'
+        elif elem.tag == tei('hi'):
+            for child in elem:
+                text = text + r"\textbf{" + dive(child) + '}'
+        if elem.tail:
+            text = text + elem.tail
+        text = text.replace("\n", "")
+        text = re.sub("\s{2:}", " ", text)
+    return text
 
-for l in full_tree.iter(tei('l')):
-	line = ""
-	if l.getchildren() != []:
-		#First write the entire line
-		for orig_pc in l.iter():
-			if orig_pc.tag == tei('orig') or orig_pc.tag == tei('pc'):
-				if orig_pc.findall('../..')[0].tag != tei('rdg'):
-					line = line + orig_pc.text
-			elif orig_pc.tag == tei('c'):
-				line = line + " "
-		#algo add the verse number at the end
-		verse = l.attrib['{http://www.w3.org/XML/1998/namespace}id']
-		verse = verse.split("_",1)[1]
-		line = line + '\hfill' + verse + "&"+ "\n"
-		#Then check if there is an apparatus
-		for app in l.iter(tei('app')):
-			#get the variant readings in a tuple (witnesses,text, verse)
-			readings = []
-			for rdg in app.iter(tei('rdg')):
-				witnesses = rdg.attrib['wit']
-				witnesses = witnesses.replace('#','')
-				reading = rdg.findall('./'+tei('w')+'/'+tei('orig'))
-				reading_string = ""
-				for element in reading:
-					reading_string = reading_string + element.text + " "
-				readings.append((witnesses,reading_string, verse))
-				readings_string = readings[0][1]
-				if readings_string == '':
-					readings_string = 'om.'
-				readings_string = readings_string + ' ' + readings[0][0]
-			#get the lemmas
-			for lem in app.iter(tei('lem')):
-				lemma_list = []
-				lemma = ''
-				for word in lem.iter(tei('orig')):
-					lemma_list.append(word.text)
-					lemma = ' '.join(lemma_list)
-				if lemma != "":
-					#replace the lemma with the apparatus reference
+def create_txt(full_tree):
+    '''
+    Creates txt files of all the witnesses in a TEI file. 
+    Those files names are "text_witness" on the same location as this python script
+    '''
+    for wit in full_tree.iter(tei('witness')):
+        witness = '#' + wit.attrib["{http://www.w3.org/XML/1998/namespace}id"]
+        #Create the new file
+        writing = ""
+        for element in full_tree.iter():
+            if element.tag == tei("cb"):
+                if element.attrib['edRef'] == witness:
+                    writing = writing + "\ledouternote{"+ element.attrib['facs']+"}"
+            if element.tag == tei("pb"):
+                if element.attrib['edRef'] == witness:
+                    writing = writing + "\ledouternote{"+ element.attrib['facs']+"}"
+            if element.tag == tei("rdg"):
+                
 
-					line = line.replace(lemma, r"\edtext{\textit{"+lemma+r"}}{\lemma{"+lemma+r"}\Afootnote{"+ readings_string +"}}")
-				else:
-					#when the lemma is empty
-					for reading in readings:
-						line = line.replace(reading[1], r"\edtext{\textit{"+reading[1]+r"}}{\lemma{"+reading[0]+r"}\Afootnote{Palabra sacada}}")
+        
+        # for rdg in newdom.iter(tei('rdg')):
+        #     for child in rdg:
+        #         writing = writing + dive(child)
+        #     writing = writing + "\n"
 
-						# line = line + r"\edtext{}{\Afootnote[nosep]{om.}}"
-				
-			#\edtext{\textit{daz}}{\lemma{daz}\Afootnote{Some comments}}
-	text = text + line	
+                
+            
+        #When the variable writing has the whole text, the following lines remove all the superfluos whitespaces and empty lines
+        # lines = re.findall(".+", writing)
+        # clean_lines = []
+        # for line in lines:
+        #     clean_line = re.findall("\w+\s*",line)
+        #     clean_line = "".join(clean_line)
+        #     if len(clean_line) > 1:
+        #         clean_lines.append(clean_line)
+        # final_text = "&\n".join(clean_lines)
+        #Created the file and writes the text. CHECK THE DIRECTORY TO WRITE IN!!
+        with codecs.open("origs/" + text_name + "_" + witness + ".txt", "w", "utf-8") as new_file:
+            new_file.write(writing)
 
-with codecs.open(destination, 'w', 'utf-8') as outfile:
-	outfile.write(text)
-
-keep_verses = []
-all_verse_num = re.findall(r'\d+',text)
-for index, number in enumerate(all_verse_num):
-	if index < len(all_verse_num)-1 and index > 0:
-		if int(number) % 5 == 0 or int(number) + 1 != int(all_verse_num[index+1]) or int(number) - 1 != int(all_verse_num[index-1]):
-			keep_verses.append(number)
-	else:
-		keep_verses.append(number)
-
-
-# #text is complete, correct the line-numbers
-with codecs.open(destination, 'r', 'utf-8') as outfile:
-	text_lines = outfile.readlines()
-
-text = ''
-for line in text_lines:
-	verse = re.findall(r'\d',line)
-	verse = ''.join(verse)
-	if verse in keep_verses:
-		text = text + line
-	else:
-		line = line.replace('\hfill' + verse,'')
-		text = text + line
-
-#change the font size
-
-text = text.replace("\hfill",r"\hfill{\footnotesize")
-text = re.sub(r'(\d)&',r'\1}&',text)
-# text = text.replace("&","}&")
-# text = text.replace(" }&"," &")
-# text = text.replace(" .",".")
-# text = text.replace(" ,",",")
-# text = text.replace(" :",":")
-# text = text.replace(' "','"')
-# text = text.replace(" ;",";")
-# text = text.replace(" ?","?")
-# text = text.replace(" !","!")
-# text = text.replace('  ',' ')
-# text = text.replace("“ ","“")
-# text = text.replace(" ”","”")
-
-print(text)
-
-#write the final version
-with codecs.open(destination, 'w', 'utf-8') as outfile:
-	outfile.write(text)
-
-
+create_txt(full_tree)
