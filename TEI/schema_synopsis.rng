@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2018-04-25T19:04:58Z. .
+Schema generated from ODD source 2018-04-26T14:06:59Z. .
 TEI Edition: Version 3.3.0. Last updated on
 	31st January 2018, revision f4d8439
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.0/
@@ -1283,22 +1283,32 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
       </optional>
    </define>
    <define name="tei_model.nameLike.agent">
-      <notAllowed/>
+      <choice>
+         <ref name="tei_persName"/>
+      </choice>
    </define>
    <define name="tei_model.nameLike.agent_alternation">
-      <notAllowed/>
+      <choice>
+         <ref name="tei_persName"/>
+      </choice>
    </define>
    <define name="tei_model.nameLike.agent_sequence">
-      <empty/>
+      <ref name="tei_persName"/>
    </define>
    <define name="tei_model.nameLike.agent_sequenceOptional">
-      <empty/>
+      <optional>
+         <ref name="tei_persName"/>
+      </optional>
    </define>
    <define name="tei_model.nameLike.agent_sequenceOptionalRepeatable">
-      <empty/>
+      <zeroOrMore>
+         <ref name="tei_persName"/>
+      </zeroOrMore>
    </define>
    <define name="tei_model.nameLike.agent_sequenceRepeatable">
-      <notAllowed/>
+      <oneOrMore>
+         <ref name="tei_persName"/>
+      </oneOrMore>
    </define>
    <define name="tei_model.segLike">
       <choice>
@@ -1383,22 +1393,32 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
       </choice>
    </define>
    <define name="tei_model.dateLike">
-      <notAllowed/>
+      <choice>
+         <ref name="tei_date"/>
+      </choice>
    </define>
    <define name="tei_model.dateLike_alternation">
-      <notAllowed/>
+      <choice>
+         <ref name="tei_date"/>
+      </choice>
    </define>
    <define name="tei_model.dateLike_sequence">
-      <empty/>
+      <ref name="tei_date"/>
    </define>
    <define name="tei_model.dateLike_sequenceOptional">
-      <empty/>
+      <optional>
+         <ref name="tei_date"/>
+      </optional>
    </define>
    <define name="tei_model.dateLike_sequenceOptionalRepeatable">
-      <empty/>
+      <zeroOrMore>
+         <ref name="tei_date"/>
+      </zeroOrMore>
    </define>
    <define name="tei_model.dateLike_sequenceRepeatable">
-      <notAllowed/>
+      <oneOrMore>
+         <ref name="tei_date"/>
+      </oneOrMore>
    </define>
    <define name="tei_model.measureLike">
       <notAllowed/>
@@ -2016,6 +2036,7 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
    <define name="tei_model.publicationStmtPart.detail">
       <choice>
          <ref name="tei_model.ptrLike"/>
+         <ref name="tei_date"/>
          <ref name="tei_idno"/>
          <ref name="tei_availability"/>
       </choice>
@@ -2415,6 +2436,36 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
          <ref name="tei_text"/>
       </choice>
    </define>
+   <define name="tei_att.personal.attributes">
+      <ref name="tei_att.naming.attributes"/>
+      <ref name="tei_att.personal.attribute.full"/>
+      <ref name="tei_att.personal.attribute.sort"/>
+   </define>
+   <define name="tei_att.personal.attribute.full">
+      <optional>
+         <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+                    name="full"
+                    a:defaultValue="yes">
+            <a:documentation>indicates whether the name component is given in full, as an abbreviation or simply as an initial.</a:documentation>
+            <choice>
+               <value>yes</value>
+               <a:documentation>the name component is spelled out in full.</a:documentation>
+               <value>abb</value>
+               <a:documentation>(abbreviated) the name component is given in an abbreviated form.</a:documentation>
+               <value>init</value>
+               <a:documentation>(initial letter) the name component is indicated only by one initial.</a:documentation>
+            </choice>
+         </attribute>
+      </optional>
+   </define>
+   <define name="tei_att.personal.attribute.sort">
+      <optional>
+         <attribute name="sort">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the sort order of the name component in relation to others within the name.</a:documentation>
+            <data type="nonNegativeInteger"/>
+         </attribute>
+      </optional>
+   </define>
    <define name="tei_att.milestoneUnit.attributes">
       <ref name="tei_att.milestoneUnit.attribute.unit"/>
    </define>
@@ -2646,13 +2697,15 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
                      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                      <value>erased</value>
                      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                     <value>overdottet</value>
+                     <value>none</value>
+                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                     <value>overdotted</value>
                      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                      <value>overstrike</value>
                      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                      <value>overwritten</value>
                      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                     <value>underdottet</value>
+                     <value>underdotted</value>
                      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                      <value>underlined</value>
                      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -2686,6 +2739,25 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(electronic mail address) contains an email address identifying a location to which email messages can be delivered. [3.5.2. Addresses]</a:documentation>
          <ref name="tei_macro.phraseSeq"/>
          <ref name="tei_att.global.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_date">
+      <element name="date">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a date in any format. [3.5.4. Dates and Times 2.2.4. Publication, Distribution, Licensing, etc. 2.6. The Revision Description 3.11.2.4. Imprint, Size of a Document, and Reprint Information 15.2.3. The Setting Description 13.3.6. Dates and Times]</a:documentation>
+         <zeroOrMore>
+            <choice>
+               <text/>
+               <ref name="tei_model.gLike"/>
+               <ref name="tei_model.phrase"/>
+               <ref name="tei_model.global"/>
+            </choice>
+         </zeroOrMore>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.datable.attributes"/>
+         <ref name="tei_att.editLike.attributes"/>
+         <ref name="tei_att.dimensions.attributes"/>
+         <ref name="tei_att.typed.attributes"/>
          <empty/>
       </element>
    </define>
@@ -5978,6 +6050,7 @@ The @spanTo attribute of <name/> is required.</assert>
       <element name="metamark">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains or describes any kind of graphic or written signal within a document the function of which is to determine how it should be read rather than forming part of the actual content of the document. [11.3.4.2. Metamarks]</a:documentation>
          <ref name="tei_macro.specialPara"/>
+         <ref name="tei_att.placement.attributes"/>
          <ref name="tei_att.global.attribute.xmlid"/>
          <optional>
             <attribute name="function">
@@ -5992,6 +6065,8 @@ The @spanTo attribute of <name/> is required.</assert>
                   <value>link</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                   <value>space</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>structural</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                   <value>uncertain</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -6231,6 +6306,18 @@ The @spanTo attribute of <name/> is required.</assert>
          </attribute>
       </optional>
    </define>
+   <define name="tei_persName">
+      <element name="persName">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(personal name) contains a proper noun or proper-noun phrase referring to a person, possibly including one or more of the person's forenames, surnames, honorifics, added names, etc. [13.2.1. Personal Names]</a:documentation>
+         <ref name="tei_macro.phraseSeq"/>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.datable.attributes"/>
+         <ref name="tei_att.editLike.attributes"/>
+         <ref name="tei_att.personal.attributes"/>
+         <ref name="tei_att.typed.attributes"/>
+         <empty/>
+      </element>
+   </define>
    <define name="tei_settlement">
       <element name="settlement">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains the name of a settlement such as a city, town, or village identified as a single geo-political or administrative unit. [13.2.3. Place Names]</a:documentation>
@@ -6333,6 +6420,7 @@ The @spanTo attribute of <name/> is required.</assert>
             </choice>
          </zeroOrMore>
          <ref name="tei_att.global.attribute.xmlid"/>
+         <ref name="tei_att.global.attribute.xmllang"/>
          <ref name="tei_att.linguistic.attribute.lemma"/>
          <ref name="tei_att.linguistic.attribute.lemmaRef"/>
          <optional>

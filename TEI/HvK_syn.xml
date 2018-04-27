@@ -1,7 +1,6 @@
 ﻿<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="Konrad_von_W%C3%BCrzburg_Versnovellen.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="schema_synopsis.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
@@ -58,9 +57,6 @@
                 <idno>Ms Germ. 5</idno>
                 <msName>L</msName>
               </msIdentifier>
-              <history>
-                <p>Used to be property of August Closs; before property of Robert Priebsch</p>
-              </history>
             </msDesc>
           </witness>
           <witness xml:id="P">
@@ -5268,7 +5264,7 @@
                 <w><orig><choice>
                       <abbr>gerach<am>n̄</am></abbr>
                       <expan>gerach<ex>e</ex>n</expan>
-                    </choice></orig><reg>gerochen</reg></w></rdg><note>Check</note>
+                    </choice></orig><reg>gerochen</reg></w></rdg>
               <rdg xml:space="preserve" xml:id="K_242v-b.v_109_line_27" n="107" wit="#K">
                 <w><orig>Waz</orig><reg>waz</reg></w><c type="space"/>
                 <w><orig>habt</orig><reg>habt</reg></w><c type="space"/>
@@ -7002,7 +6998,7 @@
                 <w><orig>zerklakt</orig><reg>zerklact</reg></w><c type="space"/>
                 <w><orig>ſam</orig><reg>sam</reg></w><c type="space"/>
                 <w><orig>ain</orig><reg>ein</reg></w><c type="space"/>
-                <w><orig>ay<del rend="erased" status="unremarkable"><unclear/></del></orig><reg>ei</reg></w></rdg>
+                <w><orig>ay<del rend="erased"><unclear/></del></orig><reg>ei</reg></w></rdg>
               <rdg xml:space="preserve" xml:id="w2_18v.v_147_line_53" n="133" wit="#w2">
                 <w><orig>Aufgieng</orig><reg>ûfgienc</reg></w><c type="space"/>
                 <w><orig>als</orig><reg>als</reg></w><c type="space"/>
@@ -16497,7 +16493,8 @@
                       <abbr>ym<am>mʼ</am></abbr>
                       <expan>ymm<ex>er</ex></expan>
                     </choice></orig><reg>immer</reg></w><c type="space"/>
-                <w><orig>ſamin</orig><reg>samin</reg></w><c type="space"/><note>Check</note>
+                <w><orig>ſa</orig><reg>sam</reg></w>
+                <w><orig>mir</orig><reg>mir</reg></w><c type="space"/>
                 <w><orig>got</orig><reg>got</reg></w></rdg>
               <rdg xml:space="preserve" xml:id="w2_20v.v_372_line_n" n="340d" wit="#w2" type="missing"/>
             </app>
@@ -18969,7 +18966,7 @@
                 <w><orig>Do</orig><reg>dô</reg></w><c type="space"/>
                 <w><orig>der</orig><reg>der</reg></w><c type="space"/>
                 <w><orig>furſte</orig><reg>vürste</reg></w><c type="space"/>
-                <w><orig>winneſam</orig><reg>winnesam</reg></w></rdg><note>Check</note>
+                <w><orig>winneſam</orig><reg>winnesam</reg></w></rdg>
             </app>
           </l>
           <l xml:id="v_444" corresp="s_430">
@@ -25831,7 +25828,6 @@
                 <w><orig>ſeinen</orig><reg>sînen</reg></w><c type="space"/>
                 <w><orig>plozzen</orig><reg>blôzen</reg></w><c type="space"/>
                 <w><orig>leich</orig><reg>leich</reg></w></rdg>
-              <note>versos en otro lado</note>
             </app>
           </l>
           <l xml:id="v_602" corresp="s_584d">
@@ -25880,15 +25876,15 @@
           </l>
           <l xml:id="v_604" corresp="s_584f">
             <app>
-              <rdg xml:space="preserve" type="missing" xml:id="H_97r-a.v_584f_line_n" n="545f" wit="#H"/>
-              <rdg xml:space="preserve" type="transposed" xml:id="I_87v-b.v_584f_line_4" n="590" wit="#I"><w><orig><hi rend="decoration color:red">A</hi>ls</orig><reg>als</reg></w><c type="space"/>
+              <rdg xml:space="preserve" type="missing" xml:id="H_97r-a.v_604_line_n" n="545f" wit="#H"/>
+              <rdg xml:space="preserve" type="transposed" xml:id="I_87v-b.v_604_line_4" n="590" wit="#I"><w><orig><hi rend="decoration color:red">A</hi>ls</orig><reg>als</reg></w><c type="space"/>
                 <w><orig>ain</orig><reg>ein</reg></w><c type="space"/>
                 <w><orig>ritter</orig><reg>ritter</reg></w><c type="space"/>
                 <w><orig>allend</orig><reg>allend</reg></w><c type="space"/>
                 <w><orig>reich</orig><reg>reich</reg></w></rdg>
-              <rdg xml:space="preserve" type="missing" xml:id="K_245v-b.v_584f_line_n" n="580f" wit="#K"/>
-              <rdg xml:space="preserve" type="missing" xml:id="P_244v-b.v_584f_line_n" n="579f" wit="#P"/>
-              <rdg xml:space="preserve" type="transposed" xml:id="V_211v-b.v_584f_line_9" n="590" wit="#V"><w><orig><hi rend="decoration color:red">A</hi>ls</orig><reg>als</reg></w><c type="space"/>
+              <rdg xml:space="preserve" type="missing" xml:id="K_245v-b.v_604_line_n" n="580f" wit="#K"/>
+              <rdg xml:space="preserve" type="missing" xml:id="P_244v-b.v_604_line_n" n="579f" wit="#P"/>
+              <rdg xml:space="preserve" type="transposed" xml:id="V_211v-b.v_604_line_9" n="590" wit="#V"><w><orig><hi rend="decoration color:red">A</hi>ls</orig><reg>als</reg></w><c type="space"/>
                 <w><orig>ain</orig><reg>ein</reg></w><c type="space"/>
                 <w><orig><choice>
                       <abbr>rit<am>tʼ</am></abbr>
@@ -25896,11 +25892,11 @@
                     </choice></orig><reg>ritter</reg></w><c type="space"/>
                 <w><orig>ellent</orig><reg>ellent</reg></w><c type="space"/>
                 <w><orig>reich</orig><reg>reich</reg></w></rdg>
-              <rdg xml:space="preserve" type="transposed" xml:id="w2_22r.v_584f_line_41" n="547" wit="#w2"><w><orig>Der</orig><reg>der</reg></w><c type="space"/>
+              <rdg xml:space="preserve" type="transposed" xml:id="w2_22r.v_604_line_41" n="547" wit="#w2">
+                <w><orig>Der</orig><reg>der</reg></w><c type="space"/>
                 <w><orig>werde</orig><reg>werde</reg></w><c type="space"/>
                 <w><orig>Ritter</orig><reg>ritter</reg></w><c type="space"/>
                 <w><orig>ellentleich</orig><reg>ellentleich</reg></w></rdg>
-              <note>verso en otro lado</note>
             </app>
           </l>
         </lg>
@@ -29221,7 +29217,6 @@
                 <w><orig>der</orig><reg>der</reg></w><c type="space"/>
                 <w><orig>Ritter</orig><reg>ritter</reg></w><c type="space"/>
                 <w><orig>heinrich</orig><reg>Heinrich</reg></w></rdg>
-              <note>El nombre sigue en la próxima linea</note>
               <rdg xml:space="preserve" xml:id="V_212v-a.v_662_line_16" n="668" wit="#V"><w><orig><hi rend="decoration color:red">D</hi>o</orig><reg>dô</reg></w><c type="space"/>
                 <w><orig>wart</orig><reg>wart</reg></w><c type="space"/>
                 <w><orig>der</orig><reg>der</reg></w><c type="space"/>
@@ -29547,7 +29542,7 @@
                 <w><orig>getvrſtikeit</orig><reg>getvrstikeit</reg></w></rdg>
               <rdg xml:space="preserve" xml:id="P_245r-b.v_670_line_24" n="663" wit="#P"><w><orig>wan</orig><reg>wan</reg></w><c type="space"/>
                 <w><orig>er</orig><reg>er</reg></w><c type="space"/>
-                <del rend="erased"><w><orig><unclear>e</unclear></orig><reg>e</reg></w><c type="space"/></del><note>Check</note>
+                <del rend="none"><w><orig>e</orig><reg>e</reg></w><c type="space"/></del>
                 <w><orig>avch</orig><reg>ouch</reg></w><c type="space"/>
                 <w><orig>die</orig><reg>die</reg></w><c type="space"/>
                 <w><orig>getvrſtikeit</orig><reg>getürsteheit</reg></w></rdg>
@@ -31268,8 +31263,8 @@
           </l>
           <l xml:id="v_731" corresp="s_710">
             <app>
-              <note>check</note>
-              <rdg xml:space="preserve" xml:id="H_97v-b.v_710_line_30" n="669" wit="#H"><w><orig><hi rend="decoration color:red">J</hi>ch</orig><reg>ich</reg></w><c type="space"/>
+              <rdg xml:space="preserve" xml:id="H_97v-b.v_710_line_30" n="669" wit="#H">
+                <w><orig><hi rend="decoration color:red">J</hi>ch</orig><reg>ich</reg></w><c type="space"/>
                 <w><orig>ſetze</orig><reg>setze</reg></w><c type="space"/>
                 <w><orig>daz</orig><reg>daz</reg></w><c type="space"/>
                 <w><orig>hute</orig><reg>hute</reg></w><c type="space"/>
@@ -31378,13 +31373,13 @@
                       <expan>vng<ex>er</ex>n</expan>
                     </choice></orig><reg>ungern</reg></w><c type="space"/>
                 <w><orig>rait</orig><reg>rait</reg></w></rdg>
-              <rdg xml:space="preserve" type="transposed" xml:id="w2_23r.v_712_line_39" n="675" wit="#w2"><w><orig>Daz</orig><reg>daz</reg></w><c type="space"/>
+              <rdg xml:space="preserve" type="transposed" xml:id="w2_23r.v_712_line_39" n="675" wit="#w2">
+                <w><orig>Daz</orig><reg>daz</reg></w><c type="space"/>
                 <w><orig>ich</orig><reg>ich</reg></w><c type="space"/>
                 <w><orig>die</orig><reg>die</reg></w><c type="space"/>
                 <w><orig>vart</orig><reg>vart</reg></w><c type="space"/>
                 <w><orig>vngerne</orig><reg>ungerne</reg></w><c type="space"/>
                 <w><orig>rait</orig><reg>rait</reg></w></rdg>
-              <note>verso en otro lugar</note>
             </app>
           </l>
           <l xml:id="v_734" corresp="s_712a">
@@ -32030,7 +32025,7 @@
                     </choice></orig><reg>immer</reg></w><c type="space"/>
                 <w><orig>laſſen</orig><reg>lassen</reg></w><c type="space"/>
                 <w><orig>ſol</orig><reg>sol</reg></w></rdg>
-              <note>Neue Tinte ab dem nächsten Vers</note>
+              <note type="editorial">Se nota un cambio en la tinta a partir del próximo verso.</note>
             </app>
           </l>
         </lg>
@@ -32040,7 +32035,7 @@
               <rdg xml:space="preserve" xml:id="H_98r-a.v_723_line_15" n="686" wit="#H"><w><orig><hi rend="decoration color:red">G</hi>egen</orig><reg>gegen</reg></w><c type="space"/>
                 <w><orig>uch</orig><reg>uch</reg></w><c type="space"/>
                 <w><orig>den</orig><reg>den</reg></w><c type="space"/>
-                <w><orig>zor<add place="above" status="unremarkable">n</add></orig><reg>zorn</reg></w><c type="space"/>
+                <w><orig>zor<add place="above">n</add></orig><reg>zorn</reg></w><c type="space"/>
                 <w><orig>min</orig><reg>mîn</reg></w></rdg>
               <rdg xml:space="preserve" xml:id="I_88v-a.v_723_line_3" n="729" wit="#I"><w><orig><choice>
                       <abbr>Wi<am>dʼ</am></abbr>
@@ -33632,7 +33627,6 @@
                 <w><orig>reimen</orig><reg>rîmen</reg></w><c type="space"/>
                 <w><orig>wol</orig><reg>wol</reg></w><c type="space"/>
                 <w><orig>gerichtet</orig><reg>gerichtet</reg></w></rdg>
-              <note>versos en otro lugar</note>
             </app>
           </l>
           <l xml:id="v_792" corresp="s_758">
@@ -34155,7 +34149,7 @@
                   <w><orig>endet</orig><reg>endet</reg></w><c type="space"/>
                   <w><orig>ſich</orig><reg>sich</reg></w><c type="space"/>
                   <w><orig>der</orig><reg>der</reg></w><c type="space"/>
-                  <w><orig>bart</orig><reg>bart</reg></w><pc>·</pc></hi><witEnd/></rdg>
+                  <w><orig>bart</orig><reg>bart</reg></w><pc>·</pc></hi><witEnd wit="#H"/></rdg>
               <rdg xml:space="preserve" xml:id="I_88v-b.v_770_line_2" n="778" wit="#I"><w><orig><hi rend="decoration color:red">H</hi>ie</orig><reg>hie</reg></w><c type="space"/>
                 <w><orig>hat</orig><reg>hat</reg></w><c type="space"/>
                 <w><orig>daz</orig><reg>daz</reg></w><c type="space"/>

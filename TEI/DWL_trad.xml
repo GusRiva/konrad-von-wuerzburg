@@ -1,5 +1,7 @@
-﻿<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+﻿<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="schema_translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
         <titleStmt>
@@ -18,6 +20,9 @@
            <p>Born Digital</p>
          </sourceDesc>
       </fileDesc>
+     <profileDesc>
+       <creation>Guide manuscript: M.</creation>
+     </profileDesc>
    </teiHeader>
    <text>
       <body>
@@ -46,10 +51,10 @@
             <l n="21" xml:id="v_21" corresp="s_21">para conseguir estimación,</l>
             <l n="22" xml:id="v_22" corresp="s_22">eso sabía el astuto señor</l>
             <l n="23" xml:id="v_23" corresp="s_23">considerar  y reflexionar.</l>
-            <l n="24" xml:id="v_24" corresp="s_24">Se veía al excelente(?)</l>
+            <l n="24" xml:id="v_24" corresp="s_24">Se veía al excelente</l>
             <l n="25" xml:id="v_25" corresp="s_25">portar ropas extraordinarias;</l>
             <l n="26" xml:id="v_26" corresp="s_26">cazar con halcones y con perros</l>
-            <l n="27" xml:id="v_27" corresp="s_27">sabía bien y lo hacía asiduamente<pc>.</pc></l>
+            <l n="27" xml:id="v_27" corresp="s_27">sabía bien y lo hacía asiduamente.</l>
             <l n="28" xml:id="v_28" corresp="s_28">El ajedrez y la música de cuerdas</l>
             <l n="29" xml:id="v_29" corresp="s_29">eran su pasatiempo.</l>
             <l n="30" xml:id="v_30" corresp="s_30">Si en cien millas</l>
@@ -95,8 +100,8 @@
             <l n="70" xml:id="v_70" corresp="s_70">Una joven tan hermosa</l>
             <l n="71" xml:id="v_71" corresp="s_71">nunca abandonó el pecho materno.</l>
             <l n="72" xml:id="v_72" corresp="s_72">Lo juro por mi bautismo</l>
-            <l n="72" xml:id="v_73" corresp="s_72a"/>
-            <l n="72" xml:id="v_74" corresp="s_72b"/>
+            <l n="72a" xml:id="v_73" corresp="s_72a"/>
+            <l n="72b" xml:id="v_74" corresp="s_72b"/>
             <l n="73" xml:id="v_75" corresp="s_73">que era mucho más bella</l>
             <l n="74" xml:id="v_76" corresp="s_74">que Venus o la señora Palas</l>
             <l n="75" xml:id="v_77" corresp="s_75">y que todas las diosas</l>
@@ -143,10 +148,10 @@
             <l n="116" xml:id="v_118" corresp="s_116">Entonces habló la bella:</l>
             <l n="117" xml:id="v_119" corresp="s_117">"Querido amigo, que dios te premie,</l>
             <l n="118" xml:id="v_120" corresp="s_118">no te asustes de mí.</l>
-            <l n="118" xml:id="v_121" corresp="s_119"/>
-            <l n="118" xml:id="v_122" corresp="s_120"/>
-            <l n="118" xml:id="v_123" corresp="s_121"/>
-            <l n="118" xml:id="v_124" corresp="s_122"/>
+            <l n="118a" xml:id="v_121" corresp="s_119"/>
+            <l n="118b" xml:id="v_122" corresp="s_120"/>
+            <l n="118c" xml:id="v_123" corresp="s_121"/>
+            <l n="118d" xml:id="v_124" corresp="s_122"/>
             <l n="119" xml:id="v_125" corresp="s_123">Yo soy aquella mujer</l>
             <l n="120" xml:id="v_126" corresp="s_124">por la que tu cuerpo y alma</l>
             <l n="121" xml:id="v_127" corresp="s_125">muchas veces has arriesgado.</l>
@@ -181,8 +186,8 @@
             <l n="150" xml:id="v_156" corresp="s_154">Quiero dejarte ver</l>
             <l n="151" xml:id="v_157" corresp="s_155">el galardón que te corresponderá</l>
             <l n="152" xml:id="v_158" corresp="s_156">por haberme servido tan correctamente."</l>
-            <l n="152" xml:id="v_159" corresp="s_156a"/>
-            <l n="152" xml:id="v_160" corresp="s_156b"/>
+            <l n="152a" xml:id="v_159" corresp="s_156a"/>
+            <l n="152b" xml:id="v_160" corresp="s_156b"/>
             <l n="153" xml:id="v_161" corresp="s_157">El nobre y virtuoso</l>
             <l n="154" xml:id="v_162" corresp="s_158">se sorprendió mucho</l>
             <l n="155" xml:id="v_163" corresp="s_159">de las palabras de esta dama,</l>
@@ -259,14 +264,14 @@
             <l n="226" xml:id="v_234" corresp="s_230">un olor horrible</l>
             <l n="227" xml:id="v_235" corresp="s_231">que nadie podría soportar.</l>
             <l n="228" xml:id="v_236" corresp="s_232">Sua rico vestido de seda</l>
-            <l n="228" xml:id="v_237" corresp="s_233"/>
-            <l n="228" xml:id="v_238" corresp="s_234"/>
-            <l n="228" xml:id="v_239" corresp="s_235"/>
-            <l n="228" xml:id="v_240" corresp="s_236"/>
+            <l n="228a" xml:id="v_237" corresp="s_233"/>
+            <l n="228b" xml:id="v_238" corresp="s_234"/>
+            <l n="228c" xml:id="v_239" corresp="s_235"/>
+            <l n="228d" xml:id="v_240" corresp="s_236"/>
             <l n="229" xml:id="v_241" corresp="s_237">era de una apariencia penosa,</l>
             <l n="230" xml:id="v_242" corresp="s_238">pálida como la ceniza.</l>
-            <l n="230" xml:id="v_243" corresp="s_238a"/>
-            <l n="230" xml:id="v_244" corresp="s_238b"/>
+            <l n="230a" xml:id="v_243" corresp="s_238a"/>
+            <l n="230b" xml:id="v_244" corresp="s_238b"/>
             <l n="231" xml:id="v_245" corresp="s_239">Así se despidió.</l>
             <l n="232" xml:id="v_246" corresp="s_240">¡Que sea alejada de mí</l>
             <l n="233" xml:id="v_247" corresp="s_241">y de toda la cristiandad!</l>
@@ -303,24 +308,24 @@
             <l n="264" xml:id="v_278" corresp="s_272">os doy este consejo:</l>
             <l n="265" xml:id="v_279" corresp="s_273">que dejéis alejarse al mundo</l>
             <l n="266" xml:id="v_280" corresp="s_274">si deseáis salvar el alma.</l>
-            <l n="266" xml:id="v_281" corresp="s_274a"/>
-            <l n="266" xml:id="v_282" corresp="s_274b"/>
-            <l n="266" xml:id="v_283" corresp="s_274c"/>
-            <l n="266" xml:id="v_284" corresp="s_274d"/>
-            <l n="266" xml:id="v_285" corresp="s_274e"/>
-            <l n="266" xml:id="v_286" corresp="s_274f"/>
-            <l n="266" xml:id="v_287" corresp="s_274g"/>
-            <l n="266" xml:id="v_288" corresp="s_274h"/>
-            <l n="266" xml:id="v_289" corresp="s_274i"/>
-            <l n="266" xml:id="v_290" corresp="s_274j"/>
-            <l n="266" xml:id="v_291" corresp="s_274k"/>
-            <l n="266" xml:id="v_292" corresp="s_274l"/>
-            <l n="266" xml:id="v_293" corresp="s_274m"/>
-            <l n="266" xml:id="v_294" corresp="s_274n"/>
-            <l n="266" xml:id="v_295" corresp="s_274o"/>
-            <l n="266" xml:id="v_296" corresp="s_274p"/>
-            <l n="266" xml:id="v_297" corresp="s_274q"/>
-            <l n="266" xml:id="v_298" corresp="s_274r"/>              
+            <l n="266a" xml:id="v_281" corresp="s_274a"/>
+            <l n="266b" xml:id="v_282" corresp="s_274b"/>
+            <l n="266c" xml:id="v_283" corresp="s_274c"/>
+            <l n="266d" xml:id="v_284" corresp="s_274d"/>
+            <l n="266e" xml:id="v_285" corresp="s_274e"/>
+            <l n="266f" xml:id="v_286" corresp="s_274f"/>
+            <l n="266g" xml:id="v_287" corresp="s_274g"/>
+            <l n="266h" xml:id="v_288" corresp="s_274h"/>
+            <l n="266i" xml:id="v_289" corresp="s_274i"/>
+            <l n="266j" xml:id="v_290" corresp="s_274j"/>
+            <l n="266k" xml:id="v_291" corresp="s_274k"/>
+            <l n="266l" xml:id="v_292" corresp="s_274l"/>
+            <l n="266m" xml:id="v_293" corresp="s_274m"/>
+            <l n="266n" xml:id="v_294" corresp="s_274n"/>
+            <l n="266o" xml:id="v_295" corresp="s_274o"/>
+            <l n="266p" xml:id="v_296" corresp="s_274p"/>
+            <l n="266q" xml:id="v_297" corresp="s_274q"/>
+            <l n="266r" xml:id="v_298" corresp="s_274r"/>              
           </div>
       </body>
    </text>

@@ -1,5 +1,6 @@
-﻿<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+﻿<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="schema_translations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
  <teiHeader>
    <fileDesc>
@@ -20,15 +21,13 @@
      </sourceDesc>
    </fileDesc>
    <profileDesc>
-     <creation>Guide manuscript: <ref target="#P">P</ref>. Secondary manuscript: <ref target="#A">A</ref>.</creation>
+     <creation>Guide manuscript: P. Secondary manuscript: A.</creation>
    </profileDesc>
  </teiHeader>
  <text>
    <body>
      <div>
-       <head n="0" xml:id="v_0" corresp="s_0">
-         <w>El relato del corazón</w>
-       </head>
+       <head n="0" xml:id="v_0" corresp="s_0">El relato del corazón</head>
        <l n="1" xml:id="v_1" xml:space="preserve" corresp="s_1">Compruebo en mis pensamientos</l>
        <l n="2" xml:id="v_2" corresp="s_2" xml:space="preserve">que el prístino amar</l>
        <l n="3" xml:id="v_3" corresp="s_3" xml:space="preserve">se ha vuelto extraño al mundo.</l>
@@ -409,7 +408,7 @@
        <l n="274" xml:id="v_378" corresp="s_286">que iría a morir.</l>
        <l n="275" xml:id="v_379" corresp="s_287">Entonces le dijo a su sirviente</l>
        <l n="275a" xml:id="v_380" corresp="s_287a"/>
-       <l n="276" xml:id="v_381" corresp="s_288">"Escuchame, mi leal compañero,</l>
+       <l n="276" xml:id="v_381" corresp="s_288">"Escúchame, mi leal compañero,</l>
        <l n="276a" xml:id="v_382" corresp="s_288a"/>
        <l n="277" xml:id="v_383" corresp="s_289">pues ya percibo por desgracia</l>
        <l n="278" xml:id="v_384" corresp="s_290">que pronto moriré</l>
@@ -442,7 +441,7 @@
        <l n="303" xml:id="v_411" corresp="s_315">lo que he padecido por ella</l>
        <l n="304" xml:id="v_412" corresp="s_316">y cómo mi corazón está partido</l>
        <l n="305" xml:id="v_413" corresp="s_317">por su noble amor.</l>
-       <l n="306" xml:id="v_414" corresp="s_318">Como ellá tiene la inteligencia</l>
+       <l n="306" xml:id="v_414" corresp="s_318">Como ella tiene la inteligencia</l>
        <l n="307" xml:id="v_415" corresp="s_319">y la justa lealtad,</l>
        <l n="308" xml:id="v_416" corresp="s_320">mi pena renovada</l>
        <l n="309" xml:id="v_417" corresp="s_321">yacerá siempre en su corazón;</l>
@@ -457,7 +456,7 @@
        <l n="318" xml:id="v_426" corresp="s_330">de mí, el desdichado;</l>
        <l n="319" xml:id="v_427" corresp="s_331">y permitirá a la tan amada</l>
        <l n="320" xml:id="v_428" corresp="s_332">tener alegría y una maravillosa vida;</l>
-       <l n="321" xml:id="v_429" corresp="s_333">a aquella por que la aquí yaceré muerto."</l>
+       <l n="321" xml:id="v_429" corresp="s_333">a aquella por la que aquí yaceré muerto."</l>
        <l n="322" xml:id="v_430" corresp="s_334">Con una pena horrible en el corazón</l>
        <l n="322a" xml:id="v_431" corresp="s_334a"/>
        <l n="322b" xml:id="v_432" corresp="s_334b"/>
@@ -486,8 +485,8 @@
        <l n="335" xml:id="v_455" corresp="s_351">se hallaba en ese momento,</l>
        <l n="336" xml:id="v_456" corresp="s_352">hacia él cabalgó a través del amplio campo,</l>
        <l n="337" xml:id="v_457" corresp="s_353">de casualidad, su esposo,</l>
-       <l n="338" xml:id="v_458" corresp="s_354">tal como nos dice el relato,</l>
-       <l n="339" xml:id="v_459" corresp="s_355">mientras estaba yendo a cazar.</l>
+       <l n="338" xml:id="v_458" corresp="s_354">quien, tal como nos dice el relato,</l>
+       <l n="339" xml:id="v_459" corresp="s_355">estaba yendo a cazar.</l>
        <l n="340" xml:id="v_460" corresp="s_356">Esto le causó al sirviente</l>
        <l n="341" xml:id="v_461" corresp="s_357">una gran turbación.</l>
        <l n="342" xml:id="v_462" corresp="s_358">Cuando el caballero lo vio</l>
