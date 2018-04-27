@@ -76,7 +76,7 @@ extensive-edition-toggle, #group-scroll{
 
 /*Cells in first row of the text tables*/
 td.line_number{
-    font-size: 14px;
+    /*font-size: 14px;*/
     display: inline-block;
 }
 
@@ -84,7 +84,7 @@ td.verse{
 }
 /*Cells in third row of the text tables*/
 td.folioetc{
-    font-size: 10px;
+    /*font-size: 10px;*/
     display: inline-block;
     padding: 0px;
 }
@@ -230,8 +230,8 @@ h1[class='initial']{
 }
 
 td{
-    padding: 5px;
-    height: 45px;
+    /*padding: 5px;
+    height: 45px;*/
 }
 
 thead tr td{
@@ -246,7 +246,7 @@ thead tr td{
 
 /*Classes for rending the edited texts*/
 
-.decoration{
+.tei_hi_decoration{
     text-decoration: line-through;
 }
 

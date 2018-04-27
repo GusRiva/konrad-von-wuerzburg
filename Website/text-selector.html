@@ -9,7 +9,18 @@
                     $value = $textKey;
                     $value .= '_ct_';
                     $value .= $elem;
-                    echo "<option value=$value> - $elem</option>";
+                    echo "<option value=$value> $elem</option>";
+                }
+                ?>
+            </optgroup>
+            <!-- Traducción -->
+            <optgroup>
+            	<?php
+                foreach($textDict[$textKey]['crit_text'] as $elem){
+                    $value = $textKey;
+                    $value .= '_trad_';
+                    $value .= $elem;
+                    echo "<option value=$value> Traducción Cast. - $elem</option>";
                 }
                 ?>
             </optgroup>
@@ -48,7 +59,7 @@
                         <form>
                             <input type="checkbox" name="pc" checked="checked"/>
                             <span class="lang" lang="en">Punctuation</span>
-                            <span class="lang" lang="de">Punktion</span>
+                            <span class="lang" lang="de">Interpunktion</span>
                             <span class="lang" lang="es">Puntuación</span>
                         </form>
                     </li>
@@ -56,7 +67,7 @@
                         <form>
                             <input type="checkbox" name="expan"/>
                             <span class="lang" lang="en">Resolve Abbreviations</span>
-                            <span class="lang" lang="de">Abbreviaturen auflösen</span>
+                            <span class="lang" lang="de">Abkürzungen auflösen</span>
                             <span class="lang" lang="es">Resolver abreviaturas</span>
                         </form>
                     </li>
