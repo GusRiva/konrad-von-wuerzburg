@@ -86,7 +86,11 @@
   document.getElementById("next_verse").onclick = function() {
     line_number = Number(line_number) + 1;
     document.getElementById("line_number").textContent = line_number;
-    vers_to_collate = mydata[line_number];
+    if (regular == true){
+      vers_to_collate = mydata_reg[0][line_number];
+    }else{
+      vers_to_collate = mydata_orig[0][line_number];
+    }
     doTraviz("containerDiv", vers_to_collate);
   };
 

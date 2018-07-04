@@ -11523,7 +11523,7 @@
                 <w><orig><choice>
                       <abbr><am>vʼ</am>numen</abbr>
                       <expan>v<ex>er</ex>numen</expan>
-                    </choice><metamark>X</metamark></orig><reg>vernomen</reg></w></rdg>
+                    </choice><metamark function="correction">X</metamark></orig><reg>vernomen</reg></w></rdg>
               <rdg xml:id="P_347r-a.v_206_line_26" n="153" xml:space="preserve" wit="#P"><w><orig>Swen</orig><reg>swen</reg></w><c type="space"/>
                 <w><orig>er</orig><reg>er</reg></w><c type="space"/>
                 <w><orig>hat</orig><reg>hat</reg></w><c type="space"/>
@@ -11574,12 +11574,15 @@
                 <w><orig>ouer</orig><reg>über</reg></w><c type="space"/>
                 <w><orig>komen</orig><reg>komen</reg></w><pc>.</pc></rdg>
               <rdg n="152b" xml:space="preserve" wit="#L" type="missing"/>
-              <rdg xml:id="N_151r.v_207_line_5" n="154" xml:space="preserve" wit="#N"><w><orig><metamark>X</metamark>Das</orig><reg>das</reg></w><c type="space"/>
+              <rdg xml:id="N_151r.v_207_line_5" n="154" xml:space="preserve" wit="#N">
+                <metamark function="correction">X</metamark>
+                <w><orig>Das</orig><reg>das</reg></w><c type="space"/>
                 <w><orig>du</orig><reg>du</reg></w><c type="space"/>
                 <w><orig>piſt</orig><reg>bist</reg></w><c type="space"/>
                 <w><orig>vber</orig><reg>über</reg></w><c type="space"/>
                 <w><orig>mer</orig><reg>mer</reg></w><c type="space"/>
-                <w><orig>kumen</orig><reg>komen</reg></w></rdg>
+                <w><orig>kumen</orig><reg>komen</reg></w>
+              <metamark function="correction">X</metamark><note type="editorial" resp="#GR">Der Schriber hat den Vers später am Kopfzeile nachgetragen</note></rdg>
               <rdg xml:id="P_347r-a.v_207_line_27" n="154" xml:space="preserve" wit="#P"><w><orig>Das</orig><reg>daz</reg></w><c type="space"/>
                 <w><orig>dv</orig><reg>du</reg></w><c type="space"/>
                 <w><orig>biſt</orig><reg>bist</reg></w><c type="space"/>

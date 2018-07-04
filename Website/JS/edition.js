@@ -442,6 +442,8 @@
             }else if (input_name == "hi"){
                 actual_column.find("span.inner-span-decoration").parent("span").addClass("tei_hi_decoration");
                 actual_column.find("span.ph_red").addClass("red");
+            }else if (input_name == "notes"){
+                $(actual_column).find("td.folioetc").removeClass("hidden");
             };
         } else {
             columns_master[column][input_name] = false;
@@ -452,6 +454,9 @@
             }else if (input_name == "hi"){
                 actual_column.find("span.tei_hi_decoration").removeClass("tei_hi_decoration");
                 actual_column.find("span.red").removeClass("red").addClass("ph_red");
+            }
+            else if (input_name="notes"){
+                $(actual_column).find("td.folioetc").addClass("hidden");
             };
         }
     });

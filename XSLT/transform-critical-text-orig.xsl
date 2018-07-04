@@ -75,7 +75,7 @@
     <xsl:template match="tei:c[@type='space']">&#160;</xsl:template>
     
     <xsl:template match="tei:pc">
-        <span class="tei:pc"><xsl:apply-templates select="@*|node()" /></span>
+        <span class="tei_pc"><xsl:apply-templates select="@*|node()" /></span>
     </xsl:template>
     
     <xsl:template match="tei:app"><xsl:apply-templates select="@*|node()"/></xsl:template>

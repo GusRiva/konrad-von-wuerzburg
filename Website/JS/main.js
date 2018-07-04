@@ -56,4 +56,9 @@ $(document).ready(function () {
 		 destination += "&lang=" + lang;
 		 window.location = destination;
 	});
+	// Assing href attribute to the links to the project-info.php, so that it keeps the correct language
+	$("#project_info_link").on("click", function(){
+		 destination = "project-info.php?lang=" + lang
+		 window.location = destination;
+	});
 });
